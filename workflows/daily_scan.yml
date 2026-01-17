@@ -1,0 +1,39 @@
+name: Daily Stock Screen
+
+on:
+  schedule:
+    - cron: '30 23 * * *'  # UTC 기준 23:30 (한국시간 아침 08:30)
+  workflow_dispatch:      # 수동 실행 버튼 (테스트용)
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests pandas jinja2
+
+      - name: Run Screener Script
+        env: # 깃허브 Settings -> Secrets 에 저장한 키를 불러옴
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+        run: python screener.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add index.html
+          git commit -m "Update Daily Report" || echo "No changes to commit"
+          git push
