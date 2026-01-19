@@ -16,7 +16,7 @@ async function initDashboard() {
             fetch(`${BASE}data/watchlist.json`)
         ]);
 
-        if (!metaRes.ok) throw new Error("Data Load Failed");
+        if (!metaRes.ok) throw new Error("Data Load Error");
 
         state.meta = await metaRes.json();
         const sData = await sectorsRes.json();
@@ -35,116 +35,170 @@ async function initDashboard() {
             return b.volume - a.volume;
         });
 
-        renderAll();
+        renderDashboard();
 
     } catch (err) {
         console.error(err);
-        document.getElementById('watchlist-body').innerHTML = `<tr><td colspan="6" class="text-center text-danger py-4">데이터 로딩 실패 (GitHub Actions 확인)</td></tr>`;
+        document.getElementById('mobile-card-list').innerHTML = `<div class="alert alert-danger">데이터 로딩 실패</div>`;
     }
 }
 
-function renderAll() {
-    // 1. 헤더 (시장 상태)
+function renderDashboard() {
+    // 1. 시장 상태 뱃지
     const mkt = state.meta.market;
-    const badge = document.getElementById('market-regime-badge');
+    const badge = document.getElementById('market-badge');
     if (mkt && mkt.state === 'RISK_ON') {
-        badge.className = 'badge bg-success me-2';
-        badge.innerHTML = `<i class="fas fa-check-circle me-1"></i>RISK ON`;
+        badge.className = 'badge bg-success';
+        badge.innerText = 'RISK ON';
     } else {
-        badge.className = 'badge bg-danger me-2';
-        badge.innerHTML = `<i class="fas fa-ban me-1"></i>RISK OFF`;
+        badge.className = 'badge bg-danger';
+        badge.innerText = 'RISK OFF';
     }
-    document.getElementById('last-updated').innerText = new Date(state.meta.asOf).toLocaleString('ko-KR');
+    document.getElementById('update-time').innerText = new Date(state.meta.asOf).toLocaleString('ko-KR');
 
-    // 2. 섹터 카드 (Top 3)
-    const secRow = document.getElementById('sector-row');
-    secRow.innerHTML = '';
+    // 2. 섹터 (Top 3)
+    const secArea = document.getElementById('sector-area');
+    secArea.innerHTML = '';
     state.sectors.slice(0, 3).forEach(sec => {
-        const html = `
-            <div class="col-md-4">
-                <div class="card h-100 border-start border-4 border-primary">
+        secArea.innerHTML += `
+            <div class="col-md-4 col-12">
+                <div class="card border-0 shadow-sm h-100" style="background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);">
                     <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <h6 class="card-title mb-0 fw-bold text-uppercase text-muted">${sec.sector}</h6>
-                            <span class="badge bg-light text-primary rounded-pill">Score: ${sec.score}</span>
+                        <small class="text-muted fw-bold text-uppercase">${sec.sector}</small>
+                        <h5 class="fw-bold mt-1 mb-0">${sec.topTickers[0]}</h5>
+                        <div class="mt-2 d-flex justify-content-between">
+                            <span class="badge bg-light text-dark border">Score: ${sec.score}</span>
+                            <small class="text-muted">${(sec.turnover/1e8).toFixed(0)}억</small>
                         </div>
-                        <h4 class="mb-0 fw-bold">${sec.topTickers[0]}</h4>
-                        <small class="text-muted">Volume: ${(sec.turnover/100000000).toFixed(0)}억</small>
                     </div>
                 </div>
             </div>
         `;
-        secRow.innerHTML += html;
     });
 
-    // 3. 워치리스트 테이블
-    const tbody = document.getElementById('watchlist-body');
-    tbody.innerHTML = '';
+    // 3. 워치리스트 렌더링 (PC용 테이블 + 모바일용 카드)
+    const pcTable = document.getElementById('desktop-table-body');
+    const mobileList = document.getElementById('mobile-card-list');
     
+    pcTable.innerHTML = '';
+    mobileList.innerHTML = '';
+
     state.watchlist.forEach((item, idx) => {
         const isUp = item.change > 0;
-        const colorClass = isUp ? 'text-up' : 'text-down';
+        const colorClass = isUp ? 'text-up' : 'text-down'; // 빨강/파랑
         const sign = isUp ? '+' : '';
-        const vol = Math.round(item.volume / 100000000).toLocaleString();
-
-        let actionClass = 'bg-secondary';
-        if (item.action === 'READY') actionClass = 'badge-action-READY';
-        if (item.action === 'WAIT') actionClass = 'badge-action-WAIT';
-
-        const row = `
-            <tr style="cursor:pointer;" onclick="showDetail(${idx})">
-                <td>
+        const vol = Math.round(item.volume / 1e8).toLocaleString();
+        
+        // --- A. 데스크톱 테이블 행 (TR) ---
+        const tr = `
+            <tr style="cursor:pointer" onclick="showDetail(${idx})">
+                <td class="ps-4">
                     <div class="fw-bold">${item.name}</div>
-                    <div class="small text-muted">${item.ticker}</div>
+                    <small class="text-muted">${item.ticker}</small>
                 </td>
                 <td class="fw-bold">${item.close.toLocaleString()}</td>
                 <td class="${colorClass}">${sign}${item.change}%</td>
-                <td><span class="badge badge-grade-${item.grade}">${item.grade}</span></td>
-                <td><span class="badge ${actionClass}">${item.action}</span></td>
-                <td><small class="text-truncate d-block" style="max-width: 150px;">${item.why[0] || '-'}</small></td>
+                <td><span class="badge badge-${item.grade}">${item.grade}</span></td>
+                <td><span class="badge action-${item.action}">${item.action}</span></td>
+                <td><small class="text-muted">${item.why[0] || '-'}</small></td>
+                <td>
+                    <small>Entry: <b>${item.entry.price.toLocaleString()}</b></small>
+                </td>
             </tr>
         `;
-        tbody.innerHTML += row;
+        pcTable.innerHTML += tr;
+
+        // --- B. 모바일 카드 (DIV) ---
+        // 모바일에서는 중요한 정보만 크게 보여줌
+        const card = `
+            <div class="mobile-card" onclick="showDetail(${idx})" style="border-left: 5px solid ${item.action === 'READY' ? '#198754' : '#ccc'}">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                    <div>
+                        <h5 class="fw-bold mb-0">${item.name}</h5>
+                        <small class="text-muted">${item.ticker} | ${item.sector}</small>
+                    </div>
+                    <div class="text-end">
+                        <span class="badge badge-${item.grade} mb-1">${item.grade}</span><br>
+                        <span class="badge action-${item.action}">${item.action}</span>
+                    </div>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-end">
+                    <div>
+                        <div class="fs-4 fw-bold text-dark">${item.close.toLocaleString()}</div>
+                        <div class="small ${colorClass}">${sign}${item.change}%</div>
+                    </div>
+                    <div class="text-end">
+                        <small class="text-muted d-block">거래대금 ${vol}억</small>
+                        <small class="text-primary fw-bold" style="font-size:0.8rem;">터치하여 전략 보기 <i class="fas fa-chevron-right"></i></small>
+                    </div>
+                </div>
+            </div>
+        `;
+        mobileList.innerHTML += card;
     });
 }
 
-// 상세 정보 보기 (우측 패널 or 모달)
+// 상세 모달 열기
 window.showDetail = function(idx) {
     const item = state.watchlist[idx];
+    const isUp = item.change > 0;
+    const colorClass = isUp ? 'text-up' : 'text-down';
+
+    document.getElementById('modal-title').innerText = item.name;
+    
     const html = `
-        <h4 class="fw-bold mb-1">${item.name} <span class="fs-6 text-muted">${item.ticker}</span></h4>
-        <span class="badge bg-light text-dark mb-3 border">${item.sector}</span>
-        
-        <div class="alert ${item.action === 'READY' ? 'alert-success' : 'alert-secondary'} mb-3">
-            <div class="d-flex justify-content-between">
-                <strong>Signal:</strong> <span>${item.action}</span>
-            </div>
-            <div class="d-flex justify-content-between">
-                <strong>Grade:</strong> <span>${item.grade}-Tier</span>
+        <div class="mb-3">
+            <span class="badge badge-${item.grade} me-1">${item.grade}-Tier</span>
+            <span class="badge bg-light text-dark border">${item.sector}</span>
+        </div>
+
+        <div class="card bg-light border-0 mb-3">
+            <div class="card-body py-2">
+                <div class="d-flex justify-content-between mb-1">
+                    <span class="text-muted">현재가</span>
+                    <strong class="${colorClass}">${item.close.toLocaleString()} (${item.change}%)</strong>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <span class="text-muted">상태</span>
+                    <strong class="${item.action === 'READY' ? 'text-success' : 'text-warning'}">${item.action}</strong>
+                </div>
             </div>
         </div>
 
-        <h6 class="fw-bold border-bottom pb-2"><i class="fas fa-clipboard-check me-2"></i>Logic (Why)</h6>
-        <ul class="small text-muted mb-4 ps-3">
+        <h6 class="fw-bold small text-muted border-bottom pb-1">ANALYSIS (WHY)</h6>
+        <ul class="small text-muted ps-3 mb-4">
             ${item.why.map(w => `<li>${w}</li>`).join('')}
         </ul>
 
-        <h6 class="fw-bold border-bottom pb-2"><i class="fas fa-crosshairs me-2"></i>Trading Plan</h6>
-        <div class="row g-2 text-center small mb-3">
-            <div class="col-4"><div class="p-2 border rounded bg-light"><strong>Entry</strong><br>${item.entry.price.toLocaleString()}</div></div>
-            <div class="col-4"><div class="p-2 border rounded bg-light text-danger"><strong>Stop</strong><br>${item.stop.price.toLocaleString()}</div></div>
-            <div class="col-4"><div class="p-2 border rounded bg-light text-success"><strong>Target</strong><br>${item.target.price.toLocaleString()}</div></div>
+        <h6 class="fw-bold small text-muted border-bottom pb-1">TRADING PLAN</h6>
+        <div class="row g-2 text-center mt-1">
+            <div class="col-4">
+                <div class="border rounded p-2 bg-white">
+                    <small class="d-block text-muted" style="font-size:0.7rem">ENTRY</small>
+                    <strong class="text-primary">${item.entry.price.toLocaleString()}</strong>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="border rounded p-2 bg-white">
+                    <small class="d-block text-muted" style="font-size:0.7rem">STOP</small>
+                    <strong class="text-danger">${item.stop.price.toLocaleString()}</strong>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="border rounded p-2 bg-white">
+                    <small class="d-block text-muted" style="font-size:0.7rem">TARGET</small>
+                    <strong class="text-success">${item.target.price.toLocaleString()}</strong>
+                </div>
+            </div>
         </div>
-        <div class="text-center small text-muted">R:R Ratio 1 : ${item.target.rr}</div>
+        <div class="text-center mt-2">
+            <small class="text-muted">손익비 (R:R) 1 : ${item.target.rr}</small>
+        </div>
     `;
-
-    // 데스크탑이면 우측 패널에, 모바일이면 모달에 표시
-    if (window.innerWidth >= 992) {
-        document.getElementById('detail-panel').innerHTML = html;
-    } else {
-        document.getElementById('mobile-detail-body').innerHTML = html;
-        new bootstrap.Modal(document.getElementById('mobileModal')).show();
-    }
+    
+    document.getElementById('modal-body').innerHTML = html;
+    new bootstrap.Modal(document.getElementById('detailModal')).show();
 };
 
 document.addEventListener('DOMContentLoaded', initDashboard);
