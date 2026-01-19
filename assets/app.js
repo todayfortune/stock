@@ -1,69 +1,35 @@
 // assets/app.js
-
 async function loadDashboard() {
     try {
-        const v = new Date().getTime();
-        const [summaryRes, sectorsRes, candidatesRes] = await Promise.all([
-            fetch(`data/summary.json?v=${v}`),
-            fetch(`data/sectors.json?v=${v}`),
-            fetch(`data/candidates.json?v=${v}`)
-        ]);
-
+        const summaryRes = await fetch('data/summary.json');
         const summary = await summaryRes.json();
+        document.getElementById('update-time').innerText = `Updated: ${summary.updated_at}`;
+
+        const sectorsRes = await fetch('data/sectors.json');
         const sectors = await sectorsRes.json();
-        const candidates = await candidatesRes.json();
-
-        // 시간 표시
-        document.getElementById('update-time').innerHTML = 
-            `<i class="fa-regular fa-clock"></i> Updated: ${summary.updated_at}`;
-
         renderSectors(sectors);
+
+        const candidatesRes = await fetch('data/candidates.json');
+        const candidates = await candidatesRes.json();
         renderCandidates(candidates);
 
     } catch (error) {
-        console.error("Load Error:", error);
-        document.getElementById('sector-list').innerHTML = 
-            `<div style="color:red">⚠️ 데이터 로딩 실패. (GitHub Actions 확인 필요)</div>`;
+        console.error("Error:", error);
     }
 }
 
 function renderSectors(sectors) {
     const container = document.getElementById('sector-list');
     container.innerHTML = '';
-
-    sectors.slice(0, 3).forEach((sector, index) => {
-        const themeClass = `theme-${(index % 3) + 1}`;
-        const score = Math.min(sector.msi_score, 100).toFixed(0);
-        
-        // [번역]
-        // Flow: 자금력 (억 단위 환산은 이미 Python에서 됨, 여기선 점수만)
-        // Trend: 평균등락
-        // Breadth: 상승비중
-
+    
+    sectors.slice(0, 5).forEach((sector, index) => {
         const html = `
-            <div class="card ${themeClass}">
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                    <h3 style="font-size:0.9rem; opacity:0.9;">Rank ${index + 1}</h3>
-                    <span style="background:rgba(255,255,255,0.2); padding:2px 8px; border-radius:10px; font-size:0.8rem;">
-                        Score ${score}
-                    </span>
-                </div>
-                <div class="value" style="margin:15px 0;">${sector.name}</div>
-                
-                <div style="font-size:0.85rem; background:rgba(0,0,0,0.1); padding:10px; border-radius:10px;">
-                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
-                        <span>💰 자금력</span> <strong>${sector.flow_score}점</strong>
-                    </div>
-                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
-                        <span>📈 평균등락</span> <strong>${sector.trend_score}%</strong>
-                    </div>
-                    <div style="display:flex; justify-content:space-between;">
-                        <span>🌊 상승비중</span> <strong>${sector.breadth_score}%</strong>
-                    </div>
-                </div>
-                
-                <div style="margin-top:10px; font-size:0.8rem; text-align:right;">
-                    👑 대장: ${sector.leader_name}
+            <div class="sector-card">
+                <span class="sector-rank">Rank ${index + 1}</span>
+                <span class="sector-name">${sector.name}</span>
+                <div class="sector-score">
+                    Score: ${sector.msi_score}<br>
+                    <small>대장: ${sector.leader_name}</small>
                 </div>
             </div>
         `;
@@ -72,57 +38,53 @@ function renderSectors(sectors) {
 }
 
 function renderCandidates(candidates) {
-    const tbody = document.getElementById('candidate-list');
-    tbody.innerHTML = '';
+    const container = document.getElementById('candidate-list');
+    container.innerHTML = '';
 
     candidates.forEach(stock => {
-        const isUp = stock.change_rate > 0;
-        const colorClass = isUp ? 'price-up' : 'price-down';
-        const sign = isUp ? '+' : '';
-        const iconInitial = stock.name.charAt(0);
-        const vol = (stock.volume_money / 100000000).toFixed(0);
+        // 숫자 포맷팅
+        const price = Number(stock.close).toLocaleString();
+        const change = stock.change_rate > 0 ? `+${stock.change_rate}%` : `${stock.change_rate}%`;
+        const colorClass = stock.change_rate >= 0 ? 'price-up' : 'price-down';
+        const volume = Math.round(stock.volume_money / 100000000).toLocaleString(); // 억 단위
+        
+        // Action 버튼 스타일
+        let btnClass = 'btn-watch';
+        let btnText = 'WATCH';
+        
+        // 현재 로직상 100% WATCH지만, 나중에 ENTRY 부활 시 사용
+        if (stock.msi_action === 'ENTRY') {
+            btnClass = 'btn-entry';
+            btnText = 'ENTRY';
+        }
 
-        // [번역 로직] 영어 상태값 -> 한국어 설명
-        let timingKr = stock.timing;
-        if (stock.timing.includes("Wait MSS")) timingKr = "⏱️ 눌림목 대기 (Wait MSS)";
-        else if (stock.timing.includes("Strong Momentum")) timingKr = "🚀 강한 시세 (급등)";
-        else if (stock.timing.includes("MSS Confirmed")) timingKr = "✅ 타점 확인 (진입 가능)";
-
-        let locationKr = stock.location;
-        if (stock.location.includes("In Zone")) locationKr = "📍 수급 존 내부";
-        else if (stock.location.includes("Approaching")) locationKr = "📍 존 접근 중";
-
-        const row = `
-            <tr>
-                <td>
-                    <div class="stock-info">
-                        <div class="stock-icon">${iconInitial}</div>
-                        <div>
-                            <div style="font-weight:bold;">${stock.name}</div>
-                            <div style="font-size:0.8rem; color:#888;">${stock.code} | ${stock.sector}</div>
-                        </div>
+        const html = `
+            <article class="stock-card">
+                <div class="card-header">
+                    <div>
+                        <span class="stock-name">${stock.name}</span>
+                        <span class="stock-code">${stock.code}</span>
                     </div>
-                </td>
-                <td>
-                    <span class="status-badge status-${stock.msi_action}">
-                        ${stock.msi_action}
-                    </span>
-                </td>
-                <td>
-                    <div style="font-size:0.85rem; color:#555;">${locationKr}</div>
-                    <div style="font-size:0.8rem; color:#888;">${timingKr}</div>
-                </td>
-                <td class="${colorClass}">
-                    ${Number(stock.close).toLocaleString()}원
-                    <br>
-                    <small>(${sign}${stock.change_rate}%)</small>
-                </td>
-                <td>
-                    <div style="font-weight:bold; color:#6c5ce7;">${vol}억</div>
-                </td>
-            </tr>
+                    <span class="badge">${stock.sector}</span>
+                </div>
+                
+                <div class="card-body">
+                    <div class="price-box">
+                        <span class="current-price">${price}</span>
+                        <span class="price-change ${colorClass}">${change}</span>
+                    </div>
+                    <div class="action-box">
+                        <span class="action-btn ${btnClass}">${btnText}</span>
+                    </div>
+                </div>
+
+                <div class="volume-info">
+                    <span>거래대금 ${volume}억</span>
+                    <span>${stock.location || 'Setup Check'}</span>
+                </div>
+            </article>
         `;
-        tbody.innerHTML += row;
+        container.innerHTML += html;
     });
 }
 
