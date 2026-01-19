@@ -2,38 +2,55 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>MSI Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSI Stock Radar</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .up-trend { color: #e53935; font-weight: bold; } /* 상승: 빨강 */
+        .sector-card { padding: 20px; border: 1px solid #333; margin-bottom: 20px; border-radius: 10px; }
+        .badge { background: #333; color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; }
+    </style>
 </head>
 <body>
     <main class="container">
-        <header id="summary-section">
-            <h1>MSI Insight 📡</h1>
-            <p>Updated: <span id="update-time">-</span> | Market: <span id="market-status">-</span></p>
-        </header>
+        <nav>
+            <ul>
+                <li><strong>📡 MSI Stock Radar</strong></li>
+            </ul>
+            <ul>
+                <li><small id="update-time">업데이트 확인 중...</small></li>
+            </ul>
+        </nav>
+
+        <hr>
 
         <section>
-            <h2>🔥 오늘의 주도 섹터</h2>
+            <h3>🔥 오늘의 주도 섹터 (Top 3)</h3>
             <div class="grid" id="sector-list">
-                </div>
+                <article aria-busy="true">데이터 로딩 중...</article>
+            </div>
         </section>
 
         <section>
-            <h2>👀 WATCH LIST</h2>
-            <table role="grid">
-                <thead>
-                    <tr>
-                        <th>종목</th>
-                        <th>섹터</th>
-                        <th>등락률</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody id="candidate-list">
-                    </tbody>
-            </table>
+            <h3>👀 WATCH LIST (수급+추세)</h3>
+            <figure>
+                <table role="grid">
+                    <thead>
+                        <tr>
+                            <th>종목명</th>
+                            <th>섹터</th>
+                            <th>현재가</th>
+                            <th>등락률</th>
+                            <th>거래대금</th>
+                        </tr>
+                    </thead>
+                    <tbody id="candidate-list">
+                        </tbody>
+                </table>
+            </figure>
         </section>
     </main>
+
     <script src="assets/app.js"></script>
 </body>
 </html>
