@@ -17,16 +17,17 @@ jobs:
     - name: 저장소 체크아웃 (코드 가져오기)
       uses: actions/checkout@v3
 
-    - name: 파이썬 설정 (3.9 버전)
+    # [수정됨] 파이썬 버전을 3.9 -> 3.11로 업그레이드
+    - name: 파이썬 설정 (3.11 버전)
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.11'
 
-    - name: 라이브러리 설치 (yfinance 포함 필수 도구 설치)
+    - name: 라이브러리 설치 (yfinance 포함)
       run: |
         pip install finance-datareader yfinance pandas numpy requests lxml
 
-    - name: MSI 수집기 실행 (데이터 긁어오기)
+    - name: MSI 수집기 실행
       run: |
         python scripts/fetch_krx.py
 
