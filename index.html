@@ -6,7 +6,7 @@
     <title>MSI Pro Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* --- [1] 기본 세팅 (Reset & Font) --- */
+        /* [기본 스타일 유지] */
         :root {
             --bg-color: #f3f4f6;
             --sidebar-bg: #ffffff;
@@ -18,74 +18,64 @@
             --accent-red: #d63031;
         }
         * { box-sizing: border_box; margin: 0; padding: 0; }
-        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-main); display: flex; height: 100vh; overflow: hidden; }
+        body { font-family: 'Segoe UI', 'Apple SD Gothic Neo', sans-serif; background-color: var(--bg-color); color: var(--text-main); display: flex; height: 100vh; overflow: hidden; }
 
-        /* --- [2] 사이드바 (Left Navigation) --- */
+        /* 사이드바 & 메인 */
         .sidebar { width: 250px; background: var(--sidebar-bg); padding: 30px 20px; display: flex; flex-direction: column; border-right: 1px solid #e0e0e0; }
         .logo { font-size: 1.5rem; font-weight: bold; color: var(--accent-purple); margin-bottom: 40px; display: flex; align-items: center; gap: 10px; }
         .menu-item { padding: 15px 20px; color: var(--text-sub); text-decoration: none; border-radius: 12px; margin-bottom: 10px; display: flex; align-items: center; gap: 15px; font-weight: 500; transition: 0.3s; }
-        .menu-item:hover, .menu-item.active { background-color: var(--accent-purple); color: #fff; box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3); }
-        .menu-item i { width: 20px; }
-
-        /* --- [3] 메인 컨텐츠 영역 --- */
+        .menu-item:hover, .menu-item.active { background-color: var(--accent-purple); color: #fff; }
+        
         .main-content { flex: 1; padding: 30px; overflow-y: auto; }
-        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
-        .header h2 { font-size: 1.8rem; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
         .date-badge { background: #dfe6e9; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; color: var(--text-sub); }
 
-        /* --- [4] 상단 카드 섹션 (Top Sectors) --- */
+        /* [NEW] 가이드 박스 (Details/Summary) */
+        .guide-box { background: #eef2f3; border-radius: 12px; padding: 15px; margin-bottom: 30px; border: 1px solid #dfe6e9; }
+        .guide-box summary { cursor: pointer; font-weight: bold; color: var(--text-main); list-style: none; display: flex; align-items: center; gap: 10px; }
+        .guide-box summary:hover { color: var(--accent-purple); }
+        .guide-content { margin-top: 15px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; font-size: 0.9rem; color: #555; }
+        .guide-item strong { color: #333; display: block; margin-bottom: 5px; }
+        .badge-sample { padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; color: white; margin-right: 5px; }
+
+        /* 카드 & 테이블 */
         .cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 30px; }
-        .card { background: var(--card-bg); border-radius: 20px; padding: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); position: relative; overflow: hidden; transition: transform 0.2s; }
+        .card { background: var(--card-bg); border-radius: 20px; padding: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); transition: transform 0.2s; color: white; }
         .card:hover { transform: translateY(-5px); }
-        
-        /* 카드 색상 테마 (그라데이션) */
-        .card.theme-1 { background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%); color: white; }
-        .card.theme-2 { background: linear-gradient(135deg, #a770ef 0%, #cf8bf3 50%, #fdb99b 100%); color: white; }
-        .card.theme-3 { background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%); color: white; }
+        .card.theme-1 { background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%); }
+        .card.theme-2 { background: linear-gradient(135deg, #a770ef 0%, #cf8bf3 50%, #fdb99b 100%); }
+        .card.theme-3 { background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%); }
+        .card .value { font-size: 1.6rem; font-weight: bold; margin: 10px 0; }
 
-        .card h3 { font-size: 0.9rem; opacity: 0.9; margin-bottom: 5px; }
-        .card .value { font-size: 1.8rem; font-weight: bold; margin-bottom: 15px; }
-        .card .sub-info { font-size: 0.85rem; background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 10px; display: inline-block; backdrop-filter: blur(5px); }
-
-        /* --- [5] 워치리스트 테이블 --- */
         .table-container { background: var(--card-bg); border-radius: 20px; padding: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
-        .section-title { font-size: 1.2rem; font-weight: bold; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
-        
         table { width: 100%; border-collapse: collapse; }
         th { text-align: left; color: var(--text-sub); font-size: 0.85rem; padding-bottom: 15px; border-bottom: 1px solid #f1f1f1; }
         td { padding: 15px 0; border-bottom: 1px solid #f1f1f1; font-size: 0.95rem; vertical-align: middle; }
         
-        .stock-info { display: flex; align-items: center; gap: 10px; }
-        .stock-icon { width: 35px; height: 35px; background: #f1f2f6; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--accent-purple); font-size: 0.8rem; }
+        .status-badge { padding: 6px 10px; border-radius: 8px; font-size: 0.8rem; font-weight: bold; display: inline-block; text-align: center; width: 80px; }
+        .status-ENTRY { background: #e3f9e5; color: #219653; border: 1px solid #219653; }
+        .status-WATCH { background: #fff8e1; color: #f2994a; border: 1px solid #f2994a; }
         
-        /* 뱃지 스타일 */
-        .status-badge { padding: 5px 10px; border-radius: 8px; font-size: 0.75rem; font-weight: bold; }
-        .status-ENTRY { background: #e3f9e5; color: #219653; } /* 연한 초록 */
-        .status-WATCH { background: #fff8e1; color: #f2994a; } /* 연한 주황 */
+        .stock-info { display: flex; align-items: center; gap: 10px; }
+        .stock-icon { width: 35px; height: 35px; background: #f1f2f6; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--accent-purple); }
         
         .price-up { color: var(--accent-red); font-weight: 600; }
         .price-down { color: #0984e3; font-weight: 600; }
-        
-        /* 반응형 (모바일) */
+
         @media (max-width: 768px) {
             body { flex-direction: column; overflow: auto; }
             .sidebar { width: 100%; padding: 15px; flex-direction: row; justify-content: space-between; align-items: center; }
-            .menu-item span { display: none; } /* 모바일에선 글자 숨김 */
+            .menu-item span { display: none; }
             .cards-grid { grid-template-columns: 1fr; }
+            .guide-content { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
-
     <aside class="sidebar">
-        <div class="logo">
-            <i class="fa-solid fa-chart-line"></i> MSI Pro
-        </div>
+        <div class="logo"><i class="fa-solid fa-chart-line"></i> MSI Pro</div>
         <nav>
             <a href="#" class="menu-item active"><i class="fa-solid fa-table-columns"></i> <span>Dashboard</span></a>
-            <a href="#" class="menu-item"><i class="fa-solid fa-briefcase"></i> <span>Portfolio</span></a>
-            <a href="#" class="menu-item"><i class="fa-solid fa-robot"></i> <span>Trading Bot</span></a>
-            <a href="#" class="menu-item"><i class="fa-solid fa-gear"></i> <span>Settings</span></a>
         </nav>
     </aside>
 
@@ -93,42 +83,57 @@
         <div class="header">
             <div>
                 <h2>Market Overview</h2>
-                <p style="color:var(--text-sub)">AI-driven Stock Analysis & Signals</p>
+                <p style="color:var(--text-sub)">실시간 주도주 탐지 및 전략 신호</p>
             </div>
-            <div class="date-badge" id="update-time">
-                <i class="fa-regular fa-clock"></i> Connecting...
-            </div>
+            <div class="date-badge" id="update-time"><i class="fa-regular fa-clock"></i> Connecting...</div>
         </div>
 
-        <h4 style="margin-bottom:15px; color:var(--text-sub);">🔥 Today's Leading Sectors</h4>
+        <details class="guide-box">
+            <summary><i class="fa-solid fa-circle-question"></i> 용어 및 신호 가이드 (클릭하여 열기)</summary>
+            <div class="guide-content">
+                <div class="guide-item">
+                    <strong>1. 섹터 점수 (Why?)</strong>
+                    <ul style="padding-left:15px; margin-top:5px;">
+                        <li>💰 <b>자금력 (Flow)</b>: 1점 = 섹터 평균 거래대금 100억. (50점=5,000억 이상)</li>
+                        <li>📈 <b>평균등락 (Trend)</b>: 섹터 내 종목들의 평균 상승률.</li>
+                        <li>🌊 <b>상승비중 (Breadth)</b>: 섹터 내에서 상승 중인 종목 비율 (100% = 전 종목 상승).</li>
+                    </ul>
+                </div>
+                <div class="guide-item">
+                    <strong>2. 매매 신호 (Action)</strong>
+                    <ul style="padding-left:15px; margin-top:5px;">
+                        <li><span style="background:#219653; color:white; padding:2px 5px; border-radius:4px; font-size:0.7em;">ENTRY</span> <b>매수 신호</b>: 수급+자리+타이밍 충족. 진입 고려.</li>
+                        <li><span style="background:#f2994a; color:white; padding:2px 5px; border-radius:4px; font-size:0.7em;">WATCH</span> <b>관심 등록</b>: 좋은 종목이지만 타점 대기 중.</li>
+                        <li>⏱️ <b>눌림목 대기 (Wait MSS)</b>: 아직 하락 파동 중. 고점 뚫을 때까지 대기.</li>
+                        <li>🚀 <b>강한 시세</b>: 급등 중인 종목. 추격 주의.</li>
+                    </ul>
+                </div>
+            </div>
+        </details>
+
+        <h4 style="margin-bottom:15px; color:var(--text-sub);">🔥 오늘의 주도 섹터 (Top 3)</h4>
         <div class="cards-grid" id="sector-list">
-            <div class="card"><div class="value">Loading...</div></div>
+            <div class="card theme-1"><div class="value">Loading...</div></div>
         </div>
 
         <div class="table-container">
-            <div class="section-title">
-                <span><i class="fa-solid fa-list-ul"></i> Watchlist Candidates</span>
-                <button style="background:var(--accent-purple); color:white; border:none; padding:8px 15px; border-radius:8px; cursor:pointer;">
-                    <i class="fa-solid fa-filter"></i> Filter
-                </button>
+            <div class="section-title" style="margin-bottom:20px; font-weight:bold; font-size:1.2rem;">
+                <span><i class="fa-solid fa-list-ul"></i> 감시 종목 리스트</span>
             </div>
             <table>
                 <thead>
                     <tr>
-                        <th width="30%">Name</th>
-                        <th width="20%">Sector</th>
-                        <th width="15%">Price</th>
-                        <th width="15%">Chg%</th>
-                        <th width="10%">Action</th>
-                        <th width="10%">Score</th>
+                        <th width="30%">종목 (섹터)</th>
+                        <th width="12%">Action</th>
+                        <th width="20%">상세 상태</th>
+                        <th width="15%">현재가 (등락)</th>
+                        <th width="15%">거래대금</th>
                     </tr>
                 </thead>
-                <tbody id="candidate-list">
-                    </tbody>
+                <tbody id="candidate-list"></tbody>
             </table>
         </div>
     </section>
-
     <script src="assets/app.js"></script>
 </body>
 </html>
