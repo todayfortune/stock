@@ -2,7 +2,8 @@ name: Daily MSI Data Collection
 
 on:
   schedule:
-    - cron: '50 6 * * 1-5'  # 매일 한국시간 15:50 실행
+    # 매일 한국시간 15:50 (UTC 06:50) 실행
+    - cron: '50 6 * * 1-5'
   workflow_dispatch:      # 수동 실행 버튼
 
 permissions:
@@ -21,17 +22,13 @@ jobs:
       with:
         python-version: '3.9'
 
-    - name: 라이브러리 설치 (필수 도구 추가)
-      run: |
-        pip install finance-datareader pandas numpy requests lxml
-
-    - name: MSI 수집기 실행
-      run: |
-        python scripts/fetch_krx.py
-
-        - name: 라이브러리 설치
+    - name: 라이브러리 설치 (yfinance 포함 필수 도구 설치)
       run: |
         pip install finance-datareader yfinance pandas numpy requests lxml
+
+    - name: MSI 수집기 실행 (데이터 긁어오기)
+      run: |
+        python scripts/fetch_krx.py
 
     - name: 결과 저장 (Commit & Push)
       run: |
