@@ -1,4 +1,3 @@
-# scripts/fetch_krx.py
 import os
 import json
 import time
@@ -22,104 +21,120 @@ def load_theme_map():
             return json.load(f)
     return {}
 
-# 2. 데이터 수집 & 가공
+# 2. 데이터 수집
 def process_market_data(theme_map):
     print("📡 Market Data Fetching...")
-    
-    # KOSPI/KOSDAQ 전체
     df = fdr.StockListing('KRX')
     df.rename(columns={'Code':'Code','Name':'Name','Close':'종가','ChagesRatio':'등락률','Amount':'거래대금','Marcap':'시가총액','Sector':'KRX_Sector'}, inplace=True)
     df.set_index('Code', inplace=True)
     
-    # 데이터 타입 변환 (NaN 처리)
     cols = ['종가','거래대금','등락률']
     for c in cols:
         df[c] = pd.to_numeric(df[c], errors='coerce').fillna(0)
         
-    # 섹터 매핑
     df['CustomSector'] = 'Unclassified'
     for code, sector in theme_map.items():
         if code in df.index: df.loc[code, 'CustomSector'] = sector
     
-    # 유효 종목 필터 (동전주 제외, 거래대금 50억 이상)
-    valid_mask = (df['종가'] > 1000) & (df['거래대금'] > 5_000_000_000)
-    df_clean = df[valid_mask].copy()
+    # 필터: 30억 이상 (조건 완화, Grade로 거를 예정)
+    valid_mask = (df['종가'] > 1000) & (df['거래대금'] > 3_000_000_000)
+    return df[valid_mask].copy()
 
-    return df_clean
-
-# 3. 로직: 신호 산출 (Signal Engine MVP)
+# 3. 신호 산출 (Grade & Action Logic Added)
 def calculate_signals(row):
-    """
-    기현 님의 정의: state, entry, stop, target, why 산출
-    """
-    price = row['종가']
-    change = row['등락률']
-    vol = row['거래대금']
+    price = int(row['종가'])
+    change = float(row['등락률'])
+    vol = int(row['거래대금'])
     
-    # 기본값
     signal = {
         "ticker": row.name,
         "name": row['Name'],
         "sector": row['CustomSector'],
         "state": "NO_TRADE",
-        "close": int(price),
+        "grade": "C",   # Default
+        "action": "WAIT", # Default
+        "close": price,
         "change": round(change, 2),
-        "volume": int(vol),
+        "volume": vol,
         "entry": {"type": "-", "price": 0},
         "stop": {"price": 0},
         "target": {"price": 0, "rr": 0},
         "why": []
     }
     
-    # [Logic] 주도주 조건 (거래대금 300억 이상 + 양봉)
-    if vol >= 30_000_000_000 and change > 0:
+    # --- [Logic 1] Grade 산출 (체급 나누기) ---
+    if vol >= 100_000_000_000 or (vol >= 50_000_000_000 and change >= 15.0):
+        signal["grade"] = "S"
+        signal["why"].append("S급: 압도적 거래대금/폭등")
+    elif vol >= 30_000_000_000:
+        signal["grade"] = "A"
+        signal["why"].append("A급: 메이저 수급 (300억↑)")
+    elif vol >= 10_000_000_000:
+        signal["grade"] = "B"
+        signal["why"].append("B급: 일반 수급")
+    else:
+        signal["grade"] = "C"
+
+    # --- [Logic 2] Action 산출 (매매 타이밍) ---
+    # Grade B 이상이면서 양봉인 경우만 분석
+    if signal["grade"] in ["S", "A", "B"] and change > 0:
         signal["state"] = "WATCH"
-        signal["why"].append("메이저 수급 유입 (300억↑)")
         
-        # 가상 시나리오 (일봉상 눌림목 가정)
-        # 실전에서는 1H/15M 데이터를 봐야 하지만, MVP에서는 일봉 기준으로 가이드만 제공
-        signal["entry"] = {"type": "stop_limit", "price": int(price)}
-        stop_price = int(price * 0.97) # -3% 손절
-        target_price = int(price * 1.09) # +9% 익절
+        # [Entry Strategy]
+        # 1. 시나리오: 강한 상승 후 눌림목 예상 지점 (피보나치 0.382 되돌림 가정 등)
+        # MVP에서는 '오늘 시가' 또는 '3일선' 부근을 타점으로 잡는 로직 예시
+        # 여기서는 단순화를 위해 '현재가'를 기준으로 잡되, 
+        # 만약 15% 이상 급등했으면 -5% 아래를 타점으로, 아니면 현재가를 타점으로 잡음.
         
+        if change > 15.0:
+            target_entry = int(price * 0.95) # 너무 올랐으니 눌림 기다림
+            signal["entry"]["price"] = target_entry
+            signal["why"].append("급등 피로감 → 눌림목 대기")
+        else:
+            target_entry = price # 지금도 진입 가능 영역
+            signal["entry"]["price"] = target_entry
+            signal["why"].append("추세 지속형 → 즉시 진입 검토")
+
+        # Action 판단: 현재가가 Entry 가격의 ±2% 이내인가?
+        dist = abs(price - target_entry) / price
+        if dist <= 0.02:
+            signal["action"] = "READY"
+        else:
+            signal["action"] = "WAIT"
+
+        # Plan 수립
+        stop_price = int(target_entry * 0.97) # -3%
+        target_price = int(target_entry * 1.09) # +9%
         signal["stop"] = {"price": stop_price}
         signal["target"] = {"price": target_price, "rr": 3.0}
-        
-        if change > 5.0:
-            signal["why"].append("강한 모멘텀 발생 (+5%↑)")
-            
-    elif vol >= 10_000_000_000 and change > 0:
-        signal["state"] = "WATCH"
-        signal["why"].append("섹터 수급 유입 (100억↑)")
+
+    else:
+        signal["state"] = "NO_TRADE"
     
     return signal
 
-# 4. 메인 실행 및 JSON 저장
+# 4. 메인 파이프라인
 def run_pipeline():
     theme_map = load_theme_map()
     df = process_market_data(theme_map)
     
-    # --- A. Sector Leaders ---
+    # A. Sector Leaders
     sector_leaders = []
     for sector, group in df.groupby('CustomSector'):
         if sector == 'Unclassified' or len(group) < 2: continue
-        
         score = int((group['거래대금'].mean() / 100_000_000) + (group['등락률'].mean() * 10))
         top_ticker_names = group.sort_values(by='거래대금', ascending=False).head(3)['Name'].tolist()
-        
         sector_leaders.append({
-            "sector": sector,
-            "score": score,
+            "sector": sector, "score": score,
             "turnover": int(group['거래대금'].sum()),
             "topTickers": top_ticker_names
         })
     sector_leaders.sort(key=lambda x: x['score'], reverse=True)
 
-    # --- B. Watchlist ---
+    # B. Watchlist
     watchlist_items = []
-    # 타겟: 커스텀 섹터 + 전체 거래대금 상위 20위
     target_pool = df[df['CustomSector'] != 'Unclassified'].copy()
-    top_vol = df.sort_values(by='거래대금', ascending=False).head(20)
+    top_vol = df.sort_values(by='거래대금', ascending=False).head(30) # 유니버스 확대
     target_pool = pd.concat([target_pool, top_vol])
     target_pool = target_pool[~target_pool.index.duplicated()]
     
@@ -128,42 +143,23 @@ def run_pipeline():
         if sig["state"] != "NO_TRADE":
             watchlist_items.append(sig)
             
-    watchlist_items.sort(key=lambda x: x['volume'], reverse=True)
-
-    # --- C. JSON Export (표준 스키마 준수) ---
+    # C. Export
     now_str = datetime.now().isoformat()
-    
-    # 1. meta.json
     meta = {
         "asOf": now_str,
         "source": ["KRX", "FDR"],
-        "universeSize": len(df),
-        "version": "v1.5.0",
-        "status": "ok",
-        "errors": []
+        "version": "v2.0.0 (Grade/Action Added)",
+        "status": "ok"
     }
     
-    # 2. sector_leaders.json
-    sectors_data = {
-        "asOf": now_str,
-        "items": sector_leaders
-    }
-    
-    # 3. watchlist.json
-    watchlist_data = {
-        "asOf": now_str,
-        "items": watchlist_items
-    }
-    
-    # 파일 쓰기
     with open(os.path.join(DATA_DIR, 'meta.json'), 'w', encoding='utf-8') as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'sector_leaders.json'), 'w', encoding='utf-8') as f:
-        json.dump(sectors_data, f, ensure_ascii=False, indent=2)
+        json.dump({"asOf": now_str, "items": sector_leaders}, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'watchlist.json'), 'w', encoding='utf-8') as f:
-        json.dump(watchlist_data, f, ensure_ascii=False, indent=2)
+        json.dump({"asOf": now_str, "items": watchlist_items}, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Pipeline Completed: Sectors({len(sector_leaders)}), Watchlist({len(watchlist_items)})")
+    print(f"✅ Pipeline v2 Completed: Watchlist({len(watchlist_items)})")
 
 if __name__ == "__main__":
     run_pipeline()
