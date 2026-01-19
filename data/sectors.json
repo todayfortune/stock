@@ -1,16 +1,22 @@
 [
   {
-    "name": "반도체",
-    "msi_score": 85.5,          // 자금+추세+확산 종합 점수
-    "flow_score": 90,           // 거래대금 강도
-    "trend_ratio": 0.65,        // 20일선 위 종목 비율
-    "leaders": ["000660", "005930", "042700"] // SK하이닉스, 삼성전자, 한미반도체 등
+    "name": "로봇_감속기",
+    "msi_score": 43.06,
+    "flow_won": 333197190175,
+    "avg_change": 23.06,
+    "breadth": 100.0,
+    "leader_code": "058610",
+    "leader_name": "에스피지",
+    "stock_count": 2
   },
   {
-    "name": "2차전지",
-    "msi_score": 40.2,
-    "flow_score": 30,
-    "trend_ratio": 0.10,
-    "leaders": ["006400", "373220"]
+    "name": "자동차_완성차",
+    "msi_score": 34.2,
+    "flow_won": 1714810974325,
+    "avg_change": 14.2,
+    "breadth": 100.0,
+    "leader_code": "005380",
+    "leader_name": "현대차",
+    "stock_count": 2
   }
 ]

@@ -1,6 +1,9 @@
 {
-  "updated_at": "2024-05-21 15:40:00",
-  "market_condition": "BULLISH",  // 코스피/코스닥 지수 이동평균 기반 판단
-  "top_sectors": ["반도체", "전력기기", "화장품"],
-  "total_candidates": 15
+  "updated_at": "2026-01-19 13:53:01",
+  "market_status": "Neutral",
+  "top_sectors": [
+    "로봇_감속기",
+    "자동차_완성차"
+  ],
+  "total_analyzed": 1130
 }

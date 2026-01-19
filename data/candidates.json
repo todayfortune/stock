@@ -1,12 +1,173 @@
 [
   {
-    "code": "042700",
-    "name": "한미반도체",
-    "sector": "반도체",
-    "close": 142000,
-    "change_rate": 3.5,
-    "volume_ratio": 150,        // 전일 대비 거래량 비율(%)
-    "msi_action": "WATCH",      // PASS / WATCH / ENTRY
-    "tags": ["신고가", "수급주체_외인"]
+    "code": "005930",
+    "name": "삼성전자",
+    "sector": "반도체_메모리",
+    "close": 149300,
+    "change_rate": 0.27,
+    "volume_money": 3381546209135,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "005380",
+    "name": "현대차",
+    "sector": "자동차_완성차",
+    "close": 480000,
+    "change_rate": 16.22,
+    "volume_money": 2768643471750,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "000660",
+    "name": "SK하이닉스",
+    "sector": "반도체_HBM",
+    "close": 764000,
+    "change_rate": 1.06,
+    "volume_money": 2588923615000,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "034020",
+    "name": "두산에너빌리티",
+    "sector": "전력_원전/터빈",
+    "close": 95400,
+    "change_rate": 0.1,
+    "volume_money": 808269285350,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "090710",
+    "name": "휴림로봇",
+    "sector": "로봇_제조",
+    "close": 16650,
+    "change_rate": 29.98,
+    "volume_money": 777908852840,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "000270",
+    "name": "기아",
+    "sector": "자동차_완성차",
+    "close": 169500,
+    "change_rate": 12.18,
+    "volume_money": 660978476900,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "058610",
+    "name": "에스피지",
+    "sector": "로봇_감속기",
+    "close": 112600,
+    "change_rate": 21.86,
+    "volume_money": 508330648450,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "006400",
+    "name": "삼성SDI",
+    "sector": "2차전지_셀",
+    "close": 314000,
+    "change_rate": 8.65,
+    "volume_money": 437444040750,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "047810",
+    "name": "한국항공우주",
+    "sector": "방산_항공우주",
+    "close": 165500,
+    "change_rate": 6.16,
+    "volume_money": 247903989800,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "056080",
+    "name": "유진로봇",
+    "sector": "로봇_서비스",
+    "close": 32850,
+    "change_rate": 28.57,
+    "volume_money": 204355838075,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "389500",
+    "name": "에스비비테크",
+    "sector": "로봇_감속기",
+    "close": 68100,
+    "change_rate": 24.27,
+    "volume_money": 158063731900,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "267260",
+    "name": "HD현대일렉트릭",
+    "sector": "전력_변압기",
+    "close": 918000,
+    "change_rate": 1.32,
+    "volume_money": 154810551456,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "298040",
+    "name": "효성중공업",
+    "sector": "전력_중공업",
+    "close": 2360000,
+    "change_rate": 1.16,
+    "volume_money": 123040262500,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "000880",
+    "name": "한화",
+    "sector": "방산_지주",
+    "close": 124900,
+    "change_rate": 0.24,
+    "volume_money": 106518057150,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "348340",
+    "name": "뉴로메카",
+    "sector": "로봇_협동",
+    "close": 93400,
+    "change_rate": 29.9,
+    "volume_money": 104076809850,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "011210",
+    "name": "현대위아",
+    "sector": "자동차_부품/로봇",
+    "close": 92000,
+    "change_rate": 3.72,
+    "volume_money": 65263615150,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "488900",
+    "name": "비츠로넥스텍",
+    "sector": "방산_우주항공",
+    "close": 20350,
+    "change_rate": 4.31,
+    "volume_money": 41594764520,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "042370",
+    "name": "비츠로테크",
+    "sector": "방산_우주",
+    "close": 10730,
+    "change_rate": 4.48,
+    "volume_money": 18411289975,
+    "msi_action": "WATCH"
+  },
+  {
+    "code": "171090",
+    "name": "선익시스템",
+    "sector": "디스플레이_OLED/메타",
+    "close": 51200,
+    "change_rate": 2.71,
+    "volume_money": 8590479900,
+    "msi_action": "WATCH"
   }
 ]
