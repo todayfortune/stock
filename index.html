@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>MSI Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <header id="summary-section">
+            <h1>MSI Insight 📡</h1>
+            <p>Updated: <span id="update-time">-</span> | Market: <span id="market-status">-</span></p>
+        </header>
+
+        <section>
+            <h2>🔥 오늘의 주도 섹터</h2>
+            <div class="grid" id="sector-list">
+                </div>
+        </section>
+
+        <section>
+            <h2>👀 WATCH LIST</h2>
+            <table role="grid">
+                <thead>
+                    <tr>
+                        <th>종목</th>
+                        <th>섹터</th>
+                        <th>등락률</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="candidate-list">
+                    </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="assets/app.js"></script>
+</body>
+</html>
