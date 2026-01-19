@@ -1,217 +1,30 @@
 {
-  "asOf": "2026-01-19T15:22:15.643310",
+  "asOf": "2026-01-19T22:32:24.784977",
   "items": [
     {
       "ticker": "005930",
       "name": "삼성전자",
       "sector": "반도체_메모리",
       "state": "WATCH",
+      "grade": "S",
+      "action": "READY",
       "close": 149300,
       "change": 0.27,
       "volume": 3381546209135,
       "entry": {
-        "type": "stop_limit",
         "price": 149300
       },
       "stop": {
-        "price": 144821
+        "price": 146600
       },
       "target": {
-        "price": 162737,
+        "price": 157400,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)"
-      ]
-    },
-    {
-      "ticker": "005380",
-      "name": "현대차",
-      "sector": "자동차_완성차",
-      "state": "WATCH",
-      "close": 480000,
-      "change": 16.22,
-      "volume": 2768643471750,
-      "entry": {
-        "type": "stop_limit",
-        "price": 480000
-      },
-      "stop": {
-        "price": 465600
-      },
-      "target": {
-        "price": 523200,
-        "rr": 3.0
-      },
-      "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
-      ]
-    },
-    {
-      "ticker": "000660",
-      "name": "SK하이닉스",
-      "sector": "반도체_HBM",
-      "state": "WATCH",
-      "close": 764000,
-      "change": 1.06,
-      "volume": 2588923615000,
-      "entry": {
-        "type": "stop_limit",
-        "price": 764000
-      },
-      "stop": {
-        "price": 741080
-      },
-      "target": {
-        "price": 832760,
-        "rr": 3.0
-      },
-      "why": [
-        "메이저 수급 유입 (300억↑)"
-      ]
-    },
-    {
-      "ticker": "034020",
-      "name": "두산에너빌리티",
-      "sector": "전력_원전/터빈",
-      "state": "WATCH",
-      "close": 95400,
-      "change": 0.1,
-      "volume": 808269285350,
-      "entry": {
-        "type": "stop_limit",
-        "price": 95400
-      },
-      "stop": {
-        "price": 92538
-      },
-      "target": {
-        "price": 103986,
-        "rr": 3.0
-      },
-      "why": [
-        "메이저 수급 유입 (300억↑)"
-      ]
-    },
-    {
-      "ticker": "090710",
-      "name": "휴림로봇",
-      "sector": "로봇_제조",
-      "state": "WATCH",
-      "close": 16650,
-      "change": 29.98,
-      "volume": 777908852840,
-      "entry": {
-        "type": "stop_limit",
-        "price": 16650
-      },
-      "stop": {
-        "price": 16150
-      },
-      "target": {
-        "price": 18148,
-        "rr": 3.0
-      },
-      "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
-      ]
-    },
-    {
-      "ticker": "000270",
-      "name": "기아",
-      "sector": "자동차_완성차",
-      "state": "WATCH",
-      "close": 169500,
-      "change": 12.18,
-      "volume": 660978476900,
-      "entry": {
-        "type": "stop_limit",
-        "price": 169500
-      },
-      "stop": {
-        "price": 164415
-      },
-      "target": {
-        "price": 184755,
-        "rr": 3.0
-      },
-      "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
-      ]
-    },
-    {
-      "ticker": "454910",
-      "name": "두산로보틱스",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "close": 107700,
-      "change": 19.14,
-      "volume": 602664615950,
-      "entry": {
-        "type": "stop_limit",
-        "price": 107700
-      },
-      "stop": {
-        "price": 104469
-      },
-      "target": {
-        "price": 117393,
-        "rr": 3.0
-      },
-      "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
-      ]
-    },
-    {
-      "ticker": "058610",
-      "name": "에스피지",
-      "sector": "로봇_감속기",
-      "state": "WATCH",
-      "close": 112600,
-      "change": 21.86,
-      "volume": 508330648450,
-      "entry": {
-        "type": "stop_limit",
-        "price": 112600
-      },
-      "stop": {
-        "price": 109222
-      },
-      "target": {
-        "price": 122734,
-        "rr": 3.0
-      },
-      "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
-      ]
-    },
-    {
-      "ticker": "010140",
-      "name": "삼성중공업",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "close": 31850,
-      "change": 7.06,
-      "volume": 438676060200,
-      "entry": {
-        "type": "stop_limit",
-        "price": 31850
-      },
-      "stop": {
-        "price": 30894
-      },
-      "target": {
-        "price": 34716,
-        "rr": 3.0
-      },
-      "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 1H Swing Low",
+        "15M 구조전환(TC) 발생"
       ]
     },
     {
@@ -219,190 +32,175 @@
       "name": "삼성SDI",
       "sector": "2차전지_셀",
       "state": "WATCH",
+      "grade": "S",
+      "action": "READY",
       "close": 314000,
       "change": 8.65,
       "volume": 437444040750,
       "entry": {
-        "type": "stop_limit",
         "price": 314000
       },
       "stop": {
-        "price": 304580
+        "price": 286000
       },
       "target": {
-        "price": 342260,
+        "price": 398000,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 1H Swing Low",
+        "15M 구조전환(TC) 발생"
       ]
     },
     {
-      "ticker": "032820",
-      "name": "우리기술",
-      "sector": "Unclassified",
+      "ticker": "005380",
+      "name": "현대차",
+      "sector": "자동차_완성차",
       "state": "WATCH",
-      "close": 6140,
-      "change": 29.95,
-      "volume": 403902369435,
+      "grade": "S",
+      "action": "WAIT",
+      "close": 480000,
+      "change": 16.22,
+      "volume": 2768643471750,
       "entry": {
-        "type": "stop_limit",
-        "price": 6140
+        "price": 470400
       },
       "stop": {
-        "price": 5955
+        "price": 465600
       },
       "target": {
-        "price": 6692,
+        "price": 484800,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 3% (Low 너무 멈)"
       ]
     },
     {
-      "ticker": "066570",
-      "name": "LG전자",
-      "sector": "Unclassified",
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "sector": "반도체_HBM",
       "state": "WATCH",
-      "close": 106900,
-      "change": 8.64,
-      "volume": 396515807150,
+      "grade": "S",
+      "action": "WAIT",
+      "close": 764000,
+      "change": 1.06,
+      "volume": 2588923615000,
       "entry": {
-        "type": "stop_limit",
-        "price": 106900
+        "price": 748720
       },
       "stop": {
-        "price": 103693
+        "price": 749000
       },
       "target": {
-        "price": 116521,
+        "price": 817480,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 1H Swing Low"
       ]
     },
     {
-      "ticker": "466100",
-      "name": "클로봇",
-      "sector": "Unclassified",
+      "ticker": "034020",
+      "name": "두산에너빌리티",
+      "sector": "전력_원전/터빈",
       "state": "WATCH",
-      "close": 75700,
-      "change": 12.99,
-      "volume": 374843596950,
+      "grade": "S",
+      "action": "WAIT",
+      "close": 95400,
+      "change": 0.1,
+      "volume": 808269285350,
       "entry": {
-        "type": "stop_limit",
-        "price": 75700
+        "price": 93492
       },
       "stop": {
-        "price": 73429
+        "price": 92700
       },
       "target": {
-        "price": 82513,
+        "price": 95868,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 1H Swing Low"
       ]
     },
     {
-      "ticker": "012330",
-      "name": "현대모비스",
-      "sector": "Unclassified",
+      "ticker": "090710",
+      "name": "휴림로봇",
+      "sector": "로봇_제조",
       "state": "WATCH",
-      "close": 457500,
-      "change": 6.15,
-      "volume": 343186315000,
+      "grade": "S",
+      "action": "WAIT",
+      "close": 16650,
+      "change": 29.98,
+      "volume": 777908852840,
       "entry": {
-        "type": "stop_limit",
-        "price": 457500
+        "price": 16317
       },
       "stop": {
-        "price": 443775
+        "price": 16150
       },
       "target": {
-        "price": 498675,
+        "price": 16818,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 3% (Low 너무 멈)"
       ]
     },
     {
-      "ticker": "319400",
-      "name": "현대무벡스",
-      "sector": "Unclassified",
+      "ticker": "000270",
+      "name": "기아",
+      "sector": "자동차_완성차",
       "state": "WATCH",
-      "close": 34950,
-      "change": 20.52,
-      "volume": 332200567975,
+      "grade": "S",
+      "action": "WAIT",
+      "close": 169500,
+      "change": 12.18,
+      "volume": 660978476900,
       "entry": {
-        "type": "stop_limit",
-        "price": 34950
+        "price": 166110
       },
       "stop": {
-        "price": 33901
+        "price": 164415
       },
       "target": {
-        "price": 38095,
+        "price": 171195,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 3% (Low 너무 멈)"
       ]
     },
     {
-      "ticker": "352820",
-      "name": "하이브",
-      "sector": "Unclassified",
+      "ticker": "058610",
+      "name": "에스피지",
+      "sector": "로봇_감속기",
       "state": "WATCH",
-      "close": 366500,
-      "change": 8.92,
-      "volume": 302549905000,
+      "grade": "S",
+      "action": "WAIT",
+      "close": 112600,
+      "change": 21.86,
+      "volume": 508330648450,
       "entry": {
-        "type": "stop_limit",
-        "price": 366500
+        "price": 110348
       },
       "stop": {
-        "price": 355505
+        "price": 109222
       },
       "target": {
-        "price": 399485,
+        "price": 113726,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
-      ]
-    },
-    {
-      "ticker": "307950",
-      "name": "현대오토에버",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "close": 488500,
-      "change": 2.52,
-      "volume": 276462341250,
-      "entry": {
-        "type": "stop_limit",
-        "price": 488500
-      },
-      "stop": {
-        "price": 473845
-      },
-      "target": {
-        "price": 532465,
-        "rr": 3.0
-      },
-      "why": [
-        "메이저 수급 유입 (300억↑)"
+        "S급 수급/모멘텀",
+        "Stop: 3% (Low 너무 멈)"
       ]
     },
     {
@@ -410,23 +208,24 @@
       "name": "한국항공우주",
       "sector": "방산_항공우주",
       "state": "WATCH",
+      "grade": "S",
+      "action": "WAIT",
       "close": 165500,
       "change": 6.16,
       "volume": 247903989800,
       "entry": {
-        "type": "stop_limit",
-        "price": 165500
+        "price": 162190
       },
       "stop": {
-        "price": 160535
+        "price": 154100
       },
       "target": {
-        "price": 180395,
+        "price": 186460,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 1H Swing Low"
       ]
     },
     {
@@ -434,23 +233,24 @@
       "name": "유진로봇",
       "sector": "로봇_서비스",
       "state": "WATCH",
+      "grade": "S",
+      "action": "WAIT",
       "close": 32850,
       "change": 28.57,
       "volume": 204355838075,
       "entry": {
-        "type": "stop_limit",
-        "price": 32850
+        "price": 32193
       },
       "stop": {
         "price": 31864
       },
       "target": {
-        "price": 35806,
+        "price": 33180,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 3% (Low 너무 멈)"
       ]
     },
     {
@@ -458,23 +258,24 @@
       "name": "에스비비테크",
       "sector": "로봇_감속기",
       "state": "WATCH",
+      "grade": "S",
+      "action": "WAIT",
       "close": 68100,
       "change": 24.27,
       "volume": 158063731900,
       "entry": {
-        "type": "stop_limit",
-        "price": 68100
+        "price": 66738
       },
       "stop": {
         "price": 66057
       },
       "target": {
-        "price": 74229,
+        "price": 68781,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 3% (Low 너무 멈)"
       ]
     },
     {
@@ -482,22 +283,24 @@
       "name": "HD현대일렉트릭",
       "sector": "전력_변압기",
       "state": "WATCH",
+      "grade": "S",
+      "action": "WAIT",
       "close": 918000,
       "change": 1.32,
       "volume": 154810551456,
       "entry": {
-        "type": "stop_limit",
-        "price": 918000
+        "price": 899640
       },
       "stop": {
-        "price": 890460
+        "price": 890000
       },
       "target": {
-        "price": 1000620,
+        "price": 928560,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)"
+        "S급 수급/모멘텀",
+        "Stop: 1H Swing Low"
       ]
     },
     {
@@ -505,22 +308,50 @@
       "name": "효성중공업",
       "sector": "전력_중공업",
       "state": "WATCH",
+      "grade": "S",
+      "action": "WAIT",
       "close": 2360000,
       "change": 1.16,
       "volume": 123040262500,
       "entry": {
-        "type": "stop_limit",
-        "price": 2360000
+        "price": 2312800
       },
       "stop": {
-        "price": 2289200
+        "price": 2227000
       },
       "target": {
-        "price": 2572400,
+        "price": 2570200,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)"
+        "S급 수급/모멘텀",
+        "Stop: 1H Swing Low"
+      ]
+    },
+    {
+      "ticker": "064350",
+      "name": "현대로템",
+      "sector": "방산_지상",
+      "state": "WATCH",
+      "grade": "S",
+      "action": "WAIT",
+      "close": 215000,
+      "change": 0.0,
+      "volume": 122596521250,
+      "entry": {
+        "price": 0
+      },
+      "stop": {
+        "price": 213500
+      },
+      "target": {
+        "price": 19350,
+        "rr": 3.0
+      },
+      "why": [
+        "S급 수급/모멘텀",
+        "Stop: 1H Swing Low",
+        "%R 과매도 (반등 대기)"
       ]
     },
     {
@@ -528,22 +359,25 @@
       "name": "한화",
       "sector": "방산_지주",
       "state": "WATCH",
+      "grade": "S",
+      "action": "WAIT",
       "close": 124900,
       "change": 0.24,
       "volume": 106518057150,
       "entry": {
-        "type": "stop_limit",
-        "price": 124900
+        "price": 0
       },
       "stop": {
-        "price": 121153
+        "price": 122400
       },
       "target": {
-        "price": 136141,
+        "price": 11241,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)"
+        "S급 수급/모멘텀",
+        "Stop: 1H Swing Low",
+        "%R 과매도 (반등 대기)"
       ]
     },
     {
@@ -551,23 +385,49 @@
       "name": "뉴로메카",
       "sector": "로봇_협동",
       "state": "WATCH",
+      "grade": "S",
+      "action": "WAIT",
       "close": 93400,
       "change": 29.9,
       "volume": 104076809850,
       "entry": {
-        "type": "stop_limit",
-        "price": 93400
+        "price": 91532
       },
       "stop": {
         "price": 90598
       },
       "target": {
-        "price": 101806,
+        "price": 94334,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)",
-        "강한 모멘텀 발생 (+5%↑)"
+        "S급 수급/모멘텀",
+        "Stop: 3% (Low 너무 멈)"
+      ]
+    },
+    {
+      "ticker": "010120",
+      "name": "LS ELECTRIC",
+      "sector": "전력_배전",
+      "state": "WATCH",
+      "grade": "A",
+      "action": "WAIT",
+      "close": 533000,
+      "change": 0.0,
+      "volume": 85501559000,
+      "entry": {
+        "price": 522340
+      },
+      "stop": {
+        "price": 518000
+      },
+      "target": {
+        "price": 535360,
+        "rr": 3.0
+      },
+      "why": [
+        "A급 메이저 수급",
+        "Stop: 1H Swing Low"
       ]
     },
     {
@@ -575,22 +435,24 @@
       "name": "현대위아",
       "sector": "자동차_부품/로봇",
       "state": "WATCH",
+      "grade": "A",
+      "action": "WAIT",
       "close": 92000,
       "change": 3.72,
       "volume": 65263615150,
       "entry": {
-        "type": "stop_limit",
-        "price": 92000
+        "price": 90160
       },
       "stop": {
-        "price": 89240
+        "price": 87600
       },
       "target": {
-        "price": 100280,
+        "price": 97840,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)"
+        "A급 메이저 수급",
+        "Stop: 1H Swing Low"
       ]
     },
     {
@@ -598,22 +460,24 @@
       "name": "비츠로넥스텍",
       "sector": "방산_우주항공",
       "state": "WATCH",
+      "grade": "A",
+      "action": "WAIT",
       "close": 20350,
       "change": 4.31,
       "volume": 41594764520,
       "entry": {
-        "type": "stop_limit",
-        "price": 20350
+        "price": 19943
       },
       "stop": {
-        "price": 19739
+        "price": 18960
       },
       "target": {
-        "price": 22181,
+        "price": 22892,
         "rr": 3.0
       },
       "why": [
-        "메이저 수급 유입 (300억↑)"
+        "A급 메이저 수급",
+        "Stop: 1H Swing Low"
       ]
     },
     {
@@ -621,22 +485,23 @@
       "name": "비츠로테크",
       "sector": "방산_우주",
       "state": "WATCH",
+      "grade": "B",
+      "action": "WAIT",
       "close": 10730,
       "change": 4.48,
       "volume": 18411289975,
       "entry": {
-        "type": "-",
-        "price": 0
+        "price": 10515
       },
       "stop": {
-        "price": 0
+        "price": 9860
       },
       "target": {
-        "price": 0,
-        "rr": 0
+        "price": 12480,
+        "rr": 3.0
       },
       "why": [
-        "섹터 수급 유입 (100억↑)"
+        "Stop: 1H Swing Low"
       ]
     }
   ]
