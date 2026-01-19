@@ -7,7 +7,9 @@ import FinanceDataReader as fdr
 import yfinance as yf
 from datetime import datetime, timedelta
 
-# 1. 설정
+# ---------------------------------------------------------
+# 1. 설정 및 초기화
+# ---------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 THEME_MAP_FILE = os.path.join(BASE_DIR, 'scripts', 'theme_map.json')
@@ -22,197 +24,268 @@ def load_theme_map():
     return {}
 
 # ---------------------------------------------------------
-# [New] 2. 시장 상태 진단 (Market Regime)
+# 2. 기술적 지표 및 로직 함수 (Signal Engine Core)
+# ---------------------------------------------------------
+def calc_williams_r(df, period=14):
+    """ Williams %R 계산 """
+    highest_high = df['High'].rolling(window=period).max()
+    lowest_low = df['Low'].rolling(window=period).min()
+    wr = -100 * (highest_high - df['Close']) / (highest_high - lowest_low)
+    return wr.fillna(-50) # NaN 방지
+
+def find_swing_low(df, window=5):
+    """ 
+    최근 n캔들 내 최저점(Swing Low) 찾기 
+    - 손절(Stop) 기준이 됨
+    """
+    recent = df.iloc[-window:]
+    swing_low = recent['Low'].min()
+    return swing_low
+
+def detect_trend_change(df_15m):
+    """
+    15분봉상 단기 하락 추세 돌파(TC) 여부 확인 (약식)
+    - 최근 10개 봉 중 가장 높은 고점(LH)을 현재가가 돌파했는가?
+    """
+    if len(df_15m) < 20: return False
+    
+    # 최근 10개 봉 전의 고점들
+    recent_highs = df_15m['High'].iloc[-15:-5].max()
+    current_close = df_15m['Close'].iloc[-1]
+    
+    # 돌파 확인
+    return current_close > recent_highs
+
+def get_detailed_strategy(ticker, daily_price):
+    """
+    [Deep Dive] yfinance로 분봉을 조회하여 정밀 전략 수립
+    """
+    try:
+        symbol = f"{ticker}.KS"
+        # 1시간봉 (Trend/Stop 확인용)
+        df_1h = yf.download(symbol, period="5d", interval="1h", progress=False)
+        if df_1h.empty:
+            symbol = f"{ticker}.KQ"
+            df_1h = yf.download(symbol, period="5d", interval="1h", progress=False)
+        
+        if df_1h.empty: return None
+
+        # 15분봉 (Timing/TC 확인용)
+        df_15m = yf.download(symbol, period="2d", interval="15m", progress=False)
+
+        # MultiIndex 컬럼 정리 (yfinance 버그 방지)
+        if isinstance(df_1h.columns, pd.MultiIndex): df_1h.columns = df_1h.columns.get_level_values(0)
+        if isinstance(df_15m.columns, pd.MultiIndex): df_15m.columns = df_15m.columns.get_level_values(0)
+
+        # 1. 지표 계산
+        df_1h['WR'] = calc_williams_r(df_1h)
+        current_wr = df_1h['WR'].iloc[-1]
+        
+        # 2. 구조적 손절 (Swing Low)
+        swing_low = find_swing_low(df_1h, window=10) # 1H 기준 최근 저점
+        
+        # 3. 진입 타이밍 (TC & %R)
+        # - 15분봉 TC 발생 OR %R 과매도권 탈출(-80 상향 돌파)
+        is_tc = detect_trend_change(df_15m) if not df_15m.empty else False
+        is_oversold = current_wr < -80
+        
+        return {
+            "swing_low": int(swing_low),
+            "wr": round(current_wr, 1),
+            "is_tc": is_tc,
+            "is_oversold": is_oversold
+        }
+
+    except Exception as e:
+        return None
+
+# ---------------------------------------------------------
+# 3. 시장 레짐 (Gatekeeper)
 # ---------------------------------------------------------
 def analyze_market_regime():
     print("📡 Market Regime Check (KOSPI)...")
     try:
-        # KOSPI 지수 (KS11) 최근 120일 조회
-        kospi = fdr.DataReader('KS11', '2023-01-01') # 넉넉하게
-        if kospi.empty: return {"state": "RISK_ON", "reason": "데이터 부족 (Default On)"}
+        kospi = fdr.DataReader('KS11', '2023-01-01')
+        if kospi.empty: return {"state": "RISK_ON", "reason": "Data Missing"}
         
         curr = kospi.iloc[-1]
-        
-        # 이동평균선 계산
         ma20 = kospi['Close'].rolling(20).mean().iloc[-1]
-        ma60 = kospi['Close'].rolling(60).mean().iloc[-1]
-        
-        # [Logic] 시장 판단 기준 (단순화: 20일선 기준)
-        # - Close > MA20 : RISK_ON (추세 상승/유지)
-        # - Close < MA20 : RISK_OFF (추세 꺾임/조정)
         
         state = "RISK_ON"
-        reason = "KOSPI > 20일선 (상승 추세)"
+        reason = "KOSPI > 20MA (상승)"
         
         if curr['Close'] < ma20:
             state = "RISK_OFF"
-            reason = "KOSPI < 20일선 (하락 경계)"
+            reason = "KOSPI < 20MA (하락 경계)"
             
-        # (옵션) 20일 신저가 이탈 시 강력 경고
-        recent_low_20 = kospi['Low'].rolling(20).min().iloc[-2] # 전일까지의 저가
-        if curr['Close'] < recent_low_20:
-            state = "RISK_OFF"
-            reason = "KOSPI 20일 신저가 갱신 (위험)"
+        return {"state": state, "reason": reason}
+    except:
+        return {"state": "RISK_ON", "reason": "Error (Default ON)"}
 
-        return {
-            "state": state,
-            "index_price": int(curr['Close']),
-            "ma20": int(ma20),
-            "reason": reason
-        }
-        
-    except Exception as e:
-        print(f"⚠️ Market Check Failed: {e}")
-        return {"state": "RISK_ON", "reason": "Check Error"} # 에러 시 보수적 허용 or 차단 선택
-
-# 3. 데이터 수집 (종목)
-def process_market_data(theme_map):
-    print("📡 Market Data Fetching (Stocks)...")
+# ---------------------------------------------------------
+# 4. 데이터 처리 파이프라인
+# ---------------------------------------------------------
+def process_data():
+    # 1. 시장 확인
+    market = analyze_market_regime()
+    print(f"🚦 Market: {market['state']} ({market['reason']})")
+    
+    # 2. 전체 종목 수집 (Daily)
+    theme_map = load_theme_map()
     df = fdr.StockListing('KRX')
-    df.rename(columns={'Code':'Code','Name':'Name','Close':'종가','ChagesRatio':'등락률','Amount':'거래대금','Marcap':'시가총액','Sector':'KRX_Sector'}, inplace=True)
+    df.rename(columns={'Code':'Code','Name':'Name','Close':'종가','ChagesRatio':'등락률','Amount':'거래대금','Sector':'KRX_Sector'}, inplace=True)
     df.set_index('Code', inplace=True)
     
     cols = ['종가','거래대금','등락률']
-    for c in cols:
-        df[c] = pd.to_numeric(df[c], errors='coerce').fillna(0)
-        
+    for c in cols: df[c] = pd.to_numeric(df[c], errors='coerce').fillna(0)
+    
     df['CustomSector'] = 'Unclassified'
     for code, sector in theme_map.items():
         if code in df.index: df.loc[code, 'CustomSector'] = sector
-    
-    valid_mask = (df['종가'] > 1000) & (df['거래대금'] > 3_000_000_000)
-    return df[valid_mask].copy()
-
-# 4. 신호 산출 (Market Filter 적용)
-def calculate_signals(row, market_state):
-    price = int(row['종가'])
-    change = float(row['등락률'])
-    vol = int(row['거래대금'])
-    
-    signal = {
-        "ticker": row.name,
-        "name": row['Name'],
-        "sector": row['CustomSector'],
-        "state": "NO_TRADE",
-        "grade": "C",
-        "action": "WAIT",
-        "close": price,
-        "change": round(change, 2),
-        "volume": vol,
-        "entry": {"type": "-", "price": 0},
-        "stop": {"price": 0},
-        "target": {"price": 0, "rr": 0},
-        "why": []
-    }
-    
-    # [Gatekeeper] 시장이 위험하면 모든 신호 차단
-    if market_state['state'] == "RISK_OFF":
-        signal['state'] = "NO_TRADE"
-        signal['grade'] = "X"
-        signal['why'].append(f"⛔ {market_state['reason']}")
-        return signal # 여기서 바로 리턴 (분석 중단)
-
-    # --- 아래는 RISK_ON 일 때만 실행됨 ---
-
-    # Grade 산출
-    if vol >= 100_000_000_000 or (vol >= 50_000_000_000 and change >= 15.0):
-        signal["grade"] = "S"
-        signal["why"].append("S급: 압도적 거래대금")
-    elif vol >= 30_000_000_000:
-        signal["grade"] = "A"
-        signal["why"].append("A급: 메이저 수급")
-    elif vol >= 10_000_000_000:
-        signal["grade"] = "B"
-        signal["why"].append("B급: 일반 수급")
-    else:
-        signal["grade"] = "C"
-
-    # Action 산출
-    if signal["grade"] in ["S", "A", "B"] and change > 0:
-        signal["state"] = "WATCH"
         
-        target_entry = price 
-        if change > 15.0:
-            target_entry = int(price * 0.95)
-            signal["why"].append("급등 피로감 → 눌림목 대기")
-        else:
-            signal["why"].append("추세 지속형 → 진입 검토")
-
-        dist = abs(price - target_entry) / price
-        if dist <= 0.02:
-            signal["action"] = "READY"
-        else:
-            signal["action"] = "WAIT"
-
-        # Plan
-        stop_price = int(target_entry * 0.97)
-        target_price = int(target_entry * 1.09)
-        signal["stop"] = {"price": stop_price}
-        signal["target"] = {"price": target_price, "rr": 3.0}
-
-    return signal
-
-# 5. 메인 파이프라인
-def run_pipeline():
-    # 1) 시장 상태 먼저 확인
-    market_info = analyze_market_regime()
-    print(f"🚦 Market Regime: {market_info['state']} ({market_info['reason']})")
-
-    theme_map = load_theme_map()
-    df = process_market_data(theme_map)
+    # 1차 필터 (거래대금 50억 이상)
+    valid_mask = (df['종가'] > 1000) & (df['거래대금'] > 5_000_000_000)
+    df = df[valid_mask].copy()
     
-    # Sector Leaders
+    # -------------------------------------------------
+    # 3. 섹터 리더 분석
+    # -------------------------------------------------
     sector_leaders = []
     for sector, group in df.groupby('CustomSector'):
         if sector == 'Unclassified' or len(group) < 2: continue
-        score = int((group['거래대금'].mean() / 100_000_000) + (group['등락률'].mean() * 10))
-        top_ticker_names = group.sort_values(by='거래대금', ascending=False).head(3)['Name'].tolist()
+        score = int((group['거래대금'].mean()/1e8) + (group['등락률'].mean()*10))
+        top_names = group.sort_values(by='거래대금', ascending=False).head(3)['Name'].tolist()
         sector_leaders.append({
             "sector": sector, "score": score,
-            "turnover": int(group['거래대금'].sum()),
-            "topTickers": top_ticker_names
+            "turnover": int(group['거래대금'].sum()), "topTickers": top_names
         })
     sector_leaders.sort(key=lambda x: x['score'], reverse=True)
-
-    # Watchlist (Market Filter 적용)
-    watchlist_items = []
+    
+    # -------------------------------------------------
+    # 4. Watchlist 정밀 분석 (Deep Dive)
+    # -------------------------------------------------
+    watchlist = []
+    
+    # 분석 대상: 커스텀 섹터 + 거래대금 상위 30위
     target_pool = df[df['CustomSector'] != 'Unclassified'].copy()
     top_vol = df.sort_values(by='거래대금', ascending=False).head(30)
     target_pool = pd.concat([target_pool, top_vol])
     target_pool = target_pool[~target_pool.index.duplicated()]
     
+    print(f"🔬 Deep Dive Analysis for {len(target_pool)} tickers...")
+    
+    count = 0
     for code, row in target_pool.iterrows():
-        # [수정] market_info 전달
-        sig = calculate_signals(row, market_info)
+        # 상위 20개만 정밀 분석 (시간 제한)
+        if count >= 20: break 
         
-        # RISK_OFF 여도 목록에는 보여주되 상태는 NO_TRADE로 (확인용)
-        # 또는 아예 리스트에서 뺄 수도 있음. 여기서는 '보여주는 쪽' 선택
-        if sig["state"] != "NO_TRADE" or market_info['state'] == "RISK_OFF":
-             # RISK_OFF 일때는 상위 몇 개만 보여주거나 다 보여줌.
-             # 여기서는 유효한 종목만 담되, RISK_OFF면 전부 NO_TRADE로 담김.
-             if sig['volume'] > 10_000_000_000: # 최소 거래대금 필터
-                watchlist_items.append(sig)
-            
-    watchlist_items.sort(key=lambda x: x['volume'], reverse=True)
+        price = int(row['종가'])
+        vol = int(row['거래대금'])
+        change = float(row['등락률'])
+        
+        # [기본 신호]
+        item = {
+            "ticker": code, "name": row['Name'], "sector": row['CustomSector'],
+            "state": "NO_TRADE", "grade": "C", "action": "WAIT",
+            "close": price, "change": round(change, 2), "volume": vol,
+            "entry": {"price": 0}, "stop": {"price": 0}, "target": {"price": 0, "rr": 0},
+            "why": []
+        }
+        
+        # A. Market Gate
+        if market['state'] == 'RISK_OFF':
+            item['why'].append(f"⛔ {market['reason']}")
+            watchlist.append(item)
+            continue # 분석 중단
 
-    # Export
+        # B. Grade 산출
+        if vol >= 1000e8 or (vol >= 500e8 and change >= 15): 
+            item['grade'] = "S"
+            item['why'].append("S급 수급/모멘텀")
+        elif vol >= 300e8:
+            item['grade'] = "A"
+            item['why'].append("A급 메이저 수급")
+        elif vol >= 100e8:
+            item['grade'] = "B"
+        else:
+            continue # C급은 리스트 제외
+
+        if change < 0: # 음봉은 일단 제외 (상승 추세만)
+            continue
+
+        # C. Deep Dive (분봉 분석)
+        strat = get_detailed_strategy(code, price)
+        count += 1
+        time.sleep(1.0) # 야후 차단 방지
+        
+        if strat:
+            # 1. Stop 설정 (구조적 저점)
+            swing_low = strat['swing_low']
+            # 만약 Swing Low가 현재가보다 너무 멀면(-10% 이상), 타이트하게 3%로 보정
+            if price > 0 and (price - swing_low)/price > 0.1:
+                item['stop']['price'] = int(price * 0.97)
+                item['why'].append("Stop: 3% (Low 너무 멈)")
+            else:
+                item['stop']['price'] = swing_low
+                item['why'].append("Stop: 1H Swing Low")
+
+            # 2. Entry & Action 판단
+            # 조건: 15M TC 발생 or %R 과매도 탈출
+            if strat['is_tc']:
+                item['action'] = "READY"
+                item['entry']['price'] = price
+                item['why'].append("15M 구조전환(TC) 발생")
+            elif strat['is_oversold']:
+                item['action'] = "WAIT"
+                item['why'].append("%R 과매도 (반등 대기)")
+            else:
+                # 추세는 좋은데 타점이 애매함
+                item['action'] = "WAIT" 
+                item['entry']['price'] = int(price * 0.98) # 눌림 대기
+            
+            # 3. Target (R:R 1:3)
+            risk = item['entry']['price'] - item['stop']['price']
+            if risk <= 0: risk = price * 0.03 # 예외처리
+            
+            item['target']['price'] = int(item['entry']['price'] + (risk * 3))
+            item['target']['rr'] = 3.0
+            
+            # 최종 상태
+            item['state'] = "WATCH"
+
+        watchlist.append(item)
+    
+    # 정렬: Action > Grade > Volume
+    gw = {'S':3, 'A':2, 'B':1, 'C':0}
+    aw = {'READY':2, 'WAIT':1, 'NO_TRADE':0}
+    watchlist.sort(key=lambda x: (aw.get(x['action'],0), gw.get(x['grade'],0), x['volume']), reverse=True)
+    
+    return market, sector_leaders, watchlist
+
+# ---------------------------------------------------------
+# 5. 결과 저장
+# ---------------------------------------------------------
+def save_results():
+    market, sectors, watchlist = process_data()
+    
     now_str = datetime.now().isoformat()
+    
     meta = {
         "asOf": now_str,
-        "source": ["KRX", "FDR"],
-        "version": "v2.1 (Market Regime Gate)",
+        "source": ["KRX", "FDR", "YFinance"],
+        "version": "v3.0 (Blueprint Final)",
         "status": "ok",
-        "market": market_info # [New] 시장 상태 정보 추가
+        "market": market
     }
     
     with open(os.path.join(DATA_DIR, 'meta.json'), 'w', encoding='utf-8') as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'sector_leaders.json'), 'w', encoding='utf-8') as f:
-        json.dump({"asOf": now_str, "items": sector_leaders}, f, ensure_ascii=False, indent=2)
+        json.dump({"asOf": now_str, "items": sectors}, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'watchlist.json'), 'w', encoding='utf-8') as f:
-        json.dump({"asOf": now_str, "items": watchlist_items}, f, ensure_ascii=False, indent=2)
+        json.dump({"asOf": now_str, "items": watchlist}, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Pipeline Completed. Market: {market_info['state']}")
+    print(f"✅ Pipeline v3 Completed. Watchlist: {len(watchlist)}")
 
 if __name__ == "__main__":
-    run_pipeline()
+    save_results()
