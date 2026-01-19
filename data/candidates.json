@@ -1,0 +1,12 @@
+[
+  {
+    "code": "042700",
+    "name": "한미반도체",
+    "sector": "반도체",
+    "close": 142000,
+    "change_rate": 3.5,
+    "volume_ratio": 150,        // 전일 대비 거래량 비율(%)
+    "msi_action": "WATCH",      // PASS / WATCH / ENTRY
+    "tags": ["신고가", "수급주체_외인"]
+  }
+]
