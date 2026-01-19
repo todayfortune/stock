@@ -3,75 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MSI Insight</title>
+    <title>MSI Dashboard</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <style>
-        :root { --primary: #3b82f6; --bg-card: #ffffff; --text-main: #1f2937; }
-        body { background-color: #f3f4f6; color: var(--text-main); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+        /* 커스텀 스타일 */
+        body { background-color: #f9fafb; font-family: sans-serif; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
         
-        /* 헤더 스타일 */
-        header { background: #fff; padding: 15px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
-        header hgroup { margin-bottom: 0; }
-        header h1 { font-size: 1.25rem; font-weight: 800; margin: 0; color: #111; }
-        header small { font-size: 0.8rem; color: #6b7280; }
-
-        /* 섹터 카드 (가로 스크롤) */
-        .scrolling-wrapper { display: flex; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; gap: 15px; padding-bottom: 10px; margin-bottom: 20px; }
-        .sector-card { flex: 0 0 auto; width: 160px; background: #fff; border-radius: 12px; padding: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); border: 1px solid #e5e7eb; }
-        .sector-rank { font-size: 0.75rem; font-weight: bold; color: #ef4444; margin-bottom: 5px; display: block; }
-        .sector-name { font-size: 1rem; font-weight: 700; margin-bottom: 5px; display: block; }
-        .sector-score { font-size: 0.85rem; color: #6b7280; }
+        /* 로더 스타일 */
+        #loader { text-align: center; padding: 50px; }
+        .spinner { font-size: 2rem; animation: spin 1s infinite linear; display: inline-block; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
         
-        /* 종목 리스트 (세로 카드) */
-        .stock-card { background: #fff; border-radius: 16px; padding: 20px; margin-bottom: 15px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); border: 1px solid #f3f4f6; position: relative; }
+        /* 카드 스타일 */
+        .stock-card { background: white; padding: 15px; border-radius: 12px; margin-bottom: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border: 1px solid #eee; }
+        .sector-card { display: inline-block; width: 140px; background: white; padding: 10px; margin-right: 10px; border-radius: 10px; border: 1px solid #eee; flex-shrink: 0; }
+        .scrolling-wrapper { display: flex; overflow-x: auto; padding-bottom: 10px; }
         
-        /* 카드 내부 레이아웃 */
-        .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
-        .stock-name { font-size: 1.15rem; font-weight: 800; color: #111; }
-        .stock-code { font-size: 0.8rem; color: #9ca3af; font-weight: 400; margin-left: 4px; }
-        .badge { font-size: 0.7rem; padding: 4px 8px; border-radius: 6px; font-weight: 600; background: #eff6ff; color: #3b82f6; }
-        
-        .card-body { display: flex; justify-content: space-between; align-items: flex-end; }
-        .price-box { display: flex; flex-direction: column; }
-        .current-price { font-size: 1.5rem; font-weight: 800; color: #111; line-height: 1.2; }
-        .price-change { font-size: 0.9rem; font-weight: 600; margin-top: 2px; }
-        .price-up { color: #ef4444; }
-        .price-down { color: #3b82f6; }
-
-        .action-box { text-align: right; }
-        .action-btn { display: inline-block; padding: 8px 16px; border-radius: 8px; font-size: 0.85rem; font-weight: 700; text-decoration: none; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .btn-watch { background: #fff; color: #f59e0b; border: 1px solid #fcd34d; }
-        .btn-entry { background: #10b981; color: #fff; border: 1px solid #059669; }
-        
-        .volume-info { margin-top: 15px; padding-top: 15px; border-top: 1px solid #f3f4f6; font-size: 0.8rem; color: #6b7280; display: flex; justify-content: space-between; }
-
-        /* 유틸리티 */
-        .container { padding: 20px; max-width: 600px; margin: 0 auto; }
-        h3 { font-size: 1.1rem; font-weight: 700; color: #374151; margin-top: 30px; margin-bottom: 15px; }
+        /* 유틸 */
+        .text-red { color: #ef4444; font-weight: bold; }
+        .text-blue { color: #3b82f6; font-weight: bold; }
+        .badge { font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; color: white; }
+        .badge.primary { background-color: #3b82f6; }
+        .badge.secondary { background-color: #6b7280; }
+        .card-header, .card-body { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+        .stock-name { font-weight: bold; font-size: 1.1rem; }
+        .stock-code { color: #999; font-size: 0.8rem; margin-left: 5px; }
     </style>
 </head>
 <body>
 
-<header>
-    <hgroup>
-        <h1>MSI Insight 📡</h1>
-        <small id="update-time">데이터 동기화 중...</small>
-    </hgroup>
-</header>
-
 <main class="container">
-    <section>
-        <h3>🔥 오늘의 주도 섹터</h3>
-        <div class="scrolling-wrapper" id="sector-list">
-            <div class="sector-card">데이터 로딩 중...</div>
-        </div>
-    </section>
+    <hgroup>
+        <h2>MSI Dashboard 📡</h2>
+        <small id="last-updated">연결 중...</small> | <small id="market-status">-</small>
+    </hgroup>
 
-    <section>
-        <h3>👀 관심 종목 (Daily Setup)</h3>
-        <div id="candidate-list">
-            </div>
-    </section>
+    <div id="error-container" style="display:none; margin-bottom: 20px;"></div>
+
+    <div id="loader">
+        <span class="spinner">⏳</span>
+        <p>데이터 동기화 중...</p>
+    </div>
+
+    <div id="main-content" style="display:none;">
+        <section>
+            <h5>🔥 Sector Leaders</h5>
+            <div class="scrolling-wrapper" id="sector-list">
+                </div>
+        </section>
+
+        <section>
+            <h5>👀 Watchlist (Setup)</h5>
+            <div id="candidate-list">
+                </div>
+        </section>
+    </div>
 </main>
 
 <script src="assets/app.js"></script>
