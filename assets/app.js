@@ -37,25 +37,20 @@ function renderSectors(sectors) {
     });
 }
 
+// assets/app.js (renderCandidates 함수 수정)
+
 function renderCandidates(candidates) {
     const container = document.getElementById('candidate-list');
     container.innerHTML = '';
 
     candidates.forEach(stock => {
-        // 숫자 포맷팅
-        const price = Number(stock.close).toLocaleString();
-        const change = stock.change_rate > 0 ? `+${stock.change_rate}%` : `${stock.change_rate}%`;
-        const colorClass = stock.change_rate >= 0 ? 'price-up' : 'price-down';
-        const volume = Math.round(stock.volume_money / 100000000).toLocaleString(); // 억 단위
-        
-        // Action 버튼 스타일
-        let btnClass = 'btn-watch';
-        let btnText = 'WATCH';
-        
-        // 현재 로직상 100% WATCH지만, 나중에 ENTRY 부활 시 사용
-        if (stock.msi_action === 'ENTRY') {
-            btnClass = 'btn-entry';
-            btnText = 'ENTRY';
+        // ... (이전 코드 동일) ...
+        const volume = Math.round(stock.volume_money / 100000000).toLocaleString();
+
+        // 1H Zone 상태에 따른 뱃지 색상
+        let locBadge = `<span style="color:#6b7280; font-size:0.75rem;">${stock.location}</span>`;
+        if (stock.location && stock.location.includes("IN_ZONE")) {
+            locBadge = `<span style="color:#10b981; font-weight:bold; font-size:0.8rem;">⚡ ${stock.location}</span>`;
         }
 
         const html = `
@@ -70,18 +65,19 @@ function renderCandidates(candidates) {
                 
                 <div class="card-body">
                     <div class="price-box">
-                        <span class="current-price">${price}</span>
-                        <span class="price-change ${colorClass}">${change}</span>
+                        <span class="current-price">${Number(stock.close).toLocaleString()}</span>
+                        <span class="price-change ${stock.change_rate >= 0 ? 'price-up' : 'price-down'}">
+                            ${stock.change_rate > 0 ? '+' : ''}${stock.change_rate}%
+                        </span>
                     </div>
                     <div class="action-box">
-                        <span class="action-btn ${btnClass}">${btnText}</span>
+                        <span class="action-btn btn-watch">${stock.msi_action}</span>
                     </div>
                 </div>
 
                 <div class="volume-info">
-                    <span>거래대금 ${volume}억</span>
-                    <span>${stock.location || 'Setup Check'}</span>
-                </div>
+                    <span>${volume}억</span>
+                    ${locBadge} </div>
             </article>
         `;
         container.innerHTML += html;
