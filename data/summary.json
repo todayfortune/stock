@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-01-19 14:12:06",
-  "market_status": "OPEN",
+  "updated_at": "2026-01-19 14:22:35",
+  "market_status": "CLOSE",
   "top_sectors": [
+    "로봇_제조",
     "로봇_감속기",
     "자동차_완성차"
   ],
-  "data_source": "FinanceDataReader (OK)"
+  "total_analyzed": 88
 }

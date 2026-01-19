@@ -1,22 +1,232 @@
 [
   {
+    "name": "로봇_제조",
+    "msi_score": 139.96,
+    "flow_score": 50,
+    "trend_score": 29.98,
+    "breadth_score": 100.0,
+    "leader_name": "휴림로봇",
+    "leader_code": "090710",
+    "stock_count": 1
+  },
+  {
+    "name": "로봇_감속기",
     "msi_score": 109.45,
     "flow_score": 33.3,
     "trend_score": 23.06,
     "breadth_score": 100.0,
     "leader_name": "에스피지",
     "leader_code": "058610",
-    "name": "로봇_감속기",
     "stock_count": 2
   },
   {
+    "name": "자동차_완성차",
     "msi_score": 108.4,
     "flow_score": 50,
     "trend_score": 14.2,
     "breadth_score": 100.0,
     "leader_name": "현대차",
     "leader_code": "005380",
-    "name": "자동차_완성차",
     "stock_count": 2
+  },
+  {
+    "name": "로봇_서비스",
+    "msi_score": 107.58,
+    "flow_score": 20.4,
+    "trend_score": 28.57,
+    "breadth_score": 100.0,
+    "leader_name": "유진로봇",
+    "leader_code": "056080",
+    "stock_count": 1
+  },
+  {
+    "name": "로봇_협동",
+    "msi_score": 100.21,
+    "flow_score": 10.4,
+    "trend_score": 29.9,
+    "breadth_score": 100.0,
+    "leader_name": "뉴로메카",
+    "leader_code": "348340",
+    "stock_count": 1
+  },
+  {
+    "name": "2차전지_셀",
+    "msi_score": 91.04,
+    "flow_score": 43.7,
+    "trend_score": 8.65,
+    "breadth_score": 100.0,
+    "leader_name": "삼성SDI",
+    "leader_code": "006400",
+    "stock_count": 1
+  },
+  {
+    "name": "반도체_HBM",
+    "msi_score": 82.12,
+    "flow_score": 50,
+    "trend_score": 1.06,
+    "breadth_score": 100.0,
+    "leader_name": "SK하이닉스",
+    "leader_code": "000660",
+    "stock_count": 1
+  },
+  {
+    "name": "반도체_메모리",
+    "msi_score": 80.54,
+    "flow_score": 50,
+    "trend_score": 0.27,
+    "breadth_score": 100.0,
+    "leader_name": "삼성전자",
+    "leader_code": "005930",
+    "stock_count": 1
+  },
+  {
+    "name": "전력_원전/터빈",
+    "msi_score": 80.2,
+    "flow_score": 50,
+    "trend_score": 0.1,
+    "breadth_score": 100.0,
+    "leader_name": "두산에너빌리티",
+    "leader_code": "034020",
+    "stock_count": 1
+  },
+  {
+    "name": "방산_항공우주",
+    "msi_score": 67.11,
+    "flow_score": 24.8,
+    "trend_score": 6.16,
+    "breadth_score": 100.0,
+    "leader_name": "한국항공우주",
+    "leader_code": "047810",
+    "stock_count": 1
+  },
+  {
+    "name": "🔥 Market_Leader (Auto)",
+    "msi_score": 65.54,
+    "flow_score": 14.8,
+    "trend_score": 10.36,
+    "breadth_score": 100.0,
+    "leader_name": "두산로보틱스",
+    "leader_code": "454910",
+    "stock_count": 64
+  },
+  {
+    "name": "전력_변압기",
+    "msi_score": 48.12,
+    "flow_score": 15.5,
+    "trend_score": 1.32,
+    "breadth_score": 100.0,
+    "leader_name": "HD현대일렉트릭",
+    "leader_code": "267260",
+    "stock_count": 1
+  },
+  {
+    "name": "전력_중공업",
+    "msi_score": 44.62,
+    "flow_score": 12.3,
+    "trend_score": 1.16,
+    "breadth_score": 100.0,
+    "leader_name": "효성중공업",
+    "leader_code": "298040",
+    "stock_count": 1
+  },
+  {
+    "name": "자동차_부품/로봇",
+    "msi_score": 43.97,
+    "flow_score": 6.5,
+    "trend_score": 3.72,
+    "breadth_score": 100.0,
+    "leader_name": "현대위아",
+    "leader_code": "011210",
+    "stock_count": 1
+  },
+  {
+    "name": "방산_우주항공",
+    "msi_score": 42.78,
+    "flow_score": 4.2,
+    "trend_score": 4.31,
+    "breadth_score": 100.0,
+    "leader_name": "비츠로넥스텍",
+    "leader_code": "488900",
+    "stock_count": 1
+  },
+  {
+    "name": "방산_지주",
+    "msi_score": 41.13,
+    "flow_score": 10.7,
+    "trend_score": 0.24,
+    "breadth_score": 100.0,
+    "leader_name": "한화",
+    "leader_code": "000880",
+    "stock_count": 1
+  },
+  {
+    "name": "방산_우주",
+    "msi_score": 40.8,
+    "flow_score": 1.8,
+    "trend_score": 4.48,
+    "breadth_score": 100.0,
+    "leader_name": "비츠로테크",
+    "leader_code": "042370",
+    "stock_count": 1
+  },
+  {
+    "name": "디스플레이_OLED/메타",
+    "msi_score": 36.28,
+    "flow_score": 0.9,
+    "trend_score": 2.71,
+    "breadth_score": 100.0,
+    "leader_name": "선익시스템",
+    "leader_code": "171090",
+    "stock_count": 1
+  },
+  {
+    "name": "로봇_스마트팩토리",
+    "msi_score": 17.26,
+    "flow_score": 18.7,
+    "trend_score": -0.71,
+    "breadth_score": 0.0,
+    "leader_name": "포스코DX",
+    "leader_code": "022100",
+    "stock_count": 1
+  },
+  {
+    "name": "방산_지상",
+    "msi_score": 12.26,
+    "flow_score": 12.3,
+    "trend_score": 0.0,
+    "breadth_score": 0.0,
+    "leader_name": "현대로템",
+    "leader_code": "064350",
+    "stock_count": 1
+  },
+  {
+    "name": "전력_배전",
+    "msi_score": 8.55,
+    "flow_score": 8.6,
+    "trend_score": 0.0,
+    "breadth_score": 0.0,
+    "leader_name": "LS ELECTRIC",
+    "leader_code": "010120",
+    "stock_count": 1
+  },
+  {
+    "name": "반도체_장비/비전",
+    "msi_score": 2.51,
+    "flow_score": 3.2,
+    "trend_score": -0.37,
+    "breadth_score": 0.0,
+    "leader_name": "한화비전",
+    "leader_code": "489790",
+    "stock_count": 1
+  },
+  {
+    "name": "방산_방호/소재",
+    "msi_score": -1.49,
+    "flow_score": 0.4,
+    "trend_score": -0.95,
+    "breadth_score": 0.0,
+    "leader_name": "삼양컴텍",
+    "leader_code": "484590",
+    "stock_count": 1
   }
 ]
