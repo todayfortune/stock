@@ -2,7 +2,6 @@
 
 async function loadDashboard() {
     try {
-        // 1. 데이터 가져오기 (캐시 방지 적용)
         const v = new Date().getTime();
         const [summaryRes, sectorsRes, candidatesRes] = await Promise.all([
             fetch(`data/summary.json?v=${v}`),
@@ -14,11 +13,10 @@ async function loadDashboard() {
         const sectors = await sectorsRes.json();
         const candidates = await candidatesRes.json();
 
-        // 2. 상단 업데이트 시간 표시
+        // 시간 표시
         document.getElementById('update-time').innerHTML = 
             `<i class="fa-regular fa-clock"></i> Updated: ${summary.updated_at}`;
 
-        // 3. 화면 그리기
         renderSectors(sectors);
         renderCandidates(candidates);
 
@@ -33,26 +31,39 @@ function renderSectors(sectors) {
     const container = document.getElementById('sector-list');
     container.innerHTML = '';
 
-    // 상위 3개만 표시 (테마 색상 순환)
     sectors.slice(0, 3).forEach((sector, index) => {
-        // 인덱스에 따라 테마 클래스 적용 (theme-1, theme-2, theme-3)
         const themeClass = `theme-${(index % 3) + 1}`;
-        
-        // 점수 계산 (예: 100점 만점 환산 등 시각적 처리)
         const score = Math.min(sector.msi_score, 100).toFixed(0);
+        
+        // [번역]
+        // Flow: 자금력 (억 단위 환산은 이미 Python에서 됨, 여기선 점수만)
+        // Trend: 평균등락
+        // Breadth: 상승비중
 
         const html = `
             <div class="card ${themeClass}">
-                <h3>Rank ${index + 1} Sector</h3>
-                <div class="value">${sector.name}</div>
-                <div style="display:flex; justify-content:space-between; align-items:end;">
-                    <div class="sub-info">
-                        <i class="fa-solid fa-crown"></i> ${sector.leader_name}
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <h3 style="font-size:0.9rem; opacity:0.9;">Rank ${index + 1}</h3>
+                    <span style="background:rgba(255,255,255,0.2); padding:2px 8px; border-radius:10px; font-size:0.8rem;">
+                        Score ${score}
+                    </span>
+                </div>
+                <div class="value" style="margin:15px 0;">${sector.name}</div>
+                
+                <div style="font-size:0.85rem; background:rgba(0,0,0,0.1); padding:10px; border-radius:10px;">
+                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                        <span>💰 자금력</span> <strong>${sector.flow_score}점</strong>
                     </div>
-                    <div style="text-align:right;">
-                        <div style="font-size:0.8rem; opacity:0.8;">MSI Score</div>
-                        <div style="font-size:1.2rem; font-weight:bold;">${score}</div>
+                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                        <span>📈 평균등락</span> <strong>${sector.trend_score}%</strong>
                     </div>
+                    <div style="display:flex; justify-content:space-between;">
+                        <span>🌊 상승비중</span> <strong>${sector.breadth_score}%</strong>
+                    </div>
+                </div>
+                
+                <div style="margin-top:10px; font-size:0.8rem; text-align:right;">
+                    👑 대장: ${sector.leader_name}
                 </div>
             </div>
         `;
@@ -65,14 +76,21 @@ function renderCandidates(candidates) {
     tbody.innerHTML = '';
 
     candidates.forEach(stock => {
-        // 등락률 색상 처리
         const isUp = stock.change_rate > 0;
         const colorClass = isUp ? 'price-up' : 'price-down';
         const sign = isUp ? '+' : '';
-        const iconInitial = stock.name.charAt(0); // 종목명 첫 글자 아이콘
-
-        // 거래대금 억 단위 변환
+        const iconInitial = stock.name.charAt(0);
         const vol = (stock.volume_money / 100000000).toFixed(0);
+
+        // [번역 로직] 영어 상태값 -> 한국어 설명
+        let timingKr = stock.timing;
+        if (stock.timing.includes("Wait MSS")) timingKr = "⏱️ 눌림목 대기 (Wait MSS)";
+        else if (stock.timing.includes("Strong Momentum")) timingKr = "🚀 강한 시세 (급등)";
+        else if (stock.timing.includes("MSS Confirmed")) timingKr = "✅ 타점 확인 (진입 가능)";
+
+        let locationKr = stock.location;
+        if (stock.location.includes("In Zone")) locationKr = "📍 수급 존 내부";
+        else if (stock.location.includes("Approaching")) locationKr = "📍 존 접근 중";
 
         const row = `
             <tr>
@@ -81,24 +99,26 @@ function renderCandidates(candidates) {
                         <div class="stock-icon">${iconInitial}</div>
                         <div>
                             <div style="font-weight:bold;">${stock.name}</div>
-                            <div style="font-size:0.8rem; color:#888;">${stock.code}</div>
+                            <div style="font-size:0.8rem; color:#888;">${stock.code} | ${stock.sector}</div>
                         </div>
                     </div>
                 </td>
-                <td>
-                    <span style="background:#f1f2f6; padding:4px 8px; border-radius:6px; font-size:0.8rem; color:#555;">
-                        ${stock.sector}
-                    </span>
-                </td>
-                <td style="font-weight:600;">${Number(stock.close).toLocaleString()}</td>
-                <td class="${colorClass}">${sign}${stock.change_rate}%</td>
                 <td>
                     <span class="status-badge status-${stock.msi_action}">
                         ${stock.msi_action}
                     </span>
                 </td>
                 <td>
-                    <div style="font-size:0.8rem; font-weight:bold; color:#6c5ce7;">${vol}억</div>
+                    <div style="font-size:0.85rem; color:#555;">${locationKr}</div>
+                    <div style="font-size:0.8rem; color:#888;">${timingKr}</div>
+                </td>
+                <td class="${colorClass}">
+                    ${Number(stock.close).toLocaleString()}원
+                    <br>
+                    <small>(${sign}${stock.change_rate}%)</small>
+                </td>
+                <td>
+                    <div style="font-weight:bold; color:#6c5ce7;">${vol}억</div>
                 </td>
             </tr>
         `;
@@ -106,5 +126,4 @@ function renderCandidates(candidates) {
     });
 }
 
-// 실행
 loadDashboard();
