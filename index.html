@@ -3,108 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MSI Dashboard</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>MSI Pro Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
     <style>
-        /* 커스텀 스타일 */
-        body { background-color: #f9fafb; font-family: sans-serif; }
-        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        body { font-family: 'Inter', sans-serif; background-color: #f4f6f9; overflow-x: hidden; }
         
-        /* 로더 스타일 */
-        #loader { text-align: center; padding: 50px; }
-        .spinner { font-size: 2rem; animation: spin 1s infinite linear; display: inline-block; }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        /* 사이드바 스타일 */
+        #sidebar-wrapper { min-height: 100vh; margin-left: -15rem; transition: margin .25s ease-out; background-color: #212529; }
+        #sidebar-wrapper .sidebar-heading { padding: 1.5rem 1.25rem; font-size: 1.2rem; font-weight: 800; color: white; border-bottom: 1px solid #343a40; }
+        #sidebar-wrapper .list-group-item { background-color: #212529; color: #adb5bd; border: none; padding: 1rem 1.25rem; }
+        #sidebar-wrapper .list-group-item:hover { background-color: #343a40; color: #fff; cursor: pointer; }
+        #sidebar-wrapper .list-group-item.active { background-color: #0d6efd; color: #fff; font-weight: bold; }
+        @media (min-width: 768px) { #sidebar-wrapper { margin-left: 0; } }
+
+        /* 카드 및 테이블 스타일 */
+        .card { border: none; border-radius: 8px; box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075); margin-bottom: 20px; }
+        .card-header { background-color: #fff; border-bottom: 1px solid #edf2f9; font-weight: 700; padding: 1rem; }
+        .table th { font-size: 0.85rem; text-transform: uppercase; color: #6c757d; font-weight: 600; border-top: none; }
+        .table td { vertical-align: middle; font-size: 0.95rem; font-weight: 500; }
         
-        /* 카드 스타일 */
-        .stock-card { background: white; padding: 15px; border-radius: 12px; margin-bottom: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border: 1px solid #eee; }
-        .sector-card { display: inline-block; width: 140px; background: white; padding: 10px; margin-right: 10px; border-radius: 10px; border: 1px solid #eee; flex-shrink: 0; }
-        .scrolling-wrapper { display: flex; overflow-x: auto; padding-bottom: 10px; }
+        /* 금융 색상 유틸 */
+        .text-up { color: #198754 !important; } /* 초록 (상승) */
+        .text-down { color: #dc3545 !important; } /* 빨강 (하락) */
+        .bg-up-light { background-color: #d1e7dd; color: #0f5132; }
+        .bg-down-light { background-color: #f8d7da; color: #842029; }
+
+        /* 배지 스타일 */
+        .badge-grade-S { background-color: #6610f2; color: white; }
+        .badge-grade-A { background-color: #0d6efd; color: white; }
+        .badge-action-READY { background-color: #198754; color: white; animation: pulse 2s infinite; }
+        .badge-action-WAIT { background-color: #ffc107; color: #000; }
         
-        /* 유틸 */
-        .text-red { color: #ef4444; font-weight: bold; }
-        .text-blue { color: #3b82f6; font-weight: bold; }
-        .badge { font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; color: white; }
-        .badge.primary { background-color: #3b82f6; }
-        .badge.secondary { background-color: #6b7280; }
-        .card-header, .card-body { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
-        .stock-name { font-weight: bold; font-size: 1.1rem; }
-        .stock-code { color: #999; font-size: 0.8rem; margin-left: 5px; }
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.6; } 100% { opacity: 1; } }
     </style>
 </head>
 <body>
 
-<main class="container">
-    <hgroup>
-        <h2>MSI Dashboard 📡</h2>
-        <small id="last-updated">연결 중...</small> | <small id="market-status">-</small>
-    </hgroup>
-
-    <div id="error-container" style="display:none; margin-bottom: 20px;"></div>
-
-    <div id="loader">
-        <span class="spinner">⏳</span>
-        <p>데이터 동기화 중...</p>
+<div class="d-flex" id="wrapper">
+    <div class="border-end" id="sidebar-wrapper">
+        <div class="sidebar-heading"><i class="fas fa-chart-line me-2"></i>MSI Pro</div>
+        <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action active"><i class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-list me-2"></i>Watchlist</a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-history me-2"></i>Journal</a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-cog me-2"></i>Settings</a>
+        </div>
     </div>
 
-    <div id="main-content" style="display:none;">
-        <section>
-            <h5>🔥 Sector Leaders</h5>
-            <div class="scrolling-wrapper" id="sector-list">
+    <div id="page-content-wrapper" style="width: 100%;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom px-4">
+            <div class="d-flex align-items-center w-100 justify-content-between">
+                <div>
+                    <span id="market-regime-badge" class="badge bg-secondary me-2">Loading...</span>
+                    <small class="text-muted" id="last-updated">업데이트 확인 중...</small>
                 </div>
-        </section>
+                <button class="btn btn-sm btn-outline-primary" onclick="location.reload()"><i class="fas fa-sync-alt"></i></button>
+            </div>
+        </nav>
 
-        <section>
-            <h5>👀 Watchlist (Setup)</h5>
-            <div id="candidate-list">
-                </div>
-        </section>
-    </div>
-
-</main>
-
-<dialog id="modal-detail">
-    <article style="max-width: 500px; width: 100%;">
-        <header>
-            <button aria-label="Close" rel="prev" onclick="closeModal()" style="float:right;"></button>
-            <h4 id="modal-title" style="margin:0; font-weight:800;">종목명</h4>
-            <small id="modal-subtitle" style="color:#666;">코드 | 섹터</small>
-        </header>
-        
-        <div class="modal-body">
-            <div style="margin-bottom: 20px;">
-                <h6 style="font-weight:700; color:#374151; border-bottom:2px solid #e5e7eb; padding-bottom:5px;">🧐 Selection Logic (Why?)</h6>
-                <ul id="modal-why-list" style="font-size: 0.9rem; padding-left: 20px; color:#4b5563;">
-                    </ul>
+        <div class="container-fluid px-4 py-4">
+            <div class="row g-3 mb-4" id="sector-row">
+                <div class="col-12"><div class="alert alert-light">데이터 로딩 중...</div></div>
             </div>
 
-            <div style="background:#f3f4f6; padding:15px; border-radius:10px; border:1px solid #e5e7eb;">
-                <h6 style="font-weight:700; color:#374151; margin-bottom:10px;">📉 Trading Plan</h6>
-                
-                <div class="grid" style="text-align:center; font-size:0.9rem;">
-                    <div>
-                        <small style="display:block; color:#6b7280;">Entry (진입)</small>
-                        <strong id="modal-entry" style="color:#2563eb;">-</strong>
-                    </div>
-                    <div>
-                        <small style="display:block; color:#6b7280;">Stop (손절)</small>
-                        <strong id="modal-stop" style="color:#dc2626;">-</strong>
-                    </div>
-                    <div>
-                        <small style="display:block; color:#6b7280;">Target (목표)</small>
-                        <strong id="modal-target" style="color:#16a34a;">-</strong>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card h-100">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span><i class="fas fa-binoculars me-2"></i>Daily Watchlist</span>
+                            <span class="badge bg-light text-dark border">Top Candidates</span>
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="table-responsive">
+                                <table class="table table-hover mb-0">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>Symbol</th>
+                                            <th>Price</th>
+                                            <th>Chg%</th>
+                                            <th>Grade</th>
+                                            <th>Action</th>
+                                            <th>Signal (Why)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="watchlist-body">
+                                        </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div style="text-align:center; margin-top:10px; font-size:0.8rem; color:#6b7280;">
-                    예상 손익비 (R:R) : <span id="modal-rr" style="font-weight:bold; color:#111;">-</span>
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header"><i class="fas fa-info-circle me-2"></i>Signal Detail</div>
+                        <div class="card-body" id="detail-panel">
+                            <p class="text-muted text-center py-5">
+                                <i class="fas fa-mouse-pointer mb-3" style="font-size: 2rem;"></i><br>
+                                좌측 리스트에서 종목을 클릭하면<br>상세 전략이 표시됩니다.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="card mt-3">
+                        <div class="card-header"><i class="fas fa-robot me-2"></i>System Status</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0 font-monospace" style="font-size: 0.85rem;">
+                                <li class="d-flex justify-content-between"><span>Source:</span> <strong>KRX/FDR</strong></li>
+                                <li class="d-flex justify-content-between"><span>Logic:</span> <strong>MSI v3.0</strong></li>
+                                <li class="d-flex justify-content-between"><span>Gate:</span> <strong>KOSPI 20MA</strong></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <footer>
-            <button role="button" class="secondary" onclick="closeModal()" style="width:100%;">닫기</button>
-        </footer>
-    </article>
-</dialog>
+<div class="modal fade" id="mobileModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mobileModalLabel">Detail</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="mobile-detail-body"></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>
