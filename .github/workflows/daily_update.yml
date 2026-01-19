@@ -1,0 +1,41 @@
+name: Daily MSI Data Collection
+
+# 언제 실행할까?
+on:
+  schedule:
+    # 한국 시간 15:50 (UTC 06:50) - 장 마감 후 자동 실행
+    - cron: '50 6 * * 1-5'
+  workflow_dispatch: # 수동으로 버튼 눌러서 실행 가능하게 함
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 저장소 체크아웃 (코드 가져오기)
+      uses: actions/checkout@v3
+
+    - name: 파이썬 설정 (3.9 버전)
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: 라이브러리 설치
+      run: |
+        pip install pandas numpy pykrx requests
+
+    - name: MSI 수집기 실행 (데이터 긁어오기)
+      run: |
+        python scripts/fetch_krx.py
+
+    - name: 결과 저장 (Commit & Push)
+      run: |
+        git config --global user.name "MSI-Bot"
+        git config --global user.email "actions@github.com"
+        git add data/*.json
+        # 변경사항이 있을 때만 커밋 (에러 방지)
+        git commit -m "📈 Update MSI Data: $(date +'%Y-%m-%d')" || exit 0
+        git push
