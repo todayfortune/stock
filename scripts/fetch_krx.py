@@ -1,8 +1,11 @@
 import os
 import json
+import time
 import pandas as pd
+import numpy as np
 import FinanceDataReader as fdr
-from datetime import datetime
+import yfinance as yf
+from datetime import datetime, timedelta
 
 # ---------------------------------------------------------
 # 1. 설정
@@ -21,175 +24,177 @@ def load_theme_map():
     return {}
 
 # ---------------------------------------------------------
-# 2. 데이터 수집 (전 종목 스캔)
+# 2. 1차 수집: Daily 전체 스캔 (FDR)
 # ---------------------------------------------------------
 def fetch_market_data():
-    print("📡 KRX 전 종목 스캔 중 (FDR)...")
-    # 코스피, 코스닥 전체 로딩
+    print("📡 1단계: KRX 전 종목 일봉 스캔 (Selection)...")
     df = fdr.StockListing('KRX')
-    
-    # 컬럼 정리
-    df.rename(columns={
-        'Code': 'Code', 'Name': 'Name', 'Close': '종가',
-        'ChagesRatio': '등락률', 'Amount': '거래대금', 
-        'Marcap': '시가총액', 'Sector': 'KRX_Sector'
-    }, inplace=True)
-    
+    df.rename(columns={'Code':'Code','Name':'Name','Close':'종가','ChagesRatio':'등락률','Amount':'거래대금','Marcap':'시가총액','Sector':'KRX_Sector'}, inplace=True)
     df.set_index('Code', inplace=True)
     
-    # 숫자형 변환 및 결측치 제거
-    cols = ['종가', '거래대금', '등락률']
-    for col in cols:
-        df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
+    # 숫자형 변환
+    cols = ['종가','거래대금','등락률']
+    for c in cols:
+        df[c] = pd.to_numeric(df[c], errors='coerce').fillna(0)
         
     return df
 
 # ---------------------------------------------------------
-# 3. 전략 분석 (개별 종목)
+# 3. 2차 수집: 분봉 정밀 분석 (YFinance) - Top N만 실행
 # ---------------------------------------------------------
-def analyze_strategy(row):
-    price = row['종가']
-    change = row['등락률']
-    volume_money = row['거래대금']
-    
-    action = "PASS"
-    location = "OUT"
-    timing = "-"
-    plan = "-"
-    
-    # [조건 1] 거래대금이 300억 이상 터지면서 상승 중인가? (수급 유입)
-    if volume_money >= 30_000_000_000 and change > 0:
-        action = "WATCH"
-        location = "In Zone (Daily)"
-        timing = "Wait MSS"
+def check_1h_logic(code):
+    """
+    야후 파이낸스에서 60분봉을 가져와서
+    1. 최근 Displacement(거래량 실린 장대양봉) 찾기 (1H Zone)
+    2. 현재 위치 판별 (In Zone / Above / Below)
+    """
+    try:
+        # 야후 파이낸스 코드는 뒤에 .KS(코스피) or .KQ(코스닥) 필요
+        # FDR 정보로는 구분이 어려우니 둘 다 시도하거나, 에러나면 패스
+        ticker = f"{code}.KS" 
         
-        # [조건 2] 10% 이상 급등하거나, 거래대금이 1000억 이상이면 강력 신호
-        if change >= 10.0 or volume_money >= 100_000_000_000:
-            action = "ENTRY" # (실제론 승인 대기)
-            timing = "Strong Momentum"
-            # 가상 플랜 수립
-            stop = int(price * 0.97)
-            target = int(price * 1.09)
-            plan = f"Stop: {stop:,} / Target: {target:,}"
+        # 최근 5일치 60분봉 (1h)
+        df_1h = yf.download(ticker, period="5d", interval="1h", progress=False)
+        
+        if df_1h.empty:
+            ticker = f"{code}.KQ" # 코스닥 시도
+            df_1h = yf.download(ticker, period="5d", interval="1h", progress=False)
             
-    elif volume_money >= 10_000_000_000 and change > 0:
-        action = "WATCH"
-        location = "Approaching"
+        if df_1h.empty: return "No Data", "-"
+
+        # 데이터 정리 (MultiIndex 컬럼 문제 해결)
+        if isinstance(df_1h.columns, pd.MultiIndex):
+            df_1h.columns = df_1h.columns.get_level_values(0)
+            
+        # --- 로직: 1H Displacement (간이 OB) 찾기 ---
+        # 조건: 양봉이면서 + 몸통이 평균보다 크고 + 거래량이 평균의 2배 이상
+        df_1h['Body'] = df_1h['Close'] - df_1h['Open']
+        df_1h['Vol_MA'] = df_1h['Volume'].rolling(10).mean()
         
-    return action, location, timing, plan
+        # 최근 캔들부터 역순으로 탐색
+        ob_low = 0
+        ob_high = 0
+        found = False
+        
+        for i in range(len(df_1h)-2, 0, -1): # 마지막 봉은 진행 중일 수 있으니 제외
+            row = df_1h.iloc[i]
+            if row['Body'] > 0 and row['Volume'] > (row['Vol_MA'] * 1.5): # 조건 완화 (1.5배)
+                # 발견! 양봉의 시가~저가 부근을 Zone으로 설정 (Bullish OB 약식)
+                ob_high = row['Open']
+                ob_low = row['Low']
+                found = True
+                break
+        
+        if not found:
+            return "No Zone", "-"
+            
+        # 현재가 위치 확인
+        curr_price = df_1h.iloc[-1]['Close']
+        
+        if ob_low <= curr_price <= (ob_high * 1.02): # Zone 내부 (약간 위까지 허용)
+            return "IN_ZONE (Buy)", f"{int(ob_low)}~{int(ob_high)}"
+        elif curr_price < ob_low:
+            return "Broken (Zone 이탈)", f"{int(ob_low)}"
+        else:
+            dist = round((curr_price - ob_high) / ob_high * 100, 1)
+            return "Above Zone", f"+{dist}% 위"
+
+    except Exception as e:
+        return "Error", str(e)
 
 # ---------------------------------------------------------
-# 4. 데이터 가공 (수동 맵 + 자동 발굴)
+# 4. 메인 처리
 # ---------------------------------------------------------
-def process_data(df, theme_map):
-    print("⚙️ 데이터 필터링 및 자동 발굴 중...")
+def process_and_save(df, theme_map):
+    print("⚙️ 데이터 가공 및 1H 정밀 분석 중...")
     
-    # 섹터 초기화
+    # 1. 섹터 매핑 및 필터링
     df['sector'] = 'Unclassified'
+    for code, sector in theme_map.items():
+        if code in df.index: df.loc[code, 'sector'] = sector
+            
+    # 필터: 동전주 제외, 거래대금 30억 이상 (조건 완화)
+    mask = (df['종가'] > 1000) & (df['거래대금'] > 3_000_000_000)
+    df_clean = df[mask].copy()
     
-    # [Track A] 내 관심 종목 (theme_map) 매핑
-    for code, sector_name in theme_map.items():
-        if code in df.index:
-            df.loc[code, 'sector'] = sector_name
-
-    # [Track B] 자동 발굴 (Auto-Discovery)
-    # 조건: 1) 테마맵에 없는데 2) 거래대금 500억 이상 3) 3% 이상 상승 4) 동전주 아님
-    mask_auto = (
-        (df['sector'] == 'Unclassified') & 
-        (df['거래대금'] >= 50_000_000_000) & 
-        (df['등락률'] >= 3.0) &
-        (df['종가'] > 1000)
-    )
-    
-    # 발굴된 종목에 '🔥 Market Leader' 섹터 부여
-    df.loc[mask_auto, 'sector'] = '🔥 Market_Leader (Auto)'
-    
-    # ------------------------------------------------
-    # 공통: 유효한 데이터만 남기기 (관심종목 OR 발굴종목)
-    # ------------------------------------------------
-    mask_valid = (df['sector'] != 'Unclassified')
-    df_clean = df[mask_valid].copy()
-    
-    # 1. 섹터 통계 계산
+    # 2. 섹터 통계 (기존 로직)
     sector_stats = []
     for sector, group in df_clean.groupby('sector'):
-        if len(group) < 1: continue
+        if sector == 'Unclassified' or len(group) < 2: continue
         
-        avg_flow = group['거래대금'].mean()
-        avg_change = group['등락률'].mean()
-        up_count = len(group[group['등락률'] > 0])
-        total = len(group)
-        breadth = (up_count / total) * 100
-        
-        # 점수 계산
-        flow_score = min(avg_flow / 10_000_000_000, 50)
-        msi_score = flow_score + (breadth * 0.3) + (avg_change * 2)
-        
-        # 대장주
+        score = (group['거래대금'].mean() / 100_000_000) + (group['등락률'].mean() * 10)
         leader = group.sort_values(by='거래대금', ascending=False).iloc[0]
         
         sector_stats.append({
             "name": sector,
-            "msi_score": round(msi_score, 2),
-            "flow_score": round(flow_score, 1),
-            "trend_score": round(avg_change, 2),
-            "breadth_score": round(breadth, 1),
-            "leader_name": leader['Name'],
-            "leader_code": leader.name,
-            "stock_count": total
+            "msi_score": round(score, 1),
+            "leader_name": leader['Name']
+        })
+    sector_stats.sort(key=lambda x: x['msi_score'], reverse=True)
+
+    # 3. 후보군 선정 (Selection)
+    # 조건: 커스텀 섹터이거나, 거래대금이 300억 이상인 종목
+    candidates = []
+    # 타겟: 커스텀 섹터 종목 + 전체 시장에서 거래대금 상위 10개
+    target_pool = df_clean[df_clean['sector'] != 'Unclassified'].copy()
+    top_volume = df_clean.sort_values(by='거래대금', ascending=False).head(10)
+    target_pool = pd.concat([target_pool, top_volume])
+    target_pool = target_pool[~target_pool.index.duplicated()] # 중복 제거
+    
+    # 4. [Deep Dive] Top 종목들에 대해 1H 분석 실행
+    print(f"🔬 {len(target_pool)}개 종목 정밀 분석(Deep Dive) 시작...")
+    
+    analyzed_count = 0
+    for code, row in target_pool.iterrows():
+        # 너무 많이 하면 타임아웃 되므로 상위 15개만 분석
+        if analyzed_count >= 15: break 
+        if row['등락률'] < 0: continue # 하락 종목은 굳이 분석 안 함 (WATCH 대상 아님)
+
+        # 1H 로직 체크
+        zone_status, zone_price = check_1h_logic(code)
+        
+        # Action 결정
+        action = "WATCH" # 기본
+        if "IN_ZONE" in zone_status:
+            action = "READY (Zone)" # 1H 존 도달!
+        elif "No Zone" in zone_status:
+            action = "Wait Setup"
+        elif "Broken" in zone_status:
+            action = "PASS"
+
+        candidates.append({
+            "code": code,
+            "name": row['Name'],
+            "sector": row['sector'],
+            "close": int(row['종가']),
+            "change_rate": round(row['등락률'], 2),
+            "volume_money": int(row['거래대금']),
+            "msi_action": action,
+            "location": zone_status, # 1H 분석 결과
+            "zone_price": zone_price
         })
         
-    sector_stats.sort(key=lambda x: x['msi_score'], reverse=True)
-    
-    # 2. 후보 종목 리스트 (Candidates)
-    candidates = []
-    for code, row in df_clean.iterrows():
-        action, loc, time, plan = analyze_strategy(row)
-        
-        # PASS가 아니면 리스트에 추가
-        if action != "PASS":
-            candidates.append({
-                "code": code,
-                "name": row['Name'],
-                "sector": row['sector'], # Auto인 경우 '🔥 Market_Leader'로 뜸
-                "close": int(row['종가']),
-                "change_rate": round(row['등락률'], 2),
-                "volume_money": int(row['거래대금']),
-                "msi_action": action,
-                "location": loc,
-                "timing": time,
-                "plan": plan
-            })
-            
+        analyzed_count += 1
+        time.sleep(0.5) # API 매너 호출
+
+    # 결과 저장
     candidates.sort(key=lambda x: x['volume_money'], reverse=True)
     
-    return sector_stats, candidates, len(df_clean)
-
-# ---------------------------------------------------------
-# 5. 저장
-# ---------------------------------------------------------
-def save_results(sectors, candidates, total_count):
-    print("💾 JSON 저장...")
-    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
     summary = {
-        "updated_at": now_str,
-        "market_status": "CLOSE",
-        "top_sectors": [s['name'] for s in sectors[:3]],
-        "total_analyzed": total_count
+        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "top_sectors": [s['name'] for s in sector_stats[:3]]
     }
     
     with open(os.path.join(DATA_DIR, 'summary.json'), 'w', encoding='utf-8') as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'sectors.json'), 'w', encoding='utf-8') as f:
-        json.dump(sectors, f, ensure_ascii=False, indent=2)
+        json.dump(sector_stats, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'candidates.json'), 'w', encoding='utf-8') as f:
         json.dump(candidates, f, ensure_ascii=False, indent=2)
         
-    print(f"✅ 완료: 섹터 {len(sectors)}개 / 후보 {len(candidates)}개 (자동발굴 포함)")
+    print(f"✅ 완료! 후보 {len(candidates)}개 저장됨.")
 
 if __name__ == "__main__":
     theme_map = load_theme_map()
     df = fetch_market_data()
-    sectors, candidates, total = process_data(df, theme_map)
-    save_results(sectors, candidates, total)
+    process_and_save(df, theme_map)
