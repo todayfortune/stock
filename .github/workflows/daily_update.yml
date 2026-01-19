@@ -29,6 +29,10 @@ jobs:
       run: |
         python scripts/fetch_krx.py
 
+        - name: 라이브러리 설치
+      run: |
+        pip install finance-datareader yfinance pandas numpy requests lxml
+
     - name: 결과 저장 (Commit & Push)
       run: |
         git config --global user.name "MSI-Bot"
