@@ -9,12 +9,12 @@ const state = {
     watchlist: []
 };
 
-// 초기화
+// 1. 초기화
 async function initDashboard() {
     renderLoading(true);
     
     try {
-        // 병렬 요청으로 속도 향상
+        // 데이터 가져오기
         const [metaRes, sectorsRes, watchRes] = await Promise.all([
             fetch('data/meta.json'),
             fetch('data/sector_leaders.json'),
@@ -22,7 +22,7 @@ async function initDashboard() {
         ]);
 
         if (!metaRes.ok || !sectorsRes.ok || !watchRes.ok) {
-            throw new Error("데이터 파일을 찾을 수 없습니다. (GitHub Actions 확인 필요)");
+            throw new Error("데이터 파일을 찾을 수 없습니다.");
         }
 
         state.meta = await metaRes.json();
@@ -30,59 +30,26 @@ async function initDashboard() {
         state.sectors = sectorData.items || [];
         const watchData = await watchRes.json();
         state.watchlist = watchData.items || [];
-        
-        // 데이터가 비어있을 경우 처리
-        if (state.watchlist.length === 0) {
-            throw new Error("수집된 데이터가 없습니다. (장 마감 후 업데이트 대기)");
-        }
 
         renderDashboard();
 
     } catch (err) {
-        state.error = err.message;
         renderError(err.message);
     } finally {
-        state.loading = false;
         renderLoading(false);
     }
 }
 
-// 렌더링: 로딩 상태
-function renderLoading(isLoading) {
-    const loader = document.getElementById('loader');
-    const content = document.getElementById('main-content');
-    
-    if (isLoading) {
-        loader.style.display = 'block';
-        content.style.display = 'none';
-    } else {
-        loader.style.display = 'none';
-        // 에러가 없을 때만 콘텐츠 표시
-        if (!state.error) content.style.display = 'block';
-    }
-}
-
-// 렌더링: 에러 상태
-function renderError(msg) {
-    const container = document.getElementById('error-container');
-    container.style.display = 'block';
-    container.innerHTML = `
-        <article style="background-color: #fee2e2; color: #991b1b; border: 1px solid #f87171; padding: 20px; border-radius: 8px;">
-            <strong>⚠️ 시스템 알림</strong><br>
-            ${msg}<br>
-            <small>잠시 후 다시 접속하거나, GitHub Actions 로그를 확인해주세요.</small>
-        </article>
-    `;
-}
-
-// 렌더링: 메인 대시보드
+// 2. 화면 그리기
 function renderDashboard() {
-    // 1. 메타 정보
-    const updateTime = new Date(state.meta.asOf).toLocaleString('ko-KR');
-    document.getElementById('last-updated').innerText = `Last Updated: ${updateTime}`;
-    document.getElementById('market-status').innerText = `Status: ${state.meta.status}`;
+    // 업데이트 시간
+    if(state.meta) {
+        const updateTime = new Date(state.meta.asOf).toLocaleString('ko-KR');
+        document.getElementById('last-updated').innerText = `Last Updated: ${updateTime}`;
+        document.getElementById('market-status').innerText = `Status: ${state.meta.status}`;
+    }
 
-    // 2. 섹터 리스트
+    // 섹터 리스트
     const sectorContainer = document.getElementById('sector-list');
     sectorContainer.innerHTML = '';
     
@@ -100,32 +67,20 @@ function renderDashboard() {
         sectorContainer.innerHTML += html;
     });
 
-    // 3. 워치리스트
+    // 워치리스트 (클릭 이벤트 추가됨!)
     const watchContainer = document.getElementById('candidate-list');
     watchContainer.innerHTML = '';
 
-    state.watchlist.forEach(item => {
+    state.watchlist.forEach((item, index) => {
         const price = item.close.toLocaleString();
         const vol = Math.round(item.volume / 100000000).toLocaleString();
         const changeClass = item.change > 0 ? 'text-red' : 'text-blue';
         const changeSign = item.change > 0 ? '+' : '';
-        
-        // Why 뱃지 생성
-        const whyBadges = item.why.map(w => `<span class="badge secondary">${w}</span>`).join(' ');
+        const whyBadges = item.why.slice(0, 2).map(w => `<span class="badge secondary">${w}</span>`).join(' ');
 
-        // Plan 정보 (Entry/Stop/Target)
-        const planHtml = `
-            <div style="font-size: 0.75rem; color: #666; margin-top: 5px;">
-                <strong>Plan:</strong> 
-                Entry ${item.entry.price.toLocaleString()} | 
-                Stop <span style="color:red">${item.stop.price.toLocaleString()}</span> | 
-                Target <span style="color:green">${item.target.price.toLocaleString()}</span> 
-                (R:R ${item.target.rr})
-            </div>
-        `;
-
+        // onclick="openModal(${index})" 추가됨
         const html = `
-            <article class="stock-card">
+            <article class="stock-card" onclick="openModal(${index})" style="cursor:pointer;">
                 <div class="card-header">
                     <div>
                         <span class="stock-name">${item.name}</span>
@@ -142,9 +97,8 @@ function renderDashboard() {
                         <span style="font-size:0.8rem; color:#666;">거래대금 ${vol}억</span>
                     </div>
                 </div>
-                ${planHtml}
                 <div style="margin-top: 10px;">
-                    ${whyBadges}
+                    ${whyBadges} <span style="font-size:0.8rem; color:#aaa;">+더보기</span>
                 </div>
             </article>
         `;
@@ -152,5 +106,58 @@ function renderDashboard() {
     });
 }
 
-// 실행
+// 3. 모달(팝업) 기능
+function openModal(index) {
+    const item = state.watchlist[index];
+    if (!item) return;
+
+    // 제목 설정
+    document.getElementById('modal-title').innerText = item.name;
+    document.getElementById('modal-subtitle').innerText = `${item.ticker} | ${item.sector}`;
+
+    // Why 리스트 채우기
+    const whyList = document.getElementById('modal-why-list');
+    whyList.innerHTML = '';
+    item.why.forEach(reason => {
+        const li = document.createElement('li');
+        li.innerText = reason;
+        whyList.appendChild(li);
+    });
+
+    // Plan 채우기
+    document.getElementById('modal-entry').innerText = item.entry.price.toLocaleString();
+    document.getElementById('modal-stop').innerText = item.stop.price.toLocaleString();
+    document.getElementById('modal-target').innerText = item.target.price.toLocaleString();
+    document.getElementById('modal-rr').innerText = `1 : ${item.target.rr}`;
+
+    // 모달 열기
+    const modal = document.getElementById('modal-detail');
+    modal.setAttribute('open', true);
+}
+
+function closeModal() {
+    const modal = document.getElementById('modal-detail');
+    modal.removeAttribute('open');
+}
+
+// 유틸리티
+function renderLoading(isLoading) {
+    const loader = document.getElementById('loader');
+    const content = document.getElementById('main-content');
+    if (isLoading) {
+        loader.style.display = 'block';
+        content.style.display = 'none';
+    } else {
+        loader.style.display = 'none';
+        content.style.display = 'block';
+    }
+}
+
+function renderError(msg) {
+    const container = document.getElementById('error-container');
+    container.style.display = 'block';
+    container.innerText = `⚠️ ${msg}`;
+}
+
+// 초기화 실행
 document.addEventListener('DOMContentLoaded', initDashboard);
