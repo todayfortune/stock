@@ -6,7 +6,10 @@
     "close": 149300,
     "change_rate": 0.27,
     "volume_money": 3381546209135,
-    "msi_action": "WATCH"
+    "msi_action": "WATCH",
+    "location": "IN_ZONE (Daily)",
+    "timing": "Wait MSS",
+    "plan": "-"
   },
   {
     "code": "005380",
@@ -15,7 +18,10 @@
     "close": 480000,
     "change_rate": 16.22,
     "volume_money": 2768643471750,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 465,600 / Target: 523,200"
   },
   {
     "code": "000660",
@@ -24,7 +30,10 @@
     "close": 764000,
     "change_rate": 1.06,
     "volume_money": 2588923615000,
-    "msi_action": "WATCH"
+    "msi_action": "WATCH",
+    "location": "IN_ZONE (Daily)",
+    "timing": "Wait MSS",
+    "plan": "-"
   },
   {
     "code": "034020",
@@ -33,7 +42,10 @@
     "close": 95400,
     "change_rate": 0.1,
     "volume_money": 808269285350,
-    "msi_action": "WATCH"
+    "msi_action": "WATCH",
+    "location": "IN_ZONE (Daily)",
+    "timing": "Wait MSS",
+    "plan": "-"
   },
   {
     "code": "090710",
@@ -42,7 +54,10 @@
     "close": 16650,
     "change_rate": 29.98,
     "volume_money": 777908852840,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 16,150 / Target: 18,148"
   },
   {
     "code": "000270",
@@ -51,7 +66,10 @@
     "close": 169500,
     "change_rate": 12.18,
     "volume_money": 660978476900,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 164,415 / Target: 184,755"
   },
   {
     "code": "058610",
@@ -60,7 +78,10 @@
     "close": 112600,
     "change_rate": 21.86,
     "volume_money": 508330648450,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 109,222 / Target: 122,734"
   },
   {
     "code": "006400",
@@ -69,7 +90,10 @@
     "close": 314000,
     "change_rate": 8.65,
     "volume_money": 437444040750,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 304,580 / Target: 342,260"
   },
   {
     "code": "047810",
@@ -78,7 +102,10 @@
     "close": 165500,
     "change_rate": 6.16,
     "volume_money": 247903989800,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 160,535 / Target: 180,395"
   },
   {
     "code": "056080",
@@ -87,7 +114,10 @@
     "close": 32850,
     "change_rate": 28.57,
     "volume_money": 204355838075,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 31,864 / Target: 35,806"
   },
   {
     "code": "389500",
@@ -96,7 +126,10 @@
     "close": 68100,
     "change_rate": 24.27,
     "volume_money": 158063731900,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 66,057 / Target: 74,229"
   },
   {
     "code": "267260",
@@ -105,7 +138,10 @@
     "close": 918000,
     "change_rate": 1.32,
     "volume_money": 154810551456,
-    "msi_action": "WATCH"
+    "msi_action": "WATCH",
+    "location": "IN_ZONE (Daily)",
+    "timing": "Wait MSS",
+    "plan": "-"
   },
   {
     "code": "298040",
@@ -114,7 +150,10 @@
     "close": 2360000,
     "change_rate": 1.16,
     "volume_money": 123040262500,
-    "msi_action": "WATCH"
+    "msi_action": "WATCH",
+    "location": "IN_ZONE (Daily)",
+    "timing": "Wait MSS",
+    "plan": "-"
   },
   {
     "code": "000880",
@@ -123,7 +162,10 @@
     "close": 124900,
     "change_rate": 0.24,
     "volume_money": 106518057150,
-    "msi_action": "WATCH"
+    "msi_action": "WATCH",
+    "location": "IN_ZONE (Daily)",
+    "timing": "Wait MSS",
+    "plan": "-"
   },
   {
     "code": "348340",
@@ -132,7 +174,10 @@
     "close": 93400,
     "change_rate": 29.9,
     "volume_money": 104076809850,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 90,598 / Target: 101,806"
   },
   {
     "code": "011210",
@@ -141,7 +186,10 @@
     "close": 92000,
     "change_rate": 3.72,
     "volume_money": 65263615150,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 89,240 / Target: 100,280"
   },
   {
     "code": "488900",
@@ -150,7 +198,10 @@
     "close": 20350,
     "change_rate": 4.31,
     "volume_money": 41594764520,
-    "msi_action": "WATCH"
+    "msi_action": "ENTRY",
+    "location": "IN_ZONE (Daily)",
+    "timing": "MSS Confirmed",
+    "plan": "Stop: 19,739 / Target: 22,181"
   },
   {
     "code": "042370",
@@ -159,15 +210,9 @@
     "close": 10730,
     "change_rate": 4.48,
     "volume_money": 18411289975,
-    "msi_action": "WATCH"
-  },
-  {
-    "code": "171090",
-    "name": "선익시스템",
-    "sector": "디스플레이_OLED/메타",
-    "close": 51200,
-    "change_rate": 2.71,
-    "volume_money": 8590479900,
-    "msi_action": "WATCH"
+    "msi_action": "WATCH",
+    "location": "Approaching",
+    "timing": "WAIT",
+    "plan": "-"
   }
 ]

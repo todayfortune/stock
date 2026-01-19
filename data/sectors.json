@@ -1,22 +1,22 @@
 [
   {
-    "name": "로봇_감속기",
-    "msi_score": 43.06,
-    "flow_won": 333197190175,
-    "avg_change": 23.06,
-    "breadth": 100.0,
-    "leader_code": "058610",
+    "msi_score": 109.45,
+    "flow_score": 33.3,
+    "trend_score": 23.06,
+    "breadth_score": 100.0,
     "leader_name": "에스피지",
+    "leader_code": "058610",
+    "name": "로봇_감속기",
     "stock_count": 2
   },
   {
-    "name": "자동차_완성차",
-    "msi_score": 34.2,
-    "flow_won": 1714810974325,
-    "avg_change": 14.2,
-    "breadth": 100.0,
-    "leader_code": "005380",
+    "msi_score": 108.4,
+    "flow_score": 50,
+    "trend_score": 14.2,
+    "breadth_score": 100.0,
     "leader_name": "현대차",
+    "leader_code": "005380",
+    "name": "자동차_완성차",
     "stock_count": 2
   }
 ]

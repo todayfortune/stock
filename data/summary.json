@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-01-19 13:53:01",
-  "market_status": "Neutral",
+  "updated_at": "2026-01-19 14:12:06",
+  "market_status": "OPEN",
   "top_sectors": [
     "로봇_감속기",
     "자동차_완성차"
   ],
-  "total_analyzed": 1130
+  "data_source": "FinanceDataReader (OK)"
 }
