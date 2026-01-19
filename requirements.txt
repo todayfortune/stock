@@ -1,4 +1,5 @@
-pykrx
+finance-datareader
 pandas
 numpy
 requests
+lxml
