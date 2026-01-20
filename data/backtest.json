@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total_return": -9.32,
-    "final_balance": 9067681,
+    "total_return": -9.14,
+    "final_balance": 9086181,
     "trade_count": 71,
     "win_rate": 39.4,
     "mdd": -55.32
@@ -2841,7 +2841,7 @@
     },
     {
       "date": "2026-01-20",
-      "equity": 9067681
+      "equity": 9086181
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-01-20 13:28:14 (KST)",
+  "asOf": "2026-01-20 14:05:11 (KST)",
   "items": [
     {
       "ticker": "034020",
@@ -8,17 +8,17 @@
       "state": "WATCH",
       "grade": "S",
       "action": "READY",
-      "close": 95500,
-      "change": 0.1,
-      "volume": 542885091000,
+      "close": 96500,
+      "change": 1.15,
+      "volume": 802404040850,
       "entry": {
-        "price": 95500
+        "price": 96500
       },
       "stop": {
         "price": 92500
       },
       "target": {
-        "price": 104500,
+        "price": 108500,
         "rr": 3.0
       },
       "why": [
@@ -32,17 +32,41 @@
       "state": "WATCH",
       "grade": "S",
       "action": "READY",
-      "close": 63400,
-      "change": 12.61,
-      "volume": 526219735100,
+      "close": 65100,
+      "change": 15.63,
+      "volume": 783446704850,
       "entry": {
-        "price": 63400
+        "price": 65100
       },
       "stop": {
-        "price": 61498
+        "price": 63147
       },
       "target": {
-        "price": 69106,
+        "price": 70959,
+        "rr": 3.0
+      },
+      "why": [
+        "15M 구조전환"
+      ]
+    },
+    {
+      "ticker": "298040",
+      "name": "효성중공업",
+      "sector": "전력_중공업",
+      "state": "WATCH",
+      "grade": "S",
+      "action": "READY",
+      "close": 2367000,
+      "change": 0.3,
+      "volume": 100911532500,
+      "entry": {
+        "price": 2367000
+      },
+      "stop": {
+        "price": 2210000
+      },
+      "target": {
+        "price": 2838000,
         "rr": 3.0
       },
       "why": [
@@ -56,17 +80,17 @@
       "state": "WATCH",
       "grade": "A",
       "action": "READY",
-      "close": 918000,
-      "change": 0.0,
-      "volume": 83502496000,
+      "close": 920000,
+      "change": 0.22,
+      "volume": 90974071000,
       "entry": {
-        "price": 918000
+        "price": 920000
       },
       "stop": {
         "price": 880000
       },
       "target": {
-        "price": 1032000,
+        "price": 1040000,
         "rr": 3.0
       },
       "why": [
@@ -80,17 +104,17 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 484000,
-      "change": 0.83,
-      "volume": 1952832995250,
+      "close": 482000,
+      "change": 0.42,
+      "volume": 2037199202750,
       "entry": {
-        "price": 474320
+        "price": 472360
       },
       "stop": {
-        "price": 469480
+        "price": 467540
       },
       "target": {
-        "price": 488840,
+        "price": 486820,
         "rr": 3.0
       },
       "why": []
@@ -104,7 +128,7 @@
       "action": "WAIT",
       "close": 327500,
       "change": 4.3,
-      "volume": 595926976250,
+      "volume": 622792651750,
       "entry": {
         "price": 320950
       },
@@ -124,17 +148,17 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 31450,
-      "change": 4.83,
-      "volume": 465431769625,
+      "close": 30500,
+      "change": 1.67,
+      "volume": 498338078575,
       "entry": {
-        "price": 30821
+        "price": 29890
       },
       "stop": {
-        "price": 30506
+        "price": 27650
       },
       "target": {
-        "price": 31766,
+        "price": 36610,
         "rr": 3.0
       },
       "why": []
@@ -146,17 +170,17 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 120900,
-      "change": 12.26,
-      "volume": 462626727950,
+      "close": 119000,
+      "change": 10.49,
+      "volume": 486049393800,
       "entry": {
-        "price": 118482
+        "price": 116620
       },
       "stop": {
-        "price": 117273
+        "price": 115430
       },
       "target": {
-        "price": 122109,
+        "price": 120190,
         "rr": 3.0
       },
       "why": []
@@ -170,7 +194,7 @@
       "action": "WAIT",
       "close": 7800,
       "change": 30.0,
-      "volume": 406204784775,
+      "volume": 406648456575,
       "entry": {
         "price": 7644
       },
@@ -184,45 +208,45 @@
       "why": []
     },
     {
-      "ticker": "319400",
-      "name": "현대무벡스",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 38850,
-      "change": 11.16,
-      "volume": 370826504200,
-      "entry": {
-        "price": 38073
-      },
-      "stop": {
-        "price": 37684
-      },
-      "target": {
-        "price": 39240,
-        "rr": 3.0
-      },
-      "why": []
-    },
-    {
       "ticker": "032820",
       "name": "우리기술",
       "sector": "Unclassified",
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 7920,
-      "change": 28.99,
-      "volume": 364123764490,
+      "close": 7830,
+      "change": 27.52,
+      "volume": 392284438750,
       "entry": {
-        "price": 7761
+        "price": 7673
       },
       "stop": {
-        "price": 7682
+        "price": 7595
       },
       "target": {
-        "price": 7998,
+        "price": 7907,
+        "rr": 3.0
+      },
+      "why": []
+    },
+    {
+      "ticker": "319400",
+      "name": "현대무벡스",
+      "sector": "Unclassified",
+      "state": "WATCH",
+      "grade": "S",
+      "action": "WAIT",
+      "close": 38525,
+      "change": 10.23,
+      "volume": 387825808000,
+      "entry": {
+        "price": 37754
+      },
+      "stop": {
+        "price": 37369
+      },
+      "target": {
+        "price": 38909,
         "rr": 3.0
       },
       "why": []
@@ -234,61 +258,17 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 35050,
-      "change": 6.7,
-      "volume": 284516172300,
+      "close": 34650,
+      "change": 5.48,
+      "volume": 299346003050,
       "entry": {
-        "price": 34349
+        "price": 33957
       },
       "stop": {
-        "price": 33998
+        "price": 33610
       },
       "target": {
-        "price": 35402,
-        "rr": 3.0
-      },
-      "why": []
-    },
-    {
-      "ticker": "086520",
-      "name": "에코프로",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 98700,
-      "change": 3.89,
-      "volume": 283268994600,
-      "entry": {
-        "price": 96726
-      },
-      "stop": {
-        "price": 91000
-      },
-      "target": {
-        "price": 113904,
-        "rr": 3.0
-      },
-      "why": []
-    },
-    {
-      "ticker": "272210",
-      "name": "한화시스템",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 91100,
-      "change": 0.33,
-      "volume": 264769577400,
-      "entry": {
-        "price": 89278
-      },
-      "stop": {
-        "price": 89500
-      },
-      "target": {
-        "price": 97477,
+        "price": 34998,
         "rr": 3.0
       },
       "why": []
@@ -300,17 +280,17 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 218000,
-      "change": 1.4,
-      "volume": 204977719250,
+      "close": 217500,
+      "change": 1.16,
+      "volume": 218652977750,
       "entry": {
-        "price": 213640
+        "price": 213150
       },
       "stop": {
         "price": 213000
       },
       "target": {
-        "price": 215560,
+        "price": 213600,
         "rr": 3.0
       },
       "why": []
@@ -322,17 +302,17 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 41850,
-      "change": 0.36,
-      "volume": 199377562850,
+      "close": 41700,
+      "change": 0.0,
+      "volume": 208082283200,
       "entry": {
-        "price": 41013
+        "price": 40866
       },
       "stop": {
         "price": 39650
       },
       "target": {
-        "price": 45102,
+        "price": 44514,
         "rr": 3.0
       },
       "why": []
@@ -344,17 +324,39 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 76100,
-      "change": 11.75,
-      "volume": 134676182350,
+      "close": 73800,
+      "change": 8.37,
+      "volume": 149022680450,
       "entry": {
-        "price": 74578
+        "price": 72324
       },
       "stop": {
-        "price": 73817
+        "price": 71586
       },
       "target": {
-        "price": 76861,
+        "price": 74538,
+        "rr": 3.0
+      },
+      "why": []
+    },
+    {
+      "ticker": "000880",
+      "name": "한화",
+      "sector": "방산_지주",
+      "state": "WATCH",
+      "grade": "A",
+      "action": "WAIT",
+      "close": 125400,
+      "change": 0.4,
+      "volume": 68028326400,
+      "entry": {
+        "price": 122892
+      },
+      "stop": {
+        "price": 120300
+      },
+      "target": {
+        "price": 130668,
         "rr": 3.0
       },
       "why": []
@@ -366,17 +368,17 @@
       "state": "WATCH",
       "grade": "A",
       "action": "WAIT",
-      "close": 21050,
-      "change": 3.44,
-      "volume": 35748819675,
+      "close": 20900,
+      "change": 2.7,
+      "volume": 36881398000,
       "entry": {
-        "price": 20629
+        "price": 20482
       },
       "stop": {
         "price": 19510
       },
       "target": {
-        "price": 23986,
+        "price": 23398,
         "rr": 3.0
       },
       "why": []
@@ -388,17 +390,17 @@
       "state": "WATCH",
       "grade": "B",
       "action": "WAIT",
-      "close": 11350,
-      "change": 5.78,
-      "volume": 24022019675,
+      "close": 11270,
+      "change": 5.03,
+      "volume": 26343725330,
       "entry": {
-        "price": 11123
+        "price": 11044
       },
       "stop": {
-        "price": 11009
+        "price": 10931
       },
       "target": {
-        "price": 11465,
+        "price": 11383,
         "rr": 3.0
       },
       "why": []
@@ -410,17 +412,17 @@
       "state": "WATCH",
       "grade": "C",
       "action": "WAIT",
-      "close": 13800,
-      "change": 1.32,
-      "volume": 4556966895,
+      "close": 13780,
+      "change": 1.17,
+      "volume": 4822676035,
       "entry": {
-        "price": 13524
+        "price": 13504
       },
       "stop": {
         "price": 13350
       },
       "target": {
-        "price": 14046,
+        "price": 13966,
         "rr": 3.0
       },
       "why": []
@@ -432,17 +434,17 @@
       "state": "WATCH",
       "grade": "C",
       "action": "WAIT",
-      "close": 51700,
-      "change": 0.98,
-      "volume": 2243491550,
+      "close": 52300,
+      "change": 2.15,
+      "volume": 2709879950,
       "entry": {
-        "price": 50666
+        "price": 51254
       },
       "stop": {
-        "price": 50149
+        "price": 50731
       },
       "target": {
-        "price": 52217,
+        "price": 52823,
         "rr": 3.0
       },
       "why": []
