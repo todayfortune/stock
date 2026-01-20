@@ -1,73 +1,31 @@
-// assets/app.js v4.0
+document.addEventListener('DOMContentLoaded', function() {
+    initDashboard();
+});
 
-const state = { meta: null, sectors: [], watchlist: [], backtest: null };
-
-function getBasePath() {
-    let path = window.location.pathname;
-    if (path.endsWith('.html')) path = path.substring(0, path.lastIndexOf('/'));
-    return path.endsWith('/') ? path : path + '/';
+function initDashboard() {
+    loadData();
+    // 60초마다 데이터 자동 갱신
+    setInterval(loadData, 60000);
 }
 
-// assets/app.js (switchTab 함수 부분만 수정하거나, 전체 덮어쓰기)
-
-
-// ... (뒷부분 renderDashboard 등은 그대로 유지) ...
-
-async function initDashboard() {
-    const BASE = getBasePath();
-    try {
-        const [metaRes, sectorsRes, watchRes, btRes] = await Promise.all([
-            fetch(`${BASE}data/meta.json`),
-            fetch(`${BASE}data/sector_leaders.json`),
-            fetch(`${BASE}data/watchlist.json`),
-            fetch(`${BASE}data/backtest.json`) // [NEW] 백테스트 데이터 로드
-        ]);
-
-        state.meta = await metaRes.json();
-        const sData = await sectorsRes.json();
-        const wData = await watchRes.json();
-        state.sectors = sData.items || [];
-        state.watchlist = wData.items || [];
-        
-        // 백테스트 데이터 처리
-        if (btRes.ok) {
-            state.backtest = await btRes.json();
-            renderBacktest();
-        }
-
-        // 정렬
-        const gw = { 'S': 3, 'A': 2, 'B': 1, 'C': 0 };
-        const aw = { 'READY': 2, 'WAIT': 1, 'NO_TRADE': 0 };
-        state.watchlist.sort((a, b) => {
-            const ad = aw[b.action] - aw[a.action];
-            if (ad !== 0) return ad;
-            const gd = gw[b.grade] - gw[a.grade];
-            if (gd !== 0) return gd;
-            return b.volume - a.volume;
-        });
-
-        renderDashboard();
-
-    } catch (err) {
-        console.error(err);
-    }
-}
-
-// ... (앞부분 initDashboard 등은 그대로 유지) ...
-
-// [수정] 탭 전환 기능에 'manual' 추가
+// 탭 전환 기능 (설명서 포함)
 window.switchTab = function(tabName) {
     // 1. 모든 탭 숨기기
-    document.getElementById('tab-dashboard').style.display = 'none';
-    document.getElementById('tab-backtest').style.display = 'none';
-    document.getElementById('tab-manual').style.display = 'none';
-    
-    // 2. 선택한 탭만 보이기
+    const tabs = ['dashboard', 'backtest', 'manual'];
+    tabs.forEach(t => {
+        const el = document.getElementById('tab-' + t);
+        if (el) el.style.display = 'none';
+        
+        // 데스크탑 메뉴 활성화 상태 해제
+        const btn = document.getElementById('nav-' + t);
+        if (btn) btn.classList.remove('active');
+    });
+
+    // 2. 선택한 탭 보이기
     const selectedTab = document.getElementById('tab-' + tabName);
     if (selectedTab) selectedTab.style.display = 'block';
-    
-    // 3. 사이드바 버튼 활성화 상태 변경 (데스크탑)
-    document.querySelectorAll('.list-group-item').forEach(btn => btn.classList.remove('active'));
+
+    // 3. 버튼 활성화
     const activeBtn = document.getElementById('nav-' + tabName);
     if (activeBtn) activeBtn.classList.add('active');
 
@@ -78,134 +36,208 @@ window.switchTab = function(tabName) {
         if (bsOffcanvas) bsOffcanvas.hide();
     }
     
-    // 5. 화면 맨 위로 스크롤
+    // 5. 스크롤 맨 위로
     window.scrollTo(0, 0);
 }
-function renderDashboard() {
-    const mkt = state.meta.market;
-    const badge = document.getElementById('market-badge');
-    if (mkt && mkt.state === 'RISK_ON') {
-        badge.className = 'badge bg-success';
-        badge.innerHTML = '<i class="fas fa-check-circle me-1"></i>ON';
-    } else {
-        badge.className = 'badge bg-danger';
-        badge.innerHTML = '<i class="fas fa-ban me-1"></i>OFF';
-    }
-    document.getElementById('update-time').innerText = state.meta.asOf;
 
-    // 섹터 및 워치리스트 렌더링 (기존 동일)
-    const secArea = document.getElementById('sector-area');
-    secArea.innerHTML = '';
-    state.sectors.slice(0, 3).forEach(sec => {
-        secArea.innerHTML += `
-            <div class="col-md-4 col-12">
-                <div class="card border-0 shadow-sm h-100" style="background: linear-gradient(135deg, #ffffff 0%, #f1f3f5 100%);">
+function loadData() {
+    const timestamp = new Date().getTime();
+    
+    // 메타 데이터 로드
+    fetch(`data/meta.json?t=${timestamp}`)
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('update-time').textContent = data.asOf;
+            updateMarketBadge(data.market);
+        })
+        .catch(err => console.log('Meta Load Error:', err));
+
+    // 섹터 데이터 로드
+    fetch(`data/sector_leaders.json?t=${timestamp}`)
+        .then(response => response.json())
+        .then(data => renderSectors(data.items))
+        .catch(err => console.log('Sector Load Error:', err));
+
+    // 관심종목 데이터 로드
+    fetch(`data/watchlist.json?t=${timestamp}`)
+        .then(response => response.json())
+        .then(data => renderWatchlist(data.items))
+        .catch(err => console.log('Watchlist Load Error:', err));
+
+    // 백테스트 데이터 로드
+    fetch(`data/backtest.json?t=${timestamp}`)
+        .then(response => response.json())
+        .then(data => renderBacktest(data))
+        .catch(err => console.log('Backtest Load Error:', err));
+}
+
+function updateMarketBadge(market) {
+    const badge = document.getElementById('market-badge');
+    if (market && market.state === 'RISK_ON') {
+        badge.className = 'badge bg-success me-2';
+        badge.textContent = `ON: ${market.reason}`;
+    } else {
+        badge.className = 'badge bg-danger me-2';
+        badge.textContent = `OFF: ${market.reason || '리스크 관리'}`;
+    }
+}
+
+function renderSectors(items) {
+    const container = document.getElementById('sector-area');
+    container.innerHTML = '';
+    
+    if (!items || items.length === 0) {
+        container.innerHTML = '<div class="col-12 text-center text-muted">데이터 수집 중...</div>';
+        return;
+    }
+
+    // 상위 3개 섹터만 표시
+    items.slice(0, 3).forEach(item => {
+        // 점수 100점 만점 기준 색상
+        let scoreColor = 'text-muted';
+        if(item.score >= 80) scoreColor = 'text-danger fw-bold';
+        else if(item.score >= 50) scoreColor = 'text-primary fw-bold';
+
+        const card = `
+            <div class="col-12 col-md-4">
+                <div class="card border-0 shadow-sm h-100">
                     <div class="card-body p-3">
-                        <small class="text-muted fw-bold text-uppercase" style="font-size:0.75rem">${sec.sector}</small>
-                        <h5 class="fw-bold mt-1 mb-2 text-dark">${sec.topTickers[0]}</h5>
-                        <div class="d-flex justify-content-between align-items-end">
-                            <span class="badge bg-white text-dark border">Score ${sec.score}</span>
-                            <small class="text-muted">${(sec.turnover/1e8).toFixed(0)}억</small>
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="fw-bold mb-0 text-secondary" style="font-size: 0.8rem;">${item.sector}</h6>
+                            <span class="badge bg-light text-dark border">${(item.turnover / 100000000).toFixed(0)}억</span>
+                        </div>
+                        <h5 class="fw-bold mb-2">${item.topTickers[0]}</h5>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <span class="small ${scoreColor}">Score ${item.score}</span>
+                            <small class="text-muted" style="font-size: 0.75rem;">${item.topTickers.slice(1).join(', ')}</small>
                         </div>
                     </div>
                 </div>
             </div>
         `;
-    });
-
-    const pcTable = document.getElementById('desktop-table-body');
-    const mobList = document.getElementById('mobile-card-list');
-    pcTable.innerHTML = ''; mobList.innerHTML = '';
-
-    state.watchlist.forEach((item, idx) => {
-        const isUp = item.change > 0;
-        const colorClass = isUp ? 'text-up' : 'text-down';
-        const sign = isUp ? '+' : '';
-        const vol = Math.round(item.volume / 1e8).toLocaleString();
-
-        pcTable.innerHTML += `
-            <tr style="cursor:pointer" onclick="showDetail(${idx})">
-                <td class="ps-4"><div class="fw-bold text-dark">${item.name}</div><small class="text-muted">${item.ticker}</small></td>
-                <td class="fw-bold">${item.close.toLocaleString()}</td>
-                <td class="${colorClass}">${sign}${item.change}%</td>
-                <td><span class="badge badge-${item.grade}">${item.grade}</span></td>
-                <td><span class="badge action-${item.action}">${item.action}</span></td>
-                <td><small class="text-muted text-truncate d-block" style="max-width:150px">${item.why[0] || '-'}</small></td>
-                <td><small>Entry <b>${item.entry.price.toLocaleString()}</b></small></td>
-            </tr>
-        `;
-
-        mobList.innerHTML += `
-            <div class="mobile-card" onclick="showDetail(${idx})" style="border-left: 5px solid ${item.action === 'READY' ? '#198754' : '#dee2e6'}">
-                <div class="d-flex justify-content-between mb-2">
-                    <div><span class="fw-bold text-dark" style="font-size:1.1rem">${item.name}</span><small class="text-muted ms-1">${item.sector}</small></div>
-                    <div><span class="badge badge-${item.grade} me-1">${item.grade}</span><span class="badge action-${item.action}">${item.action}</span></div>
-                </div>
-                <div class="d-flex justify-content-between align-items-end">
-                    <div><div class="fw-bold fs-4 text-dark" style="line-height:1">${item.close.toLocaleString()}</div><small class="${colorClass} fw-bold">${sign}${item.change}%</small></div>
-                    <div class="text-end"><small class="text-muted d-block" style="font-size:0.8rem">거래대금 ${vol}억</small><small class="text-primary fw-bold" style="font-size:0.8rem">전략 보기 <i class="fas fa-arrow-right"></i></small></div>
-                </div>
-            </div>
-        `;
+        container.innerHTML += card;
     });
 }
 
-function renderBacktest() {
-    if (!state.backtest) return;
-    const summary = state.backtest.summary;
-    const curve = state.backtest.equity_curve;
+function renderWatchlist(items) {
+    const desktopBody = document.getElementById('desktop-table-body');
+    const mobileList = document.getElementById('mobile-card-list');
+    
+    desktopBody.innerHTML = '';
+    mobileList.innerHTML = '';
 
-    // 요약 카드 채우기
-    document.getElementById('bt-return').innerText = `+${summary.total_return}%`;
-    document.getElementById('bt-final').innerText = `${(summary.final_balance/10000).toLocaleString()}만`;
-    document.getElementById('bt-mdd').innerText = `${summary.mdd}%`;
-    document.getElementById('bt-win').innerText = `${summary.win_rate}%`;
+    if (!items || items.length === 0) {
+        mobileList.innerHTML = '<div class="text-center p-4 text-muted">표시할 종목이 없습니다. (장 마감 후 업데이트됨)</div>';
+        return;
+    }
 
-    // 차트 그리기 (Chart.js)
+    items.forEach(item => {
+        // 색상 클래스
+        const priceColor = item.change > 0 ? 'text-up' : (item.change < 0 ? 'text-down' : 'text-dark');
+        const badgeClass = `badge-${item.grade}`;
+        const actionClass = `action-${item.action}`;
+        
+        // 상세 정보 (Why)
+        const reasons = item.why && item.why.length > 0 ? item.why.join('<br>') : '-';
+        
+        // Entry/Stop 가격 표시 (0이면 - 표시)
+        const entryPrice = item.entry.price > 0 ? item.entry.price.toLocaleString() : '-';
+        const stopPrice = item.stop.price > 0 ? item.stop.price.toLocaleString() : '-';
+
+        // 데스크탑 테이블 행
+        const tr = `
+            <tr onclick="showDetail('${item.ticker}')" style="cursor: pointer;">
+                <td class="ps-4">
+                    <div class="fw-bold">${item.name}</div>
+                    <div class="small text-muted">${item.ticker}</div>
+                </td>
+                <td class="fw-bold">${item.close.toLocaleString()}</td>
+                <td class="${priceColor}">${item.change > 0 ? '+' : ''}${item.change}%</td>
+                <td><span class="badge ${badgeClass}">${item.grade}</span></td>
+                <td><span class="badge ${actionClass}">${item.action}</span></td>
+                <td class="small text-muted">${reasons}</td>
+                <td class="small">
+                    <div>Entry: <strong>${entryPrice}</strong></div>
+                    <div class="text-muted">Stop: ${stopPrice}</div>
+                </td>
+            </tr>
+        `;
+        desktopBody.innerHTML += tr;
+
+        // 모바일 카드
+        const card = `
+            <div class="mobile-card" onclick="showDetail('${item.ticker}')">
+                <div class="d-flex justify-content-between mb-2">
+                    <div>
+                        <span class="fw-bold fs-5 me-2">${item.name}</span>
+                        <span class="small text-muted">${item.sector}</span>
+                    </div>
+                    <span class="badge ${badgeClass}">${item.grade}</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-end mb-3">
+                    <div>
+                        <div class="fs-4 fw-bold">${item.close.toLocaleString()}</div>
+                        <div class="small ${priceColor}">${item.change > 0 ? '+' : ''}${item.change}%</div>
+                    </div>
+                    <span class="badge ${actionClass} px-3 py-2 rounded-pill">${item.action}</span>
+                </div>
+                <div class="bg-light p-2 rounded small text-secondary">
+                    ${reasons}
+                </div>
+            </div>
+        `;
+        mobileList.innerHTML += card;
+    });
+}
+
+// 백테스트 렌더링
+function renderBacktest(data) {
+    if (!data) return;
+    
+    // 요약 카드
+    document.getElementById('bt-return').textContent = (data.summary.total_return > 0 ? '+' : '') + data.summary.total_return + '%';
+    document.getElementById('bt-final').textContent = (data.summary.final_balance / 10000).toFixed(0) + '만';
+    document.getElementById('bt-mdd').textContent = data.summary.mdd + '%';
+    document.getElementById('bt-win').textContent = data.summary.win_rate + '%';
+
+    // 색상 처리
+    document.getElementById('bt-return').className = 'stat-value ' + (data.summary.total_return >= 0 ? 'text-danger' : 'text-primary');
+
+    // 차트 그리기
     const ctx = document.getElementById('equityChart').getContext('2d');
-    const labels = curve.map(d => d.date);
-    const data = curve.map(d => d.equity);
+    if (window.myEquityChart) window.myEquityChart.destroy();
 
-    new Chart(ctx, {
+    const labels = data.equity_curve.map(d => d.date);
+    const values = data.equity_curve.map(d => d.equity);
+
+    window.myEquityChart = new Chart(ctx, {
         type: 'line',
         data: {
             labels: labels,
             datasets: [{
-                label: '자산 추이',
-                data: data,
-                borderColor: '#3b82f6',
-                backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                label: '누적 자산',
+                data: values,
+                borderColor: '#0d6efd',
+                backgroundColor: 'rgba(13, 110, 253, 0.1)',
                 borderWidth: 2,
                 fill: true,
-                pointRadius: 0, // 점 숨김
+                pointRadius: 0,
                 tension: 0.1
             }]
         },
         options: {
             responsive: true,
+            maintainAspectRatio: false,
             plugins: { legend: { display: false } },
             scales: {
-                x: { display: false }, // X축 날짜 너무 많아서 숨김
+                x: { display: false },
                 y: { grid: { borderDash: [2, 4] } }
             }
         }
     });
 }
 
-window.showDetail = function(idx) {
-    const item = state.watchlist[idx];
-    const isUp = item.change > 0;
-    const colorClass = isUp ? 'text-up' : 'text-down';
-    document.getElementById('modal-title').innerText = item.name;
-    const html = `
-        <div class="mb-3"><span class="badge badge-${item.grade} me-1">${item.grade}-Tier</span><span class="badge bg-light text-dark border">${item.sector}</span></div>
-        <div class="card bg-light border-0 mb-3"><div class="card-body py-2"><div class="d-flex justify-content-between mb-1"><span class="text-muted">현재가</span><strong class="${colorClass}">${item.close.toLocaleString()} (${item.change}%)</strong></div><div class="d-flex justify-content-between"><span class="text-muted">상태</span><strong class="${item.action === 'READY' ? 'text-success' : 'text-dark'}">${item.action}</strong></div></div></div>
-        <h6 class="fw-bold small text-muted border-bottom pb-1 mb-2">ANALYSIS (WHY)</h6><ul class="small text-secondary ps-3 mb-4">${item.why.map(w => `<li>${w}</li>`).join('')}</ul>
-        <h6 class="fw-bold small text-muted border-bottom pb-1 mb-2">TRADING PLAN</h6>
-        <div class="row g-2 text-center"><div class="col-4"><div class="border rounded p-2 bg-white h-100"><small class="d-block text-muted" style="font-size:0.7rem">ENTRY</small><strong class="text-primary">${item.entry.price.toLocaleString()}</strong></div></div><div class="col-4"><div class="border rounded p-2 bg-white h-100"><small class="d-block text-muted" style="font-size:0.7rem">STOP</small><strong class="text-danger">${item.stop.price.toLocaleString()}</strong></div></div><div class="col-4"><div class="border rounded p-2 bg-white h-100"><small class="d-block text-muted" style="font-size:0.7rem">TARGET</small><strong class="text-success">${item.target.price.toLocaleString()}</strong></div></div></div>
-    `;
-    document.getElementById('modal-body').innerHTML = html;
-    new bootstrap.Modal(document.getElementById('detailModal')).show();
-};
-
-document.addEventListener('DOMContentLoaded', initDashboard);
+// 종목 상세 팝업 (가짜 기능 - 필요시 구현)
+window.showDetail = function(ticker) {
+    // alert(ticker + " 상세 분석 팝업 준비 중");
+}
