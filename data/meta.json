@@ -1,14 +1,14 @@
 {
-  "asOf": "2026-01-20 09:50:29 (KST)",
+  "asOf": "2026-01-20 13:28:14 (KST)",
   "source": [
     "KRX",
     "FDR",
     "YFinance"
   ],
-  "version": "v3.2 (Final)",
+  "version": "v4.0 (Backtest)",
   "status": "ok",
   "market": {
     "state": "RISK_ON",
-    "reason": "KOSPI > 20MA (상승)"
+    "reason": "KOSPI > 20MA"
   }
 }
