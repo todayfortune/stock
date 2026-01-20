@@ -110,7 +110,7 @@
                 </div>
             </div>
 
-            <div id="tab-manual" style="display: none;">
+          <div id="tab-manual" style="display: none;">
                 <h4 class="fw-bold mb-4">📘 으왕 레이더 사용설명서</h4>
 
                 <div class="manual-section border-start border-4 border-primary">
@@ -141,13 +141,66 @@
                 </div>
 
                 <div class="manual-section">
-                    <h5 class="manual-title">🏷️ 핵심 용어 (Glossary)</h5>
+                    <h5 class="manual-title">🔍 상세 분석 용어 (Analysis Why)</h5>
+                    <p class="small text-muted mb-3">종목 상세 보기(팝업)에 나오는 용어들에 대한 정의입니다.</p>
                     
                     <div class="key-concept">
-                        <strong>1. Grade (체급 등급)</strong>
-                        <p class="small mb-0 mt-1">이 종목에 '돈'이 얼마나 몰렸는가? (거래대금 기준)</p>
+                        <strong>🧱 Stop: 1H Swing Low (구조적 손절)</strong>
+                        <p class="small mb-0 mt-1">
+                            단순한 -3% 손절이 아닙니다. <strong>1시간봉(60분봉) 차트에서 V자로 반등했던 직전 최저점</strong>을 의미합니다.<br>
+                            이 가격이 깨졌다는 것은 상승 파동이 무너졌다는 뜻이므로 즉시 매도합니다.
+                        </p>
                     </div>
-                    <table class="table table-bordered table-sm small text-center mb-4">
+
+                    <div class="key-concept">
+                        <strong>⚡ 15M 구조전환 (Trend Change, TC)</strong>
+                        <p class="small mb-0 mt-1">
+                            하락하던 주가가 상승으로 바뀌는 첫 신호입니다.<br>
+                            <strong>15분봉 차트에서 '계속 낮아지던 고점'을 강한 양봉이 뚫고 올라갈 때</strong> 발생합니다.<br>
+                            이 신호가 떠야만 <span class="badge action-READY">READY</span> 상태가 됩니다.
+                        </p>
+                    </div>
+
+                    <div class="key-concept">
+                        <strong>📉 %R 과매도 (Williams %R)</strong>
+                        <p class="small mb-0 mt-1">
+                            보조지표 Williams %R이 -80 아래(침체권)에 있다는 뜻입니다.<br>
+                            가격은 매력적이지만 아직 반등 신호가 없으므로 <strong>WAIT(관망)</strong> 합니다.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="manual-section">
+                    <h5 class="manual-title">📊 백테스팅 검증 기준 (Backtest Logic)</h5>
+                    <p class="small text-muted mb-3">과거 3년 데이터를 시뮬레이션할 때 사용한 '일봉 기준 근사' 로직입니다.</p>
+
+                    <ul class="list-group list-group-flush small">
+                        <li class="list-group-item">
+                            <strong>🛡️ Market Gate (MA20 & 60):</strong><br>
+                            KOSPI 지수가 20일선 위에 있고, 20일선이 60일선 위에 있는 <strong>'정배열 상승장'</strong>에서만 매수합니다. (하락장 회피)
+                        </li>
+                        <li class="list-group-item">
+                            <strong>🚀 구조 돌파 (3일 고가):</strong><br>
+                            최근 3일간의 최고가를 갱신할 때를 '추세 지속'으로 보고 진입합니다. (15M TC의 일봉 버전)
+                        </li>
+                        <li class="list-group-item">
+                            <strong>🛑 스윙 손절 (10일 저가):</strong><br>
+                            최근 10일간의 최저점을 손절 라인으로 잡습니다. (1H Swing Low의 일봉 버전)
+                        </li>
+                        <li class="list-group-item">
+                            <strong>💰 RR 1:3 (손익비):</strong><br>
+                            손실 감수 폭(Risk) 대비 이익 목표(Reward)를 3배로 설정합니다. (예: 손절 -3%면 익절 +9%)
+                        </li>
+                        <li class="list-group-item">
+                            <strong>📉 MDD (Maximum Drawdown):</strong><br>
+                            '최대 낙폭'을 의미합니다. 내 계좌가 고점에서 저점까지 <strong>최악의 경우 몇 %까지 녹아내렸는지</strong>를 보여주는 위험 지표입니다.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="manual-section">
+                    <h5 class="manual-title">🏷️ 체급 등급 (Grade)</h5>
+                    <table class="table table-bordered table-sm small text-center mb-0">
                         <thead class="table-light"><tr><th>등급</th><th>기준 (일 거래대금)</th><th>의미</th></tr></thead>
                         <tbody>
                             <tr><td><span class="badge badge-S">S</span></td><td>1,000억↑ (or 500억+급등)</td><td>시장 주도주 (King)</td></tr>
@@ -155,21 +208,6 @@
                             <tr><td><span class="badge badge-B">B</span></td><td>100억↑</td><td>일반 수급주</td></tr>
                         </tbody>
                     </table>
-
-                    <div class="key-concept">
-                        <strong>2. Sector Score (0~100점)</strong>
-                        <p class="small mb-0 mt-1">오늘 시장 1등 섹터(100점) 대비 얼마나 강한가? (상대평가)</p>
-                    </div>
-
-                    <div class="key-concept">
-                        <strong>3. Stop: 1H Swing Low</strong>
-                        <p class="small mb-0 mt-1">단순 -3% 손절 아님. <strong>1시간봉 기준 전저점(지지선)</strong>이 깨지면 손절.</p>
-                    </div>
-
-                    <div class="key-concept">
-                        <strong>4. Signal: 15M TC (구조 전환)</strong>
-                        <p class="small mb-0 mt-1">떨어지는 칼날 금지. <strong>15분봉에서 하락 추세를 뚫고 고개를 들 때(Trend Change)</strong> 진입.</p>
-                    </div>
                 </div>
 
                 <div class="manual-section">
