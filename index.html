@@ -3,33 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>으왕 레이더 Dashboard</title>
+    <title>으왕 레이더</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; -webkit-font-smoothing: antialiased; }
-        
-        /* 뱃지 스타일 */
-        .badge-S { background-color: #6f42c1; color: white; }
-        .badge-A { background-color: #0d6efd; color: white; }
-        .badge-B { background-color: #0dcaf0; color: black; }
-        .badge-C { background-color: #6c757d; color: white; }
-        
-        .action-READY { background-color: #198754; color: white; animation: pulse 1.5s infinite; }
-        .action-WAIT { background-color: #ffc107; color: black; }
+        body { font-family: 'Inter', sans-serif; background-color: #f0f2f5; }
+        .badge-S { background: #6f42c1; color: white; } .badge-A { background: #0d6efd; color: white; }
+        .badge-B { background: #0dcaf0; color: black; } .badge-C { background: #6c757d; color: white; }
+        .action-READY { background: #198754; color: white; animation: pulse 1.5s infinite; }
+        .action-WAIT { background: #ffc107; color: black; }
         @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.7; } 100% { opacity: 1; } }
-
-        /* 모바일 카드 */
-        .mobile-card { 
-            background: white; border-radius: 12px; padding: 16px; margin-bottom: 12px; 
-            box-shadow: 0 2px 5px rgba(0,0,0,0.03); border: 1px solid #eee; cursor: pointer;
-        }
-        .mobile-card:active { transform: scale(0.98); background-color: #f8f9fa; }
+        .mobile-card { background: white; border-radius: 12px; padding: 16px; margin-bottom: 12px; border: 1px solid #eee; cursor: pointer; }
+        .text-up { color: #dc3545 !important; fw: 600; } .text-down { color: #0d6efd !important; fw: 600; }
         
-        .text-up { color: #dc3545 !important; fw: 600; } 
-        .text-down { color: #0d6efd !important; fw: 600; }
+        /* 백테스트 카드 스타일 */
+        .stat-card { background: white; padding: 20px; border-radius: 12px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .stat-value { font-size: 1.5rem; font-weight: 800; color: #333; }
+        .stat-label { font-size: 0.8rem; color: #666; text-transform: uppercase; }
     </style>
 </head>
 <body>
@@ -39,9 +32,7 @@
         <button class="btn btn-outline-secondary d-lg-none me-2 border-0 text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
             <i class="fas fa-bars"></i>
         </button>
-        
-        <a class="navbar-brand fw-bold me-auto" href="#"><i class="fas fa-satellite-dish me-2"></i>MSI Pro</a>
-        
+        <a class="navbar-brand fw-bold me-auto" href="#"><i class="fas fa-radar me-2"></i>으왕 레이더</a>
         <div class="d-flex align-items-center">
             <span id="market-badge" class="badge bg-secondary me-2">Loading...</span>
             <button class="btn btn-sm btn-dark text-white" onclick="location.reload()"><i class="fas fa-sync-alt"></i></button>
@@ -53,80 +44,76 @@
     <div class="row">
         <div class="col-lg-2 d-none d-lg-block bg-white border-end vh-100 py-3 position-fixed" style="z-index: 1000;">
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action active fw-bold border-0 rounded"><i class="fas fa-home me-2"></i>Dashboard</a>
-                <a href="#" class="list-group-item list-group-item-action border-0"><i class="fas fa-star me-2"></i>Watchlist</a>
+                <button onclick="switchTab('dashboard')" class="list-group-item list-group-item-action active border-0 rounded mb-1" id="nav-dashboard"><i class="fas fa-home me-2"></i>대시보드</button>
+                <button onclick="switchTab('backtest')" class="list-group-item list-group-item-action border-0 rounded" id="nav-backtest"><i class="fas fa-history me-2"></i>백테스팅</button>
             </div>
-            <div class="mt-4 px-3 text-muted small">
-                <strong>System Info</strong><br>MSI Engine v3.0<br>Gate: KOSPI 20MA
-            </div>
+            <div class="mt-4 px-3 text-muted small"><strong>System Info</strong><br>Engine v4.0<br>Gate: KOSPI 20MA</div>
         </div>
 
         <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="sidebar">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title">Menu</h5>
+                <h5 class="offcanvas-title">메뉴</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
             </div>
             <div class="offcanvas-body">
                 <div class="list-group list-group-flush">
-                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white active">Dashboard</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Watchlist</a>
+                    <button onclick="switchTab('dashboard')" class="list-group-item list-group-item-action bg-dark text-white active">대시보드</button>
+                    <button onclick="switchTab('backtest')" class="list-group-item list-group-item-action bg-dark text-white">백테스팅</button>
                 </div>
             </div>
         </div>
 
         <main class="col-lg-10 offset-lg-2 col-12 py-4">
             
-            <h6 class="text-muted text-uppercase mb-3 fw-bold small px-1">Top Sectors</h6>
-            <div class="row g-3 mb-4" id="sector-area">
-                <div class="col-12 text-center text-muted py-3">데이터 로딩 중...</div>
+            <div id="tab-dashboard">
+                <h6 class="text-muted text-uppercase mb-3 fw-bold small px-1">Top Sectors</h6>
+                <div class="row g-3 mb-4" id="sector-area"></div>
+
+                <div class="d-flex justify-content-between align-items-center mb-2 px-1">
+                    <h6 class="text-muted text-uppercase mb-0 fw-bold small">Candidates</h6>
+                    <small class="text-muted" id="update-time"></small>
+                </div>
+
+                <div class="card shadow-sm d-none d-lg-block border-0">
+                    <div class="card-body p-0">
+                        <table class="table table-hover mb-0 align-middle">
+                            <thead class="table-light"><tr><th class="ps-4">종목</th><th>현재가</th><th>등락률</th><th>등급</th><th>Action</th><th>Signal</th><th>Plan</th></tr></thead>
+                            <tbody id="desktop-table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="d-lg-none" id="mobile-card-list"></div>
             </div>
 
-            <div class="d-flex justify-content-between align-items-center mb-2 px-1">
-                <h6 class="text-muted text-uppercase mb-0 fw-bold small">Candidates</h6>
-                <small class="text-muted" id="update-time"></small>
-            </div>
+            <div id="tab-backtest" style="display: none;">
+                <h4 class="fw-bold mb-4">📊 전략 검증 (최근 3년)</h4>
+                
+                <div class="row g-3 mb-4">
+                    <div class="col-6 col-md-3"><div class="stat-card"><div class="stat-value text-primary" id="bt-return">-</div><div class="stat-label">총 수익률</div></div></div>
+                    <div class="col-6 col-md-3"><div class="stat-card"><div class="stat-value" id="bt-final">-</div><div class="stat-label">최종 자산</div></div></div>
+                    <div class="col-6 col-md-3"><div class="stat-card"><div class="stat-value text-danger" id="bt-mdd">-</div><div class="stat-label">MDD</div></div></div>
+                    <div class="col-6 col-md-3"><div class="stat-card"><div class="stat-value text-success" id="bt-win">-</div><div class="stat-label">승률</div></div></div>
+                </div>
 
-            <div class="card shadow-sm d-none d-lg-block border-0">
-                <div class="card-body p-0">
-                    <table class="table table-hover mb-0 align-middle">
-                        <thead class="table-light">
-                            <tr>
-                                <th class="ps-4">종목</th>
-                                <th>현재가</th>
-                                <th>등락률</th>
-                                <th>등급</th>
-                                <th>Action</th>
-                                <th>Signal (Why)</th>
-                                <th>Plan</th>
-                            </tr>
-                        </thead>
-                        <tbody id="desktop-table-body"></tbody>
-                    </table>
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-header bg-white fw-bold">📈 누적 수익 곡선 (Equity Curve)</div>
+                    <div class="card-body">
+                        <canvas id="equityChart" height="100"></canvas>
+                    </div>
+                </div>
+                
+                <div class="alert alert-info small">
+                    <i class="fas fa-info-circle me-1"></i> 이 시뮬레이션은 매일 장 마감 후, 으왕 레이더의 로직(눌림목+RSI)을 과거 3년 데이터에 대입하여 산출된 결과입니다.
                 </div>
             </div>
-
-            <div class="d-lg-none" id="mobile-card-list"></div>
 
         </main>
     </div>
 </div>
 
-<div class="modal fade" id="detailModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow">
-            <div class="modal-header border-0 pb-0">
-                <h5 class="modal-title fw-bold" id="modal-title"></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body pt-2" id="modal-body"></div>
-            <div class="modal-footer border-0 pt-0">
-                <button type="button" class="btn btn-light w-100 fw-bold" data-bs-dismiss="modal">닫기</button>
-            </div>
-        </div>
-    </div>
-</div>
+<div class="modal fade" id="detailModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content border-0 shadow"><div class="modal-header border-0 pb-0"><h5 class="modal-title fw-bold" id="modal-title"></h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body pt-2" id="modal-body"></div><div class="modal-footer border-0 pt-0"><button type="button" class="btn btn-light w-100 fw-bold" data-bs-dismiss="modal">닫기</button></div></div></div></div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/app.js?v=3.1"></script> 
+<script src="assets/app.js?v=4.0"></script>
 </body>
 </html>
