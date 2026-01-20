@@ -52,17 +52,13 @@ def run_msi_backtest():
             df = fdr.DataReader(code, start_date, end_date)
             df['MA20'] = df['Close'].rolling(20).mean()
             df['MA60'] = df['Close'].rolling(60).mean()
-            
             hh = df['High'].rolling(14).max()
             ll = df['Low'].rolling(14).min()
             df['WR'] = -100 * (hh - df['Close']) / (hh - ll)
-            
             df['SwingLow'] = df['Low'].shift(1).rolling(10).min()
-            
             prev_high = df['High'].shift(1).rolling(3).max()
             df['StructTrigger'] = df['Close'] > prev_high
             df['NextOpen'] = df['Open'].shift(-1)
-            
             stock_db[code] = df
         except: pass
 
@@ -119,16 +115,12 @@ def run_msi_backtest():
             for code, df in stock_db.items():
                 if today not in df.index: continue
                 curr = df.loc[today]
-                
                 if not (curr['MA20'] > curr['MA60']): continue
                 if not curr['StructTrigger']: continue
-                
                 if pd.isna(curr['SwingLow']): continue
                 stop_candidate = curr['SwingLow'] * 0.998
-                
                 risk = curr['Close'] - stop_candidate
                 if risk <= 0: continue
-                
                 score = curr['Volume'] 
                 candidates.append({'code': code, 'price': curr['Close'], 'stop': stop_candidate, 'score': score})
             
@@ -136,7 +128,6 @@ def run_msi_backtest():
                 best = sorted(candidates, key=lambda x: x['score'], reverse=True)[0]
                 risk_per_share = best['price'] - best['stop']
                 target_candidate = best['price'] + (risk_per_share * 3)
-                
                 shares = int(balance / best['price'])
                 if shares > 0:
                     balance -= shares * best['price'] * 1.00015
@@ -148,7 +139,6 @@ def run_msi_backtest():
     final_eq = equity_curve[-1]['equity']
     total_return = ((final_eq / initial_balance) - 1) * 100
     win_rate = (wins / trade_count * 100) if trade_count > 0 else 0
-    
     eq_series = pd.Series([e['equity'] for e in equity_curve])
     peak = eq_series.cummax()
     mdd = ((eq_series - peak) / peak).min() * 100
@@ -212,7 +202,6 @@ def analyze_market_regime():
         curr = kospi.iloc[-1]
         ma20 = kospi['Close'].rolling(20).mean().iloc[-1]
         ma60 = kospi['Close'].rolling(60).mean().iloc[-1]
-        
         state = "RISK_ON"
         reason = "KOSPI 정배열 (상승)"
         if (curr['Close'] < ma20) or (ma20 < ma60):
@@ -240,66 +229,70 @@ def process_data():
     for c in cols: 
         if c in df.columns: df[c] = pd.to_numeric(df[c], errors='coerce').fillna(0)
     
-    # -------------------------------------------------------------
-    # [NEW] 섹터 정의 (Hybrid: KRX Base + Theme Override)
-    # -------------------------------------------------------------
-    # 1. 기본값: KRX 섹터 (예: 전기전자, 화학, 서비스업)
+    # 섹터 매핑
     if 'KRX_Sector' in df.columns:
         df['CustomSector'] = df['KRX_Sector'].fillna('기타')
     else:
         df['CustomSector'] = 'Unclassified'
-        
-    # 2. 오버라이드: Theme Map에 있는 종목은 강제 변경 (예: 반도체, 2차전지)
     for code, sector in theme_map.items():
         if code in df.index: df.loc[code, 'CustomSector'] = sector
         
-    # 필터: 거래대금 10억 이상 & 동전주 제외
     valid_mask = (df['종가'] > 1000) & (df['거래대금'] > 1_000_000_000)
     df = df[valid_mask].copy()
     
     # -------------------------------------------------------------
-    # [NEW] 섹터 스코어링 (거래대금 가중 방식)
+    # [FIX] 섹터 스코어링 (0~100점 정규화)
     # -------------------------------------------------------------
-    sector_leaders = []
+    temp_sectors = []
+    max_raw_score = 0 # 1등 점수 저장용
+    
     for sector, group in df.groupby('CustomSector'):
-        if len(group) < 3: continue # 종목 너무 적으면 패스
+        if len(group) < 3: continue 
 
-        # 1. 총 거래대금 (Money Flow)
         total_turnover = group['거래대금'].sum()
         if total_turnover == 0: continue
 
-        # 2. 가중 등락률 (돈이 몰린 종목의 등락률 반영)
         weights = group['거래대금'] / total_turnover
         weighted_change = (group['등락률'] * weights).sum()
 
-        # 3. 점수 산출: (총 거래대금 / 1억) + (가중 등락률 * 50)
-        # 예: 거래대금 1000억 + 평균상승 2% -> 1000 + 100 = 1100점
-        score = int((total_turnover / 100_000_000) + (weighted_change * 50))
+        # 원시 점수 계산 (Money Flow + Momentum)
+        raw_score = int((total_turnover / 100_000_000) + (weighted_change * 50))
+        if raw_score > max_raw_score: max_raw_score = raw_score # 최대값 갱신
         
         top_names = group.sort_values(by='거래대금', ascending=False).head(3)['Name'].tolist()
         
-        sector_leaders.append({
+        temp_sectors.append({
             "sector": sector, 
-            "score": score, 
+            "raw_score": raw_score, # 계산용
             "turnover": int(total_turnover), 
             "topTickers": top_names
         })
-        
+    
+    # 정규화 (1등 = 100점)
+    sector_leaders = []
+    for sec in temp_sectors:
+        final_score = 0
+        if max_raw_score > 0:
+            final_score = int((sec['raw_score'] / max_raw_score) * 100)
+            
+        sector_leaders.append({
+            "sector": sec['sector'],
+            "score": final_score, # 0~100
+            "turnover": sec['turnover'],
+            "topTickers": sec['topTickers']
+        })
+
     sector_leaders.sort(key=lambda x: x['score'], reverse=True)
     
-    # Watchlist (기존 로직 유지)
+    # Watchlist
     watchlist = []
-    # 전체 시장에서 거래대금 상위 30개 + 커스텀 섹터 상위
     top_vol = df.sort_values(by='거래대금', ascending=False).head(30)
-    
-    # 중복 제거 및 리스트업
     target_pool = top_vol[~top_vol.index.duplicated()]
     
     print(f"🔬 Analyzing Top Candidates...")
     
     count = 0
     for code, row in target_pool.iterrows():
-        # [Rule] Deep Dive 12개 제한
         if count >= 12: break
         
         price = int(row['종가'])
@@ -327,7 +320,7 @@ def process_data():
         elif vol >= 100e8: item['grade'] = "B"
         else: item['grade'] = "C"
 
-        if change < 0: continue # 음봉 패스
+        if change < 0: continue
         
         count += 1
         strat = get_detailed_strategy(code, market_type)
@@ -335,7 +328,6 @@ def process_data():
         
         if strat:
             swing_low = strat['swing_low']
-            
             if price > 0 and (price - swing_low)/price > 0.1:
                 item['action'] = "NO_TRADE"
                 item['why'].append("Stop > 10% (Risk High)")
@@ -383,7 +375,7 @@ def save_results():
     kst_now = datetime.utcnow() + timedelta(hours=9)
     now_str = kst_now.strftime("%Y-%m-%d %H:%M:%S (KST)")
     
-    meta = {"asOf": now_str, "source": ["KRX", "FDR", "YFinance"], "version": "v4.3 (Hybrid Sector)", "status": "ok", "market": market}
+    meta = {"asOf": now_str, "source": ["KRX", "FDR", "YFinance"], "version": "v4.4 (Score 0-100)", "status": "ok", "market": market}
     
     with open(os.path.join(DATA_DIR, 'meta.json'), 'w', encoding='utf-8') as f: json.dump(meta, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'sector_leaders.json'), 'w', encoding='utf-8') as f: json.dump({"asOf": now_str, "items": sectors}, f, ensure_ascii=False, indent=2)
@@ -391,7 +383,7 @@ def save_results():
     if backtest_data:
         with open(os.path.join(DATA_DIR, 'backtest.json'), 'w', encoding='utf-8') as f: json.dump(backtest_data, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Pipeline v4.3 Completed. Watchlist: {len(watchlist)}")
+    print(f"✅ Pipeline v4.4 Completed. Watchlist: {len(watchlist)}")
 
 if __name__ == "__main__":
     save_results()
