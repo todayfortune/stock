@@ -24,11 +24,10 @@ def load_theme_map():
     return {}
 
 # ---------------------------------------------------------
-# 2. MSI 백테스팅 (v1 Blueprint)
+# 2. 백테스팅 엔진 (MSI v1 일봉 근사)
 # ---------------------------------------------------------
 def run_msi_backtest():
     print("🧪 MSI Blueprint 백테스팅 가동...")
-    
     UNIVERSE = {
         '005930': '삼성전자', '000660': 'SK하이닉스', '086520': '에코프로',
         '006400': '삼성SDI', '005380': '현대차', '005490': 'POSCO홀딩스',
@@ -69,38 +68,31 @@ def run_msi_backtest():
     equity_curve = []
     trade_count = 0
     wins = 0
-    
     entry_price = 0
     stop_price = 0
     target_price = 0
-    
     dates = kospi.index
     
     for i in range(60, len(dates)-1): 
         today = dates[i]
         if today not in kospi.index: continue
         is_risk_on = kospi.loc[today]['RISK_ON']
-        
         curr_eq = balance
         if holding_code and today in stock_db[holding_code].index:
             curr_eq = balance + (shares * stock_db[holding_code].loc[today]['Close'])
-        
         equity_curve.append({"date": today.strftime("%Y-%m-%d"), "equity": int(curr_eq)})
         
         if holding_code:
             df = stock_db[holding_code]
             if today not in df.index: continue
             row = df.loc[today]
-            
             exit_type = None
             sell_price = 0
-            
             if row['Low'] <= stop_price: exit_type = 'STOP'; sell_price = stop_price
             elif row['High'] >= target_price: exit_type = 'TARGET'; sell_price = target_price
             elif not is_risk_on:
                 exit_type = 'MKT_OUT'
                 sell_price = row['NextOpen'] if not pd.isna(row['NextOpen']) else row['Close']
-            
             if exit_type:
                 sell_amt = shares * sell_price * 0.9975
                 balance += sell_amt
@@ -123,7 +115,6 @@ def run_msi_backtest():
                 if risk <= 0: continue
                 score = curr['Volume'] 
                 candidates.append({'code': code, 'price': curr['Close'], 'stop': stop_candidate, 'score': score})
-            
             if candidates:
                 best = sorted(candidates, key=lambda x: x['score'], reverse=True)[0]
                 risk_per_share = best['price'] - best['stop']
@@ -144,13 +135,7 @@ def run_msi_backtest():
     mdd = ((eq_series - peak) / peak).min() * 100
 
     return {
-        "summary": {
-            "total_return": round(total_return, 2),
-            "final_balance": int(final_eq),
-            "trade_count": trade_count,
-            "win_rate": round(win_rate, 1),
-            "mdd": round(mdd, 2)
-        },
+        "summary": { "total_return": round(total_return, 2), "final_balance": int(final_eq), "trade_count": trade_count, "win_rate": round(win_rate, 1), "mdd": round(mdd, 2) },
         "equity_curve": equity_curve
     }
 
@@ -177,21 +162,16 @@ def get_detailed_strategy(ticker, market_type):
     try:
         suffix = ".KS" if market_type == 'KOSPI' else ".KQ"
         symbol = f"{ticker}{suffix}"
-        
         df_1h = yf.download(symbol, period="5d", interval="1h", progress=False)
         if df_1h.empty: return None
-
         df_15m = yf.download(symbol, period="2d", interval="15m", progress=False)
         if isinstance(df_1h.columns, pd.MultiIndex): df_1h.columns = df_1h.columns.get_level_values(0)
         if isinstance(df_15m.columns, pd.MultiIndex): df_15m.columns = df_15m.columns.get_level_values(0)
-
         df_1h['WR'] = calc_williams_r(df_1h)
         current_wr = df_1h['WR'].iloc[-1]
         swing_low = find_swing_low(df_1h, window=10)
-        
         is_tc = detect_trend_change(df_15m) if not df_15m.empty else False
         is_oversold = current_wr < -80
-        
         return {"swing_low": int(swing_low), "wr": round(current_wr, 1), "is_tc": is_tc, "is_oversold": is_oversold}
     except: return None
 
@@ -202,7 +182,7 @@ def analyze_market_regime():
         ma20 = kospi['Close'].rolling(20).mean().iloc[-1]
         ma60 = kospi['Close'].rolling(60).mean().iloc[-1]
         state = "RISK_ON"
-        reason = "KOSPI 정배열 (상승)"
+        reason = "KOSPI 정배열"
         if (curr['Close'] < ma20) or (ma20 < ma60):
             state = "RISK_OFF"
             reason = "KOSPI 추세 이탈"
@@ -216,7 +196,10 @@ def process_data():
     theme_map = load_theme_map()
     df = fdr.StockListing('KRX')
     
-    rename_map = {'Code':'Code', 'Name':'Name', 'Close':'종가', 'Amount':'거래대금', 'Marcap':'시가총액', 'Market': 'Market', 'Sector': 'KRX_Sector'}
+    # [FIX] 컬럼 매핑 강화 (UNCLASSIFIED 방지)
+    rename_map = {'Code':'Code', 'Name':'Name', 'Close':'종가', 'Amount':'거래대금', 'Marcap':'시가총액', 'Market': 'Market', 'Sector': 'KRX_Sector', 'Dept': 'KRX_Sector'} 
+    # Dept 컬럼이 Sector 대신 쓰이는 경우 대응
+    
     if 'ChagesRatio' in df.columns: rename_map['ChagesRatio'] = '등락률'
     elif 'Change' in df.columns: rename_map['Change'] = '등락률'
     elif 'ChangesRatio' in df.columns: rename_map['ChangesRatio'] = '등락률'
@@ -228,9 +211,12 @@ def process_data():
     for c in cols: 
         if c in df.columns: df[c] = pd.to_numeric(df[c], errors='coerce').fillna(0)
     
-    # 섹터 매핑
-    if 'KRX_Sector' in df.columns: df['CustomSector'] = df['KRX_Sector'].fillna('기타')
-    else: df['CustomSector'] = 'Unclassified'
+    # 섹터 매핑 (UNCLASSIFIED 최소화)
+    if 'KRX_Sector' in df.columns:
+        df['CustomSector'] = df['KRX_Sector'].fillna('기타')
+    else:
+        df['CustomSector'] = 'Unclassified'
+        
     for code, sector in theme_map.items():
         if code in df.index: df.loc[code, 'CustomSector'] = sector
         
@@ -238,37 +224,46 @@ def process_data():
     df = df[valid_mask].copy()
     
     # -------------------------------------------------------------
-    # 섹터 스코어링 (0~100점)
+    # [FIX] 섹터 스코어링 (0~100점 정규화 로직 재확인)
     # -------------------------------------------------------------
     temp_sectors = []
     max_raw_score = 0
+    
     for sector, group in df.groupby('CustomSector'):
         if len(group) < 3: continue 
         total_turnover = group['거래대금'].sum()
         if total_turnover == 0: continue
         weights = group['거래대금'] / total_turnover
         weighted_change = (group['등락률'] * weights).sum()
+        
+        # Raw Score 계산
         raw_score = int((total_turnover / 100_000_000) + (weighted_change * 50))
         if raw_score > max_raw_score: max_raw_score = raw_score
+        
         top_names = group.sort_values(by='거래대금', ascending=False).head(3)['Name'].tolist()
         temp_sectors.append({"sector": sector, "raw_score": raw_score, "turnover": int(total_turnover), "topTickers": top_names})
     
+    # [중요] 정규화 (1등 = 100점)
     sector_leaders = []
     for sec in temp_sectors:
         final_score = 0
-        if max_raw_score > 0: final_score = int((sec['raw_score'] / max_raw_score) * 100)
-        sector_leaders.append({"sector": sec['sector'], "score": final_score, "turnover": sec['turnover'], "topTickers": sec['topTickers']})
+        if max_raw_score > 0:
+            final_score = int((sec['raw_score'] / max_raw_score) * 100) # 여기서 100점으로 변환
+            
+        sector_leaders.append({
+            "sector": sec['sector'],
+            "score": final_score,
+            "turnover": sec['turnover'],
+            "topTickers": sec['topTickers']
+        })
     sector_leaders.sort(key=lambda x: x['score'], reverse=True)
     
-    # -------------------------------------------------------------
-    # Watchlist Analysis (The OS Logic)
-    # -------------------------------------------------------------
+    # Watchlist Analysis
     watchlist = []
     top_vol = df.sort_values(by='거래대금', ascending=False).head(30)
     target_pool = top_vol[~top_vol.index.duplicated()]
     
     print(f"🔬 Analyzing Top Candidates (OS Logic)...")
-    
     count = 0
     for code, row in target_pool.iterrows():
         if count >= 12: break
@@ -281,13 +276,12 @@ def process_data():
         item = {
             "ticker": code, "name": row['Name'], "sector": row['CustomSector'],
             "state": "NO_TRADE", "grade": "C", "action": "WAIT",
-            "msi_status": "NONE", # [NEW] OS 상태 필드
+            "msi_status": "NONE",
             "close": price, "change": round(change, 2), "volume": vol,
             "entry": {"price": 0}, "stop": {"price": 0}, "target": {"price": 0, "rr": 0},
             "why": []
         }
         
-        # 1. Market Gate (Global)
         if market['state'] == 'RISK_OFF':
             item['why'].append(f"⛔ {market['reason']}")
             item['action'] = "NO_TRADE"
@@ -295,13 +289,12 @@ def process_data():
             watchlist.append(item)
             continue 
 
-        # Grade
         if vol >= 1000e8 or (vol >= 500e8 and change >= 15): item['grade'] = "S"
         elif vol >= 300e8: item['grade'] = "A"
         elif vol >= 100e8: item['grade'] = "B"
         else: item['grade'] = "C"
 
-        if change < 0: continue # 음봉 패스
+        if change < 0: continue
         
         count += 1
         strat = get_detailed_strategy(code, market_type)
@@ -309,8 +302,6 @@ def process_data():
         
         if strat:
             swing_low = strat['swing_low']
-            
-            # [Safety] 손절 범위 체크
             if price > 0 and (price - swing_low)/price > 0.1:
                 item['action'] = "NO_TRADE"
                 item['msi_status'] = "RISK_HIGH"
@@ -320,46 +311,34 @@ def process_data():
                 item['stop']['price'] = swing_low
                 item['why'].append("Stop: 1H Swing Low")
 
-                # [OS Logic] 상태 결정 (Accumulating vs Handover)
                 if strat['is_tc']: 
-                    # 🚀 HANDOVER (MSI 인계)
-                    # 구조적 돌파 발생 -> 기계적 대응 구간
                     item['action'] = "READY"
                     item['msi_status'] = "HANDOVER"
                     item['entry']['price'] = price
                     item['why'].append("⚡ MSI 발동 (구조 돌파)")
-                    
                 elif strat['is_oversold']: 
-                    # 🧘 ACCUMULATE (인간 영역)
-                    # 추세는 좋으나 과매도(눌림) -> 분할 매수 관찰 구간
                     item['action'] = "WAIT"
                     item['msi_status'] = "ACCUMULATE"
                     item['why'].append("💧 축적 구간 (과매도)")
-                    item['entry']['price'] = price # 감시용 가격
-                    
+                    item['entry']['price'] = price
                 else: 
-                    # 일반 관찰
                     item['action'] = "WAIT"
                     item['msi_status'] = "ACCUMULATE"
                     item['why'].append("관찰 (돌파 대기)")
                     item['entry']['price'] = int(price * 0.98)
             
-            # Target Calculation (Satellite Only)
             risk = item['entry']['price'] - item['stop']['price']
             if risk > 0 and item['entry']['price'] > 0:
                 item['target']['price'] = int(item['entry']['price'] + (risk * 3))
                 item['target']['rr'] = 3.0
-                if item['action'] != "NO_TRADE":
-                    item['state'] = "WATCH"
-            else:
-                item['action'] = "NO_TRADE"
+                if item['action'] != "NO_TRADE": item['state'] = "WATCH"
+            else: item['action'] = "NO_TRADE"
         else:
             item['why'].append("데이터 로드 실패")
             item['action'] = "NO_TRADE"
 
         watchlist.append(item)
     
-    # 정렬: READY(Handover) > WAIT(Accumulate) > NO_TRADE
     gw = {'S':3, 'A':2, 'B':1, 'C':0}
     aw = {'READY':2, 'WAIT':1, 'NO_TRADE':0}
     watchlist.sort(key=lambda x: (aw.get(x['action'],0), gw.get(x['grade'],0), x['volume']), reverse=True)
@@ -368,19 +347,16 @@ def process_data():
 def save_results():
     market, sectors, watchlist = process_data()
     backtest_data = run_msi_backtest()
-    
     kst_now = datetime.utcnow() + timedelta(hours=9)
     now_str = kst_now.strftime("%Y-%m-%d %H:%M:%S (KST)")
-    
-    meta = {"asOf": now_str, "source": ["KRX", "FDR", "YFinance"], "version": "v5.0 (OS Update)", "status": "ok", "market": market}
+    meta = {"asOf": now_str, "source": ["KRX", "FDR", "YFinance"], "version": "v4.5 (Score Fix)", "status": "ok", "market": market}
     
     with open(os.path.join(DATA_DIR, 'meta.json'), 'w', encoding='utf-8') as f: json.dump(meta, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'sector_leaders.json'), 'w', encoding='utf-8') as f: json.dump({"asOf": now_str, "items": sectors}, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'watchlist.json'), 'w', encoding='utf-8') as f: json.dump({"asOf": now_str, "items": watchlist}, f, ensure_ascii=False, indent=2)
     if backtest_data:
         with open(os.path.join(DATA_DIR, 'backtest.json'), 'w', encoding='utf-8') as f: json.dump(backtest_data, f, ensure_ascii=False, indent=2)
-
-    print(f"✅ Pipeline v5.0 Completed. Watchlist: {len(watchlist)}")
+    print(f"✅ Pipeline v4.5 Completed. Watchlist: {len(watchlist)}")
 
 if __name__ == "__main__":
     save_results()
