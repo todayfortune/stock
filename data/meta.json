@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-01-20T00:11:53.378009",
+  "asOf": "2026-01-20 09:50:29 (KST)",
   "source": [
     "KRX",
     "FDR",
     "YFinance"
   ],
-  "version": "v3.0 (Blueprint Final)",
+  "version": "v3.2 (Final)",
   "status": "ok",
   "market": {
     "state": "RISK_ON",
