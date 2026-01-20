@@ -208,13 +208,37 @@
                 </div>
 
                 <div class="manual-section">
-                    <h5 class="manual-title">🏷️ 체급 등급 (Grade)</h5>
-                    <table class="table table-bordered table-sm small text-center mb-0">
-                        <thead class="table-light"><tr><th>등급</th><th>기준 (일 거래대금)</th><th>의미</th></tr></thead>
+                    <h5 class="manual-title">🏷️ 체급 등급 (Grade: Hybrid)</h5>
+                    <p class="small text-muted mb-3">
+                        대형주 독식을 막기 위해 <strong>'거래대금(절대값)'</strong>과 <strong>'시총 회전율(상대값)'</strong>을 함께 봅니다.
+                    </p>
+                    <table class="table table-bordered table-sm small text-center mb-0 align-middle">
+                        <thead class="table-light"><tr><th>등급</th><th>기준 (Hybrid Logic)</th><th>의미</th></tr></thead>
                         <tbody>
-                            <tr><td><span class="badge badge-S">S</span></td><td>1,000억↑ (or 500억+급등)</td><td>시장 주도주 (King)</td></tr>
-                            <tr><td><span class="badge badge-A">A</span></td><td>300억↑</td><td>메이저 수급주</td></tr>
-                            <tr><td><span class="badge badge-B">B</span></td><td>100억↑</td><td>일반 수급주</td></tr>
+                            <tr>
+                                <td><span class="badge badge-S">S</span></td>
+                                <td class="text-start ps-3">
+                                    <div class="fw-bold">2,000억↑ (초대형)</div>
+                                    <div class="text-secondary" style="font-size: 0.75rem;">OR 500억↑ + 회전율 10% + 급등</div>
+                                </td>
+                                <td>시장 주도주 (King)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-A">A</span></td>
+                                <td class="text-start ps-3">
+                                    <div class="fw-bold">500억↑ (메이저)</div>
+                                    <div class="text-secondary" style="font-size: 0.75rem;">OR 300억↑ + 회전율 7%</div>
+                                </td>
+                                <td>메이저 수급주</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge badge-B">B</span></td>
+                                <td class="text-start ps-3">
+                                    <div class="fw-bold">200억↑ (일반)</div>
+                                    <div class="text-secondary" style="font-size: 0.75rem;">OR 100억↑ + 회전율 5%</div>
+                                </td>
+                                <td>일반 수급주</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
