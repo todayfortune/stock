@@ -196,9 +196,8 @@ def process_data():
     theme_map = load_theme_map()
     df = fdr.StockListing('KRX')
     
-    # [FIX] 컬럼 매핑 강화 (UNCLASSIFIED 방지)
-    rename_map = {'Code':'Code', 'Name':'Name', 'Close':'종가', 'Amount':'거래대금', 'Marcap':'시가총액', 'Market': 'Market', 'Sector': 'KRX_Sector', 'Dept': 'KRX_Sector'} 
-    # Dept 컬럼이 Sector 대신 쓰이는 경우 대응
+    # [FIX] 시가총액(Marcap) 컬럼 확보
+    rename_map = {'Code':'Code', 'Name':'Name', 'Close':'종가', 'Amount':'거래대금', 'Marcap':'시가총액', 'Market': 'Market', 'Sector': 'KRX_Sector', 'Dept': 'KRX_Sector'}
     
     if 'ChagesRatio' in df.columns: rename_map['ChagesRatio'] = '등락률'
     elif 'Change' in df.columns: rename_map['Change'] = '등락률'
@@ -207,16 +206,13 @@ def process_data():
     df.rename(columns=rename_map, inplace=True)
     df.set_index('Code', inplace=True)
     
-    cols = ['종가','거래대금','등락률']
+    cols = ['종가','거래대금','등락률','시가총액']
     for c in cols: 
         if c in df.columns: df[c] = pd.to_numeric(df[c], errors='coerce').fillna(0)
     
-    # 섹터 매핑 (UNCLASSIFIED 최소화)
-    if 'KRX_Sector' in df.columns:
-        df['CustomSector'] = df['KRX_Sector'].fillna('기타')
-    else:
-        df['CustomSector'] = 'Unclassified'
-        
+    # 섹터 매핑
+    if 'KRX_Sector' in df.columns: df['CustomSector'] = df['KRX_Sector'].fillna('기타')
+    else: df['CustomSector'] = 'Unclassified'
     for code, sector in theme_map.items():
         if code in df.index: df.loc[code, 'CustomSector'] = sector
         
@@ -224,41 +220,31 @@ def process_data():
     df = df[valid_mask].copy()
     
     # -------------------------------------------------------------
-    # [FIX] 섹터 스코어링 (0~100점 정규화 로직 재확인)
+    # 섹터 스코어링 (0~100점)
     # -------------------------------------------------------------
     temp_sectors = []
     max_raw_score = 0
-    
     for sector, group in df.groupby('CustomSector'):
         if len(group) < 3: continue 
         total_turnover = group['거래대금'].sum()
         if total_turnover == 0: continue
         weights = group['거래대금'] / total_turnover
         weighted_change = (group['등락률'] * weights).sum()
-        
-        # Raw Score 계산
         raw_score = int((total_turnover / 100_000_000) + (weighted_change * 50))
         if raw_score > max_raw_score: max_raw_score = raw_score
-        
         top_names = group.sort_values(by='거래대금', ascending=False).head(3)['Name'].tolist()
         temp_sectors.append({"sector": sector, "raw_score": raw_score, "turnover": int(total_turnover), "topTickers": top_names})
     
-    # [중요] 정규화 (1등 = 100점)
     sector_leaders = []
     for sec in temp_sectors:
         final_score = 0
-        if max_raw_score > 0:
-            final_score = int((sec['raw_score'] / max_raw_score) * 100) # 여기서 100점으로 변환
-            
-        sector_leaders.append({
-            "sector": sec['sector'],
-            "score": final_score,
-            "turnover": sec['turnover'],
-            "topTickers": sec['topTickers']
-        })
+        if max_raw_score > 0: final_score = int((sec['raw_score'] / max_raw_score) * 100)
+        sector_leaders.append({"sector": sec['sector'], "score": final_score, "turnover": sec['turnover'], "topTickers": sec['topTickers']})
     sector_leaders.sort(key=lambda x: x['score'], reverse=True)
     
-    # Watchlist Analysis
+    # -------------------------------------------------------------
+    # Watchlist (Hybrid Grading Applied)
+    # -------------------------------------------------------------
     watchlist = []
     top_vol = df.sort_values(by='거래대금', ascending=False).head(30)
     target_pool = top_vol[~top_vol.index.duplicated()]
@@ -271,7 +257,11 @@ def process_data():
         price = int(row['종가'])
         vol = int(row['거래대금'])
         change = float(row['등락률'])
+        marcap = int(row['시가총액'])
         market_type = row.get('Market', 'KOSPI')
+        
+        # [NEW] 시가총액 회전율 (Turnover Rate) 계산
+        turnover_rate = (vol / marcap * 100) if marcap > 0 else 0
         
         item = {
             "ticker": code, "name": row['Name'], "sector": row['CustomSector'],
@@ -289,9 +279,21 @@ def process_data():
             watchlist.append(item)
             continue 
 
-        if vol >= 1000e8 or (vol >= 500e8 and change >= 15): item['grade'] = "S"
-        elif vol >= 300e8: item['grade'] = "A"
-        elif vol >= 100e8: item['grade'] = "B"
+        # -------------------------------------------------------------
+        # [NEW] 등급 산정 (절대 거래대금 + 회전율 하이브리드)
+        # -------------------------------------------------------------
+        # S급: 절대 2000억↑ (삼성전자급) OR (500억↑ + 회전율 10%↑ + 급등) -> 중소형 주도주
+        if vol >= 2000e8: item['grade'] = "S"
+        elif vol >= 500e8 and turnover_rate >= 10 and change >= 10: item['grade'] = "S"
+        
+        # A급: 절대 500억↑ OR (300억↑ + 회전율 7%↑)
+        elif vol >= 500e8: item['grade'] = "A"
+        elif vol >= 300e8 and turnover_rate >= 7: item['grade'] = "A"
+        
+        # B급: 절대 200억↑ OR (100억↑ + 회전율 5%↑)
+        elif vol >= 200e8: item['grade'] = "B"
+        elif vol >= 100e8 and turnover_rate >= 5: item['grade'] = "B"
+        
         else: item['grade'] = "C"
 
         if change < 0: continue
@@ -349,14 +351,14 @@ def save_results():
     backtest_data = run_msi_backtest()
     kst_now = datetime.utcnow() + timedelta(hours=9)
     now_str = kst_now.strftime("%Y-%m-%d %H:%M:%S (KST)")
-    meta = {"asOf": now_str, "source": ["KRX", "FDR", "YFinance"], "version": "v4.5 (Score Fix)", "status": "ok", "market": market}
+    meta = {"asOf": now_str, "source": ["KRX", "FDR", "YFinance"], "version": "v4.6 (Turnover Fix)", "status": "ok", "market": market}
     
     with open(os.path.join(DATA_DIR, 'meta.json'), 'w', encoding='utf-8') as f: json.dump(meta, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'sector_leaders.json'), 'w', encoding='utf-8') as f: json.dump({"asOf": now_str, "items": sectors}, f, ensure_ascii=False, indent=2)
     with open(os.path.join(DATA_DIR, 'watchlist.json'), 'w', encoding='utf-8') as f: json.dump({"asOf": now_str, "items": watchlist}, f, ensure_ascii=False, indent=2)
     if backtest_data:
         with open(os.path.join(DATA_DIR, 'backtest.json'), 'w', encoding='utf-8') as f: json.dump(backtest_data, f, ensure_ascii=False, indent=2)
-    print(f"✅ Pipeline v4.5 Completed. Watchlist: {len(watchlist)}")
+    print(f"✅ Pipeline v4.6 Completed. Watchlist: {len(watchlist)}")
 
 if __name__ == "__main__":
     save_results()
