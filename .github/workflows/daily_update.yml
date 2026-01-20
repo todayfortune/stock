@@ -2,14 +2,22 @@ name: Daily MSI Data Collection
 
 on:
   schedule:
-    # 매일 한국시간 15:50 (UTC 06:50) 실행
+    # 1. 장 시작 직후 (한국 09:10 -> UTC 00:10)
+    - cron: '10 0 * * 1-5'
+    
+    # 2. 점심 시간 (한국 12:30 -> UTC 03:30)
+    - cron: '30 3 * * 1-5'
+    
+    # 3. 장 마감 후 (한국 15:50 -> UTC 06:50)
     - cron: '50 6 * * 1-5'
+
   workflow_dispatch:      # 수동 실행 버튼
 
 permissions:
   contents: write
 
 jobs:
+  # ... (나머지 코드는 건드릴 필요 없음) ...
   build:
     runs-on: ubuntu-latest
     
@@ -17,13 +25,12 @@ jobs:
     - name: 저장소 체크아웃 (코드 가져오기)
       uses: actions/checkout@v3
 
-    # [수정됨] 파이썬 버전을 3.9 -> 3.11로 업그레이드
     - name: 파이썬 설정 (3.11 버전)
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
 
-    - name: 라이브러리 설치 (yfinance 포함)
+    - name: 라이브러리 설치
       run: |
         pip install finance-datareader yfinance pandas numpy requests lxml
 
@@ -35,6 +42,7 @@ jobs:
       run: |
         git config --global user.name "MSI-Bot"
         git config --global user.email "actions@github.com"
+        # 데이터가 바뀌었을 때만 커밋 (빈 커밋 방지)
         git add data/*.json
-        git commit -m "📈 Update MSI Data" || exit 0
+        git commit -m "📈 Update MSI Data ($(date +'%H:%M'))" || echo "No changes to commit"
         git push
