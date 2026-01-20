@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-01-20 21:52:33 (KST)",
+  "asOf": "2026-01-20 22:07:40 (KST)",
   "items": [
     {
       "ticker": "005490",
@@ -82,7 +82,7 @@
     {
       "ticker": "298380",
       "name": "에이비엘바이오",
-      "sector": "기술성장기업부",
+      "sector": "Unclassified",
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
@@ -134,7 +134,7 @@
     {
       "ticker": "015760",
       "name": "한국전력",
-      "sector": "",
+      "sector": "Unclassified",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
@@ -146,7 +146,7 @@
         "price": 0
       },
       "stop": {
-        "price": 54900
+        "price": 54700
       },
       "target": {
         "price": 0,
@@ -209,7 +209,7 @@
     {
       "ticker": "032820",
       "name": "우리기술",
-      "sector": "벤처기업부",
+      "sector": "Unclassified",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
@@ -221,7 +221,7 @@
         "price": 0
       },
       "stop": {
-        "price": 5520
+        "price": 4725
       },
       "target": {
         "price": 0,
@@ -234,7 +234,7 @@
     {
       "ticker": "319400",
       "name": "현대무벡스",
-      "sector": "우량기업부",
+      "sector": "Unclassified",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
@@ -246,7 +246,7 @@
         "price": 0
       },
       "stop": {
-        "price": 32550
+        "price": 29000
       },
       "target": {
         "price": 0,
@@ -259,7 +259,7 @@
     {
       "ticker": "006910",
       "name": "보성파워텍",
-      "sector": "벤처기업부",
+      "sector": "Unclassified",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
@@ -271,7 +271,7 @@
         "price": 0
       },
       "stop": {
-        "price": 5910
+        "price": 5830
       },
       "target": {
         "price": 0,
@@ -284,7 +284,7 @@
     {
       "ticker": "001440",
       "name": "대한전선",
-      "sector": "",
+      "sector": "Unclassified",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
