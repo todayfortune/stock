@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-01-20 14:05:11 (KST)",
+  "asOf": "2026-01-20 14:37:03 (KST)",
   "items": [
     {
       "ticker": "034020",
@@ -8,45 +8,47 @@
       "state": "WATCH",
       "grade": "S",
       "action": "READY",
-      "close": 96500,
-      "change": 1.15,
-      "volume": 802404040850,
+      "close": 96900,
+      "change": 1.57,
+      "volume": 880681681850,
       "entry": {
-        "price": 96500
+        "price": 96900
       },
       "stop": {
         "price": 92500
       },
       "target": {
-        "price": 108500,
+        "price": 110100,
         "rr": 3.0
       },
       "why": [
-        "15M 구조전환"
+        "Stop: 1H Swing Low",
+        "15M 구조전환(TC)"
       ]
     },
     {
-      "ticker": "015760",
-      "name": "한국전력",
-      "sector": "Unclassified",
+      "ticker": "047810",
+      "name": "한국항공우주",
+      "sector": "방산_항공우주",
       "state": "WATCH",
       "grade": "S",
       "action": "READY",
-      "close": 65100,
-      "change": 15.63,
-      "volume": 783446704850,
+      "close": 167000,
+      "change": 0.91,
+      "volume": 163335960750,
       "entry": {
-        "price": 65100
+        "price": 167000
       },
       "stop": {
-        "price": 63147
+        "price": 162500
       },
       "target": {
-        "price": 70959,
+        "price": 180500,
         "rr": 3.0
       },
       "why": [
-        "15M 구조전환"
+        "Stop: 1H Swing Low",
+        "15M 구조전환(TC)"
       ]
     },
     {
@@ -56,21 +58,22 @@
       "state": "WATCH",
       "grade": "S",
       "action": "READY",
-      "close": 2367000,
-      "change": 0.3,
-      "volume": 100911532500,
+      "close": 2368000,
+      "change": 0.34,
+      "volume": 111345390500,
       "entry": {
-        "price": 2367000
+        "price": 2368000
       },
       "stop": {
         "price": 2210000
       },
       "target": {
-        "price": 2838000,
+        "price": 2842000,
         "rr": 3.0
       },
       "why": [
-        "15M 구조전환"
+        "Stop: 1H Swing Low",
+        "15M 구조전환(TC)"
       ]
     },
     {
@@ -78,23 +81,24 @@
       "name": "HD현대일렉트릭",
       "sector": "전력_변압기",
       "state": "WATCH",
-      "grade": "A",
+      "grade": "S",
       "action": "READY",
-      "close": 920000,
-      "change": 0.22,
-      "volume": 90974071000,
+      "close": 922000,
+      "change": 0.44,
+      "volume": 100255895000,
       "entry": {
-        "price": 920000
+        "price": 922000
       },
       "stop": {
         "price": 880000
       },
       "target": {
-        "price": 1040000,
+        "price": 1048000,
         "rr": 3.0
       },
       "why": [
-        "15M 구조전환"
+        "Stop: 1H Swing Low",
+        "15M 구조전환(TC)"
       ]
     },
     {
@@ -104,174 +108,22 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 482000,
-      "change": 0.42,
-      "volume": 2037199202750,
+      "close": 484500,
+      "change": 0.94,
+      "volume": 2134020759500,
       "entry": {
-        "price": 472360
+        "price": 474810
       },
       "stop": {
-        "price": 467540
+        "price": 460500
       },
       "target": {
-        "price": 486820,
+        "price": 517740,
         "rr": 3.0
       },
-      "why": []
-    },
-    {
-      "ticker": "006400",
-      "name": "삼성SDI",
-      "sector": "2차전지_셀",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 327500,
-      "change": 4.3,
-      "volume": 622792651750,
-      "entry": {
-        "price": 320950
-      },
-      "stop": {
-        "price": 317675
-      },
-      "target": {
-        "price": 330775,
-        "rr": 3.0
-      },
-      "why": []
-    },
-    {
-      "ticker": "098460",
-      "name": "고영",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 30500,
-      "change": 1.67,
-      "volume": 498338078575,
-      "entry": {
-        "price": 29890
-      },
-      "stop": {
-        "price": 27650
-      },
-      "target": {
-        "price": 36610,
-        "rr": 3.0
-      },
-      "why": []
-    },
-    {
-      "ticker": "454910",
-      "name": "두산로보틱스",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 119000,
-      "change": 10.49,
-      "volume": 486049393800,
-      "entry": {
-        "price": 116620
-      },
-      "stop": {
-        "price": 115430
-      },
-      "target": {
-        "price": 120190,
-        "rr": 3.0
-      },
-      "why": []
-    },
-    {
-      "ticker": "006910",
-      "name": "보성파워텍",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 7800,
-      "change": 30.0,
-      "volume": 406648456575,
-      "entry": {
-        "price": 7644
-      },
-      "stop": {
-        "price": 7566
-      },
-      "target": {
-        "price": 7878,
-        "rr": 3.0
-      },
-      "why": []
-    },
-    {
-      "ticker": "032820",
-      "name": "우리기술",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 7830,
-      "change": 27.52,
-      "volume": 392284438750,
-      "entry": {
-        "price": 7673
-      },
-      "stop": {
-        "price": 7595
-      },
-      "target": {
-        "price": 7907,
-        "rr": 3.0
-      },
-      "why": []
-    },
-    {
-      "ticker": "319400",
-      "name": "현대무벡스",
-      "sector": "Unclassified",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 38525,
-      "change": 10.23,
-      "volume": 387825808000,
-      "entry": {
-        "price": 37754
-      },
-      "stop": {
-        "price": 37369
-      },
-      "target": {
-        "price": 38909,
-        "rr": 3.0
-      },
-      "why": []
-    },
-    {
-      "ticker": "056080",
-      "name": "유진로봇",
-      "sector": "로봇_서비스",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 34650,
-      "change": 5.48,
-      "volume": 299346003050,
-      "entry": {
-        "price": 33957
-      },
-      "stop": {
-        "price": 33610
-      },
-      "target": {
-        "price": 34998,
-        "rr": 3.0
-      },
-      "why": []
+      "why": [
+        "Stop: 1H Swing Low"
+      ]
     },
     {
       "ticker": "064350",
@@ -280,20 +132,22 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 217500,
-      "change": 1.16,
-      "volume": 218652977750,
+      "close": 220000,
+      "change": 2.33,
+      "volume": 235427690750,
       "entry": {
-        "price": 213150
+        "price": 215600
       },
       "stop": {
         "price": 213000
       },
       "target": {
-        "price": 213600,
+        "price": 223400,
         "rr": 3.0
       },
-      "why": []
+      "why": [
+        "Stop: 1H Swing Low"
+      ]
     },
     {
       "ticker": "022100",
@@ -302,42 +156,22 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
-      "close": 41700,
-      "change": 0.0,
-      "volume": 208082283200,
+      "close": 41750,
+      "change": 0.12,
+      "volume": 211639510575,
       "entry": {
-        "price": 40866
+        "price": 40915
       },
       "stop": {
         "price": 39650
       },
       "target": {
-        "price": 44514,
+        "price": 44710,
         "rr": 3.0
       },
-      "why": []
-    },
-    {
-      "ticker": "389500",
-      "name": "에스비비테크",
-      "sector": "로봇_감속기",
-      "state": "WATCH",
-      "grade": "S",
-      "action": "WAIT",
-      "close": 73800,
-      "change": 8.37,
-      "volume": 149022680450,
-      "entry": {
-        "price": 72324
-      },
-      "stop": {
-        "price": 71586
-      },
-      "target": {
-        "price": 74538,
-        "rr": 3.0
-      },
-      "why": []
+      "why": [
+        "Stop: 1H Swing Low"
+      ]
     },
     {
       "ticker": "000880",
@@ -348,7 +182,7 @@
       "action": "WAIT",
       "close": 125400,
       "change": 0.4,
-      "volume": 68028326400,
+      "volume": 71812815750,
       "entry": {
         "price": 122892
       },
@@ -359,7 +193,9 @@
         "price": 130668,
         "rr": 3.0
       },
-      "why": []
+      "why": [
+        "Stop: 1H Swing Low"
+      ]
     },
     {
       "ticker": "488900",
@@ -368,42 +204,22 @@
       "state": "WATCH",
       "grade": "A",
       "action": "WAIT",
-      "close": 20900,
-      "change": 2.7,
-      "volume": 36881398000,
+      "close": 21350,
+      "change": 4.91,
+      "volume": 37920747075,
       "entry": {
-        "price": 20482
+        "price": 20923
       },
       "stop": {
-        "price": 19510
+        "price": 19650
       },
       "target": {
-        "price": 23398,
+        "price": 24742,
         "rr": 3.0
       },
-      "why": []
-    },
-    {
-      "ticker": "042370",
-      "name": "비츠로테크",
-      "sector": "방산_우주",
-      "state": "WATCH",
-      "grade": "B",
-      "action": "WAIT",
-      "close": 11270,
-      "change": 5.03,
-      "volume": 26343725330,
-      "entry": {
-        "price": 11044
-      },
-      "stop": {
-        "price": 10931
-      },
-      "target": {
-        "price": 11383,
-        "rr": 3.0
-      },
-      "why": []
+      "why": [
+        "Stop: 1H Swing Low"
+      ]
     },
     {
       "ticker": "484590",
@@ -412,42 +228,70 @@
       "state": "WATCH",
       "grade": "C",
       "action": "WAIT",
-      "close": 13780,
-      "change": 1.17,
-      "volume": 4822676035,
+      "close": 13920,
+      "change": 2.2,
+      "volume": 5321797325,
       "entry": {
-        "price": 13504
+        "price": 13641
       },
       "stop": {
-        "price": 13350
+        "price": 13390
       },
       "target": {
-        "price": 13966,
+        "price": 14394,
         "rr": 3.0
       },
-      "why": []
+      "why": [
+        "Stop: 1H Swing Low"
+      ]
     },
     {
-      "ticker": "171090",
-      "name": "선익시스템",
-      "sector": "디스플레이_OLED/메타",
-      "state": "WATCH",
-      "grade": "C",
-      "action": "WAIT",
-      "close": 52300,
-      "change": 2.15,
-      "volume": 2709879950,
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "sector": "2차전지_셀",
+      "state": "NO_TRADE",
+      "grade": "S",
+      "action": "NO_TRADE",
+      "close": 328000,
+      "change": 4.46,
+      "volume": 641039896500,
       "entry": {
-        "price": 51254
+        "price": 0
       },
       "stop": {
-        "price": 50731
+        "price": 292000
       },
       "target": {
-        "price": 52823,
-        "rr": 3.0
+        "price": 0,
+        "rr": 0
       },
-      "why": []
+      "why": [
+        "Stop > 10% (Risk High)"
+      ]
+    },
+    {
+      "ticker": "056080",
+      "name": "유진로봇",
+      "sector": "로봇_서비스",
+      "state": "NO_TRADE",
+      "grade": "S",
+      "action": "NO_TRADE",
+      "close": 33800,
+      "change": 2.89,
+      "volume": 309744051700,
+      "entry": {
+        "price": 0
+      },
+      "stop": {
+        "price": 29100
+      },
+      "target": {
+        "price": 0,
+        "rr": 0
+      },
+      "why": [
+        "Stop > 10% (Risk High)"
+      ]
     }
   ]
 }
