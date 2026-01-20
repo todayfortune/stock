@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-01-20 14:37:03 (KST)",
+  "asOf": "2026-01-20 16:50:04 (KST)",
   "source": [
     "KRX",
     "FDR",
     "YFinance"
   ],
-  "version": "v4.2 (Final)",
+  "version": "v4.3 (Hybrid Sector)",
   "status": "ok",
   "market": {
     "state": "RISK_ON",
