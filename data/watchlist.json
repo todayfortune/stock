@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-01-20 16:50:04 (KST)",
+  "asOf": "2026-01-20 21:52:33 (KST)",
   "items": [
     {
       "ticker": "005490",
@@ -8,6 +8,7 @@
       "state": "WATCH",
       "grade": "S",
       "action": "READY",
+      "msi_status": "HANDOVER",
       "close": 357500,
       "change": 2.88,
       "volume": 317371860250,
@@ -15,15 +16,15 @@
         "price": 357500
       },
       "stop": {
-        "price": 331500
+        "price": 335500
       },
       "target": {
-        "price": 435500,
+        "price": 423500,
         "rr": 3.0
       },
       "why": [
         "Stop: 1H Swing Low",
-        "15M 구조전환(TC)"
+        "⚡ MSI 발동 (구조 돌파)"
       ]
     },
     {
@@ -33,6 +34,7 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
+      "msi_status": "ACCUMULATE",
       "close": 98300,
       "change": 3.47,
       "volume": 346965709550,
@@ -47,7 +49,8 @@
         "rr": 3.0
       },
       "why": [
-        "Stop: 1H Swing Low"
+        "Stop: 1H Swing Low",
+        "관찰 (돌파 대기)"
       ]
     },
     {
@@ -57,6 +60,7 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
+      "msi_status": "ACCUMULATE",
       "close": 523000,
       "change": 1.36,
       "volume": 330480524000,
@@ -71,16 +75,18 @@
         "rr": 3.0
       },
       "why": [
-        "Stop: 1H Swing Low"
+        "Stop: 1H Swing Low",
+        "관찰 (돌파 대기)"
       ]
     },
     {
       "ticker": "298380",
       "name": "에이비엘바이오",
-      "sector": "Unclassified",
+      "sector": "기술성장기업부",
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
+      "msi_status": "ACCUMULATE",
       "close": 201000,
       "change": 2.19,
       "volume": 300448061800,
@@ -95,7 +101,8 @@
         "rr": 3.0
       },
       "why": [
-        "Stop: 1H Swing Low"
+        "Stop: 1H Swing Low",
+        "관찰 (돌파 대기)"
       ]
     },
     {
@@ -105,6 +112,7 @@
       "state": "WATCH",
       "grade": "S",
       "action": "WAIT",
+      "msi_status": "ACCUMULATE",
       "close": 244000,
       "change": 2.52,
       "volume": 292659591250,
@@ -119,16 +127,18 @@
         "rr": 3.0
       },
       "why": [
-        "Stop: 1H Swing Low"
+        "Stop: 1H Swing Low",
+        "관찰 (돌파 대기)"
       ]
     },
     {
       "ticker": "015760",
       "name": "한국전력",
-      "sector": "Unclassified",
+      "sector": "",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
+      "msi_status": "RISK_HIGH",
       "close": 65400,
       "change": 16.16,
       "volume": 1190861202550,
@@ -136,14 +146,14 @@
         "price": 0
       },
       "stop": {
-        "price": 54700
+        "price": 54900
       },
       "target": {
         "price": 0,
         "rr": 0
       },
       "why": [
-        "Stop > 10% (Risk High)"
+        "Stop > 10% (변동성 과다)"
       ]
     },
     {
@@ -153,6 +163,7 @@
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
+      "msi_status": "RISK_HIGH",
       "close": 326000,
       "change": 3.82,
       "volume": 705015791750,
@@ -160,14 +171,14 @@
         "price": 0
       },
       "stop": {
-        "price": 289000
+        "price": 292000
       },
       "target": {
         "price": 0,
         "rr": 0
       },
       "why": [
-        "Stop > 10% (Risk High)"
+        "Stop > 10% (변동성 과다)"
       ]
     },
     {
@@ -177,6 +188,7 @@
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
+      "msi_status": "RISK_HIGH",
       "close": 118100,
       "change": 9.66,
       "volume": 536243414850,
@@ -184,23 +196,24 @@
         "price": 0
       },
       "stop": {
-        "price": 90400
+        "price": 103100
       },
       "target": {
         "price": 0,
         "rr": 0
       },
       "why": [
-        "Stop > 10% (Risk High)"
+        "Stop > 10% (변동성 과다)"
       ]
     },
     {
       "ticker": "032820",
       "name": "우리기술",
-      "sector": "Unclassified",
+      "sector": "벤처기업부",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
+      "msi_status": "RISK_HIGH",
       "close": 7980,
       "change": 29.97,
       "volume": 440539916080,
@@ -208,74 +221,77 @@
         "price": 0
       },
       "stop": {
-        "price": 4725
+        "price": 5520
       },
       "target": {
         "price": 0,
         "rr": 0
       },
       "why": [
-        "Stop > 10% (Risk High)"
+        "Stop > 10% (변동성 과다)"
       ]
     },
     {
       "ticker": "319400",
       "name": "현대무벡스",
-      "sector": "Unclassified",
+      "sector": "우량기업부",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
+      "msi_status": "RISK_HIGH",
       "close": 38950,
       "change": 11.44,
-      "volume": 429995782775,
+      "volume": 432573460075,
       "entry": {
         "price": 0
       },
       "stop": {
-        "price": 29000
+        "price": 32550
       },
       "target": {
         "price": 0,
         "rr": 0
       },
       "why": [
-        "Stop > 10% (Risk High)"
+        "Stop > 10% (변동성 과다)"
       ]
     },
     {
       "ticker": "006910",
       "name": "보성파워텍",
-      "sector": "Unclassified",
+      "sector": "벤처기업부",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
+      "msi_status": "RISK_HIGH",
       "close": 7800,
       "change": 30.0,
-      "volume": 407618690775,
+      "volume": 407694327375,
       "entry": {
         "price": 0
       },
       "stop": {
-        "price": 5830
+        "price": 5910
       },
       "target": {
         "price": 0,
         "rr": 0
       },
       "why": [
-        "Stop > 10% (Risk High)"
+        "Stop > 10% (변동성 과다)"
       ]
     },
     {
       "ticker": "001440",
       "name": "대한전선",
-      "sector": "Unclassified",
+      "sector": "",
       "state": "NO_TRADE",
       "grade": "S",
       "action": "NO_TRADE",
+      "msi_status": "RISK_HIGH",
       "close": 27950,
       "change": 7.5,
-      "volume": 390225362600,
+      "volume": 390305355500,
       "entry": {
         "price": 0
       },
@@ -287,7 +303,7 @@
         "rr": 0
       },
       "why": [
-        "Stop > 10% (Risk High)"
+        "Stop > 10% (변동성 과다)"
       ]
     }
   ]

@@ -1,14 +1,14 @@
 {
-  "asOf": "2026-01-20 16:50:04 (KST)",
+  "asOf": "2026-01-20 21:52:33 (KST)",
   "source": [
     "KRX",
     "FDR",
     "YFinance"
   ],
-  "version": "v4.3 (Hybrid Sector)",
+  "version": "v4.6 (Turnover Fix)",
   "status": "ok",
   "market": {
     "state": "RISK_ON",
-    "reason": "KOSPI 정배열 (상승)"
+    "reason": "KOSPI 정배열"
   }
 }

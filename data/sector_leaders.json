@@ -1,20 +1,20 @@
 {
-  "asOf": "2026-01-20 16:50:04 (KST)",
+  "asOf": "2026-01-20 21:52:33 (KST)",
   "items": [
     {
-      "sector": "Unclassified",
-      "score": 251533,
-      "turnover": 25126172506078,
+      "sector": "",
+      "score": 100,
+      "turnover": 12016178242326,
       "topTickers": [
         "한국전력",
-        "고영",
-        "우리기술"
+        "삼성전자우",
+        "대한전선"
       ]
     },
     {
       "sector": "반도체",
-      "score": 57993,
-      "turnover": 5813113403011,
+      "score": 48,
+      "turnover": 5813884875061,
       "topTickers": [
         "삼성전자",
         "SK하이닉스",
@@ -22,9 +22,29 @@
       ]
     },
     {
+      "sector": "기술성장기업부",
+      "score": 33,
+      "turnover": 3976848771517,
+      "topTickers": [
+        "에이비엘바이오",
+        "나라스페이스테크놀로지",
+        "클로봇"
+      ]
+    },
+    {
+      "sector": "우량기업부",
+      "score": 31,
+      "turnover": 3715693720209,
+      "topTickers": [
+        "고영",
+        "현대무벡스",
+        "일진파워"
+      ]
+    },
+    {
       "sector": "자동차",
-      "score": 32888,
-      "turnover": 3292875768544,
+      "score": 27,
+      "turnover": 3293937552794,
       "topTickers": [
         "현대차",
         "기아",
@@ -32,8 +52,28 @@
       ]
     },
     {
+      "sector": "벤처기업부",
+      "score": 23,
+      "turnover": 2729361949776,
+      "topTickers": [
+        "우리기술",
+        "보성파워텍",
+        "러셀"
+      ]
+    },
+    {
+      "sector": "중견기업부",
+      "score": 22,
+      "turnover": 2688924539358,
+      "topTickers": [
+        "유진로봇",
+        "비에이치아이",
+        "우진엔텍"
+      ]
+    },
+    {
       "sector": "2차전지",
-      "score": 19542,
+      "score": 16,
       "turnover": 1938224153900,
       "topTickers": [
         "삼성SDI",
@@ -43,8 +83,8 @@
     },
     {
       "sector": "전력/원전",
-      "score": 14102,
-      "turnover": 1411761717750,
+      "score": 11,
+      "turnover": 1412251613750,
       "topTickers": [
         "두산에너빌리티",
         "효성중공업",
@@ -53,8 +93,8 @@
     },
     {
       "sector": "바이오",
-      "score": 10773,
-      "turnover": 1087182505900,
+      "score": 8,
+      "turnover": 1089232692300,
       "topTickers": [
         "알테오젠",
         "셀트리온",
@@ -63,7 +103,7 @@
     },
     {
       "sector": "로봇/AI",
-      "score": 9080,
+      "score": 7,
       "turnover": 875804875250,
       "topTickers": [
         "두산로보틱스",
@@ -73,8 +113,8 @@
     },
     {
       "sector": "방산/우주",
-      "score": 8984,
-      "turnover": 901875546800,
+      "score": 7,
+      "turnover": 902375584800,
       "topTickers": [
         "한화시스템",
         "한화에어로스페이스",
@@ -83,8 +123,8 @@
     },
     {
       "sector": "조선",
-      "score": 5531,
-      "turnover": 562790778400,
+      "score": 4,
+      "turnover": 563290482400,
       "topTickers": [
         "한화오션",
         "삼성중공업",
@@ -93,8 +133,8 @@
     },
     {
       "sector": "엔터/콘텐츠",
-      "score": 2989,
-      "turnover": 295374768800,
+      "score": 2,
+      "turnover": 296535106300,
       "topTickers": [
         "하이브",
         "JYP Ent.",
@@ -103,12 +143,42 @@
     },
     {
       "sector": "게임",
-      "score": 663,
-      "turnover": 62933953475,
+      "score": 0,
+      "turnover": 64454633475,
       "topTickers": [
         "엔씨소프트",
         "크래프톤",
         "넷마블"
+      ]
+    },
+    {
+      "sector": "관리종목(소속부없음)",
+      "score": 0,
+      "turnover": 20691663596,
+      "topTickers": [
+        "앱클론",
+        "디와이디",
+        "DXVX"
+      ]
+    },
+    {
+      "sector": "외국기업(소속부없음)",
+      "score": 0,
+      "turnover": 30649299710,
+      "topTickers": [
+        "코오롱티슈진",
+        "JTC",
+        "잉글우드랩"
+      ]
+    },
+    {
+      "sector": "투자주의환기종목(소속부없음)",
+      "score": 0,
+      "turnover": 51825962797,
+      "topTickers": [
+        "셀루메드",
+        "에스티큐브",
+        "넥스트칩"
       ]
     }
   ]
