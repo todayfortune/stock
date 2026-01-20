@@ -8,16 +8,38 @@ function getBasePath() {
     return path.endsWith('/') ? path : path + '/';
 }
 
-// 탭 전환 기능
+// assets/app.js (switchTab 함수 부분만 수정하거나, 전체 덮어쓰기)
+
+// ... (앞부분 initDashboard 등은 그대로 유지) ...
+
+// [수정] 탭 전환 기능에 'manual' 추가
 window.switchTab = function(tabName) {
-    document.getElementById('tab-dashboard').style.display = tabName === 'dashboard' ? 'block' : 'none';
-    document.getElementById('tab-backtest').style.display = tabName === 'backtest' ? 'block' : 'none';
+    // 1. 모든 탭 숨기기
+    document.getElementById('tab-dashboard').style.display = 'none';
+    document.getElementById('tab-backtest').style.display = 'none';
+    document.getElementById('tab-manual').style.display = 'none';
     
-    // 모바일 사이드바 닫기
+    // 2. 선택한 탭만 보이기
+    const selectedTab = document.getElementById('tab-' + tabName);
+    if (selectedTab) selectedTab.style.display = 'block';
+    
+    // 3. 사이드바 버튼 활성화 상태 변경 (데스크탑)
+    document.querySelectorAll('.list-group-item').forEach(btn => btn.classList.remove('active'));
+    const activeBtn = document.getElementById('nav-' + tabName);
+    if (activeBtn) activeBtn.classList.add('active');
+
+    // 4. 모바일 사이드바 닫기
     const sidebar = document.getElementById('sidebar');
-    const bsOffcanvas = bootstrap.Offcanvas.getInstance(sidebar);
-    if(bsOffcanvas) bsOffcanvas.hide();
+    if (sidebar) {
+        const bsOffcanvas = bootstrap.Offcanvas.getInstance(sidebar);
+        if (bsOffcanvas) bsOffcanvas.hide();
+    }
+    
+    // 5. 화면 맨 위로 스크롤
+    window.scrollTo(0, 0);
 }
+
+// ... (뒷부분 renderDashboard 등은 그대로 유지) ...
 
 async function initDashboard() {
     const BASE = getBasePath();
