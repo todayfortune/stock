@@ -1,14 +1,1 @@
-{
-  "asOf": "2026-01-20 22:07:40 (KST)",
-  "source": [
-    "KRX",
-    "FDR",
-    "YFinance"
-  ],
-  "version": "v4.7 (Safety Fix)",
-  "status": "ok",
-  "market": {
-    "state": "RISK_ON",
-    "reason": "KOSPI 정배열"
-  }
-}
+{"asOf": "2026-01-21 09:45:21", "market": {"state": "RISK_ON", "reason": "\uc815\ubc30\uc5f4"}}
