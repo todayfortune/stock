@@ -22,10 +22,11 @@ jobs:
     - name: 저장소 코드 가져오기
       uses: actions/checkout@v3
 
-    - name: 파이썬 설정 (3.9 버전)
+    # [FIX] 파이썬 버전을 3.9 -> 3.11로 업그레이드 (yfinance 에러 해결)
+    - name: 파이썬 설정 (3.11 버전)
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.11'
 
     - name: 라이브러리 설치
       run: |
@@ -40,5 +41,5 @@ jobs:
         git config --global user.name "Ki-hyun Bot"
         git config --global user.email "bot@todayfortune.com"
         git add data/
-        git commit -m "📈 으왕 레이더 정기 업데이트 (09:10/10:00/12:00/15:30)" || echo "변경 사항 없음"
+        git commit -m "📈 으왕 레이더 데이터 업데이트 (Python 3.11)" || echo "변경 사항 없음"
         git push
