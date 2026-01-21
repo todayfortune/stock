@@ -1,74 +1,63 @@
+// 전역 변수로 데이터 저장 (상세보기 팝업용)
+window.watchlistData = [];
+
 document.addEventListener('DOMContentLoaded', function() {
     initDashboard();
 });
 
 function initDashboard() {
     loadData();
-    // 60초마다 데이터 자동 갱신
-    setInterval(loadData, 60000);
+    setInterval(loadData, 60000); // 1분마다 갱신
 }
 
-// 탭 전환 기능 (설명서 포함)
+// 탭 전환
 window.switchTab = function(tabName) {
-    // 1. 모든 탭 숨기기
     const tabs = ['dashboard', 'backtest', 'manual'];
     tabs.forEach(t => {
         const el = document.getElementById('tab-' + t);
         if (el) el.style.display = 'none';
-        
-        // 데스크탑 메뉴 활성화 상태 해제
         const btn = document.getElementById('nav-' + t);
         if (btn) btn.classList.remove('active');
     });
 
-    // 2. 선택한 탭 보이기
     const selectedTab = document.getElementById('tab-' + tabName);
     if (selectedTab) selectedTab.style.display = 'block';
 
-    // 3. 버튼 활성화
     const activeBtn = document.getElementById('nav-' + tabName);
     if (activeBtn) activeBtn.classList.add('active');
 
-    // 4. 모바일 사이드바 닫기
     const sidebar = document.getElementById('sidebar');
     if (sidebar) {
         const bsOffcanvas = bootstrap.Offcanvas.getInstance(sidebar);
         if (bsOffcanvas) bsOffcanvas.hide();
     }
-    
-    // 5. 스크롤 맨 위로
     window.scrollTo(0, 0);
 }
 
 function loadData() {
     const timestamp = new Date().getTime();
     
-    // 메타 데이터 로드
     fetch(`data/meta.json?t=${timestamp}`)
-        .then(response => response.json())
+        .then(res => res.json())
         .then(data => {
             document.getElementById('update-time').textContent = data.asOf;
             updateMarketBadge(data.market);
-        })
-        .catch(err => console.log('Meta Load Error:', err));
+        });
 
-    // 섹터 데이터 로드
     fetch(`data/sector_leaders.json?t=${timestamp}`)
-        .then(response => response.json())
-        .then(data => renderSectors(data.items))
-        .catch(err => console.log('Sector Load Error:', err));
+        .then(res => res.json())
+        .then(data => renderSectors(data.items));
 
-    // 관심종목 데이터 로드
     fetch(`data/watchlist.json?t=${timestamp}`)
-        .then(response => response.json())
-        .then(data => renderWatchlist(data.items))
-        .catch(err => console.log('Watchlist Load Error:', err));
+        .then(res => res.json())
+        .then(data => {
+            window.watchlistData = data.items; // 전역 변수에 저장
+            renderWatchlist(data.items);
+        });
 
-    // 백테스트 데이터 로드
     fetch(`data/backtest.json?t=${timestamp}`)
-        .then(response => response.json())
-        .then(data => renderBacktest(data))
-        .catch(err => console.log('Backtest Load Error:', err));
+        .then(res => res.json())
+        .then(data => renderBacktest(data));
 }
 
 function updateMarketBadge(market) {
@@ -85,19 +74,10 @@ function updateMarketBadge(market) {
 function renderSectors(items) {
     const container = document.getElementById('sector-area');
     container.innerHTML = '';
-    
-    if (!items || items.length === 0) {
-        container.innerHTML = '<div class="col-12 text-center text-muted">데이터 수집 중...</div>';
-        return;
-    }
+    if (!items || items.length === 0) return;
 
-    // 상위 3개 섹터만 표시
     items.slice(0, 3).forEach(item => {
-        // 점수 100점 만점 기준 색상
-        let scoreColor = 'text-muted';
-        if(item.score >= 80) scoreColor = 'text-danger fw-bold';
-        else if(item.score >= 50) scoreColor = 'text-primary fw-bold';
-
+        let scoreColor = item.score >= 80 ? 'text-danger fw-bold' : (item.score >= 50 ? 'text-primary fw-bold' : 'text-muted');
         const card = `
             <div class="col-12 col-md-4">
                 <div class="card border-0 shadow-sm h-100">
@@ -113,8 +93,7 @@ function renderSectors(items) {
                         </div>
                     </div>
                 </div>
-            </div>
-        `;
+            </div>`;
         container.innerHTML += card;
     });
 }
@@ -122,29 +101,21 @@ function renderSectors(items) {
 function renderWatchlist(items) {
     const desktopBody = document.getElementById('desktop-table-body');
     const mobileList = document.getElementById('mobile-card-list');
-    
     desktopBody.innerHTML = '';
     mobileList.innerHTML = '';
 
     if (!items || items.length === 0) {
-        mobileList.innerHTML = '<div class="text-center p-4 text-muted">표시할 종목이 없습니다. (장 마감 후 업데이트됨)</div>';
+        mobileList.innerHTML = '<div class="text-center p-4 text-muted">표시할 종목이 없습니다.</div>';
         return;
     }
 
     items.forEach(item => {
-        // 색상 클래스
         const priceColor = item.change > 0 ? 'text-up' : (item.change < 0 ? 'text-down' : 'text-dark');
         const badgeClass = `badge-${item.grade}`;
         const actionClass = `action-${item.action}`;
-        
-        // 상세 정보 (Why)
         const reasons = item.why && item.why.length > 0 ? item.why.join('<br>') : '-';
         
-        // Entry/Stop 가격 표시 (0이면 - 표시)
-        const entryPrice = item.entry.price > 0 ? item.entry.price.toLocaleString() : '-';
-        const stopPrice = item.stop.price > 0 ? item.stop.price.toLocaleString() : '-';
-
-        // 데스크탑 테이블 행
+        // 데스크탑 행
         const tr = `
             <tr onclick="showDetail('${item.ticker}')" style="cursor: pointer;">
                 <td class="ps-4">
@@ -156,67 +127,43 @@ function renderWatchlist(items) {
                 <td><span class="badge ${badgeClass}">${item.grade}</span></td>
                 <td><span class="badge ${actionClass}">${item.action}</span></td>
                 <td class="small text-muted">${reasons}</td>
-                <td class="small">
-                    <div>Entry: <strong>${entryPrice}</strong></div>
-                    <div class="text-muted">Stop: ${stopPrice}</div>
-                </td>
-            </tr>
-        `;
+                <td class="small text-primary fw-bold">Click View</td>
+            </tr>`;
         desktopBody.innerHTML += tr;
 
         // 모바일 카드
         const card = `
             <div class="mobile-card" onclick="showDetail('${item.ticker}')">
                 <div class="d-flex justify-content-between mb-2">
-                    <div>
-                        <span class="fw-bold fs-5 me-2">${item.name}</span>
-                        <span class="small text-muted">${item.sector}</span>
-                    </div>
+                    <div><span class="fw-bold fs-5 me-2">${item.name}</span><span class="small text-muted">${item.sector}</span></div>
                     <span class="badge ${badgeClass}">${item.grade}</span>
                 </div>
                 <div class="d-flex justify-content-between align-items-end mb-3">
-                    <div>
-                        <div class="fs-4 fw-bold">${item.close.toLocaleString()}</div>
-                        <div class="small ${priceColor}">${item.change > 0 ? '+' : ''}${item.change}%</div>
-                    </div>
+                    <div><div class="fs-4 fw-bold">${item.close.toLocaleString()}</div><div class="small ${priceColor}">${item.change > 0 ? '+' : ''}${item.change}%</div></div>
                     <span class="badge ${actionClass} px-3 py-2 rounded-pill">${item.action}</span>
                 </div>
-                <div class="bg-light p-2 rounded small text-secondary">
-                    ${reasons}
-                </div>
-            </div>
-        `;
+            </div>`;
         mobileList.innerHTML += card;
     });
 }
 
-// 백테스트 렌더링
 function renderBacktest(data) {
     if (!data) return;
-    
-    // 요약 카드
     document.getElementById('bt-return').textContent = (data.summary.total_return > 0 ? '+' : '') + data.summary.total_return + '%';
     document.getElementById('bt-final').textContent = (data.summary.final_balance / 10000).toFixed(0) + '만';
     document.getElementById('bt-mdd').textContent = data.summary.mdd + '%';
     document.getElementById('bt-win').textContent = data.summary.win_rate + '%';
-
-    // 색상 처리
     document.getElementById('bt-return').className = 'stat-value ' + (data.summary.total_return >= 0 ? 'text-danger' : 'text-primary');
 
-    // 차트 그리기
     const ctx = document.getElementById('equityChart').getContext('2d');
     if (window.myEquityChart) window.myEquityChart.destroy();
-
-    const labels = data.equity_curve.map(d => d.date);
-    const values = data.equity_curve.map(d => d.equity);
-
     window.myEquityChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: labels,
+            labels: data.equity_curve.map(d => d.date),
             datasets: [{
                 label: '누적 자산',
-                data: values,
+                data: data.equity_curve.map(d => d.equity),
                 borderColor: '#0d6efd',
                 backgroundColor: 'rgba(13, 110, 253, 0.1)',
                 borderWidth: 2,
@@ -225,19 +172,64 @@ function renderBacktest(data) {
                 tension: 0.1
             }]
         },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: { legend: { display: false } },
-            scales: {
-                x: { display: false },
-                y: { grid: { borderDash: [2, 4] } }
-            }
-        }
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { display: false }, y: { grid: { borderDash: [2, 4] } } } }
     });
 }
 
-// 종목 상세 팝업 (가짜 기능 - 필요시 구현)
+// [복구됨] 상세 보기 팝업 로직
 window.showDetail = function(ticker) {
-    // alert(ticker + " 상세 분석 팝업 준비 중");
+    const item = window.watchlistData.find(i => i.ticker === ticker);
+    if (!item) return;
+
+    const modalTitle = document.getElementById('modal-title');
+    const modalBody = document.getElementById('modal-body');
+
+    modalTitle.innerHTML = `${item.name} <span class="text-muted small">(${item.ticker})</span>`;
+    
+    const stopPrice = item.stop.price > 0 ? item.stop.price.toLocaleString() : '-';
+    const targetPrice = item.target.price > 0 ? item.target.price.toLocaleString() : '-';
+    const risk = item.stop.price > 0 ? item.close - item.stop.price : 0;
+    const reward = item.target.price > 0 ? item.target.price - item.close : 0;
+    
+    // RR 계산
+    let rrRatio = 'N/A';
+    if(risk > 0 && reward > 0) {
+        rrRatio = '1 : ' + (reward / risk).toFixed(1);
+    }
+
+    modalBody.innerHTML = `
+        <div class="row g-3">
+            <div class="col-6">
+                <div class="p-3 bg-light rounded text-center">
+                    <div class="small text-muted mb-1">진입가 (Entry)</div>
+                    <div class="fw-bold fs-5">${item.close.toLocaleString()}</div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-3 bg-light rounded text-center">
+                    <div class="small text-muted mb-1">손익비 (RR)</div>
+                    <div class="fw-bold fs-5 text-primary">${rrRatio}</div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2">
+                    <span class="text-danger fw-bold"><i class="fas fa-stop-circle me-1"></i> 손절가 (Stop)</span>
+                    <span class="fw-bold text-danger">${stopPrice}</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-success fw-bold"><i class="fas fa-bullseye me-1"></i> 목표가 (Target)</span>
+                    <span class="fw-bold text-success">${targetPrice}</span>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="alert alert-secondary mb-0 small">
+                    <strong>💡 분석 요약:</strong><br>
+                    ${item.why.join('<br>')}
+                </div>
+            </div>
+        </div>
+    `;
+
+    const modal = new bootstrap.Modal(document.getElementById('detailModal'));
+    modal.show();
 }
