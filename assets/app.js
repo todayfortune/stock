@@ -1,5 +1,5 @@
 window.watchlistData = [];
-window.backtestData = {}; // 전체 백테스트 데이터 저장용
+window.backtestData = {}; 
 
 document.addEventListener('DOMContentLoaded', function() {
     initDashboard();
@@ -10,19 +10,15 @@ function initDashboard() {
     setInterval(loadData, 60000);
 }
 
-// 탭 전환 (메인 메뉴)
 window.switchTab = function(tabName) {
-    // 탭 화면 전환
     ['dashboard', 'backtest', 'manual'].forEach(t => {
         const el = document.getElementById('tab-' + t);
         if (el) el.style.display = 'none';
-        
         const btn = document.getElementById('nav-' + t);
         if (btn) btn.classList.remove('active');
     });
 
-    // 백테스트 메뉴 활성화 해제
-    ['recent', 'covid', 'box'].forEach(t => {
+    ['recent', 'covid', 'box', 'early'].forEach(t => {
         const btn = document.getElementById('nav-bt-' + t);
         if (btn) btn.classList.remove('active');
     });
@@ -37,16 +33,11 @@ window.switchTab = function(tabName) {
     window.scrollTo(0, 0);
 }
 
-// 백테스트 기간 전환
 window.switchBacktest = function(periodKey) {
-    // 1. 화면을 백테스트 탭으로 이동
     switchTab('backtest');
-    
-    // 2. 메인 메뉴 하이라이트 끄기 (백테스트 서브메뉴 강조를 위해)
     document.getElementById('nav-backtest')?.classList.remove('active');
 
-    // 3. 선택한 서브메뉴 활성화
-    ['recent', 'covid', 'box'].forEach(t => {
+    ['recent', 'covid', 'box', 'early'].forEach(t => {
         const btn = document.getElementById('nav-bt-' + t);
         if (btn) {
             if (t === periodKey) btn.classList.add('active');
@@ -54,7 +45,6 @@ window.switchBacktest = function(periodKey) {
         }
     });
 
-    // 4. 데이터 렌더링
     if (window.backtestData && window.backtestData[periodKey]) {
         renderBacktest(window.backtestData[periodKey], periodKey);
     } else {
@@ -72,7 +62,6 @@ function closeSidebar() {
 
 function loadData() {
     const timestamp = new Date().getTime();
-    
     fetch(`data/meta.json?t=${timestamp}`)
         .then(res => res.json())
         .then(data => {
@@ -94,12 +83,9 @@ function loadData() {
     fetch(`data/backtest.json?t=${timestamp}`)
         .then(res => res.json())
         .then(data => {
-            window.backtestData = data; // 전체 데이터 저장
-            // 기본값은 'recent'로 렌더링 (이미 탭이 열려있지 않다면)
+            window.backtestData = data;
             if(document.getElementById('tab-backtest').style.display !== 'block') {
-               // 백그라운드 로딩만 함
             } else {
-               // 현재 보고 있는게 있다면 유지, 아니면 recent
                const activeBtn = document.querySelector('[id^="nav-bt-"].active');
                const key = activeBtn ? activeBtn.id.replace('nav-bt-', '') : 'recent';
                renderBacktest(data[key], key);
@@ -109,7 +95,7 @@ function loadData() {
 
 function updateMarketBadge(market) {
     const badge = document.getElementById('market-badge');
-    if(!badge) return; // 뱃지 요소가 없으면 패스 (사이드바 등으로 이동했을 수 있음)
+    if(!badge) return;
     if (market && market.state === 'RISK_ON') {
         badge.className = 'badge bg-success me-2';
         badge.textContent = `ON: ${market.reason}`;
@@ -126,22 +112,7 @@ function renderSectors(items) {
 
     items.slice(0, 3).forEach(item => {
         let scoreColor = item.score >= 80 ? 'text-danger fw-bold' : (item.score >= 50 ? 'text-primary fw-bold' : 'text-muted');
-        const card = `
-            <div class="col-12 col-md-4">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-body p-3">
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h6 class="fw-bold mb-0 text-secondary" style="font-size: 0.8rem;">${item.sector}</h6>
-                            <span class="badge bg-light text-dark border">${(item.turnover / 100000000).toFixed(0)}억</span>
-                        </div>
-                        <h5 class="fw-bold mb-2">${item.topTickers[0]}</h5>
-                        <div class="d-flex align-items-center justify-content-between">
-                            <span class="small ${scoreColor}">Score ${item.score}</span>
-                            <small class="text-muted" style="font-size: 0.75rem;">${item.topTickers.slice(1).join(', ')}</small>
-                        </div>
-                    </div>
-                </div>
-            </div>`;
+        const card = `<div class="col-12 col-md-4"><div class="card border-0 shadow-sm h-100"><div class="card-body p-3"><div class="d-flex justify-content-between align-items-start mb-2"><h6 class="fw-bold mb-0 text-secondary" style="font-size: 0.8rem;">${item.sector}</h6><span class="badge bg-light text-dark border">${(item.turnover / 100000000).toFixed(0)}억</span></div><h5 class="fw-bold mb-2">${item.topTickers[0]}</h5><div class="d-flex align-items-center justify-content-between"><span class="small ${scoreColor}">Score ${item.score}</span><small class="text-muted" style="font-size: 0.75rem;">${item.topTickers.slice(1).join(', ')}</small></div></div></div></div>`;
         container.innerHTML += card;
     });
 }
@@ -162,33 +133,9 @@ function renderWatchlist(items) {
         const badgeClass = `badge-${item.grade}`;
         const actionClass = `action-${item.action}`;
         const reasons = item.why && item.why.length > 0 ? item.why.join('<br>') : '-';
-        
-        const tr = `
-            <tr onclick="showDetail('${item.ticker}')" style="cursor: pointer;">
-                <td class="ps-4">
-                    <div class="fw-bold">${item.name}</div>
-                    <div class="small text-muted">${item.ticker}</div>
-                </td>
-                <td class="fw-bold">${item.close.toLocaleString()}</td>
-                <td class="${priceColor}">${item.change > 0 ? '+' : ''}${item.change}%</td>
-                <td><span class="badge ${badgeClass}">${item.grade}</span></td>
-                <td><span class="badge ${actionClass}">${item.action}</span></td>
-                <td class="small text-muted">${reasons}</td>
-                <td class="small text-primary fw-bold">Click View</td>
-            </tr>`;
+        const tr = `<tr onclick="showDetail('${item.ticker}')" style="cursor: pointer;"><td class="ps-4"><div class="fw-bold">${item.name}</div><div class="small text-muted">${item.ticker}</div></td><td class="fw-bold">${item.close.toLocaleString()}</td><td class="${priceColor}">${item.change > 0 ? '+' : ''}${item.change}%</td><td><span class="badge ${badgeClass}">${item.grade}</span></td><td><span class="badge ${actionClass}">${item.action}</span></td><td class="small text-muted">${reasons}</td><td class="small text-primary fw-bold">Click View</td></tr>`;
         desktopBody.innerHTML += tr;
-
-        const card = `
-            <div class="mobile-card" onclick="showDetail('${item.ticker}')">
-                <div class="d-flex justify-content-between mb-2">
-                    <div><span class="fw-bold fs-5 me-2">${item.name}</span><span class="small text-muted">${item.sector}</span></div>
-                    <span class="badge ${badgeClass}">${item.grade}</span>
-                </div>
-                <div class="d-flex justify-content-between align-items-end mb-3">
-                    <div><div class="fs-4 fw-bold">${item.close.toLocaleString()}</div><div class="small ${priceColor}">${item.change > 0 ? '+' : ''}${item.change}%</div></div>
-                    <span class="badge ${actionClass} px-3 py-2 rounded-pill">${item.action}</span>
-                </div>
-            </div>`;
+        const card = `<div class="mobile-card" onclick="showDetail('${item.ticker}')"><div class="d-flex justify-content-between mb-2"><div><span class="fw-bold fs-5 me-2">${item.name}</span><span class="small text-muted">${item.sector}</span></div><span class="badge ${badgeClass}">${item.grade}</span></div><div class="d-flex justify-content-between align-items-end mb-3"><div><div class="fs-4 fw-bold">${item.close.toLocaleString()}</div><div class="small ${priceColor}">${item.change > 0 ? '+' : ''}${item.change}%</div></div><span class="badge ${actionClass} px-3 py-2 rounded-pill">${item.action}</span></div></div>`;
         mobileList.innerHTML += card;
     });
 }
@@ -196,13 +143,17 @@ function renderWatchlist(items) {
 function renderBacktest(data, key) {
     if (!data) return;
     
-    // 제목 업데이트
     const titles = {
-        'recent': '최근 3년 (Trend)',
+        'recent': '최근 3년 (Main Trend)',
         'covid': '2020~2023 (Volatility)',
-        'box': '2015~2019 (Box Range)'
+        'box': '2015~2019 (Box Range)',
+        'early': '최근 3년 (SDI Early Mode)'
     };
+    
     document.getElementById('bt-title').textContent = "📊 " + (titles[key] || '전략 검증');
+    document.getElementById('bt-desc').textContent = key === 'early' 
+        ? "Logic: Main Trend + Early Reversal (0.5x)" 
+        : "Logic: MSI Blueprint v1 (Standard)";
 
     document.getElementById('bt-return').textContent = (data.summary.total_return > 0 ? '+' : '') + data.summary.total_return + '%';
     document.getElementById('bt-final').textContent = (data.summary.final_balance / 10000).toFixed(0) + '만';
@@ -213,11 +164,11 @@ function renderBacktest(data, key) {
     const ctx = document.getElementById('equityChart').getContext('2d');
     if (window.myEquityChart) window.myEquityChart.destroy();
     
-    // 차트 색상 다르게 (기간별 구분)
     const colorMap = {
         'recent': '#0d6efd', // Blue
-        'covid': '#dc3545',  // Red (위험했던 시기)
-        'box': '#198754'     // Green (지루한 시기)
+        'covid': '#dc3545',  // Red
+        'box': '#198754',    // Green
+        'early': '#6f42c1'   // Purple (New!)
     };
     const color = colorMap[key] || '#0d6efd';
 
@@ -229,7 +180,7 @@ function renderBacktest(data, key) {
                 label: '누적 자산',
                 data: data.equity_curve.map(d => d.equity),
                 borderColor: color,
-                backgroundColor: color + '10', // 투명도 10%
+                backgroundColor: color + '10',
                 borderWidth: 2,
                 fill: true,
                 pointRadius: 0,
@@ -256,15 +207,6 @@ window.showDetail = function(ticker) {
     let rrRatio = 'N/A';
     if(risk > 0 && reward > 0) rrRatio = '1 : ' + (reward / risk).toFixed(1);
 
-    modalBody.innerHTML = `
-        <div class="row g-3">
-            <div class="col-6"><div class="p-3 bg-light rounded text-center"><div class="small text-muted mb-1">진입가 (Entry)</div><div class="fw-bold fs-5">${item.close.toLocaleString()}</div></div></div>
-            <div class="col-6"><div class="p-3 bg-light rounded text-center"><div class="small text-muted mb-1">손익비 (RR)</div><div class="fw-bold fs-5 text-primary">${rrRatio}</div></div></div>
-            <div class="col-12">
-                <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2"><span class="text-danger fw-bold"><i class="fas fa-stop-circle me-1"></i> 손절가</span><span class="fw-bold text-danger">${stopPrice}</span></div>
-                <div class="d-flex justify-content-between align-items-center"><span class="text-success fw-bold"><i class="fas fa-bullseye me-1"></i> 목표가</span><span class="fw-bold text-success">${targetPrice}</span></div>
-            </div>
-            <div class="col-12"><div class="alert alert-secondary mb-0 small"><strong>💡 분석 요약:</strong><br>${item.why.join('<br>')}</div></div>
-        </div>`;
+    modalBody.innerHTML = `<div class="row g-3"><div class="col-6"><div class="p-3 bg-light rounded text-center"><div class="small text-muted mb-1">진입가</div><div class="fw-bold fs-5">${item.close.toLocaleString()}</div></div></div><div class="col-6"><div class="p-3 bg-light rounded text-center"><div class="small text-muted mb-1">손익비</div><div class="fw-bold fs-5 text-primary">${rrRatio}</div></div></div><div class="col-12"><div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2"><span class="text-danger fw-bold"><i class="fas fa-stop-circle me-1"></i> 손절가</span><span class="fw-bold text-danger">${stopPrice}</span></div><div class="d-flex justify-content-between align-items-center"><span class="text-success fw-bold"><i class="fas fa-bullseye me-1"></i> 목표가</span><span class="fw-bold text-success">${targetPrice}</span></div></div><div class="col-12"><div class="alert alert-secondary mb-0 small"><strong>💡 분석 요약:</strong><br>${item.why.join('<br>')}</div></div></div>`;
     new bootstrap.Modal(document.getElementById('detailModal')).show();
-        }
+}
