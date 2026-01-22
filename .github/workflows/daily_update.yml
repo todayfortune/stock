@@ -1,15 +1,12 @@
 name: 으왕 레이더 자동 분석
 
 on:
-  # 1. 스케줄링 (UTC 기준, 월~금 실행)
   schedule:
-    - cron: '10 0 * * 1-5'  # 09:10 (장시작 직후)
-    - cron: '0 1 * * 1-5'   # 10:00 (오전장)
-    - cron: '0 3 * * 1-5'   # 12:00 (점심)
-    - cron: '40 6 * * 1-5'  # 15:30 (장마감)
-  
-  # 2. 수동 실행 버튼
-  workflow_dispatch:
+    - cron: '10 0 * * 1-5'  # 09:10
+    - cron: '0 1 * * 1-5'   # 10:00
+    - cron: '0 3 * * 1-5'   # 12:00
+    - cron: '30 6 * * 1-5'  # 15:30
+  workflow_dispatch:      # 수동 실행 버튼
 
 permissions:
   contents: write
@@ -22,7 +19,7 @@ jobs:
     - name: 저장소 코드 가져오기
       uses: actions/checkout@v3
 
-    # [FIX] 파이썬 버전을 3.9 -> 3.11로 업그레이드 (yfinance 에러 해결)
+    # 👇 [중요] 3.9 -> 3.11로 업그레이드 (이게 핵심!)
     - name: 파이썬 설정 (3.11 버전)
       uses: actions/setup-python@v4
       with:
@@ -30,16 +27,24 @@ jobs:
 
     - name: 라이브러리 설치
       run: |
-        pip install pandas numpy finance-datareader yfinance
+        pip install pandas numpy finance-datareader yfinance telethon
 
-    - name: 으왕 레이더 가동 (데이터 수집 & 분석)
+    - name: 으왕 레이더 가동 (주식 데이터)
       run: |
         python scripts/fetch_krx.py
+
+    - name: 텔레그램 뉴스 수집
+      env:
+        TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+        TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+        TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+      run: |
+        python scripts/fetch_telegram.py
 
     - name: 결과 저장 (Commit & Push)
       run: |
         git config --global user.name "Ki-hyun Bot"
         git config --global user.email "bot@todayfortune.com"
         git add data/
-        git commit -m "📈 으왕 레이더 데이터 업데이트 (Python 3.11)" || echo "변경 사항 없음"
+        git commit -m "📈 으왕 레이더 업데이트 (Python 3.11 Fix)" || echo "변경 사항 없음"
         git push
