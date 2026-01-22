@@ -22,22 +22,18 @@ def load_theme_map():
     return {}
 
 # ---------------------------------------------------------
-# 2. 백테스팅 엔진 (MSI v1 일봉 근사 - 복구됨)
+# 2. 백테스팅 엔진 (멀티 기간 지원)
 # ---------------------------------------------------------
-def run_msi_backtest():
-    print("🧪 MSI Blueprint 백테스팅 가동...")
-    # 대표 우량주 유니버스
+def simulate_period(start_date, end_date):
     UNIVERSE = {
         '005930': '삼성전자', '000660': 'SK하이닉스', '086520': '에코프로',
         '005380': '현대차', '005490': 'POSCO홀딩스', '035420': 'NAVER',
         '068270': '셀트리온', '042700': '한미반도체'
     }
     
-    end_date = datetime.now()
-    start_date = end_date - timedelta(days=365*3)
-    
     try:
         kospi = fdr.DataReader('KS11', start_date, end_date)
+        if len(kospi) < 60: return None # 데이터 부족
         kospi['MA20'] = kospi['Close'].rolling(20).mean()
         kospi['MA60'] = kospi['Close'].rolling(60).mean()
         kospi['RISK_ON'] = (kospi['Close'] > kospi['MA20']) & (kospi['MA20'] > kospi['MA60'])
@@ -49,8 +45,8 @@ def run_msi_backtest():
             df = fdr.DataReader(code, start_date, end_date)
             df['MA20'] = df['Close'].rolling(20).mean()
             df['MA60'] = df['Close'].rolling(60).mean()
-            df['SwingLow'] = df['Low'].shift(1).rolling(10).min() # 10일 저가
-            df['StructTrigger'] = df['Close'] > df['High'].shift(1).rolling(3).max() # 3일 고가 돌파
+            df['SwingLow'] = df['Low'].shift(1).rolling(10).min()
+            df['StructTrigger'] = df['Close'] > df['High'].shift(1).rolling(3).max()
             df['NextOpen'] = df['Open'].shift(-1)
             stock_db[code] = df
         except: pass
@@ -62,13 +58,12 @@ def run_msi_backtest():
     equity_curve = []
     trade_count = 0
     wins = 0
-    
     entry_price = 0
     stop_price = 0
     target_price = 0
-    
     dates = kospi.index
     
+    # 시뮬레이션 루프
     for i in range(60, len(dates)-1): 
         today = dates[i]
         if today not in kospi.index: continue
@@ -80,7 +75,7 @@ def run_msi_backtest():
         
         equity_curve.append({"date": today.strftime("%Y-%m-%d"), "equity": int(curr_eq)})
         
-        # 매도 로직
+        # 매도
         if holding_code:
             df = stock_db[holding_code]
             if today not in df.index: continue
@@ -88,10 +83,9 @@ def run_msi_backtest():
             
             exit_type = None
             sell_price = 0
-            
             if row['Low'] <= stop_price: exit_type = 'STOP'; sell_price = stop_price
             elif row['High'] >= target_price: exit_type = 'TARGET'; sell_price = target_price
-            elif not is_risk_on: # 마켓 리스크 발생 시 탈출
+            elif not is_risk_on:
                 exit_type = 'MKT_OUT'
                 sell_price = row['NextOpen'] if not pd.isna(row['NextOpen']) else row['Close']
             
@@ -104,22 +98,17 @@ def run_msi_backtest():
                 shares = 0
                 continue
 
-        # 매수 로직
+        # 매수
         if holding_code is None and is_risk_on:
             for code, df in stock_db.items():
                 if today not in df.index: continue
                 curr = df.loc[today]
-                
-                # 진입 조건: 정배열 + 구조적 돌파
                 if (curr['MA20'] > curr['MA60']) and curr['StructTrigger']:
                     if pd.isna(curr['SwingLow']): continue
-                    
                     stop_candidate = curr['SwingLow'] * 0.99
                     risk = curr['Close'] - stop_candidate
                     if risk <= 0: continue
-                    
-                    # 진입 실행
-                    target_candidate = curr['Close'] + (risk * 3) # RR 1:3
+                    target_candidate = curr['Close'] + (risk * 3)
                     shares = int(balance / curr['Close'])
                     if shares > 0:
                         balance -= shares * curr['Close'] * 1.00015
@@ -129,25 +118,37 @@ def run_msi_backtest():
                         target_price = target_candidate
                         break 
 
+    if not equity_curve: return None
+
     final_eq = equity_curve[-1]['equity']
     total_return = ((final_eq / initial_balance) - 1) * 100
     win_rate = (wins / trade_count * 100) if trade_count > 0 else 0
-    
-    # MDD 계산
     eq_series = pd.Series([e['equity'] for e in equity_curve])
     peak = eq_series.cummax()
     mdd = ((eq_series - peak) / peak).min() * 100
 
     return {
-        "summary": {
-            "total_return": round(total_return, 2),
-            "final_balance": int(final_eq),
-            "trade_count": trade_count,
-            "win_rate": round(win_rate, 1),
-            "mdd": round(mdd, 2)
-        },
+        "summary": { "total_return": round(total_return, 2), "final_balance": int(final_eq), "trade_count": trade_count, "win_rate": round(win_rate, 1), "mdd": round(mdd, 2) },
         "equity_curve": equity_curve
     }
+
+def run_multi_backtest():
+    print("🧪 Running Multi-Period Backtest...")
+    
+    # [설정] 3가지 기간 정의
+    periods = {
+        "recent": (datetime.now() - timedelta(days=365*3), datetime.now()),
+        "covid": ("2020-01-01", "2023-12-31"),
+        "box": ("2015-01-01", "2019-12-31")
+    }
+    
+    results = {}
+    for key, (start, end) in periods.items():
+        print(f"   Running {key}...")
+        res = simulate_period(start, end)
+        if res: results[key] = res
+        
+    return results
 
 # ---------------------------------------------------------
 # 3. 데이터 처리 및 저장
@@ -161,19 +162,12 @@ def calc_williams_r(df, period=14):
 def get_detailed_strategy(ticker, market_type):
     try:
         suffix = ".KS" if market_type == 'KOSPI' else ".KQ"
-        # yfinance 데이터 다운로드 안전장치
         df_1h = yf.download(f"{ticker}{suffix}", period="5d", interval="1h", progress=False)
         if df_1h.empty: return None
+        if isinstance(df_1h.columns, pd.MultiIndex): df_1h.columns = df_1h.columns.get_level_values(0)
         
-        # MultiIndex 컬럼 처리 (yfinance 버전에 따라 다름)
-        if isinstance(df_1h.columns, pd.MultiIndex):
-            df_1h.columns = df_1h.columns.get_level_values(0)
-
-        # 지표 계산
         df_1h['WR'] = calc_williams_r(df_1h)
         swing_low = df_1h['Low'].shift(1).rolling(10).min().iloc[-1]
-        
-        # 최근 20개 15분봉으로 구조전환 체크 (약식)
         is_tc = df_1h['Close'].iloc[-1] > df_1h['High'].iloc[-5:].max()
         
         return {
@@ -182,12 +176,9 @@ def get_detailed_strategy(ticker, market_type):
             "is_tc": is_tc, 
             "is_oversold": df_1h['WR'].iloc[-1] < -80
         }
-    except Exception as e:
-        print(f"Strategy Error ({ticker}): {e}")
-        return None
+    except: return None
 
 def process_data():
-    # 1. Market State
     try:
         kospi = fdr.DataReader('KS11', '2024-01-01')
         curr = kospi.iloc[-1]
@@ -195,22 +186,16 @@ def process_data():
         ma60 = kospi['Close'].rolling(60).mean().iloc[-1]
         state = "RISK_ON" if (curr['Close'] > ma20) and (ma20 > ma60) else "RISK_OFF"
         market = {"state": state, "reason": "정배열" if state=="RISK_ON" else "역배열"}
-    except:
-        market = {"state": "RISK_OFF", "reason": "Data Error"}
+    except: market = {"state": "RISK_OFF", "reason": "Data Error"}
 
-    # 2. Main Data Fetch
     print("📡 Fetching KRX...")
-    try:
-        df = fdr.StockListing('KRX')
-    except Exception as e:
-        print(f"❌ KRX Fetch Error: {e}")
-        return market, [], []
+    try: df = fdr.StockListing('KRX')
+    except: return market, [], []
 
     rename_map = {'Code':'Code', 'Name':'Name', 'Close':'종가', 'Amount':'거래대금', 'Marcap':'시가총액', 'MarketCap':'시가총액', 'Market': 'Market', 'Sector': 'KRX_Sector'}
     if 'ChagesRatio' in df.columns: rename_map['ChagesRatio'] = '등락률'
     elif 'Change' in df.columns: rename_map['Change'] = '등락률'
     elif 'ChangesRatio' in df.columns: rename_map['ChangesRatio'] = '등락률'
-    
     df.rename(columns=rename_map, inplace=True)
     df.set_index('Code', inplace=True)
     
@@ -226,10 +211,10 @@ def process_data():
 
     df = df[(df['종가'] > 1000) & (df['거래대금'] > 1000000000)].copy()
 
-    # 3. Sector Leaders
     sectors = []
     for sector, group in df.groupby('CustomSector'):
         if len(group) < 3: continue
+        if sector in ['Unclassified', '기타', 'KOSPI', 'KOSDAQ']: continue 
         vol = group['거래대금'].sum()
         score = int(vol / 100000000)
         top = group.sort_values(by='거래대금', ascending=False).head(3)['Name'].tolist()
@@ -240,7 +225,6 @@ def process_data():
         for s in sectors: s['score'] = int(s['score'] / max_score * 100)
     sectors.sort(key=lambda x: x['score'], reverse=True)
 
-    # 4. Watchlist
     watchlist = []
     top_vol = df.sort_values(by='거래대금', ascending=False).head(20)
     
@@ -249,7 +233,6 @@ def process_data():
         price = int(row['종가'])
         vol = int(row['거래대금'])
         marcap = int(row['시가총액'])
-        
         turnover_rate = (vol / marcap * 100) if marcap > 0 else 0
         grade = "C"
         if vol >= 2000e8: grade = "S"
@@ -261,10 +244,9 @@ def process_data():
         item = {
             "ticker": code, "name": row['Name'], "sector": row['CustomSector'],
             "grade": grade, "action": "WAIT", "close": price, "change": row['등락률'],
-            "entry": {"price": 0}, "stop": {"price": 0}, "target": {"price": 0, "rr": 0}, # 타겟 필드 복구
+            "entry": {"price": 0}, "stop": {"price": 0}, "target": {"price": 0, "rr": 0},
             "why": []
         }
-
         if market['state'] == 'RISK_OFF':
             item['action'] = "NO_TRADE"
             item['why'].append("Market Risk Off")
@@ -273,26 +255,16 @@ def process_data():
 
         strat = get_detailed_strategy(code, row.get('Market', 'KOSPI'))
         time.sleep(1) 
-
         if strat:
             item['stop']['price'] = strat['swing_low']
-            
-            # 리스크 계산 및 RR 타겟 설정
             risk = price - strat['swing_low']
-            
-            if risk > 0 and (risk / price) <= 0.1: # 손절 10% 이내일 때만
+            if risk > 0 and (risk / price) <= 0.1:
                 item['entry']['price'] = price
-                item['target']['price'] = int(price + (risk * 3)) # RR 1:3
+                item['target']['price'] = int(price + (risk * 3))
                 item['target']['rr'] = 3.0
-                
-                if strat['is_tc']: 
-                    item['action'] = "READY"
-                    item['why'].append("Structure Break")
-                elif strat['is_oversold']:
-                    item['why'].append("Oversold")
-            else:
-                 item['why'].append("Risk > 10% (Skip)")
-        
+                if strat['is_tc']: item['action'] = "READY"; item['why'].append("Structure Break")
+                elif strat['is_oversold']: item['why'].append("Oversold")
+            else: item['why'].append("Risk > 10% (Skip)")
         watchlist.append(item)
 
     return market, sectors, watchlist
@@ -300,7 +272,7 @@ def process_data():
 def save_results():
     try:
         market, sectors, watchlist = process_data()
-        backtest = run_msi_backtest() # 진짜 백테스트 실행
+        backtest = run_multi_backtest() # [변경] 멀티 백테스트
         
         now = datetime.utcnow() + timedelta(hours=9)
         meta = {"asOf": now.strftime("%Y-%m-%d %H:%M:%S"), "market": market}
