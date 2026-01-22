@@ -1,5 +1,5 @@
-// 전역 변수로 데이터 저장 (상세보기 팝업용)
 window.watchlistData = [];
+window.backtestData = {}; // 전체 백테스트 데이터 저장용
 
 document.addEventListener('DOMContentLoaded', function() {
     initDashboard();
@@ -7,16 +7,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initDashboard() {
     loadData();
-    setInterval(loadData, 60000); // 1분마다 갱신
+    setInterval(loadData, 60000);
 }
 
-// 탭 전환
+// 탭 전환 (메인 메뉴)
 window.switchTab = function(tabName) {
-    const tabs = ['dashboard', 'backtest', 'manual'];
-    tabs.forEach(t => {
+    // 탭 화면 전환
+    ['dashboard', 'backtest', 'manual'].forEach(t => {
         const el = document.getElementById('tab-' + t);
         if (el) el.style.display = 'none';
+        
         const btn = document.getElementById('nav-' + t);
+        if (btn) btn.classList.remove('active');
+    });
+
+    // 백테스트 메뉴 활성화 해제
+    ['recent', 'covid', 'box'].forEach(t => {
+        const btn = document.getElementById('nav-bt-' + t);
         if (btn) btn.classList.remove('active');
     });
 
@@ -26,12 +33,41 @@ window.switchTab = function(tabName) {
     const activeBtn = document.getElementById('nav-' + tabName);
     if (activeBtn) activeBtn.classList.add('active');
 
+    closeSidebar();
+    window.scrollTo(0, 0);
+}
+
+// 백테스트 기간 전환
+window.switchBacktest = function(periodKey) {
+    // 1. 화면을 백테스트 탭으로 이동
+    switchTab('backtest');
+    
+    // 2. 메인 메뉴 하이라이트 끄기 (백테스트 서브메뉴 강조를 위해)
+    document.getElementById('nav-backtest')?.classList.remove('active');
+
+    // 3. 선택한 서브메뉴 활성화
+    ['recent', 'covid', 'box'].forEach(t => {
+        const btn = document.getElementById('nav-bt-' + t);
+        if (btn) {
+            if (t === periodKey) btn.classList.add('active');
+            else btn.classList.remove('active');
+        }
+    });
+
+    // 4. 데이터 렌더링
+    if (window.backtestData && window.backtestData[periodKey]) {
+        renderBacktest(window.backtestData[periodKey], periodKey);
+    } else {
+        document.getElementById('bt-title').textContent = "데이터 없음 / 로딩 중";
+    }
+}
+
+function closeSidebar() {
     const sidebar = document.getElementById('sidebar');
     if (sidebar) {
         const bsOffcanvas = bootstrap.Offcanvas.getInstance(sidebar);
         if (bsOffcanvas) bsOffcanvas.hide();
     }
-    window.scrollTo(0, 0);
 }
 
 function loadData() {
@@ -51,17 +87,29 @@ function loadData() {
     fetch(`data/watchlist.json?t=${timestamp}`)
         .then(res => res.json())
         .then(data => {
-            window.watchlistData = data.items; // 전역 변수에 저장
+            window.watchlistData = data.items;
             renderWatchlist(data.items);
         });
 
     fetch(`data/backtest.json?t=${timestamp}`)
         .then(res => res.json())
-        .then(data => renderBacktest(data));
+        .then(data => {
+            window.backtestData = data; // 전체 데이터 저장
+            // 기본값은 'recent'로 렌더링 (이미 탭이 열려있지 않다면)
+            if(document.getElementById('tab-backtest').style.display !== 'block') {
+               // 백그라운드 로딩만 함
+            } else {
+               // 현재 보고 있는게 있다면 유지, 아니면 recent
+               const activeBtn = document.querySelector('[id^="nav-bt-"].active');
+               const key = activeBtn ? activeBtn.id.replace('nav-bt-', '') : 'recent';
+               renderBacktest(data[key], key);
+            }
+        });
 }
 
 function updateMarketBadge(market) {
     const badge = document.getElementById('market-badge');
+    if(!badge) return; // 뱃지 요소가 없으면 패스 (사이드바 등으로 이동했을 수 있음)
     if (market && market.state === 'RISK_ON') {
         badge.className = 'badge bg-success me-2';
         badge.textContent = `ON: ${market.reason}`;
@@ -115,7 +163,6 @@ function renderWatchlist(items) {
         const actionClass = `action-${item.action}`;
         const reasons = item.why && item.why.length > 0 ? item.why.join('<br>') : '-';
         
-        // 데스크탑 행
         const tr = `
             <tr onclick="showDetail('${item.ticker}')" style="cursor: pointer;">
                 <td class="ps-4">
@@ -131,7 +178,6 @@ function renderWatchlist(items) {
             </tr>`;
         desktopBody.innerHTML += tr;
 
-        // 모바일 카드
         const card = `
             <div class="mobile-card" onclick="showDetail('${item.ticker}')">
                 <div class="d-flex justify-content-between mb-2">
@@ -147,8 +193,17 @@ function renderWatchlist(items) {
     });
 }
 
-function renderBacktest(data) {
+function renderBacktest(data, key) {
     if (!data) return;
+    
+    // 제목 업데이트
+    const titles = {
+        'recent': '최근 3년 (Trend)',
+        'covid': '2020~2023 (Volatility)',
+        'box': '2015~2019 (Box Range)'
+    };
+    document.getElementById('bt-title').textContent = "📊 " + (titles[key] || '전략 검증');
+
     document.getElementById('bt-return').textContent = (data.summary.total_return > 0 ? '+' : '') + data.summary.total_return + '%';
     document.getElementById('bt-final').textContent = (data.summary.final_balance / 10000).toFixed(0) + '만';
     document.getElementById('bt-mdd').textContent = data.summary.mdd + '%';
@@ -157,6 +212,15 @@ function renderBacktest(data) {
 
     const ctx = document.getElementById('equityChart').getContext('2d');
     if (window.myEquityChart) window.myEquityChart.destroy();
+    
+    // 차트 색상 다르게 (기간별 구분)
+    const colorMap = {
+        'recent': '#0d6efd', // Blue
+        'covid': '#dc3545',  // Red (위험했던 시기)
+        'box': '#198754'     // Green (지루한 시기)
+    };
+    const color = colorMap[key] || '#0d6efd';
+
     window.myEquityChart = new Chart(ctx, {
         type: 'line',
         data: {
@@ -164,8 +228,8 @@ function renderBacktest(data) {
             datasets: [{
                 label: '누적 자산',
                 data: data.equity_curve.map(d => d.equity),
-                borderColor: '#0d6efd',
-                backgroundColor: 'rgba(13, 110, 253, 0.1)',
+                borderColor: color,
+                backgroundColor: color + '10', // 투명도 10%
                 borderWidth: 2,
                 fill: true,
                 pointRadius: 0,
@@ -176,14 +240,12 @@ function renderBacktest(data) {
     });
 }
 
-// [복구됨] 상세 보기 팝업 로직
 window.showDetail = function(ticker) {
     const item = window.watchlistData.find(i => i.ticker === ticker);
     if (!item) return;
 
     const modalTitle = document.getElementById('modal-title');
     const modalBody = document.getElementById('modal-body');
-
     modalTitle.innerHTML = `${item.name} <span class="text-muted small">(${item.ticker})</span>`;
     
     const stopPrice = item.stop.price > 0 ? item.stop.price.toLocaleString() : '-';
@@ -191,45 +253,18 @@ window.showDetail = function(ticker) {
     const risk = item.stop.price > 0 ? item.close - item.stop.price : 0;
     const reward = item.target.price > 0 ? item.target.price - item.close : 0;
     
-    // RR 계산
     let rrRatio = 'N/A';
-    if(risk > 0 && reward > 0) {
-        rrRatio = '1 : ' + (reward / risk).toFixed(1);
-    }
+    if(risk > 0 && reward > 0) rrRatio = '1 : ' + (reward / risk).toFixed(1);
 
     modalBody.innerHTML = `
         <div class="row g-3">
-            <div class="col-6">
-                <div class="p-3 bg-light rounded text-center">
-                    <div class="small text-muted mb-1">진입가 (Entry)</div>
-                    <div class="fw-bold fs-5">${item.close.toLocaleString()}</div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="p-3 bg-light rounded text-center">
-                    <div class="small text-muted mb-1">손익비 (RR)</div>
-                    <div class="fw-bold fs-5 text-primary">${rrRatio}</div>
-                </div>
-            </div>
+            <div class="col-6"><div class="p-3 bg-light rounded text-center"><div class="small text-muted mb-1">진입가 (Entry)</div><div class="fw-bold fs-5">${item.close.toLocaleString()}</div></div></div>
+            <div class="col-6"><div class="p-3 bg-light rounded text-center"><div class="small text-muted mb-1">손익비 (RR)</div><div class="fw-bold fs-5 text-primary">${rrRatio}</div></div></div>
             <div class="col-12">
-                <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2">
-                    <span class="text-danger fw-bold"><i class="fas fa-stop-circle me-1"></i> 손절가 (Stop)</span>
-                    <span class="fw-bold text-danger">${stopPrice}</span>
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                    <span class="text-success fw-bold"><i class="fas fa-bullseye me-1"></i> 목표가 (Target)</span>
-                    <span class="fw-bold text-success">${targetPrice}</span>
-                </div>
+                <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2"><span class="text-danger fw-bold"><i class="fas fa-stop-circle me-1"></i> 손절가</span><span class="fw-bold text-danger">${stopPrice}</span></div>
+                <div class="d-flex justify-content-between align-items-center"><span class="text-success fw-bold"><i class="fas fa-bullseye me-1"></i> 목표가</span><span class="fw-bold text-success">${targetPrice}</span></div>
             </div>
-            <div class="col-12">
-                <div class="alert alert-secondary mb-0 small">
-                    <strong>💡 분석 요약:</strong><br>
-                    ${item.why.join('<br>')}
-                </div>
-            </div>
-        </div>
-    `;
-
-    const modal = new bootstrap.Modal(document.getElementById('detailModal'));
-    modal.show();
-}
+            <div class="col-12"><div class="alert alert-secondary mb-0 small"><strong>💡 분석 요약:</strong><br>${item.why.join('<br>')}</div></div>
+        </div>`;
+    new bootstrap.Modal(document.getElementById('detailModal')).show();
+        }
