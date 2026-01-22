@@ -22,7 +22,7 @@ def load_theme_map():
     return {}
 
 # ---------------------------------------------------------
-# 2. 백테스팅 엔진 (v6.1 Optimized - Gate 완화)
+# 2. 백테스팅 엔진 (v6.2 Conflict Fix - Gate Lowered)
 # ---------------------------------------------------------
 def simulate_period(start_date, end_date, strategy_mode='standard'):
     UNIVERSE = {
@@ -40,7 +40,7 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
         # [Gate 1] MAIN: 정배열 (Risk-On)
         kospi['RISK_ON'] = (kospi['Close'] > kospi['MA20']) & (kospi['MA20'] > kospi['MA60'])
         
-        # [Gate 2] EARLY (수정됨): 60일선이 아니라 20일선만 타도 진입 (하락장 속 반등 노림)
+        # 👇 [수정] 60일선 조건 삭제 -> 20일선만 타면 진입 (하락장 반등 포착)
         kospi['EARLY_GATE'] = kospi['Close'] > kospi['MA20']
     except: return None
 
@@ -115,11 +115,11 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
             if row['Low'] <= stop_price: exit_type = 'STOP'; sell_price = stop_price
             elif row['High'] >= target_price: exit_type = 'TARGET'; sell_price = target_price
             
-            # [시장 퇴출] Main은 Risk-Off시, Early는 추세 꺾이면(20일선 이탈)
+            # [시장 퇴출]
             elif strategy_mode == 'standard' and not is_risk_on:
                 exit_type = 'MKT_OUT'; sell_price = row['NextOpen']
             elif strategy_mode == 'early':
-                # 코스피가 20일선 깨지거나, 종목 자체가 20일선 깨지면 탈출
+                # 코스피 20일 이탈 OR 종목 20일 이탈 시 탈출
                 if (not is_early_gate) or (row['Close'] < row['MA20']):
                     exit_type = 'MKT_OUT'; sell_price = row['NextOpen']
 
@@ -160,19 +160,20 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
 
                 # [B] MSI_EARLY (Optimized SDI Strategy)
                 elif strategy_mode == 'early' and is_early_gate:
-                    # 1. 가격 조건 (너무 엄격한 'Close < MA60' 제거 -> 20일선만 타면 OK)
+                    # 1. 가격 조건 (20일선 위 & 기울기 상승)
                     is_uptrend_short = (curr['Close'] > curr['MA20']) and (curr['MA20_Slope'] > 0)
                     
                     # 2. RS 강도 (시장보다 센가?)
                     is_rs_good = curr['RS'] > curr['RS_MA20']
                     
-                    # 3. 구조적 조건 (쌍바닥 혹은 신고가 돌파 중 하나만 만족해도 OK)
+                    # 3. 구조적 조건 (쌍바닥 혹은 신고가)
                     is_structure_good = (curr['Low10'] > curr['Prev_Low10']) or curr['Break20']
                     
-                    # [진입] 단기상승 + 시장대비강함 + 구조형성
+                    # 4. (옵션) 60일선 아래여야 싸게 사는 건데, 너무 엄격하면 제거 가능
+                    # 여기서는 '충돌 방지'를 위해 60일선 조건은 제거하고 '20일선'만 봅니다.
+                    
                     if is_uptrend_short and is_rs_good and is_structure_good:
                         
-                        # 손절: 전저점 혹은 20일선 -2%
                         stop_lvl = curr['SwingLow']
                         if pd.isna(stop_lvl) or stop_lvl > curr['Close']:
                             stop_lvl = curr['MA20'] * 0.98
@@ -181,7 +182,7 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
                         risk = curr['Close'] - stop
                         if risk <= 0: continue
 
-                        # 비중: 100% (검증 위해 풀매수)
+                        # 비중 100%
                         invest_amt = balance * 1.0 
                         shares = int(invest_amt / curr['Close'])
                         if shares > 0:
