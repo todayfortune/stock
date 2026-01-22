@@ -22,7 +22,7 @@ def load_theme_map():
     return {}
 
 # ---------------------------------------------------------
-# 2. 백테스팅 엔진 (v6.2 Conflict Fix - Gate Lowered)
+# 2. 백테스팅 엔진 (v7.0 Debug & Relaxed)
 # ---------------------------------------------------------
 def simulate_period(start_date, end_date, strategy_mode='standard'):
     UNIVERSE = {
@@ -37,10 +37,9 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
         kospi['MA20'] = kospi['Close'].rolling(20).mean()
         kospi['MA60'] = kospi['Close'].rolling(60).mean()
         
-        # [Gate 1] MAIN: 정배열 (Risk-On)
+        # [Gate 1] MAIN: 정배열
         kospi['RISK_ON'] = (kospi['Close'] > kospi['MA20']) & (kospi['MA20'] > kospi['MA60'])
-        
-        # 👇 [수정] 60일선 조건 삭제 -> 20일선만 타면 진입 (하락장 반등 포착)
+        # [Gate 2] EARLY: 20일선 위 (단기 반등장)
         kospi['EARLY_GATE'] = kospi['Close'] > kospi['MA20']
     except: return None
 
@@ -55,26 +54,50 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
             df['StructTrigger'] = df['Close'] > df['High'].shift(1).rolling(3).max()
             df['NextOpen'] = df['Open'].shift(-1)
             
-            # [MSI_EARLY 지표]
+            # [MSI_EARLY 지표 계산]
             if strategy_mode == 'early':
-                # RS (상대강도)
+                # 1. RS (NaN 처리 포함)
                 kospi_matched = kospi['Close'].reindex(df.index).fillna(method='ffill')
                 df['RS'] = df['Close'] / kospi_matched
-                df['RS_MA20'] = df['RS'].rolling(20).mean()
+                # MA20이 없으면 RS값 자체를 넣어서 비교 가능하게 처리
+                df['RS_MA20'] = df['RS'].rolling(20).mean().fillna(df['RS'])
                 
-                # MA20 기울기
-                df['MA20_Slope'] = df['MA20'].diff(3) # 3일전 대비
+                # 2. MA20 기울기
+                df['MA20_Slope'] = df['MA20'].diff(3)
                 
-                # Higher Low (쌍바닥)
-                df['Low10'] = df['Low'].rolling(10).min()
+                # 3. Higher Low (shift 적용하여 확정된 저점 비교)
+                df['Low10'] = df['Low'].shift(1).rolling(10).min()
                 df['Prev_Low10'] = df['Low10'].shift(10)
                 
-                # Break20 (20일 신고가)
-                df['Break20'] = df['Close'] > df['High'].shift(1).rolling(20).max()
+                # 4. Break10 (20일->10일로 완화: 초입 포착)
+                df['Break10'] = df['Close'] > df['High'].shift(1).rolling(10).max()
 
             stock_db[code] = df
         except: pass
 
+    # -----------------------------------------------------
+    # 🔍 [DEBUG] SDI('006400') 진입 조건 카운트 출력
+    # -----------------------------------------------------
+    if strategy_mode == 'early':
+        sdi_df = stock_db.get('006400')
+        if sdi_df is not None:
+            tmp = sdi_df.copy()
+            # 조건 시뮬레이션
+            tmp['is_uptrend_short'] = (tmp['Close'] > tmp['MA20']) & (tmp['MA20_Slope'] > 0)
+            tmp['is_rs_good'] = (tmp['RS'] > tmp['RS_MA20'])
+            tmp['is_structure_good'] = (tmp['Low10'] > tmp['Prev_Low10']) | (tmp['Break10'])
+            
+            # 카운트
+            cnt_trend = tmp['is_uptrend_short'].sum()
+            cnt_rs = tmp['is_rs_good'].sum()
+            cnt_struct = tmp['is_structure_good'].sum()
+            cnt_all = (tmp['is_uptrend_short'] & tmp['is_rs_good'] & tmp['is_structure_good']).sum()
+            
+            print(f"🔍 [DEBUG-SDI] Trend: {cnt_trend}, RS: {cnt_rs}, Struct: {cnt_struct} => ALL_MATCH: {cnt_all}")
+
+    # -----------------------------------------------------
+    # 시뮬레이션 시작
+    # -----------------------------------------------------
     balance = 10000000
     initial_balance = balance
     holding_code = None
@@ -101,9 +124,7 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
             curr_eq = balance + (shares * stock_db[holding_code].loc[today]['Close'])
         equity_curve.append({"date": today.strftime("%Y-%m-%d"), "equity": int(curr_eq)})
         
-        # -------------------------
-        # 1. 매도 로직
-        # -------------------------
+        # 1. 매도
         if holding_code:
             df = stock_db[holding_code]
             if today not in df.index: continue
@@ -115,11 +136,11 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
             if row['Low'] <= stop_price: exit_type = 'STOP'; sell_price = stop_price
             elif row['High'] >= target_price: exit_type = 'TARGET'; sell_price = target_price
             
-            # [시장 퇴출]
+            # 시장 퇴출
             elif strategy_mode == 'standard' and not is_risk_on:
                 exit_type = 'MKT_OUT'; sell_price = row['NextOpen']
             elif strategy_mode == 'early':
-                # 코스피 20일 이탈 OR 종목 20일 이탈 시 탈출
+                # 20일선 이탈 시 탈출
                 if (not is_early_gate) or (row['Close'] < row['MA20']):
                     exit_type = 'MKT_OUT'; sell_price = row['NextOpen']
 
@@ -133,15 +154,13 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
                 shares = 0
                 continue
 
-        # -------------------------
-        # 2. 매수 로직
-        # -------------------------
+        # 2. 매수
         if holding_code is None:
             for code, df in stock_db.items():
                 if today not in df.index: continue
                 curr = df.loc[today]
                 
-                # [A] MSI_MAIN (Standard)
+                # [A] MSI_MAIN
                 if strategy_mode == 'standard':
                     if is_risk_on and (curr['MA20'] > curr['MA60']) and curr['StructTrigger']:
                         if pd.isna(curr['SwingLow']): continue
@@ -158,22 +177,18 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
                             target_price = curr['Close'] + (risk * 3)
                             break 
 
-                # [B] MSI_EARLY (Optimized SDI Strategy)
+                # [B] MSI_EARLY (Fix & Relaxed)
                 elif strategy_mode == 'early' and is_early_gate:
-                    # 1. 가격 조건 (20일선 위 & 기울기 상승)
+                    # 1. 단기 상승 (20일선 위 + 기울기 상승)
                     is_uptrend_short = (curr['Close'] > curr['MA20']) and (curr['MA20_Slope'] > 0)
                     
-                    # 2. RS 강도 (시장보다 센가?)
+                    # 2. RS 강도 (RS > RS_MA20)
                     is_rs_good = curr['RS'] > curr['RS_MA20']
                     
-                    # 3. 구조적 조건 (쌍바닥 혹은 신고가)
-                    is_structure_good = (curr['Low10'] > curr['Prev_Low10']) or curr['Break20']
-                    
-                    # 4. (옵션) 60일선 아래여야 싸게 사는 건데, 너무 엄격하면 제거 가능
-                    # 여기서는 '충돌 방지'를 위해 60일선 조건은 제거하고 '20일선'만 봅니다.
+                    # 3. 구조 (쌍바닥 OR 10일 신고가) -> Break10으로 완화
+                    is_structure_good = (curr['Low10'] > curr['Prev_Low10']) or curr['Break10']
                     
                     if is_uptrend_short and is_rs_good and is_structure_good:
-                        
                         stop_lvl = curr['SwingLow']
                         if pd.isna(stop_lvl) or stop_lvl > curr['Close']:
                             stop_lvl = curr['MA20'] * 0.98
@@ -228,8 +243,8 @@ def run_multi_backtest():
         
     return results
 
-# 이하는 기존 코드와 동일합니다. 덮어쓰기 하세요!
-# (calc_williams_r, get_detailed_strategy, process_data, save_results 등)
+# ... (이하 기존 코드 그대로 유지 - calc_williams_r 등) ...
+# 반드시 아래 기존 함수들도 포함해서 저장해야 합니다!
 def calc_williams_r(df, period=14):
     hh = df['High'].rolling(period).max()
     ll = df['Low'].rolling(period).min()
@@ -349,7 +364,7 @@ def process_data():
 def save_results():
     try:
         market, sectors, watchlist = process_data()
-        backtest = run_multi_backtest()
+        backtest = run_multi_backtest() # 멀티 백테스트
         
         now = datetime.utcnow() + timedelta(hours=9)
         meta = {"asOf": now.strftime("%Y-%m-%d %H:%M:%S"), "market": market}
