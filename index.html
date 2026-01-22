@@ -26,8 +26,6 @@
         .stat-card { background: white; padding: 20px; border-radius: 12px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
         .stat-value { font-size: 1.5rem; font-weight: 800; color: #333; }
         .stat-label { font-size: 0.8rem; color: #666; text-transform: uppercase; }
-        
-        /* 사이드바 그룹 헤더 */
         .sidebar-header { font-size: 0.75rem; color: #adb5bd; font-weight: 700; padding: 10px 15px 5px; text-transform: uppercase; }
     </style>
 </head>
@@ -59,11 +57,12 @@
                 <button onclick="switchTab('manual')" class="list-group-item list-group-item-action border-0 rounded mb-1" id="nav-manual"><i class="fas fa-book me-2"></i>설명서</button>
                 
                 <div class="sidebar-header mt-3">Backtest (검증)</div>
-                <button onclick="switchBacktest('recent')" class="list-group-item list-group-item-action border-0 rounded mb-1" id="nav-bt-recent"><i class="fas fa-history me-2"></i>최근 3년</button>
+                <button onclick="switchBacktest('recent')" class="list-group-item list-group-item-action border-0 rounded mb-1" id="nav-bt-recent"><i class="fas fa-history me-2"></i>최근 3년 (Main)</button>
+                <button onclick="switchBacktest('early')" class="list-group-item list-group-item-action border-0 rounded mb-1 text-primary fw-bold" id="nav-bt-early"><i class="fas fa-rocket me-2"></i>저점 반등 (SDI전략)</button>
                 <button onclick="switchBacktest('covid')" class="list-group-item list-group-item-action border-0 rounded mb-1" id="nav-bt-covid"><i class="fas fa-virus me-2"></i>'20~'23 (격변)</button>
                 <button onclick="switchBacktest('box')" class="list-group-item list-group-item-action border-0 rounded mb-1" id="nav-bt-box"><i class="fas fa-box me-2"></i>'15~'20 (박스)</button>
             </div>
-            <div class="mt-4 px-3 text-muted small"><strong>System Info</strong><br>Engine v5.1 (Multi)<br>Gate: MA20 & MA60</div>
+            <div class="mt-4 px-3 text-muted small"><strong>System Info</strong><br>Engine v5.3 (Dual)<br>Mode: Main & Early</div>
         </div>
 
         <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="sidebar">
@@ -75,6 +74,7 @@
                     <hr class="border-secondary">
                     <small class="text-secondary px-3 mb-2">BACKTEST</small>
                     <button onclick="switchBacktest('recent')" class="list-group-item list-group-item-action bg-dark text-white">최근 3년</button>
+                    <button onclick="switchBacktest('early')" class="list-group-item list-group-item-action bg-dark text-white fw-bold text-info">🚀 저점 반등 (SDI)</button>
                     <button onclick="switchBacktest('covid')" class="list-group-item list-group-item-action bg-dark text-white">'20~'23 (격변기)</button>
                     <button onclick="switchBacktest('box')" class="list-group-item list-group-item-action bg-dark text-white">'15~'20 (박스권)</button>
                 </div>
@@ -82,7 +82,6 @@
         </div>
 
         <main class="col-lg-10 offset-lg-2 col-12 py-4">
-            
             <div id="tab-dashboard">
                 <h6 class="text-muted text-uppercase mb-3 fw-bold small px-1">Top Sectors</h6>
                 <div class="row g-3 mb-4" id="sector-area"></div>
@@ -104,24 +103,22 @@
             <div id="tab-backtest" style="display: none;">
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <div>
-                        <h4 class="fw-bold mb-0" id="bt-title">📊 전략 검증 (불러오는 중...)</h4>
-                        <span class="badge bg-light text-dark border mt-1">Logic: MSI Blueprint v1</span>
+                        <h4 class="fw-bold mb-0" id="bt-title">📊 전략 검증</h4>
+                        <span class="badge bg-light text-dark border mt-1" id="bt-desc">Logic: MSI Blueprint v1</span>
                     </div>
                 </div>
-                
                 <div class="row g-3 mb-4">
                     <div class="col-6 col-md-3"><div class="stat-card"><div class="stat-value text-primary" id="bt-return">-</div><div class="stat-label">총 수익률</div></div></div>
                     <div class="col-6 col-md-3"><div class="stat-card"><div class="stat-value" id="bt-final">-</div><div class="stat-label">최종 자산</div></div></div>
                     <div class="col-6 col-md-3"><div class="stat-card"><div class="stat-value text-danger" id="bt-mdd">-</div><div class="stat-label">MDD</div></div></div>
                     <div class="col-6 col-md-3"><div class="stat-card"><div class="stat-value text-success" id="bt-win">-</div><div class="stat-label">승률</div></div></div>
                 </div>
-
                 <div class="card border-0 shadow-sm mb-4">
                     <div class="card-header bg-white fw-bold">📈 누적 수익 곡선</div>
                     <div class="card-body"><canvas id="equityChart" height="300"></canvas></div>
                 </div>
                 <div class="alert alert-secondary small">
-                    <i class="fas fa-robot me-1"></i> <strong>[검증 로직]</strong> Market Gate(MA20&60) + 구조 돌파(3일고가) + 스윙손절(10일저가) + RR 1:3
+                    <i class="fas fa-robot me-1"></i> <strong>[검증 로직]</strong> Market Gate + 구조 돌파 + RR 1:3 <span id="bt-logic-add"></span>
                 </div>
             </div>
 
@@ -162,6 +159,6 @@
 <div class="modal fade" id="detailModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content border-0 shadow"><div class="modal-header border-0 pb-0"><h5 class="modal-title fw-bold" id="modal-title"></h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body pt-2" id="modal-body"></div><div class="modal-footer border-0 pt-0"><button type="button" class="btn btn-light w-100 fw-bold" data-bs-dismiss="modal">닫기</button></div></div></div></div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/app.js?v=5.2"></script>
+<script src="assets/app.js?v=5.3"></script>
 </body>
 </html>
