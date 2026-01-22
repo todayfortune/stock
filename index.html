@@ -56,8 +56,9 @@
                 <button onclick="switchTab('dashboard')" class="list-group-item list-group-item-action active border-0 rounded mb-1" id="nav-dashboard"><i class="fas fa-home me-2"></i>대시보드</button>
                 <button onclick="switchTab('manual')" class="list-group-item list-group-item-action border-0 rounded mb-1" id="nav-manual"><i class="fas fa-book me-2"></i>설명서</button>
                 <button onclick="switchTab('telegram')" class="list-group-item list-group-item-action border-0 rounded mb-1" id="nav-telegram">
-    <i class="fab fa-telegram-plane me-2"></i>텔레그램 속보
-</button>
+                    <i class="fab fa-telegram-plane me-2"></i>텔레그램 속보
+                </button>
+                
                 <div class="sidebar-header mt-3">Backtest (Standard)</div>
                 <button onclick="switchBacktest('recent')" class="list-group-item list-group-item-action border-0 rounded mb-1" id="nav-bt-recent"><i class="fas fa-history me-2"></i>최근 3년</button>
                 <button onclick="switchBacktest('covid')" class="list-group-item list-group-item-action border-0 rounded mb-1" id="nav-bt-covid"><i class="fas fa-virus me-2"></i>'20~'23 (격변)</button>
@@ -77,18 +78,9 @@
                 <div class="list-group list-group-flush">
                     <button onclick="switchTab('dashboard')" class="list-group-item list-group-item-action bg-dark text-white active">대시보드</button>
                     <button onclick="switchTab('manual')" class="list-group-item list-group-item-action bg-dark text-white">설명서</button>
-
-                    <div class="offcanvas-body">
-                <div class="list-group list-group-flush">
-                    <button onclick="switchTab('dashboard')" class="list-group-item list-group-item-action bg-dark text-white active">대시보드</button>
-                    <button onclick="switchTab('manual')" class="list-group-item list-group-item-action bg-dark text-white">설명서</button>
-                    
                     <button onclick="switchTab('telegram')" class="list-group-item list-group-item-action bg-dark text-white">
                         <i class="fab fa-telegram-plane me-2"></i>텔레그램 속보
                     </button>
-                    <hr class="border-secondary">
-                    
-                    <small class="text-secondary px-3 mb-2">STANDARD</small>
                     
                     <hr class="border-secondary">
                     <small class="text-secondary px-3 mb-2">STANDARD</small>
@@ -190,25 +182,26 @@
                         <li class="list-group-item"><strong>🛡️ Gate:</strong> KOSPI 20일선 위 (붕괴장만 회피)</li>
                         <li class="list-group-item">
                             <strong>🚀 Entry (전환 신호):</strong><br>
-                            ① 역배열(가격&lt;60일) + ② 단기회복(20일선&uarr;)<br>
-                            + ③ 20일선 기울기 상승 (Turnover)
+                            ① 단기회복(20일선&uarr; + 기울기&uarr;) + ② RS강도 개선<br>
+                            + ③ 구조형성 (쌍바닥 OR 신고가)
                         </li>
                         <li class="list-group-item"><strong>💰 Size:</strong> 비중 100% (공격적 진입 테스트)</li>
                     </ul>
                 </div>
             </div>
+            
             <div id="tab-telegram" style="display: none;">
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <h4 class="fw-bold mb-0">💬 텔레그램 찌라시/속보</h4>
-        <span class="badge bg-white text-secondary border">Source: 19 Channels</span>
-    </div>
-    
-    <div class="row g-3" id="telegram-feed-area">
-        <div class="col-12 text-center py-5 text-muted">
-            <i class="fas fa-spinner fa-spin fa-2x mb-3"></i><br>뉴스 데이터를 불러오는 중...
-        </div>
-    </div>
-</div>
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4 class="fw-bold mb-0">💬 텔레그램 찌라시/속보</h4>
+                    <span class="badge bg-white text-secondary border">Source: 19 Channels</span>
+                </div>
+                
+                <div class="row g-3" id="telegram-feed-area">
+                    <div class="col-12 text-center py-5 text-muted">
+                        <i class="fas fa-spinner fa-spin fa-2x mb-3"></i><br>뉴스 데이터를 불러오는 중...
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 </div>
