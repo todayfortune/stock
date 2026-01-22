@@ -160,6 +160,28 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="manual-section">
+                    <h5 class="manual-title">📊 백테스팅 검증 기준 (Backtest Logic)</h5>
+                    <p class="small text-muted mb-3">MSI 엔진은 시장 상황에 따라 두 가지 전략을 구사합니다.</p>
+
+                    <h6 class="fw-bold text-primary mt-3">1. MSI_MAIN (추세 추종)</h6>
+                    <ul class="list-group list-group-flush small mb-3">
+                        <li class="list-group-item"><strong>🛡️ Gate:</strong> KOSPI 정배열 (Risk-On)</li>
+                        <li class="list-group-item"><strong>🚀 Entry:</strong> 종목 정배열(20>60) + 3일 고가 돌파</li>
+                        <li class="list-group-item"><strong>💰 Size:</strong> 비중 100% (적극 운용)</li>
+                    </ul>
+
+                    <h6 class="fw-bold text-info mt-3">2. MSI_EARLY (저점 반등 - SDI 전략)</h6>
+                    <ul class="list-group list-group-flush small">
+                        <li class="list-group-item"><strong>🛡️ Gate:</strong> KOSPI 60일선 위 (붕괴장만 회피)</li>
+                        <li class="list-group-item">
+                            <strong>🚀 Entry (전환 신호):</strong><br>
+                            ① 역배열(가격&lt;60일) + ② 단기회복(20일선&uarr;)<br>
+                            + ③ 20일선 기울기 상승 (Turnover)
+                        </li>
+                        <li class="list-group-item"><strong>💰 Size:</strong> 비중 100% (공격적 진입 테스트)</li>
+                    </ul>
+                </div>
             </div>
         </main>
     </div>
