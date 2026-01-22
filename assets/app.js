@@ -18,7 +18,8 @@ window.switchTab = function(tabName) {
         if (btn) btn.classList.remove('active');
     });
 
-    ['recent', 'covid', 'box', 'early'].forEach(t => {
+    // 모든 백테스트 버튼 비활성화
+    ['recent', 'covid', 'box', 'early', 'early_covid', 'early_box'].forEach(t => {
         const btn = document.getElementById('nav-bt-' + t);
         if (btn) btn.classList.remove('active');
     });
@@ -37,7 +38,8 @@ window.switchBacktest = function(periodKey) {
     switchTab('backtest');
     document.getElementById('nav-backtest')?.classList.remove('active');
 
-    ['recent', 'covid', 'box', 'early'].forEach(t => {
+    // 선택된 버튼만 활성화
+    ['recent', 'covid', 'box', 'early', 'early_covid', 'early_box'].forEach(t => {
         const btn = document.getElementById('nav-bt-' + t);
         if (btn) {
             if (t === periodKey) btn.classList.add('active');
@@ -143,17 +145,21 @@ function renderWatchlist(items) {
 function renderBacktest(data, key) {
     if (!data) return;
     
+    // 타이틀 매핑
     const titles = {
-        'recent': '최근 3년 (Main Trend)',
-        'covid': '2020~2023 (Volatility)',
-        'box': '2015~2019 (Box Range)',
-        'early': '최근 3년 (SDI Early Mode)'
+        'recent': 'Standard: 최근 3년 (Trend)',
+        'covid': 'Standard: 2020~2023 (Volatility)',
+        'box': 'Standard: 2015~2019 (Box)',
+        
+        'early': 'SDI Mode: 최근 3년',
+        'early_covid': 'SDI Mode: 2020~2023 (Crisis)',
+        'early_box': 'SDI Mode: 2015~2019 (Boring)'
     };
     
     document.getElementById('bt-title').textContent = "📊 " + (titles[key] || '전략 검증');
-    document.getElementById('bt-desc').textContent = key === 'early' 
-        ? "Logic: Main Trend + Early Reversal (0.5x)" 
-        : "Logic: MSI Blueprint v1 (Standard)";
+    document.getElementById('bt-desc').textContent = key.includes('early')
+        ? "Logic: 역배열 말기 + 바닥 구조 + 0.5배수 진입 (SDI Strategy)" 
+        : "Logic: 정배열 추세 + 구조 돌파 (Standard Strategy)";
 
     document.getElementById('bt-return').textContent = (data.summary.total_return > 0 ? '+' : '') + data.summary.total_return + '%';
     document.getElementById('bt-final').textContent = (data.summary.final_balance / 10000).toFixed(0) + '만';
@@ -164,11 +170,15 @@ function renderBacktest(data, key) {
     const ctx = document.getElementById('equityChart').getContext('2d');
     if (window.myEquityChart) window.myEquityChart.destroy();
     
+    // 컬러 매핑
     const colorMap = {
         'recent': '#0d6efd', // Blue
         'covid': '#dc3545',  // Red
         'box': '#198754',    // Green
-        'early': '#6f42c1'   // Purple (New!)
+        
+        'early': '#6f42c1',       // Purple
+        'early_covid': '#fd7e14', // Orange
+        'early_box': '#20c997'    // Teal
     };
     const color = colorMap[key] || '#0d6efd';
 
