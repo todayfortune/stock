@@ -6,7 +6,7 @@ from telethon import TelegramClient
 from telethon.sessions import StringSession
 
 # ---------------------------------------------------------
-# 📡 감시할 텔레그램 채널 리스트
+# 1. 감시할 채널 리스트
 # ---------------------------------------------------------
 TARGET_CHANNELS = [
     '@IDEA_MEMO', '@MASSITRADING', '@JAKE8LEE', '@ONE_GOING', 
@@ -17,6 +17,15 @@ TARGET_CHANNELS = [
     '@SKSRESEARCH', '@SURVIVAL_DOPB', '@HEDGECAT0301'
 ]
 
+# ---------------------------------------------------------
+# 2. 발굴용 핵심 키워드 (Trend Keywords)
+# ---------------------------------------------------------
+TREND_KEYWORDS = [
+    "상향", "서프라이즈", "쇼크", "수요", "공급", 
+    "이닛", "init", "구조적 성장", "사이클", "업사이드", 
+    "OP", "TP", "M/S", "QoQ", "YoY", "밸류체인", "수주"
+]
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 
@@ -25,10 +34,8 @@ async def main():
     api_hash = os.environ.get('TELEGRAM_API_HASH')
     session_str = os.environ.get('TELEGRAM_SESSION')
 
-    # 👇 [수정] 3개 다 있는지 꼼꼼하게 체크
     if not api_id or not api_hash or not session_str:
-        print("⚠️ 텔레그램 설정(API_ID, API_HASH, SESSION)이 누락되었습니다.")
-        print("   -> Settings > Secrets and variables > Actions 에서 확인하세요.")
+        print("⚠️ 텔레그램 설정이 누락되었습니다.")
         return
 
     print("📡 텔레그램 접속 시도...")
@@ -40,19 +47,23 @@ async def main():
         print(f"❌ 텔레그램 로그인 실패: {e}")
         return
 
+    # 관심종목 불러오기 (개별 종목 매칭용)
     watchlist_path = os.path.join(DATA_DIR, 'watchlist.json')
-    if not os.path.exists(watchlist_path):
-        print(f"❌ '{watchlist_path}' 파일이 없습니다. (주식 분석이 먼저 실행되어야 함)")
-        await client.disconnect()
-        return
-        
-    with open(watchlist_path, 'r', encoding='utf-8') as f:
-        watchlist = json.load(f)['items']
+    watchlist_items = []
+    if os.path.exists(watchlist_path):
+        with open(watchlist_path, 'r', encoding='utf-8') as f:
+            watchlist_items = json.load(f)['items']
     
-    target_keywords = {item['name']: item['ticker'] for item in watchlist}
-    news_data = {}
+    # 검색용 매핑: { '삼성전자': '005930', ... }
+    stock_keywords = {item['name']: item['ticker'] for item in watchlist_items}
+    
+    # 데이터 저장소 분리
+    final_data = {
+        "global": [],      # 키워드로 찾은 뉴스 (발굴용)
+        "specific": {}     # 내 종목 관련 뉴스 (관리용)
+    }
 
-    print(f"🔍 {len(target_keywords)}개 종목 뉴스 수집 시작...")
+    print(f"🔍 뉴스 수집 시작 (Target: {len(TREND_KEYWORDS)} Keywords & {len(stock_keywords)} Stocks)...")
     
     for channel in TARGET_CHANNELS:
         try:
@@ -63,26 +74,46 @@ async def main():
                 msg_text = message.text
                 msg_date = message.date + timedelta(hours=9)
                 date_str = msg_date.strftime("%Y-%m-%d %H:%M")
+                link = f"https://t.me/{channel.replace('@', '')}/{message.id}"
+                preview = msg_text[:150].replace('\n', ' ') + "..."
 
-                for name, ticker in target_keywords.items():
+                # 1) [Global] 트렌드 키워드 검색 (새 종목 발굴)
+                # 메시지에 키워드가 하나라도 있으면 저장
+                matched_keywords = [k for k in TREND_KEYWORDS if k in msg_text]
+                if matched_keywords:
+                    final_data["global"].append({
+                        "source": channel,
+                        "date": date_str,
+                        "text": preview,
+                        "link": link,
+                        "keywords": matched_keywords # 어떤 키워드에 걸렸는지 저장
+                    })
+
+                # 2) [Specific] 내 관심종목 검색 (기존 기능)
+                for name, ticker in stock_keywords.items():
                     if name in msg_text:
-                        if ticker not in news_data: news_data[ticker] = []
-                        preview = msg_text[:150].replace('\n', ' ') + "..."
-                        link = f"https://t.me/{channel.replace('@', '')}/{message.id}"
+                        if ticker not in final_data["specific"]:
+                            final_data["specific"][ticker] = []
                         
-                        news_data[ticker].append({
-                            "source": channel, "date": date_str, "text": preview, "link": link
+                        # 중복 저장 방지 (이미 global에 들어갔어도 종목별 정리를 위해 별도 저장)
+                        final_data["specific"][ticker].append({
+                            "source": channel,
+                            "date": date_str,
+                            "text": preview,
+                            "link": link
                         })
+
         except Exception as e:
             print(f"   ⚠️ {channel} 에러: {e}")
 
     await client.disconnect()
 
+    # 결과 저장
     output_path = os.path.join(DATA_DIR, 'telegram_news.json')
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(news_data, f, ensure_ascii=False, indent=2)
+        json.dump(final_data, f, ensure_ascii=False, indent=2)
     
-    print(f"✅ 수집 완료! (총 {len(news_data)}개 종목 뉴스)")
+    print(f"✅ 수집 완료! (키워드 뉴스: {len(final_data['global'])}건)")
 
 if __name__ == '__main__':
     asyncio.run(main())
