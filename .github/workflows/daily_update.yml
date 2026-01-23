@@ -33,6 +33,11 @@ jobs:
       run: |
         python scripts/fetch_krx.py
 
+        # 👇 [여기 추가] 월가 전략 엔진 가동
+    - name: 월가 전략 백테스팅
+      run: |
+        python scripts/fetch_wallstreet.py
+
     - name: 텔레그램 뉴스 수집
       env:
         TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
