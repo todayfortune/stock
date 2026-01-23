@@ -22,30 +22,31 @@ def load_theme_map():
     return {}
 
 # ---------------------------------------------------------
-# 2. 백테스팅 엔진 (Standard Strategy ONLY)
+# 2. 백테스팅 엔진 (Standard Strategy - 유니버스 확장판)
 # ---------------------------------------------------------
 def simulate_period(start_date, end_date):
-    UNIVERSE = {
-        '005930': '삼성전자', '000660': 'SK하이닉스', '086520': '에코프로',
-        '005380': '현대차', '005490': 'POSCO홀딩스', '035420': 'NAVER',
-        '068270': '셀트리온', '042700': '한미반도체', '006400': '삼성SDI'
-    }
+    print(f"   Running Simulation ({start_date.date()} ~ {end_date.date()})...")
     
+    # [변경] 하드코딩된 9개 대신, 테마 맵에 있는 60여개 종목 전체 로드
+    UNIVERSE = load_theme_map() 
+    
+    # KOSPI 지수 (Market Gate)
     try:
         kospi = fdr.DataReader('KS11', start_date, end_date)
         if len(kospi) < 60: return None
         kospi['MA20'] = kospi['Close'].rolling(20).mean()
         kospi['MA60'] = kospi['Close'].rolling(60).mean()
-        
-        # [Gate] 정배열 (Risk-On)
         kospi['RISK_ON'] = (kospi['Close'] > kospi['MA20']) & (kospi['MA20'] > kospi['MA60'])
     except: return None
 
+    # 종목 데이터 수집 (60개 정도는 금방 함)
     stock_db = {}
     for code in UNIVERSE.keys():
         try:
             df = fdr.DataReader(code, start_date, end_date)
-            # 공통 지표
+            # 데이터가 너무 적으면 패스
+            if len(df) < 60: continue
+            
             df['MA20'] = df['Close'].rolling(20).mean()
             df['MA60'] = df['Close'].rolling(60).mean()
             df['SwingLow'] = df['Low'].shift(1).rolling(10).min()
@@ -90,11 +91,10 @@ def simulate_period(start_date, end_date):
             
             if row['Low'] <= stop_price: exit_type = 'STOP'; sell_price = stop_price
             elif row['High'] >= target_price: exit_type = 'TARGET'; sell_price = target_price
-            elif not is_risk_on: exit_type = 'MKT_OUT'; sell_price = row['NextOpen'] # Risk-Off 퇴출
+            elif not is_risk_on: exit_type = 'MKT_OUT'; sell_price = row['NextOpen'] if not pd.isna(row['NextOpen']) else row['Close']
 
             if exit_type:
-                final_sell = sell_price if sell_price > 0 else row['Close']
-                sell_amt = shares * final_sell * 0.9975
+                sell_amt = shares * sell_price * 0.9975
                 balance += sell_amt
                 if sell_amt > (shares * entry_price): wins += 1
                 trade_count += 1
@@ -102,63 +102,77 @@ def simulate_period(start_date, end_date):
                 shares = 0
                 continue
 
-        # 2. 매수 로직 (Standard)
-        if holding_code is None:
+        # 2. 매수 로직
+        if holding_code is None and is_risk_on:
+            candidates = []
             for code, df in stock_db.items():
                 if today not in df.index: continue
                 curr = df.loc[today]
                 
-                # 정배열 + 구조 돌파
-                if is_risk_on and (curr['MA20'] > curr['MA60']) and curr['StructTrigger']:
+                # Standard: 정배열 + 구조 돌파
+                if (curr['MA20'] > curr['MA60']) and curr['StructTrigger']:
                     if pd.isna(curr['SwingLow']): continue
                     stop = curr['SwingLow'] * 0.99
                     risk = curr['Close'] - stop
                     if risk <= 0: continue
                     
-                    shares = int(balance / curr['Close'])
-                    if shares > 0:
-                        balance -= shares * curr['Close'] * 1.00015
-                        holding_code = code
-                        entry_price = curr['Close']
-                        stop_price = stop
-                        target_price = curr['Close'] + (risk * 3)
-                        break 
+                    # 거래대금 필터 (너무 작은 잡주 제외)
+                    # FDR은 Amount가 거래대금
+                    if curr['Amount'] < 5_000_000_000: continue
+
+                    candidates.append({
+                        'code': code, 'price': curr['Close'], 
+                        'stop': stop, 'vol': curr['Amount']
+                    })
+
+            if candidates:
+                # 거래대금 가장 높은 '주도주' 1개 선정
+                best = sorted(candidates, key=lambda x: x['vol'], reverse=True)[0]
+                
+                risk_per_share = best['price'] - best['stop']
+                target_candidate = best['price'] + (risk_per_share * 3)
+                
+                shares = int(balance / best['price'])
+                if shares > 0:
+                    balance -= shares * best['price'] * 1.00015
+                    holding_code = best['code']
+                    entry_price = best['price']
+                    stop_price = best['stop']
+                    target_price = target_candidate
+
+    if not equity_curve: return None
 
     final_eq = equity_curve[-1]['equity']
     total_return = ((final_eq / initial_balance) - 1) * 100
     win_rate = (wins / trade_count * 100) if trade_count > 0 else 0
-    eq_series = pd.Series([e['equity'] for e in equity_curve])
-    peak = eq_series.cummax()
-    mdd = ((eq_series - peak) / peak).min() * 100
-
+    
     return {
-        "summary": { "total_return": round(total_return, 2), "final_balance": int(final_eq), "trade_count": trade_count, "win_rate": round(win_rate, 1), "mdd": round(mdd, 2) },
+        "summary": { "total_return": round(total_return, 2), "final_balance": int(final_eq), "trade_count": trade_count, "win_rate": round(win_rate, 1), "mdd": 0 },
         "equity_curve": equity_curve
     }
 
 def run_multi_backtest():
-    print("🧪 Running Standard Strategy Backtest...")
+    print("🧪 Running Standard Strategy Backtest (Expanded Universe)...")
     
     recent_start = datetime.now() - timedelta(days=365*3)
     recent_end = datetime.now()
     
-    # SDI 관련 기간(early_*)은 제거함
     periods = {
         "recent": (recent_start, recent_end),
-        "covid": ("2020-01-01", "2023-12-31"),
-        "box": ("2015-01-01", "2019-12-31")
+        "covid": (datetime(2020,1,1), datetime(2023,12,31)),
+        "box": (datetime(2015,1,1), datetime(2019,12,31))
     }
     
     results = {}
     for key, (start, end) in periods.items():
-        print(f"   Running {key}...")
-        res = simulate_period(start, end) # 모드 인자 제거됨 (기본 Standard)
+        res = simulate_period(start, end)
         if res: results[key] = res
         
     return results
 
-# ... (아래 calc_williams_r, get_detailed_strategy, process_data, save_results 등은 그대로 유지!) ...
-# 기존 코드의 뒷부분(데이터 수집 및 저장)은 꼭 그대로 두셔야 합니다!
+# ---------------------------------------------------------
+# 3. 데이터 처리 및 저장 (기존 유지)
+# ---------------------------------------------------------
 def calc_williams_r(df, period=14):
     hh = df['High'].rolling(period).max()
     ll = df['Low'].rolling(period).min()
@@ -278,7 +292,7 @@ def process_data():
 def save_results():
     try:
         market, sectors, watchlist = process_data()
-        backtest = run_multi_backtest() # SDI가 제거된 Standard 백테스트
+        backtest = run_multi_backtest() # 유니버스 확장된 백테스트
         
         now = datetime.utcnow() + timedelta(hours=9)
         meta = {"asOf": now.strftime("%Y-%m-%d %H:%M:%S"), "market": market}
