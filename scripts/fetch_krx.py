@@ -22,7 +22,7 @@ def load_theme_map():
     return {}
 
 # ---------------------------------------------------------
-# 2. 백테스팅 엔진 (v7.0 Debug & Relaxed)
+# 2. 백테스팅 엔진 (v7.1 SDI Fix - NaN Handled)
 # ---------------------------------------------------------
 def simulate_period(start_date, end_date, strategy_mode='standard'):
     UNIVERSE = {
@@ -37,10 +37,9 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
         kospi['MA20'] = kospi['Close'].rolling(20).mean()
         kospi['MA60'] = kospi['Close'].rolling(60).mean()
         
-        # [Gate 1] MAIN: 정배열
+        # [Gate] 
         kospi['RISK_ON'] = (kospi['Close'] > kospi['MA20']) & (kospi['MA20'] > kospi['MA60'])
-        # [Gate 2] EARLY: 20일선 위 (단기 반등장)
-        kospi['EARLY_GATE'] = kospi['Close'] > kospi['MA20']
+        kospi['EARLY_GATE'] = kospi['Close'] > kospi['MA20'] # 20일선 위면 진입 (반등장)
     except: return None
 
     stock_db = {}
@@ -54,18 +53,18 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
             df['StructTrigger'] = df['Close'] > df['High'].shift(1).rolling(3).max()
             df['NextOpen'] = df['Open'].shift(-1)
             
-            # [MSI_EARLY 지표 계산]
+            # [MSI_EARLY 지표 계산 - 안전장치 추가]
             if strategy_mode == 'early':
-                # 1. RS (NaN 처리 포함)
+                # 1. RS (NaN 방지: 값이 없으면 1.0 처리 or 현재값 사용)
                 kospi_matched = kospi['Close'].reindex(df.index).fillna(method='ffill')
                 df['RS'] = df['Close'] / kospi_matched
-                # MA20이 없으면 RS값 자체를 넣어서 비교 가능하게 처리
+                # ★ 중요: MA20 계산 전 NaN을 현재 RS로 채움 -> 비교 에러 방지
                 df['RS_MA20'] = df['RS'].rolling(20).mean().fillna(df['RS'])
                 
-                # 2. MA20 기울기
-                df['MA20_Slope'] = df['MA20'].diff(3)
+                # 2. MA20 기울기 (NaN이면 0 처리)
+                df['MA20_Slope'] = df['MA20'].diff(3).fillna(0)
                 
-                # 3. Higher Low (shift 적용하여 확정된 저점 비교)
+                # 3. Higher Low (확정된 저점)
                 df['Low10'] = df['Low'].shift(1).rolling(10).min()
                 df['Prev_Low10'] = df['Low10'].shift(10)
                 
@@ -76,27 +75,27 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
         except: pass
 
     # -----------------------------------------------------
-    # 🔍 [DEBUG] SDI('006400') 진입 조건 카운트 출력
+    # 🔍 [DEBUG] SDI('006400') 진입 조건 강제 확인
     # -----------------------------------------------------
     if strategy_mode == 'early':
         sdi_df = stock_db.get('006400')
         if sdi_df is not None:
             tmp = sdi_df.copy()
             # 조건 시뮬레이션
-            tmp['is_uptrend_short'] = (tmp['Close'] > tmp['MA20']) & (tmp['MA20_Slope'] > 0)
-            tmp['is_rs_good'] = (tmp['RS'] > tmp['RS_MA20'])
-            tmp['is_structure_good'] = (tmp['Low10'] > tmp['Prev_Low10']) | (tmp['Break10'])
+            tmp['C1_Trend'] = (tmp['Close'] > tmp['MA20']) & (tmp['MA20_Slope'] > 0)
+            tmp['C2_RS'] = (tmp['RS'] > tmp['RS_MA20'])
+            tmp['C3_Struct'] = (tmp['Low10'] > tmp['Prev_Low10']) | (tmp['Break10'])
             
             # 카운트
-            cnt_trend = tmp['is_uptrend_short'].sum()
-            cnt_rs = tmp['is_rs_good'].sum()
-            cnt_struct = tmp['is_structure_good'].sum()
-            cnt_all = (tmp['is_uptrend_short'] & tmp['is_rs_good'] & tmp['is_structure_good']).sum()
+            c1 = tmp['C1_Trend'].sum()
+            c2 = tmp['C2_RS'].sum()
+            c3 = tmp['C3_Struct'].sum()
+            c_all = (tmp['C1_Trend'] & tmp['C2_RS'] & tmp['C3_Struct']).sum()
             
-            print(f"🔍 [DEBUG-SDI] Trend: {cnt_trend}, RS: {cnt_rs}, Struct: {cnt_struct} => ALL_MATCH: {cnt_all}")
+            print(f"🔍 [DEBUG-SDI] Trend: {c1}, RS: {c2}, Struct: {c3} => ★진입가능횟수: {c_all}")
 
     # -----------------------------------------------------
-    # 시뮬레이션 시작
+    # 시뮬레이션
     # -----------------------------------------------------
     balance = 10000000
     initial_balance = balance
@@ -140,7 +139,7 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
             elif strategy_mode == 'standard' and not is_risk_on:
                 exit_type = 'MKT_OUT'; sell_price = row['NextOpen']
             elif strategy_mode == 'early':
-                # 20일선 이탈 시 탈출
+                # 20일선 이탈 시 탈출 (종가 기준)
                 if (not is_early_gate) or (row['Close'] < row['MA20']):
                     exit_type = 'MKT_OUT'; sell_price = row['NextOpen']
 
@@ -177,18 +176,16 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
                             target_price = curr['Close'] + (risk * 3)
                             break 
 
-                # [B] MSI_EARLY (Fix & Relaxed)
+                # [B] MSI_EARLY (NaN 처리된 안전 로직)
                 elif strategy_mode == 'early' and is_early_gate:
-                    # 1. 단기 상승 (20일선 위 + 기울기 상승)
+                    # 조건 확인 (fillna 덕분에 에러 안 남)
                     is_uptrend_short = (curr['Close'] > curr['MA20']) and (curr['MA20_Slope'] > 0)
-                    
-                    # 2. RS 강도 (RS > RS_MA20)
                     is_rs_good = curr['RS'] > curr['RS_MA20']
-                    
-                    # 3. 구조 (쌍바닥 OR 10일 신고가) -> Break10으로 완화
+                    # 구조: Break10 사용 (SDI 맞춤형)
                     is_structure_good = (curr['Low10'] > curr['Prev_Low10']) or curr['Break10']
                     
                     if is_uptrend_short and is_rs_good and is_structure_good:
+                        # 손절가 계산 (데이터 없으면 20일선 기준)
                         stop_lvl = curr['SwingLow']
                         if pd.isna(stop_lvl) or stop_lvl > curr['Close']:
                             stop_lvl = curr['MA20'] * 0.98
@@ -243,8 +240,9 @@ def run_multi_backtest():
         
     return results
 
-# ... (이하 기존 코드 그대로 유지 - calc_williams_r 등) ...
-# 반드시 아래 기존 함수들도 포함해서 저장해야 합니다!
+# ---------------------------------------------------------
+# 3. 데이터 처리 및 저장 (기존 유지)
+# ---------------------------------------------------------
 def calc_williams_r(df, period=14):
     hh = df['High'].rolling(period).max()
     ll = df['Low'].rolling(period).min()
@@ -364,7 +362,7 @@ def process_data():
 def save_results():
     try:
         market, sectors, watchlist = process_data()
-        backtest = run_multi_backtest() # 멀티 백테스트
+        backtest = run_multi_backtest()
         
         now = datetime.utcnow() + timedelta(hours=9)
         meta = {"asOf": now.strftime("%Y-%m-%d %H:%M:%S"), "market": market}
