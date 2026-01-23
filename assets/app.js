@@ -1,6 +1,7 @@
 window.watchlistData = [];
 window.backtestData = {}; 
-window.telegramNews = { global: [], specific: {} }; // [변경] 구조 변경 초기화
+window.wallstreetData = {}; // [NEW] 월가 전략 데이터 저장소
+window.telegramNews = { global: [], specific: {} }; 
 
 document.addEventListener('DOMContentLoaded', function() {
     initDashboard();
@@ -20,7 +21,9 @@ window.switchTab = function(tabName) {
         if (btn) btn.classList.remove('active');
     });
 
+    // 하위 버튼 하이라이트 초기화
     document.querySelectorAll('[id^="nav-bt-"]').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('[id^="nav-ws-"]').forEach(el => el.classList.remove('active'));
 
     const selectedTab = document.getElementById('tab-' + tabName);
     if (selectedTab) selectedTab.style.display = 'block';
@@ -36,10 +39,15 @@ window.switchTab = function(tabName) {
     window.scrollTo(0, 0);
 }
 
+// 기존 백테스트(Standard, SDI) 전환
 window.switchBacktest = function(periodKey) {
     switchTab('backtest');
     document.getElementById('nav-backtest')?.classList.remove('active');
     
+    // 월가 버튼 해제
+    document.querySelectorAll('[id^="nav-ws-"]').forEach(el => el.classList.remove('active'));
+    
+    // 기존 버튼 초기화 및 활성화
     const ids = ['recent', 'covid', 'box', 'early', 'early_covid', 'early_box'];
     ids.forEach(t => {
         const btn = document.getElementById('nav-bt-' + t);
@@ -51,6 +59,30 @@ window.switchBacktest = function(periodKey) {
 
     if (window.backtestData && window.backtestData[periodKey]) {
         renderBacktest(window.backtestData[periodKey], periodKey);
+    }
+}
+
+// [NEW] 월가 전략(Wall St.) 전환 함수
+window.switchWallStreet = function(periodKey) {
+    switchTab('backtest');
+    document.getElementById('nav-backtest')?.classList.remove('active');
+
+    // 기존 버튼 해제
+    document.querySelectorAll('[id^="nav-bt-"]').forEach(el => el.classList.remove('active'));
+    
+    // 월가 버튼 초기화
+    document.querySelectorAll('[id^="nav-ws-"]').forEach(el => el.classList.remove('active'));
+
+    // 클릭한 버튼 활성화 (id는 하이픈 사용: nav-ws-recent)
+    const targetBtn = document.getElementById('nav-' + periodKey.replace('_', '-')); 
+    if(targetBtn) targetBtn.classList.add('active');
+    
+    // 데이터 렌더링
+    if (window.wallstreetData && window.wallstreetData[periodKey]) {
+        renderBacktest(window.wallstreetData[periodKey], periodKey);
+    } else {
+        document.getElementById('bt-title').textContent = "데이터 로딩 중... (또는 결과 없음)";
+        document.getElementById('bt-desc').textContent = "";
     }
 }
 
@@ -80,15 +112,21 @@ function loadData() {
     fetch(`data/backtest.json?t=${timestamp}`).then(r=>r.json()).then(d=>{
         window.backtestData = d;
     });
+
+    // [NEW] 월가 전략 데이터 로드
+    fetch(`data/backtest_wallstreet.json?t=${timestamp}`)
+        .then(res => res.json())
+        .then(data => {
+            window.wallstreetData = data;
+        })
+        .catch(() => console.log('WallStreet Data pending...'));
         
-    // [변경] 텔레그램 뉴스 구조 변경 대응
     fetch(`data/telegram_news.json?t=${timestamp}`)
         .then(res => {
             if (!res.ok) return { global: [], specific: {} }; 
             return res.json();
         })
         .then(data => {
-            // 구버전 데이터(리스트 형태)가 올 경우를 대비한 방어 코드
             if (Array.isArray(data)) {
                 window.telegramNews = { global: [], specific: data };
             } else {
@@ -102,15 +140,11 @@ function loadData() {
         .catch(() => window.telegramNews = { global: [], specific: {} });
 }
 
-// [UPDATED] 텔레그램 대시보드 (키워드 뉴스 발굴용)
 function renderTelegramDashboard() {
     const container = document.getElementById('telegram-feed-area');
     if(!container) return;
     
-    // global(키워드) 뉴스만 가져옴
     const allNews = window.telegramNews.global || [];
-
-    // 최신순 정렬
     allNews.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     if (allNews.length === 0) {
@@ -120,7 +154,6 @@ function renderTelegramDashboard() {
 
     container.innerHTML = '';
     allNews.forEach(news => {
-        // 발견된 키워드를 뱃지로 표시
         let keywordBadges = '';
         if (news.keywords && news.keywords.length > 0) {
             news.keywords.forEach(k => {
@@ -155,7 +188,7 @@ function renderTelegramDashboard() {
     });
 }
 
-function updateMarketBadge(market) { /* 기존 유지 */
+function updateMarketBadge(market) { 
     const badge = document.getElementById('market-badge');
     if(!badge) return;
     if (market && market.state === 'RISK_ON') {
@@ -165,7 +198,7 @@ function updateMarketBadge(market) { /* 기존 유지 */
     }
 }
 
-function renderSectors(items) { /* 기존 유지 */
+function renderSectors(items) { 
     const container = document.getElementById('sector-area');
     container.innerHTML = '';
     if (!items || items.length === 0) return;
@@ -175,7 +208,7 @@ function renderSectors(items) { /* 기존 유지 */
     });
 }
 
-function renderWatchlist(items) { /* 기존 유지 */
+function renderWatchlist(items) { 
     const desktopBody = document.getElementById('desktop-table-body');
     const mobileList = document.getElementById('mobile-card-list');
     desktopBody.innerHTML = ''; mobileList.innerHTML = '';
@@ -190,24 +223,69 @@ function renderWatchlist(items) { /* 기존 유지 */
     });
 }
 
-function renderBacktest(data, key) { /* 기존 유지 */
+// [UPDATED] 백테스트 렌더링 (월가 전략 타이틀/설명 추가)
+function renderBacktest(data, key) {
     if (!data) return;
-    const titles = { 'recent': 'Standard: 최근 3년', 'covid': 'Standard: 2020~2023', 'box': 'Standard: 2015~2019', 'early': 'SDI Mode: 최근 3년', 'early_covid': 'SDI Mode: 2020~2023', 'early_box': 'SDI Mode: 2015~2019' };
+    const titles = {
+        'recent': 'Standard: 최근 3년', 'covid': 'Standard: 20~23', 'box': 'Standard: 15~20',
+        'early': 'SDI Mode: 최근 3년', 'early_covid': 'SDI Mode: 20~23', 'early_box': 'SDI Mode: 15~20',
+        'ws_recent': 'Wall St. Logic: 최근 3년',
+        'ws_covid': 'Wall St. Logic: 20~23',
+        'ws_box': 'Wall St. Logic: 15~20'
+    };
+
     document.getElementById('bt-title').textContent = "📊 " + (titles[key] || '전략 검증');
-    document.getElementById('bt-desc').textContent = key.includes('early') ? "Logic: 역배열 말기 + 바닥 구조 + 0.5배수 진입 (SDI Strategy)" : "Logic: 정배열 추세 + 구조 돌파 (Standard Strategy)";
+    
+    // 전략에 따른 설명 분기
+    if (key.includes('ws_')) {
+        document.getElementById('bt-desc').textContent = "Logic: 시장필터(200일) + ATR 변동성 조절 + 1% 룰";
+        document.getElementById('bt-desc').className = "badge bg-warning text-dark border mt-1";
+    } else {
+        document.getElementById('bt-desc').textContent = key.includes('early') ? "Logic: 역배열 말기 + 바닥 구조 + 0.5배수 진입 (SDI Strategy)" : "Logic: 정배열 추세 + 구조 돌파 (Standard Strategy)";
+        document.getElementById('bt-desc').className = "badge bg-light text-dark border mt-1";
+    }
+
     document.getElementById('bt-return').textContent = (data.summary.total_return > 0 ? '+' : '') + data.summary.total_return + '%';
     document.getElementById('bt-final').textContent = (data.summary.final_balance / 10000).toFixed(0) + '만';
     document.getElementById('bt-mdd').textContent = data.summary.mdd + '%';
     document.getElementById('bt-win').textContent = data.summary.win_rate + '%';
     document.getElementById('bt-return').className = 'stat-value ' + (data.summary.total_return >= 0 ? 'text-danger' : 'text-primary');
+    
     const ctx = document.getElementById('equityChart').getContext('2d');
     if (window.myEquityChart) window.myEquityChart.destroy();
-    const colorMap = { 'recent': '#0d6efd', 'covid': '#dc3545', 'box': '#198754', 'early': '#6f42c1', 'early_covid': '#fd7e14', 'early_box': '#20c997' };
+    
+    // 색상 매핑 추가
+    const colorMap = { 
+        'recent': '#0d6efd', 'covid': '#dc3545', 'box': '#198754', 
+        'early': '#6f42c1', 'early_covid': '#fd7e14', 'early_box': '#20c997',
+        'ws_recent': '#ffc107', 'ws_covid': '#fd7e14', 'ws_box': '#ffc107' // 월가 전략은 노란색 계열
+    };
     const color = colorMap[key] || '#0d6efd';
-    window.myEquityChart = new Chart(ctx, { type: 'line', data: { labels: data.equity_curve.map(d => d.date), datasets: [{ label: '누적 자산', data: data.equity_curve.map(d => d.equity), borderColor: color, backgroundColor: color + '10', borderWidth: 2, fill: true, pointRadius: 0, tension: 0.1 }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { display: false }, y: { grid: { borderDash: [2, 4] } } } } });
+    
+    window.myEquityChart = new Chart(ctx, { 
+        type: 'line', 
+        data: { 
+            labels: data.equity_curve.map(d => d.date), 
+            datasets: [{ 
+                label: '누적 자산', 
+                data: data.equity_curve.map(d => d.equity), 
+                borderColor: color, 
+                backgroundColor: color + '10', 
+                borderWidth: 2, 
+                fill: true, 
+                pointRadius: 0, 
+                tension: 0.1 
+            }] 
+        }, 
+        options: { 
+            responsive: true, 
+            maintainAspectRatio: false, 
+            plugins: { legend: { display: false } }, 
+            scales: { x: { display: false }, y: { grid: { borderDash: [2, 4] } } } 
+        } 
+    });
 }
 
-// [UPDATED] 종목 상세 팝업 (특정 종목 뉴스만 표시)
 window.showDetail = function(ticker) {
     const item = window.watchlistData.find(i => i.ticker === ticker);
     if (!item) return;
@@ -216,14 +294,12 @@ window.showDetail = function(ticker) {
     const modalBody = document.getElementById('modal-body');
     modalTitle.innerHTML = `${item.name} <span class="text-muted small">(${item.ticker})</span>`;
     
-    // RR 계산
     const stopPrice = item.stop.price > 0 ? item.stop.price.toLocaleString() : '-';
     const targetPrice = item.target.price > 0 ? item.target.price.toLocaleString() : '-';
     const risk = item.stop.price > 0 ? item.close - item.stop.price : 0;
     const reward = item.target.price > 0 ? item.target.price - item.close : 0;
     let rrRatio = (risk > 0 && reward > 0) ? '1 : ' + (reward / risk).toFixed(1) : 'N/A';
 
-    // 특정 종목 뉴스 가져오기 (specific에서 조회)
     let newsHtml = '';
     const specificNews = window.telegramNews.specific || {};
     const newsList = specificNews[ticker] || [];
