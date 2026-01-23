@@ -22,7 +22,7 @@ def load_theme_map():
     return {}
 
 # ---------------------------------------------------------
-# 2. 백테스팅 엔진 (v7.1 SDI Fix - NaN Handled)
+# 2. 백테스팅 엔진 (v7.1 SDI Fix - NaN Handled & Relaxed)
 # ---------------------------------------------------------
 def simulate_period(start_date, end_date, strategy_mode='standard'):
     UNIVERSE = {
@@ -55,10 +55,10 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
             
             # [MSI_EARLY 지표 계산 - 안전장치 추가]
             if strategy_mode == 'early':
-                # 1. RS (NaN 방지: 값이 없으면 1.0 처리 or 현재값 사용)
+                # 1. RS (NaN 방지: 값이 없으면 현재값 사용)
                 kospi_matched = kospi['Close'].reindex(df.index).fillna(method='ffill')
                 df['RS'] = df['Close'] / kospi_matched
-                # ★ 중요: MA20 계산 전 NaN을 현재 RS로 채움 -> 비교 에러 방지
+                # ★ 핵심 수정: MA20 계산 전 NaN을 현재 RS로 채움 (비교 에러 방지)
                 df['RS_MA20'] = df['RS'].rolling(20).mean().fillna(df['RS'])
                 
                 # 2. MA20 기울기 (NaN이면 0 처리)
@@ -68,7 +68,7 @@ def simulate_period(start_date, end_date, strategy_mode='standard'):
                 df['Low10'] = df['Low'].shift(1).rolling(10).min()
                 df['Prev_Low10'] = df['Low10'].shift(10)
                 
-                # 4. Break10 (20일->10일로 완화: 초입 포착)
+                # 4. Break10 (★핵심 수정: 20일->10일로 완화하여 초입 포착)
                 df['Break10'] = df['Close'] > df['High'].shift(1).rolling(10).max()
 
             stock_db[code] = df
@@ -362,7 +362,7 @@ def process_data():
 def save_results():
     try:
         market, sectors, watchlist = process_data()
-        backtest = run_multi_backtest()
+        backtest = run_multi_backtest() # 멀티 백테스트
         
         now = datetime.utcnow() + timedelta(hours=9)
         meta = {"asOf": now.strftime("%Y-%m-%d %H:%M:%S"), "market": market}
