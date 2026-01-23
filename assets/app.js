@@ -1,6 +1,6 @@
 window.watchlistData = [];
 window.backtestData = {}; 
-window.telegramNews = {}; // 뉴스 데이터 저장소
+window.telegramNews = { global: [], specific: {} }; // [변경] 구조 변경 초기화
 
 document.addEventListener('DOMContentLoaded', function() {
     initDashboard();
@@ -11,9 +11,8 @@ function initDashboard() {
     setInterval(loadData, 60000);
 }
 
-// 탭 전환 로직 (텔레그램 탭 추가됨)
+// 탭 전환 로직
 window.switchTab = function(tabName) {
-    // 모든 탭 숨기기
     ['dashboard', 'backtest', 'manual', 'telegram'].forEach(t => {
         const el = document.getElementById('tab-' + t);
         if (el) el.style.display = 'none';
@@ -21,17 +20,14 @@ window.switchTab = function(tabName) {
         if (btn) btn.classList.remove('active');
     });
 
-    // 백테스트 서브버튼 초기화
     document.querySelectorAll('[id^="nav-bt-"]').forEach(el => el.classList.remove('active'));
 
-    // 선택한 탭 보이기
     const selectedTab = document.getElementById('tab-' + tabName);
     if (selectedTab) selectedTab.style.display = 'block';
 
     const activeBtn = document.getElementById('nav-' + tabName);
     if (activeBtn) activeBtn.classList.add('active');
     
-    // 텔레그램 탭이면 렌더링 실행
     if (tabName === 'telegram') {
         renderTelegramDashboard();
     }
@@ -42,7 +38,7 @@ window.switchTab = function(tabName) {
 
 window.switchBacktest = function(periodKey) {
     switchTab('backtest');
-    document.getElementById('nav-backtest')?.classList.remove('active'); // 메인탭 하이라이트 제거
+    document.getElementById('nav-backtest')?.classList.remove('active');
     
     const ids = ['recent', 'covid', 'box', 'early', 'early_covid', 'early_box'];
     ids.forEach(t => {
@@ -69,77 +65,77 @@ function closeSidebar() {
 function loadData() {
     const timestamp = new Date().getTime();
     
-    // 1. 메타 데이터 & 시장 상태
     fetch(`data/meta.json?t=${timestamp}`).then(r=>r.json()).then(d=>{
         document.getElementById('update-time').textContent = d.asOf;
         updateMarketBadge(d.market);
     });
 
-    // 2. 섹터
     fetch(`data/sector_leaders.json?t=${timestamp}`).then(r=>r.json()).then(d=>renderSectors(d.items));
 
-    // 3. 관심종목
     fetch(`data/watchlist.json?t=${timestamp}`).then(r=>r.json()).then(d=>{
         window.watchlistData = d.items;
         renderWatchlist(d.items);
     });
 
-    // 4. 백테스트
     fetch(`data/backtest.json?t=${timestamp}`).then(r=>r.json()).then(d=>{
         window.backtestData = d;
     });
         
-    // 5. 텔레그램 뉴스 (로드 후 전역변수에 저장)
+    // [변경] 텔레그램 뉴스 구조 변경 대응
     fetch(`data/telegram_news.json?t=${timestamp}`)
         .then(res => {
-            if (!res.ok) return {}; 
+            if (!res.ok) return { global: [], specific: {} }; 
             return res.json();
         })
         .then(data => {
-            window.telegramNews = data;
-            // 만약 현재 텔레그램 탭을 보고 있다면 실시간 갱신
+            // 구버전 데이터(리스트 형태)가 올 경우를 대비한 방어 코드
+            if (Array.isArray(data)) {
+                window.telegramNews = { global: [], specific: data };
+            } else {
+                window.telegramNews = data;
+            }
+            
             if(document.getElementById('tab-telegram').style.display === 'block') {
                 renderTelegramDashboard();
             }
         })
-        .catch(() => window.telegramNews = {});
+        .catch(() => window.telegramNews = { global: [], specific: {} });
 }
 
-// [NEW] 텔레그램 대시보드 렌더링 (전체 뉴스 모아보기)
+// [UPDATED] 텔레그램 대시보드 (키워드 뉴스 발굴용)
 function renderTelegramDashboard() {
     const container = document.getElementById('telegram-feed-area');
     if(!container) return;
     
-    const newsData = window.telegramNews;
-    let allNews = [];
-    
-    // 종목별로 흩어진 뉴스를 하나로 합치기
-    Object.keys(newsData).forEach(ticker => {
-        // ticker 정보로 종목명 찾기
-        const stockInfo = window.watchlistData.find(i => i.ticker === ticker);
-        const stockName = stockInfo ? stockInfo.name : ticker;
-        
-        newsData[ticker].forEach(item => {
-            allNews.push({ ...item, ticker: ticker, stockName: stockName });
-        });
-    });
+    // global(키워드) 뉴스만 가져옴
+    const allNews = window.telegramNews.global || [];
 
     // 최신순 정렬
     allNews.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     if (allNews.length === 0) {
-        container.innerHTML = '<div class="col-12 text-center py-5 text-muted">수집된 관련 뉴스가 없습니다.<br><small>장 마감 후 업데이트됩니다.</small></div>';
+        container.innerHTML = '<div class="col-12 text-center py-5 text-muted">수집된 키워드 뉴스가 없습니다.<br><small>"상향", "서프라이즈" 등의 키워드를 찾습니다.</small></div>';
         return;
     }
 
     container.innerHTML = '';
     allNews.forEach(news => {
+        // 발견된 키워드를 뱃지로 표시
+        let keywordBadges = '';
+        if (news.keywords && news.keywords.length > 0) {
+            news.keywords.forEach(k => {
+                keywordBadges += `<span class="badge bg-warning text-dark me-1 border">${k}</span>`;
+            });
+        } else {
+            keywordBadges = `<span class="badge bg-secondary">News</span>`;
+        }
+
         const card = `
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card border-0 shadow-sm h-100">
                     <div class="card-body">
                         <div class="d-flex justify-content-between mb-2">
-                            <span class="badge bg-light text-primary border">${news.stockName}</span>
+                            <div>${keywordBadges}</div>
                             <small class="text-muted">${news.date.substring(5)}</small>
                         </div>
                         <h6 class="card-title fw-bold text-dark" style="font-size: 0.95rem;">
@@ -211,7 +207,7 @@ function renderBacktest(data, key) { /* 기존 유지 */
     window.myEquityChart = new Chart(ctx, { type: 'line', data: { labels: data.equity_curve.map(d => d.date), datasets: [{ label: '누적 자산', data: data.equity_curve.map(d => d.equity), borderColor: color, backgroundColor: color + '10', borderWidth: 2, fill: true, pointRadius: 0, tension: 0.1 }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { display: false }, y: { grid: { borderDash: [2, 4] } } } } });
 }
 
-// [UPDATED] 종목 상세 팝업 (텔레그램 연동)
+// [UPDATED] 종목 상세 팝업 (특정 종목 뉴스만 표시)
 window.showDetail = function(ticker) {
     const item = window.watchlistData.find(i => i.ticker === ticker);
     if (!item) return;
@@ -227,16 +223,16 @@ window.showDetail = function(ticker) {
     const reward = item.target.price > 0 ? item.target.price - item.close : 0;
     let rrRatio = (risk > 0 && reward > 0) ? '1 : ' + (reward / risk).toFixed(1) : 'N/A';
 
-    // 텔레그램 뉴스 가져오기 (해당 종목만 필터링)
+    // 특정 종목 뉴스 가져오기 (specific에서 조회)
     let newsHtml = '';
-    const newsList = window.telegramNews ? window.telegramNews[ticker] : [];
+    const specificNews = window.telegramNews.specific || {};
+    const newsList = specificNews[ticker] || [];
     
     if (newsList && newsList.length > 0) {
-        // 최근 3개만 보여줌
         newsHtml = `
             <div class="col-12 mt-3">
                 <h6 class="fw-bold small text-muted border-bottom pb-2">
-                    <i class="fab fa-telegram-plane text-info me-1"></i> 최근 텔레그램 언급 (Live)
+                    <i class="fab fa-telegram-plane text-info me-1"></i> ${item.name} 관련 언급
                 </h6>
                 <div class="list-group list-group-flush">`;
         
@@ -269,7 +265,8 @@ window.showDetail = function(ticker) {
                 <div class="d-flex justify-content-between align-items-center"><span class="text-success fw-bold"><i class="fas fa-bullseye me-1"></i> 목표가</span><span class="fw-bold text-success">${targetPrice}</span></div>
             </div>
             <div class="col-12"><div class="alert alert-secondary mb-0 small"><strong>💡 분석 요약:</strong><br>${item.why.join('<br>')}</div></div>
-            ${newsHtml} </div>`;
+            ${newsHtml} 
+        </div>`;
     
     new bootstrap.Modal(document.getElementById('detailModal')).show();
 }
