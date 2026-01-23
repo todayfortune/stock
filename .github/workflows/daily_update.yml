@@ -37,6 +37,10 @@ jobs:
     - name: 월가 전략 백테스팅
       run: |
         python scripts/fetch_wallstreet.py
+        # [2] SDI 전략 가동 (NEW)
+    - name: SDI 전략 백테스팅
+      run: |
+        python scripts/fetch_sdi.py
 
     - name: 텔레그램 뉴스 수집
       env:
