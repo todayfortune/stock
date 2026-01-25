@@ -5,7 +5,7 @@
       "final_balance": 10000000,
       "trade_count": 0,
       "win_rate": 0,
-      "mdd": 0.0
+      "mdd": 0
     },
     "equity_curve": [
       {
@@ -2692,7 +2692,7 @@
       "final_balance": 10000000,
       "trade_count": 0,
       "win_rate": 0,
-      "mdd": 0.0
+      "mdd": 0
     },
     "equity_curve": [
       {
@@ -6407,7 +6407,7 @@
       "final_balance": 10000000,
       "trade_count": 0,
       "win_rate": 0,
-      "mdd": 0.0
+      "mdd": 0
     },
     "equity_curve": [
       {
