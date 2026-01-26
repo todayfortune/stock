@@ -16,21 +16,18 @@ def load_universe():
     if os.path.exists(THEME_MAP_FILE):
         with open(THEME_MAP_FILE, 'r', encoding='utf-8') as f: 
             data = json.load(f)
-            # [수정] 여기서도 에러 종목 제외
+            # [수정] 오류 종목 제외
             if '046190' in data: del data['046190']
             return data
     return {'006400': '삼성SDI', '010060': 'OCI홀딩스'}
 
-# ---------------------------------------------------------
-# 2. MSI EARLY 전략 (진입 감도 상향)
-# ---------------------------------------------------------
 def simulate_sdi_period(start_date, end_date):
     UNIVERSE = load_universe()
     try:
         kospi = fdr.DataReader('KS11', start_date, end_date)
         if len(kospi) < 40: return None
         kospi['MA60'] = kospi['Close'].rolling(60).mean()
-        # [완화] 시장이 너무 폭락만 아니면 기회를 탐색
+        # [완화] 시장이 너무 하락세만 아니면 기회 탐색
         kospi['EARLY_GATE'] = kospi['Close'] > (kospi['MA60'] * 0.95)
     except: return None
 
@@ -41,11 +38,6 @@ def simulate_sdi_period(start_date, end_date):
             if df is None or len(df) < 40: continue
             df['MA20'] = df['Close'].rolling(20).mean()
             df['MA60'] = df['Close'].rolling(60).mean()
-            
-            kospi_matched = kospi['Close'].reindex(df.index).ffill()
-            df['RS_Ratio'] = df['Close'] / kospi_matched
-            df['RS_MA20'] = df['RS_Ratio'].rolling(20).mean()
-            
             df['SwingLow'] = df['Low'].shift(1).rolling(10).min()
             stock_db[code] = df
         except: continue
@@ -69,19 +61,18 @@ def simulate_sdi_period(start_date, end_date):
             curr_eq = balance + (shares * stock_db[holding_code].loc[today]['Close'])
         equity_curve.append({"date": today.strftime("%Y-%m-%d"), "equity": int(curr_eq)})
         
-        # [매도 로직]
         if holding_code:
             df = stock_db[holding_code]
             row = df.loc[today]
+            # [현실화] 손절 및 익절 로직 감도 조정
             stop_price = row['SwingLow'] * 0.97 if not pd.isna(row['SwingLow']) else entry_price * 0.92
-            
             if row['Low'] <= stop_price:
                 balance += shares * stop_price * 0.9975
                 if stop_price > entry_price: wins += 1
                 trade_count += 1
                 holding_code = None
                 shares = 0
-            elif row['High'] >= entry_price * 1.10: # 익절 기준 10%로 현실화
+            elif row['High'] >= entry_price * 1.10: 
                 balance += shares * (entry_price * 1.10) * 0.9975
                 wins += 1
                 trade_count += 1
@@ -93,8 +84,7 @@ def simulate_sdi_period(start_date, end_date):
             for code, df in stock_db.items():
                 if today not in df.index: continue
                 curr = df.loc[today]
-                
-                # 역배열 구간에서 20일선 위로 올라오는 '초기 반등' 포착
+                # 하락 후 바닥권에서 20일선 회복 시 진입
                 if curr['Close'] < curr['MA60'] and curr['Close'] > curr['MA20']:
                     shares = int((balance * 0.7) / curr['Close'])
                     if shares > 0:
@@ -104,6 +94,6 @@ def simulate_sdi_period(start_date, end_date):
                         print(f"   🚀 MSI EARLY Buy {code} on {today.date()}")
                         break
 
-    return {"summary": {"total_return": round(((equity_curve[-1]['equity']/initial_balance)-1)*100, 2), "trade_count": trade_count}, "equity_curve": equity_curve}
+    return {"summary": {"total_return": round(((equity_curve[-1]['equity'] / initial_balance) - 1) * 100, 2), "trade_count": trade_count}, "equity_curve": equity_curve}
 
-# (후략: run_sdi_backtest 로직 기존 수정본 유지)
+# (run_sdi_backtest 로직 기존 유지)
