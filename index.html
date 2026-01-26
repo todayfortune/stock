@@ -231,6 +231,44 @@
                     </div>
                 </div>
             </div>
+            <div id="tab-quant" style="display: none;">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4 class="fw-bold mb-0">🧪 퀀트 실험실 (Beta)</h4>
+                    <select id="quant-sector-select" class="form-select w-auto shadow-sm" onchange="renderQuantSector()">
+                        <option value="">섹터 선택...</option>
+                    </select>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-8">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-white fw-bold d-flex justify-content-between">
+                                <span>📉 PBR-ROE 밸류에이션 맵</span>
+                                <span class="badge bg-light text-dark border">X: ROE / Y: PBR</span>
+                            </div>
+                            <div class="card-body">
+                                <div style="height: 400px;">
+                                    <canvas id="quantChart"></canvas>
+                                </div>
+                                <p class="text-muted small mt-3 mb-0 text-center">
+                                    * <strong>회귀선 아래(점선 밑)</strong>에 있는 종목은 동일 수익성(ROE) 대비 저평가된 상태입니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-white fw-bold text-success">
+                                💎 저평가 Top Pick
+                            </div>
+                            <div class="list-group list-group-flush overflow-auto" style="max-height: 450px;" id="quant-ranking-list">
+                                <div class="text-center p-4 text-muted">섹터를 선택해주세요.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 </div>
