@@ -2,11 +2,11 @@ name: 으왕 레이더 자동 분석
 
 on:
   schedule:
-    - cron: '10 0 * * 1-5'  # 09:10
-    - cron: '0 1 * * 1-5'   # 10:00
-    - cron: '0 3 * * 1-5'   # 12:00
-    - cron: '30 6 * * 1-5'  # 15:30
-  workflow_dispatch:      # 수동 실행 버튼
+    - cron: '10 0 * * 1-5'
+    - cron: '0 1 * * 1-5'
+    - cron: '0 3 * * 1-5'
+    - cron: '30 6 * * 1-5'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,8 +19,7 @@ jobs:
     - name: 저장소 코드 가져오기
       uses: actions/checkout@v3
 
-    # 👇 [중요] 3.9 -> 3.11로 업그레이드 (이게 핵심!)
-    - name: 파이썬 설정 (3.11 버전)
+    - name: 파이썬 설정 (3.11)
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
@@ -29,24 +28,27 @@ jobs:
       run: |
         pip install pandas numpy finance-datareader yfinance telethon
 
-    - name: 으왕 레이더 가동 (주식 데이터)
+    # 1. 기본 분석
+    - name: 으왕 레이더 가동 (Standard)
       run: |
         python scripts/fetch_krx.py
 
-        # 👇 [여기 추가] 월가 전략 엔진 가동
+    # 2. 월가 전략
     - name: 월가 전략 백테스팅
       run: |
         python scripts/fetch_wallstreet.py
-        # [2] SDI 전략 가동 (NEW)
+
+    # 3. SDI 전략
     - name: SDI 전략 백테스팅
       run: |
         python scripts/fetch_sdi.py
-        
-        # 기존 SDI 실행 아래에 추가
-    - name: 퀀트 분석 (PBR-ROE)
+
+    # 4. [NEW] 퀀트 분석 (누락되었던 부분)
+    - name: 퀀트 분석 실행
       run: |
         python scripts/fetch_quant.py
 
+    # 5. 텔레그램 뉴스
     - name: 텔레그램 뉴스 수집
       env:
         TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
@@ -55,10 +57,10 @@ jobs:
       run: |
         python scripts/fetch_telegram.py
 
-    - name: 결과 저장 (Commit & Push)
+    - name: 결과 저장
       run: |
         git config --global user.name "Ki-hyun Bot"
         git config --global user.email "bot@todayfortune.com"
         git add data/
-        git commit -m "📈 으왕 레이더 업데이트 (Python 3.11 Fix)" || echo "변경 사항 없음"
+        git commit -m "📈 으왕 레이더 전체 업데이트" || echo "변경 사항 없음"
         git push
