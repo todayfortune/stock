@@ -41,6 +41,11 @@ jobs:
     - name: SDI 전략 백테스팅
       run: |
         python scripts/fetch_sdi.py
+        
+        # 기존 SDI 실행 아래에 추가
+    - name: 퀀트 분석 (PBR-ROE)
+      run: |
+        python scripts/fetch_quant.py
 
     - name: 텔레그램 뉴스 수집
       env:
