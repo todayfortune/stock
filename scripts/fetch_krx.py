@@ -20,7 +20,7 @@ def load_theme_map():
     if os.path.exists(THEME_MAP_FILE):
         with open(THEME_MAP_FILE, 'r', encoding='utf-8') as f: 
             data = json.load(f)
-            # [수정] 오류 종목 046190 제외
+            # [수정] 오류 종목 046190 즉시 제외
             if '046190' in data: del data['046190']
             return data
     return {}
@@ -46,7 +46,7 @@ def simulate_period(start_date, end_date):
             df = fdr.DataReader(code, start_date, end_date)
             if df is None or len(df) < 60: continue
             
-            # [중요] Amount 컬럼 강제 생성 및 보정
+            # [안전 가드] Amount 컬럼이 없거나 이름이 다른 경우 대응
             if 'Amount' not in df.columns:
                 if 'Volume' in df.columns: df['Amount'] = df['Close'] * df['Volume']
                 else: df['Amount'] = 0
@@ -66,9 +66,11 @@ def simulate_period(start_date, end_date):
     equity_curve = []
     trade_count = 0
     wins = 0
+    
     entry_price = 0
     stop_price = 0
     target_price = 0
+    
     dates = kospi.index
     
     for i in range(60, len(dates)-1): 
@@ -84,8 +86,10 @@ def simulate_period(start_date, end_date):
             df = stock_db[holding_code]
             if today not in df.index: continue
             row = df.loc[today]
+            
             exit_type = None
             sell_price = 0
+            
             if row['Low'] <= stop_price: exit_type = 'STOP'; sell_price = stop_price
             elif row['High'] >= target_price: exit_type = 'TARGET'; sell_price = target_price
             elif not is_risk_on: exit_type = 'MKT_OUT'; sell_price = row['NextOpen'] if not pd.isna(row['NextOpen']) else row['Close']
@@ -110,7 +114,7 @@ def simulate_period(start_date, end_date):
                     risk = curr['Close'] - stop
                     if risk <= 0: continue
                     
-                    # [수정] 컬럼 안전하게 가져오기
+                    # [수정] .get()을 사용하여 에러 방지
                     vol = curr.get('Amount', 0)
                     if vol < 5_000_000_000: continue
                     candidates.append({'code': code, 'price': curr['Close'], 'stop': stop, 'vol': vol})
@@ -130,7 +134,7 @@ def simulate_period(start_date, end_date):
     if not equity_curve: return None
     final_eq = equity_curve[-1]['equity']
     return {
-        "summary": { "total_return": round(((final_eq/initial_balance)-1)*100, 2), "final_balance": int(final_eq), "trade_count": trade_count, "win_rate": round((wins/trade_count*100) if trade_count>0 else 0, 1), "mdd": 0 },
+        "summary": { "total_return": round(((final_eq / initial_balance) - 1) * 100, 2), "final_balance": int(final_eq), "trade_count": trade_count, "win_rate": round((wins / trade_count * 100) if trade_count > 0 else 0, 1), "mdd": 0 },
         "equity_curve": equity_curve
     }
 
@@ -145,4 +149,4 @@ def run_multi_backtest():
         if res: results[key] = res
     return results
 
-# (후략: process_data 및 save_results 로직 기존 수정본 유지)
+# (process_data 및 save_results 로직 기존 유지)
