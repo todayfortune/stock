@@ -128,6 +128,14 @@ function loadData() {
             window.telegramNews = Array.isArray(data) ? { global: [], specific: data } : data;
         })
         .catch(() => {});
+    // ... 기존 fetch 코드들 아래에 ...
+    fetch(`data/quant_stats.json?t=${timestamp}`)
+        .then(res => res.json())
+        .then(data => {
+            window.quantData = data;
+            initQuantSelect(); // 섹터 목록 채우기
+        })
+        .catch(err => console.log('Quant data pending...'));
 }
 
 function renderBacktest(data, key) {
@@ -263,4 +271,121 @@ window.showDetail = function(ticker) {
     }
     modalBody.innerHTML = `<div class="row g-3"><div class="col-6"><div class="p-3 bg-light rounded text-center"><div class="small text-muted mb-1">진입가</div><div class="fw-bold fs-5">${item.close.toLocaleString()}</div></div></div><div class="col-6"><div class="p-3 bg-light rounded text-center"><div class="small text-muted mb-1">손익비</div><div class="fw-bold fs-5 text-primary">${rrRatio}</div></div></div><div class="col-12"><div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2"><span class="text-danger fw-bold"><i class="fas fa-stop-circle me-1"></i> 손절가</span><span class="fw-bold text-danger">${stopPrice}</span></div><div class="d-flex justify-content-between align-items-center"><span class="text-success fw-bold"><i class="fas fa-bullseye me-1"></i> 목표가</span><span class=\"fw-bold text-success\">${targetPrice}</span></div></div><div class=\"col-12\"><div class=\"alert alert-secondary mb-0 small\"><strong>💡 분석 요약:</strong><br>${item.why.join('<br>')}</div></div>${newsHtml}</div>`;
     new bootstrap.Modal(document.getElementById('detailModal')).show();
+}
+// 퀀트 탭 초기화 (섹터 셀렉트 박스 채우기)
+function initQuantSelect() {
+    const select = document.getElementById('quant-sector-select');
+    if (!select || !window.quantData) return;
+    
+    select.innerHTML = '<option value="">섹터 선택...</option>';
+    Object.keys(window.quantData).sort().forEach(sector => {
+        select.innerHTML += `<option value="${sector}">${sector}</option>`;
+    });
+}
+
+// 섹터 선택 시 차트/리스트 렌더링
+window.renderQuantSector = function() {
+    const sector = document.getElementById('quant-sector-select').value;
+    const container = document.getElementById('quant-ranking-list');
+    if (!sector || !window.quantData[sector]) return;
+
+    const data = window.quantData[sector];
+    const items = data.items;
+    
+    // 1. 리스트 렌더링 (저평가 순)
+    container.innerHTML = '';
+    // 잔차(Residual)가 가장 작은(음수) 상위 10개만 표시
+    items.slice(0, 15).forEach((item, idx) => {
+        const isVeryCheap = idx < 3; // Top 3 강조
+        const badge = isVeryCheap ? '<span class="badge bg-danger ms-1">Cheap</span>' : '';
+        
+        container.innerHTML += `
+            <div class="list-group-item d-flex justify-content-between align-items-center" onclick="showDetail('${item.code}')" style="cursor:pointer;">
+                <div>
+                    <div class="fw-bold">${item.name} ${badge}</div>
+                    <div class="small text-muted">PBR ${item.pbr} / ROE ${item.roe}%</div>
+                </div>
+                <div class="text-end">
+                    <span class="text-success fw-bold small">${item.residual.toFixed(2)}</span>
+                </div>
+            </div>
+        `;
+    });
+
+    // 2. 차트 렌더링
+    renderQuantChart(data);
+}
+
+// PBR-ROE 산점도 그리기
+function renderQuantChart(data) {
+    const ctx = document.getElementById('quantChart').getContext('2d');
+    if (window.quantChartInstance) window.quantChartInstance.destroy();
+
+    // 데이터셋 준비
+    const scatterData = data.items.map(item => ({
+        x: item.roe,
+        y: item.pbr,
+        name: item.name,
+        code: item.code
+    }));
+
+    // 회귀선 데이터 (최소 ROE ~ 최대 ROE 구간)
+    const roeValues = data.items.map(d => d.roe);
+    const minRoe = Math.min(...roeValues);
+    const maxRoe = Math.max(...roeValues);
+    const regressionLine = [
+        { x: minRoe, y: data.slope * minRoe + data.intercept },
+        { x: maxRoe, y: data.slope * maxRoe + data.intercept }
+    ];
+
+    window.quantChartInstance = new Chart(ctx, {
+        type: 'scatter',
+        data: {
+            datasets: [
+                {
+                    label: '종목',
+                    data: scatterData,
+                    backgroundColor: '#0d6efd',
+                    pointRadius: 5,
+                    pointHoverRadius: 7
+                },
+                {
+                    type: 'line',
+                    label: '적정 가치 (회귀선)',
+                    data: regressionLine,
+                    borderColor: '#dc3545',
+                    borderWidth: 2,
+                    borderDash: [5, 5],
+                    pointRadius: 0,
+                    fill: false
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function(ctx) {
+                            const p = ctx.raw;
+                            return `${p.name}: ROE ${p.x}%, PBR ${p.y}`;
+                        }
+                    }
+                },
+                legend: { position: 'bottom' }
+            },
+            scales: {
+                x: { title: { display: true, text: 'ROE (%)' } },
+                y: { title: { display: true, text: 'PBR (배)' } }
+            },
+            onClick: (e, activeEls) => {
+                if (activeEls.length > 0) {
+                    const idx = activeEls[0].index;
+                    const code = scatterData[idx].code;
+                    showDetail(code); // 클릭 시 상세 모달 띄우기
+                }
+            }
+        }
+    });
 }
