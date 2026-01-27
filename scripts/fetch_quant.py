@@ -20,14 +20,23 @@ def find_repo_root(start_path: str) -> str:
 HERE = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = find_repo_root(HERE)
 DATA_DIR = os.path.join(BASE_DIR, "data")
+THEME_MAP_FILE = os.path.join(BASE_DIR, 'scripts', 'theme_map.json') # 테마맵 로드 추가
+
 os.makedirs(DATA_DIR, exist_ok=True)
 
+def load_theme_map():
+    if os.path.exists(THEME_MAP_FILE):
+        with open(THEME_MAP_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
 # ---------------------------------------------------------
-# 2. 데이터 수집 엔진 (에러 원천 봉쇄)
+# 2. 데이터 수집 엔진
 # ---------------------------------------------------------
 def get_fundamental_data():
+    """pykrx로 펀더멘털 데이터 수집"""
     date = datetime.now()
-    for _ in range(7):
+    for i in range(7):
         d_str = date.strftime("%Y%m%d")
         try:
             print(f"   Trying fundamentals for {d_str}...")
@@ -35,24 +44,32 @@ def get_fundamental_data():
             if not df.empty:
                 print(f"   ✅ Found fundamentals.")
                 return df
-        except:
-            pass
+        except: pass
         date -= timedelta(days=1)
     return None
 
 def get_sector_data():
-    print("   Fetching Sector info...")
+    """
+    [핵심 수정] KOSPI/KOSDAQ 개별 호출로 섹터 정보 확보
+    """
+    print("   Fetching Sector info (Separately)...")
     try:
+        # 각각 가져와야 Sector 컬럼이 살아있음
         k = fdr.StockListing('KOSPI')
         q = fdr.StockListing('KOSDAQ')
+        
+        # 구분자 추가
+        k['Market_Type'] = 'KOSPI'
+        q['Market_Type'] = 'KOSDAQ'
+        
         df = pd.concat([k, q])
         return df
     except Exception as e:
-        print(f"   ⚠️ Sector Fetch Warning: {e}")
+        print(f"   ⚠️ Sector Fetch Error: {e}")
         return pd.DataFrame()
 
 def run_quant_analysis():
-    print("🧪 Running Quant Analysis (v1.5 Robust)...")
+    print("🧪 Running Quant Analysis (Sector Fix v1.6)...")
     
     # 1. 펀더멘털 데이터
     df_fund = get_fundamental_data()
@@ -64,43 +81,61 @@ def run_quant_analysis():
     # 2. 업종 데이터
     df_master = get_sector_data()
     
-    # [핵심] 컬럼명 강제 표준화 (어떤 이름이 오든 Sector로 바꿈)
-    renames = {
-        'Symbol': 'Code', '종목코드': 'Code',
-        'Name': 'Name', '종목명': 'Name',
-        'Sector': 'Sector', 'Industry': 'Sector', 'Wics': 'Sector', 
-        '업종': 'Sector', '업종명': 'Sector', '산업군': 'Sector'
+    # 컬럼명 표준화 (한글/영어 모두 Sector로)
+    col_map = {
+        'Symbol': 'Code', '종목코드': 'Code', 'Name': 'Name', '종목명': 'Name',
+        'Sector': 'Sector', 'Industry': 'Sector', 'Wics': 'Sector', '업종': 'Sector', '업종명': 'Sector'
     }
-    df_master = df_master.rename(columns=renames)
+    df_master = df_master.rename(columns=col_map)
 
     # 3. 데이터 병합
     print("   Merging Data...")
     df = pd.merge(df_master, df_fund, on='Code', how='inner')
 
-    # [최후의 방어] Sector 컬럼이 아예 없으면 'Unknown'으로 채워서라도 진행
+    # ---------------------------------------------------------
+    # [Fix] 섹터 분류 로직 강화
+    # ---------------------------------------------------------
+    # 1. 'Unknown' 처리된 것들 복구 시도
     if 'Sector' not in df.columns:
-        print("⚠️ 'Sector' column missing. Filling with 'Unknown'.")
-        df['Sector'] = 'Unknown'
+        df['Sector'] = '기타'
     
-    # 4. 데이터 정제 (PBR/PER/ROE)
-    cols = ['PBR', 'PER']
-    for c in cols:
-        if c in df.columns: df[c] = pd.to_numeric(df[c], errors='coerce')
+    df['Sector'] = df['Sector'].fillna('기타')
+
+    # 2. Theme Map 오버라이드 (우리가 정한 테마가 최우선)
+    theme_map = load_theme_map()
+    print(f"   Applying {len(theme_map)} custom themes...")
     
-    df = df.dropna(subset=['PBR', 'PER']) # 숫자 없는거 제거
+    for code, custom_sector in theme_map.items():
+        if code in df['Code'].values:
+            # 해당 종목의 Sector를 커스텀 테마로 강제 변경
+            df.loc[df['Code'] == code, 'Sector'] = custom_sector
+
+    # 3. 주요 영어 섹터명 한글 변환 (보기 좋게)
+    sector_translate = {
+        'IT': 'IT/전기전자', 'Finance': '금융', 'Health Care': '바이오/헬스케어',
+        'Energy': '에너지', 'Materials': '소재/화학', 'Industrials': '산업재/기계',
+        'Consumer Discretionary': '경기소비재', 'Consumer Staples': '필수소비재',
+        'Utilities': '유틸리티', 'Telecommunication Services': '통신'
+    }
+    df['Sector'] = df['Sector'].replace(sector_translate)
+
+    # ---------------------------------------------------------
+
+    # 4. 데이터 정제
+    if 'PBR' in df.columns: df['PBR'] = pd.to_numeric(df['PBR'], errors='coerce')
+    if 'PER' in df.columns: df['PER'] = pd.to_numeric(df['PER'], errors='coerce')
+    
     df = df[(df['PBR'] > 0) & (df['PER'] > 0)].copy()
-    
     df['ROE'] = (df['PBR'] / df['PER']) * 100
-    
-    # 이상치 제거
     df = df[(df['ROE'] > 0) & (df['ROE'] < 60) & (df['PBR'] < 15)]
     
-    # 섹터별 분석 시작
+    # 5. 분석 및 저장
     quant_data = {}
-    print(f"   Analyzing {len(df)} valid stocks...")
+    print(f"   Analyzing {len(df)} stocks...")
 
     for sector, group in df.groupby('Sector'):
-        if len(group) < 5: continue 
+        # 종목 수 너무 적거나 '기타' 섹터는 제외
+        if len(group) < 5 or sector == '기타': continue 
         
         x = group['ROE'].values
         y = group['PBR'].values
@@ -124,19 +159,14 @@ def run_quant_analysis():
             })
             
         items.sort(key=lambda k: k['residual'])
-        
-        quant_data[sector] = {
-            'slope': slope,
-            'intercept': intercept,
-            'items': items
-        }
+        quant_data[sector] = { 'slope': slope, 'intercept': intercept, 'items': items }
 
-    # 결과 저장
+    # 저장
     output_path = os.path.join(DATA_DIR, 'quant_stats.json')
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(quant_data, f, ensure_ascii=False, indent=2)
         
-    print(f"✅ Quant Analysis Done. Saved to {output_path}")
+    print(f"✅ Quant Analysis Done (Saved {len(quant_data)} sectors).")
 
 if __name__ == "__main__":
     run_quant_analysis()
