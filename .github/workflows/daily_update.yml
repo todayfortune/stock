@@ -24,9 +24,10 @@ jobs:
       with:
         python-version: '3.11'
 
+    # 👇 [수정됨] pykrx 라이브러리 추가
     - name: 라이브러리 설치
       run: |
-        pip install pandas numpy finance-datareader yfinance telethon
+        pip install pandas numpy finance-datareader yfinance telethon pykrx
 
     # 1. 기본 분석
     - name: 으왕 레이더 가동 (Standard)
@@ -43,7 +44,7 @@ jobs:
       run: |
         python scripts/fetch_sdi.py
 
-    # 4. [NEW] 퀀트 분석 (누락되었던 부분)
+    # 4. 퀀트 분석
     - name: 퀀트 분석 실행
       run: |
         python scripts/fetch_quant.py
