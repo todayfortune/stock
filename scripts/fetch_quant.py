@@ -23,15 +23,16 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 # ---------------------------------------------------------
-# 2. 데이터 수집 엔진 (Robust Version)
+# 2. 데이터 수집 엔진 (한글 컬럼 지원 강화)
 # ---------------------------------------------------------
 def get_fundamental_data():
     """pykrx로 PBR, PER, ROE 등 펀더멘털 데이터 수집"""
     date = datetime.now()
-    for _ in range(7):
+    # 최근 7일 중 데이터가 있는 날짜 찾기
+    for i in range(7):
         d_str = date.strftime("%Y%m%d")
         try:
-            print(f"   Searching fundamentals for {d_str}...")
+            print(f"   Trying fundamentals for {d_str}...")
             df = stock.get_market_fundamental_by_ticker(d_str, market="ALL")
             if not df.empty:
                 print(f"   ✅ Found fundamentals for {d_str}")
@@ -42,39 +43,26 @@ def get_fundamental_data():
     return None
 
 def get_sector_data():
-    """FDR로 KOSPI/KOSDAQ 업종 정보 수집 (Sector 컬럼 강제 확보)"""
+    """FDR로 업종 정보 수집 (한글/영어 컬럼명 모두 대응)"""
     print("   Fetching Sector info (KOSPI+KOSDAQ)...")
     try:
-        # KRX 전체 통합 리스트는 컬럼이 누락될 때가 많아 개별 수집 후 병합
         k = fdr.StockListing('KOSPI')
         q = fdr.StockListing('KOSDAQ')
-        
-        # 데이터프레임에 Sector 컬럼이 있는지 확인하고 표준화
-        for df in [k, q]:
-            if 'Sector' not in df.columns:
-                if 'Industry' in df.columns: 
-                    df['Sector'] = df['Industry']
-                elif 'Wics' in df.columns:
-                    df['Sector'] = df['Wics']
-                elif '업종명' in df.columns: # 한글 컬럼 대응
-                    df['Sector'] = df['업종명']
-        
-        # 합치기
-        df_master = pd.concat([k, q])
-        return df_master
+        df = pd.concat([k, q])
+        return df
     except Exception as e:
         print(f"   ⚠️ Sector Fetch Error: {e}")
         return pd.DataFrame()
 
 def run_quant_analysis():
-    print("🧪 Running Quant Analysis (Final Fix)...")
+    print("🧪 Running Quant Analysis (Final v1.4)...")
     
-    # 1. 펀더멘털 데이터 (PBR/PER)
+    # 1. 펀더멘털 데이터 (PBR, PER)
     df_fund = get_fundamental_data()
     if df_fund is None:
         print("❌ Fund data missing.")
         return
-    # 티커 컬럼 정리
+    # 티커 컬럼 정리 (인덱스를 컬럼으로)
     df_fund = df_fund.reset_index().rename(columns={'티커': 'Code'})
 
     # 2. 업종 데이터 (Sector)
@@ -83,42 +71,49 @@ def run_quant_analysis():
         print("❌ Sector data missing.")
         return
 
-    # 필요한 컬럼만 남기기 (Code, Name, Sector)
-    # FDR 버전에 따라 Code가 'Symbol'일 수도 있음
-    if 'Code' not in df_master.columns and 'Symbol' in df_master.columns:
-        df_master = df_master.rename(columns={'Symbol': 'Code'})
-        
-    cols_to_keep = ['Code', 'Name', 'Sector']
-    # 실제 존재하는 컬럼만 선택
-    cols_to_keep = [c for c in cols_to_keep if c in df_master.columns]
-    df_master = df_master[cols_to_keep]
+    # [핵심 수정] 컬럼명 표준화 (한글 -> 영어 매핑)
+    # FDR 버전에 따라 컬럼명이 제각각이라 모두 확인해서 'Sector'와 'Code'로 통일
+    col_map = {
+        'Symbol': 'Code', '종목코드': 'Code',
+        'Name': 'Name', '종목명': 'Name',
+        'Sector': 'Sector', 'Industry': 'Sector', 'Wics': 'Sector', 
+        '업종': 'Sector', '업종명': 'Sector', '산업군': 'Sector'
+    }
+    
+    # 데이터프레임 컬럼명 변경
+    df_master = df_master.rename(columns=col_map)
 
-    # 3. 데이터 병합
+    # 필수 컬럼 존재 여부 확인
+    if 'Code' not in df_master.columns or 'Sector' not in df_master.columns:
+        print(f"⚠️ Critical: Standard columns missing. Found: {list(df_master.columns)}")
+        # 섹터 정보가 없으면 분석 불가하므로 중단
+        return
+
+    # 필요한 컬럼만 선택
+    df_master = df_master[['Code', 'Name', 'Sector']]
+
+    # 3. 데이터 병합 (Code 기준)
     print("   Merging Data...")
     df = pd.merge(df_master, df_fund, on='Code', how='inner')
-
-    # [핵심] Sector 컬럼이 없는 경우 방어 로직
-    if 'Sector' not in df.columns:
-        print(f"⚠️ Critical: 'Sector' column still missing. Columns: {list(df.columns)}")
-        # 임시 방편: 섹터가 없으면 분석 불가하므로 리턴
-        return
 
     # 4. 데이터 정제
     # 숫자로 변환 (에러 방지)
     if 'PBR' in df.columns: df['PBR'] = pd.to_numeric(df['PBR'], errors='coerce')
     if 'PER' in df.columns: df['PER'] = pd.to_numeric(df['PER'], errors='coerce')
     
-    # 유효 데이터 필터링
+    # 유효 데이터 필터링 (PBR, PER 양수만)
     df = df[(df['PBR'] > 0) & (df['PER'] > 0)].copy()
     
     # ROE 계산
     df['ROE'] = (df['PBR'] / df['PER']) * 100
     
-    # 이상치 제거 & 섹터 없는 종목 제거
+    # 이상치 제거
     df = df[(df['ROE'] > 0) & (df['ROE'] < 50) & (df['PBR'] < 10)]
+    
+    # 섹터 없는 종목 제거 (이제 Sector 컬럼이 확실히 있으므로 안전)
     df = df.dropna(subset=['Sector'])
 
-    print(f"   Analyzing {len(df)} valid stocks...")
+    print(f"   Analyzing {len(df)} valid stocks across sectors...")
 
     # 5. 섹터별 회귀분석
     quant_data = {}
@@ -133,9 +128,9 @@ def run_quant_analysis():
         try:
             slope, intercept = np.polyfit(x, y, 1)
         except:
-            continue # 계산 에러 시 해당 섹터 패스
+            continue
         
-        # 잔차 계산
+        # 잔차 계산 (저평가 정도)
         group['PBR_Expected'] = slope * group['ROE'] + intercept
         group['Residual'] = group['PBR'] - group['PBR_Expected']
         
