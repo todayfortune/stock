@@ -21,47 +21,50 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 # ---------------------------------------------------------
-# 2. PBR-ROE 분석 엔진
+# 2. PBR-ROE 분석 엔진 (v1.2: 데이터 수집 강화)
 # ---------------------------------------------------------
 def run_quant_analysis():
     print("🧪 Running Quant Analysis (PBR-ROE)...")
     
     try:
-        # [핵심 수정] KRX 대신 KOSPI, KOSDAQ 각각 호출 후 병합
-        # 이렇게 해야 PBR, PER, Sector 정보가 확실하게 들어옵니다.
+        # [핵심 수정] KRX 통합 대신 KOSPI, KOSDAQ 각각 호출 후 병합
+        # 이유: 통합 호출 시 가끔 PBR/PER 데이터가 누락되는 현상 방지
         print("   Fetching KOSPI & KOSDAQ listings...")
         df_kospi = fdr.StockListing('KOSPI')
         df_kosdaq = fdr.StockListing('KOSDAQ')
+        
+        # 두 시장 데이터 합치기
         df = pd.concat([df_kospi, df_kosdaq])
         
     except Exception as e:
         print(f"❌ Listing Error: {e}")
         return
 
-    # [데이터 검증] PBR 컬럼이 진짜 있는지 확인
+    # [방어 코드] PBR 컬럼이 진짜 있는지 확인
     if 'PBR' not in df.columns:
-        print(f"⚠️ Error: 'PBR' column missing. Columns found: {list(df.columns)}")
+        print(f"⚠️ Critical Error: 'PBR' column missing from data source.")
+        print(f"   Available columns: {list(df.columns)}")
         return
 
     # 데이터 전처리
-    # 1. PBR, PER 데이터 형변환 (문자열인 경우 대비) 및 0 이하 제거
+    # 1. 숫자형으로 변환 (에러 방지)
     for col in ['PBR', 'PER']:
         df[col] = pd.to_numeric(df[col], errors='coerce')
     
     # 2. 유효한 데이터만 필터링 (적자 기업 제외 효과)
+    # PBR과 PER가 모두 양수인 종목만 남김
     df = df[(df['PBR'] > 0) & (df['PER'] > 0)].copy()
     
     # 3. ROE 역산 (ROE = PBR / PER * 100)
     df['ROE'] = (df['PBR'] / df['PER']) * 100
     
-    # 4. 이상치 제거 (ROE > 50% or PBR > 10 등은 왜곡 가능성 높음)
+    # 4. 이상치 제거 (왜곡 방지)
     df = df[(df['ROE'] > 0) & (df['ROE'] < 50) & (df['PBR'] < 10)]
     
-    # 5. 섹터 분류 (Sector 컬럼 확인)
-    # FDR 버전에 따라 'Sector', 'Industry' 등 이름이 다를 수 있음
+    # 5. 섹터 분류
     if 'Sector' not in df.columns:
-        if 'Wics' in df.columns: df['Sector'] = df['Wics'] # 대안 1
-        elif 'Industry' in df.columns: df['Sector'] = df['Industry'] # 대안 2
+        if 'KRX_Sector' in df.columns: df['Sector'] = df['KRX_Sector']
+        elif 'Wics' in df.columns: df['Sector'] = df['Wics']
     
     df = df.dropna(subset=['Sector']) # 섹터 없는 종목 제외
 
@@ -69,7 +72,7 @@ def run_quant_analysis():
     quant_data = {}
 
     # 섹터별 루프
-    print(f"   Analyzing {len(df)} stocks across sectors...")
+    print(f"   Analyzing {len(df)} stocks...")
     
     for sector, group in df.groupby('Sector'):
         if len(group) < 5: continue # 종목 수 너무 적으면 패스
@@ -98,7 +101,7 @@ def run_quant_analysis():
                 'is_undervalued': bool(row['Residual'] < 0)
             })
             
-        # 저평가 순(잔차가 가장 작은 순) 정렬
+        # 저평가 순 정렬
         items.sort(key=lambda k: k['residual'])
         
         quant_data[sector] = {
