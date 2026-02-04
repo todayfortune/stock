@@ -74,15 +74,6 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-02-03 16:40",
-      "text": "*NINTENDO 3Q OPER INCOME 155.21B YEN, EST. 180.7B YEN...",
-      "link": "https://t.me/IDEA_MEMO/19092",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
       "source": "@MASSITRADING",
       "date": "2026-02-03 15:32",
       "text": "🎯 **[코스피와 코스닥, 외국인 매수세로 사상 최고치 경신]** 어제 개인 투자자들이 급락장에서 매수한 주식들이 오늘 수익을 내며 거래 대금이 570조 원에 달하고 투자자 예탁금이 106조 원을 돌파했습니다. 코스피와 코스닥 지수는 외국인의 매수세로 사상 최고치를 경...",
@@ -680,6 +671,15 @@
     },
     {
       "source": "@DH_FINANCE",
+      "date": "2026-02-04 12:58",
+      "text": "DB손해보험 (공시) - 4Q25 연결 당기순익 3,810억원(+202% YoY) 동사 실적발표 및 컨센서스는 모두 \"별도\" 기준. 3Q 누적 연결-별도 차이 2,100억원 » 평기 수준의 차이대로면 별도 3,000억원 정도는 될 듯 - 기말 DPS 7,600원 (컨센...",
+      "link": "https://t.me/DH_FINANCE/3675",
+      "keywords": [
+        "YoY"
+      ]
+    },
+    {
+      "source": "@DH_FINANCE",
       "date": "2026-02-04 07:51",
       "text": "카카오뱅크 (공시) - 4Q25 당기순익 1,052억원(+25% YoY), 컨센 대비 +14% - 기말 배당 460원(컨센 439원), 배당성향 46% >> 분리과세 충족...",
       "link": "https://t.me/DH_FINANCE/3673",
@@ -914,6 +914,15 @@
     },
     {
       "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-02-04 13:03",
+      "text": "저희 리서치센터 윤재홍 수석연구위원이 발간한 **'이번 자료'는 ETF를 통한 수급 파악에 도움이 많이 되실 것입니다.**  특히, 고객 예탁금 100조원이 넘어간 지금 증시를 지탱하는 주요 수급 주체 중 '개인(Retail)'의 영향력을 무시할 수 없는 수준입니다. ...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/5627",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@GLOBALMKTINSIGHT",
       "date": "2026-02-04 10:41",
       "text": "마켓 뷰(2월 4일)  개인 vs. 외국인 - 코스피 5,298.72(+10.64p, +0.20%) - 코스닥 1,149.57(+5.24p, +0.46%) - 달러/원 1,449.10(+2.50, +0.18%)  ▶ Summary  · 전기전자 중심 외국인 매도에 개인...",
       "link": "https://t.me/GLOBALMKTINSIGHT/5618",
@@ -1061,6 +1070,29 @@
     },
     {
       "source": "@EASOBI",
+      "date": "2026-02-04 13:02",
+      "text": "대한조선 (CLSA) Lean, clean and profitable ───── ✦ ───── 🛳 덜 알려진 알짜 중형 조선사 • DH조선(구 대한조선)은 수에즈막스(Suezmax) 탱커와 컨테이너선에 특화된 한국의 중형 조선사임. • 'Big 3' 대형 조선사와 달리...",
+      "link": "https://t.me/EASOBI/14158",
+      "keywords": [
+        "수요",
+        "OP",
+        "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-02-04 12:35",
+      "text": "Kinsus, NYPCB, Unimicron (Goldman Sachs) Upcycle Resumption – ABF shortage ratio reaching 10-42% in 2H26-2028; U/G Kinsus to Buy, and maintain NYPCB a...",
+      "link": "https://t.me/EASOBI/14157",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@EASOBI",
       "date": "2026-02-04 11:18",
       "text": "**에이피알 4Q25 주요사항/Q&A**   **■ 연결 실적 요약** **매출** 5,476억원 (+124% y-y, +42% q-q) : 미국 아마존 고성과, 핵심 제품 SKU 수 증가, 신규 지역 고성과 덕분  **영업이익** 1,301억원 (+228% y-y, ...",
       "link": "https://t.me/EASOBI/14156",
@@ -1139,17 +1171,6 @@
       "link": "https://t.me/EASOBI/14132",
       "keywords": [
         "쇼크"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-02-03 20:28",
-      "text": "저번주에 ClawdBot —> MoltBot —> OpenClaw 로 일주일사이에 세번이나 개명한 녀석이 나오고 한 바탕 충격인데, OpenClaw 뿐만 아니라 온갖 미친 AI application들이 쏟아져나오고 있다.  이렇게 수많은 창의적인 앱들이 삽시간에 쏟아져...",
-      "link": "https://t.me/EASOBI/14129",
-      "keywords": [
-        "수요",
-        "구조적 성장",
-        "밸류체인"
       ]
     },
     {
@@ -1259,15 +1280,6 @@
       "link": "https://t.me/TOPTOWNQUANT/12900",
       "keywords": [
         "사이클"
-      ]
-    },
-    {
-      "source": "@TOPTOWNQUANT",
-      "date": "2026-01-28 17:19",
-      "text": "└ 반도체 BIG2 모두 분기 사상 최대 실적을 발표했지만, 그간 너무 가파르게 치솟은 시장 눈높이로 인해 정석POST모델에는 \"노 포지션\"이 발생하는 딜레마에 봉착  올해 연말까지 반도체의 주가 업사이드는 여전히 무궁무진하겠지만, 최근 가파른 이익 조정만큼 이제 20...",
-      "link": "https://t.me/TOPTOWNQUANT/12897",
-      "keywords": [
-        "업사이드"
       ]
     },
     {
@@ -2372,26 +2384,6 @@
         "link": "https://t.me/GLOBALMKTINSIGHT/5606"
       }
     ],
-    "402340": [
-      {
-        "source": "@MASSITRADING",
-        "date": "2026-02-03 16:45",
-        "text": "💰 2026. 02. 03. 코스피 투자자별 매매동향  🔴 투신,사모펀드,외국인,연기금 순매수 특징주     HD현대건설기계, SK스퀘어, SK하이닉스, 삼성전기, 삼성전자, 한화시스템  🔵 투신,사모펀드,외국인,연기금 순매도 특징주     NAVER, 삼양식품, 엘앤...",
-        "link": "https://t.me/MASSITRADING/59848"
-      },
-      {
-        "source": "@IRNOTE_YSTREET",
-        "date": "2026-02-02 17:32",
-        "text": "**[마감브리프] 26.02.02.(월) 뉴스 TOP10 - 삼성전자, SK하이닉스, SK스퀘어, 에이비엘바이오 등**   https://is.gd/VX8yYr  ✨얼굴과 계좌가 다 예뻐지는 '브릴러의 뷰티섹터 특강' 👉https://vo.la/rsLgfBe...",
-        "link": "https://t.me/IRNOTE_YSTREET/3786"
-      },
-      {
-        "source": "@SKSRESEARCH",
-        "date": "2026-02-02 08:10",
-        "text": "[SK증권 ESG/통신서비스/지주 최관순] (ks1.choi@sks.co.kr/3773-8812)  ▶️ **SK(A034730) 매수/420,000원 매력적인 밸류에이션과 주주환원 ** **밸류에이션 매력 충분** 26년 들어 SK스퀘어 54.9%, SK텔레콤 35....",
-        "link": "https://t.me/SKSRESEARCH/7974"
-      }
-    ],
     "035420": [
       {
         "source": "@MASSITRADING",
@@ -2416,6 +2408,26 @@
         "date": "2026-02-02 07:42",
         "text": "[DAOL퀀트 김경훈] 4분기 전종목 실적발표 스케줄  4Q25 Earnings Calendar - 2/2 업데이트  ■ 시장 공시이익 현황  KOSPI - 기발표 완료율 64% - 전년동기비 성장률 +96% - 성장률 상위: 비철목재등(+1,325%) > 반도체(+1...",
         "link": "https://t.me/TOPTOWNQUANT/12909"
+      }
+    ],
+    "402340": [
+      {
+        "source": "@MASSITRADING",
+        "date": "2026-02-03 16:45",
+        "text": "💰 2026. 02. 03. 코스피 투자자별 매매동향  🔴 투신,사모펀드,외국인,연기금 순매수 특징주     HD현대건설기계, SK스퀘어, SK하이닉스, 삼성전기, 삼성전자, 한화시스템  🔵 투신,사모펀드,외국인,연기금 순매도 특징주     NAVER, 삼양식품, 엘앤...",
+        "link": "https://t.me/MASSITRADING/59848"
+      },
+      {
+        "source": "@IRNOTE_YSTREET",
+        "date": "2026-02-02 17:32",
+        "text": "**[마감브리프] 26.02.02.(월) 뉴스 TOP10 - 삼성전자, SK하이닉스, SK스퀘어, 에이비엘바이오 등**   https://is.gd/VX8yYr  ✨얼굴과 계좌가 다 예뻐지는 '브릴러의 뷰티섹터 특강' 👉https://vo.la/rsLgfBe...",
+        "link": "https://t.me/IRNOTE_YSTREET/3786"
+      },
+      {
+        "source": "@SKSRESEARCH",
+        "date": "2026-02-02 08:10",
+        "text": "[SK증권 ESG/통신서비스/지주 최관순] (ks1.choi@sks.co.kr/3773-8812)  ▶️ **SK(A034730) 매수/420,000원 매력적인 밸류에이션과 주주환원 ** **밸류에이션 매력 충분** 26년 들어 SK스퀘어 54.9%, SK텔레콤 35....",
+        "link": "https://t.me/SKSRESEARCH/7974"
       }
     ],
     "278470": [
