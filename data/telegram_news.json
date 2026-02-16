@@ -2,6 +2,15 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-02-16 15:03",
+      "text": "COGNIZANT, GOOGLE CLOUD TEAM UP TO OPERATIONALIZE AGENTIC AI ACROSS ENTERPRISES [...](https://x.com/FirstSquawk/status/2023276700591964444)...",
+      "link": "https://t.me/IDEA_MEMO/19368",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-02-16 09:18",
       "text": "🔥 Winbond: 메모리 초강세 선언  • DRAM 이번 분기 +90~95%  • 2Q도 비슷 → 6월엔 작년말 대비 거의 4배  • 2026~27년 생산능력 완판  • 공장 Full 가동  • 매출총이익율 46.9% 상회 전망  📌 DDR4 공급 공백 “메우기 어려...",
       "link": "https://t.me/IDEA_MEMO/19367",
@@ -19,83 +28,96 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-02-14 15:41",
-      "text": "#매크로 ** 미국 '대만보호법' 통과 **  1) 미 하원은 중국이 대만을 위협할 경우 G20, 국제결제은행(BIS), 금융안정위원회(FSB) 등 글로벌 핵심 금융 기구에서 중국을 즉각 퇴출시키는 'PROTECT Taiwan Act'를 395 대 2라는 압도적 만장일...",
-      "link": "https://t.me/IDEA_MEMO/19335",
+      "source": "@MASSITRADING",
+      "date": "2026-02-16 16:33",
+      "text": "🎯 **[AI 불확실성 확대로 미국 단기 수익률 하락 헤지 부각, 추가 인하 여지]** AI 발전 경로 불확실성 확대로 종목·섹터별 전망보다 거시 관점 분석 필요성 부각, 시장 전반에서 기술주 리스크 프리미엄 재평가 진행. AI 과잉투자(과잉 설비투자)와 노동 대체 충...",
+      "link": "https://t.me/MASSITRADING/67473",
+      "keywords": [
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-02-16 16:33",
+      "text": "🎯 **[미국 existing home 시장 경색 지속, home equity 현금화 수요 급증]** 주택 보유자 기준 tappable equity 약 26조달러 추정, 실제 활용 규모 4,000억달러 수준으로 역사적 기준 대비 낮은 편. 주택 위기 국면 당시 equi...",
+      "link": "https://t.me/MASSITRADING/67470",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-02-16 16:18",
+      "text": "🎯 **[일본 GDP 쇼크로 yen 약세·금리곡선 스티프닝, 재정 확대 여력 논쟁]** 일본 4분기 GDP 0.2로 시장 예상 0.6 하회, 경기 모멘텀 둔화 신호. 시장 반응으로 yen 약세, 일본 금리곡선 스티프닝 진행; 단기물 수익률 하락과 장기물 수익률 상승 동...",
+      "link": "https://t.me/MASSITRADING/67466",
       "keywords": [
         "쇼크"
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-02-13 23:30",
-      "text": "$AMAT  예상치 (YoY 11%) 상회하는 가이던스 (YoY 20%)에 대해 호평받는다는 내용  [Applied Materials' results were 'solid,' but Wall Street is impressed with its guidance](http...",
-      "link": "https://t.me/IDEA_MEMO/19332",
+      "source": "@MASSITRADING",
+      "date": "2026-02-16 16:18",
+      "text": "🎯 **[주택 affordability 일부 개선에도 수요·금리·지역 격차로 거래 경색 지속]** Donald Trump, 대형 기관투자자의 single-family homes 매입 금지 executive order 서명 언급. 미국 주택시장, 높은 금리와 급등한 가격...",
+      "link": "https://t.me/MASSITRADING/67463",
       "keywords": [
         "수요",
-        "공급",
-        "사이클",
-        "YoY"
+        "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-02-16 13:48",
-      "text": "🎯 **[은퇴자 인플레 위험 대비, 3% 가정·equities 비중과 현금완충 권고]** 은퇴 단계에서는 고정 소득·인출 구조로 인해 인플레이션이 실질 자산을 잠식할 위험이 커져 장기 재무설계 변수로 부각. 지역·지출 항목별 체감 인플레이션 격차(예: 주택보험료 급등)...",
-      "link": "https://t.me/MASSITRADING/67372",
+      "date": "2026-02-16 16:04",
+      "text": "🎯 **[슈퍼코어 2.6% 하락세·소프트웨어 ETF 23% 급락…연준 발언은 매파]** 식품·에너지 등 변동 항목을 제외한 슈퍼코어 인플레이션, 2% 목표를 향해 완만한 하락 추세로 해석; 수준은 2.6%로 매파·비둘기파 모두에 논거 제공. 월간 물가 상승률, 0.2%...",
+      "link": "https://t.me/MASSITRADING/67459",
       "keywords": [
-        "상향"
+        "수주"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-02-16 13:48",
-      "text": "🎯 **[식료품 인플레가 가격 중심 소비 전환 가속, 프로모션 의존도 상승]** CPI 둔화에도 식료품 가격 상승률이 더 높게 나타나며 체감물가 부담 지속. State of Spend Report 설문 결과, 소비자 62%가 브랜드보다 가격을 우선시하고 가격 경쟁력 높...",
-      "link": "https://t.me/MASSITRADING/67371",
+      "date": "2026-02-16 16:03",
+      "text": "🎯 **[주택 구매 여건 악화 속 Trump, 기관의 단독주택 매입 금지 행정명령 발표]** ‘Affordability’ 이슈가 메인스트리트·월가·워싱턴 전반의 핵심 화두로 부상, 미국 부동산 시장을 주제로 한 특집 편성. Trump, 스위스 다보스 세계경제포럼(Wor...",
+      "link": "https://t.me/MASSITRADING/67453",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-02-16 13:48",
-      "text": "🎯 **[Bitcoin 6만달러 옵션 구간 경계…Bobby Lee “청산 확대, 5만~5.5만 지지”]** 가상자산 약세 흐름 속 Bitcoin 가격 6만8000달러대(약 6만8500달러) 언급, Solana도 하락. Coinbase 실적 부진 언급과 함께 Benchm...",
-      "link": "https://t.me/MASSITRADING/67368",
+      "date": "2026-02-16 16:03",
+      "text": "🎯 **[AI 붐 속 Salesforce 주가 -20%, 내년 반등 가능성 제한·수익화 불확실]** AI 붐으로 반도체·일부 소프트웨어 종목 강세 지속, 반면 Salesforce 주가 연초 대비 약 20% 하락. Guggenheim John DeFucci, Salesf...",
+      "link": "https://t.me/MASSITRADING/67451",
       "keywords": [
-        "수요",
-        "수주"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-02-16 13:32",
-      "text": "🎯 **[달러 약세는 ‘절하’보다 분산·헤지 성격, 일본·유럽 시장으로 자금 이동 신호]** 달러 가치 하락을 ‘실질적 debasement’로 단정하기보다, 글로벌 투자자들의 분산투자·달러 노출 헤지 수요가 강화되는 흐름으로 해석. 글로벌 금융위기 이후 2024년까지 ...",
-      "link": "https://t.me/MASSITRADING/67358",
+      "date": "2026-02-16 15:48",
+      "text": "🎯 **[UnitedHealth, Medicare Advantage 역풍 완화 기대…2026 EPS 전망 격차 주목]** UnitedHealth 주가 올해 Dow 구성 종목 중 최악 성과로, 연초 대비 3분의 1 이상 하락. 보험뿐 아니라 직접 진료 제공까지 포함한 수...",
+      "link": "https://t.me/MASSITRADING/67449",
       "keywords": [
-        "수요",
-        "공급"
+        "상향"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-02-16 13:18",
-      "text": "🎯 **[1월 CPI 예상 하회, 에너지 하락·관세 전가 혼재로 Fed 신중 지속]** 1월 CPI 발표, 전월 대비 소폭 반등했으나 큰 폭 서프라이즈 부재로 평가; 전반적 디스인플레이션 흐름 지속 신호로 해석. 1월 물가 데이터 계절적 변동성 확대 구간으로 지목; 에...",
-      "link": "https://t.me/MASSITRADING/67354",
+      "date": "2026-02-16 15:48",
+      "text": "🎯 **[P&G, 가격 둔화·소비자 신중으로 성장 감속…2026 개선 여지]** Procter & Gamble(P&G) 주가 연초 대비 약 14% 하락, 유기적 매출(물량+가격/믹스) 성장 둔화가 핵심 요인. 과거 4~5% 수준의 유기적 매출 성장에서 최근 몇 분기 1...",
+      "link": "https://t.me/MASSITRADING/67448",
       "keywords": [
-        "서프라이즈",
-        "수요",
-        "공급"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-02-16 13:03",
-      "text": "🎯 **[RBI 단속에 인도 브로커리지 급락, IT 주가 AI 우려로 조정]** 인도 증시 개장 초 Sensex 보합권, Nifty Bank 약 0.25% 하락. TCS, Wipro 약 2% 내외 하락세 지속; 인도 AI summit 개막 예정이나 Jensen Huan...",
-      "link": "https://t.me/MASSITRADING/67343",
+      "date": "2026-02-16 15:48",
+      "text": "🎯 **[Nike, 재고 정리 이후 매출 반등 신호에도 시장 인내 부족 지속]** Nike 주가 연초 대비 약 22% 하락, 턴어라운드가 예상보다 장기화 국면. 신임 CEO 취임 이후 구형 재고 대폭 정리 과정에서 실적 가이던스 하향과 추가 주가 조정 발생(전년 약 3...",
+      "link": "https://t.me/MASSITRADING/67447",
       "keywords": [
-        "상향",
-        "사이클"
+        "수요"
       ]
     },
     {
