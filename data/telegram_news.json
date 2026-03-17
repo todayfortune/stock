@@ -68,6 +68,15 @@
     },
     {
       "source": "@MASSITRADING",
+      "date": "2026-03-17 12:17",
+      "text": "🎯 **[Okta, agentic enterprise 보안 블루프린트 공개…정체성 관리 핵심 부상]** 기업 전반에서 기존 소프트웨어에 AI agents 추가, 자체 agent 개발, 신규 vendor agent 도입 등으로 ‘agentic enterprise’ 전환 ...",
+      "link": "https://t.me/MASSITRADING/86081",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
       "date": "2026-03-17 11:48",
       "text": "🎯 **[2025 세법으로 1,290억달러 감세, 신규 공제·주지방세 상한 상향 핵심]** 2025년 발효된 공화당 세법(일명 ‘원 빅 뷰티풀 법안’)에 따라 Tax Foundation 추정 기준 1,290억달러 규모 감세 발생. 핵심 변화로 팁 소득, 초과근무 임금,...",
       "link": "https://t.me/MASSITRADING/86069",
@@ -103,62 +112,6 @@
         "상향",
         "수요",
         "OP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 10:33",
-      "text": "🎯 **[NVIDIA, Vera Rubin·Grok 3로 agentic AI 랙스케일 플랫폼 로드맵 공개]** NVIDIA, 2016년 DGX-1(8×Pascal GPU, 1세대 NVLink)에서 시작해 Volta의 NVLink Switch(16 GPU all-to-a...",
-      "link": "https://t.me/MASSITRADING/86052",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 10:32",
-      "text": "🎯 **[생성형 인공지능 시대, 딥페이크 대응과 플랫폼 규제·독립감사 쟁점 부상 전세계]** 온라인상의 가짜 정보 다수가 악의적 의도보다 ‘사실로 오인한 공유’에서 확산 가능성 언급. 텍스트 정보 대비 이미지·영상·음성에 대한 비판적 사고 훈련 부족 지적, 생성형 인공...",
-      "link": "https://t.me/MASSITRADING/86050",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 10:17",
-      "text": "🎯 **[추론 중심 AI 전환 가속, GPU 수요 폭증과 NVIDIA 인프라 투자 확대]** AI 확산으로 사실상 모든 기업이 대규모 compute와 tokens 필요 상황, 자체 토큰 생성·축적 또는 OpenAI·Anthropic 등 기존 토큰/모델 생태계 통합이 핵...",
-      "link": "https://t.me/MASSITRADING/86048",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 10:02",
-      "text": "🎯 **[자연에 없는 화학물질 인체 노출과 ‘그림자 선단’ 의혹, 은밀성 우려 부각]** 방송은 자연에 존재하지 않는 화학물질이 인체에서 검출되는 문제를 거론하며, 해당 이슈를 대중에게 설명하기 어렵고 불안이 크다고 전함. ‘shadow fleet’라는 표현과 함께 은...",
-      "link": "https://t.me/MASSITRADING/86046",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 10:02",
-      "text": "🎯 **[NVIDIA, 수직통합 전략과 CUDAx로 산업별 AI 가속 컴퓨팅 확대 선언]** NVIDIA, 가속 컴퓨팅을 칩·시스템 문제가 아닌 ‘애플리케이션/도메인 특화 가속’ 과제로 규정, 라이브러리·도메인·산업별로 수직 통합형 컴퓨팅 기업 전략 강조. 데이터센터·...",
-      "link": "https://t.me/MASSITRADING/86044",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 09:48",
-      "text": "🎯 **[IBM·Google Cloud 사례로 GPU 가속 데이터 처리, 비용 80% 절감·5배 성능 강조]** NVIDIA, IBM WatsonX 데이터의 DataSQL 엔진을 GPU 컴퓨팅 라이브러리로 가속한다고 발표; AI가 대규모 데이터셋에 빠르게 접근해야 하나...",
-      "link": "https://t.me/MASSITRADING/86042",
-      "keywords": [
-        "공급"
       ]
     },
     {
@@ -310,15 +263,6 @@
       "date": "2026-03-03 18:29",
       "text": "**엔비디아, 루멘텀 & 코히어런트 지분 투자**  엔비디아는 루멘텀(LITE) 및 코히어런트(COHR)에 차세대 AI 인프라를 위한 고성능 광학 기술 개발 및 공급망 확보를 목적으로 하는 다년간의 전략적 파트너십을 체결했다. 엔비디아는 루멘텀과 코히어런트에 $2.0B...",
       "link": "https://t.me/MSTARYUN/9308",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-02-10 08:54",
-      "text": "📌 효성중공업(시가총액: 22조 3,416억) 📁 단일판매ㆍ공급계약체결 2026.02.10 08:41:15 (현재가 : 2,396,000원, 0.0%)  계약상대 : HICO America Sales & Tech,Inc.  계약내용 : ( 기타 판매ㆍ공급계약 ) 765...",
-      "link": "https://t.me/MSTARYUN/9290",
       "keywords": [
         "공급"
       ]
