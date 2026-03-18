@@ -2,6 +2,15 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-03-17 22:06",
+      "text": "OPENAI SIGNS AWS DEAL TO SELL AI TO US GOVT STAFF: INFORMATION [...](https://x.com/FirstSquawk/status/2033891721214562331)...",
+      "link": "https://t.me/IDEA_MEMO/20417",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-03-17 15:12",
       "text": "**>>“시장, 너무 낙관했나” — 생산시설까지 확전된 중동 리스크 (중국언론) **  •중동 에너지 인프라에 대한 공격이 **정제·저장 단계에서 ‘생산 단계’로 처음 확산. **Shah gas field(UAE)와 Majnoon oil field(이라크) 등 핵심 유...",
       "link": "https://t.me/IDEA_MEMO/20415",
@@ -58,170 +67,113 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-03-15 16:17",
-      "text": "미일 정상 희토류 “최저 가격” 협의  19일로 예정된 미일 정상회담에서 희토류에 관한 '최저 가격 제도' 도입을 향해 협의할 전망인 것으로 알려졌습니다.  복수의 정부 관계자에 따르면, 19일 워싱턴에서 열리는 타카이치 총리와 트럼프 대통령의 회담에서는 희토류에 대해...",
-      "link": "https://t.me/IDEA_MEMO/20398",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
       "source": "@MASSITRADING",
-      "date": "2026-03-17 16:33",
-      "text": "🎯 **[이란 에너지 인프라 공격 확대로 Brent 104달러 근접, 호르무즈 리스크 심화]** Donald Trump 미국 대통령, 호르무즈 해협 경비에 대해 원유 수입 의존도가 높은 국가들 참여 촉구. 미국 해당 해협 원유 수입 비중 1% 미만, 일본 95%, 중국...",
-      "link": "https://t.me/MASSITRADING/86194",
+      "date": "2026-03-18 12:18",
+      "text": "🎯 **[NVIDIA GTC 후 주가 정체, Dan Ives는 AI 수요 1조달러·2027 시총 6조달러 전망]** GTC 이후 NVIDIA 주가가 큰 폭으로 상승하지 않았다는 평가 언급, ‘컨퍼런스에서 새로울 것’에 대한 시장 기대치가 과도하게 높았다는 해석 제시. ...",
+      "link": "https://t.me/MASSITRADING/86687",
       "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 16:33",
-      "text": "🎯 **[S&P 500 실적 낙관론 유지하나, 유가 장기화와 MAG 7 밸류에이션 부담 확대]** S&P 500 이익 전망치, 2025년 전년 대비 약 14~15% 성장, 이후 연도도 12~13% 수준의 강한 성장률 기대가 반영된 상태. 시장 컨센서스는 충돌이 단기에 ...",
-      "link": "https://t.me/MASSITRADING/86193",
-      "keywords": [
-        "쇼크"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 16:33",
-      "text": "🎯 **[이란 충돌 장기화 시 유가 급등 경고, 연준은 당분간 동결 전망 우세]** 이란 원유 수출의 핵심 거점 Karg Island 공격 발생했으나 석유 인프라 직접 타격은 확인되지 않아 가격 급등 제한. 시장 초점은 Strait of Hormuz 봉쇄·물류 차질 지...",
-      "link": "https://t.me/MASSITRADING/86192",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 16:33",
-      "text": "🎯 **[private credit, 2008년과 달리 중심은행 밖에서 누적된 유동성 위험]** 2008년 Bear Stearns·Merrill Lynch 사례 핵심 위험 요인 repo 기반 단기자금 조달 중단과 그에 따른 전염(contagion) 확산. 현재 국면은 ...",
-      "link": "https://t.me/MASSITRADING/86191",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 16:18",
-      "text": "🎯 **[RBA, 4.1%로 2회 연속 인상…5대4 분열 속 추가 인상 확률 확대]** RBA, cash rate 3.85%에서 4.1%로 인상하며 2회 연속 금리 인상 단행. 표결 5대4로 분열. 시장, 인상 자체는 예상했으나 표결 분열은 예상 밖으로 해석 엇갈림. ...",
-      "link": "https://t.me/MASSITRADING/86190",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 16:18",
-      "text": "🎯 **[트럼프, 전쟁 이유로 미중 정상회담 연기…NVIDIA 전망이 반도체주 견인]** 트럼프, 전쟁 상황 관리 필요를 이유로 중국과의 정상회담을 약 한 달 연기한다고 언급. 당초 일정은 3월 31일~4월 2일로 거론. 중국 관영 Global Times, 해협 보호 ...",
-      "link": "https://t.me/MASSITRADING/86186",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 16:18",
-      "text": "🎯 **[이란 인프라 공격으로 유가·달러 강세, 호르무즈 봉쇄 장기화 우려]** 중동 에너지 인프라 공격 재발로 유가 상승, Bloomberg dollar spot index 동반 상승. 이란, 미 국방 당국의 ‘역량 약화’ 주장과 달리 중동 인프라 타격 능력 재확인....",
-      "link": "https://t.me/MASSITRADING/86185",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 16:17",
-      "text": "🎯 **[투기 과열과 private credit 논쟁, 2008과 다른 시스템 위험 진단]** crypto·prediction markets·sports gambling·meme stocks·SPAC 등 전반에서 투기적 거래 행태 재부상, 개별 종목 장중 변동성 확대 ...",
-      "link": "https://t.me/MASSITRADING/86184",
-      "keywords": [
-        "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 16:03",
-      "text": "🎯 **[IMAX, 차세대 카메라 투자에서 수익률·가동률 기반 생산대수 최적화 강조]** IMAX 본사 시설에서 카메라 설계·유지보수 조직 및 차세대 장비 현황 소개; 일부 장비는 ‘필름드-포-IMAX’ 촬영 현장에 투입된 상태로 언급. 재무 관점에서는 장비 투자 시 ...",
-      "link": "https://t.me/MASSITRADING/86182",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 16:03",
-      "text": "🎯 **[NVIDIA, AI 프로세서 매출 1조달러 언급…추론·CPU 확장과 공급망 변수 부각]** NVIDIA 주가, CEO가 주력 AI 프로세서 기반 매출 1조달러 규모를 언급한 뒤 급등. CEO는 연례 행사에서 신제품·신계획을 공개하며 CPU 영역으로의 확장도 시...",
-      "link": "https://t.me/MASSITRADING/86180",
-      "keywords": [
-        "서프라이즈",
         "수요",
-        "공급",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-18 12:18",
+      "text": "🎯 **[미국 주택 400만채 공급부족, 인허가 지연·리모델링 증가로 부담 심화]** 미국 주택구입 부담 심화, 소형 주택도 30만~33만달러에 거래되는 사례 언급. 현대 역사상 주택구입 가능성 최악 수준 평가 언급, 첫 주택구매자 비중 25% 이하로 축소. 평균 주택...",
+      "link": "https://t.me/MASSITRADING/86686",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-18 12:17",
+      "text": "🎯 **[미국, AI 기회·리스크 병행 관리하며 암·기후 문샷에 활용 확대]** 대통령 과학보좌관 겸 과학기술정책실(OSTP) 수장 발언 요지로, AI를 ‘시대의 최대 기회 중 하나’로 규정하는 동시에 관리해야 할 리스크 존재 강조; 백악관 차원의 전진적 조치가 진행 ...",
+      "link": "https://t.me/MASSITRADING/86685",
+      "keywords": [
         "TP"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-03-17 16:03",
-      "text": "🎯 **[Morgan Stanley, AI 충격·레버리지 부담으로 private credit 부도율 8% 전망]** Morgan Stanley, 소프트웨어 산업에서 AI 확산이 진행되는 가운데 private credit 부도율 8% 도달 가능성 경고. AI로 인한 구조...",
-      "link": "https://t.me/MASSITRADING/86179",
+      "date": "2026-03-18 11:47",
+      "text": "🎯 **[시각효과 업계, 인공지능으로 제작 속도 혁신 기대하나 고급 제작 대체는 제한적]** 대형 시각효과 스튜디오 관점에서 생성형 인공지능은 초기에는 일자리 위협으로 인식됐으나, 짧은 데모 수준의 인상과 달리 품질·통제·신뢰성 측면 한계가 확인되며 즉각적 전면 대체보...",
+      "link": "https://t.me/MASSITRADING/86679",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-03-17 16:02",
-      "text": "🎯 **[BlackRock ETHB staking ETF 출시, Iran conflict 이후 Bitcoin·Ether 강세와 수익형 구조 강조]** BlackRock Digital Assets 책임자 Robbie Mitnick 인터뷰에서, crypto 시장 변동성은 ...",
-      "link": "https://t.me/MASSITRADING/86176",
+      "date": "2026-03-18 11:33",
+      "text": "🎯 **[Mark Newton, 사이클·모멘텀 기반 시장 타이밍과 옵션 리스크 경고 제시]** Mark Newton, Bitcoin 단기 구간 60~70 범위 등락 가능성 언급, 70~90 급등 가능성 제한적 견해 제시. 사이클 분석(80일·80주)과 주식시장 장기 사...",
+      "link": "https://t.me/MASSITRADING/86676",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-18 11:17",
+      "text": "🎯 **[소프트웨어 약세는 반등 가능하나 2007~2008급 상대부진, semiconductors로 로테이션 경고]** AI 도입으로 기업이 기존 소프트웨어를 더 저렴한 대안으로 대체할 수 있다는 우려가 소프트웨어 주가 압박 요인으로 거론. 단기(1개월 내) 반등 가능...",
+      "link": "https://t.me/MASSITRADING/86671",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-18 11:17",
+      "text": "🎯 **[Bitcoin 변동성 확대 속 암호화폐 비중 10~20%와 2028년 사이클 전망]** Bitcoin를 가치저장 수단으로 볼지 논쟁 지속되는 가운데 금·은 가격 사상 최고치 흐름 관측. 장기 포트폴리오 관점에서 암호화폐 비중 10~20% 수준 제시, 연령 높아...",
+      "link": "https://t.me/MASSITRADING/86669",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-18 11:03",
+      "text": "🎯 **[Fundstrat Mark Newton, 장기 포트폴리오에 crypto 10~20% 배분 제안]** Bitcoin 급등락 국면에서 장기 포트폴리오 구성 관점의 crypto 비중 논의 전개. 금·은 사상 최고가 흐름을 언급하며, Bitcoin의 가치 저장 수단 ...",
+      "link": "https://t.me/MASSITRADING/86668",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-18 11:02",
+      "text": "🎯 **[Robco, Series C 1억달러로 제조업 physical AI 로봇·RaaS 확장]** 미디어 주목도 높은 휴머노이드 대비, 기업 현장에서는 작업 중심(task-oriented) industrial robots에서 ROI가 더 명확하다는 관측 확산. 일부...",
+      "link": "https://t.me/MASSITRADING/86667",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-03-17 15:48",
-      "text": "🎯 **[NVIDIA 대규모 칩 공급 전망 부각…SEC는 분기 실적 공시 폐지안 준비]** NVIDIA, 내년 말까지 1조 달러 규모 칩 공급 전망을 제시하며 투자심리 자극. 미국 SEC, 분기 실적 공시 의무를 없애는 방안의 제안서 준비 보도; 대통령은 상장사 실적 ...",
-      "link": "https://t.me/MASSITRADING/86173",
+      "date": "2026-03-18 11:02",
+      "text": "🎯 **[휴머노이드 로봇 상용화, 메모리·손 조작성·시각 인지 한계로 지연]** 휴머노이드 로봇 상용화 전망 관련, 단기간(향후 2~3년) 내 실현 가능성 낮다는 견해 제기. 핵심 제약으로 로봇 학습·기억을 뒷받침할 메모리 칩 공급 부족 언급, 로봇 조작성(손·피부),...",
+      "link": "https://t.me/MASSITRADING/86666",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-03-17 15:48",
-      "text": "🎯 **[EU, Strait of Hormuz 호위 확대 거부…에너지 가격 대응책은 세금·요금 조정 검토]** EU 외교장관들, 기존 해군 작전을 Strait of Hormuz로 확대하는 방안에 부정적 입장 표명. 미국 대통령, 유조선 호위를 위해 동맹국 참여 촉구했으...",
-      "link": "https://t.me/MASSITRADING/86171",
+      "date": "2026-03-18 10:48",
+      "text": "🎯 **[Tesla Optimus 기대·회의 교차, 로봇 시장 성장에도 생산·칩 리스크 부각]** Tesla, 로보틱스 집중 기조 재확인; Elon Musk는 1월 말 autonomy 기반 미래로 전환 언급. Cantor Andres Sheppard 추정치로 글로벌 휴...",
+      "link": "https://t.me/MASSITRADING/86662",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-03-17 15:48",
-      "text": "🎯 **[이란 전쟁 격화로 유가 급등, NVIDIA 호재에도 글로벌 선물 약세]** 미국 대통령, 이란 전쟁 대응을 이유로 중국 국가주석과 정상회담 연기. NVIDIA, 내년 말까지 1조 달러 규모 칩 공급 계획 언급 후 아시아 기술주 중심 상승. 원유 가격, Stra...",
-      "link": "https://t.me/MASSITRADING/86170",
+      "date": "2026-03-18 10:47",
+      "text": "🎯 **[휴머노이드 로보틱스 상용화 가속, 부품·AI 반도체·한중미 경쟁이 투자 핵심]** 로보틱스·자동화 산업, 단순 시연 중심에서 매출 창출 단계로 이동 흐름 부각. AMD 프로세서, 공장 로봇 정밀 제어, 건설 인프라 검사, 저침습 수술 지원 등에서 활용 확산. ...",
+      "link": "https://t.me/MASSITRADING/86661",
       "keywords": [
         "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 15:48",
-      "text": "🎯 **[디즈니 새 CEO 조시 디아마로, 스트리밍·AI·파크 가격정책 과제 집중]** 디즈니 새 CEO로 조시 디아마로가 수요일 취임 예정; 승계 계획 불확실성 해소 여부, 스트리밍·레거시 TV 동시 보유 구조, 콘텐츠 전략, 파크 성장 둔화 등 복합 과제 부각. 야...",
-      "link": "https://t.me/MASSITRADING/86169",
-      "keywords": [
-        "서프라이즈",
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-17 15:48",
-      "text": "🎯 **[Dollar Tree 보수적 매출 가이던스에도 상승, 소비 압박 신호는 강화]** Dollar Tree 연간 매출 가이던스 보수적 제시에도 주가 반등 흐름; 1달러 단일가에서 3달러·5달러 상품 확대 전략이 일정 부분 성과로 평가. 분기 실적 자체는 무난했으나...",
-      "link": "https://t.me/MASSITRADING/86168",
-      "keywords": [
-        "수요"
       ]
     },
     {
@@ -384,6 +336,26 @@
       "link": "https://t.me/MSTARYUN/9308",
       "keywords": [
         "공급"
+      ]
+    },
+    {
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-03-18 08:26",
+      "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민/정해창입니다. [3월 18일 주요국 이슈] 보내드립니다.  # 미국 도널드 트럼프 대통령, 이란 군사 작전 참여를 거부한 NATO 동맹국들을 향해 \"매우 어리석은 실수\"라며 강력 비난. 호르무즈...",
+      "link": "https://t.me/DAISHINSTRATEGY/5871",
+      "keywords": [
+        "수요",
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-03-17 20:23",
+      "text": "#정해창 #엔비디아 유가 리스크 관리 미국 재무장관 및 대통령 발언으로 유가 안정 의지 시사, 중간선거 고려 시 강경 대응 제한적, 국제유가 불확실성으로 코스피 상승폭 축소  #엔비디아 #기술주 AI 수요 기대 부각 엔비디아 GTC에서 신제품 공개 및 대규모 매출 전망...",
+      "link": "https://t.me/DAISHINSTRATEGY/5870",
+      "keywords": [
+        "수요"
       ]
     },
     {
@@ -569,25 +541,21 @@
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-03-06 14:29",
-      "text": "[장 중 시황] 이란 사태의 리스크 재조정, 코스닥 아웃퍼폼에 주목 [FICC리서치부 전략/시황: 이경민 / 정해창]  - 국내 증시 수익률(14시 25분): KOSPI -0.78% 하락 / 5,540.16pt  (KOSDAQ: +2.81% 상승 / 1,147.81pt...",
-      "link": "https://t.me/DAISHINSTRATEGY/5840",
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-03-18 08:38",
+      "text": "**[모닝브리프] 26.03.18.(수) 뉴스 TOP10 - SK하이닉스, 에스엠, 삼성전자, 포스코인터내셔널 등**   https://is.gd/2Ee492  🧭투자의 방향을 제시해주는 '이선엽의 투자 나침반' https://vo.la/4aepaT2...",
+      "link": "https://t.me/IRNOTE_YSTREET/4030",
       "keywords": [
-        "수요",
-        "공급",
-        "밸류체인",
-        "수주"
+        "OP"
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-03-06 08:32",
-      "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민/정해창입니다. [3월 6일 주요국 이슈] 보내드립니다.  # 미국 미국 국제무역법원, 모든 수입업체가 대법원의 무효판결에 따른 수혜 대상이 될 자격이 있다고 결정문에서 밝힘. 미국 세관국경보호국...",
-      "link": "https://t.me/DAISHINSTRATEGY/5839",
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-03-17 17:33",
+      "text": "**[마감브리프] 26.03.17.(화) 뉴스 TOP10 - SK하이닉스, 삼성전자, 셀트리온, 현대차 등**   https://is.gd/M2bQzz  🧭 방향을 보면 투자가 쉬워진다! '이선엽의 투자 나침반' 👉 https://vo.la/4aepaT2 🤩온라인 즉시...",
+      "link": "https://t.me/IRNOTE_YSTREET/4024",
       "keywords": [
-        "공급",
-        "수주"
+        "OP"
       ]
     },
     {
@@ -655,39 +623,13 @@
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-03-13 13:01",
-      "text": "**[컨콜노트] 저스템, 완벽한 턴어라운드에 성공**  ✅ 반도체 습도 제어 솔루션 기업으로서 글로벌 탑티어 고객사를 확보하며 사업 영역을 확장하고 있음  ✅ 25년 말부터 고객사에 2세대 제품 공급을 시작하며 매출이 빠르게 증가해 턴어라운드에 성공했음  ✅ 26년에는...",
-      "link": "https://t.me/IRNOTE_YSTREET/4000",
+      "source": "@YAZA_STOCK",
+      "date": "2026-03-18 08:44",
+      "text": "업계에 따르면 이번에 스팀터빈을 공급받은 기업은 일론 머스크 테슬라 최고경영자(CEO)가 설립한 AI 스타트업 xAI인 것으로 알려졌다.  두산에너빌리티는 앞서 xAI의 데이터센터에 총 12기의 가스터빈을 공급하는 계약을 최근 맺은 것으로 알려진 바 있다.  스팀터빈은...",
+      "link": "https://t.me/YAZA_STOCK/10567",
       "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-03-13 08:38",
-      "text": "**[모닝브리프] 26.03.13.(금) 뉴스 TOP10 - 케이엠제약, 화일약품, 티웨이항공, 네오펙트 등**   https://is.gd/okeLuE  🧭투자의 방향을 제시해주는 '이선엽의 투자 나침반' **3/14(토)에 진행하는 줌생중계 혜택 제공!** http...",
-      "link": "https://t.me/IRNOTE_YSTREET/3998",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-03-12 17:32",
-      "text": "**[마감브리프] 26.03.12.(목) 뉴스 TOP10 - 기아, 현대차, E1, LS 등**   https://is.gd/fT0Fs2  🧭투자의 방향을 제시해주는 '이선엽의 투자 나침반' https://vo.la/4aepaT2...",
-      "link": "https://t.me/IRNOTE_YSTREET/3997",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-03-12 08:39",
-      "text": "**[모닝브리프] 26.03.12.(목) 뉴스 TOP10 - 한화비전, 유안타증권, 한국금융지주, 삼성증권 등**   https://is.gd/gXPCvm  🧭투자의 방향을 제시해주는 '이선엽의 투자 나침반' https://vo.la/4aepaT2...",
-      "link": "https://t.me/IRNOTE_YSTREET/3993",
-      "keywords": [
-        "OP"
+        "공급",
+        "수주"
       ]
     },
     {
@@ -787,6 +729,110 @@
     },
     {
       "source": "@SHINHANRESEARCH",
+      "date": "2026-03-18 11:13",
+      "text": "마켓레이더(3월 18일, 오전)  리서치본부 주식전략팀  『Micron 실적 앞둔 신고가, KOSPI 피보나치 61.8% 되돌림』 시황 강진혁 ☎️02-3772-2329  KOSPI는 3.6% 상승한 5,842.7p. GTC 2026 후 AI 투심 개선+Micron 실...",
+      "link": "https://t.me/SHINHANRESEARCH/49784",
+      "keywords": [
+        "수요",
+        "공급",
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-03-18 09:18",
+      "text": "**『ESG Navigator(26-03); 3차 상법개정 이후, 자사주 프레임 변화』 신한투자증권 리서치본부 ☎ ****02-3772-1583**   Part 1. ESG 이슈; 3차 상법개정 이후, 자사주 프레임 변화 [이정빈] - 자사주는 더 이상 ‘보유 자산’이...",
+      "link": "https://t.me/SHINHANRESEARCH/49782",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-03-18 08:06",
+      "text": "★ Daily Market Digest - 2026년 3월 18일 시황 강진혁 ☎️02-3772-2329  ▶ Daily Review Summary   - 지정학적 혼란과 FOMC 경계감에도 AI 낙관론에 3 대 지수 소폭 상승 . S&P500 +0.3%, NASDAQ...",
+      "link": "https://t.me/SHINHANRESEARCH/49775",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-03-18 07:59",
+      "text": "[신한투자증권 IT팀 오강호, 김형태, 박현우, 서지범, 송혜수, 김예성]  3/18(수) 🕗Daily IT 예습하기  ✅ 반도체/장비  ▶️ 최태원 \"2030년까지 반도체 부족... 하이닉스, 美증시 상장도 검토\" (조선일보) https://alie.kr/8enAhB...",
+      "link": "https://t.me/SHINHANRESEARCH/49774",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-03-18 07:56",
+      "text": "신한 해외주식 데일리(3/18) “유가 상승에도 3대 지수 모두 반등”   ▶️ 특징주 [스와머(+520.0%)] 우크라이나 드론 기술 기업으로 10만회 이상 실전 전투 경험 보유. 군집 드론 자동화 기술 보유  [밥콕(+27.0%)] 4Q25실적. AI데이터센터향 수...",
+      "link": "https://t.me/SHINHANRESEARCH/49773",
+      "keywords": [
+        "상향",
+        "수요",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-03-18 07:54",
+      "text": "[신한투자증권 조선 이동헌, 이지한]  조선(Sector) - 시황 점검: 전쟁통에도 탄탄  ▶️ 신한생각: 경기보다 견고, 구조적 성장 - 중동 리스크와 지정학적 긴장 속에서도 과거와 달리 발주가 지속되며 예측 가능한 수준의 업황 유지 - 에너지 안보 강화로 인한 L...",
+      "link": "https://t.me/SHINHANRESEARCH/49772",
+      "keywords": [
+        "수요",
+        "구조적 성장",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-03-18 07:45",
+      "text": "『오리온(271560.KS) - 춘절 끝, 이제는 앞만 보고 달린다』 기업분석부 조상훈 ☎02-3772-2578   ▶ 매출 성장률 회복과 원가 부담 완화 - 지난 2년간 외형 성장 부진하며 주가도 약세 - 지난해 상반기 톤당 10,000달러를 상회했던 카카오 가격은 ...",
+      "link": "https://t.me/SHINHANRESEARCH/49770",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-03-18 06:56",
+      "text": "**[신한 철강금속/자동차 박광래, 한승훈]**  **!! 신한 철강금속/자동차 텔레그램 채널 !!** → https://t.me/shinhan_park  **:: 신한 철강금속 뉴스 (260318) ::**  **▶ 고려아연 '인듐 공급망' 선점 가속도 (파이낸셜뉴스...",
+      "link": "https://t.me/SHINHANRESEARCH/49768",
+      "keywords": [
+        "수요",
+        "공급",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-03-18 06:56",
+      "text": "**[신한 자동차/철강금속 박광래, 한승훈]**  **!! 신한 자동차/철강금속 텔레그램 채널 !!** → https://t.me/shinhan_park  **:: 신한 자동차 뉴스 (260318) ::**  **▶ 현대차·기아-엔비디아 '자율주행 동맹'… 레벨 2 먼...",
+      "link": "https://t.me/SHINHANRESEARCH/49767",
+      "keywords": [
+        "상향",
+        "공급",
+        "YoY",
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-03-17 17:01",
+      "text": "국내 주식 마감 시황 - 3월 17일  『AI 투심 개선과 중동 악재의 시소게임』 시황 강진혁 ☎️02-3772-2329  코스피 5,640.48 (+1.63%), 코스닥 1,136.94 (-0.12%)  AI 환호에 찬물 끼얹은 중동, 전강후약 연출  금일 KOSPI...",
+      "link": "https://t.me/SHINHANRESEARCH/49766",
+      "keywords": [
+        "수요",
+        "공급",
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
       "date": "2026-03-17 11:27",
       "text": "마켓레이더(3월 17일, 오전)  리서치본부 주식전략팀  『중동 피로도 극복하게 하는 Jensen Huang의 입』 시황 강진혁 ☎️02-3772-2329  KOSPI는 2.7% 상승한 5,695.1p. 이란 진정+GTC 2026 발 반도체·자동차 등 대형주 강세가 상...",
       "link": "https://t.me/SHINHANRESEARCH/49765",
@@ -843,90 +889,42 @@
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-03-17 07:49",
-      "text": "[신한투자증권 방위산업 이동헌, 이지한]  한화에어로스페이스(012450.KS) - 한국항공우주 지분 4.99% 신고  ▶️ 신한생각: 한화에어로스페이스, 한화시스템의 한국항공우주 지분 매입 - 한화에어로스페이스가 한국항공우주 지분 4.99%(486.4만주) 보유를 공...",
-      "link": "https://t.me/SHINHANRESEARCH/49753",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-03-17 07:45",
-      "text": "**『삼성E&A: 실적보다는 높아진 뉴에너지 성장성에 주목』 **신한 건설/리츠/부동산 김선미 ☎️ 02-3772-1514   ▶️ 신한생각: 높아진 에너지 안보 필요성, ‘가능성’ 만으로도 수급은 유입 : 이란 사태 장기화 여부 따라 실적 일부 조정 가능성 있으나, ...",
-      "link": "https://t.me/SHINHANRESEARCH/49752",
-      "keywords": [
-        "수요",
-        "TP",
-        "수주"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-03-17 07:44",
-      "text": "[신한투자증권 IT팀 오강호, 김형태, 박현우, 서지범, 송혜수, 김예성]  3/17(화) 🕗Daily IT 예습하기  ✅ 반도체/장비  ▶️ 삼성전자, GTC 2026서 HBM4E 첫 공개...초당 대역폭 4TB (디일렉) https://alie.kr/9tCTCLo ...",
-      "link": "https://t.me/SHINHANRESEARCH/49751",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-03-17 06:38",
-      "text": "**[신한 철강금속/자동차 박광래, 한승훈]**  !! 신한 철강금속/자동차 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 철강금속 뉴스 (260317) ::**  **▶ 고려아연, 3년전 2천500억에 취득한 LG화학 지분 전량...",
-      "link": "https://t.me/SHINHANRESEARCH/49749",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-03-17 06:38",
-      "text": "**[신한 자동차/철강금속 박광래, 한승훈]**  !! 신한 자동차/철강금속 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 자동차 뉴스 (260317) ::**  **▶ 현대차 ‘다크팩토리’ 전략 GTC서 공개…엔비디아와 협력 확...",
-      "link": "https://t.me/SHINHANRESEARCH/49748",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-03-18 10:26",
+      "text": "마켓뷰(3월 18일) ▶ Summary: 다시,5800 (ft.주총시즌) -코스피 5,824.40(+183.92p, +3.26%), 코스닥 1,155.08(+18.14p, +1.60%) -외국인∙기관(금융투자) 순매수, 코스피 장 중 5800선 회복, 안착 시도   ·...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/6171",
       "keywords": [
         "수요",
         "공급"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-03-16 16:54",
-      "text": "국내 주식 마감 시황 - 3월 16일  『반도체가 구제한 KOSPI』 시황 강진혁 ☎️02-3772-2329  코스피 5,549.85 (+1.14%), 코스닥 1,138.29 (-1.27%)  외국인 매도세 지속에도 KOSPI 반등  금일 KOSPI, KOSDAQ 각각...",
-      "link": "https://t.me/SHINHANRESEARCH/49747",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-03-18 07:38",
+      "text": "(3/18) AI 데일리 글로벌 마켓 브리핑 국제유가 반등에도 미국 증시 강세 마감  #Key Takeaways 미국 증시 주요 지수 상승: 다우 +0.10%, 나스닥 +0.47%  중동 갈등과 유가 불확실성은 지속..WTI 2.9%↑ 델타 항공 가이던스 상향, 항공주...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/6170",
       "keywords": [
         "상향",
-        "밸류체인"
+        "수요",
+        "공급"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-03-16 16:06",
-      "text": "『국내크레딧; Weekly Credit Monitor』  신용분석 김상인/차주희 ☎02-3772-2636  -국제 유가 흐름에 연동된 금리 변동성 장세 지속. 신용 스프레드 약보합 전환 -발행시장: 전 섹터 순상환 기록 -유통시장: 투심과 거래량 회복. 운용사와 은행 ...",
-      "link": "https://t.me/SHINHANRESEARCH/49746",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-03-17 18:48",
+      "text": "**3/17 미국 사모신용 리스크와 국내 금융업 영향 점검** 미래에셋증권 채권 민지희/금융 정태준  *안녕하세요, 당사 금융업종 담당 정태준 위원과 미국 사모대출 시장 관련 자료를 작성했습니다.  *예상 가능한 주요 리스크는 다음과 같습니다. 1) 사모대출 부도율이 ...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/6168",
       "keywords": [
         "수요"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-03-16 11:10",
-      "text": "마켓레이더(3월 16일, 오전)  리서치본부 주식전략팀  『외국인 현선물 매도세 속 5,500p 등락하는 KOSPI』 시황 강진혁 ☎️02-3772-2329  KOSPI는 0.2% 상승한 5,500.2p. 중동 분쟁 격화에 WTI 100$ 내외로 반등하며 Risk-of...",
-      "link": "https://t.me/SHINHANRESEARCH/49745",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-03-17 17:16",
+      "text": "한국&중국 마켓 클로징(3월 17일)  물리적 실체   # 국내 마감 ▶ Summary · 코스피 5,640.48(+1.63%), 코스닥 1,136.94(-0.12%) · 외국인 5거래일 연속 순매도...3월 11거래일 중 9일 매도 기록 · 국내 증시, 국제 유가 상...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/6167",
       "keywords": [
-        "상향",
-        "수주"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-03-16 08:59",
-      "text": "[신한투자증권 조선기자재 이동헌, 이지한]  한국카본(017960.KS) - LNG 보냉재 성장에 방산까지 영역 확대  ▶️ 신한생각: 헌국카본은 본래 카본 회사, 보냉재에 더해지는 방산 - LNG보냉재 매출 및 이익 급증, 중동 전쟁 여파로 에너지 관련주의 장기 성장...",
-      "link": "https://t.me/SHINHANRESEARCH/49744",
-      "keywords": [
-        "상향",
-        "수주"
+        "OP"
       ]
     },
     {
@@ -986,26 +984,6 @@
         "수요",
         "공급",
         "OP"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-03-16 10:44",
-      "text": "마켓 뷰(3월 16일)  1,500원 - 코스피 5,472.67(-16.58p, -0.30%) - 코스닥 1,132.51(-20.45p, -1.78%) - 달러/원 1,488.00(-0.50, -0.03%)  ▶ Summary  · 이란 사태 둘러싼 불확실성에 장중 변...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/6140",
-      "keywords": [
-        "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-03-16 07:21",
-      "text": "(3/16) AI 데일리 글로벌 마켓 브리핑 중동 포화 속 지표도 부진..미국 증시 하락  #Key Takeaways 미국 증시 주요 지수 일제히 하락: 다우 -0.26%, 나스닥-0.93%  이란 전쟁 영향, 국제유가 2일 연속 100달러 상회 미 경제 지표 실망, ...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/6139",
-      "keywords": [
-        "상향",
-        "공급"
       ]
     },
     {
@@ -1097,73 +1075,88 @@
     },
     {
       "source": "@EASOBI",
-      "date": "2026-03-16 08:03",
-      "text": "Nvidia (CLSA) GTC 2026: Three questions ───── ✦ ───── 🤖 GTC 2026: AI의 환희와 상업적 명확성 기대 •  Nvidia의 GTC 2026은 급증하는 수익과 정체된 주가 사이의 흥미로운 변곡점에서 시작됨 •  시장은 AI...",
-      "link": "https://t.me/EASOBI/15051",
+      "date": "2026-03-18 08:35",
+      "text": "에이피알 (HSBC) Buy: A nice start to 2026 ───── ✦ ───── 🚀 2026년 강력한 출발과 실적 전망 • 2026년 1분기 매출액은 5,160억 원으로 전년 대비 94% 급증할 것으로 예상함 • 영업이익은 1,300억 원을 기록하며 시장 ...",
+      "link": "https://t.me/EASOBI/15091",
       "keywords": [
-        "상향",
-        "공급"
+        "상향"
       ]
     },
     {
       "source": "@EASOBI",
-      "date": "2026-03-16 07:40",
-      "text": "Morgan Stanley Space Metals: The Critical Minerals Enabling the Space Economy 주요 기업: Alcoa, Freeport-McMoRan, MP Materials, Rio Tinto, Vale, Glencore,...",
-      "link": "https://t.me/EASOBI/15045",
+      "date": "2026-03-18 08:10",
+      "text": "모건스탠리 (Morgan Stanley) Flexible Power - The Next Wave of Growth in AI • CATL, 테슬라, LG에너지솔루션, 플루언스 에너지, BYD, 삼성SDI, 간펑리튬, 앨버말, 티엔치리튬, 시위안전기, ABB, 포드, S...",
+      "link": "https://t.me/EASOBI/15089",
       "keywords": [
+        "상향",
         "수요",
         "공급"
       ]
     },
     {
       "source": "@EASOBI",
-      "date": "2026-03-15 21:16",
-      "text": "Goldman Sachs Global Economics Comment: Supply Shocks from the War in Iran Are Mostly Limited to Energy 🌐 이란 전쟁에 따른 글로벌 경제 영향 분석 •  이란 전쟁으로 인한 공급 쇼크는 ...",
-      "link": "https://t.me/EASOBI/15044",
+      "date": "2026-03-18 07:45",
+      "text": "글로벌 헬스케어 (HSBC) The least naughty child: War & AI wobbles: Time to get forensic on Healthcare 대상 기업: AstraZeneca, Eli Lilly, Johnson & Johnson, Abbvie...",
+      "link": "https://t.me/EASOBI/15083",
       "keywords": [
         "상향",
-        "쇼크",
+        "수요",
         "공급"
       ]
     },
     {
       "source": "@EASOBI",
-      "date": "2026-03-15 19:32",
-      "text": "📅 Catalyst Watch (week of 3/16) - 주간 전략 프리뷰  🧭 한눈에 보는 주간 핵심  이번 주는 글로벌 금융 시장에 중요한 촉매제가 될 주요 이벤트들이 집중되어 있습니다. 특히 일본은행(BOJ), 유럽중앙은행(ECB), 연방공개시장위원회(FOMC...",
-      "link": "https://t.me/EASOBI/15043",
+      "date": "2026-03-18 06:55",
+      "text": "2026년 3월 17일 글로벌 마감 시황 브리핑 📈📉  다우존스 산업평균지수는 46,992.15로 46.85포인트(0.10%) 상승했습니다. 나스닥 종합지수는 22,479.54로 105.35포인트(0.47%) 올랐으며, S&P 500 지수는 6,718.08로 16.71...",
+      "link": "https://t.me/EASOBI/15082",
       "keywords": [
+        "상향",
         "수요"
       ]
     },
     {
       "source": "@EASOBI",
-      "date": "2026-03-15 17:50",
-      "text": "🔁 Catalyst Watch Delta (week of 3/16 vs 3/9)  🧭 변화 한눈에  초점이 미국 국내 경제 지표에서 글로벌 거시 정책 (주요 중앙은행) 및 주요 기술 이벤트 (AI 서사)로 이동했습니다. 지난 주 주요 이슈였던 미국 인플레이션 지표와 특...",
-      "link": "https://t.me/EASOBI/15042",
-      "keywords": [
-        "수요",
-        "공급",
-        "사이클",
-        "TP"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-03-15 17:43",
-      "text": "📘 Weekly Recap (week ended Friday March 13, 2026) - 지난주 미국 시황 리뷰  🧭 한눈에 보는 주간 핵심 🐻 약세론자들이 이번 주 승리를 거두었습니다. 이란 전쟁이 통제 불능으로 치달으며 호르무즈 해협이 봉쇄되고 글로벌 경제가 인...",
-      "link": "https://t.me/EASOBI/15041",
+      "date": "2026-03-17 21:52",
+      "text": "Goldman Sachs Oil Comment: Even Larger Shock for Refined Products Than for Crude 📊 정유 제품 시장의 기록적인 공급 충격 분석 •  현재 석유 시장은 역사상 가장 큰 공급 충격을 겪고 있으며 원유보다 정유...",
+      "link": "https://t.me/EASOBI/15079",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@EASOBI",
-      "date": "2026-03-14 08:00",
-      "text": "2026년 3월 13일 글로벌 마감 시황 브리핑 📈📉  미국 증시 3대 지수 요약 및 시황 본문 미국 증시는 3월 13일 (금요일) 거래를 하락세로 마감하며 힘든 한 주를 마무리했습니다. 장 초반 국제 유가 하락에 힘입어 전반적으로 상승 출발했으나, 중동 지역의 지정학...",
-      "link": "https://t.me/EASOBI/15038",
+      "date": "2026-03-17 21:48",
+      "text": "HD 현대중공업, 한화오션, HD 한국조선해양, 삼성중공업 (CLSA) Implications of Qatar ───── ✦ ───── 📍 카타르 포스마쥬르 영향 분석 및 시장 전망 •  2026년 3월 중동 정세 불안으로 카타르가 77mtpa 규모 LNG 시설에 대해...",
+      "link": "https://t.me/EASOBI/15077",
       "keywords": [
         "상향",
+        "수요",
+        "구조적 성장",
+        "사이클",
+        "업사이드",
+        "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-03-17 21:41",
+      "text": "NVIDIA, 삼성전자, SK하이닉스, TSMC, Micron, Hon Hai Precision, Mediatek, Global Unichip, Alchip, ASPEED Technology, ASE Industrial, King Yuan Electronics, Chr...",
+      "link": "https://t.me/EASOBI/15074",
+      "keywords": [
+        "상향",
+        "수요",
         "공급"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-03-17 21:37",
+      "text": "NVIDIA Corp (UBS) GTC - Keynote and Day 1 Highlights ───── ✦ ───── 🚀 GTC 2026 주요 하이라이트 및 핵심 테마 •  이번 GTC는 추론, 인프라, 로봇 공학이 주요 테마로 다루어짐 •  제품 발표는 예상 범위 ...",
+      "link": "https://t.me/EASOBI/15073",
+      "keywords": [
+        "상향",
+        "공급",
+        "수주"
       ]
     },
     {
@@ -1227,26 +1220,6 @@
       "text": "[DAOL퀀트 김경훈] 4분기 전종목 실적발표 스케줄  **4Q25 Earnings Calendar - 3/9 업데이트**  ■ 시장 공시이익 현황  KOSPI - 기발표 완료율 99% - 전년동기비 성장률 +70% - 성장률 상위: 비철,목재등(+236%) > IT하...",
       "link": "https://t.me/TOPTOWNQUANT/13043",
       "keywords": [
-        "서프라이즈"
-      ]
-    },
-    {
-      "source": "@TOPTOWNQUANT",
-      "date": "2026-03-06 23:50",
-      "text": "**# 2월 미국 고용 - \"얼마 안 남은 배터리 잔량\"** 🪫  이전 및 컨센 모두 하회하면서 코로나 사태 이후 5번째 고용이 감소하는 달로 기록  그 배경에는 지난달 서프라이즈를 견인했던 민간 주도 건설, 의료, 사회복지 서비스가 이번달엔 급감하며 고용 쇼크를 야기...",
-      "link": "https://t.me/TOPTOWNQUANT/13039",
-      "keywords": [
-        "서프라이즈",
-        "쇼크"
-      ]
-    },
-    {
-      "source": "@TOPTOWNQUANT",
-      "date": "2026-03-06 15:40",
-      "text": "[DAOL퀀트 김경훈] Active Quant의 定石 - 3/9  **\"재개된 반도체 이익 상향과 눈에 띄는 의류업종\"**  1Q26분기 1번째 업데이트 (3.9 ~ 3.20)  ■ 반도체 BIG2, 4분기 실적발표 이후 **재개된 이익 추정치 상향**  * 삼성전자:...",
-      "link": "https://t.me/TOPTOWNQUANT/13038",
-      "keywords": [
-        "상향",
         "서프라이즈"
       ]
     },
@@ -1342,6 +1315,24 @@
       "keywords": [
         "수요",
         "QoQ"
+      ]
+    },
+    {
+      "source": "@SKSRESEARCH",
+      "date": "2026-03-18 07:44",
+      "text": "**SK증권 아침에 슥_2026.03.18** **   미국 증시- 유가 상승에도 실적 기대 반영되며 상승 마감** ㆍ 항공·여행·반도체 중심으로 강세, FOMC 앞두고 상승폭 일부 축소  **유럽 증시 - 호르무즈 해협 봉쇄 완화 기대에 상승 마감 **ㆍ 에너지·유틸...",
+      "link": "https://t.me/SKSRESEARCH/8221",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SKSRESEARCH",
+      "date": "2026-03-18 07:44",
+      "text": "**[박제민의 QnA.I - 3월 3주차]**  - 지난 주 빅테크 주요 주가 변동은? - GTC2026, VR 신규 라인업 공개, 변화점은? - 초저지연 칩을 아마존에서도? 엔비디아와의 차이점은? - Stargate 부지 확장 중단 뉴스가 오히려 강한 DC 수요를 보...",
+      "link": "https://t.me/SKSRESEARCH/8220",
+      "keywords": [
+        "수요"
       ]
     },
     {
@@ -1463,6 +1454,25 @@
     },
     {
       "source": "@SURVIVAL_DOPB",
+      "date": "2026-03-18 08:15",
+      "text": "✅  삼성전자   - 제목  =  진정한 풀스택   - 제공처  =  미래에셋증권   - 작성자  =  김영건   - 목표가   ▲300000   - 투자의견   = 매수   \"▶️ LPU 수주에 따른 파운드리 밸류에이션 할인율 축소 ▶️ 엔비디아 Groq 3 LPU ...",
+      "link": "https://t.me/SURVIVAL_DOPB/12805",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@SURVIVAL_DOPB",
+      "date": "2026-03-18 08:15",
+      "text": "✅  SK하이닉스   - 제목  =  재평가 국면 진입 기대   - 제공처  =  KB증권   - 작성자  =  김동원,이창민,강다현   - 목표가   = 1700000   - 투자의견   = BUY   \"▶️ 2028년까지 공급부족 지속  ▶️ 2026년 추정 영업이...",
+      "link": "https://t.me/SURVIVAL_DOPB/12804",
+      "keywords": [
+        "공급",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@SURVIVAL_DOPB",
       "date": "2026-03-17 08:02",
       "text": "✅  두산   - 제목  =  서버 구조의 변화는 중장기 성장의 근거   - 제공처  =  하나증권   - 작성자  =  김민경   - 목표가   ▲1670000   - 투자의견   = BUY   \"▶️ 2026 Preview: 하이엔드 CCL의 성장 견인 지속 ▶️ ...",
       "link": "https://t.me/SURVIVAL_DOPB/12798",
@@ -1500,12 +1510,13 @@
       ]
     },
     {
-      "source": "@SURVIVAL_DOPB",
-      "date": "2026-03-11 06:54",
-      "text": "미국이 진정한 에너지 지배력을 되찾고 있다.  오늘 나는 텍사스 브라운스빌에서 50년 만에 미국 최초의 신규 정유공장이 ‘아메리카 퍼스트 리파이닝(America First Refining)’에 의해 건설된다는 사실을 자랑스럽게 발표한다.  이것은 3,000억 달러 규모...",
-      "link": "https://t.me/SURVIVAL_DOPB/12776",
+      "source": "@HEDGECAT0301",
+      "date": "2026-03-18 07:44",
+      "text": "[3/18, 장 시작 전 생각: 회복의 재료들, 키움 한지영]  - 다우 +0.1%, S&P500 +0.3%, 나스닥 +0.5% - 엔비디아 -0.7%, 마이크론 +4.5%, 델타항공 +6.5%. - WTI 94.5달러, 미 10년물 금리 4.20%, 달러/원 1,48...",
+      "link": "https://t.me/HEDGECAT0301/2750",
       "keywords": [
-        "공급"
+        "상향",
+        "수요"
       ]
     },
     {
@@ -1659,15 +1670,6 @@
       "keywords": [
         "상향",
         "수요"
-      ]
-    },
-    {
-      "source": "@HEDGECAT0301",
-      "date": "2026-02-24 07:37",
-      "text": "**[2/24, 이슈 분석, 키움 한지영]  \"코스피 상단 추가 상향: 7,000pt대를 향한 여정\" ** (요약)  - 올해 코스피 연간 상단을 기존 6,000pt에서 7,300pt로 상향 조정  - 여타 증시 대비 한국 증시의 이익 모멘텀 독주 현상 지속되고 있는 ...",
-      "link": "https://t.me/HEDGECAT0301/2720",
-      "keywords": [
-        "상향"
       ]
     }
   ],
