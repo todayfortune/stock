@@ -2,6 +2,17 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-03-20 12:50",
+      "text": "삼성전자가 **구글, 마이크로소프트와 메모리 반도체 장기공급계약(LTA)을 추진 중**인 것으로 파악됐다. 구체적 계약 내용은 다양한 형태로 논의 중이나, **가격 변동은 열려 있는 상태에서 장기간 대량의 물량을 공급하는 방안이 가장 유력**한 안으로 지목된다. 실제 ...",
+      "link": "https://t.me/IDEA_MEMO/20524",
+      "keywords": [
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-03-20 10:54",
       "text": "✅ 마이크론 CEO, 호실적 발표 후 주요 고객사에 충분한 메모리를 공급할 수 없다고 밝혀 (미국 CNBC)  https://www.cnbc.com/2026/03/19/micron-falls-blockbuster-earnings-chips-ai.html...",
       "link": "https://t.me/IDEA_MEMO/20522",
@@ -64,10 +75,56 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-03-20 00:40",
-      "text": "모건스탠리) 마이크론; 매우 강한 EPS, 우리는 이것이 지속될 것으로 예상한다. 목표가 $520  이번 실적 수치는 바이사이드 기대치의 상단 수준에 있었지만, 현재 논쟁의 핵심은 피크 수준 자체보다 그 지속 기간에 더 가깝고, 당사는 그 논쟁에 대해 긍정적으로 보고 ...",
-      "link": "https://t.me/IDEA_MEMO/20492",
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 13:32",
+      "text": "🎯 **[Iran war 변동성 속 GCC 급락 종목 선별, 단기 매수 기회 부각]** 중동 시장, 단기적 언어적 개입 효과 제한적 평가 속 향후 수주 추가 압력 가능성 제기. GCC 중심으로 기회 존재하나 종목 선별 필요 강조; Dubai 일부 real estate ...",
+      "link": "https://t.me/MASSITRADING/87915",
+      "keywords": [
+        "상향",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 13:32",
+      "text": "🎯 **[금, 팬데믹·금리·지정학 영향 속 5,000달러 돌파와 JP Morgan 6,300달러 전망]** 금은 안전자산 수요의 대표 영역으로 소개되며, 개인투자자부터 중앙은행까지 귀금속 시장 관찰 강화 흐름 언급. 2019년 12월~2020년 6월 팬데믹 국면에서 안...",
+      "link": "https://t.me/MASSITRADING/87914",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 13:18",
+      "text": "🎯 **[호르무즈 봉쇄와 라스 라판 LNG 피해, 유가·가스 가격 고착 위험 확대]** 호르무즈 해협 봉쇄 지속, 원유 시장 역사상 최대급 공급 차질로 평가; 해협 재개방 불확실성 높은 상황에서 Brent, 120달러 고점 대비 105달러로 하락했으나 하방 전환 제한 ...",
+      "link": "https://t.me/MASSITRADING/87910",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 13:18",
+      "text": "🎯 **[퇴직자산 50조 달러에도 접근 격차 확대, Social Security·인플레 대응 필요]** 시장 강세로 401k 잔고 증가 흐름에도 근로자 약 절반, 직장 내 매칭 포함 퇴직저축 플랜 접근 불가로 지적. 퇴직을 앞둔 집단 내에서도 저축·비상자금 부족층과 4...",
+      "link": "https://t.me/MASSITRADING/87908",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 13:03",
+      "text": "🎯 **[Disney 가치 재평가 조건으로 스트리밍 통합·콘텐츠 플라이휠·ESPN 재검토 제시]** Disney의 핵심 동력으로 ‘콘텐츠’가 재차 강조되며, 영화 흥행이 테마파크·소비자 제품·Disney+ 등으로 확산되는 플라이휠 구조가 가치의 기반이라는 논지 제시. ...",
+      "link": "https://t.me/MASSITRADING/87906",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 13:03",
+      "text": "🎯 **[HBM 중심 강한 수요 속 Micron 2027 EPS 상향, 장기 사이클 기대]** 메모리 시장 수요 강세 대비 공급 제약 지속, 공급 증가에도 수요가 흡수 가능하면 과거 대비 더 길고 완만한 사이클 형성 가능성 제기. HBM 계약 구조 장기화로 전통적 DD...",
+      "link": "https://t.me/MASSITRADING/87905",
       "keywords": [
         "상향",
         "수요",
@@ -77,49 +134,82 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-03-20 12:18",
-      "text": "🎯 **[AI 확산, 단기 고용 충격 가능성 속 생산성·재교육 통한 장기 고용 재편 전망]** AI 확산이 노동시장에 미칠 영향은 시점 단정이 어렵고, 단기적 고용 충격 가능성과 함께 신규 기회 창출이 병존한다는 관점 제시. 역사적으로 주요 기술혁신은 생산성 향상으로 ...",
-      "link": "https://t.me/MASSITRADING/87889",
+      "date": "2026-03-20 13:02",
+      "text": "🎯 **[미중 AI 경쟁, 첨단 반도체 제재·청정기술·감시AI로 확전]** 반도체는 기초 칩부터 데이터센터용 최첨단 칩까지 스펙트럼 존재, 중국은 기초 영역 진전 대비 최첨단 영역은 어려움 지속. 최첨단 반도체는 단일 국가 생산보다 고도화된 글로벌 공급망 의존 구조 강...",
+      "link": "https://t.me/MASSITRADING/87902",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 12:48",
+      "text": "🎯 **[패널, 중국 혁신의 산업 중심 전환과 반도체·배터리 격차 평가]** 패널, 중국 AI 역량 과소평가 경향과 함께 과대평가 위험도 병존한다고 진단. 중국 정책 우선순위, 인터넷 플랫폼·cryptocurrencies·Silicon Valley식 소비자 AI·Wal...",
+      "link": "https://t.me/MASSITRADING/87900",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 12:48",
+      "text": "🎯 **[Mustafa Suleyman, PI·open source 확산 속 미·중 AI 경쟁과 칩 공급망 언급]** Inflection AI Mustafa Suleyman, Google 재직 중 LaMDA 개발 경험 통해 large language models 미래성...",
+      "link": "https://t.me/MASSITRADING/87899",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 12:47",
+      "text": "🎯 **[Micron 실적 서프라이즈에도 마진 피크·CapEx 확대가 투자자 핵심 우려]** Micron은 실적 ‘beat and raise’ 이후에도 주가 급등 구간 특성상 기대치가 높아 실적 호조에도 실망 매물 가능성 제기. 투자자 우려 요인으로 gross marg...",
+      "link": "https://t.me/MASSITRADING/87898",
+      "keywords": [
+        "서프라이즈",
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 12:47",
+      "text": "🎯 **[유가 충격에 Fed 불확실성 확대, 시장은 성장보다 인플레이션 리스크 반영]** Fed SEP 전망치 신뢰도 저하 언급, 유가 충격 장기화 여부가 인플레이션·성장(dual mandate) 양방향 리스크로 부상. 금리 경로에서 시장은 연말까지 인하 기대를 60b...",
+      "link": "https://t.me/MASSITRADING/87897",
+      "keywords": [
+        "상향",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 12:33",
+      "text": "🎯 **[Market Madness 대진표에서 Adam Koons, JPMorgan·McDonald's 등 선택 근거 제시]** Yahoo Finance ‘Market Madness’ 토너먼트에서 32개 기업 대진을 두고 Winthrop Capital CIO Adam ...",
+      "link": "https://t.me/MASSITRADING/87895",
+      "keywords": [
+        "수요",
+        "업사이드"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-03-20 12:33",
+      "text": "🎯 **[유가·가스값 상승 속 경기 판단 신중, Edward Jones AI 활용 확대]** 유가 고점 지속과 인플레이션 재상승 가능성에 따라 가계·투자자 저축·소비·차입·투자 간 트레이드오프 확대 국면. Jerome Powell, 일부 지역 가스가격 1달러 이상 상승...",
+      "link": "https://t.me/MASSITRADING/87894",
       "keywords": [
         "수요"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-03-20 12:18",
-      "text": "🎯 **[유가·휘발유 급등, 소비 위축과 스태그플레이션 위험·기업 해고 압력 확대]** 유가 상승이 휘발유 가격으로 즉각 전이되며, 주유 비용 증가가 가계의 세후 가처분소득 감소로 직결되는 구조로 평가. 가격 충격 전이 효과가 거시지표에 반영되기까지 수 주의 시차 존재...",
-      "link": "https://t.me/MASSITRADING/87888",
+      "source": "@JAKE8LEE",
+      "date": "2026-03-20 12:46",
+      "text": "**Micron Technology: Very strong EPS; we expect it to persist (매우 강력한 주당순이익; 이러한 흐름이 지속될 것으로 기대) 출처:** Morgan Stanley    **본문:** AI 기반 수요와 구조적 공급 부족이 ...",
+      "link": "https://t.me/JAKE8LEE/11880",
       "keywords": [
+        "상향",
         "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-20 11:48",
-      "text": "🎯 **[Tesla 로봇 성장서사, 낙관론과 기술·칩·수요 현실론 충돌]** Tesla는 자율성(autonomy) 기반 미래로의 전환을 강조하며 로보틱스에 집중하고 있고, 투자자들은 해당 진척이 새로운 성장 동력이 될지 평가 중. Cantor의 Andres Shepar...",
-      "link": "https://t.me/MASSITRADING/87879",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-20 11:48",
-      "text": "🎯 **[로보틱스 성장축, 산업용 자동화에서 humanoid·embodied AI 및 부품으로 이동]** 방송은 로보틱스·automation 시장이 시연 중심 단계에서 매출 창출 단계로 이동 중이며, 공장뿐 아니라 물류·서비스·방위 영역까지 적용 범위 확장 흐름 언급....",
-      "link": "https://t.me/MASSITRADING/87878",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-03-20 11:02",
-      "text": "🎯 **[은 100달러·금 5,000달러대, 수집가치보다 금속가치 부각]** 귀금속 가격 급등 국면에서 은 100달러 상회, 금 5,000달러 상회 수준 언급되며 ‘피크 메탈’ 환경 부각. 수집품 시장에서 희소성 중요하나, 금·은 가격이 급등하면 수집가치보다 금속 자체...",
-      "link": "https://t.me/MASSITRADING/87861",
-      "keywords": [
-        "수요"
+        "공급",
+        "사이클"
       ]
     },
     {
@@ -597,15 +687,6 @@
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-03-16 15:01",
-      "text": "**[컨콜노트] 해성디에스, 25년 하반기부터 확 좋아지고 있음**  ✅ 22년 최대 실적 이후 부진했으나 25년부터 크게 회복세 보임  ✅ 리드프레임은 26년 1분기에도 수요가 매우 높은 상태임  ✅ 메모리 기판은 25년 수요 증가와 고객사 인증으로 매출 확대 전망 ...",
-      "link": "https://t.me/IRNOTE_YSTREET/4016",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
       "source": "@YAZA_STOCK",
       "date": "2026-03-19 08:38",
       "text": "[하나증권 반도체 김록호/김영규]  Company Research  링크: https://vo.la/SfulgDn  브이엠 (089970.KQ /매수): 예상보다 좋습니다  ◆ 1Q26 Preview: 고객사 신규 투자 수혜 집중  브이엠의 26년 1분기 매출액을 78...",
@@ -1044,16 +1125,6 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-03-19 08:29",
-      "text": "• 트리거: AI 시장의 예상보다 빠른 확장 및 HBM, 첨단 DRAM/NAND 수요의 지속적인 급증. 마이크론의 HBM4/4E 기술이 경쟁사를 압도하며 시장 점유율을 확대하고, 전략적 고객 계약(SCA)이 추가로 다수 체결되어 장기적인 수요 안정성이 확보될 때. • ...",
-      "link": "https://t.me/EASOBI/15109",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
       "source": "@TOPTOWNQUANT",
       "date": "2026-03-20 07:49",
       "text": "**# 관세 업데이트: \"급하니 러시아 제재 완화\" - 3월 20일**  ■ 미국 재무부, 국제유가 급등에 대응하기 위해 한시적으로 일부 러시아산 원유의 운송 및 판매를 허가   * 재무부 산하 해외자산통제국(OFAC), 이달 12일 이전 선적된 러시아산 원유·석유제품...",
@@ -1327,6 +1398,15 @@
       "link": "https://t.me/SKSRESEARCH/8207",
       "keywords": [
         "수요"
+      ]
+    },
+    {
+      "source": "@SURVIVAL_DOPB",
+      "date": "2026-03-20 12:29",
+      "text": "**WSJ: 사우디 관리들, 4월 말까지 공급 차질 지속 시 유가 배럴당 180달러가 기본 시나리오**...",
+      "link": "https://t.me/SURVIVAL_DOPB/12829",
+      "keywords": [
+        "공급"
       ]
     },
     {
