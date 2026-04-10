@@ -2,6 +2,16 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-04-10 14:03",
+      "text": "**루멘텀 CEO, 블룸버그TV 인터뷰 내용 **[**$LITE**](https://t.me/d_ticker)  Q. 공급 상황 “저희 제품은 2027년까지 기본적으로 매진된 상태라고 여러 번 말씀드린 바 있습니다. 이제는 2028년까지 주문량을 모두 채울 수 있을 것...",
+      "link": "https://t.me/IDEA_MEMO/21786",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-04-10 12:54",
       "text": "BREAKING: ANTHROPIC IS EXPLORING THE POSSIBILITY OF DESIGNING ITS OWN CHIPS, PER REUTERS [...](https://x.com/unusual_whales/status/2042423067733807348...",
       "link": "https://t.me/IDEA_MEMO/21785",
@@ -58,36 +68,55 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-10 12:48",
-      "text": "🎯 **[Morgan Stanley ETF 첫날 비트코인 450개 매수, 기관 수요 확대 신호]** Morgan Stanley 고객 기반 중심 신규 매수 주체 등장 가능성 부각. 해당 ETF 첫날 매수량 약 450개로, 채굴 물량에 근접한 수준 언급. IBIT 등 경쟁...",
-      "link": "https://t.me/MASSITRADING/100361",
+      "date": "2026-04-10 14:18",
+      "text": "🎯 **[private credit 리스크 ‘software’ 집중론 확산, Blue Owl 등 종목 변동성·디폴트 경계]** private credit 시장을 둘러싼 커뮤니케이션 강화 조짐: Goldman Sachs 기회 모색 보도, BlackRock의 포지셔닝 강조...",
+      "link": "https://t.me/MASSITRADING/100397",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-10 14:18",
+      "text": "🎯 **[Trump발 ‘서프라이즈’ 충격 약화 조짐, 장기 투자자엔 ‘충격 시 매수’ 메시지]** Trump 관련 헤드라인 리스크(taco trade) 시장 영향력, 최근 국면에서 둔화되는 양상. 작년 ‘리버레이션 데이’ 급변 시나리오에서 주가 약 20% 하락 경험 후...",
+      "link": "https://t.me/MASSITRADING/100396",
+      "keywords": [
+        "서프라이즈",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-10 14:03",
+      "text": "🎯 **[글로벌 분쟁 속 아프리카 자산, ‘편견 프리미엄’ 완화로 투자매력 부각]** 중동 전쟁 등 글로벌 분쟁이 리스크 평가 틀 재편, 일부 투자자와 크레딧 펀드 매니저들 사이에서 아프리카가 상대적으로 ‘더 안전한 베팅’으로 재조명. 펀드 매니저들은 아프리카의 구조적...",
+      "link": "https://t.me/MASSITRADING/100392",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-10 12:48",
-      "text": "🎯 **[중국 혁신 과대·과소평가 경계, EV 배터리·태양광 강세와 첨단 반도체 격차 공존]** 조지타운 CSET의 헬렌 토너, 중국의 혁신 역량을 과거처럼 과소평가해서는 안 되지만, 동시에 과대평가 위험도 존재한다고 지적. 예일대 차이나 센터의 댄 웡, 시진핑 지도부...",
-      "link": "https://t.me/MASSITRADING/100360",
+      "date": "2026-04-10 14:02",
+      "text": "🎯 **[iPhone 금 함량 0.034g·Costco 금괴 가격 프리미엄, 실물 금 접근 확대]** 금 가격 급등으로 보유 물품의 금 가치 평가 수요 확대, 일상 제품에도 소량의 금이 포함되는 구조 부각. iPhone 내부 금 사용: 부식 방지 목적, 회로기판·커넥터...",
+      "link": "https://t.me/MASSITRADING/100389",
       "keywords": [
-        "공급"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-10 12:48",
-      "text": "🎯 **[AI 확산 억제와 수출통제, NVIDIA·TSMC·ASML로 좁혀진 공급망 ‘초크포인트’ 부각]** 미국의 대중 수출통제와 ‘확산 방지’식 억제 전략 가능성 논의 속에서, 고급 AI 학습·추론이 NVIDIA 고성능 GPU 접근에 의존한다는 점이 정책 지렛대로 ...",
-      "link": "https://t.me/MASSITRADING/100359",
+      "date": "2026-04-10 14:02",
+      "text": "🎯 **[금 5,000달러·은 100달러대 급등, 수집품 가치보다 금속가치 우위]** 귀금속 가격 급등 국면에서 수집품 시장 성격 변화, 희소성 기반 수집 수요와 함께 금속 자체 가치가 수집가치 상회하는 사례 증가. 은 가격 상승으로 1964년 발행 Kennedy ha...",
+      "link": "https://t.me/MASSITRADING/100388",
       "keywords": [
-        "공급"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-10 12:33",
-      "text": "🎯 **[사토시 지목 보도 이후 Adam Back, 정체 추정 한계와 ETF 수요 확대 언급]** The New York Times 보도에서 Bitcoin 창시자 Satoshi Nakamoto로 Adam Back 지목 주장 제기. 인터뷰에서 언어·문체 유사성 기반 조사...",
-      "link": "https://t.me/MASSITRADING/100354",
+      "date": "2026-04-10 13:48",
+      "text": "🎯 **[금·은 급등과 변동성, 뉴욕 희귀동전 거래·감정 수요 확대]** 개인 투자자 금속 투자 참여 확대 사례로 코스트코 금괴 구매, 금광 관련 상장지수펀드 투자 언급. 뉴욕의 희귀 동전 경매·딜러 업체 스택스 바워스 갤러리즈 현장 취재에서, 금 가격 급등과 최근 한...",
+      "link": "https://t.me/MASSITRADING/100387",
       "keywords": [
         "수요",
         "공급"
@@ -95,77 +124,33 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-10 12:33",
-      "text": "🎯 **[전쟁 이후 에너지·기술주 재평가, 기술 섹터 45% 이익성장 대비 23배]** 지정학적 갈등 이전부터 에너지주는 상승 동력 존재했으며, 갈등 이후 매출 전망 개선으로 섹터 상향 조정 핵심 촉매로 작용. 전쟁 전 기술주는 소프트웨어 급락과 AI spending ...",
-      "link": "https://t.me/MASSITRADING/100353",
+      "date": "2026-04-10 13:48",
+      "text": "🎯 **[금, 2025~2026 사상 최고치 이후에도 연말 6,300달러 전망 확산]** 2020년 금 가격 온스당 1,656달러로 연중 최저치 기록, 연준 금리 인상에 따른 조정으로 설명. 2025년 10월 금 가격 4,000달러 상회로 사상 첫 돌파, 2025년 연...",
+      "link": "https://t.me/MASSITRADING/100385",
       "keywords": [
         "상향",
-        "수요",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-10 12:17",
-      "text": "🎯 **[휴전 국면에도 헤드라인 리스크 지속, 실적 시즌과 섹터 로테이션이 핵심 촉매]** 시장, 분쟁이 단기간에 마무리될 것이라는 기대를 유지하나 ‘취약한 휴전’으로 헤드라인 리스크 지속, 꼬리위험(tail risk) 하방 치우침 평가. 국면이 ‘확전 위협’에서 ‘구...",
-      "link": "https://t.me/MASSITRADING/100350",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-10 12:17",
-      "text": "🎯 **[지정학 불확실성 속 에너지 비중 점검, MAG 7 분할매수 전략 부각]** 지정학 긴장 고조로 에너지 중심 리스크 점검 필요, 포트폴리오 내 에너지 민감 업종 노출 재평가 필요하다는 조언 제시. 에너지 비중 부족 시 일부 편입 고려 가능하나, 항공·크루즈 등 ...",
-      "link": "https://t.me/MASSITRADING/100349",
-      "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-10 12:03",
-      "text": "🎯 **[Robco, Series C 1억달러 유치로 제조업용 physical AI 로봇 확장]** 휴머노이드 로봇이 주목받는 가운데, 산업 현장에서는 ‘특정 작업 최적화’ 로봇이 안전·생산성 관점에서 더 큰 효용을 제공한다는 시각 제기. (Gecko Robotics ...",
-      "link": "https://t.me/MASSITRADING/100344",
+      "date": "2026-04-10 13:33",
+      "text": "🎯 **[사우디 파이프라인·정유시설 타격, 생산·수출 차질로 에너지 공급 우려 확대]** Saudi Arabia 국영매체: 동서 파이프라인 공격으로 주중 처리량 하루 약 70만 배럴 감소. 주요 정유시설도 타격, 정제제품의 글로벌 시장 수출 차질 발생. 공격으로 Sau...",
+      "link": "https://t.me/MASSITRADING/100378",
       "keywords": [
-        "수요"
+        "공급",
+        "수주"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-10 11:48",
-      "text": "🎯 **[Tesla 로보틱스 성장 기대와 현실 제약 논쟁, 수요·칩 공급·EV 둔화가 핵심 변수]** Tesla, 자율성 기반 미래로의 전환을 강조하며 로보틱스에 집중하는 기조를 공개적으로 부각; 투자자들은 Tesla의 로보틱스 진척이 신규 성장 동력으로 이어질지 평가...",
-      "link": "https://t.me/MASSITRADING/100342",
+      "date": "2026-04-10 13:33",
+      "text": "🎯 **[미국-이란 휴전 기대 속 USD 동인, 유가·Fed 인하·엔화 변수 재부각]** 주말 예정 미국-이란 휴전 논의 앞두고 시장 포지셔닝 강화, 달러 강세 요인으로 작용. 달러 방향성 핵심 변수로 Strait of Hormuz 재개방, 원유 공급 정상화, 유가 하...",
+      "link": "https://t.me/MASSITRADING/100377",
       "keywords": [
         "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-10 11:48",
-      "text": "🎯 **[휴머노이드·embodied AI 상업화 가속, 부품 공급사 투자기회와 일정 지연 리스크]** Neurobot, Agibot, LG 신형 로봇, Caterpillar 대형 로봇 등 다양한 로봇 플랫폼 경쟁 심화 조짐. AMD 프로세서 활용 사례로 공장 로봇의 마...",
-      "link": "https://t.me/MASSITRADING/100341",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-10 11:48",
-      "text": "🎯 **[VFX 업계, generative AI로 제작 초기·시뮬레이션 가속 기대하나 대체는 제한적]** VFX 업계 관점에서 generative AI는 초기에는 일자리 대체 우려를 키웠으나, 데모 수준 ‘짧은 클립’과 달리 한계가 빠르게 확인돼 즉각적 전면 혁명보다는...",
-      "link": "https://t.me/MASSITRADING/100340",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-10 11:32",
-      "text": "🎯 **[아프리카 AI 확산, 선거·노동·언어·미중 지정학 리스크 동시 부각]** 아프리카 여러 국가에서 WhatsApp 같은 폐쇄형 메신저(dark social) 통해 메시지 확산 효과 가시성 낮음, 특정 정치·사회 이슈(반낙태 등) 캠페인 증폭 가능성 제기. 가봉 ...",
-      "link": "https://t.me/MASSITRADING/100337",
-      "keywords": [
-        "수요"
+        "공급",
+        "수주"
       ]
     },
     {
@@ -266,20 +251,6 @@
       "link": "https://t.me/JAKE8LEE/12048",
       "keywords": [
         "수요"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-04-08 09:22",
-      "text": "[하나증권 반도체 김록호/김영규]  Company Research  삼성전자 (005930.KS/매수): 2026년 영업이익 355조원으로 상향  링크: https://vo.la/ODlNfJT  ■ 1Q25 잠정실적 Review: 이익률 서프라이즈  삼성전자의 26년 ...",
-      "link": "https://t.me/JAKE8LEE/12047",
-      "keywords": [
-        "상향",
-        "서프라이즈",
-        "공급",
-        "업사이드",
-        "QoQ",
-        "YoY"
       ]
     },
     {
@@ -642,15 +613,6 @@
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-03-30 19:02",
-      "text": "#정해창 #2차전지 소비 심리 위축과 금리 동결 우려 소비자 심리 하락, 유가 상승, 인플레이션 우려 부각, 금리 인하 제한, 스태그플레이션 경계  #중동 #트럼프 중동 리스크와 트럼프 변수 이란 전쟁 확전 우려, 유가 공급 차질 우려 고조, 트럼프 정책 변화 가능성,...",
-      "link": "https://t.me/DAISHINSTRATEGY/5908",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
       "source": "@IRNOTE_YSTREET",
       "date": "2026-04-10 08:48",
       "text": "**[모닝브리프] 26.04.10.(금) 뉴스 TOP10 - 에코프로비엠, HD현대중공업, 삼성중공업, 네이처셀 등**   https://is.gd/E6jnnc  📈 방향을 보면 투자가 쉬워진다! '이선엽의 투자 나침반🧭'👉 https://vo.la/4aepaT2...",
@@ -768,15 +730,6 @@
         "상향",
         "공급",
         "수주"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-04-06 08:38",
-      "text": "**[모닝브리프] 26.04.06.(월) 뉴스 TOP10 - 삼성전자, 한화솔루션, 대상, 현대로템 등**   https://is.gd/P6fI0n  📈 방향을 보면 투자가 쉬워진다! '이선엽의 투자 나침반🧭'👉 https://vo.la/4aepaT2...",
-      "link": "https://t.me/IRNOTE_YSTREET/4207",
-      "keywords": [
-        "OP"
       ]
     },
     {
