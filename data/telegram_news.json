@@ -2,6 +2,33 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-04-10 12:54",
+      "text": "BREAKING: ANTHROPIC IS EXPLORING THE POSSIBILITY OF DESIGNING ITS OWN CHIPS, PER REUTERS [...](https://x.com/unusual_whales/status/2042423067733807348...",
+      "link": "https://t.me/IDEA_MEMO/21785",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-04-10 12:54",
+      "text": "OPENAI’S STARGATE PROGRAM EXEC PETER HOESCHELE EXITS FIRM – THE INFORMATION REPORTS [...](https://x.com/FirstSquawk/status/2042422682512474576)...",
+      "link": "https://t.me/IDEA_MEMO/21784",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-04-10 12:54",
+      "text": "*ANTHROPIC’S NEW AI MODEL REPORTEDLY DETECTED THOUSANDS OF SEVERE, DECADES-OLD SOFTWARE SECURITY VULNERABILITIES IN EVERY MAJOR OPERATING SYSTEM AND W...",
+      "link": "https://t.me/IDEA_MEMO/21783",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-04-10 06:59",
       "text": ">>“메모리 가격 하락설 사실과 달라… 공급 부족 심각, 올해 내 완화 어려워” — Transcend Information 회장  •트랜센드 회장은 시장에서 제기되는 메모리 가격 하락설과 달리, 실제 삼성전자,  마이크론 등 주요 공급업체와의 거래에서는 가격 약세가 전...",
       "link": "https://t.me/IDEA_MEMO/21774",
@@ -27,6 +54,33 @@
       "keywords": [
         "상향",
         "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-10 12:48",
+      "text": "🎯 **[Morgan Stanley ETF 첫날 비트코인 450개 매수, 기관 수요 확대 신호]** Morgan Stanley 고객 기반 중심 신규 매수 주체 등장 가능성 부각. 해당 ETF 첫날 매수량 약 450개로, 채굴 물량에 근접한 수준 언급. IBIT 등 경쟁...",
+      "link": "https://t.me/MASSITRADING/100361",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-10 12:48",
+      "text": "🎯 **[중국 혁신 과대·과소평가 경계, EV 배터리·태양광 강세와 첨단 반도체 격차 공존]** 조지타운 CSET의 헬렌 토너, 중국의 혁신 역량을 과거처럼 과소평가해서는 안 되지만, 동시에 과대평가 위험도 존재한다고 지적. 예일대 차이나 센터의 댄 웡, 시진핑 지도부...",
+      "link": "https://t.me/MASSITRADING/100360",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-10 12:48",
+      "text": "🎯 **[AI 확산 억제와 수출통제, NVIDIA·TSMC·ASML로 좁혀진 공급망 ‘초크포인트’ 부각]** 미국의 대중 수출통제와 ‘확산 방지’식 억제 전략 가능성 논의 속에서, 고급 AI 학습·추론이 NVIDIA 고성능 GPU 접근에 의존한다는 점이 정책 지렛대로 ...",
+      "link": "https://t.me/MASSITRADING/100359",
+      "keywords": [
+        "공급"
       ]
     },
     {
@@ -110,15 +164,6 @@
       "date": "2026-04-10 11:32",
       "text": "🎯 **[아프리카 AI 확산, 선거·노동·언어·미중 지정학 리스크 동시 부각]** 아프리카 여러 국가에서 WhatsApp 같은 폐쇄형 메신저(dark social) 통해 메시지 확산 효과 가시성 낮음, 특정 정치·사회 이슈(반낙태 등) 캠페인 증폭 가능성 제기. 가봉 ...",
       "link": "https://t.me/MASSITRADING/100337",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-10 11:03",
-      "text": "🎯 **[Costco 금괴 판매가 현물 대비 프리미엄, 구매 제한으로 수요 관리]** Costco 웹사이트 금괴 판매가 멤버십당 거래 1회당 1개로 제한되고, 24시간 내 최대 4개까지 구매 가능하도록 운영되며 수요 과열 관리 양상. 2024년 9월 취재 당시 금괴 가...",
-      "link": "https://t.me/MASSITRADING/100328",
       "keywords": [
         "수요"
       ]
