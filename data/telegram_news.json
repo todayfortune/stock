@@ -85,135 +85,176 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-29 13:18",
-      "text": "🎯 **[오티스, AI data center 수요로 미국 신규설비·현대화 수주 급증, 전망 강세]** 오티스, AI 인프라 건설 현장(data center, 반도체 제조시설, 리쇼어링 제조 투자)에서 엘리베이터 설치·서비스 수요 증가로 수혜. 데이터센터용 heavy i...",
-      "link": "https://t.me/MASSITRADING/111838",
+      "date": "2026-04-29 14:48",
+      "text": "🎯 **[볼보카, 1분기 이익 감소…미국 보조금 종료·중국 경쟁 속 EX60 확대]** 볼보카 1분기 실적이 감소했으며, 미국 내 전기차 수요 둔화와 중국 시장 경쟁 심화가 부담으로 언급. 관세 및 지정학 리스크가 소비심리와 판매에 영향을 주는 환경으로 평가. 완전 전...",
+      "link": "https://t.me/MASSITRADING/111881",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:48",
+      "text": "🎯 **[OpenAI 지표 미달 보도에 AI주 급락, CapEx·생산성 재검증 국면]** Wall Street Journal 보도에서 OpenAI 매출·사용자 목표 미달이 거론되며 Oracle, CoreWeave 등 AI 관련 종목이 급락. 경쟁 심화(Claude, G...",
+      "link": "https://t.me/MASSITRADING/111880",
       "keywords": [
         "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:48",
+      "text": "🎯 **[Coca-Cola 실적 서프라이즈, GM 가이던스 상향 속 업종별 명암]** PepsiCo 2026년 턴어라운드 스토리 선호 의견 제시와 함께, Coca-Cola 분기 실적 강한 서프라이즈로 평가. Coke Zero 13% 성장, 유기적 매출(organic s...",
+      "link": "https://t.me/MASSITRADING/111878",
+      "keywords": [
+        "상향",
+        "서프라이즈",
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:48",
+      "text": "🎯 **[오픈AI 성장 논란 속 AI 경쟁 재편, 빅테크 클라우드 성장 집중 점검]** 오픈AI가 매출 성장 둔화 우려와 내부 목표 미달 보도에 대해 반박하며, 소비자·기업 부문이 견조하다는 입장 표명. 관련 보도 여파 속 테크주 변동성 확대 관측. 미국 빅테크 실적 ...",
+      "link": "https://t.me/MASSITRADING/111877",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:48",
+      "text": "🎯 **[아디다스 1분기 운영이익 7억500만 유로로 컨센서스 상회]** 아디다스 1분기 운영이익 7억500만 유로로 시장 예상(6억4700만 유로) 상회. 의류 부문 모멘텀, 축구·러닝·트레이닝 제품 수요가 실적을 지지. 지정학 불확실성과 미국 관세 이슈로 스포츠웨어...",
+      "link": "https://t.me/MASSITRADING/111876",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:48",
+      "text": "🎯 **[도이체방크, FIC·FX 강세와 지정학 불확실성 속 자산유입 확대]** 도이체방크 트레이딩 부문에서 FIC가 견조한 흐름, 특히 크레딧과 FX가 두드러진 강세로 평가. 금리는 압박받았으나 크레딧·FX가 성과를 방어했고, 원자재 트레이딩도 호조로 전반적 투자은행...",
+      "link": "https://t.me/MASSITRADING/111875",
+      "keywords": [
+        "상향",
+        "쇼크",
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:32",
+      "text": "🎯 **[UAE OPEC 탈퇴 충격에도 핵심 변수 Strait of Hormuz 봉쇄 리스크]** UAE의 OPEC 탈퇴가 파트너들을 기습한 가운데, 유가는 Strait of Hormuz 관련 긴장 고조와 워싱턴의 대응을 함께 반영하며 불확실성 확대. 시장 일각에서 ‘...",
+      "link": "https://t.me/MASSITRADING/111871",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:32",
+      "text": "🎯 **[Fed 결정·빅테크 실적 앞두고 아시아 기술주 AI 기대 흔들림]** 아시아 시장, Fed 결정과 미국 대형 기술주 실적을 앞두고 기술주 중심 경계 심리 확대. 투자자 관심사: ‘Magnificent Seven’ 실적이 AI 수요와 관련 Capex 강세를 재확...",
+      "link": "https://t.me/MASSITRADING/111870",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:32",
+      "text": "🎯 **[실적 시즌 본격화, Coca-Cola 서프라이즈·UPS 부진·KMB M&A 부담]** 실적 시즌 본격화 국면에서 PepsiCo를 2026년 턴어라운드 스토리로 선호한다는 시각 제시. Coca-Cola 실적이 시장을 놀라게 했다는 평가: Coke Zero 13%...",
+      "link": "https://t.me/MASSITRADING/111869",
+      "keywords": [
+        "상향",
+        "서프라이즈"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:32",
+      "text": "🎯 **[Jimmy Kimmel 논란 재점화, Disney·ABC의 정치·평판 리스크 부각]** White House Correspondents Association 만찬 관련 Jimmy Kimmel의 ‘가짜 로스트’ 이후 President Trump가 공개적으로 하차...",
+      "link": "https://t.me/MASSITRADING/111867",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:32",
+      "text": "🎯 **[인플레이션 목표 완화론 부상 속 유가 상승·UAE의 OPEC 이탈 변수]** 인플레이션 통제 이후 목표치를 3%로 사실상 상향해 금리인하를 서두르자는 식의 완화적 통화정책 기대 언급 확산. Warsh가 인플레이션의 핵심 동인을 Federal Reserve로 지...",
+      "link": "https://t.me/MASSITRADING/111866",
+      "keywords": [
+        "상향",
         "공급",
+        "OP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:17",
+      "text": "🎯 **[아시아 기술주, Mag 7 실적에서 AI 수요·CapEx 확증 여부에 촉각]** 아시아 시장에서는 Fed 이벤트와 미국 대형 기술주 실적을 앞두고 기술주 중심으로 경계심리 확대. 투자자들은 Mag 7이 AI 수요 강세와 관련 CapEx 확대 지속성을 재확인할지...",
+      "link": "https://t.me/MASSITRADING/111865",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:17",
+      "text": "🎯 **[호르무즈 봉쇄 장기화 가능성과 UAE의 OPEC 탈퇴가 유가·공급전망 재편 촉발]** 언론 보도에 따르면 미국은 이란에 대한 경제 압박 강화를 위해 Strait of Hormuz 해상 봉쇄를 장기화하는 선택지를 검토·준비 중인 것으로 전해짐. 봉쇄로 이란의 저...",
+      "link": "https://t.me/MASSITRADING/111864",
+      "keywords": [
+        "공급",
+        "OP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:17",
+      "text": "🎯 **[UBS 1분기 이익 서프라이즈와 자사주 매입 재확인, 스위스 자본규제 갈등 지속]** UBS 1분기 순이익이 시장 예상치를 상회, 연내 최대 30억달러 규모 자사주 매입 계획도 재확인. 자사주 매입은 1분기에 이미 상당 부분 집행돼 연중 지속 가능성에 대한 시...",
+      "link": "https://t.me/MASSITRADING/111863",
+      "keywords": [
+        "서프라이즈"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:17",
+      "text": "🎯 **[유가 상승과 UAE의 OPEC 탈퇴, 연준 금리인하 여건 악화]** 연준 회의를 앞두고 유가 상승이 인플레이션 경로에 미치는 영향 재부각, 유가 급등 국면에서는 금리인하가 더 어려워진다는 시각 제시. core inflation이 2%를 상당 기간 상회해 왔으며...",
+      "link": "https://t.me/MASSITRADING/111860",
+      "keywords": [
+        "공급",
+        "OP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-04-29 14:17",
+      "text": "🎯 **[OpenAI 사용자·매출 목표 미달, compute 비용 부담으로 IPO 연기론 확산]** NVIDIA 임원 발언 인용 보도에서 AI 도입 국면에서 인건비보다 compute 비용이 더 큰 항목으로 부상했다는 관측 제기. 기업들이 인력 감축과 AI 대체를 서두르...",
+      "link": "https://t.me/MASSITRADING/111859",
+      "keywords": [
+        "수요",
         "수주"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-29 13:18",
-      "text": "🎯 **[GM, 비용 절감으로 EBIT 개선…에너지 상승 속 연간 현금흐름 전망 유지]** GM, Supreme Court 결정에 따른 전년도 관세 납부분 환급 크레딧 반영 언급. 연간 cash flow 가이던스 변화 없다고 설명했으나, 분기 cash flow 강세는 ...",
-      "link": "https://t.me/MASSITRADING/111837",
+      "date": "2026-04-29 14:02",
+      "text": "🎯 **[Strait of Hormuz 봉쇄 장기화 관측과 UAE의 OPEC 탈퇴, 유가·카르텔 영향 재평가]** Wall Street Journal 보도에 따르면 트럼프 대통령이 Strait of Hormuz 해상 봉쇄 장기화에 기울었다는 관측 제기, 에너지 시장에 ...",
+      "link": "https://t.me/MASSITRADING/111857",
       "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 13:18",
-      "text": "🎯 **[Fed·빅테크 실적 집중, Brent 111달러대·달러 보합 흐름]** 시장 이벤트: Fed 회의 예정, 금리 동결 전망 우세. Jerome Powell의 마지막 기자회견으로 거취 및 경제 평가·정책 반응함수 관련 발언 주목. USD, 회의 전 보합권. 주식·...",
-      "link": "https://t.me/MASSITRADING/111836",
-      "keywords": [
-        "공급",
-        "TP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 13:18",
-      "text": "🎯 **[미국, Strait of Hormuz 장기 해상봉쇄 준비로 이란 압박 강화]** Wall Street Journal 보도: President Donald Trump, 보좌진에 Strait of Hormuz 장기 미 해군 봉쇄 준비 지시. 전쟁 3개월째 진입, ...",
-      "link": "https://t.me/MASSITRADING/111835",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 13:18",
-      "text": "🎯 **[UAE, 5월 1일 OPEC 탈퇴 발표로 공급정책 자율성 확대]** UAE, 5월 1일부로 OPEC 및 OPEC Plus 탈퇴 발표. 60년 동맹 파트너들에 충격 유발, OPEC의 공급조절을 통한 유가 관리 능력 약화 가능성 부각. 에너지 커뮤니티 반응, ‘충...",
-      "link": "https://t.me/MASSITRADING/111834",
-      "keywords": [
-        "공급",
+        "서프라이즈",
         "OP"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-04-29 13:02",
-      "text": "🎯 **[UAE, OPEC Plus 탈퇴 발표로 유가 통제력 약화와 지정학 리스크 부각]** UAE, 5월 1일부로 OPEC 및 OPEC Plus 탈퇴 발표로 시장 충격; 공급 감산을 통한 카르텔의 유가 조정 능력 약화 우려. Iran 관련 전쟁·협상 국면과 연동된 원...",
-      "link": "https://t.me/MASSITRADING/111833",
+      "date": "2026-04-29 14:02",
+      "text": "🎯 **[Deutsche Bank·Lloyds·Swedbank 실적 대기, 트레이딩·대손충당금·금리 민감도 점검]** 유럽 은행 실적 발표를 앞두고 Deutsche Bank는 트레이딩 수익이 핵심 점검 항목. 전일 Barclays가 관련 지표에서 기대에 못 미쳤다는 평...",
+      "link": "https://t.me/MASSITRADING/111856",
       "keywords": [
-        "공급",
-        "OP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 13:02",
-      "text": "🎯 **[미국 대중 반도체 제재, 중국 AI·클린테크·감시기술 전략과 충돌]** 미국, AI 플랫폼 구동 핵심인 첨단 칩과 반도체 생산장비에 대한 대중 제재 강화로 중국 기술역량 견제 시도. 중국, 태양광 패널·전기차 배터리 등 클린테크 제조 경쟁력 부각되며, 군사적 ...",
-      "link": "https://t.me/MASSITRADING/111832",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 13:02",
-      "text": "🎯 **[GM, 대법원 IEPA 환급으로 관세부담 5억달러 감소에도 FCF 가이던스 유지]** GM 분기 실적에서 대법원 판결에 따른 IEPA 환급 관련 회계상 이익 반영으로 관세 부담 약 5억달러 감소가 언급됨(전년도 납부 관세의 금년도 부담 경감 성격). 현금 유입...",
-      "link": "https://t.me/MASSITRADING/111831",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 13:02",
-      "text": "🎯 **[호르무즈 차질로 원유·LNG 공급 축소, AI 전력수요가 가스발전 확대 촉진]** 호르무즈 해협 통제로 세계 원유 약 20% 및 LNG·비료 등 주요 물량 이동 차단, 글로벌 공급망에 대규모 충격 발생 가능성 부각. 사우디 파이프라인 우회 물량 약 700만 배...",
-      "link": "https://t.me/MASSITRADING/111830",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 12:48",
-      "text": "🎯 **[유가·비료비 상승과 USAID 공백, 구호비용 확대·기아 위험 가중]** World Central Kitchen 활동 범위 확대: 가자에서 누적 3억5천만 끼 이상 제공, 하루 100만 끼 규모까지 확대; 레바논·이스라엘 북부·우크라이나 전선 인근 등 분쟁 지...",
-      "link": "https://t.me/MASSITRADING/111829",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 12:48",
-      "text": "🎯 **[Toner·Wong, 중국 혁신 과소·과대평가 경계…배터리·클린테크 우위]** Helen Toner, 중국을 과소평가해온 미국 내 인식 변화 설명: 과거 ‘혁신 불가·기술 절취’ 서사가 더는 성립하지 않지만, 반대로 과대평가 가능성도 존재. Dan Wong, ...",
-      "link": "https://t.me/MASSITRADING/111827",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 12:48",
-      "text": "🎯 **[Suleyman, AI 패권은 미국 우위 전망…GPU 공급망·수출통제 변수]** Mustafa Suleyman, Google 재직 시절 LaMDA 개발 경험을 바탕으로 대규모 언어모델이 핵심 인프라가 될 것으로 보고 Inflection AI 창업 배경 설명. ...",
-      "link": "https://t.me/MASSITRADING/111826",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 12:18",
-      "text": "🎯 **[백악관 과학고문, AI로 암·기후 ‘moonshot’ 가속 강조]** 대통령 과학고문이자 OSTP 수장인 Arati Prabhakar, AI를 ‘시대의 최대 기회 중 하나’로 규정하며 위험 관리와 기회 포착을 병행하는 백악관 추진 과제 설명. 미국 기업 주도의...",
-      "link": "https://t.me/MASSITRADING/111819",
-      "keywords": [
-        "TP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-04-29 12:17",
-      "text": "🎯 **[유가 상승 장기화 시 소비·인플레이션 기대 흔들림, Fed 목표·금리 경로 압박]** 미국 성장 핵심 동력 미국 소비자 지출로 평가되며, 고유가가 소비를 훼손할 경우 경기 위험 확대 가능성 제기. 고유가 영향 즉각적·가시적 성격으로, 항공요금 급등 이후 운송·...",
-      "link": "https://t.me/MASSITRADING/111815",
-      "keywords": [
-        "공급"
+        "수요"
       ]
     },
     {
@@ -545,6 +586,16 @@
     },
     {
       "source": "@DAISHINSTRATEGY",
+      "date": "2026-04-29 14:44",
+      "text": "[장 중 시황] 오픈AI발 악재에도 삼성전자 강세, 코스피 상승 견인 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(14시 40분): KOSPI +0.63% 상승 / 6,682.53pt  (KOSDAQ: +0.21% 상승 / 1,218.10pt) - 원...",
+      "link": "https://t.me/DAISHINSTRATEGY/5983",
+      "keywords": [
+        "공급",
+        "OP"
+      ]
+    },
+    {
+      "source": "@DAISHINSTRATEGY",
       "date": "2026-04-29 08:27",
       "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민입니다. [4월 29일 주요국 이슈] 보내드립니다.  # 미국 미국-이란 간 교착 국면이 장기화되며 11월 중간선거를 앞둔 트럼프 행정부의 정치, 경제적 부담이 가중. 이란은 호르무즈 해협 재개방...",
       "link": "https://t.me/DAISHINSTRATEGY/5982",
@@ -756,12 +807,12 @@
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-04-16 14:27",
-      "text": "[장 중 시황] 불확실성 완화 기대 속 코스피 6,200선 회복 시도 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(14시 15분): KOSPI +1.53% 상승 / 6,184.70pt  (KOSDAQ: +0.78% 상승 / 1,161.37pt) - 원...",
-      "link": "https://t.me/DAISHINSTRATEGY/5952",
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-04-29 13:51",
+      "text": "**[컨콜노트-전체공개] KB금융, 비은행 어닝 서프라이즈 및 주주환원 정책 순항**  ✅ 1분기 당기순이익 1조 8,924억 원을 기록하며 비은행 계열사 이익 등으로 전년 동기 대비 11.5% 증가함  ✅ 주당 1,143원 현금 배당과 자사주 소각을 결의하며 강력한 ...",
+      "link": "https://t.me/IRNOTE_YSTREET/4397",
       "keywords": [
-        "공급"
+        "서프라이즈"
       ]
     },
     {
@@ -1782,27 +1833,6 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-04-26 20:13",
-      "text": "📅 Catalyst Watch (week of 4/27) - 주간 전략 프리뷰  🧭 한눈에 보는 주간 핵심 4월 27일 주간은 정말로 바쁜 한 주가 될 예정입니다! 🤯 주요 중앙은행들의 통화 정책 결정, 핵심 경제 지표 발표, 그리고 수많은 기업들의 실적 발표가 줄지어...",
-      "link": "https://t.me/EASOBI/15513",
-      "keywords": [
-        "수요",
-        "공급",
-        "OP"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-04-26 20:13",
-      "text": "*   관세는 시장에 부담으로 남아있습니다. 백악관은 USMCA(트럼프 1기 협상)에 대한 상당한 변화를 모색할 것으로 예상되며, 다양한 301조 조사는 여름까지 새로운 수입세 부과의 구실을 제공할 수 있습니다.  🧾 핵심 종목/실적 이슈  *   **URI (Unit...",
-      "link": "https://t.me/EASOBI/15512",
-      "keywords": [
-        "상향",
-        "OP"
-      ]
-    },
-    {
       "source": "@TOPTOWNQUANT",
       "date": "2026-04-29 08:02",
       "text": "**# 관세 업데이트: \"저가 모델 철수?\" - 4월 29일**  ■ 월스트리트저널, 현대자동차와 도요타 등 완성차 업체들이 USMCA가 현 수준을 유지하지 못할 경우 미국 내 저가 모델 철수를 검토 중이라 보도   * 현재 미국 시장에서 소비자 접근성이 높은 소형 저...",
@@ -1884,24 +1914,6 @@
       "link": "https://t.me/TOPTOWNQUANT/13214",
       "keywords": [
         "사이클"
-      ]
-    },
-    {
-      "source": "@TOPTOWNQUANT",
-      "date": "2026-04-23 08:13",
-      "text": "└ 아쉽게 40조원대 발표는 아니었지만, 역대급 마진 71.5%로 마이크론 OPM 초과 달성! ㅎㄷㄷ 👏👏...",
-      "link": "https://t.me/TOPTOWNQUANT/13213",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@TOPTOWNQUANT",
-      "date": "2026-04-23 08:13",
-      "text": "「SK하이닉스」 1Q26 실적발표  04/23 7:34 DART 공시  ◆ 수급 정보 - 종목주인: 기관 - 수급레벨: 꽉찬집  ◆ 실적 정보 - 매출액  52조 5763억원 (198% y // 60% q) - 영업익  37조 6103억원 (405% y // 96% q...",
-      "link": "https://t.me/TOPTOWNQUANT/13212",
-      "keywords": [
-        "OP"
       ]
     },
     {
