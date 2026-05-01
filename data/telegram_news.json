@@ -38,9 +38,18 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-01 15:02",
-      "text": "🎯 **[Apple 강한 매출 가이던스에도 마진 압박 경고, Nvidia는 AI chip 경쟁 격화]** OpenAI CFO, 제품 수요가 매우 강하다고 언급하며 매출·사용자 성장 목표 미달 논란 반박; 회사 차원에서 상위 수준 계획을 상회한다고 평가. Tesla 공시...",
-      "link": "https://t.me/MASSITRADING/113093",
+      "date": "2026-05-01 17:18",
+      "text": "🎯 **[Fed·ECB·BOE 동결에도 경로 분화, 에너지발 인플레·성장 둔화 리스크 확대]** Fed·ECB·Bank of England 모두 최근 며칠간 기준금리 동결했으나, 향후 정책 경로와 커뮤니케이션은 상이. 에너지 가격 상승이 헤드라인 인플레이션을 기계적으로...",
+      "link": "https://t.me/MASSITRADING/113137",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 17:18",
+      "text": "🎯 **[Apple 매출 가이던스 예상 상회, 메모리 비용·AI 전략이 핵심 변수]** Apple, 3분기 매출 전망치 예상 상회로 두 자릿수 성장 제시. 메모리 칩 비용 상승과 공급 압력 지속 경고, 향후 원가·마진 변동 요인 부각. iPhone 판매는 기대치 부합 ...",
+      "link": "https://t.me/MASSITRADING/113135",
       "keywords": [
         "수요",
         "공급"
@@ -48,89 +57,117 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-01 14:47",
-      "text": "🎯 **[ECB·BOE, 6월 인상 가능성 열어두고 데이터 점검 강화]** 유럽 중앙은행(ECB)과 Bank of England(BOE), 중동 갈등발 인플레이션 압력에 대응해 6월 금리 인상 가능성을 검토했으나 당장은 동결 기조 유지. ECB는 지정학 불확실성 전개를...",
-      "link": "https://t.me/MASSITRADING/113089",
-      "keywords": [
-        "구조적 성장"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-01 14:47",
-      "text": "🎯 **[이란 봉쇄 발언 속 유가 변동 지속, 기술주 강세와 Apple 가이던스 주목]** 미국 대통령, 이란 봉쇄 효과 강조했으나 합의 가능성 불확실성 지속; 이란 최고지도자, 핵기술 포기 불가 입장 시사. 아시아 휴장 확대에도 일본 Nikkei 225 상승, 기술주...",
-      "link": "https://t.me/MASSITRADING/113087",
-      "keywords": [
-        "상향",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-01 14:33",
-      "text": "🎯 **[강한 tech 실적에 미국 선물 상승, Nikkei 225 강세…Apple 가이던스 상향 주목]** 강한 tech giants 실적에 미국 주가지수 선물 상승. S&P E-minis 약 0.2% 상승으로 추가 랠리 시사. 4월 미국 증시, 2020년 이후 최고...",
-      "link": "https://t.me/MASSITRADING/113085",
-      "keywords": [
-        "상향",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-01 14:32",
-      "text": "🎯 **[이란 전쟁 장기화 속 호르무즈 해협 통제·OPEC 균열, 유가 상승 압력]** 이란 전쟁 3개월차 진입, 글로벌 경제·지정학 관계 충격 확대. 미국 해군의 이란 항만 봉쇄 구상 부각, 제재·경제압박 강화로 이란의 양보 유도 시도. 다만 이란의 제재 회피 경험,...",
-      "link": "https://t.me/MASSITRADING/113081",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-01 14:17",
-      "text": "🎯 **[호르무즈 차질로 하루 1천만 배럴 이상 공백…OPEC+ 상징적 증산에도 공급부족 지속]** Strait of Hormuz 봉쇄로 페르시아만발 물량 유입 급감, 시장에서 하루 1천만 배럴 이상 공급 공백 발생 관측. 공급 공백 대응으로 일부 지역 저장유 방출 및...",
-      "link": "https://t.me/MASSITRADING/113078",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "OP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-01 14:02",
-      "text": "🎯 **[Trump의 Iran 항구 봉쇄로 유가 강세, 빅테크 실적에 주식선물 상승·yen 개입 여파 지속]** Trump가 Iran 항구 봉쇄를 강화하며 원유가 2주 연속 상승 흐름, 시장은 중동 전개(휴전 여부 포함)에 따라 위험선호가 급변하는 국면. 미국 주식선물...",
-      "link": "https://t.me/MASSITRADING/113072",
+      "date": "2026-05-01 17:02",
+      "text": "🎯 **[유가 2주 연속 상승, 일본 yen 개입·Apple 비용 경고로 시장 변동성 확대]** 원유, 2주 연속 상승 흐름 지속. Brent 배럴당 111달러 상회, WTI 106달러 근접. Trump, 이란 항만에 대한 해상 봉쇄 정책을 고수한다는 입장 언급과 맞물...",
+      "link": "https://t.me/MASSITRADING/113132",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-01 14:02",
-      "text": "🎯 **[UAE의 OPEC 탈퇴로 부각된 Saudi-UAE 균열과 중동 4대 동맹 재편]** Iran 전쟁 이후 UAE-Saudi Arabia 관계 악화, UAE의 OPEC 탈퇴 결정으로 균열 가시화. 핵심 원인 3가지로 정리: (1) 원유 생산전략 차이—UAE 증산·...",
-      "link": "https://t.me/MASSITRADING/113069",
-      "keywords": [
-        "공급",
-        "OP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-01 13:48",
-      "text": "🎯 **[Ooredoo 1분기 매출 6% 증가, 데이터센터·해저케이블로 연결성 투자 지속]** Qatari telco Ooredoo, 1분기 매출 전년 대비 6% 증가로 시장 예상 부합. 순이익 4.7% 증가. 디지털 인프라 전략 축으로 core telco·데이터센터·...",
-      "link": "https://t.me/MASSITRADING/113066",
+      "date": "2026-05-01 17:02",
+      "text": "🎯 **[Fitch Q1 defaults 경고 속 private credit 스프레드 확대, ABL 성장 전망]** Fitch Ratings 보고서, Q1 신규 private credit 차입자 defaults가 기록적 수준으로 증가했다고 지적. 일부 대형 운용사들이 ...",
+      "link": "https://t.me/MASSITRADING/113131",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-01 13:48",
-      "text": "🎯 **[Strait of Hormuz 봉쇄 장기화 관측에 Brent 변동성 확대, OPEC 대응 주목]** 유가, Strait of Hormuz를 둘러싼 군사·외교 헤드라인에 민감하게 반응. Axios 보도 기준 President Trump와 CENTCOM 수장 간 ...",
-      "link": "https://t.me/MASSITRADING/113065",
+      "date": "2026-05-01 17:02",
+      "text": "🎯 **[소프트웨어 저평가·AI 전환 기대, private credit 미국 편중 리스크 부각]** 소프트웨어 대형주(Salesforce·ServiceNow·Intuit·Adobe) 일부 종목, forward earnings 기준 약 8배 거래로 밸류에이션 저렴 구간 ...",
+      "link": "https://t.me/MASSITRADING/113129",
       "keywords": [
+        "업사이드"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 17:02",
+      "text": "🎯 **[방송 송출 중 성과 재점검과 기반·원천 작업, 단기 공급 언급]** 영상 시청에 대한 감사 인사가 반복적으로 제시됨. 송출 과정에서 성과로의 복귀 필요성 언급과 함께 기반·원천에 대한 작업 진행 내용 제시됨. 약 3.5분 구간에서 공급이 나타난다는 취지의 표현...",
+      "link": "https://t.me/MASSITRADING/113128",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 16:48",
+      "text": "🎯 **[유가발 인플레 속 금리 인상 비판…AI·데이터센터 투자로 미국 성장 견조]** Marathon Asset Management Bruce Richards, 유가 주도 인플레이션 환경에서 ECB 등 중앙은행의 금리 인상이 실물 공급 개선 없이 수요만 훼손해 성장률...",
+      "link": "https://t.me/MASSITRADING/113127",
+      "keywords": [
+        "수요",
         "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 16:48",
+      "text": "🎯 **[호르무즈 봉쇄 장기화로 원유 공급 공백 심화, 수요 파괴 임계치 논쟁]** Brent, 주간 기준 2주 연속 상승 흐름 유지. 원유 가격이 인플레이션·성장 전망의 핵심 변수로 부상, ECB·BOE도 유가 변수 강조. 수요 파괴 논쟁: Kepler 분석가들, 배...",
+      "link": "https://t.me/MASSITRADING/113126",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 16:32",
+      "text": "🎯 **[Apple 매출 전망 강세에도 메모리 비용·공급 제약이 마진 우려 촉발]** Apple 시간외 거래에서 소폭 상승했으나, 3분기 두 자릿수 매출 성장 전망에도 주가 반응은 제한적. 중국 매출이 전년 대비 20%대 후반 성장으로 회복 흐름 지속. 회사는 메모리 ...",
+      "link": "https://t.me/MASSITRADING/113121",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 16:18",
+      "text": "🎯 **[호르무즈 봉쇄 장기화 가능성에 채권 금리 급등, 주식 재평가 논쟁]** 호르무즈 해협 봉쇄 지속과 유가·인플레이션 변수에도 주식시장, 휴전 이후 강한 랠리 지속; S&P 500 실적 시즌서 ‘어닝 서프라이즈’가 주가 방어 요인으로 작용. 채권시장은 보다 비관적...",
+      "link": "https://t.me/MASSITRADING/113117",
+      "keywords": [
+        "서프라이즈",
+        "쇼크",
+        "수요",
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 16:18",
+      "text": "🎯 **[FTSE 100 약세 속 NatWest 급락, Diageo 관세 완화 기대에 강세]** 런던 증시서 FTSE 100, 예상 범위 수준 하락(약 -0.3%) 흐름; 은행주 약세가 지수 부담 요인으로 부각. NatWest, 이익 서프라이즈에도 주가 약 -3%대 하...",
+      "link": "https://t.me/MASSITRADING/113116",
+      "keywords": [
+        "서프라이즈"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 16:02",
+      "text": "🎯 **[ECB 금리인상 신호에 ‘정책 실수’ 경계…2011년 재현 위험 부상]** ECB가 금리인상 가능성을 시사하자 시장은 인상 ‘단발’인지 ‘연속’인지에 촉각. 장기 유로존 인플레이션 기대(5년 구간) 상대적으로 앵커링 평가가 있으나, 원자재·공급측발 인플레 국면...",
+      "link": "https://t.me/MASSITRADING/113113",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 15:48",
+      "text": "🎯 **[AI 밸류에이션 논쟁 재점화, 기술 가속 국면에서 자본 과잉과 조정 가능성 공존]** AI 테마를 두고 ‘버블’ 논쟁이 이어지는 가운데, 초대형 시가총액(예: 5조 달러) 기업 존재만으로 버블로 단정하기 어렵다는 견해 제시. 기술 혁신 가속 구간에서는 신규 기...",
+      "link": "https://t.me/MASSITRADING/113109",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-01 15:48",
+      "text": "🎯 **[미국 NEC, 전쟁발 가솔린 급등 일시적 평가와 OPEC 체제 약화 가능성 언급]** 미국 행정부는 전쟁 여파로 가솔린 가격이 높은 수준이나 일시적 현상으로 평가. 백악관은 전쟁의 부수 효과로 특정 국가(OEE)가 OPEC에서 이탈해 OPEC 결속이 약화될 수...",
+      "link": "https://t.me/MASSITRADING/113108",
+      "keywords": [
         "OP"
       ]
     },
