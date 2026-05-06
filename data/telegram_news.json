@@ -2,6 +2,15 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-05-06 17:25",
+      "text": "**>>Micron Technology 임원: AI가 전 세계 스토리지를 ‘소모’하며 모든 데이터를 “가열”하고 있다**  •Micron의 데이터센터 사업 책임자 Jeremy Werner는 AI가 전례 없는 속도로 데이터를 생성하고 소비하고 있다고 밝혔음. 생성형 AI...",
+      "link": "https://t.me/IDEA_MEMO/22943",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-05-06 12:34",
       "text": "마이크론 CEO) 현재 고객 수요의 50%에서 3분의 2 정도만 충족할 수 있습니다....",
       "link": "https://t.me/IDEA_MEMO/22938",
@@ -77,51 +86,76 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-05-05 22:55",
-      "text": "이튼 실적 발표 후 주가반응에 대해서 이건 산업문제라기보단 개별주 이슈로 보는 게 합리적일 거 같습니다  분기 실적은 양호했습니다 특히 핵심인 아메리카 사업부는 유기매출 14% 12개월 롤링 주문 42% 수주잔고 44%늘었고 글로벌과 에어로 스페이스도 양호했습니다 모빌...",
-      "link": "https://t.me/IDEA_MEMO/22913",
-      "keywords": [
-        "상향",
-        "수요",
-        "수주"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-05-05 22:39",
-      "text": "$MU $SNDK $DRAM JUST IN: LTA Expansion  Samsung and SK hynix are expanding Long-Term Agreements (LTAs) with major clients amid surging AI demand and t...",
-      "link": "https://t.me/IDEA_MEMO/22910",
-      "keywords": [
-        "QoQ"
-      ]
-    },
-    {
       "source": "@MASSITRADING",
-      "date": "2026-05-06 14:48",
-      "text": "🎯 **[Infineon 매출 전망 상향, 드레스덴 증설로 AI 수요 대응·가격 인상]** Infineon은 연간 매출 가이던스를 상향 조정했고, 주가는 최근 3개월 약 50% 상승하며 Euro Stoxx 50 내 최고 성과 종목으로 언급.     __🗣 Sven Sc...",
-      "link": "https://t.me/MASSITRADING/115302",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-06 14:48",
-      "text": "🎯 **[Equinor 1분기 100억달러대 이익, 생산 9% 증가·자사주 매입 재개]** Equinor는 1분기 시장 예상을 웃도는 이익을 발표했으며, 유가·가스 가격 상승이 실적에 기여. 2026년 자사주 매입 프로그램의 두 번째 트랜치를 최대 3억7,500만달러 ...",
-      "link": "https://t.me/MASSITRADING/115301",
+      "date": "2026-05-06 17:33",
+      "text": "🎯 **[호르무즈 해협 협상 불확실, 에너지·원자재 기업 실적 변수 확대]** 실적시즌에서 중동 지정학이 핵심 변수로 부상, 에너지·원자재 기업들이 공급 충격과 물류 리스크를 실적·가이던스에 반영하는 흐름. 브라질 광산업체 Vale 실적은 철광석 가격 상승에도 운영상 ...",
+      "link": "https://t.me/MASSITRADING/115354",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-06 14:48",
-      "text": "🎯 **[BMW 마진 5%로 예상치 근접, Novo Nordisk 순이익·마진 서프라이즈]** BMW 1분기(방송 언급 기준) 영업이익률 약 5%로 시장 예상치(약 5.16%)에 근접; EBIT 약 20억달러로 예상(약 22억달러) 하회. BMW 자동차 부문 매출은 약...",
-      "link": "https://t.me/MASSITRADING/115300",
+      "date": "2026-05-06 17:33",
+      "text": "🎯 **[Novo Nordisk, Wegovy pill 급성장·가격 인하로 Eli Lilly 추격]** Novo Nordisk, 1분기 실적이 시장 예상 상회, 미국 내 Wegovy pill 판매 호조가 주요 요인으로 언급. 출시 16주 만에 사용자 100만명 이상, ...",
+      "link": "https://t.me/MASSITRADING/115353",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 17:33",
+      "text": "🎯 **[달러 약세 흐름 속 신흥국 비중 확대, 에너지 충격 인플레·금리 장기화]** 중기적으로 달러 비중을 줄이는 구조적 자금 흐름 지속 관측, 신흥국 자산·통화에 우호적 환경으로 평가. 선진국에서 재정·정책 신뢰도 약화 인식 확산, 신흥국 상대적 신뢰도 개선과 함께...",
+      "link": "https://t.me/MASSITRADING/115352",
+      "keywords": [
+        "상향",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 17:18",
+      "text": "🎯 **[에너지·금리 고점 속 위험자산 회복, 달러는 구조적 약세 압력 확대]** 시장 가격이 에너지·금리의 긴장과 위험자산의 회복을 동시에 반영하는 ‘이중 구조’가 관찰됨: 에너지 가격은 조정에도 여전히 높은 수준, 국채금리도 높은 반면, 크레딧·주식·일부 통화는 전...",
+      "link": "https://t.me/MASSITRADING/115350",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 17:18",
+      "text": "🎯 **[유럽 방산 지출 확대 가속, 독일 2030년 국방비 GDP 4% 목표]** 우크라이나 전쟁으로 촉발된 유럽 방산지출 확대 흐름에 더해, 이란 전쟁을 둘러싼 유럽-미국 간 균열이 유럽의 ‘자체 조달·자체 기술’ 추진을 강화. 미국이 유럽의 이란 전쟁 지원 부족을...",
+      "link": "https://t.me/MASSITRADING/115348",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 17:03",
+      "text": "🎯 **[AMD, data center 성장과 GPU 점유율 확대로 Nvidia 격차 축소 기대 커져]** AMD, data center 성장세와 제품 경쟁력으로 주가 강세 재개 가능성 부각. Nvidia 대비 매출 규모 격차는 크지만 고성장 지속 시 밸류에이션·추정치...",
+      "link": "https://t.me/MASSITRADING/115344",
+      "keywords": [
+        "상향",
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 17:03",
+      "text": "🎯 **[Infineon, 분기 매출 전망치 상회로 AI 인프라·자동차 수요 회복 수혜 확인]** 독일 칩메이커 Infineon, 현재 분기 매출 전망이 시장 예상 상회. 주가, 장중 변동성 확대 속 소폭 약세 흐름도 동반. AI 인프라 투자 확대에 따른 data ce...",
+      "link": "https://t.me/MASSITRADING/115343",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 17:03",
+      "text": "🎯 **[Novo Nordisk, Wegovy 경구제 판매 호조로 가이던스 상향에도 경쟁 리스크 부각]** Novo Nordisk, 실적에서 조정 매출과 조정 영업이익 핵심 지표 다수 상회. 시장 반응 긍정적이나 상향된 가이던스 자체는 ‘서프라이즈’ 수준 아니라는 평가...",
+      "link": "https://t.me/MASSITRADING/115342",
       "keywords": [
         "상향",
         "서프라이즈"
@@ -129,9 +163,38 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-06 14:33",
-      "text": "🎯 **[AMD, 데이터센터 지출로 2분기 매출 전망 상향…Anthropic 도구화도 주목]** AMD 주가, 데이터센터 지출 확대에 따른 매출 전망 상향으로 시간외 거래에서 11% 이상 급등. 회사, 2분기 매출을 약 112억 달러로 제시해 시장 예상 상회. 시장에서...",
-      "link": "https://t.me/MASSITRADING/115295",
+      "date": "2026-05-06 17:02",
+      "text": "🎯 **[AMD 데이터센터 고성장 지속, GPU 점유율 확대와 inferencing 전환 수혜]** AMD 주가, 실적 발표 이후 시간외 강세 흐름 지속 시 당일 기록 경신 가능성 거론. Nvidia 매출 규모, AMD 대비 약 7.5배로 격차 매우 큰 상황. AMD ...",
+      "link": "https://t.me/MASSITRADING/115341",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 16:48",
+      "text": "🎯 **[Novo Nordisk, Wegovy 경구제 미국 매출로 Q1 서프라이즈·가이던스 상향 주가 급등]** Novo Nordisk 주가 급등. Wegovy 경구제(미국) 판매 호조가 1분기 이익 개선을 견인하며 시장 기대 상회. 회사는 연간 adjusted sal...",
+      "link": "https://t.me/MASSITRADING/115339",
+      "keywords": [
+        "상향",
+        "서프라이즈"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 16:48",
+      "text": "🎯 **[Continental, Q1 마진 개선에도 중동발 원가·관세 리스크 관리로 가이던스 유지 ContiTech 매각]** Continental 주가 독일 시장에서 강세. 1분기 실적, 고마진 타이어 및 제품 판매 효과로 개선. 중동 분쟁이 향후 원자재 가격 급등을...",
+      "link": "https://t.me/MASSITRADING/115338",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 16:48",
+      "text": "🎯 **[트럼프, 호르무즈 해협 조치 일시중단; 엔화 강세·삼성 시총 1조달러·KOSPI 급등]** 트럼프 대통령, 호르무즈 해협에서 발이 묶인 선박의 이탈을 돕기 위한 미국 주도 노력 일시중단 언급. 이란과 전쟁 종결 합의 가능성 점검 목적. 구체적 협상 진행 여부·...",
+      "link": "https://t.me/MASSITRADING/115337",
       "keywords": [
         "상향",
         "수요"
@@ -139,50 +202,42 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-06 14:33",
-      "text": "🎯 **[Hensoldt, 매출 25% 증가·방산 수요 구조적 확대 속 독일 국방예산 급증]** Hensoldt, 전년 대비 매출 25% 성장, 수익성 50% 개선 등 1분기 실적 강세 언급. Germany 중심 차량 프로그램 주문 증가와 함께 수요 구조 변화 확인, ...",
-      "link": "https://t.me/MASSITRADING/115294",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-06 14:18",
-      "text": "🎯 **[Hensoldt 1분기 수주·수익성 급증, MDO 기반 통합전 역량 강조]** 독일 방산업체 Hensoldt, 1분기 사상 최대 수주와 수익성 개선 발표. 지정학적 긴장 고조와 전장 양상 변화가 감시·정찰·지휘통제 등 정보우위 관련 수요를 자극하는 국면으로 소...",
-      "link": "https://t.me/MASSITRADING/115292",
-      "keywords": [
-        "수요",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-06 14:02",
-      "text": "🎯 **[Saudi Aramco 아시아향 OSP 인하, Hormuz 변수로 가격책정 딜레마]** Saudi Aramco, 아시아향 대표 원유 OSP 인하로 프리미엄을 최고치 수준에서 완화; 중동 공급 차질로 유가가 역사적 고점권에 근접한 상황과 대비. OSP는 벤치마크...",
-      "link": "https://t.me/MASSITRADING/115285",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-06 14:02",
-      "text": "🎯 **[Anthropic 금융권용 AI 에이전트 10종 공개, Google Cloud 투자 확대]** Anthropic, Wall Street 대상으로 금융 서비스 업무 수행 AI 도구 10종 공개; 은행·보험·자산운용·핀테크 전반 겨냥. 신규 에이전트 기능으로 고객...",
-      "link": "https://t.me/MASSITRADING/115284",
+      "date": "2026-05-06 16:32",
+      "text": "🎯 **[AI·인프라 투자 확대로 사상 최대 자본수요; 빅테크 신용 활용한 underwriting 부상]** data centers와 AI뿐 아니라 인프라, 에너지·송전, next gen manufacturing, defense 증강까지 동시 진행으로 자본수요가 ‘사상...",
+      "link": "https://t.me/MASSITRADING/115334",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-06 13:47",
-      "text": "🎯 **[중동 우회 물동량에도 아프리카 항만 수혜 제한…연료·해사서비스에 가치 집중]** 중동 분쟁으로 글로벌 항로가 교란되며 해운 트래픽이 재배치되고 있으나, 아프리카 항만은 기대만큼 물동량 수혜를 확보하지 못하는 상황으로 정리. Durban·Cape Town 등 남...",
-      "link": "https://t.me/MASSITRADING/115281",
+      "date": "2026-05-06 16:32",
+      "text": "🎯 **[Kongsberg, 방공·미사일 수요로 매출 급증; 공급망·M&A 변수 부각]** 노르웨이 defense tech 기업 Kongsberg 주가 실적 발표 후 9% 이상 급등. 1분기 매출 전년 대비 26% 증가, 회사 측 ‘사상 최고 수준 수요’ 언급. 방공 ...",
+      "link": "https://t.me/MASSITRADING/115332",
       "keywords": [
         "수요",
-        "공급"
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 16:32",
+      "text": "🎯 **[스페인 4월 services PMI 급락, 합성지수도 위축 구간 진입]** 스페인 4월 services PMI 47.9로 하락, 3월 53.3 대비 급격한 둔화로 위축 국면 진입. 스페인 경기 방향성 가늠 composite PMI 48.7로 위축 구간, 성장 ...",
+      "link": "https://t.me/MASSITRADING/115331",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-06 16:18",
+      "text": "🎯 **[유럽 증시 상승 우위, 원자재 강세·유가 하락 속 실적 종목 변동 확대]** 유럽 증시 개장 초반 FTSE 소폭 상승, CAC 약 0.9% 상승, IBEX 약 1% 상승 흐름. DAX 변동성 관찰 필요 언급, 독일 시장 종목별 재료 부각. 섹터 기준 에너지 약...",
+      "link": "https://t.me/MASSITRADING/115329",
+      "keywords": [
+        "상향",
+        "수요",
+        "수주"
       ]
     },
     {
@@ -231,6 +286,15 @@
       "link": "https://t.me/JAKE8LEE/12224",
       "keywords": [
         "공급"
+      ]
+    },
+    {
+      "source": "@ONE_GOING",
+      "date": "2026-05-06 17:27",
+      "text": "유리기판 상승률(수요일)...",
+      "link": "https://t.me/ONE_GOING/3258",
+      "keywords": [
+        "수요"
       ]
     },
     {
@@ -578,6 +642,15 @@
         "수요",
         "공급",
         "수주"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-05-06 17:32",
+      "text": "**[마감브리프] 26.05.06.(수) 뉴스 TOP10 - 삼성전자, 현대백화점, SK오션플랜트, 카카오뱅크 등**   https://is.gd/gAB7up  ⚡️\"에너지 투자 200% 파헤치기\" 지금 신청하시면 할인 혜택이!! 👉 https://vo.la/2BiUy...",
+      "link": "https://t.me/IRNOTE_YSTREET/4450",
+      "keywords": [
+        "OP"
       ]
     },
     {
@@ -963,10 +1036,28 @@
       ]
     },
     {
-      "source": "@DH_FINANCE",
-      "date": "2026-04-24 14:43",
-      "text": "하나금융지주 (공시) - 1Q26 지배 순익 1조 2,100억원(+7% YoY), 컨센 +7% - 1Q DPS 1,145원, 배당총액 3,072억원 (추정치 1,057원, 2,850억원) - 자사주 취득 2,000억원 공시 (추정치 부합)...",
-      "link": "https://t.me/DH_FINANCE/3854",
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-05-06 17:14",
+      "text": "『이튼 코퍼레이션 (ETN.US); 수주에 주목하면 보이는 주가 방향성』 글로벌주식팀 함형도 ☎️ 02-3772-4452  - 미국 유틸사 자금 푸는 구간, 수주 증가세에 주목 - 1Q26 Re. 증설 비용 부담으로 미주 마진율 축소 - 연간 마진율 가이던스 소폭 하향...",
+      "link": "https://t.me/SHINHANRESEARCH/50686",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-05-06 16:27",
+      "text": "국내 주식 마감 시황 - 5월 6일  『버크셔·월마트 제친 삼성전자 시총』 시황 강진혁 ☎02-3772-2329  코스피 7,384.56 (+6.45%), 코스닥 1,210.17 (-0.29%)  반도체 질주와 함께 단숨에 KOSPI 7,400p 돌파  금일 KOSPI...",
+      "link": "https://t.me/SHINHANRESEARCH/50684",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-05-06 15:30",
+      "text": "『쿠팡(CPNG.US) – 무너진 성장 공식』 기업분석부 조상훈 ☎02-3772-2578   ▶ 상장 후 처음 맞은 역풍 - 상장 이후 처음으로 분기 매출 성장률이 한 자릿수로 둔화 및 영업이익 적자전환 - 4Q25 대규모 개인정보 유출 사태 수습 비용과 대만 신사업 ...",
+      "link": "https://t.me/SHINHANRESEARCH/50683",
       "keywords": [
         "YoY"
       ]
@@ -1141,23 +1232,15 @@
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-05-04 11:02",
-      "text": "마켓레이더(5월 4일, 오전)  리서치본부 주식전략팀  『7천피까지 2.9%, 신고가 랠리 재개』 시황 강진혁 ☎02-3772-2329  KOSPI는 3.5% 상승한 6,830.3p. 반도체 등 AI 밸류체인 Melt-up에 사상 최고가 랠리 + 6,800p 돌파  K...",
-      "link": "https://t.me/SHINHANRESEARCH/50656",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-05-06 17:08",
+      "text": "한국/중국 마켓 클로징(5월 6일)  외국인, 화려한 귀환  # 국내 마감 ▶ Summary · 코스피 7,384.56(+6.45%), 코스닥 1,210.17(-0.29%) · 외국인 2거래일 연속 3조원 넘게 순매수..전기전자 비중 99.44% · 개인 이틀 동안 전...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/6554",
       "keywords": [
+        "서프라이즈",
         "수요",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-05-04 09:19",
-      "text": "**[키움증권 1Q26 Review - 마법의 단어, '선반영'**]   안녕하세요, 신한 임희연 연구원입니다. 키움증권 1Q26 실적 및 투자의견 요약드립니다.   **1. 1Q26P 실적 요약 ** - 지배주주순이익 4,764억원(+102.4% YoY) vs. 당사...",
-      "link": "https://t.me/SHINHANRESEARCH/50655",
-      "keywords": [
-        "M/S",
-        "YoY"
+        "사이클",
+        "OP"
       ]
     },
     {
@@ -1574,6 +1657,30 @@
     },
     {
       "source": "@MERITZ_RESEARCH",
+      "date": "2026-05-06 17:29",
+      "text": "📮[메리츠증권 제약/바이오 김준영] 2026.5.6 (수)  셀트리온 (068270) 1Q26P Re: 신제품 중심 OPM 개선 지속   **▶ 1Q26 매출액, 영업이익 컨센서스 부합**  - 연결 기준 매출액 1조 1,450억원(YoY +36.0%, QoQ -13....",
+      "link": "https://t.me/MERITZ_RESEARCH/43529",
+      "keywords": [
+        "사이클",
+        "OP",
+        "QoQ",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-05-06 16:09",
+      "text": "📮[메리츠증권 엔터/레저 김민영]  🗒️ **에스엠 1분기 실적 컨퍼런스콜 정리  ▶️ 실적 주요 내용 ** - 매출액 2,791억원(+20.6% YoY, -12.5% QoQ), 영업이익 386억원(+18.6% YoY, -29.3% QoQ)으로 컨센서스 상회  - 별도...",
+      "link": "https://t.me/MERITZ_RESEARCH/43527",
+      "keywords": [
+        "수요",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
       "date": "2026-05-06 13:25",
       "text": "📮[메리츠증권 통신/우주/미디어 정지수]  ▶ Issue Comment: 알멕(354320):  알멕 주가 하락 코멘트 2026.5.6(수)   - 금일 장중 주가 -19% 하락 중. 주가 하락의 원인은 주요 고객사향 퀄테스트 실패 우려 때문인 것으로 파악  - 회사는...",
       "link": "https://t.me/MERITZ_RESEARCH/43526",
@@ -1675,15 +1782,6 @@
       "date": "2026-05-04 14:20",
       "text": "📮[메리츠증권 전기전자/IT부품 양승수]  ▶ 2026년 4월 전기전자 수출입통계 잠정치 발표 (~4.30)  1) 스마트폰  - 수출 금액: 5억 6,575.8만 달러 (+32.2% YoY, -3.1% MoM) - 수출 단가: 2,042.9달러/kg (-2.3% Yo...",
       "link": "https://t.me/MERITZ_RESEARCH/43504",
-      "keywords": [
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-05-04 14:16",
-      "text": "📮[메리츠증권 반도체/디스플레이 김선우]  ▶ 2026년 4월 반도체 수출입통계 잠정치 발표 (~4.30)  1) 메모리    - 수출 금액: 208억 2,842만 달러  (+261.5% YoY, +0.3% MoM) - 수출 단가: 65,221달러/kg  (+220.5...",
-      "link": "https://t.me/MERITZ_RESEARCH/43498",
       "keywords": [
         "YoY"
       ]
