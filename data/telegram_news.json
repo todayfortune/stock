@@ -2,6 +2,17 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-05-27 15:46",
+      "text": "**바클레이즈(Barclays), 마이크론 테크놀로지( ****$MU****)에 대한 투자의견 '비중 확대(Overweight)'를 유지, 목표 주가를 675달러에서 1,175달러로 상향 **  \"지난 실적 발표에서 마이크론 경영진은 첫 5년 전략적 고객 계약(SCA)...",
+      "link": "https://t.me/IDEA_MEMO/23524",
+      "keywords": [
+        "상향",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-05-27 07:18",
       "text": "Barclays, $SNDK를 Overweight으로 상향 조정, 목표주가 $1,200에서 $2,300으로 상향  애널리스트 의견: \"Sandisk는 계약 접근 방식에서 가장 공격적이고 구조적으로 혁신적인 회사였습니다. 가장 최근 실적 발표에서 논의된 새로운 비즈니스 ...",
       "link": "https://t.me/IDEA_MEMO/23513",
@@ -41,153 +52,108 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-05-26 10:56",
-      "text": "*** 비용 신경 쓰지 않는 ‘AI 광풍‘. 현재 전세계 거시경제에 가장 큰 영향 미치는 요인(모건스탠리)**  • AI 인프라투자는 보기 드문 비탄력적(Inelasticity) 수요 특징 보임. 빅테크 자본지출이 비용 급등 무시하고 지속적으로 가속화(2026년 약 8...",
-      "link": "https://t.me/IDEA_MEMO/23490",
+      "source": "@MASSITRADING",
+      "date": "2026-05-27 15:48",
+      "text": "🎯 **[AI 메모리 강세로 반도체 랠리 재점화, DRAM 급등이 주가 상승 정당화]** 유럽 시장, 개장 전 강보합 전망. 아시아발 위험선호가 긍정적으로 이어지며 MSCI가 사상 최고치 기록, 상승 동력은 반도체(특히 chips) 섹터에 집중. AI 수요가 메모리 산...",
+      "link": "https://t.me/MASSITRADING/124706",
+      "keywords": [
+        "수요",
+        "공급",
+        "사이클",
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-27 15:48",
+      "text": "🎯 **[관세·정책 변화로 공급망 재편 가속, 중국 의존도 2027년 30% 목표]** 정부 정책 변화와 관세 리스크가 기업 공급망 전략의 핵심 변수로 부상. 공급망 비용 상승을 상쇄하기 위한 생산성 이니셔티브 필요성이 커졌으며, 생산기지를 단기간에 중국에서 북미로 완...",
+      "link": "https://t.me/MASSITRADING/124705",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-27 15:48",
+      "text": "🎯 **[유가 하락에 유럽 국채금리 하락, Hormuz 변수 속 가스·원유 전망 엇갈림]** 유럽 증시 선물, 위험선호 개선 흐름 반영. 유럽 국채, 유가와 높은 동행성 지속 관측; 현물 유가 하락 영향으로 채권 가격 상승. 독일 10년물 금리 약 2bp 하락한 2.9...",
+      "link": "https://t.me/MASSITRADING/124703",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-27 15:17",
+      "text": "🎯 **[홍콩 UBS 컨퍼런스·ECB 보고서·Fed 발언 대기…실적은 AI 노출 검증 국면]** 당일 이벤트로 홍콩 UBS Investment Conference 진행, Iqbal Khan 발언(‘AI와 일자리’) 공개 예고. 영국 시간 오전 9시 ECB Financi...",
+      "link": "https://t.me/MASSITRADING/124696",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-27 15:17",
+      "text": "🎯 **[Taiwan, Nvidia 칩 중국 유입 의혹 3명 기소…수출통제 우회 경로 부각]** Bloomberg 보도에 따르면 Taiwan 당국이 서버를 이용해 일본을 경유, 비디오 칩을 중국으로 반입하려 한 혐의로 3명을 기소. 사건은 중국 내 Nvidia 고성능 ...",
+      "link": "https://t.me/MASSITRADING/124694",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-27 15:17",
+      "text": "🎯 **[HBM 랠리로 Micron·SK Hynix 시총 1조달러, 밸류에이션 논쟁 확대]** 미국 반도체 업종 강세 지속, SOX index 미국장에서 약 5% 상승. Micron 하루 약 20% 급등, 시가총액 1조달러 진입. 아시아·태평양 시장도 강한 흐름, SK...",
+      "link": "https://t.me/MASSITRADING/124693",
       "keywords": [
         "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 14:03",
-      "text": "🎯 **[브랜드·창업 전략, AI 기반 운영 혁신과 관세·미디어 파편화 대응]** 인터뷰 대상 Emma Green, ‘Start With Yourself’ 출간 이후 개인 브랜드 전면화 배경 설명. 성공 경험을 ‘개인 비결’보다 ‘타인이 재현 가능한 성공 방식’으로 해...",
-      "link": "https://t.me/MASSITRADING/124665",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 13:47",
-      "text": "🎯 **[재택근무 부작용 논쟁 속 Emma Grede, 성장·실패 관리와 인재 전략 제시]** 방송 내 발언에서 재택근무가 경력에 부정적일 수 있으며, 출생률·혼인율 하락과 외로움 확산이 대면 접촉 감소, 거실에서의 Zoom 중심 업무와 연결될 수 있다는 문제 제기. ...",
-      "link": "https://t.me/MASSITRADING/124663",
-      "keywords": [
         "수요",
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-27 13:47",
-      "text": "🎯 **[AI 반도체 강세로 심리 개선, 엔비디아 칩 밀수 의혹·삼성 노사 합의 부각]** 시장 낙관 요인으로 S.K. Hynix 시가총액 1조달러 돌파 소식 부각, Micron 시가총액 1조달러 진입 흐름과 맞물려 반도체·AI 관련 기대 확산. 대만 검찰, 일본으로 ...",
-      "link": "https://t.me/MASSITRADING/124662",
+      "date": "2026-05-27 15:03",
+      "text": "🎯 **[메모리 랠리 재점화로 글로벌 주가 신고가, 유가는 Iran 기대에 하락]** 메모리 중심 반도체 강세로 글로벌 증시가 사상 최고치 구간 재진입; 미국 반도체 지수 SOX index는 전일 세션 약 5% 상승, Micron은 장중 약 20% 급등. 아시아 증시는...",
+      "link": "https://t.me/MASSITRADING/124691",
+      "keywords": [
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-27 15:03",
+      "text": "🎯 **[러시아 항공사, 우호국 경유 부품 조달로 제재 회피 정황 확대]** 서방 제재로 러시아 항공사가 예비부품·정비 역량 부족에 직면할 것으로 예상됐으나, 실제로는 제재 회피를 통해 기단 운항을 유지하는 정황이 관측. 2023년 이후 러시아 내 Boeing·Airb...",
+      "link": "https://t.me/MASSITRADING/124689",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-05-27 13:33",
-      "text": "🎯 **[노르웨이 배터리 재활용, 블랙 매스 수익성·수요 부진이 과제]** 노르웨이는 도로 운행 승용차의 약 3분의 1이 전기차로, 폐배터리 재활용 사업에 유리한 환경. 하이드로볼트는 다양한 규격의 배터리에 맞춰 공정 설계를 달리해야 하며, 현존 배터리 유형이 최대 2...",
-      "link": "https://t.me/MASSITRADING/124659",
+      "date": "2026-05-27 15:03",
+      "text": "🎯 **[비료·에너지 공급난 장기화, 고금리로 부채위기 국가 확대 우려]** 공급 제약 지속으로 비료 부족, 파종 시즌 차질, 식량안보 위험 부각. 우크라이나 전쟁 국면과 유사하게 에너지 위기·식량 위기·생계비 압박 동시 진행, 취약국 재정여력 확충 필요성 확대. 인플...",
+      "link": "https://t.me/MASSITRADING/124687",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-27 15:02",
+      "text": "🎯 **[장기적 공공서비스·동맹 개선 언급과 정부·의회 관련 모호한 운영 조정 시사]** 스크립트 전반, 30~40년 기간을 언급하며 서비스와 동맹(협력체계) 개선 의지 반복 서술. 특정 시점 ‘6.5’ 관련 표현과 함께 Cynulliad 및 ‘Cynulliad Cym...",
+      "link": "https://t.me/MASSITRADING/124686",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-05-27 14:48",
+      "text": "🎯 **[Dudley, Fed 2% 복귀 실패로 기대인플레 비탈고정 위험…A.I.가 실질금리 압력]** Bloomberg Opinion 칼럼니스트이자 전 뉴욕 연은 총재 Bill Dudley, Fed가 2% 목표로 인플레이션을 되돌리지 못한 기간이 길어지며 신뢰가 훼손...",
+      "link": "https://t.me/MASSITRADING/124685",
       "keywords": [
         "수요",
         "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 13:33",
-      "text": "🎯 **[중국 배터리 기업의 미국 공장 확장과 기술·관세 리스크 부각]** 미국 완성차 업체의 전기차 경쟁력 약화와 보조금 부담 논쟁 지속, 배터리 화학 조합 다변화로 기술 방향성 불확실성 확대. 중국 배터리 업체 가오톈, 중국 허페이 설립 이후 미국 일리노이주 만테노...",
-      "link": "https://t.me/MASSITRADING/124658",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 13:18",
-      "text": "🎯 **[GM, LMR 배터리로 원가 절감·탈중국 공급망 추진…상용화 목표 2028년]** General Motors, 1990년대 EV1 이후 EV 전환을 재가속하며 신규 배터리 화학계 LMR(lithium manganese rich) 기반 전략을 추진. LMR은 c...",
-      "link": "https://t.me/MASSITRADING/124656",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 13:18",
-      "text": "🎯 **[중국 lithium-ion 공급망·보조금 우위, LFP 확산으로 EV 가격경쟁력 강화]** Sony의 lithium-ion 상용화 이후 배터리 단가 하락과 성능 개선이 진행됐고, Wright's Law에 따라 생산 확대가 비용 절감을 촉진하면서 2020년대 E...",
-      "link": "https://t.me/MASSITRADING/124655",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 13:18",
-      "text": "🎯 **[SK hynix 시가총액 1조달러권 진입, HBM 병목과 2027년까지 공급부족 전망]** SK hynix 주가 급등으로 ‘1조달러 클럽’ 진입, advanced chips 수요와 투자심리 가속 영향. 회사 HBM 핵심 공급자로 평가되며 글로벌 data cen...",
-      "link": "https://t.me/MASSITRADING/124652",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 13:18",
-      "text": "🎯 **[유럽 EV·하이브리드 판매 3개월 연속 증가, 관세·중국 둔화는 부담]** 유럽 시장 소비자 수요, 4월까지 3개월 연속 EV 및 하이브리드 구매 증가 흐름 확인. 업계 과잉설비, 미국 관세, 중국 판매 둔화가 동시 부담 요인으로 지목. 제조업 협회 기준 중동...",
-      "link": "https://t.me/MASSITRADING/124651",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 13:03",
-      "text": "🎯 **[SK hynix 시가총액 대형주 진입, HBM 병목으로 메모리 가격결정력 강화]** SK hynix, 첨단 칩 투자 열기 확대로 대형 시가총액 구간 진입. 고대역폭 메모리(HBM) 핵심 공급자로서 글로벌 데이터센터 증설 과정의 ‘병목’으로 평가. 투자자·애널리...",
-      "link": "https://t.me/MASSITRADING/124648",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 13:03",
-      "text": "🎯 **[유럽 4월 자동차 판매 7% 증가, EV·하이브리드 수요 3개월 연속 확대]** 유럽 자동차 제조협회: 유럽 자동차 판매, 4월 전년 대비 7% 증가해 115만 대 기록. 유럽 완성차 업계, 과잉설비와 미국 관세, 중국 판매 둔화에 직면한 가운데 수요 회복 신...",
-      "link": "https://t.me/MASSITRADING/124647",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 13:03",
-      "text": "🎯 **[미·중 AI 경쟁, 첨단 반도체 제재·청정기술 보복 위험·감시형 AI 부상]** 반도체 성능 스펙트럼 폭 확대: 생활가전·자동차용 범용 칩부터 스마트폰용 고급 칩, 데이터센터 학습용 최첨단 칩까지 구분. 중국, 범용 반도체 영역 진전 있으나 최첨단 칩 생산 역...",
-      "link": "https://t.me/MASSITRADING/124646",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 12:48",
-      "text": "🎯 **[중국 혁신 과대평가 경계, 산업 중심 전략과 반도체 격차 구조 부각]** Georgetown CSET 소속이자 OpenAI 이사회 멤버인 패널(이름 미확인)은 중국을 과소평가해온 역사(‘혁신은 도용’ 서사)가 약화됐으나, 동시에 중국 역량 과대평가도 가능하다는...",
-      "link": "https://t.me/MASSITRADING/124644",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 12:48",
-      "text": "🎯 **[Mustafa Suleyman, 개인 AI와 오픈소스 확산 속 미·중 AI 경쟁 재정의]** Mustafa Suleyman, 2020~2021년 Google에서 대화형 AI인 Lambda 개발 과정에서 대규모 언어 모델이 핵심 미래 기술로 굳어졌다고 판단, I...",
-      "link": "https://t.me/MASSITRADING/124643",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-05-27 12:18",
-      "text": "🎯 **[미 정부, AI 기회·리스크 병행 관리하며 Cancer Moonshot·기후 모델링 강화]** 대통령 과학보좌관 겸 White House Office of Science and Technology Policy(OSTP) 수장 Arati Prabhakar 인터뷰...",
-      "link": "https://t.me/MASSITRADING/124637",
-      "keywords": [
-        "TP"
       ]
     },
     {
@@ -328,6 +294,15 @@
     },
     {
       "source": "@BRILLER_RESEARCH",
+      "date": "2026-05-27 15:01",
+      "text": "RIA 계좌에서 양도세 세이브하려고 홍콩 닉스2배짜리 매도하고 닉스2배짜리 매수할려고 했더니 단일종목 레버리지 교육이수후 등록 승인까지 완료되어도 닉스, 전자 2배 ETF 매수가 안되네요.  + ISA계좌로는 방금 주문 넣어보니 매수주문들어가지고 체결까지 되서 잔고에 ...",
+      "link": "https://t.me/BRILLER_RESEARCH/4405",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@BRILLER_RESEARCH",
       "date": "2026-05-27 13:50",
       "text": "**SK하이닉스, 시가총액 '1조 달러 클럽' 가입**  SK하이닉스가 인공지능(AI) 칩 시장의 폭발적인 성장세에 힘입어 시가총액 1조 달러를 돌파하며 '1조 달러 클럽'에 합류했습니다.   AI 메모리 칩 시장의 수요 급증이 주가 상승을 견인했습니다. SK하이닉스는...",
       "link": "https://t.me/BRILLER_RESEARCH/4404",
@@ -376,6 +351,24 @@
     },
     {
       "source": "@MSTARYUN",
+      "date": "2026-05-27 14:45",
+      "text": "#인바운드 #백화점 - 점포당 매출 YoY +26.1% (구매건수 +11.4%, 구매단가 9.3%)...",
+      "link": "https://t.me/MSTARYUN/9526",
+      "keywords": [
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-05-27 14:43",
+      "text": "[한화투자증권 유통/의류/지주 이진협]  ※ 4월 주요 유통업체 매출 증감률  ▶ Update : 4월 주요 유통업체 매출 증감률 발표  - 백화점 매출 증감률 +21.7% YoY ＊ 점당 매출액 증감률 +26.1% YoY  - 대형마트 매출 증감률 -6.6% YoY ...",
+      "link": "https://t.me/MSTARYUN/9525",
+      "keywords": [
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
       "date": "2026-05-24 20:44",
       "text": "**차이나 인바운드 붐 사이클  7백만명 예상, 구매력 Up**  (한국경제 기사)  중국 노선 수요는 이미 뚜렷한 회복세를 보이고 있다. 대한항공이 글로벌타임스에 제공한 자료에 따르면 올해 1월부터 4월까지 중국 노선 평균 탑승률은 88%로, 전년 같은 기간보다 11...",
       "link": "https://t.me/MSTARYUN/9510",
@@ -394,6 +387,15 @@
         "공급",
         "사이클",
         "수주"
+      ]
+    },
+    {
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-05-27 14:40",
+      "text": "[장 중 시황] 삼성전자, SK하이닉스에 기댄 코스피 강세, 8,300선 돌파 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(14시 25분): KOSPI +3.50% 상승 / 8,329.45pt  (KOSDAQ: -3.24% 하락 / 1,134.52pt...",
+      "link": "https://t.me/DAISHINSTRATEGY/6044",
+      "keywords": [
+        "상향"
       ]
     },
     {
@@ -573,15 +575,6 @@
       "link": "https://t.me/DAISHINSTRATEGY/6016",
       "keywords": [
         "공급"
-      ]
-    },
-    {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-05-13 07:44",
-      "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민입니다. [5월 13일 주요국 이슈] 보내드립니다.  # 미국 도널드 트럼프 미국 대통령, 미-중 정상회담서 주요 논의 대상은 무역이라고 밝힘. 이란 관련 사안은 논의 대상 중 하나라고는 하지 않...",
-      "link": "https://t.me/DAISHINSTRATEGY/6014",
-      "keywords": [
-        "YoY"
       ]
     },
     {
@@ -795,15 +788,6 @@
       "keywords": [
         "수요",
         "공급"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-05-25 11:33",
-      "text": "사실 올초부터 저는 개인적으로 도망칠 생각만 했습니다 .  아무리 그래도 이렇게 성장하는 시장이 지속된다는 건  말이 안 된다 생각했습니다 . 사이클이 없는 게 어디있습니까 ? 그런데 그 사이클 주기가 무슨 2년이 아니라 월등하게 길어진다면...   2년이라면 지금은 ...",
-      "link": "https://t.me/YAZA_STOCK/10956",
-      "keywords": [
-        "사이클"
       ]
     },
     {
