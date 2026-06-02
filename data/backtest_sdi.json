@@ -1,7 +1,7 @@
 {
   "early": {
     "summary": {
-      "total_return": 335.77,
+      "total_return": 314.44,
       "trade_count": 30,
       "win_rate": 73.3
     },
@@ -1857,6 +1857,10 @@
       {
         "date": "2026-05-29",
         "equity": 43576775
+      },
+      {
+        "date": "2026-06-01",
+        "equity": 41443975
       }
     ]
   }
