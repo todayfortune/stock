@@ -2,124 +2,39 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
-      "date": "2026-06-03 13:36",
-      "text": "그런데 저는 이런 패러다임이 다소 달라질 것이라고 보는데요,  우리가 사는 세상이 만성적인 인플레이션 위에 있기 때문입니다.  단순히 금리만이 아니라 사람들이 기본적인 생활을 하는데 드는 비용이 너무 높아졌습니다.  세계 각국 주요 도시의 메트로시티화, 개도국의 성장으...",
-      "link": "https://t.me/IDEA_MEMO/23730",
+      "date": "2026-06-04 17:07",
+      "text": "**AVGO 1Q26 Earnings : 이 한 질문으로 주가 하락 이유가 보인다** 당연히 마진 측면 SW > HW 문제는 TPU/ASIC이 마진율이 타 제품군보다 낮다는 것 **1등과 2등의 차이가 분명한 국면. 공급망통제력도 고객과의 바게닝파워도 다름** 언젠가 ...",
+      "link": "https://t.me/IDEA_MEMO/23761",
+      "keywords": [
+        "공급",
+        "TP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 19:18",
+      "text": "🎯 **[Strategas Ferroni: 금융주 약세는 신용 악화보다 AI 로테이션, 10년물 5%대가 변수]** Strategas의 Chris Ferroni는 연초 이후 금융 섹터가 부진하고 소비자금융 종목 약세가 ‘가장자리의 균열’로 보이지만, 신용 여건 악화가 ...",
+      "link": "https://t.me/MASSITRADING/128329",
+      "keywords": [
+        "서프라이즈"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 19:18",
+      "text": "🎯 **[Broadcom 실적·가이던스 실망에 AI 반도체 조정, TSMC 공급제약 재부각]** 미 증시 상승 흐름 둔화 국면에서 AI 관련 종목 중심으로 포지셔닝 조정 확대, 고평가 부담 이미 가격에 반영된 상황이라는 해석 부상. Broadcom 실적 발표 전 4거래...",
+      "link": "https://t.me/MASSITRADING/128328",
       "keywords": [
         "수요",
         "공급"
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-06-03 10:17",
-      "text": "CLSA , SK Hynix , 'High-Conviction Outperform' 등급, 목표주가를 기존 300만 원에서 400만원으로 상향...",
-      "link": "https://t.me/IDEA_MEMO/23729",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
       "source": "@MASSITRADING",
-      "date": "2026-06-04 16:18",
-      "text": "🎯 **[Rémy Cointreau 9% 급등, Broadcom 여파로 Nokia 약세·Universal 급락]** Rémy Cointreau 주가 9% 이상 상승: 영업이익이 시장 예상치를 소폭 상회하며 주류 업종 내 과도한 약세가 일부 되돌림. 업종 전반에서 ‘급반...",
-      "link": "https://t.me/MASSITRADING/128262",
+      "date": "2026-06-04 19:03",
+      "text": "🎯 **[Broadcom·CrowdStrike 실망에 기술주 랠리 균열, SpaceX IPO가 ‘공급 불안’ 촉발]** 기술주 강세 국면에서 균열 조짐 부각: Broadcom 분기 실적이 높아진 기대치에 미달했다는 평가, CrowdStrike도 실적 발표 후 시장 기대...",
+      "link": "https://t.me/MASSITRADING/128326",
       "keywords": [
-        "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 16:18",
-      "text": "🎯 **[BNP Paribas AM Nguyen, AI 과열 경고와 원유 공급 쇼크·금 분산 제시]** BNP Paribas Asset Management의 Sophie Nguyen, 최근 시장 심리 회복과 강세 포지셔닝 확대를 언급하며 꼬리위험(tail risk) 과...",
-      "link": "https://t.me/MASSITRADING/128261",
-      "keywords": [
-        "상향",
-        "쇼크",
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 16:02",
-      "text": "🎯 **[Remy Cointreau 실적 안정 신호, UMG 지분매각과 Bitcoin 약세 동시 전개]** Remy Cointreau 연간 실적에서 예상보다 양호한 흐름 언급, 유럽·중국 수요 둔화와 글로벌 소비 약세 이후 안정화 신호로 해석. 회사 측은 향후 지속 가...",
-      "link": "https://t.me/MASSITRADING/128258",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 16:02",
-      "text": "🎯 **[Broadcom AI 매출 가이던스 실망, Nasdaq 선물 약세와 유럽 기술주 부담]** Broadcom의 AI 매출 전망 실망으로 Nasdaq 선물 하락, 기술주 내러티브 단기 변동성 확대. 시장에서는 AI 중심으로 사업을 전환하는 과정에서 총이익률이 낮아...",
-      "link": "https://t.me/MASSITRADING/128256",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 15:47",
-      "text": "🎯 **[David Solomon, SpaceX 같은 기업은 부채·사모만으로는 한계…공개시장 상장 필요]** 방송에서는 SpaceX 관련 일정이 임박했다는 관측을 언급하며, 대형 성장기업의 공개시장 상장 필요성을 재조명. Goldman Sachs CEO David So...",
-      "link": "https://t.me/MASSITRADING/128253",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 15:47",
-      "text": "🎯 **[Broadcom AI 칩 매출 가이던스 기대 미달로 시간외 14% 급락, AI 수요는 견조]** AI 거래가 모멘텀 둔화 조짐을 보이는 가운데 Broadcom 주가가 실적 발표 후 시간외에서 급락. 시장에서는 AI 칩 매출 전망치가 기대에 못 미쳤다는 해석이 ...",
-      "link": "https://t.me/MASSITRADING/128252",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 15:47",
-      "text": "🎯 **[유가 1% 하락 속 유럽·영국 인플레이션 고착화로 ECB·BOE 추가 인상 전망]** NASDAQ mini 약 0.5% 하락, 주가지수 선물 전반 약세 흐름. 채권시장은 대체로 보합권, 국채금리 약 1bp 내림. 레바논 관련 평화 논의가 제한적으로 부각되며 유...",
-      "link": "https://t.me/MASSITRADING/128251",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 15:33",
-      "text": "🎯 **[ECB 6월 인상 신호 강화, 7월 추가 여부는 유가·기대인플레에 좌우]** 유럽 전반 에너지 가격 상승과 Strait of Hormuz 폐쇄 장기화가 산업 전반 비용 압력으로 작용; ECB 회의(다음 주)에서 금리인상 기대 우세. 유로존 헤드라인 인플레이션 ...",
-      "link": "https://t.me/MASSITRADING/128247",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 15:17",
-      "text": "🎯 **[유럽 소매판매·미국 실업수당·중앙은행 연설 대기, BOJ 6월 인상설 재점화]** 영국 시간 10시 Euro area retail sales 발표 대기, EU 통상책임자 Mariusz Szefczykowicz가 파리에서 중국 무역 특사와 회동 예정으로 수입·무...",
-      "link": "https://t.me/MASSITRADING/128244",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 15:17",
-      "text": "🎯 **[SpaceX IPO 추진설: 1.8조달러 밸류·집중 의결권·빠른 락업 해제 주목]** SpaceX IPO가 6월 11~12일경 추진된다는 언급, 750억달러 조달로 약 1.8조달러 밸류에이션 가능성 제시. 가격을 135로 ‘사전 설정’하는 방식 언급, 통상적 ...",
-      "link": "https://t.me/MASSITRADING/128242",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-04 15:17",
-      "text": "🎯 **[Broadcom AI 칩 가이던스 하회로 AI 트레이드 기대 과열 경고]** Broadcom AI 칩 출하 전망 560억달러 제시, 시장 추정치(약 580억달러) 하회로 AI 트레이드 기대치 과열 논란 확대. 실적 자체는 분기 기준 ‘서프라이즈’로 평가되나, ...",
-      "link": "https://t.me/MASSITRADING/128241",
-      "keywords": [
-        "서프라이즈",
         "수요",
         "공급",
         "수주"
@@ -127,18 +42,91 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-04 15:03",
-      "text": "🎯 **[관세 충격에 장난감 공급망 탈중국 가속, 2027년 30% 목표]** 관세가 시장 작동 방식에 대한 정책 패러다임 변화를 야기하며, 공급망 비용 상승을 생산성 개선으로 상쇄해야 하는 과제가 부각. 공급망을 중국에서 미국·캐나다 등으로 즉시 이전하기는 어렵지만,...",
-      "link": "https://t.me/MASSITRADING/128238",
+      "date": "2026-06-04 19:03",
+      "text": "🎯 **[실업수당 청구·연준 발언 대기, SpaceX IPO 마케팅 개시와 기술주 변동 확대]** 당일 8시30분(동부) 실업수당 청구건수 발표 예정, 다음 날 비농업부문 고용지표 발표 대기. 오후 연준 인사 발언(‘Varken’, Bowman, Schmidt) 예정,...",
+      "link": "https://t.me/MASSITRADING/128325",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 18:48",
+      "text": "🎯 **[미국 AI 집중 랠리와 유럽 저평가·인프라 테마 대비, 분산투자 필요]** 미국 증시는 AI 테마 중심의 집중 장세로 S&P 500 연초 이후 10% 이상 상승, 유럽은 약 5% 상승으로 격차. 유럽 지수는 미국 대비 빅테크 비중이 낮아 성과가 상대적으로 제한...",
+      "link": "https://t.me/MASSITRADING/128319",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 18:48",
+      "text": "🎯 **[CrowdStrike 실적 상회에도 가이던스 상향 폭 제한, 주가 기대 미충족]** CrowdStrike 주가 연초 이후 약 60% 상승 이후 실적 발표를 맞아 기대치가 높았던 상황. 분기 실적은 상회했으나 상향 조정 폭이 제한돼 주가 추가 상승 동력 부족으로...",
+      "link": "https://t.me/MASSITRADING/128318",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 18:33",
+      "text": "🎯 **[David Solomon: 자본 수요로 private market 한계, 기업들 go public 압력 확대]** Goldman Sachs CEO David Solomon, IPO 확대 배경으로 규제·시장구조와 대형 성장기업의 자본 수요를 지목.     __🗣...",
+      "link": "https://t.me/MASSITRADING/128312",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 18:32",
+      "text": "🎯 **[SpaceX IPO 135달러 확정, Jamie Dimon 고액자산가 대상 판매 가속]** JP Morgan 최고경영자 Jamie Dimon, SpaceX 예정 IPO를 고액자산가 고객 수천 명에게 설명하는 라이브 인터랙티브 행사 진행 계획. 이번 IPO 주관...",
+      "link": "https://t.me/MASSITRADING/128309",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 18:18",
+      "text": "🎯 **[Partners Group 환매 제한 검토, BOJ 6월 0.25%p 인상설, 맨유 지분 매각 논의]** Partners Group, 추가 evergreen funds에 대해 게이팅(gating) 준비 상태 언급. 성숙 단계 evergreen funds 3개(...",
+      "link": "https://t.me/MASSITRADING/128308",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 18:18",
+      "text": "🎯 **[이스라엘-레바논 정전 신호에도 교전 지속, Hormuz 재개방 기대와 유가 변동]** 미국, 이스라엘과 레바논이 정전에 합의했으며 Hezbollah도 전투를 중단하면 발효될 수 있다는 취지로 언급; 미국·레바논·이스라엘 공동 성명 형태로 ‘적대 의도 없음’과 ...",
+      "link": "https://t.me/MASSITRADING/128306",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-04 15:03",
-      "text": "🎯 **[뱅크오브아메리카 모이니핸, AI 투자 확대와 중소기업 불확실성 지적]** 뱅크오브아메리카가 연간 기술 지출 130억달러 규모의 대형 수요자임을 강조하며 AI 관련 지출도 확대 중이라는 언급. AI 투자 확대가 단기적으로 경기 부양 성격을 띠지만, 비용 감당 가...",
-      "link": "https://t.me/MASSITRADING/128236",
+      "date": "2026-06-04 18:18",
+      "text": "🎯 **[미국 선물 하락, Broadcom·CrowdStrike 실망과 Bitcoin 약세로 위험회피 확대]** 미국 주가지수 선물 약세: 전일 현물 하락 이후 추가 하락, S&P 500 선물 약 0.5% 하락, NASDAQ 선물 1% 이상 하락. Broadcom 실적...",
+      "link": "https://t.me/MASSITRADING/128305",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 18:18",
+      "text": "🎯 **[AI 수요 둔화 우려로 아시아 증시 급락, 원화·루피아 약세 심화]** Broadcom 실적·가이던스 실망 여파로 AI 수요 둔화 우려 확대, AI 공급망 수요 가시성 불확실성 부각. 기술주 비중 높은 아시아 지수 약세 확대: 한국 KOSPI, 일본 Nikke...",
+      "link": "https://t.me/MASSITRADING/128303",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-04 18:03",
+      "text": "🎯 **[AI 수요 둔화 우려로 아시아 주식 약세, BOJ 인상설·원화 약세 확대]** 미국 주식, 기록적 랠리 모멘텀 둔화 조짐으로 관측되며 Broadcom, CrowdStrike 실적 전망이 기대에 못 미쳤다는 평가. JPMorgan CEO Jamie Dimon, ...",
+      "link": "https://t.me/MASSITRADING/128301",
       "keywords": [
         "수요"
       ]
@@ -657,6 +645,24 @@
     },
     {
       "source": "@IRNOTE_YSTREET",
+      "date": "2026-06-04 17:33",
+      "text": "**[마감브리프] 26.06.04.(목) 뉴스 TOP10 - 셀트리온, 현대차, 신영증권, LG이노텍 등**   https://contents.premium.naver.com/ystreet/irnote/contents/260604173147951cc  ⚡️\"에너지 투자...",
+      "link": "https://t.me/IRNOTE_YSTREET/4624",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-06-04 17:01",
+      "text": "**[컨콜노트] 피에스케이, 내년에도 지속 성장할것**  ✅ PSK는 1분기 실적이 양호했으며 계단식으로 분기별 성장을 이룰 것임  ✅ PSK홀딩스는 1분기 실적이 부진했으나 계절성 요인으로 하반기로 갈수록 개선될 것임  ✅ 수요가 계속 증가하고 있어 올해 실적이 양호...",
+      "link": "https://t.me/IRNOTE_YSTREET/4623",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
       "date": "2026-06-04 13:01",
       "text": "**[컨콜노트] 태광, 하반기 미주·중동 수주 진행될 것**  ✅ 1분기 연결 매출 823억 원과 영업이익 93억 원을 달성하며 전년 동기 대비 실적이 개선됨  ✅ 미주 수출 비중이 확대되었고 중동 지역은 스팟 물량 수주가 진행되며 하반기 시너지가 기대됨  ✅ 우주 발...",
       "link": "https://t.me/IRNOTE_YSTREET/4621",
@@ -1097,12 +1103,16 @@
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-06-02 07:47",
-      "text": "**『한미약품 (128940,KS) - 릴리와의 서프라이즈 빅딜, 비만에서 추가 L/O 기대』** **기업분석부 이호철 ☎️ ****02-3772-2669**  **▶️ 릴리와 1.9조원 서프라이즈 빅딜** 6월 1일 릴리와 단장증후군 치료 후보물질 소네페글루타이드(L...",
-      "link": "https://t.me/SHINHANRESEARCH/51142",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-06-04 16:52",
+      "text": "한국 마켓 클로징(6월 4일)  외국인 엑소더스  # 국내 마감 ▶ Summary · 코스피 8,639.41(-1.84%), 코스닥 1,049.73(+2.31%) · 외국인 19거래일 연속 순매도. 누적 67조 원 · 달러/원 환율 1,537원 돌파...원화 약세 심화...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/6717",
       "keywords": [
-        "서프라이즈"
+        "상향",
+        "수요",
+        "사이클",
+        "YoY",
+        "밸류체인"
       ]
     },
     {
@@ -1263,33 +1273,6 @@
       "link": "https://t.me/GLOBALMKTINSIGHT/6689",
       "keywords": [
         "상향"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-05-28 18:07",
-      "text": "한국/중국 마켓 클로징(5월 28일)  강한 회복력  # 국내 마감 ▶ Summary · 코스피 8,185.29(-0.53%), 코스닥 1,104.36(-2.54%) · 외국인 15거래일 연속 팔고, 개인 사자에 버틴 증시 · 한국은행, 8연속 기준금리(2.50%) 동...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/6688",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "사이클",
-        "OP",
-        "QoQ",
-        "YoY",
-        "밸류체인",
-        "수주"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-05-28 11:17",
-      "text": "*통방문, 올해 성장률 전망이 2월 전망(2.0%)을 큰 폭 상회한 2.6%로 상향. 반도체 중심 수출 호조 및 투자 확대가 성장세 견인  *올해 물가 상승률은 2월 전망치(2.2%)를 크게 상회한 2.7%로, 근원물가도 2월 전망(2.1%)을 상회한 2.4%로 추가 ...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/6687",
-      "keywords": [
-        "상향",
-        "수요"
       ]
     },
     {
