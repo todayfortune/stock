@@ -1,8 +1,8 @@
 {
   "ws_recent": {
     "summary": {
-      "total_return": 20.19,
-      "final_balance": 12018749,
+      "total_return": 19.95,
+      "final_balance": 11994707,
       "trade_count": 17,
       "win_rate": 47.1,
       "mdd": -3.14
@@ -2111,6 +2111,14 @@
       {
         "date": "2026-06-05",
         "equity": 12018749
+      },
+      {
+        "date": "2026-06-08",
+        "equity": 12018707
+      },
+      {
+        "date": "2026-06-09",
+        "equity": 11994707
       }
     ]
   },
