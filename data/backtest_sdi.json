@@ -1,15 +1,11 @@
 {
   "early": {
     "summary": {
-      "total_return": 292.53,
+      "total_return": 337.33,
       "trade_count": 31,
       "win_rate": 74.2
     },
     "equity_curve": [
-      {
-        "date": "2024-07-10",
-        "equity": 10000000
-      },
       {
         "date": "2024-07-11",
         "equity": 10000000
@@ -1861,6 +1857,10 @@
       {
         "date": "2026-06-10",
         "equity": 39253477
+      },
+      {
+        "date": "2026-06-11",
+        "equity": 43733205
       }
     ]
   }
