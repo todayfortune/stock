@@ -2,6 +2,17 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-06-16 20:26",
+      "text": ">>**휴머노이드 로봇 출하 전망 대폭 상향… 2026년 5만 대, 2050년 700만 대 전망** (도이체방크)   •도이체방크는 2026년 글로벌 휴머노이드 로봇 출하량 전망치를 기존 대비 2배 이상 상향해 약 5만 대로 제시했음. 또한 2030년에는 70만 대, ...",
+      "link": "https://t.me/IDEA_MEMO/24045",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-06-16 08:59",
       "text": "**공급망 안정성이 가격보다 중요… Google, InP 기판 증산 위해 직접 방문**  최근 **중국이 일부 인화인듐(InP) 기판의 수출을 허용하면서 하반기 광통신 생산 병목 현상이 다소 완화될 전망**입니다.   그러나 공급망 업계는** 중장기적으로 '탈중국 공급...",
       "link": "https://t.me/IDEA_MEMO/24037",
@@ -68,89 +79,99 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-16 17:33",
-      "text": "🎯 **[Dell·Intel·Nokia·BlackBerry, AI 전환 기대에 ‘레거시 테크’ 주가 재평가]** Dell, Intel, Nokia, BlackBerry 등 ‘legacy tech’ 기업 주가가 AI 전환 기대와 맞물려 단기 급등. OpenAI, Anth...",
-      "link": "https://t.me/MASSITRADING/133266",
+      "date": "2026-06-16 20:33",
+      "text": "🎯 **[오만·Strait of Hormuz 통항 갈등 속 걸프 동맹 방어전략 지속]** 국제수역 통제 여부를 둘러싼 협상 국면에서 오만(Oman) 언급 발언 논란 발생, 미 국무부(State Department) 재공유로 ‘오만’ 지칭 확인 보도. 오만, Strait...",
+      "link": "https://t.me/MASSITRADING/133317",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-16 17:33",
-      "text": "🎯 **[Hegseth, Shangri-La서 중국 군사팽창 경고·NATO 압박, 대만 언급 회피]** 미 국방장관 Pete Hegseth, 싱가포르 Shangri-La Dialogue 연설에서 중국 군사력 증강과 역내 활동 확대에 경계 표명, 역내 패권국 지배 시 역...",
-      "link": "https://t.me/MASSITRADING/133262",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-16 17:18",
-      "text": "🎯 **[알버타 분리투표 논의·헝가리 ICC 이탈 철회, 미국 꿀 수요 증가로 수입·가격 압력]** 캐나다 서부 분리 논의(Wexit) 맥락에서, 주민투표 실시 여부를 다시 묻는 ‘주민투표에 대한 주민투표’ 추진 지역으로 알버타가 거론. 헝가리 정치인 Peter Mag...",
-      "link": "https://t.me/MASSITRADING/133260",
+      "date": "2026-06-16 20:18",
+      "text": "🎯 **[LLM layer 추가로 컴퓨팅 스택 재편, 소프트웨어는 disintermediation 위험 점검]** LLM 등장으로 기존에 없던 ‘모델 지능 계층(LLM layer)’이 컴퓨팅 스택에 추가되며, 소프트웨어 기업의 가치사슬 위치 재평가 필요성 확대. LLM...",
+      "link": "https://t.me/MASSITRADING/133313",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-16 17:18",
-      "text": "🎯 **[이란-미국 긴장 고조 속 쿠웨이트 기지 피격·휴전 연장 협상 병행]** 이란 탄도미사일이 쿠웨이트 알살렘 공군기지를 타격해 미국인 5명가량 경상, MQ-9 리퍼 공격용 드론 2대 심각한 손상 보도. 쿠웨이트 방공망이 미사일을 요격했으나 낙하 잔해가 기지에 피해...",
-      "link": "https://t.me/MASSITRADING/133256",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-16 17:03",
-      "text": "🎯 **[캄보디아 문화재 불법 유통 수사, 소더비 몰수 사건과 박물관 환수 압력]** 캄보디아 앙코르와트 문명권 석재·청동 예술품에 대한 미국 내 수요가 1970~80년대부터 급증, 내전기 약탈품의 국제 유통 촉진. 뉴욕 연방 검찰·미국 법무부(DOJ) 관심이 2010...",
-      "link": "https://t.me/MASSITRADING/133253",
+      "date": "2026-06-16 20:18",
+      "text": "🎯 **[agentic AI 확산으로 Snowflake 수요 재평가, SaaS 내 수혜 구간 부각]** agentic AI 배포 확산 과정에서 기업 데이터베이스와 LLM 연결 필요성 확대, 데이터 계층 기업으로 쿼리 증가 수혜 전망. Snowflake 자체 coding...",
+      "link": "https://t.me/MASSITRADING/133311",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-16 17:03",
-      "text": "🎯 **[컴퓨트 수요 비소멸성 강조, 단기간 150억달러 목표 자신감 표명]** 컴퓨트 수요 성격을 ‘일시적·소멸성 수요’가 아닌 구조적 수요로 규정, 장기전 관점의 투자·공급 전략 강조. 매우 짧은 기간 내 150억달러 수준 목표 달성 경로에 대한 강한 자신감 언급,...",
-      "link": "https://t.me/MASSITRADING/133251",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-16 17:03",
-      "text": "🎯 **[원유 수요 단기 급증 전망, 재고 소진 시 수요 둔화 압력 확대]** 향후 6~7주 사이 원유 수요가 하루 500만 배럴 추가 증가 가능성 언급. 유가 수준 자체보다 ‘공급 부족’이 본질적 문제로 제시; 가격은 질병의 ‘열’에 해당한다는 비유 제기. 공급 격차...",
-      "link": "https://t.me/MASSITRADING/133250",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-16 17:03",
-      "text": "🎯 **[비료·에너지 공급 차질, 식량안보와 신흥국 부채위기 동시 압박]** 공급 차질 지속으로 비료, 파종 시즌, 식량안보 이슈 부각; 동시에 연료·에너지 비용 부담 확대. 우크라이나 전쟁 당시와 유사하게 에너지 위기·식량 위기·생계비 상승이 재현되며, 국가별 재정여...",
-      "link": "https://t.me/MASSITRADING/133249",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-16 16:48",
-      "text": "🎯 **[Cisco, AI agents 확산으로 네트워킹 슈퍼사이클·보안 수요 동반 확대 전망]** 투자자 관점, 차세대 AI 확산 국면에서 핵심 가치가 chips뿐 아니라 네트워크·보안·인프라로 확장되는 흐름 부각. Cisco, 데이터센터 포트폴리오 확장 및 기업 단...",
-      "link": "https://t.me/MASSITRADING/133243",
+      "date": "2026-06-16 20:04",
+      "text": "🎯 **[Dell 등 레거시 테크, AI 인프라 수요로 실적·주가 기대치 재설정 Snowflake 수혜]** Dell, Intel, Nokia, BlackBerry 등 ‘레거시 테크’ 종목, AI 전환·AI 인프라 수요 확대로 주가 급등 흐름 부각. 신생 AI 기업(O...",
+      "link": "https://t.me/MASSITRADING/133309",
       "keywords": [
         "상향",
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-16 19:48",
+      "text": "🎯 **[Hegseth, 중국 군사력 팽창 경고·이란 재공격 가능성 언급, 미중 소통 재정의 시도]** 미국 국방장관 Pete Hegseth가 싱가포르 Shangri-La Dialogue 연설에서 협상 실패 시 대이란 공습 재개 준비가 돼 있다고 언급했고, 동맹 분담을...",
+      "link": "https://t.me/MASSITRADING/133301",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-16 19:47",
+      "text": "🎯 **[앨버타 분리투표 논란·헝가리 ICC 잔류, 미국 꿀 수요 증가로 수입 확대]** 캐나다에서 ‘Wexit’ 관련 이슈로, 한 주(州) 총리가 분리 여부 투표를 둘러싼 ‘국민투표에 대한 국민투표’ 추진을 언급했으며 해당 지역 앨버타로 지목. 헝가리는 Peter M...",
+      "link": "https://t.me/MASSITRADING/133298",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-16 19:33",
+      "text": "🎯 **[캄보디아 유물 불법 거래 논란 확산, Sotheby's·Met 출처 검증·환수 압력]** 내전·불안 시기 예술품·고대 유물 실종과 불법 유통이 빈번하며, 캄보디아 유물 수요 확대가 불법 시장을 자극했다는 문제 제기. 미국 Department of Justice...",
+      "link": "https://t.me/MASSITRADING/133296",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-16 19:33",
+      "text": "🎯 **[AI agents 확산으로 트래픽·보안 수요 급증, 스위치·라우터 전면 업그레이드 예고]** 인프라 투자 슈퍼사이클 진행에도 조직의 인프라 관리 방식 고도화 지연, 운영 복잡도 확대. inferencing 확산으로 AI 처리 지점 data center 중심 구...",
+      "link": "https://t.me/MASSITRADING/133293",
+      "keywords": [
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-16 19:18",
+      "text": "🎯 **[Cisco, AI agents 확산으로 네트워크·보안 수요 급증…인프라 슈퍼사이클 강조]** Cisco, AI 붐의 다음 단계 핵심을 칩뿐 아니라 네트워크·보안·연결 인프라로 제시, 데이터센터 사업 확장. AI 발전 축이 chatbots에서 AI agents로...",
+      "link": "https://t.me/MASSITRADING/133291",
+      "keywords": [
         "수요",
         "공급",
         "사이클",
         "OP"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-06-16 19:30",
+      "text": "**트렌드포스(TrendForce): NOR 플래시 및 SLC NAND 상반기 가격 2배 급등, 하반기에도 상승세 지속**  트렌드포스(TrendForce)의 최신 연구 보고서에 따르면, HBM 및 고단수 3D NAND의 생산 확대가 성숙 공정(Mature proces...",
+      "link": "https://t.me/JAKE8LEE/12762",
+      "keywords": [
+        "수요",
+        "공급"
       ]
     },
     {
@@ -232,18 +253,6 @@
       "link": "https://t.me/JAKE8LEE/12735",
       "keywords": [
         "OP"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-06-14 13:48",
-      "text": "#국장 #수출  1. KOSPI/KOSDAQ 주간 **-10.1%/-5.0%** 급락 → 명분은 전쟁·유가·금리지만 본질은 **5월 이후 과도한 쏠림 해소**.  2. AI 투자 사이클 노이즈(크루소·CPO 지연·SoCAMM 축소·오라클 Capex)는 수요 둔화가 아닌...",
-      "link": "https://t.me/JAKE8LEE/12729",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "사이클"
       ]
     },
     {
@@ -378,18 +387,6 @@
         "수요",
         "공급",
         "YoY",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-06-15 18:09",
-      "text": "**📌 핵심 요약: \"방산, AI... 그리고 원전까지?\" **• **투자의견:** **HIGH CONVICTION OUTPERFORM (강력 매수 추천)** • **목표 주가:** **1,000,000원 (₩1m)** • **핵심 논거:** 2026년 하반기 비메모리...",
-      "link": "https://t.me/MSTARYUN/9662",
-      "keywords": [
-        "수요",
-        "공급",
-        "TP",
         "수주"
       ]
     },
@@ -542,6 +539,15 @@
     },
     {
       "source": "@IRNOTE_YSTREET",
+      "date": "2026-06-16 19:15",
+      "text": "**[마감브리프] 26.06.16.(화) 뉴스 TOP10 - 씨에스베어링, 세아제강지주, 오리온홀딩스, 캐리 등**   https://contents.premium.naver.com/ystreet/irnote/contents/260616191318527zf  🧭 방향을...",
+      "link": "https://t.me/IRNOTE_YSTREET/4702",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
       "date": "2026-06-16 11:01",
       "text": "**[컨콜노트] LS에코에너지, 올해 하반기 희토류 사업 시작함**  ✅ 케이블 본업은 UHV와 HVDC까지 진출하며 고마진 위주로 제품 믹스를 개선 중임  ✅ 희토류 사업은 총 3가지 제품을 준비 중이며 올해 하반기부터 매출 발생이 가능할 것임  ✅ 고부가가치 제품 ...",
       "link": "https://t.me/IRNOTE_YSTREET/4692",
@@ -635,30 +641,14 @@
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-06-12 08:36",
-      "text": "**[모닝브리프] 26.06.12.(금) 뉴스 TOP10 - SK이노베이션, 삼성전자, 현대로템, SK하이닉스 등**   https://contents.premium.naver.com/ystreet/irnote/contents/260612083615349xd  ⚡️\"에...",
-      "link": "https://t.me/IRNOTE_YSTREET/4669",
+      "source": "@YAZA_STOCK",
+      "date": "2026-06-16 17:46",
+      "text": "[메리츠증권 전기전자/IT부품 양승수]   ▶ 欣興光模組 下半年增產逾5成  - Unimicron은 800G 및 1.6T 광모듈 수요 증가에 대응해 하반기에 관련 캐파를 50% 이상 확대할 계획, 현재 고객 수요는 기존 캐파의 2~3배 수준  - AI 데이터센터 내 고속...",
+      "link": "https://t.me/YAZA_STOCK/11166",
       "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-06-11 17:32",
-      "text": "**[마감브리프] 26.06.11.(목) 뉴스 TOP10 - 삼성전자, 원익IPS, 심텍, 한화에어로스페이스 등**   https://contents.premium.naver.com/ystreet/irnote/contents/260611173125750lz  ⚡️\"에너...",
-      "link": "https://t.me/IRNOTE_YSTREET/4668",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-06-11 17:01",
-      "text": "**[탐방노트] LS머트리얼즈, 업황 개선과 함께 AI향으로 변모중**  ✅ 본업은 업황이 좋지 않아 신재생 사업 분야 등으로 확장하고 있음  ✅ 전방 산업이 작년 말부터 개선되고 있어 올해는 작년보다 업황이 좋을 것임  ✅ 데이터센터향과 스태콤 등 AI 관련 제품은 ...",
-      "link": "https://t.me/IRNOTE_YSTREET/4667",
-      "keywords": [
-        "수주"
+        "수요",
+        "공급",
+        "사이클"
       ]
     },
     {
