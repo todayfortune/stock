@@ -2,12 +2,139 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
-      "date": "2026-06-21 22:20",
-      "text": "**메모리 반도체 부족 현상을 해결하기 거의 불가능한 이유** -**WSJ**  ** 용량은 빠르게 늘지 않고, 국가 안보 우려로 중국 대안은 제한적이어서 가격이 치솟고 있다. **  애플이 가격 인상을 결정하게 만든 주된 원인인 '메모리 반도체 부족 현상'을 즉각적으...",
-      "link": "https://t.me/IDEA_MEMO/24138",
+      "date": "2026-06-22 15:18",
+      "text": "**Jefferies**   * **메모리 전망 : 가격 인상 폭, 예상치 상회; 2026/27년 중국發 위협 없음**   당사 메모리 전문가는 다음과 같이 전망함 :   **1) 3분기 가격은 QoQ 40~50% 상승하고, 4분기에 추가로 30~40% 인상**될 것,...",
+      "link": "https://t.me/IDEA_MEMO/24169",
+      "keywords": [
+        "수요",
+        "공급",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:18",
+      "text": "🎯 **[독일 전차업체 KNDS 지분 매각 합의, 유럽 핵심 방산기업 IPO 추진 탄력]** 독일 전차 제조업체 KNDS의 가족 소유주가 지분 매각에 합의, 유럽 핵심 방산기업의 IPO 추진 기반 마련. 방산 수요 확대 국면에서 상장 추진이 자본조달 및 사업 확장에 미...",
+      "link": "https://t.me/MASSITRADING/136620",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:18",
+      "text": "🎯 **[유럽 PMI·미국 PCE·Micron 실적 대기, 인플레이션·반도체 수요 신호에 촉각]** 주간 이벤트: 독일 BDI ‘Day of Industry’(베를린) 개막, Friedrich Merz·Boris Pistorius·Johann Wadepohl 등 참석 ...",
+      "link": "https://t.me/MASSITRADING/136619",
+      "keywords": [
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:18",
+      "text": "🎯 **[미국-이란 협상 진전 신호에도 취약, 호르무즈 물류·LNG 재개가 에너지 변수]** 스위스에서 진행된 미국-이란 관련 논의는 초기 혼선과 이란 측 이탈설 이후 ‘일부 진전’ 신호가 있으나, 진전 내용은 불명확하며 기술협상(technical talks) 지속 전...",
+      "link": "https://t.me/MASSITRADING/136617",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:17",
+      "text": "🎯 **[후성 반등 지속, 반도체 특수가스 수요 확대와 AI·피지컬 AI 테마 부각]** 동시호가 특징주로 후성 주가 변동성 확대 언급. 지난주 신고가 경신 이후, 당일 11선 지지 확인 뒤 재반등하며 추가 업사이드 가능성 제기. 반도체 특수가스 수요 급증 전망을 배경...",
+      "link": "https://t.me/MASSITRADING/136614",
+      "keywords": [
+        "수요",
+        "업사이드"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:17",
+      "text": "🎯 **[미국 고용 17만2천 명 증가·실업률 4.3%, 수익률 상승 속 연준 동결론 부각]** 미국 고용지표, 예상 상회한 17만2천 명 증가로 서프라이즈. 레저·접객 고용 증가 두드러지고, 음식서비스·주점 4만8천 명, 의료 3만5천 명 증가. 금융활동 고용 증가 ...",
+      "link": "https://t.me/MASSITRADING/136613",
+      "keywords": [
+        "상향",
+        "서프라이즈",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:02",
+      "text": "🎯 **[미국 고용 17.2만명 증가로 예상 상회, 임금·물가 격차 재부각]** 미국 지난달 신규 고용 17만2,000명 증가, 전월 17만9,000명 대비 소폭 둔화. 시장 예상치를 상회한 서프라이즈로 평가. 업종별로 레저·접객(Leisure and hospitali...",
+      "link": "https://t.me/MASSITRADING/136612",
+      "keywords": [
+        "서프라이즈"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:02",
+      "text": "🎯 **[SpaceX IPO 급등 속 온체인 가격발견·옵션 개시로 변동성 확대]** SpaceX 상장 이후 전통 거래소 가격과 on-chain 파생상품 가격 사이 상관관계, 그리고 pre-IPO 단계 가격발견(price discovery) 가능성이 시장 핵심 이슈로 부...",
+      "link": "https://t.me/MASSITRADING/136611",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:02",
+      "text": "🎯 **[이란-미국 협상 진전 기대에 Brent 하락, 카타르 사고로 공급 재개 리스크 부각]** 이란-미국 협상 진전 신호로 원유 가격 약세, Brent 약 1.8% 하락하며 79달러대 언급. 주말 정보 혼선이 있었으나 최근 흐름은 유가 하방. 카타르 대형 가스 폭발...",
+      "link": "https://t.me/MASSITRADING/136610",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:02",
+      "text": "🎯 **[스타머 사임 시간표 관측 확산, 정치 불확실성 확대 시 gilt 약세 우려]** Downing Street에서 Keir Starmer 총리의 사임(또는 퇴진 계획) 발표 가능성 부각, 주말 사이 톤 변화 관측. 언론 보도로는 총리가 즉각 사임이 아니더라도 ‘퇴...",
+      "link": "https://t.me/MASSITRADING/136609",
+      "keywords": [
+        "수요",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 15:02",
+      "text": "🎯 **[미국 10% 임시 관세 만료 임박, 국가별 새 관세율 재산정 국면]** 대법원 패소 이후 대통령이 도입한 10% 임시 관세, 7월 24일 만료 예정으로 ‘관세 장벽’ 재구축 시간 촉박. 국가별로 관세율 재설정 진행 가능성, 일부 국가는 2025년 4월 ‘해방의...",
+      "link": "https://t.me/MASSITRADING/136608",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 14:32",
+      "text": "🎯 **[블룸버그NEF, 연료비 상승에도 정책 후퇴로 EV 전망 소폭 하향]** 연료가격 상승이 일부 소비자의 전기차 구매를 촉진했으나, 미국·중국의 정책 후퇴로 전기 승용차 판매 전망을 소폭 낮춤. 올해 글로벌 전기 승용차 판매 2,300만대 전망; 전 세계 승용차 ...",
+      "link": "https://t.me/MASSITRADING/136598",
       "keywords": [
         "수요",
         "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 14:32",
+      "text": "🎯 **[AI 데이터센터 전력난 심화, 민간 발전·규제완화·SMR로 공급 확장 모색]** AI 확산에 따른 데이터센터 전력 수요 급증으로 전력 확보가 hyperscaler의 최우선 제약 요인으로 부상. 미국 전력망, 점진적 수요 증가를 전제로 설계돼 최근과 같은 급격한...",
+      "link": "https://t.me/MASSITRADING/136594",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-22 14:32",
+      "text": "🎯 **[SpaceX IPO, 개인 배정 확대와 ETF 연계로 초기 변동성 확대 가능성]** SpaceX 상장, 장기 비상장 유지로 커진 기업가치(유니콘→데카콘) 흐름 전환점으로 평가. 경영진의 실적 발표·규제·주주 감시 부담 회피로 비상장 선호 강화됐으나, Starl...",
+      "link": "https://t.me/MASSITRADING/136593",
+      "keywords": [
+        "수요"
       ]
     },
     {
@@ -17,79 +144,6 @@
       "link": "https://t.me/MASSITRADING/136592",
       "keywords": [
         "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-22 14:18",
-      "text": "🎯 **[SpaceX IPO 개장 임박, dual class 구조와 초기 급등 가능성 부각]** 수년간 거론된 SpaceX IPO 일정이 현실화되며 초기 시초가 형성 및 첫 거래 시점에 시장 관심 집중. Elon Musk, SpaceX 상장 이후에도 지배력 강화를 위해...",
-      "link": "https://t.me/MASSITRADING/136590",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-22 14:17",
-      "text": "🎯 **[U.S.-Iran 협상 ‘진전’ 발표, 60일 로드맵·Hormuz 통과 물량이 유가 변동성 좌우]** Qatar·Pakistan 중재로 U.S.-Iran 평화협상에서 ‘고무적 진전’ 발표; 기술급 협의 주중 지속, 60일 내 최종 합의 로드맵 합의 언급. 협상...",
-      "link": "https://t.me/MASSITRADING/136589",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-22 14:02",
-      "text": "🎯 **[미국·유럽 선물 약세와 유가 하락, 미-이란 협상·지정학·인플레 우려 교차]** 미국 주가지수 선물 하락(나스닥100·다우 선물 동반 약세), 유로스톡스50 선물도 약세로 출발하며 위험자산 심리 둔화. 브렌트 배럴당 79.2달러, NY crude 배럴당 75....",
-      "link": "https://t.me/MASSITRADING/136585",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-22 13:48",
-      "text": "🎯 **[사우디 PIF 컨설팅 지출 축소로 BCG 영향 확대, AI·현금창출 중심으로 전환]** 사우디아라비아의 지출 축소가 컨설팅 업계로 파급; PIF가 컨설팅 비용을 재평가하며 일부 메가 프로젝트 야심을 축소하는 흐름. PIF의 과거 최대 수혜자였던 Boston C...",
-      "link": "https://t.me/MASSITRADING/136577",
-      "keywords": [
-        "수주"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-22 13:48",
-      "text": "🎯 **[Strait of Hormuz 통항 재개 조짐, Qatar LNG 선박 이동과 이란 공급 확대가 변수]** 워싱턴-테헤란 평화협상 진전 신호로 유가 하락; 60일 내 최종 합의 로드맵 합의 및 주중 기술협상 지속 예정. Strait of Hormuz 지도·거래...",
-      "link": "https://t.me/MASSITRADING/136576",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-22 13:47",
-      "text": "🎯 **[초기 테크 투자·제품 실험, 온디바이스 AI와 IP 보호형 메신저로 확장]** 인터뷰이는 2003년 iPod·iTunes 출시 프로젝트 참여 경험, 2005년 BlackBerry·Qualcomm(당시 Paul Jacobs) 네트워크 형성, 2007년 Tesla...",
-      "link": "https://t.me/MASSITRADING/136573",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-22 13:32",
-      "text": "🎯 **[매파적 FOMC 이후 달러 강세 전망 상향, USD/JPY 165 목표 제시]** 시장 관심이 중동 리스크에서 성장 기대와 Fed 정책 경로로 이동할 경우, 달러 강세 기조 강화 가능성 부각. BNP Paribas는 12월부터 3회 금리인상 전망을 제시했으며,...",
-      "link": "https://t.me/MASSITRADING/136568",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-22 13:18",
-      "text": "🎯 **[와이클레프 진, AI 음악·streaming·stablecoin으로 창작과 수익 구조 재편 전망]** 와이클레프 진, 하드웨어·소프트웨어 전환, streaming, AI 음악까지 이어지는 엔지니어링 관점에서 향후 10년 음악 산업 변화 전망 제시. AI 도구 ...",
-      "link": "https://t.me/MASSITRADING/136564",
-      "keywords": [
-        "수요"
       ]
     },
     {
@@ -268,6 +322,15 @@
     },
     {
       "source": "@DAISHINSTRATEGY",
+      "date": "2026-06-22 14:29",
+      "text": "[장 중 시황] 반도체 Top2의 시가총액 1위 쟁탈전 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(14시 35분): KOSPI +0.57% 상승 / 9,104.23pt  (KOSDAQ: -0.67% 하락 / 960.07pt) - 원/달러 환율 1,5...",
+      "link": "https://t.me/DAISHINSTRATEGY/6101",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@DAISHINSTRATEGY",
       "date": "2026-06-22 07:42",
       "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민입니다. [6월 22일 주요국 이슈] 보내드립니다.  # 미국 미국-이란 종전 대면 협상, 시작된 지 약 80분 만에 내부 협의를 이유로 조기 종료. 이란 당국은 현재 레바논 전선에서의 전쟁이 완...",
       "link": "https://t.me/DAISHINSTRATEGY/6100",
@@ -427,15 +490,6 @@
       "date": "2026-06-09 20:03",
       "text": "#이경민 #반도체 투자 시점 판단 중동 리스크 완화, 금리 안정화, 실적 장세 지속, 단기 급락에 대한 반발 매수세 유입으로 국내 증시 급반등  #반도체 #쏠림 주도 업종 분석 반도체 업종 급등, 시장 쏠림 현상 완화, AI 데이터센터 투자 사이클, 저가 매수세 유입,...",
       "link": "https://t.me/DAISHINSTRATEGY/6072",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-06-09 14:22",
-      "text": "[장 중 시황] 서킷브레이커에서 매수 사이드카로, 하루 만에 급반전 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(14시 15분): KOSPI +7.53% 상승 / 8,048.15pt  (KOSDAQ: +7.16% 상승 / 976.65pt) - 원/달러...",
-      "link": "https://t.me/DAISHINSTRATEGY/6071",
       "keywords": [
         "사이클"
       ]
@@ -636,16 +690,6 @@
         "수요",
         "공급",
         "사이클"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-06-18 08:15",
-      "text": ">>산화디스프로슘 가격 하루 만에 8만 위안 급등…MLCC, 희토류 ‘역사적 공급 부족’ 직면하나 (중국언론)   •산화디스프로슘의 수급 부족이 이제 막 본격화되고 있음. 2027년 AI 서버와 전기차용 MLCC 수요 증가로 인해 약 1,500톤의 신규 수요가 발생할 ...",
-      "link": "https://t.me/YAZA_STOCK/11189",
-      "keywords": [
-        "수요",
-        "공급"
       ]
     },
     {
@@ -1093,6 +1137,15 @@
     },
     {
       "source": "@EASOBI",
+      "date": "2026-06-22 14:49",
+      "text": "**# 6월 3주차 이익 리비젼 현황 🧊**☃️  상향 기여도 1등 반도체 + 하향 기여도 1등 자동차 외 시장 전반적인 리포트 빙하기 속 유의미한 리비젼은 부재...",
+      "link": "https://t.me/EASOBI/15987",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@EASOBI",
       "date": "2026-06-22 13:36",
       "text": "그러니까 닉스 업사이드가 더 커졌다 이말씀?...",
       "link": "https://t.me/EASOBI/15986",
@@ -1279,6 +1332,15 @@
       "link": "https://t.me/EASOBI/15958",
       "keywords": [
         "수주"
+      ]
+    },
+    {
+      "source": "@TOPTOWNQUANT",
+      "date": "2026-06-22 14:45",
+      "text": "**# 6월 3주차 이익 리비젼 현황 🧊**☃️  상향 기여도 1등 반도체 + 하향 기여도 1등 자동차 외 시장 전반적인 리포트 빙하기 속 유의미한 리비젼은 부재...",
+      "link": "https://t.me/TOPTOWNQUANT/13455",
+      "keywords": [
+        "상향"
       ]
     },
     {
