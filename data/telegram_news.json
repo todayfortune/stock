@@ -2,6 +2,16 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-06-25 18:07",
+      "text": ">>Anthropic, 호주·일본에서 데이터센터 인력 대거 채용… 아시아·태평양 지역 컴퓨팅 인프라 확장 가속 (중국언론)   •기업가치가 1조 달러에 육박하는  Anthropic이지만, 현재 확보한 컴퓨팅 자원은 수요의 절반 정도만 충족하고 있음. 이러한 ‘컴퓨팅 자...",
+      "link": "https://t.me/IDEA_MEMO/24332",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-06-25 15:30",
       "text": "**퀄컴 Investor Day: 핸드셋 기업에서 AI 인프라 기업으로**  퀄컴(QCOM)의 이번 Investor Day 메시지는 분명했습니다. 더 이상 스마트폰 반도체 기업으로만 보지 말고, **데이터센터와 엣지를 모두 아우르는 AI 컴퓨팅 플랫폼 기업으로 봐달라는...",
       "link": "https://t.me/IDEA_MEMO/24325",
@@ -79,135 +89,170 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-25 15:34",
-      "text": "🎯 **[Atlassian·Datadog, agentic AI 수혜 기대와 중국 ADR 밴 리스크 부각]** 미국 소프트웨어 시장에서 개발자 채용 둔화가 관측되며, 해당 시장에 판매하는 기업의 수요 환경이 건강하지 않을 수 있다는 투자자 우려 제기. Atlassian과...",
-      "link": "https://t.me/MASSITRADING/138564",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-25 15:33",
-      "text": "🎯 **[연준 조기·연속 인상 가능성에 달러 강세, 달러-엔 165~170 시나리오]** BNP 측, 연준 기준금리 인상 사이클이 시장에 가격반영될 때 달러 강세가 나타나고 실제 인상 개시 이후엔 강세가 둔화되는 경향 언급, 여름철 달러 캐리 환경 전망. 기본 시나리오...",
-      "link": "https://t.me/MASSITRADING/138561",
+      "date": "2026-06-25 18:48",
+      "text": "🎯 **[이라크 OPEC 탈퇴 가능성 시사, EU-미국 15% 관세상한 무역합의]** 이라크, OPEC이 원유 생산쿼터 상향을 허용하지 않을 경우 장기적으로 탈퇴 가능성 시사. 이라크 석유부 대변인: OPEC에 대한 헌신 유지 입장이나 국내 필요 충족을 위한 증산 여지...",
+      "link": "https://t.me/MASSITRADING/138660",
       "keywords": [
         "상향",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-25 15:32",
-      "text": "🎯 **[주택비용 인하 위한 초당적 Housing Act, 공급 확대·규제완화 추진]** 의회 통과된 주택비용 인하 법안(Housing Act) 관련 후속 절차가 법제화로 이어질 가능성 언급. 수개월간 하원·상원이 협력해 장기적으로 주택을 더 저렴하게 만들기 위한 규칙...",
-      "link": "https://t.me/MASSITRADING/138560",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-25 15:32",
-      "text": "🎯 **[AI 네이티브 비상장 급성장 속 상장 소프트웨어 저평가 기회 부각]** 2026년 소프트웨어 섹터 부진 지속, iShares Expanded Tech-Software Sector ETF(IGV) 약 20% 하락. Macquarie AI Disruptors In...",
-      "link": "https://t.me/MASSITRADING/138558",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-25 15:18",
-      "text": "🎯 **[PCE·GDP 발표 앞두고 Fed 금리경로 재평가, 달러 강세 지속 여부 주목]** ECB economic bulletin 공개, NATO 사무총장 Mark Rutter의 미 의회 면담 일정 등 이벤트와 함께 미국 PCE·personal income·initi...",
-      "link": "https://t.me/MASSITRADING/138556",
-      "keywords": [
-        "init",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-25 15:18",
-      "text": "🎯 **[H&M 2분기 영업이익 추정치 하회, 연간 순매장 80개 축소 전망]** H&M 2분기 영업이익 59억 Swedish krona로 시장 예상 63.5억 Swedish krona 하회. 세전이익 52.8억 Swedish krona도 예상치를 밑돌았고, 2분기 순...",
-      "link": "https://t.me/MASSITRADING/138555",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-25 15:18",
-      "text": "🎯 **[Brent·WTI 하락과 Contango 전환, 중동 리스크에도 원유 약세]** Brent 72.49달러 수준으로 전쟁 이전 구간에 근접, WTI 배럴당 70달러 하회 언급 등 유가가 단기적으로 하락 압력 우세. Gulf contracts가 Contango로 ...",
-      "link": "https://t.me/MASSITRADING/138553",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-25 15:18",
-      "text": "🎯 **[Micron 가이던스·HBM 장기계약, AI 메모리발 인플레 우려 재점화]** 아시아 증시 강세 배경으로 Micron 실적·가이던스 호조 부각, 유럽 개장 전 기술주 중심의 상대적 강세 기대 형성. 시장 민감도 GPU·NVIDIA 스토리에서 메모리(HBM 포함...",
-      "link": "https://t.me/MASSITRADING/138552",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-25 15:18",
-      "text": "🎯 **[Jay Hadfield, 유가 하락·CPI 둔화 전망 속 S&P 500 9,000 목표 유지]** Jay Hadfield, 최근 장세 핵심 변수로 유가 하락을 지목하며 기술주 주도장에 ‘역풍·순풍’이 동시에 작용 가능하다고 언급. OPEC 생산이 최대치로 움직...",
-      "link": "https://t.me/MASSITRADING/138551",
-      "keywords": [
-        "상향",
-        "수요",
         "공급",
         "OP"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-25 15:18",
-      "text": "🎯 **[미국 증시 소폭 반등, 10년물 금리 4.43%·WTI 70달러 하회]** Dow 약 80포인트 상승, S&P 500 약 0.3% 상승, Nasdaq 약 0.25% 상승으로 제한적 반등 흐름. 전일 Nasdaq 중심 낙폭 크게 발생, Nasdaq 100 연중 ...",
-      "link": "https://t.me/MASSITRADING/138550",
+      "date": "2026-06-25 18:48",
+      "text": "🎯 **[로빈후드 CIO: 리테일, AI 조정장서도 ‘딥 매수’ 지속]** 로빈후드 CIO, AI 관련주 급등 구간에서 실적 ‘서프라이즈’ 여부가 단기 시장 방향을 크게 좌우한다고 진단. 로빈후드 고객 흐름: 마이크론이 최근 1주일간 최다 인기 종목, 조정 시 개인투자...",
+      "link": "https://t.me/MASSITRADING/138659",
       "keywords": [
+        "서프라이즈",
+        "수요",
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-25 15:03",
-      "text": "🎯 **[Brent crude 72.49로 전쟁 이전 수준 회귀, 공급과잉 신호가 물가 압력 완화 변수]** 시장 위험선호(risk-on) 배경으로 Micron발 AI 모멘텀과 아시아 증시 강세, Kospi 상승 흐름 관측. Brent crude가 72.49 수준으로 ...",
-      "link": "https://t.me/MASSITRADING/138548",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-06-25 15:03",
-      "text": "🎯 **[U.S. tech 성과 둔화 속 Micron 실적이 AI·메모리 및 유럽 반도체주 반등 촉발]** U.S. tech sector 수익률이 MSCI Asia Tech 및 EU tech 대비 상대적으로 부진한 흐름 제시. AI 관련 핵심 축으로 메모리 수요가 재부...",
-      "link": "https://t.me/MASSITRADING/138547",
+      "date": "2026-06-25 18:48",
+      "text": "🎯 **[마이크론, AI 메모리 수요로 2027년까지 타이트한 수급 전망]** 마이크론, 예상 상회 분기 매출 전망 제시로 주가 두 자릿수 상승. 블룸버그 인텔리전스 분석: AI 확산에 따른 HBM·서버용 DRAM 수요가 수급을 장기간 타이트하게 만들 가능성. 메모리 ...",
+      "link": "https://t.me/MASSITRADING/138658",
       "keywords": [
         "수요",
+        "공급",
         "사이클"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-25 14:48",
-      "text": "🎯 **[Micron 급등에 아시아 주식 반등, Brent 약세·PCE 앞두고 달러 강세]** 주식시장 전반 강세 흐름 지속, MSCI Asia Pacific 1.8% 상승, Euro Stoxx 50 futures 0.3% 상승, NASDAQ 100 futures 약 ...",
-      "link": "https://t.me/MASSITRADING/138539",
+      "date": "2026-06-25 18:47",
+      "text": "🎯 **[NBPA, Players United 출범…선수 집단 IP·콘텐츠·머천다이즈 수익화 추진]** NBPA가 기존 상업 조직 Think450의 B2B 라이선싱(선수 집단 Name/Image/Likeness 권리) 모델을 확장해, 팬 직접 접점의 B2C 브랜드 ‘P...",
+      "link": "https://t.me/MASSITRADING/138655",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-06-25 14:47",
-      "text": "🎯 **[캐나다, 현대차 공장·수소 인프라 협력으로 자동차 공급망 자립 모색]** 캐나다 측 핵심 관심사로 현대차(및 기아) 관련 캐나다 내 신규 공장 건설 거론. 캐나다는 자국 내 자동차 공장 기반이 약해 미국 의존도가 높았으나, 트럼프 이후 관세 영향으로 캐나다 내...",
-      "link": "https://t.me/MASSITRADING/138537",
+      "date": "2026-06-25 18:33",
+      "text": "🎯 **[마이크론 깜짝 실적·가이던스, HBM 공급제약 지속과 저평가 논쟁 부각]** 마이크론 3분기 실적 발표 직후 after hours 주가 약 10% 상승, 시장은 실적 서프라이즈와 가이던스 상향을 재평가. 애널리스트는 매출 가이던스 500억달러, 전분기 대비 7...",
+      "link": "https://t.me/MASSITRADING/138653",
       "keywords": [
+        "상향",
+        "서프라이즈",
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:33",
+      "text": "🎯 **[관세 충격으로 공급망 재편 가속, 중국 의존도 2027년 30% 목표로 축소]** 관세가 시장 구조를 바꾸는 수준의 정책 변화로 작동하며, 공급망 전반에서 제품 원가 상승을 생산성 개선으로 상쇄해야 하는 과제 부각. 생산기지를 중국에서 미국, 또는 멕시코에서 ...",
+      "link": "https://t.me/MASSITRADING/138652",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:18",
+      "text": "🎯 **[Micron 실적·가이던스 서프라이즈, AI 메모리 수요로 시간외 급등]** Micron 3분기 실적 발표: 조정 EPS 2.3 기록으로 시장 예상(2.049) 상회로 소개. 매출 414.6억 달러로 시장 예상 356.9억 달러 상회로 소개. 가이던스: 4분기...",
+      "link": "https://t.me/MASSITRADING/138646",
+      "keywords": [
+        "서프라이즈",
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:18",
+      "text": "🎯 **[전쟁발 인플레이션 왜곡 속 core 안정, Fed는 관망·주식 상승여력]** 상반기 주식시장, 전쟁·인플레이션·불확실성에도 사상 최고치 부근 유지. 게스트, 전쟁 관련 가격 충격이 headline inflation을 왜곡하나 core inflation의 기조적...",
+      "link": "https://t.me/MASSITRADING/138644",
+      "keywords": [
+        "쇼크"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:18",
+      "text": "🎯 **[Iraq의 OPEC 탈퇴 가능성, EU-미국 무역합의·Anthropic-Alibaba 공방 부각]** Iraq, OPEC가 생산 쿼터 상향을 허용하지 않으면 장기적으로 탈퇴할 수 있다는 입장 표명; OPEC에 대한 기본적 협력 의사와 함께 자국 수요 충족을 위...",
+      "link": "https://t.me/MASSITRADING/138643",
+      "keywords": [
+        "상향",
+        "수요",
+        "OP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:18",
+      "text": "🎯 **[CLSA Sanjeev Rana, 메모리 장기계약 확산으로 P/E 재평가·가격 상승 여지 제시]** CLSA Sanjeev Rana, 메모리 업체들의 계약 구조 변화와 장기 수요 가시성 확대를 근거로 섹터 재평가 가능성 언급. CLSA 목표주가: Samsung...",
+      "link": "https://t.me/MASSITRADING/138642",
+      "keywords": [
+        "상향",
+        "서프라이즈",
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:18",
+      "text": "🎯 **[Micron·Qualcomm 강세, Alphabet은 Anthropic 인재 이탈로 약세]** 전일 조정 이후 AI 트레이드 재점화 조짐; Micron의 강한 전망 제시가 분위기 전환 요인. Micron, 강한 수요와 타이트한 공급 환경을 배경으로 실적·가이던...",
+      "link": "https://t.me/MASSITRADING/138641",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:18",
+      "text": "🎯 **[Micron 급등에 NASDAQ 반등, 은행 배당 상향·장단기 금리차 축소 지속]** 미국 시장, Micron 실적·가이던스가 AI 내러티브를 재강화하며 NASDAQ 반등 촉발. Micron, 고객을 최장 5년 계약으로 묶는 구조가 업황의 전형적 호황·불황(b...",
+      "link": "https://t.me/MASSITRADING/138640",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:03",
+      "text": "🎯 **[주택 법안, Save America Act 연계로 서명 지연; 규제·금리 부담이 공급 제약]** 미 의회, 초당적 주택 패키지 법안을 압도적 표차로 통과시켰으나, Trump 대통령이 Save America Act(유권자 등록·신분증 관련) 통과 전까지 서명 보...",
+      "link": "https://t.me/MASSITRADING/138637",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:03",
+      "text": "🎯 **[Slate, 모듈형 EV로 원가 절감·gross margin 확보하며 예약 18만 건 제시]** Slate, 차량 플랫폼과 옵션·기능 분리 전략으로 구매 이후에도 액세서리·랩(wrap) 교체를 통한 지속적 커스터마이징 수요 기대. 회사 측, 전 차량 gross...",
+      "link": "https://t.me/MASSITRADING/138636",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-06-25 18:03",
+      "text": "🎯 **[Micron 실적·전망 서프라이즈로 AI trade 재점화, 글로벌 반도체 전반 확산]** Micron 주가, 프리마켓에서 큰 폭 상승(약 16%대)하며 전일 발표된 전망·실적 서프라이즈 영향 반영. 전통적으로 경기순환적 성격 강한 기업으로 평가됐으나, 장기 ...",
+      "link": "https://t.me/MASSITRADING/138633",
+      "keywords": [
+        "서프라이즈",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-06-25 18:03",
+      "text": "**Susquehanna, 마이크론 테크놀로지( ****$MU****)의 목표 주가를 1,750달러에서 2,000달러로 상향 **   \"마이크론은 **컨센서스와 매수 측(buy-side)의 기대치를 크게 상회하는 매출 및 주당순이익(EPS) 실적과 가이던스를 발표**했...",
+      "link": "https://t.me/JAKE8LEE/12910",
+      "keywords": [
+        "상향",
+        "수요",
         "공급"
       ]
     },
@@ -253,6 +298,15 @@
       "keywords": [
         "QoQ",
         "YoY"
+      ]
+    },
+    {
+      "source": "@ONE_GOING",
+      "date": "2026-06-25 16:54",
+      "text": "**■  6월 남은 증시 주요일정**  1) 미 PCE 물가지수 (6/25.오늘.밤9시반) 3.8% 예상  2) 기관, 분기 리밸런싱 진행 (6월말)   3) 이재명 주재, 로봇·AI 및 반도체 관련 정책 성과와 신규 대책 보고 (6/29.월)  4) 이재명 주재, '...",
+      "link": "https://t.me/ONE_GOING/3663",
+      "keywords": [
+        "수주"
       ]
     },
     {
@@ -413,6 +467,25 @@
       "keywords": [
         "상향",
         "사이클"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-06-25 17:51",
+      "text": "**퀄컴 Investor Day: 핸드셋 기업에서 AI 인프라 기업으로**  퀄컴(QCOM)의 이번 Investor Day 메시지는 분명했습니다. 더 이상 스마트폰 반도체 기업으로만 보지 말고, **데이터센터와 엣지를 모두 아우르는 AI 컴퓨팅 플랫폼 기업으로 봐달라는...",
+      "link": "https://t.me/MSTARYUN/9766",
+      "keywords": [
+        "상향",
+        "수요"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-06-25 17:30",
+      "text": "**Micron FY3Q26 **실적발표 주요 포인트  ** 1) 실적은 예상치를 크게 상회 3Q **실적 - 매출 $41.5B (컨센 $35.5B) - EPS $25.11 (컨센 $20.4) - GPM 84.9% (컨센 81.8%)  4Q 가이던스 - 매출 $50B ...",
+      "link": "https://t.me/MSTARYUN/9762",
+      "keywords": [
+        "공급"
       ]
     },
     {
@@ -594,6 +667,15 @@
     },
     {
       "source": "@IRNOTE_YSTREET",
+      "date": "2026-06-25 18:14",
+      "text": "**🚨삼전·닉스만 보다간 진짜 놓친다!**  AI가 무섭게 발전할수록  ➡️ 폭등하는 전력 수요!  **삼성그룹도 뛰어든 에너지 산업!** \"에너지를 더 만들어 달라\" 대기업이 줄 서 있다!  K-에너지 대전환 시대! **투자에 올라탈 역대급 기회!** 🚀   최고의 ...",
+      "link": "https://t.me/IRNOTE_YSTREET/4763",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
       "date": "2026-06-25 08:38",
       "text": "**[모닝브리프] 26.06.25.(목) 뉴스 TOP10 - 삼성전자, 에이프릴바이오, 현대차 등**   https://is.gd/ehKHfC  📈 이 특강 놓치면 10년을 후회한다! <에너지 대전환 시대! 투자로 올라타라!> 👉 https://vo.la/6bWaWLo...",
       "link": "https://t.me/IRNOTE_YSTREET/4758",
@@ -675,32 +757,33 @@
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-06-22 08:41",
-      "text": "**[모닝브리프] 26.06.22.(월) 뉴스 TOP10 - HD현대일렉트릭, 삼성전자, SK하이닉스 등**   https://is.gd/pMxFtL  🧭 방향을 보면 투자가 쉬워진다! '이선엽의 투자 나침반' 👉 https://vo.la/4aepaT2...",
-      "link": "https://t.me/IRNOTE_YSTREET/4727",
+      "source": "@YAZA_STOCK",
+      "date": "2026-06-25 17:31",
+      "text": "즉 이종욱,김선우 애널리스트들의 논리인 가격상승률 둔화후 \"고원현상\" 논리가 위 게시물에서와 같이 , 이번 마이크론 실발에서 잘 나타남  , yoy가격상승률 피크아웃에 의한 주가하락이 아닌 높은가격에서의 지속을 의미 이는 과거사이클에서 yoy가격상승률둔화가 곧 가격하락...",
+      "link": "https://t.me/YAZA_STOCK/11288",
       "keywords": [
-        "OP"
+        "사이클"
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-06-19 19:00",
-      "text": "**📝 금주 노다지IR노트 정리** (2026.06.15~2026.06.19)  - 제목을 클릭하면 상세내용을 보실 수 있습니다  🔸 **IR이슈노트(주담통화)** 이구산업 : [원재료 가격 변동 속 사업 순항 중](https://contents.premium.nave...",
-      "link": "https://t.me/IRNOTE_YSTREET/4726",
+      "source": "@YAZA_STOCK",
+      "date": "2026-06-25 17:05",
+      "text": "JP모건) 마이크론; 대폭의 실적 상회 및 가이던스 상향과 주요 SCA 확대가 더 높고 더 지속성 있는 이익 하단을 고정; 2026년 12월 이후 자본 환원 전환이 또 하나의 가치 실현 레버를 더함; OW 의견 재차 확인  이번 실적과 가이던스는 콜 직전 시장 및 바이...",
+      "link": "https://t.me/YAZA_STOCK/11284",
       "keywords": [
-        "수요",
-        "OP",
-        "QoQ"
+        "상향",
+        "서프라이즈",
+        "공급",
+        "사이클"
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-06-19 17:32",
-      "text": "**[마감브리프] 26.06.19.(금) 뉴스 TOP10 - 삼성전자, 엠케이전자, 한울반도체, LG디스플레이 등**   https://is.gd/u29U1a  🧭 방향을 보면 투자가 쉬워진다! '이선엽의 투자 나침반' 👉 https://vo.la/4aepaT2...",
-      "link": "https://t.me/IRNOTE_YSTREET/4725",
+      "source": "@YAZA_STOCK",
+      "date": "2026-06-25 16:24",
+      "text": "전자닉스도 2분기 실적 발표 전후로 이익 추정치 상향에 주목...",
+      "link": "https://t.me/YAZA_STOCK/11282",
       "keywords": [
-        "OP"
+        "상향"
       ]
     },
     {
@@ -710,26 +793,6 @@
       "link": "https://t.me/YAZA_STOCK/11271",
       "keywords": [
         "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-06-24 08:27",
-      "text": "**대만 경제부) 16개월 연속 증가! 수출 주문, 역대 5월 최고치 기록…47% 증가한 894억 달러**  **AI 효과가 힘을 발휘하면서, 경제부는 어제(23일) 5월 수출 주문 금액이 894억8,000만 달러였다고 발표**했다. 이는 **역대 5월 기준 최고치이자...",
-      "link": "https://t.me/YAZA_STOCK/11255",
-      "keywords": [
-        "수요",
-        "공급",
-        "수주"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-06-23 19:34",
-      "text": "**>>골드만 삭스: AI 자본지출 붐이 한국 반도체 사이클에 미치는 영향의 강도와 지속 기간이 모두 예상치를 상회**  •골드만 삭스는 AI 자본지출 붐이 한국 반도체 업황에 대한 견인 효과의 강도와 지속 기간 모두 시장 예상보다 크다고 지적했음. AI가 창출하는 막...",
-      "link": "https://t.me/YAZA_STOCK/11251",
-      "keywords": [
         "사이클"
       ]
     },
@@ -782,6 +845,16 @@
         "상향",
         "구조적 성장",
         "TP"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-06-25 17:16",
+      "text": "국내 주식 마감 시황 - 6월 25일  『다시 반도체의 차례』 시황 강진혁 ☎02-3772-2329  코스피 8,930.30 (+5.42%), 코스닥 887.81 (-2.36%)  Micron 실적 서프라이즈에 KOSPI 9,000p 접근  금일 KOSPI, KOSDA...",
+      "link": "https://t.me/SHINHANRESEARCH/51484",
+      "keywords": [
+        "서프라이즈",
+        "수요"
       ]
     },
     {
@@ -929,6 +1002,19 @@
       "link": "https://t.me/SHINHANRESEARCH/51461",
       "keywords": [
         "수주"
+      ]
+    },
+    {
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-06-25 17:21",
+      "text": "한국&중국 마켓 클로징(6월 25일)  어제는 삼전, 오늘은 닉스   # 국내 마감 ▶ Summary · 코스피 8,930.30(+5.42%), 코스닥 887.81(-2.36%) · ADR 및 마이크론 효과에 SK하이닉스 13% 급등 · JP모건, 코스피 목표가 (Bu...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/6867",
+      "keywords": [
+        "상향",
+        "서프라이즈",
+        "공급",
+        "사이클",
+        "밸류체인"
       ]
     },
     {
