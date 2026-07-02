@@ -2,6 +2,15 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-07-02 14:56",
+      "text": "**모건스탠리  메타 CapEX 예상**  네오클라우드를 규모화할 영구적 사업이 아니라 일시적인 보완 수단으로 가정  **메타가 실제로 이러한 기회에 집중하게 되는 정도에 따라, 앞서 설명한 것처럼 더 높은 리스크가 있는 만큼, 2027년/2028년 CapEx에는 상향...",
+      "link": "https://t.me/IDEA_MEMO/24504",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-07-02 07:40",
       "text": "* **메타 관련, 시간 순으로 정리**   2026년 3월경 - Google, Gemini 용량 전량 공급 불가 통보 (보도는 6/28 FT에서)  2026년 3월 16일 - Nebius와 용량 계약 $27B 발표  2026년 4월 9일 - CoreWeave와 용량 ...",
       "link": "https://t.me/IDEA_MEMO/24498",
@@ -95,38 +104,58 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-02 13:48",
-      "text": "🎯 **[Johannesburg 재정 공백 심화, Ghana 물가 5.3%로 반등…금리 동결 전망]** Johannesburg, 재원 미확보 상태의 수십억 랜드 규모 예산을 안고 새 회계연도 진입. 전력·연료 공급 대금 지급 불능을 포함한 기존 위기 심화 가능성 제기....",
-      "link": "https://t.me/MASSITRADING/142788",
+      "date": "2026-07-02 15:33",
+      "text": "🎯 **[엔화 개입 경계 속 유럽 방산 IPO 연기, Meta발 기술주 약세와 JGB 장기금리 상승]** 엔화, 일본의 추가 환시 개입 가능성 관측 속 달러 대비 소폭 강세로 전환, 시장에 사전 신호 없이 개입할 수 있다는 보도 언급. 독일에서 Friedrich Mer...",
+      "link": "https://t.me/MASSITRADING/142843",
       "keywords": [
-        "공급"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-02 13:48",
-      "text": "🎯 **[Hormuz 유조선 통항 증가로 Brent 70달러대, 협상 취약성·운송비 리스크 잔존]** Brent crude 70.85달러/배럴 수준으로 하락, 3거래일 연속 약세. Strait of Hormuz 유량 1,000만 배럴/일 이상으로 회복했다는 미국 행정부...",
-      "link": "https://t.me/MASSITRADING/142786",
+      "date": "2026-07-02 15:33",
+      "text": "🎯 **[미국 10-year TIPS 2.26%로 경기 낙관 강화, gilts·엔화·중국주 기회 점검]** 기술주 집중도가 높은 장세에서 ‘기술주 약세 시 타 섹터의 상대 강세 가능성’과 ‘동반 하락 위험’이 핵심 쟁점으로 부각. 미국 실질금리 상승(10-year TI...",
+      "link": "https://t.me/MASSITRADING/142842",
+      "keywords": [
+        "서프라이즈",
+        "사이클",
+        "업사이드"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-02 15:33",
+      "text": "🎯 **[AI 인프라 둔화 우려로 memory trade 흔들림, Apple 조달 다변화 가속]** 신규 인프라 구축 둔화 기대 확산으로 주식시장에서 memory trade 재평가 압력 확대. 미국 Micron, 아시아 Samsung·Hynix 중심으로 메모리 관련주 ...",
+      "link": "https://t.me/MASSITRADING/142840",
       "keywords": [
         "수요",
         "공급",
-        "OP"
+        "밸류체인"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-02 13:48",
-      "text": "🎯 **[테크 ETF로 380억달러 유입, 저상관·저테크 및 레버리지 ETF 리스크 부각]** 테크 섹터 중심의 시장 리더십이 완화되는 국면에서 ETF 시장에도 자금 흐름 변화 관측. 테크 ETF로 약 380억달러 유입, 카테고리 중 최대 유입으로 집계. 전략 제안: ...",
-      "link": "https://t.me/MASSITRADING/142784",
+      "date": "2026-07-02 15:33",
+      "text": "🎯 **[Meta, 초과 AI compute 임대 검토…클라우드 시장 신규 경쟁 변수 부상]** Bloomberg 보도: Meta, 대규모 데이터센터·AI 인프라 투자로 구축한 AI compute를 외부에 판매(임대)하는 방안 검토. 주가 장중 약 8.5% 상승; AI...",
+      "link": "https://t.me/MASSITRADING/142837",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-02 13:47",
-      "text": "🎯 **[가격 민감·저도수 선호 속 Duckhorn, 15달러 이상 프리미엄 점유율 확대]** 소비자 가격 민감도 상승과 젊은층 음주 감소로 와인·스피릿 판매 압박 지속. Constellation Brands, 1분기 와인·스피릿 사업 매출 47% 감소 보고. Duck...",
-      "link": "https://t.me/MASSITRADING/142783",
+      "date": "2026-07-02 15:33",
+      "text": "🎯 **[미 상무부, Anthropic 고급 AI 모델 수출통제 해제…Mythos 5 재공급]** Anthropic, 미국 정부가 자사 고급 AI 모델 Claude, Fable 5, Mythos 5 관련 수출통제를 해제했다고 확인. Mythos 5, 학습 목표로 설계되...",
+      "link": "https://t.me/MASSITRADING/142836",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-02 15:18",
+      "text": "🎯 **[Warsh 물가안정·독립성 재확인, Rowland 재정 부양 ‘설탕 러시’로 Fed 부담 지적]** Fed Chair Kevin Warsh, 포르투갈 신트라 ECB 중앙은행 포럼 발언에서 물가 수준 과도하다는 인식과 2% 물가목표 고수 의지 강조. 대통령의 금...",
+      "link": "https://t.me/MASSITRADING/142834",
       "keywords": [
         "수요",
         "공급"
@@ -134,27 +163,18 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-02 13:32",
-      "text": "🎯 **[주류 수요 둔화 속 Constellation Brands 와인·증류주 매출 47% 급감]** 소비자 가격 민감도 상승과 젊은 층 음주 감소로 와인·증류주 판매 압박 확대. Constellation Brands 1분기 와인·증류주 사업 매출 47% 감소 발표. ...",
-      "link": "https://t.me/MASSITRADING/142775",
+      "date": "2026-07-02 15:18",
+      "text": "🎯 **[유럽 방산 KNDS, 대형 IPO 연기 언급으로 시장 일정 불확실성 확대]** Tankmaker KNDS가 유럽 내 최근 최대급 데뷔 중 하나로 거론되던 IPO를 ‘연기’한다는 예고가 제시됨. 세부 사유·신규 일정은 언급되지 않았으나, 자본시장 창구 타이밍과 ...",
+      "link": "https://t.me/MASSITRADING/142832",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-02 13:32",
-      "text": "🎯 **[Nike 매출 감소와 중국 부진 지속, 프로모션 절제·재고정리로 턴어라운드 추진]** Nike 주가 하락 배경으로 매출 감소와 소비 환경 악화 언급; CEO Elliot Hill의 구조조정 국면이 진행 중이며 2024년 10월 합류 이후 2년차 구간이라는 설명...",
-      "link": "https://t.me/MASSITRADING/142774",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-02 13:32",
-      "text": "🎯 **[반도체 실적 호조로 기술주 비중 유지, 산업재·중형주로 분산 모색]** 연초 이후 반도체 중심 주가 상승으로 밸류에이션 부담 완화 구간 언급; 실적 성장으로 PE 낮아 보이는 효과 발생. AI CapEx 확대 수혜로 중소형주(부품·공급망) 관심 확대, 신흥국 ...",
-      "link": "https://t.me/MASSITRADING/142773",
+      "date": "2026-07-02 15:18",
+      "text": "🎯 **[nonfarm payrolls 대기 속 bear flattening, Walsh 발언과 일본 FX 개입 경계 확산]** 중앙은행 관련 대화에서 Kevin Walsh의 메시지로 forward guidance 축소 가능성이 부각, 시장은 이를 제한적 dovish ...",
+      "link": "https://t.me/MASSITRADING/142831",
       "keywords": [
         "수요",
         "공급"
@@ -162,79 +182,78 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-02 13:17",
-      "text": "🎯 **[연준 금리 경로, 재정 부양 ‘설탕러시’와 반도체 쏠림이 변수로 부상]** 포르투갈 콘퍼런스 발언 이후 Kevin Walsh의 매파적 기조 해석이 확산되며, 시장은 4주 후 FOMC에서 금리 인상 확률을 약 3분의 1로 반영. 재정 측면에서는 ‘one big,...",
-      "link": "https://t.me/MASSITRADING/142772",
+      "date": "2026-07-02 15:18",
+      "text": "🎯 **[Brent 약세 속 contango 전면 ‘kink’, 단기 공급 과잉과 중기 재고 변수 부각]** Brent 가격 70선 언급 속 60대 진입 가능성 거론, 핵심 신호로 contango 형태의 선물 곡선 ‘front-end kink’가 부각. 곡선 해석, G...",
+      "link": "https://t.me/MASSITRADING/142830",
       "keywords": [
-        "상향",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-02 15:18",
+      "text": "🎯 **[Meta compute 임대 가능성 부각으로 KOSPI 급락, memory·chip 주 동반 충격]** Meta data centers·AI 인프라 구축 과정에서 일부 compute capacity 임대 가능성 보도, AI 인프라가 ‘capacity const...",
+      "link": "https://t.me/MASSITRADING/142828",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-02 15:03",
+      "text": "🎯 **[아시아 반도체주 동반 약세와 유가 하락…KOSPI 6.5% 급락, AI 인프라 우려]** 미국 반도체주 급락 여파로 아시아 chip 관련 주식 전반 약세. 유가 하락 지속으로 Brent 가격이 60달러대 진입을 시도하는 흐름 언급. 유럽 개장 전 Eurosto...",
+      "link": "https://t.me/MASSITRADING/142827",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-02 15:03",
+      "text": "🎯 **[관세 충격에 장난감 공급망 중국 의존 축소 가속…2027년 30% 목표]** 관세가 시장 작동 방식에 대한 정부정책의 구조적 변화로 작용하며, 공급망에서 비용 상승을 상쇄할 생산성 이니셔티브 필요성 확대. 중국에서 미국·멕시코·캐나다 등으로의 공급망 이전은 단...",
+      "link": "https://t.me/MASSITRADING/142826",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-02 15:02",
+      "text": "🎯 **[Hinge CEO ‘풍부한 프로필’ 강조…결혼 지출 8.5% 증가와 소비 변화]** Hinge가 데이팅 앱 대기업 Match 내부에서 성장 동력으로 언급되며, 사용자 프로필 품질이 매칭 성과에 중요하다는 메시지 부각. Bank of America 신규 리서치 ...",
+      "link": "https://t.me/MASSITRADING/142821",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-02 15:02",
+      "text": "🎯 **[AI 확산으로 SaaS 재평가…Salesforce 매수 상향에도 구조적 위험 부각]** 월가에서 ‘SaaSpocalypse’로 불리는 SaaS 업종의 대규모 조정 국면 부각; Anthropic, OpenAI 등 AI 서비스 확산으로 SaaS 비즈니스 모델의 대...",
+      "link": "https://t.me/MASSITRADING/142820",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-02 14:48",
+      "text": "🎯 **[AI는 단기 인플레·CapEx 압력, 버블 붕괴는 overbuild 이후 가능]** 앵커는 AI 인프라 확충 과정에서 일자리 창출이 늘 수 있으며 향후 고용지표에서 일부 신호가 나타날 수 있다고 문제 제기. 패널은 AI가 장기적으로 생산성 혁신을 만들지만, 현...",
+      "link": "https://t.me/MASSITRADING/142819",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-02 14:48",
+      "text": "🎯 **[ECB 내부 분열 확대, Hetal Mehta “Walsh 성향 불명확·Fed 독립성 우려 지속”]** ECB가 이란 전쟁 대응으로 만장일치 금리 인상 후 3주 만에 추가 인상 여부를 두고 내부 이견 확대; Sintra 연례 심포지엄에서 인플레이션 2% 복귀를...",
+      "link": "https://t.me/MASSITRADING/142814",
+      "keywords": [
         "서프라이즈",
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-02 13:17",
-      "text": "🎯 **[Lime, free cash flow 기반 수익성 강조하며 IPO로 성장 가속 추진]** Lime 경영진, 2017년 창업 이후 3년 연속 free cash flow 흑자, 2025년 매출 29% 성장 등을 근거로 재무적 지속가능성 확보 시점에서 IPO 추진 ...",
-      "link": "https://t.me/MASSITRADING/142771",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-02 13:17",
-      "text": "🎯 **[호르무즈 물동량 회복·미국-이란 협상 진전으로 Brent crude 추가 하락]** 유가 재하락. Strait of Hormuz 통과 물동량 회복, 미국-이란 간접협상 진전 신호가 공급 리스크 프리미엄을 낮춤. Trump, Qatar에서의 최근 회의를 긍정적으...",
-      "link": "https://t.me/MASSITRADING/142769",
-      "keywords": [
-        "수요",
         "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-02 13:17",
-      "text": "🎯 **[애플 중국 메모리 조달·메타 클라우드 구상 겹치며 아시아 반도체 급락]** 미국 반도체주 급락 여파로 아시아 증시 투자심리 약화, S&P 종가 0.2% 하락 후 미국 선물 0.1% 내외 상승. 미국 SOX index 하루 6% 이상 하락, 아시아 반도체 전반 ...",
-      "link": "https://t.me/MASSITRADING/142767",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-02 13:03",
-      "text": "🎯 **[미국 반도체 급락 여파로 아시아 주식 하락, Apple 중국 메모리 검토·유가 약세]** 미국 시장의 반도체 중심 매도세가 아시아로 전이되며 아시아 증시 하락, 일본·한국 반도체 주가 약세 유발. Apple이 중국 메모리 공급사로부터 조달을 검토 중이라는 보도...",
-      "link": "https://t.me/MASSITRADING/142766",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-02 13:03",
-      "text": "🎯 **[미국 제재 속 중국 첨단 반도체·AI 한계와 감시 중심 발전 부각]** 반도체 기술 수준 스펙트럼 광범위하며, 중국 기본형 반도체 역량 진전 대비 데이터센터·최첨단 AI용 칩 영역 격차 지속. 최첨단 반도체 생산 단일 국가 역량 한계, 고도화된 글로벌 공급망 ...",
-      "link": "https://t.me/MASSITRADING/142765",
-      "keywords": [
-        "상향",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-02 13:02",
-      "text": "🎯 **[핏오븐, 건강식 스마트 자판기 사업 15% 지분에 10만달러 투자 유치]** 건강식 ‘레스토랑형 자판기’ 콘셉트 푸드테크 기업 핏오븐, 신선식·케토제닉·플랜트베이스 등 메뉴를 현장에 공급하는 사업 모델 제시. 식품 파트너사 잇라이트(탬파 소재 소수자·퇴역군인 ...",
-      "link": "https://t.me/MASSITRADING/142762",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-02 12:48",
-      "text": "🎯 **[Fit Oven, 3분 내 가열 ‘식당형 자판기’로 30만달러·지분 15% 제시]** Fit Oven Brandon Feinstein CEO, ‘기계 속 건강 레스토랑’ 콘셉트의 state-of-the-art 지능형 자판기 소개. 냉장 보관된 사전 조리 건강식...",
-      "link": "https://t.me/MASSITRADING/142761",
-      "keywords": [
-        "수요"
       ]
     },
     {
@@ -502,6 +521,17 @@
     },
     {
       "source": "@DAISHINSTRATEGY",
+      "date": "2026-07-02 15:09",
+      "text": "[장 중 시황] 메타발 충격 여파로 반도체 급락, 코스피·코스닥 매도 사이드카 발동 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(15시 00분): KOSPI -7.03% 하락 / 7,719.31pt  (KOSDAQ: -6.61% 하락 / 867.88p...",
+      "link": "https://t.me/DAISHINSTRATEGY/6126",
+      "keywords": [
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@DAISHINSTRATEGY",
       "date": "2026-07-01 14:52",
       "text": "[장 중 시황] 6월 수출 호조에도 반도체 가격 고점 통과 우려 부각 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(14시 50분): KOSPI -1.98% 하락 / 8,308.38pt  (KOSDAQ: +1.08% 상승 / 926.08pt) - 원/달...",
       "link": "https://t.me/DAISHINSTRATEGY/6124",
@@ -636,12 +666,12 @@
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-06-19 11:43",
-      "text": "[장 중 시황] 반도체 쏠림 속 신고가 경신, MOU 서명 연기에 상승 추세 제동 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(11시 35분): KOSPI +2.41% 상승 / 9,282.22pt  (KOSDAQ: -2.70% 하락 / 973.94pt...",
-      "link": "https://t.me/DAISHINSTRATEGY/6096",
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-07-02 15:02",
+      "text": "**[컨콜노트] 대명에너지, 작년부터 프로젝트 늘리고 있음**  ✅ 발전소 운영 및 개발 분야에서 오랜 업력을 보유하고 있음  ✅ 2024년에서 2025년은 사업성이 좋지 않아 보류했으며 작년부터 프로젝트를 늘리고 있음  ✅ 다양한 파이프라인이 준비되고 있으며 입찰에서...",
+      "link": "https://t.me/IRNOTE_YSTREET/4824",
       "keywords": [
-        "수요"
+        "수주"
       ]
     },
     {
@@ -737,6 +767,34 @@
     },
     {
       "source": "@YAZA_STOCK",
+      "date": "2026-07-02 15:19",
+      "text": "전닉 저물고 타섹터로 , 이런 띰이 유행인가본데 애초에 코스피 리레이팅 된게 전닉 실적이 기여한부분이 대부분인데 이게 꺽이면  코스피 몇까지 내려갈지를 먼저 생각해보는게 순서   얼마전 9천초반에서 만은 가뿐히 넘는다고했으나, 전닉 무너지면 8천 , 7천, 5천, 3천...",
+      "link": "https://t.me/YAZA_STOCK/11426",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@YAZA_STOCK",
+      "date": "2026-07-02 15:01",
+      "text": "**모건스탠리  메타 CapEX 예상**  네오클라우드를 규모화할 영구적 사업이 아니라 일시적인 보완 수단으로 가정  **메타가 실제로 이러한 기회에 집중하게 되는 정도에 따라, 앞서 설명한 것처럼 더 높은 리스크가 있는 만큼, 2027년/2028년 CapEx에는 상향...",
+      "link": "https://t.me/YAZA_STOCK/11424",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@YAZA_STOCK",
+      "date": "2026-07-02 14:30",
+      "text": "**궈밍치**  저의 최근 업계 조사에 따르면, 아마존(Amazon)의 자사 소비자 가전용 프로세서 조달 전략이 20년 만에 처음으로 중대한 변화를 맞이할 것으로 보입니다. 기존의 외부 조달 프로세서에서 벗어나 COT(Customer-Owned Tooling, 고객 소...",
+      "link": "https://t.me/YAZA_STOCK/11423",
+      "keywords": [
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@YAZA_STOCK",
       "date": "2026-07-02 10:26",
       "text": "전닉 반등 어제  수출판가 꺽이니 마니 이슈로 먼저 빠졌다면  선반영 (실제 6월 디램 수출급증, 가격도 상승) ai인프라사이클 근본을 흔드는  메타이슈 역시 지금 당장 캐파 남아돈다는거 아님,  향후 그럴경우 대비 오전중 보합 가즈아.....",
       "link": "https://t.me/YAZA_STOCK/11415",
@@ -780,36 +838,6 @@
       "link": "https://t.me/YAZA_STOCK/11401",
       "keywords": [
         "수요"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-07-01 14:37",
-      "text": "[메리츠증권 반도체/디스플레이 김선우]  [DRAMeXchange 6월 PC DRAM 고정가 발표]  - 메모리 공급사와 PC OEM 업체들의 2Q26 고정가 협상은 4~5월 +45~50% QoQ 수준에서 마무리. 6월에는 주로 2H26 및 2027년 조달 물량 규모를...",
-      "link": "https://t.me/YAZA_STOCK/11395",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "QoQ"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-07-01 14:27",
-      "text": "•SK하이닉스가 최근 고객사들과 체결한 장기공급계약(LTA)은 경쟁사들과 달리 가격 상한선을 두지 않는 독특한 계약 구조를 채택한 것으로 전해졌음 (대만전자시보)  >报道：SK海力士与客户签订无价格上限的长期供应合约 https://wallstreetcn.com/articl...",
-      "link": "https://t.me/YAZA_STOCK/11394",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-07-01 14:09",
-      "text": "전닉 주가가 꺽이는데 소부장 주가가 추세적으로 상승한 경우가 있었던가? 사이클관점이라면,  메모리 꺽이면  소부장은 그날부터 큰폭 디레이팅으로 하락했던것이 과거 사례 아니면 메모리 업황은 꺽이지않는데, 전닉 주가 잠시 한달쉴동안 소부장 올랐던경우를 말하는건지?...",
-      "link": "https://t.me/YAZA_STOCK/11393",
-      "keywords": [
-        "사이클"
       ]
     },
     {
@@ -1147,38 +1175,6 @@
       "link": "https://t.me/GLOBALMKTINSIGHT/6916",
       "keywords": [
         "상향"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-07-01 07:51",
-      "text": "한편 아폴로는 이날 AI 인프라 투자 확대에 따른 하이퍼스케일러 등의 대규모 회사채 발행이 미국 국채 수요를 잠식해 국채 수요 부진에 따른 가격 하락(금리 상승)이 이어질 수 있다며 신용 시장의 환경 변화에 대해 경고함.  시카고상품거래소 CME 페드워치에 따르면, 연...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/6914",
-      "keywords": [
-        "수요",
-        "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-07-01 07:51",
-      "text": "빅테크 강세 반도체 이외에도 빅테크 전반이 강세였는데 다만 아마존(-0.75%)은 이날 클라우드 자회사인 AWS에 새로운 조직을 신설한다고 밝힌 가운데 약세 마감함. 엔지니어들을 고객사에 직접 파견해 AI 소프트웨어 도입을 더 빠르고 효율적으로 지원하겠다는 구상으로 이...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/6913",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-06-30 17:20",
-      "text": "한국&중국 마켓 클로징(6월 30일)  2026년 상반기 코스피 +101%, 코스닥 -1%   # 국내 마감 ▶️ Summary · 코스피 8,476.48(+0.97%), 코스닥 916.18(-0.48%) · 외국인, 상반기에만 코스피 178조원 매도. 6월 59조원 ...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/6909",
-      "keywords": [
-        "수요",
-        "OP",
-        "밸류체인",
-        "수주"
       ]
     },
     {
@@ -1815,25 +1811,6 @@
       "keywords": [
         "상향",
         "사이클"
-      ]
-    },
-    {
-      "source": "@SURVIVAL_DOPB",
-      "date": "2026-06-30 07:28",
-      "text": "**마이크론(Micron, ****$MU****) 주가 조정에 대한 미즈호(Mizuho)의 분석**    미즈호(Mizuho)의 TMT 전문 애널리스트 조던 클라인(Jordan Klein)은 **현재의 주가 하락을 우려하여 투자 기회를 놓치지 말라**고 조언하며, 현재...",
-      "link": "https://t.me/SURVIVAL_DOPB/13455",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@SURVIVAL_DOPB",
-      "date": "2026-06-29 13:46",
-      "text": "삼성, SK하이닉스, Micron, 메모리 가격 담합 혐의로 미국 연방 집단소송 직면 - Wccftech (by https://t.me/TNBfolio) - 삼성, SK하이닉스, Micron은 글로벌 메모리 가격 폭등 속에서 담합 및 가격 고정 혐의로 지난 6월 25일...",
-      "link": "https://t.me/SURVIVAL_DOPB/13454",
-      "keywords": [
-        "공급"
       ]
     },
     {
