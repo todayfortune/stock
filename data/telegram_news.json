@@ -2,6 +2,15 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-07-16 12:53",
+      "text": "* **코어위브의 풋옵션 헷지 관련 생각 **  - 사실 센티가 무너진 상황에서 '풋옵션 헷지' 같은 단어가 더욱 기름을 붓게 된건 이해하는데, 해석을 잘 해야함. 이 뉴스가 의미하는 건 다음과 같음   **1) 네오클라우드도 이제 메모리 직접 계약(LTA 포함) 당사...",
+      "link": "https://t.me/IDEA_MEMO/24930",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-07-16 10:19",
       "text": "멘헤라장이 웃겨서 재미삼아 써봄 ㅋㅋ (어느 쪽이 맞을지는 모름)  3분기에도 메모리 가격 오른다던데  = 수요파괴우려  LTA로 가격을 우호적으로 줬다던데 메모리 가격 풋옵션 알아본다던데  = 실적우려  28년까지 실질 생산 못늘림  = 성장둔화우려  그래도 투자해서...",
       "link": "https://t.me/IDEA_MEMO/24922",
@@ -74,6 +83,33 @@
     },
     {
       "source": "@MASSITRADING",
+      "date": "2026-07-16 12:48",
+      "text": "🎯 **[패널, 중국 AI 과대평가 경계…EV 배터리·클린테크는 글로벌 주도]** 패널 토론에서 중국 AI 역량, ‘강력한 플레이어’로 인정하되 과소·과대평가 모두 경계 필요하다는 시각 제시. 과거 워싱턴 중심 담론에서 ‘중국은 혁신 불가, 신기술은 절취’라는 인식이 ...",
+      "link": "https://t.me/MASSITRADING/151474",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-16 12:48",
+      "text": "🎯 **[Suleyman, 미국 AI 우위 확신…NVIDIA·TSMC·ASML 공급망 초크포인트 언급]** Inflection AI Mustafa Suleyman, 2020~2021년 Google에서 LaMDA 개발 과정에서 대형 언어 모델 미래성 확신, 개인 맞춤형 ...",
+      "link": "https://t.me/MASSITRADING/151473",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-16 12:48",
+      "text": "🎯 **[Fit Oven, 3분 가열 지능형 자판기로 30만달러·지분 15% 유치 추진]** Fit Oven, ‘healthy restaurant in a machine’ 콘셉트의 state-of-the-art intelligent vending machine 기반 푸...",
+      "link": "https://t.me/MASSITRADING/151471",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
       "date": "2026-07-16 12:18",
       "text": "🎯 **[전쟁·유가 변동성 속 공급충격 우려, 반도체 호황 소득효과가 내수에 파급]** 중앙은행 총재 발언 기조에서 물가상승세에 대한 경계가 예상보다 강하다는 평가 제기. 전쟁 전개 불확실성이 지속되는 가운데, 재봉쇄 등 변수로 유가가 70달러대로 내려갔다가 80달러 ...",
       "link": "https://t.me/MASSITRADING/151463",
@@ -138,33 +174,12 @@
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 11:33",
-      "text": "🎯 **[MU 급등 후 실적 변수 민감도 확대, 옵션 내재 변동 14%·포지션 축소 권고]** MU 주가 AI 거래의 바로미터로 인식되며 실적 발표 전 투자자 관심 집중, 다만 AI 거래 전반의 대표 지표로 보기 어렵다는 견해 제시. MU 주가 최근 분기 기준 약 29...",
-      "link": "https://t.me/MASSITRADING/151444",
+      "source": "@JAKE8LEE",
+      "date": "2026-07-16 12:52",
+      "text": "* **코어위브의 풋옵션 헷지 관련 생각 **  - 사실 센티가 무너진 상황에서 '풋옵션 헷지' 같은 단어가 더욱 기름을 붓게 된건 이해하는데, 해석을 잘 해야함. 이 뉴스가 의미하는 건 다음과 같음   **1) 네오클라우드도 이제 메모리 직접 계약(LTA 포함) 당사...",
+      "link": "https://t.me/JAKE8LEE/13178",
       "keywords": [
-        "수요",
-        "공급",
         "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 11:17",
-      "text": "🎯 **[MicroStrategy, MSTR 주식 매각으로 달러 유동성 확충…배당·수수료 지급 여력 강화]** MicroStrategy가 MSTR 주식 매각을 통해 미국 달러 준비금(현금) 확충, preferred dividend 및 각종 비용 지급을 위한 운영 여력 ...",
-      "link": "https://t.me/MASSITRADING/151438",
-      "keywords": [
-        "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 11:17",
-      "text": "🎯 **[일본·영국·한국 규제 우호 전환 가속, 미국 Clarity Act는 윤리조항 논쟁으로 교착]** 일본, 암호자산을 금융상품으로 인정하는 핵심 법안 통과로 과세율 55%에서 20%로 인하. 일본 국회 양원(Diet)에서 Financial Instruments a...",
-      "link": "https://t.me/MASSITRADING/151436",
-      "keywords": [
-        "수주"
       ]
     },
     {
