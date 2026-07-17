@@ -2,6 +2,15 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-07-16 23:56",
+      "text": "[미 의회는 AI 메모리 공급 부족 속에서 애플 등 미국 기업이 중국 CXMT·YMTC 메모리를 사용하는 것을 국가안보 위험으로 규정하며 전면 금지를 트럼프 행정부에 요구했다](https://www.ft.com/content/9e7cdf3c-2e52-492f-afeb-...",
+      "link": "https://t.me/IDEA_MEMO/24966",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-07-16 15:44",
       "text": "TSMC SAYS AI ADOPTION WILL HAVE BROAD IMPACT ACROSS INDUSTRIES [...](https://x.com/FirstSquawk/status/2077645209530429839)...",
       "link": "https://t.me/IDEA_MEMO/24961",
@@ -49,144 +58,66 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-16 17:33",
-      "text": "🎯 **[TSMC, AI 수요로 기대 상회 실적…Nvidia 공급망 투자 확대 시사]** Nvidia 핵심 칩 공급사 TSMC, AI 붐에 힘입어 시장 기대를 웃도는 실적 발표. TSMC는 향후 지출(설비·투자) 추가 확대 계획도 제시, AI 관련 공급망 투자 사이클 ...",
-      "link": "https://t.me/MASSITRADING/151617",
+      "date": "2026-07-17 12:17",
+      "text": "🎯 **[백악관 과학기술 수석, AI 기회·위험 관리와 암·기후 문샷 가속 강조]** 바이든 행정부 과학기술 라인, AI를 ‘시대 최대 기회’로 규정하는 동시에 위험 관리 필요성을 병행 언급. 민간 기업 중심 AI 기술 급성장 인정하되, 수십 년 공공 R&D 축적 위에...",
+      "link": "https://t.me/MASSITRADING/152094",
+      "keywords": [
+        "TP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-17 12:02",
+      "text": "🎯 **[CZ, Bitcoin 단기 변동 과잉반응 경계…장기 성장·임팩트 투자 강조]** Crypto 시장, Michael Saylor 단기 매매·발언 등 ‘바이럴’ 이슈에 과도 반응한다는 지적 제기. Saylor가 32 Bitcoin 매도 후 가격 급락이 발생했다는 ...",
+      "link": "https://t.me/MASSITRADING/152088",
       "keywords": [
         "수요",
-        "공급",
-        "사이클"
+        "수주"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-16 17:33",
-      "text": "🎯 **[SpaceX IPO가 135달러 하회, options 관점서 변동성·ETF 상품 출시 주목]** SpaceX 주가, 수요일 장중 신저가로 하락하며 IPO 가격 135달러 하회; 대형 IPO 이후 변동성 확대 국면으로 해석. YieldMax ETF의 최고 전략가...",
-      "link": "https://t.me/MASSITRADING/151613",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 17:33",
-      "text": "🎯 **[PayPal 530억달러 인수설 부상, Stripe·Advent 구조와 성사 가능성 논란]** 보도에 따르면 PayPal에 대해 buyout proposal 제기; 거래 규모 약 530억달러, 약 500억달러 자금 조달을 이미 확보했다는 내용 포함. 구조는 S...",
-      "link": "https://t.me/MASSITRADING/151612",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 17:18",
-      "text": "🎯 **[David Bonson, Micron 버블 경고·SpaceX 익절 의향·Fed 동결 전망]** The Bonson Group CIO David Bonson 인터뷰에서 반도체, 특히 Micron 가격이 펀더멘털 대비 과열됐다는 시각 제시. forward earn...",
-      "link": "https://t.me/MASSITRADING/151610",
-      "keywords": [
-        "서프라이즈"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 17:18",
-      "text": "🎯 **[AI CapEx 확대 속 변동성·집중도 경계, 주식 분산과 우량채 캐리 전략 부각]** AI 관련 CapEx 상향 조정이 이어지는 가운데, 최근 3~4주간 AI 종목 변동성 확대와 수익화(몬etization) 불확실성 부각. 지수 내 소수 대형주 집중도가 변동...",
-      "link": "https://t.me/MASSITRADING/151607",
-      "keywords": [
-        "상향",
-        "서프라이즈",
-        "업사이드"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 17:18",
-      "text": "🎯 **[TSMC CapEx 상향, hyperscalers 투자 확대로 AI 공급망 낙관 강화]** TSMC 연간 CapEx 및 매출 가이던스 상향, AI 인프라 수요에 대한 자신감 반영. 분기 순이익도 예상보다 빠른 증가로 언급, AI 관련 주문 가시성 개선 신호로 ...",
-      "link": "https://t.me/MASSITRADING/151606",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 17:03",
-      "text": "🎯 **[AI·지정학 변수 속 TSMC 실적·미국 지표·Netflix 발표 등 이벤트 집중]** NVIDIA 최고경영자 Jensen Huang, 일본에서 일본 경제산업성(METI) 행사 연설 예정으로 반도체·AI 시장의 시선 집중. IEA, Global Critical...",
-      "link": "https://t.me/MASSITRADING/151604",
-      "keywords": [
-        "수요",
-        "공급",
-        "init"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 17:03",
-      "text": "🎯 **[파운드 강세, carry·FX 변동성 저점과 금리차 요인이 재평가 주도]** 파운드 강세 배경으로 달러 약세(약한 인플레이션 지표 이후), 금리차 기반 carry 거래, 낮은 FX volatility 등이 복합적으로 거론. 영국 길트(gilts) 상대적 아웃퍼...",
-      "link": "https://t.me/MASSITRADING/151603",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 17:03",
-      "text": "🎯 **[2X ETF 일간 리밸런싱, SpaceX 공매도 선호, 금리 내러티브가 금 압박]** leveraged ETF 구조에서 2X ETF 수익률 제공 위해 일간 리밸런싱 수행, ‘constant leverage’ 구현. 장기 보유 시 ‘path dependency’...",
-      "link": "https://t.me/MASSITRADING/151597",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 16:48",
-      "text": "🎯 **[미 무역대표, 중국 희토류 이행 ‘불완전’ 인정…유타 생산 확대·제약 리쇼어링 추진]** 미국, 중국의 희토류 공급 이행이 완전하지 않다고 평가하면서도 공급 흐름은 유지돼 공장 가동 중단 수준은 아니라고 설명. 공급 공백 발생 시 중국 측과 협의해 흐름을 완화...",
-      "link": "https://t.me/MASSITRADING/151595",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 16:48",
-      "text": "🎯 **[서버·Physical AI용 FPGA/FCPGA, ADAS·chiplet 수요와 MLB·DDR5 기판 기대 병존]** 서버 및 Physical AI용 FPGA/FCPGA 수요가 단기 공급 부족 국면(쇼트)과 맞물리며 관련 밸류체인 관심 확대. 로봇·자동차 영역...",
-      "link": "https://t.me/MASSITRADING/151594",
+      "date": "2026-07-17 11:47",
+      "text": "🎯 **[Bitcoin 사이클·AI 결제·RWA tokenization이 crypto 성장 동력으로 부상]** crypto 시장, 4년 주기 사이클과 유사한 심리 반복 관측. 2022년 11월 시점 Bitcoin 약 16,000달러 수준, UST 붕괴(2022년 5월)...",
+      "link": "https://t.me/MASSITRADING/152085",
       "keywords": [
         "수요",
         "공급",
         "사이클",
-        "밸류체인"
+        "수주"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-16 16:48",
-      "text": "🎯 **[U-Force, 자율 다영역 드론 전술 확산…미 조달 개편 수혜·중국 배터리 탈피 과제]** 우크라이나 전장, 해상 드론이 접근 후 공중 드론을 발사하는 자율 다영역 개념 등 저비용·장거리 타격 전술 확산. 고가 방공자산을 저가 드론으로 무력화하는 비용 비대칭...",
-      "link": "https://t.me/MASSITRADING/151593",
+      "date": "2026-07-17 11:32",
+      "text": "🎯 **[CZ, SpaceX·Starlink 가치와 크립토-전통금융 통합 강조…Bitcoin 4년 사이클도 언급]** Changpeng Zhao(CZ), SpaceX를 AI 기업에만 국한하지 않고 Starlink 기반 글로벌 인터넷 서비스 제공자로도 평가하며, 성숙 산...",
+      "link": "https://t.me/MASSITRADING/152084",
       "keywords": [
         "수요",
-        "공급"
+        "사이클"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-16 16:48",
-      "text": "🎯 **[우크라이나, 흑해·아조프해 러시아 유조선 6척 타격 주장…연료난 심화]** 우크라이나 군, 최근 흑해·아조프해에서 러시아 유조선 6척 타격 주장. 러시아의 에너지 수송 차질 우려 확대. 우크라이나의 러시아 내 정유시설·연료 저장고 공격 지속으로 러시아 내 휘발...",
-      "link": "https://t.me/MASSITRADING/151592",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-16 16:48",
-      "text": "🎯 **[SK하이닉스 ADR 기반 2배 레버리지 ETF 출시…일일 리밸런싱 위험 경고]** SK하이닉스 주식이 ADR 형태로 미국 시장(나스닥)에서 거래되기 시작하며, 이를 기초로 한 미국 상장 레버리지 ETF 출시. GraniteShares, SK하이닉스 연동 2배 ...",
-      "link": "https://t.me/MASSITRADING/151590",
+      "date": "2026-07-17 11:32",
+      "text": "🎯 **[MU 급등세 과열 경고, 실적 코멘트·옵션 14% 변동성에 단기 급락 위험 부각]** MU, AI 관련 기술주 랠리의 ‘바로미터’처럼 거래 관심 집중됐으나, 주가가 단기간 포물선 형태로 급등해 작은 뉴스 변화에도 큰 조정 가능성 부각. MU 주가 단기 급등폭이...",
+      "link": "https://t.me/MASSITRADING/152082",
       "keywords": [
         "수요",
         "공급",
         "사이클"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-07-16 22:01",
+      "text": "**Citi,  구글, 메타, 아마존의 2027년 자본지출(Capex) 규모가 8,000억 달러를 넘어설 것으로 전망**  **1. 대규모 자본지출(Capex) 상향과 잉여현금흐름(FCF) 적자 전환** **합산 자본지출 8,010억 달러 전망:**   시티은행은 **...",
+      "link": "https://t.me/JAKE8LEE/13186",
+      "keywords": [
+        "상향",
+        "서프라이즈",
+        "수요",
+        "TP"
       ]
     },
     {
@@ -246,35 +177,6 @@
         "상향",
         "수요",
         "수주"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-07-15 13:06",
-      "text": "**오픈AI Codex & 챗GPT Work 주간 활성 사용자 800만명 돌파**  티보  안녕하세요. Codex와 챗GPT Work를 합쳐 활성 사용자 800만 명을 달성했습니다.  다시 한 번 모든 사용자의 사용 한도를 초기화합니다. 또한 이번에도 5시간 사용 제한...",
-      "link": "https://t.me/JAKE8LEE/13157",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-07-15 05:10",
-      "text": "* SKHY, 전일대비 +27.3% 폭등한 193.9달러 기록  - 당사가 전일 발간 자료 '반도체: 하나만 알고 둘은 모른다'를 통해 주장한 바와 같이, 현 주가는 여전히 1) 시장의 LTA 몰이해와 2) 반도체 사이클 고점 착각으로 인해 극심한 저평가 영역에 존재 ...",
-      "link": "https://t.me/JAKE8LEE/13156",
-      "keywords": [
-        "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-07-15 04:12",
-      "text": "**[Morgan Stanley] 미국 CPI (2026년 6월) — **✍️ **디스인플레이션 본격화, 관세 전가 효과 마무리 단계** 2026년 7월 14일 / Michael T. Gapen 外 (Chief US Economist)  **[주요 내용] **① **6...",
-      "link": "https://t.me/JAKE8LEE/13155",
-      "keywords": [
-        "서프라이즈",
-        "수요"
       ]
     },
     {
@@ -420,6 +322,42 @@
     },
     {
       "source": "@MSTARYUN",
+      "date": "2026-07-16 19:25",
+      "text": "$GE GE AEROSPACE Q2 EARNINGS ADJ. EPS $2.02, EST. $1.86 EPS (CONT. OPS) $2.30 REV. $12.63B, EST. $11.86B COMMERCIAL ENGINES & SERVICES REV. $9.73B, ES...",
+      "link": "https://t.me/MSTARYUN/9930",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-07-16 19:07",
+      "text": "**-Anthropic가 IPO 준비를 본격화**, 수주 내 투자자 미팅 시작 예정.  -**상장 시기는 10월이 유력**하지만 변경 가능성 존재.  -Anthropic는 최근 기업가치가 약 **9,650억 달러** 수준까지 평가받았으며, IPO에서는 **1조 달러 이...",
+      "link": "https://t.me/MSTARYUN/9929",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-07-16 18:51",
+      "text": "*TSMC 2Q NET INCOME NT$706.6B, EST. NT$623.73B [...](https://x.com/diegobloomberg/status/2077626914244550871)  TSMC SEES Q3 SALES $44.68 TO $45.8B (ES...",
+      "link": "https://t.me/MSTARYUN/9928",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-07-16 18:02",
+      "text": "최근 미국 오프라인 확대가 정말 심상치 않다고 느끼고 있는데요, 미국 리테일러들의 영업 환경을 자세히 다룬 좋은 기사인 만큼 꼭 한 번 참고해보셨으면 좋겠습니다.  기존 미국 아마존 고객층 = K-뷰티에 관심이 높은 트렌디한 소비자 미국 오프라인 고객층 = 코스트코는 ...",
+      "link": "https://t.me/MSTARYUN/9923",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
       "date": "2026-07-15 19:07",
       "text": "**블룸에너지 밸류체인들의 수주 주기 짧아지고 수주 금액 또한 늘어나는 중**...",
       "link": "https://t.me/MSTARYUN/9920",
@@ -494,35 +432,6 @@
       "keywords": [
         "상향",
         "공급"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-07-13 17:48",
-      "text": "TSMC 월매출 YoY 성장률 추이, 6월에 대폭 가속화...",
-      "link": "https://t.me/MSTARYUN/9898",
-      "keywords": [
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-07-12 09:41",
-      "text": "#엔비디아 실적의 YoY 그로스가 크게 감소하는 국면에서는 멀티플이 내려가며 주가는 상대적으로 부진.  실적의 지속가능성(실적발표 및 가이던스의 상회)이 유지되고 실적의 YoY 그로스가 다시 바닥을 찍고 올라오는 국면에서 주가는 전고점 돌파....",
-      "link": "https://t.me/MSTARYUN/9896",
-      "keywords": [
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-07-11 15:51",
-      "text": "**7월 9일에 발표된 6월 일본 공작 기계 수주 데이터는 YoY로 52.8% 증가 절대치로 10년 ATH를 찍음** - 절삭공구의 전방이 되는 데이터로 와이지-원의 Q싸이클은 여전히 유효 - 여기에 텅스텐 가격 상승은 판가 인상의 드라이브 역할  P가 상승하면서 Q가...",
-      "link": "https://t.me/MSTARYUN/9892",
-      "keywords": [
-        "사이클",
-        "YoY",
-        "수주"
       ]
     },
     {
@@ -882,6 +791,31 @@
     },
     {
       "source": "@YAZA_STOCK",
+      "date": "2026-07-16 18:14",
+      "text": "**#TSMC**** 2Q26 컨퍼런스콜 주요 Comment 및 Q&A 정리(2) _다올 반도체 고영민**  Q. PC 컴퓨터 부문에서 차세대 패키징 기술인 COUPE 플랫폼이 매출에 기여를 하게 되는 시점은? - 현재 소량 생산을 개시하였으며, 향후 램프업이 진행될 ...",
+      "link": "https://t.me/YAZA_STOCK/11638",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@YAZA_STOCK",
+      "date": "2026-07-16 18:14",
+      "text": "**#TSMC**** 2Q26 컨퍼런스콜 주요 Comment 및 Q&A 정리(1)** **_다올 반도체 고영민**  ▶️** 가이던스($Bil)** » 3Q26 - 매출액: 44.6~45.8 → 기존 컨센서스: 43.1 - GPM: 65~67% → 기존 컨센서스: 65...",
+      "link": "https://t.me/YAZA_STOCK/11637",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "OP",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@YAZA_STOCK",
       "date": "2026-07-16 15:48",
       "text": "**TSMC 컨콜 중 (수요 관련)**   **수요는 계속해서 매우 견조한 수준을 유지하고 있습니다**. AI 메가트렌드는 더 많고 더 많은 연산 수요를 지속적으로 촉진하고 있으며, 이는 최첨단 실리콘에 대한 견조한 수요를 뒷받침하고 있습니다.  저희 고객들은 주로 클...",
       "link": "https://t.me/YAZA_STOCK/11633",
@@ -928,15 +862,6 @@
         "수요",
         "공급",
         "TP"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-07-15 12:33",
-      "text": "**\"삼전닉스 레버리지 탓에 주가 요동\" 美·日·대만도 비판** 2026.07.15 / 조선일보 이혜운·유준호  ────────── ** 1. 핵심 한 줄** ① 미·일·대만 외신·전문가, 한국 단일종목 레버리지 ETF를 글로벌 반도체주 교란 주범으로 지목 ② 13일 ...",
-      "link": "https://t.me/YAZA_STOCK/11606",
-      "keywords": [
-        "수요"
       ]
     },
     {
@@ -1359,6 +1284,27 @@
         "사이클",
         "OP",
         "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-07-17 07:06",
+      "text": "📝 텔레그램 심층 분석 Report (07시 06분) 기준  🌡️ 센티먼트 경계 (-30) 💡 요약 반도체 및 AI 관련 주식의 약세와 중동발 지정학적 리스크가 시장에 부담을 주는 가운데, 일부 기업의 긍정적인 소식과 대규모 투자 계획이 관망세를 형성합니다.  🗣️ T...",
+      "link": "https://t.me/EASOBI/16178",
+      "keywords": [
+        "상향",
+        "OP"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-07-16 19:06",
+      "text": "📝 텔레그램 심층 분석 Report (19시 06분) 기준  🌡️ 센티먼트 관망 (+20) 💡 요약 반도체 업계 실적 호조와 AI 투자 확대 기대감 속에서도, 단일종목 레버리지 ETF 규제 강화와 금리 인상 같은 정책 변화 및 국제 무역 분쟁 가능성으로 인해 투자 심리...",
+      "link": "https://t.me/EASOBI/16177",
+      "keywords": [
+        "상향",
+        "서프라이즈",
+        "OP"
       ]
     },
     {
