@@ -2,6 +2,25 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-07-17 13:38",
+      "text": "💥[**[속보] 최태원 \"SK하이닉스 가만히 갖고 있으면 된다…시간 두면 우상향...**](http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607170153&t=NN)...",
+      "link": "https://t.me/IDEA_MEMO/24975",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-07-17 13:36",
+      "text": "🔲아시아 반도체주 매도세 확대  TSMC도 시장 기대 못 넘어서 (Priced for perfection(완벽함이 이미 주가에 반영된 상태), 수년간 이어진 AI 투자 열풍에 대한 피로감(fatigue)을 우려 요인으로 지목  일반적으로 설비투자 확대는 장비 및 소재 ...",
+      "link": "https://t.me/IDEA_MEMO/24970",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-07-16 23:56",
       "text": "[미 의회는 AI 메모리 공급 부족 속에서 애플 등 미국 기업이 중국 CXMT·YMTC 메모리를 사용하는 것을 국가안보 위험으로 규정하며 전면 금지를 트럼프 행정부에 요구했다](https://www.ft.com/content/9e7cdf3c-2e52-492f-afeb-...",
       "link": "https://t.me/IDEA_MEMO/24966",
@@ -37,79 +56,76 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-07-16 15:21",
-      "text": "TSMC PLANS CONTINUED EXPANSION AND INVESTMENT IN TAIWAN OPERATIONS [...](https://x.com/FirstSquawk/status/2077638814189891702)...",
-      "link": "https://t.me/IDEA_MEMO/24948",
+      "source": "@MASSITRADING",
+      "date": "2026-07-17 14:32",
+      "text": "🎯 **[SpaceX IPO 이후 4거래일 연속 하락, Starship 이벤트 무반응과 락업 변수 부각]** SpaceX 주가가 수요일까지 4거래일 연속 하락하며 장중 IPO 가격 135달러를 하회한 것으로 언급, AI 열풍에 기반한 기대가 약화되는 신호로 해석. 상장...",
+      "link": "https://t.me/MASSITRADING/152153",
       "keywords": [
-        "OP"
+        "수요"
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-07-16 15:14",
-      "text": "**TSMC 컨콜 중 - capex 가이던스 상향**   저희는 이에 따라 **2026회계연도 연간 자본적 지출 예산을 600억~640억 달러로 상향 조정하기로 결정했습니다**. 고객사들의 성장을 지원하기 위해 계속해서 대규모 투자를 지속할 것입니다. 또한 저희는 물량...",
-      "link": "https://t.me/IDEA_MEMO/24941",
+      "source": "@MASSITRADING",
+      "date": "2026-07-17 14:32",
+      "text": "🎯 **[Cyclospora 확산이 농산물 공급망 불확실성 키우며 외식·식품주 민감도 확대]** 기생충 Cyclospora 관련 감염 우려가 여름철 반복되는 계절성 이슈로 제시되나, 이번에는 감염원 추적이 지연되며 불안 심리 확대. 오염된 물(인분 오염 가능)로 재배된...",
+      "link": "https://t.me/MASSITRADING/152151",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-17 14:32",
+      "text": "🎯 **[OpenAI 머천다이즈 출시가 Big Tech 브랜드 열기와 리셀 수요 자극]** 대형 기술주 측면에서 Meta 성장 모멘텀 기대감 언급, Google·Amazon 경우 현 기조 유지가 유리하다는 평가 제시. OpenAI 신규 머천다이즈(쿼터집, 양말, 후디 ...",
+      "link": "https://t.me/MASSITRADING/152150",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-17 14:18",
+      "text": "🎯 **[Volvo Cars 매출·마진 시장예상 하회, 하반기 판매 개선과 신차 2종 예고]** Volvo Cars 매출 770억 Swedish kronor로 시장 예상(820억) 하회, 마진 1.1%로 예상(1.4%) 하회. 회사는 올여름 이후 신차 2개 모델 공개 ...",
+      "link": "https://t.me/MASSITRADING/152149",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-17 14:18",
+      "text": "🎯 **[호재에도 반등 못한 AI·반도체, 인도·FTSE로 분산수요 부각]** TSMC·ASML 호실적에도 주가 모멘텀 둔화가 나타나며 AI·반도체 트레이드 피로 신호로 해석. AI 비중이 낮은 시장(인도, 영국 FTSE 등)이 변동성 국면에서 ‘자연적 피난처’로 기능...",
+      "link": "https://t.me/MASSITRADING/152146",
       "keywords": [
         "상향",
-        "공급",
-        "사이클"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-17 12:48",
-      "text": "🎯 **[Helen Toner·Dan Wong, 중국 혁신·반도체 격차와 AI 경쟁 프레임 재검토]** 패널 토론에서 중국 AI 역량 과대·과소평가 위험을 동시에 지적하고, 분야별 경쟁력 차이를 중심으로 분석. Xi Jinping의 정책 선호가 인터넷 플랫폼, 암호화폐...",
-      "link": "https://t.me/MASSITRADING/152107",
+      "date": "2026-07-17 14:18",
+      "text": "🎯 **[TSMC CAPEX 우려로 대만·일본 기술주 5%대 하락, MSCI Asia -3%]** 아시아 매도세 심화, 한국 휴장에도 대만·일본 기술주 중심 지수 5% 이상 하락. TSMC 실적 발표 이후 AI 투자·지출 지속성 및 CAPEX가 수요를 따라갈 수 있는지...",
+      "link": "https://t.me/MASSITRADING/152145",
       "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-07-17 14:18",
+      "text": "🎯 **[한국 레버리지 ETF 규제와 AI 실적 대기 속 반도체 변동성 확대]** 미국 기술주 약세 흐름 속 전일 반도체 조정과 한국 증시 하락이 상호 피드백처럼 이어지며 변동성 확대 양상. 한국 규제당국, 과열 투기 진정 목적 하에 single stock levera...",
+      "link": "https://t.me/MASSITRADING/152142",
+      "keywords": [
+        "상향",
+        "수요",
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-17 12:48",
-      "text": "🎯 **[Mustafa Suleyman, 개인용 AI·반도체 공급망·미·중 AI 경쟁 구도 제시]** Inflection AI 공동창업자 겸 CEO Mustafa Suleyman, 대규모 언어 모델 확산 국면에서 ‘개인용 AI’ 구축 필요성 강조. 대형 기술기업(Mic...",
-      "link": "https://t.me/MASSITRADING/152106",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-17 12:17",
-      "text": "🎯 **[백악관 과학기술 수석, AI 기회·위험 관리와 암·기후 문샷 가속 강조]** 바이든 행정부 과학기술 라인, AI를 ‘시대 최대 기회’로 규정하는 동시에 위험 관리 필요성을 병행 언급. 민간 기업 중심 AI 기술 급성장 인정하되, 수십 년 공공 R&D 축적 위에...",
-      "link": "https://t.me/MASSITRADING/152094",
-      "keywords": [
-        "TP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-17 12:02",
-      "text": "🎯 **[CZ, Bitcoin 단기 변동 과잉반응 경계…장기 성장·임팩트 투자 강조]** Crypto 시장, Michael Saylor 단기 매매·발언 등 ‘바이럴’ 이슈에 과도 반응한다는 지적 제기. Saylor가 32 Bitcoin 매도 후 가격 급락이 발생했다는 ...",
-      "link": "https://t.me/MASSITRADING/152088",
-      "keywords": [
-        "수요",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-17 11:47",
-      "text": "🎯 **[Bitcoin 사이클·AI 결제·RWA tokenization이 crypto 성장 동력으로 부상]** crypto 시장, 4년 주기 사이클과 유사한 심리 반복 관측. 2022년 11월 시점 Bitcoin 약 16,000달러 수준, UST 붕괴(2022년 5월)...",
-      "link": "https://t.me/MASSITRADING/152085",
-      "keywords": [
-        "수요",
-        "공급",
-        "사이클",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-07-17 11:32",
-      "text": "🎯 **[CZ, SpaceX·Starlink 가치와 크립토-전통금융 통합 강조…Bitcoin 4년 사이클도 언급]** Changpeng Zhao(CZ), SpaceX를 AI 기업에만 국한하지 않고 Starlink 기반 글로벌 인터넷 서비스 제공자로도 평가하며, 성숙 산...",
-      "link": "https://t.me/MASSITRADING/152084",
+      "date": "2026-07-17 14:03",
+      "text": "🎯 **[메모리 가격 둔화 우려와 CapEx 확대 속 Apple 비용 압박, IBM 경고로 소프트웨어 재점검]** 메모리·스토리지 종목이 약세를 보이며 반도체 거래 전반이 압박을 받는 흐름 부각. Micron 등 메모리 업종에 ‘버블’ 논쟁 제기. 핵심 쟁점으로 ① 한...",
+      "link": "https://t.me/MASSITRADING/152140",
       "keywords": [
         "수요",
         "사이클"
@@ -117,13 +133,11 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-07-17 11:32",
-      "text": "🎯 **[MU 급등세 과열 경고, 실적 코멘트·옵션 14% 변동성에 단기 급락 위험 부각]** MU, AI 관련 기술주 랠리의 ‘바로미터’처럼 거래 관심 집중됐으나, 주가가 단기간 포물선 형태로 급등해 작은 뉴스 변화에도 큰 조정 가능성 부각. MU 주가 단기 급등폭이...",
-      "link": "https://t.me/MASSITRADING/152082",
+      "date": "2026-07-17 14:03",
+      "text": "🎯 **[아시아 기술주 급락에 닛케이 5%대 하락; 유가·달러 보합, 미 국채 단기 구간 재평가]** 아시아 증시에서 기술주 매도세 심화, 반도체·칩 관련 종목이 하락 주도. 일본 닛케이 지수, 5% 이상 급락하며 연중 큰 폭 하락 중 하나로 기록; 3월 이후 최대 하...",
+      "link": "https://t.me/MASSITRADING/152137",
       "keywords": [
-        "수요",
-        "공급",
-        "사이클"
+        "상향"
       ]
     },
     {
@@ -801,24 +815,6 @@
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-07-09 17:32",
-      "text": "**[마감브리프] 26.07.09.(목) 뉴스 TOP10 - 알테오젠, 한미약품, 삼성전자, 엠케이전자 등**   https://da.gd/sitcw  📈 이 특강 놓치면 10년을 후회한다! <에너지 대전환 시대! 투자로 올라타라!> 👉 https://vo.la/6bW...",
-      "link": "https://t.me/IRNOTE_YSTREET/4864",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-07-09 17:01",
-      "text": "**[컨콜노트] 두산에너빌리티, 글로벌 에너지 전환의 핵심 파트너로 도약하는 중**  ✅ 기존 EPC 사업 중심에서 벗어나 원전, 가스, 신재생 관련 등 기자재 사업 위주로 포트폴리오를 재편하여 수익성을 개선하고 있음  ✅ 팀코리아를 통한 해외 대형 원전 수주와 SMR...",
-      "link": "https://t.me/IRNOTE_YSTREET/4863",
-      "keywords": [
-        "수주"
-      ]
-    },
-    {
       "source": "@YAZA_STOCK",
       "date": "2026-07-17 12:54",
       "text": "―기본예탁금을 3000만원으로 정한 근거는 무엇인가. ▲▲3000만원에 하나의 절대적인 산식이 있는 것은 아니다. 현금 3000만원 요건을 적용하면 현재 약 12조원인 상품 시가총액이 출시 당시와 비슷한 4조~5조원 수준으로 줄어들 수 있다는 내부 추산이 있었다. 투자...",
@@ -870,16 +866,6 @@
         "수요",
         "공급",
         "YoY"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-07-16 11:21",
-      "text": "**>>Citrini: 2030년 DRAM 공급 부족 28.7EB 전망… AI 수요로 장기 공급 타이트 국면**  •시장조사업체 Citrini Research는 2030년 글로벌 DRAM 시장이 28.7EB 규모의 공급 부족에 직면할 것으로 전망. DRAM(HBM 포함...",
-      "link": "https://t.me/YAZA_STOCK/11612",
-      "keywords": [
-        "수요",
-        "공급"
       ]
     },
     {
