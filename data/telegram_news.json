@@ -93,179 +93,152 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-09-02 17:05",
-      "text": "**HBM4 출시를 위한 준비: SK하이닉스, 실리콘 웨이퍼 구매량 전분기 대비 두 배 이상 증가 및 장비 공급업체 가격 인상 승인**  SK하이닉스의 실리콘 웨이퍼 구매 지출이 2026년 2분기에 전분기 대비 104% 급증하며 경쟁사인 삼성전자를 크게 앞질렀습니다. ...",
-      "link": "https://t.me/IDEA_MEMO/26498",
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:32",
+      "text": "🎯 **[데이터센터 반발 확산, Trump 행정부 ‘소통 실패’ 지적과 AI·전력비 쟁점 부상]** 워싱턴에서 데이터센터 건설을 둘러싼 공공여론·정치권 논쟁이 확대되며, 지역 전력수요·소음·경관 훼손과 경제효과(세수·일자리) 간 충돌이 핵심 이슈로 부각. 행정부는 반발...",
+      "link": "https://t.me/MASSITRADING/169102",
       "keywords": [
-        "공급",
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:32",
+      "text": "🎯 **[S&P 로테이션 지속, AI 집중 완화와 은행·에너지 분산 필요]** 아마존 AWS 성장 가시성 제한에도 아마존, 알파벳, 마이크로소프트 등 대형주 S&P 500 내 비중 확대 효과로 개인자금 유입 시 수혜 가능성 제기. 머니마켓펀드 규모 약 7.8조달러 언급...",
+      "link": "https://t.me/MASSITRADING/169098",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:18",
+      "text": "🎯 **[지정학 긴장 재부상, Challenger 감원 발표 4년래 최저, NBA 제재로 Clippers 불이익]** 미국의 Iran 관련 군사행동 가능성이 거론되는 가운데, 추가 공습은 길지 않을 수 있다는 관측 보도. 미군은 수요일 신규 타격을 발표하지 않은 것으로...",
+      "link": "https://t.me/MASSITRADING/169096",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:18",
+      "text": "🎯 **[John Hancock Emily Rowland, ‘채권 혐오 극대화 구간’에서 중간만기 듀레이션 확대 제안]** Wall Street에서 ‘채권은 기피, 주식은 선호’라는 심리 쏠림이 관측되며, 금리 수준 대비 자산배분 재평가 논쟁 확대. 주요 경제지표 혼조...",
+      "link": "https://t.me/MASSITRADING/169095",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:18",
+      "text": "🎯 **[에너지발 교역조건 충격 속 엔화 약세, 개입 관측과 GPIF 자금 환류 논의 부상]** 에너지 가격 상승, 대규모 에너지 수입국 Japan 교역조건 악화 요인으로 작용하며 엔화 약세 압력 강화. USDJPY 최근 24시간 변동성 확대, 추가 FX interve...",
+      "link": "https://t.me/MASSITRADING/169093",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:18",
+      "text": "🎯 **[미국 주가지수 선물 약세, 국채금리 4%대 고착, Brent·WTI 상승세 지속]** 미국 주가지수 선물 S&P 소폭 하락, Nasdaq 100 더 큰 폭 약세 흐름. Broadcom 실적·가이던스 강했으나 개별 종목 신뢰 회복·기술주 매수심리 개선으로 연결 ...",
+      "link": "https://t.me/MASSITRADING/169092",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:18",
+      "text": "🎯 **[SpaceX 공급 부담·고평가 논쟁, Apple 고P/E·Amazon FCF 우려와 지수자금 유입 변수]** 리밸런싱 이슈와 연계된 종목으로 SpaceX 언급. 가격 약 110 수준, 과거 고점(약 225) 대비 하락. 8월 4일 실적 발표, 8월 6일 최대 ...",
+      "link": "https://t.me/MASSITRADING/169091",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:17",
+      "text": "🎯 **[빅테크 실적 주간, CapEx 부담과 free cash flow 재평가 속 Microsoft 결과에 시선 집중]** 주간 핵심 이벤트, Meta·Apple·Amazon·Microsoft 실적 발표 예정. Microsoft가 선행 발표로 시장 반응 주도 가능성....",
+      "link": "https://t.me/MASSITRADING/169090",
+      "keywords": [
+        "상향",
+        "서프라이즈"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:17",
+      "text": "🎯 **[기술주 약세 속 섹터 로테이션 확산, AI 성장의 전력·소재·건설 수요 재부각]** 시장 흐름, 전면적 매도(리퀴데이션)보다 섹터 로테이션 성격 강조. 에너지·금융 강세가 이어졌고 헬스케어·산업재·소재로 자금 이동 관측. 고성장·고밸류에이션 종목에서 상대적으로...",
+      "link": "https://t.me/MASSITRADING/169089",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:17",
+      "text": "🎯 **[유가 100달러 근접·금리 4%대 유지, 주식 선물 약세와 물가 부담 확대]** 미국 주식 선물, S&P 500 소폭 하락(0.1% 미만), Nasdaq 100 약세(약 -0.2%) 흐름. Broadcom 실적 발표와 강한 가이던스에도 주가 신뢰 회복 제한, ...",
+      "link": "https://t.me/MASSITRADING/169088",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:03",
+      "text": "🎯 **[ADP: 고용 냉각 지속, base pay 3%대 정체로 임금발 인플레 압력 제한]** ADP 고용지표에서 연초 이후 최저 수준의 고용 증가로 냉각 신호 포착, 다음 날 발표되는 8월 고용보고서에 시장 관심 집중. 고용 증가 서비스업 중심으로 집중, 교육·보건...",
+      "link": "https://t.me/MASSITRADING/169084",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 20:02",
+      "text": "🎯 **[유가 Brent 97·WTI 93 근접, 채권금리 2년 4.37%대 고착]** 인플레이션이 Fed 목표를 한동안 상회할 수 있고, 금리 인상이 물가를 크게 낮추지 못할 수 있다는 관측 제기. Fed가 인상을 재개할 경우 전반적 부채 이자비용이 상승 압력을 받을...",
+      "link": "https://t.me/MASSITRADING/169082",
+      "keywords": [
+        "수요",
         "사이클"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-03 16:32",
-      "text": "🎯 **[호르무즈 해협 통과 제한으로 제품 공급 차질, 미국 diesel 가격 4년 고점]** 유가, 3일 연속 상승 이후 하락 전환; 미국 대통령 발언에서 이란 관련 재충돌이 단기간일 수 있다는 시그널과 호르무즈 해협 에너지 흐름이 유지된다는 당국 평가가 배경. 걸프...",
-      "link": "https://t.me/MASSITRADING/168964",
+      "date": "2026-09-03 20:02",
+      "text": "🎯 **[스트리밍 구독료 인상 가속, 다운시프팅·통합이 승자 가를 핵심 변수]** Apple TV, Peacock, ESPN 등 주요 스트리밍 서비스 구독료 인상 흐름 확산. 소비자 스트리밍 지출이 누적되며 월 200~300달러 수준까지 확대될 수 있다는 문제의식 부각...",
+      "link": "https://t.me/MASSITRADING/169081",
       "keywords": [
-        "수요",
-        "공급",
-        "수주"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-03 16:32",
-      "text": "🎯 **[유럽 광통신·AI 칩 수요 부각, Broadcom 2028 전망 상향과 관세 논의]** 유럽 증시 개장 초반 지수 변동성 제한적이나 유가 약세가 부담 요인으로 부상. 프랑스 칩 업체 Swatec 주가, 매출 가이던스 상향 이후 장중 11% 급등. Broadco...",
-      "link": "https://t.me/MASSITRADING/168963",
+      "date": "2026-09-03 20:02",
+      "text": "🎯 **[Apple, iPhone 18·iPhone Air 출시 분산으로 연중 판매·공급망 리스크 관리]** Bloomberg 보도 기반으로, 일반 iPhone 18과 2세대 iPhone Air 출시 시점이 가을이 아닌 봄으로 지연될 가능성 제기. Apple, 연중 매...",
+      "link": "https://t.me/MASSITRADING/169080",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-03 19:48",
+      "text": "🎯 **[Nepal 대홍수 사망 1,200명 이상, Five Below는 연간 전망 상향으로 급등]** Nepal에서 대규모 홍수로 사망자 1,200명 이상 발생, 외국인 포함 실종자 수색이 지속되는 가운데 당국은 관광객에게 ‘여행 포기 자제’ 요청 미국 할인 소매업체...",
+      "link": "https://t.me/MASSITRADING/169077",
       "keywords": [
         "상향",
-        "수요",
-        "공급",
-        "TP",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:32",
-      "text": "🎯 **[미국 고용 3만8천명 증가로 둔화 신호, 제조업 감소·저임금 임금압박 부각]** 이번 고용 증가폭 3만8천명으로 1월 이후 최저 수준; 노동시장 ‘냉각’ 국면이나 ‘붕괴’로 보기는 어렵다는 평가. 업종별로 health care 고용이 인구구조 변화 영향으로 지...",
-      "link": "https://t.me/MASSITRADING/168961",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:32",
-      "text": "🎯 **[BHP, 구리 중심 성장 가속·철광석 현금창출 유지·Potash 내년 가동]** 성장 수단으로 M&A 필요성 인정하되, 동일 구리 물량 확보 비용 M&A가 자체 개발 대비 3~4배 수준으로 평가돼 organic growth 우선 전략 강조. BHP 수익 구조에...",
-      "link": "https://t.me/MASSITRADING/168960",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:23",
-      "text": "🎯 **[BHP, 구리 수요 2050년까지 연 6.5% 성장 전망; 공급 제약에 가격 지지]** BHP, 구리 가격이 기록적 수준에 근접한 가운데 단기뿐 아니라 중장기 전망이 핵심이라고 언급. 전통적 수요(가전·전기기기) 외에 electrification, data c...",
-      "link": "https://t.me/MASSITRADING/168956",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:23",
-      "text": "🎯 **[유럽 증시 보합권, 미디어·기술 강세 속 Soitec 급등과 에너지 약세 부각]** 유럽 주요 지수, 뚜렷한 방향성 제한; CAC·DAX·AEX 흐름 미미, IBEX 약 0.2% 상승. 섹터별로 미디어 약 1% 상승 주도, 통신·기술 약 0.5% 상승; ASM...",
-      "link": "https://t.me/MASSITRADING/168955",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:23",
-      "text": "🎯 **[Nextdoor, WAU 5% 증가·매출 15% 성장; AI 기반 추천·요약으로 수익화 확대]** Nextdoor 경영진, 최근 분기 기준 사상 최고 수준 실적 언급. weekly active users 5% 증가로 약 6개 분기 만 engagement 성장 ...",
-      "link": "https://t.me/MASSITRADING/168954",
-      "keywords": [
-        "수요",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:21",
-      "text": "🎯 **[유럽 지수는 보합, Soitec 급등·에너지 약세로 종목장세 전개]** Deutsche Telekom 관련해 행동주의 투자자 Elliott가 상당 지분을 취득했다는 보도로 주목; 미국 T-Mobile과의 관계 강화 전략보다 자사주 매입 등 주주환원 확대 요구 ...",
-      "link": "https://t.me/MASSITRADING/168953",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:21",
-      "text": "🎯 **[엔화 1% 급등, BOJ 금리인상 기대·개입 경계 재점화]** 달러 대비 엔화 1% 급등 관측, BOJ 계정 확인을 통한 개입 여부 점검 필요성 부각. BOJ 회의 직후 실버위크(3일 연휴) 일정 겹치며, 과거 골든위크 전후 개입 사례 연상으로 시장 경계 강화...",
-      "link": "https://t.me/MASSITRADING/168951",
-      "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-03 16:21",
-      "text": "🎯 **[미국 채권 ETF 자금유입 86억달러, 단기·장기 바벨과 Bitcoin ETF 동반 확대]** 8월 28일 종료 주간 미국 상장 fixed income ETF 순유입 86억달러로, 금리 불확실성 환경에서도 채권 ETF로 자금 유입 지속. ETF 투자자 동향 3...",
-      "link": "https://t.me/MASSITRADING/168949",
+      "date": "2026-09-03 19:48",
+      "text": "🎯 **[TD Securities: BOJ 인상이 엔화 약세 억제의 지속 가능한 해법, carry trade 재편 전망]** TD Securities의 Jyoti Bharadwaj는 최근 USD/JPY 변동이 공식 개입 확인 없이도 발생했으며, 시장이 BOJ의 더 공격...",
+      "link": "https://t.me/MASSITRADING/169076",
       "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:20",
-      "text": "🎯 **[엔화 달러 대비 157선 급등, 개입 추정 속 BOJ 회의·JGB 입찰 주목]** 아시아 장중 변동성 이후 일본 엔화가 달러 대비 약 1% 상승, 157선까지 급등하며 rate check 및 추가 시장개입 가능성 추정 확산. 시장에서는 이달 말 BOJ 정책회의...",
-      "link": "https://t.me/MASSITRADING/168948",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:19",
-      "text": "🎯 **[M&G 상반기 조정 영업이익 4억3500만파운드, BPA·private markets 성장 강조]** M&G 상반기 조정 영업이익(세전) 4억3500만파운드, 시장 예상치 대체로 부합. 중간배당 주당 6.8펜스 발표. 주가 연초 대비 약 45% 상승 언급. D...",
-      "link": "https://t.me/MASSITRADING/168946",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:19",
-      "text": "🎯 **[유럽 증시 보합권, 유럽 국채금리 1~2bp 하락으로 안정]** 유럽 증시 개장 전 흐름 보합권, 아시아 장중 변동성 확대 이후에도 유럽 반응 제한적. 최근 글로벌 채권시장 매도 이후 변동성 완화 조짐, 유럽 국채금리 전반 1~2bp 하락. 주요 벤치마크 금리...",
-      "link": "https://t.me/MASSITRADING/168945",
-      "keywords": [
-        "TP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:19",
-      "text": "🎯 **[엔비디아, 칩 판매 넘어 AI factory 생태계·금융·데이터센터까지 수익화 범위 확대]** 엔비디아 전략이 단순 GPU 판매에서 ‘AI factory’ 전반으로 확장되는 흐름 설명: GPU 중심에서 GPU+CPU, 네트워킹·메모리, 시스템, 커스텀 칩 연계...",
-      "link": "https://t.me/MASSITRADING/168944",
-      "keywords": [
-        "상향",
-        "TP"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:19",
-      "text": "🎯 **[우버 10% 감원·관리자 20% 축소, Credo·MongoDB 실적 상향에도 기대치 부담으로 급락]** 우버 인력 구조 개편 발표: 약 3,300명 감원으로 전체 인력 약 10% 축소, 관리자 직군 20% 감축 및 일부 직무 재배치 병행; 다수 직원 원격근무...",
-      "link": "https://t.me/MASSITRADING/168943",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:19",
-      "text": "🎯 **[국채금리 상승 지속 시나리오, 실적·연준 25bp 인상 가능성 반영한 방어적 리밸런싱]** 주식시장 강세 요인으로 AI 기대가 부각되나, 국채금리 상승이 촉발점으로 작용해 현재 조합이 지속 가능하지 않을 수 있다는 경고 제기. 컨센서스 기준 향후 2개 분기 실...",
-      "link": "https://t.me/MASSITRADING/168942",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-03 16:18",
-      "text": "🎯 **[유럽 증시 보합권, 국채금리 소폭 하락…M&G 상반기 이익·배당 발표]** 아시아 세션 변동성에도 유럽 개장 초반 주가는 대체로 보합권, 변동성 전이 제한적. 최근 글로벌 채권시장 매도 이후 안정 조짐; 유럽 주요 국채금리 1~2bp 하락, 독일 10년물 3....",
-      "link": "https://t.me/MASSITRADING/168941",
-      "keywords": [
-        "TP"
+        "사이클"
       ]
     },
     {
@@ -388,49 +361,6 @@
       ]
     },
     {
-      "source": "@JAKE8LEE",
-      "date": "2026-09-01 23:29",
-      "text": "JP모건 브로드컴 바이사이드 설문 센티먼트: 브로드컴은 여전히 상당히 혼잡한 넷 롱(net long) 포지션 상태이며, 지난 몇 주간 실적 발표를 앞두고 나온 숏 커버링이 이를 뒷받침했습니다. 다만 투자자들이 이 종목을 숏하려는 의향이 (자금 조달 목적으로 추정) 커지...",
-      "link": "https://t.me/JAKE8LEE/13883",
-      "keywords": [
-        "상향",
-        "수주"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-09-01 20:12",
-      "text": "UBS가 추정한 '장기 ROE = 34%' 라는건 2029년 YoY 디램 ASP -25.2% , 낸드 ASP -41% 를 감안한 5년 평균임...",
-      "link": "https://t.me/JAKE8LEE/13878",
-      "keywords": [
-        "YoY"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-09-01 19:56",
-      "text": "UBS : Key Call - Samsung Electronics (PT 535K Won)  작성: 잠실개미&10X 텔레그램 https://t.me/jake8lee/13877  ✅ 3Q26 DRAM ASP 전망 +23% QoQ로 상향(직전 +20%). 4Q +10% 유...",
-      "link": "https://t.me/JAKE8LEE/13877",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "QoQ",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-09-01 19:05",
-      "text": "골드만삭스는 AI 에이전트 시대가 본격화되면 핵심 병목은 GPU 같은 컴퓨팅보다 메모리가 될 수 있다고 봅니다.   에이전트는 일반 챗봇보다 5~30배 많은 토큰과 메모리를 사용해 메모리 수요가 폭증하는 반면, HBM 중심의 공급 확대는 제한적이어서 메모리 가격 상승과...",
-      "link": "https://t.me/JAKE8LEE/13876",
-      "keywords": [
-        "수요",
-        "공급",
-        "사이클"
-      ]
-    },
-    {
       "source": "@ONE_GOING",
       "date": "2026-09-02 11:59",
       "text": "수요일 오전 특징은 디아이가 검사장비쪽에 훈풍주면서 테스터 브라더스들 동반 강세...",
@@ -500,6 +430,15 @@
       "date": "2026-07-29 10:19",
       "text": "SK하이닉스 콜 끝났습니다.  - 주주환원 방안 다각적 검토 - 중장기 투자로 공급과잉은 제한적 - LTA 가격 구조는 가격 변동성 대응 - LTA 계약 기간은 기본 5년 - 고부가제품 출하 시점 하반기 이월 - HBM4 수율은 성숙, HBM3E 수준 - HBM 가격 ...",
       "link": "https://t.me/BRILLER_RESEARCH/4593",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-09-03 17:18",
+      "text": "**메디큐브 제품 검사 결과 및 품질 관리 관련 공식 입장**  메디큐브 PDRN 핑크 콜라겐 캡슐 크림과 관련하여 정확한 사실을 안내드립니다.  **싱가포르 보건과학청(HSA)의 공식 검사 결과, 에이피알 싱가포르 법인(APR SG Pte. Ltd.)이 공식 공급한 ...",
+      "link": "https://t.me/MSTARYUN/10693",
       "keywords": [
         "공급"
       ]
@@ -602,16 +541,13 @@
       ]
     },
     {
-      "source": "@MSTARYUN",
-      "date": "2026-08-30 20:36",
-      "text": "#전력기기 GS Key Takeaways **이번 사이클을 과거 사이클(2004-2009)의 길이로 재단하면 틀린다.** 직전 사이클은 구리·GOES 부족과 2003년 정전 이후 규제 캐치업이라는 공급 측 단발 이벤트였지만, **현 사이클은 순수입 구조라는 공급 제약 ...",
-      "link": "https://t.me/MSTARYUN/10664",
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-09-03 19:18",
+      "text": "**[퀀틴전시 플랜] 우호적 대외 환경에도 수급 변동성 확대, KOSPI 한 차례 요동** **[대신증권 이경민]** #이경민 #코스피 미국 고용 둔화 조짐 미국 ADP 민간고용, 예상 하회하며 고용 둔화 신호 강화. 금리 인하 기대감 부상, 국채 금리 하락 압력 완화...",
+      "link": "https://t.me/DAISHINSTRATEGY/6261",
       "keywords": [
         "수요",
-        "공급",
-        "사이클",
-        "OP",
-        "수주"
+        "밸류체인"
       ]
     },
     {
@@ -709,6 +645,15 @@
       "keywords": [
         "사이클",
         "YoY"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-09-03 16:57",
+      "text": "**[마감브리프] 26.09.03.(목) 뉴스 TOP10 - 삼성SDI, 삼성전자, SK하이닉스, 현대모비스 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/260903165627597...",
+      "link": "https://t.me/IRNOTE_YSTREET/5159",
+      "keywords": [
+        "OP"
       ]
     },
     {
@@ -864,15 +809,6 @@
       "date": "2026-08-28 08:38",
       "text": "**[모닝브리프] 26.08.28.(금) 뉴스 TOP10 - SK하이닉스, 삼성전자, HD현대중공업 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/260828083649480ps)  ...",
       "link": "https://t.me/IRNOTE_YSTREET/5131",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-08-27 17:04",
-      "text": "**[마감브리프] 26.08.27.(목) 뉴스 TOP10 - SK, 휴온스글로벌, 현대제철, 대웅제약 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/260827170231958ix) ...",
-      "link": "https://t.me/IRNOTE_YSTREET/5130",
       "keywords": [
         "OP"
       ]
@@ -1073,12 +1009,12 @@
       ]
     },
     {
-      "source": "@DH_FINANCE",
-      "date": "2026-08-13 11:40",
-      "text": "삼성생명 (공시) - 2Q26 지배 순익 6,899억원(-9% YoY), 컨센 -9%  (삼화 안 보낸 걸 몰랐음다....😢) 삼성화재 (공시) - 2Q26 지배 순익 7,377억원(+16% YoY), 컨센 +13%...",
-      "link": "https://t.me/DH_FINANCE/4082",
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-03 16:49",
+      "text": "국내 주식 마감 시황 - 9월 3일  『30분 만에 3% 급락 후 회복』 시황 강진혁 ☎️02-3772-2329  코스피 6,579.48 (+0.26%), 코스닥 790.21 (-1.71%)  KOSPI 급락 후 반등에 수렴 추세선 하단 회복  금일 KOSPI, KOS...",
+      "link": "https://t.me/SHINHANRESEARCH/52628",
       "keywords": [
-        "YoY"
+        "밸류체인"
       ]
     },
     {
@@ -1307,14 +1243,14 @@
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-09-01 16:46",
-      "text": "『한국 8월 수출입; AI 사이클 유효, 확산은 선별적』 매크로팀 이진경/하건형 ☎️ 02-3772-1537  - 8월 수출 YoY 68.7% 증가. 일평균 수출 기준 전 기간 역대 2위 실적 - (국가) 선진·신흥 양호한 수요 속 대중동 역성장 (품목) AI IT 초...",
-      "link": "https://t.me/SHINHANRESEARCH/52597",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-09-03 17:29",
+      "text": "한국&중국 마켓 클로징(9월 3일)  기관때문에 울고, 웃고  # 국내 마감 ▶ Summary · 코스피 6,579.48(+0.26%), 코스닥 790.21(-1.71%) · 코스피 장중 하락 전환은 '기관 투매' 영향. 장 후반 회복하며 (+) 마감 · 기타법인 11...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7455",
       "keywords": [
         "수요",
-        "사이클",
-        "YoY"
+        "공급",
+        "OP"
       ]
     },
     {
@@ -1510,17 +1446,6 @@
       ]
     },
     {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-08-28 15:40",
-      "text": "**월스트리트파인더 Ep.204 - 엔비디아 내러티브의 변화**  **■ Key Takeaways** · 시장의 질문이 ‘AI 수요의 지속 가능성’에서 ‘성장의 질’로 변화 · 핵심 질문 3가지: ① 루빈 매출 가시성 ② 이익률 안정화 ③ 잉여현금흐름 개선 · (Wee...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7425",
-      "keywords": [
-        "수요",
-        "공급",
-        "사이클"
-      ]
-    },
-    {
       "source": "@JOORINI34",
       "date": "2026-08-28 09:12",
       "text": "**#전력기기**** 260828**  전력기기 관련해 첨언.  - 미국 전력기기 시장, 특히 154kV를 넘는 초고압 전력기기 시장 내 중국의 점유율은 5%를 밑도는 수준으로 제한적. - 다만 최근 들어 非유틸리티 향으로 중국 업체가 납기일정을 강점으로 수주를 따내는...",
@@ -1577,6 +1502,17 @@
       "keywords": [
         "OP",
         "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-09-03 19:04",
+      "text": "📝 텔레그램 심층 분석 Report (19시 04분) 기준  🌡️ 센티먼트 관망 (-15) 💡 요약 주요 반도체 기판 기업의 급락과 주요 반도체 기업의 목표가 하향에도 불구하고, HBM 및 AI 산업의 성장 기대감, 그리고 지정학적 리스크 완화 시그널이 혼재하며 신중한...",
+      "link": "https://t.me/EASOBI/16608",
+      "keywords": [
+        "공급",
+        "사이클",
+        "OP"
       ]
     },
     {
@@ -1734,17 +1670,6 @@
         "사이클",
         "OP",
         "수주"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-08-31 23:04",
-      "text": "📝 텔레그램 심층 분석 Report (23시 04분) 기준  🌡️ 센티먼트 관망 (-25) 💡 요약 미국 국채 금리 급등과 이란-미국 간 지정학적 긴장 고조로 시장 전반에 불안감이 감도는 가운데, AI 관련 기업들의 긍정적인 투자 및 실적 소식이 상쇄하며 혼조세를 보입...",
-      "link": "https://t.me/EASOBI/16572",
-      "keywords": [
-        "상향",
-        "공급",
-        "OP"
       ]
     },
     {
