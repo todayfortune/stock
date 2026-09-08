@@ -78,166 +78,95 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-08 13:18",
-      "text": "🎯 **[AI 투자금 조달·밸류에이션 우려, 연준·환율·원자재 전략 재점검과 금 비중 확대]** 엔화·원화 동반 강세; 엔화 연중 고점권 접근, 원화 약 2년 내 최강 수준. 엔화 강세 배경으로 단기 숏 포지션 부담 확대, 일본 임금 등 지표 개선, 당국의 시장 방어 ...",
-      "link": "https://t.me/MASSITRADING/172089",
+      "date": "2026-09-08 14:18",
+      "text": "🎯 **[미국-이란 긴장 속 유가 상승, 이란-오만 호르무즈 안전항로 협상 주시]** 유가, 미국-이란 긴장 재부각으로 공급 리스크가 높아지며 상승세 연장. 이란-오만 간 Strait of Hormuz 통과 선박을 위한 임시 안전항로 합의 가능성 부각; 합의 시 단기적...",
+      "link": "https://t.me/MASSITRADING/172124",
       "keywords": [
-        "쇼크",
-        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-08 14:18",
+      "text": "🎯 **[AI 수요로 copper 사상 최고가, 관세 우려로 재고 급감·숏 스퀴즈]** copper 가격, AI 수요 확대를 배경으로 사상 최고가 영역 진입 관측. President Trump의 수입 copper 관세 검토 보도로 런던 재고 급감, 단기 숏 스퀴즈 압력...",
+      "link": "https://t.me/MASSITRADING/172123",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-08 14:03",
+      "text": "🎯 **[보안 AI 모델 Nithos, 방어기관 우선 공개 후 단계적 접근 확대 전략]** MITHOS/Nithos 접근 권한을 보유한 고객 범위를 전 세계 15개국 추가 약 150개 조직으로 확대한 것으로 언급. 초기에는 cyber defenders, 비영리 단체, ...",
+      "link": "https://t.me/MASSITRADING/172117",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-08 14:03",
+      "text": "🎯 **[Sapporo, 캐나다발 맥주 관세 영향으로 미국 생산 이전·서부 증설 검토]** Sapporo Breweries, 캐나다에서 미국으로 일부 생산 이전 추진. 캐나다산 맥주 수출 관세가 공급망에 부담으로 작용, 미국 시장 내 주력 브랜드 확장 위해 미 서부 지...",
+      "link": "https://t.me/MASSITRADING/172113",
+      "keywords": [
+        "상향",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-08 14:03",
+      "text": "🎯 **[짐바브웨 ZIG 안정에도 탈달러화 더딘 흐름, 리튬 정책이 투자 신뢰 가를 전망]** 짐바브웨 경제, 달러화 사용 비중 큰 ‘강한 달러화 경제’로 평가. 신규 통화 ZIG 안정 관측에도, 과거 통화 붕괴 경험 누적으로 탈달러화 진행 속도 느릴 가능성. 나이지리...",
+      "link": "https://t.me/MASSITRADING/172111",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-08 14:03",
+      "text": "🎯 **[버닝맨, Z세대 유입 부진 속 고연령·고소득화와 남성 비중 지속]** 네바다 사막 대형 페스티벌 버닝맨, 참가자 고령화 진행; 20대보다 50대 비중 확대라는 참가자 주도 연례 조사 결과 언급. 인기 정점, 2010년대 후반 밀레니얼 세대에서 형성됐으며 현재도...",
+      "link": "https://t.me/MASSITRADING/172106",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-08 13:47",
+      "text": "🎯 **[NVIDIA, Hugging Face 129억달러 인수로 open-source AI 생태계 지배 강화]** NVIDIA, 300만개 이상 open-source AI 모델을 보유한 Hugging Face를 129억달러에 인수하기로 합의, AI 생태계 전반 통제 ...",
+      "link": "https://t.me/MASSITRADING/172103",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-08 13:47",
+      "text": "🎯 **[ADNOC, PTT·Dangote 정유 지분 협상으로 해외 정유·트레이딩 확대]** Abu Dhabi National Oil Company(ADNOC), 태국 최대 정유사 PTT 및 Nigeria Dangote 정유사업 지분 확보를 위한 협상 진행 정황. 거래...",
+      "link": "https://t.me/MASSITRADING/172099",
+      "keywords": [
         "공급",
-        "사이클"
+        "밸류체인"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-08 13:18",
-      "text": "🎯 **[캐나다, 미국산 철강·소비재 보복관세 발효…중간선거 앞두고 압박]** 캐나다, 미국의 신규 관세 조치에 맞서 미국산 수입품 수백 종에 보복관세 발효; 철강, 오토바이, 소비재 등 광범위 품목 포함. 워싱턴-오타와 간 협상 결렬 이후 상호 비난 확산, 합의 직전...",
-      "link": "https://t.me/MASSITRADING/172088",
+      "date": "2026-09-08 13:47",
+      "text": "🎯 **[Qatar LNG 선박 Strait of Hormuz 통과, 가스가격·제재 리스크 주목]** Qatar에서 이달 초 선적한 LNG 탱커가 Strait of Hormuz를 통과해 항행 확인; 7월 이후 해당 수로를 통한 LNG의 첫 가시적 출항으로 전해짐. 빈 ...",
+      "link": "https://t.me/MASSITRADING/172098",
       "keywords": [
         "공급"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 13:18",
-      "text": "🎯 **[호르무즈 긴장에 유가 98달러 근접, 엔화 연중 최고·미 국채 4.77%]** 미국-이란 충돌 재점화로 호르무즈 해협 운송 차질 우려 확대, 유가 상승 압력 강화. 중국의 매수 확대도 공급 타이트 국면에 추가 압력, Brent crude 배럴당 98달러 근접하...",
-      "link": "https://t.me/MASSITRADING/172087",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 13:17",
-      "text": "🎯 **[미국 고용 개선 지속, 저임금·현장직 중심 증가와 불평등 고착화 점검]** 이번 고용지표가 시장 예상보다 강하게 나왔고, 직전 수개월 수치도 상향 조정되며 노동시장 견조 신호로 해석. 2026년 들어 노동시장 여건이 개선되는 흐름 진단 제시; 2023~2025...",
-      "link": "https://t.me/MASSITRADING/172086",
-      "keywords": [
-        "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 13:17",
-      "text": "🎯 **[룰루레몬, 미국 매출 과대와 레깅스 20% 감소로 실적 압박 확대]** 룰루레몬 동일점포매출, 오랜만의 분기 기준 감소로 해석되며 브랜드 성숙 국면 신호 부각. 신임 CEO 하이디 오닐(Heidi O'Neill) 취임 지연 이슈 거론됐으나, 근본 원인으로 미국...",
-      "link": "https://t.me/MASSITRADING/172085",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 13:03",
-      "text": "🎯 **[미국-이란 충돌로 crude 상승, yen 강세·캐나다 보복관세로 변동성 경계]** 미국-이란 충돌 재점화로 crude 상승; Hormuz 차질 심화 우려가 공급 불안 요인으로 부각. 중국의 매수 강화가 이미 타이트한 시장에 추가 상방 압력으로 언급. yen,...",
-      "link": "https://t.me/MASSITRADING/172082",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 13:03",
-      "text": "🎯 **[강한 고용지표에도 연준 초점 인플레이션 유지, CPI 전까지 관망 우세]** 예상을 상회한 고용지표에도 시장 해석은 ‘큰 이벤트 아님’에 무게; 6~7월 약세가 8월에 되돌려진 측면, 여가·접객과 지방정부(특히 교육) 고용 왜곡 가능성 거론. 8월 지표는 개정...",
-      "link": "https://t.me/MASSITRADING/172081",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 13:03",
-      "text": "🎯 **[DocuSign, AI agents로 계약 워크플로 자동화 확대·국제 성장 가속]** DocuSign, 계약서 사용자 경험에 지능형 요약 기능 도입, 계약 프로세스 전반에 AI 기반 자동화 확대 전략 제시. 기업 내부 비효율이 큰 계약 워크플로와 ‘잠겨 있던’...",
-      "link": "https://t.me/MASSITRADING/172079",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 13:03",
-      "text": "🎯 **[tariffs·USMCA 불확실성 확대, 공급망 중복·투자 보수화로 혁신 저해 우려]** 미국의 재정·무역적자 관련 메시지 신뢰도, 유권자 수용도 낮아지고 있다는 평가 제기. 미국-캐나다 간 무역 갈등에서 미국 내 체감 물가(가솔린·식료품) 및 모기지 금리 상...",
-      "link": "https://t.me/MASSITRADING/172076",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 12:48",
-      "text": "🎯 **[DocuSign, AI 기반 계약관리 제품군 확장으로 매출 15%·가이던스 상향]** DocuSign, 전자서명 중심에서 ‘엔드투엔드 계약(agreement) 관리’로 제품 포지셔닝 전환 추진. 현대적 AI를 활용한 계약 요약, 워크플로 자동화, 체결 계약 데...",
-      "link": "https://t.me/MASSITRADING/172074",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 12:48",
-      "text": "🎯 **[미국 고용 16만2천 증가 후 CPI 주목, Fed 인상 가능성과 수익률곡선 평탄화 확대]** 미국 경기, 재가속 신호 제한적이나 전반적 버팀목 유지 평가. AI capex 관련 투자·파급효과, 지정학·유가 변수에도 성장 탄력 지지 요인으로 거론. 최근 고용지...",
-      "link": "https://t.me/MASSITRADING/172073",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 12:47",
-      "text": "🎯 **[캐나다, 미국산 15~50% 보복관세 임박…Bombardier·공급망 불확실성 확대]** 캐나다, 미국산 수백 개 품목에 보복관세 부과 예고로 무역갈등 격화. 관세율 15~50% 범위, 오토바이·치즈·화장품 등 소비재와 철강 포함. 미 재무장관 Scott Be...",
-      "link": "https://t.me/MASSITRADING/172070",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 12:47",
-      "text": "🎯 **[Sapporo, 미국 비알코올 현지생산 추진·베트남 증설로 공급 확대 모색]** Sapporo 경영진, 무역 긴장 고조 국면에서 미국 내 비알코올 제품 현지 생산 준비 상황 공개. 미국 시장 비알코올 제품 생산 확대 목표 시점 다음 해로 제시, 맥주 생산은 지...",
-      "link": "https://t.me/MASSITRADING/172069",
+      "source": "@JAKE8LEE",
+      "date": "2026-09-08 13:37",
+      "text": "*** FundaAI**  “Deep|LLM : **GPT-6 Astra, 코딩을 넘어 새로운 시장을 열다; 스케일링 법칙은 계속해서 컴퓨팅 수요를 견인한다**”   - 이번 주 가장 눈에 띄는 변화는 누가 이 모델을 사용하고 있는가다.  코딩 모델이 처음 등장했을 때...",
+      "link": "https://t.me/JAKE8LEE/13981",
       "keywords": [
         "수요",
         "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 12:33",
-      "text": "🎯 **[캐나다산 맥주 50% 관세로 삿포로, 무알코올 생산을 미국으로 이전 준비]** 미국의 캐나다산 양조 맥주 50% 관세 부과로 관세 긴장 고조; 일본 Sapporo Breweries, 북미 영향 확대 속 일부 생산을 캐나다에서 미국으로 이전 추진. 캐나다·미국 ...",
-      "link": "https://t.me/MASSITRADING/172067",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 12:33",
-      "text": "🎯 **[미국 장기물 국채 입찰 수요 약화 우려, 이자비용이 적자 확대 압력]** 주요 국채 발행국에서 입찰이 ‘수요의 바로미터’로 중요도 상승; 미국 10년·30년물 수요 부족이 향후 2~3개월 시장의 신규 리스크 요인으로 지목. 미국 국가부채 약 40조달러, 이자비...",
-      "link": "https://t.me/MASSITRADING/172065",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 12:33",
-      "text": "🎯 **[엔화 강세 심화, BOJ 25basis points 인상 기대와 개입 여파 부각]** 엔화, 연중 최고 강세 수준 근접하며 달러당 154엔 상향 돌파 뒤 152엔대 시야; 시장 주요 분기점 150엔도 재부상. 미국 휴일로 유동성 얇은 가운데 런던장에서 달러/엔...",
-      "link": "https://t.me/MASSITRADING/172063",
-      "keywords": [
-        "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-08 12:18",
-      "text": "🎯 **[구리·원자재 상승, El Nino 공급충격·데이터센터 수요·관세 우려가 동시 자극]** AI 트레이드 확산, 데이터센터 투자와 결합해 구리 수요 기대를 키우며 가격 강세 요인으로 지목. 중동 교란, El Nino·super El Nino에 따른 공급 차질, 각...",
-      "link": "https://t.me/MASSITRADING/172060",
-      "keywords": [
-        "수요",
-        "공급",
-        "사이클"
       ]
     },
     {
@@ -277,51 +206,6 @@
         "수요",
         "공급",
         "사이클"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-09-06 22:33",
-      "text": "**Nomura : Global Memory  [펀더멘털과 주가의 괴리] part 4 삼성전자 TP 670K KRW, 하이닉스 TP 4,700K KRW**  작성: 잠실개미&10X 텔레그램 https://t.me/jake8lee/13956  **(자본 리스크 프리미엄 ...",
-      "link": "https://t.me/JAKE8LEE/13956",
-      "keywords": [
-        "TP"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-09-06 22:32",
-      "text": "**Nomura : Global Memory  [펀더멘털과 주가의 괴리] part 3 삼성전자 TP 670K KRW, 하이닉스 TP 4,700K KRW**  작성: 잠실개미&10X 텔레그램 https://t.me/jake8lee/13955  **(수요/공급 관련)** ...",
-      "link": "https://t.me/JAKE8LEE/13955",
-      "keywords": [
-        "수요",
-        "공급",
-        "OP",
-        "TP"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-09-06 22:29",
-      "text": "**Nomura : Global Memory  [펀더멘털과 주가의 괴리] part 2 삼성전자 TP 670K KRW, 하이닉스 TP 4,700K KRW**  작성 : 잠실개미&10X 텔레그램  https://t.me/jake8lee/13954  **(LTA 및 빅테크 ...",
-      "link": "https://t.me/JAKE8LEE/13954",
-      "keywords": [
-        "수요",
-        "공급",
-        "OP",
-        "TP"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-09-06 22:27",
-      "text": "**Nomura : Global Memory  [펀더멘털과 주가의 괴리] part 1  삼성전자 TP 670K KRW, 하이닉스 TP 4,700K KRW**  내용이 좋은데 텔레그램 유료 버젼이 아닌 관계로 나누어 전파합니다  작성 : 잠실개미&10X 텔레그램  htt...",
-      "link": "https://t.me/JAKE8LEE/13953",
-      "keywords": [
-        "수요",
-        "공급",
-        "사이클",
-        "TP"
       ]
     },
     {
