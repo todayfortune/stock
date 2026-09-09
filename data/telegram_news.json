@@ -68,18 +68,27 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-09 13:17",
-      "text": "🎯 **[중동 긴장 고조로 호르무즈·정제유 중심의 공급 취약성 부각]** 전쟁 이전 대비 원유 흐름이 여전히 낮은 수준으로 언급되며, 사우디 시설 공격 등 공급 측 리스크 확대 관측. 공급 취약성 핵심으로 생산 측 변수와 호르무즈 해협 경로 리스크가 함께 지목. 리스크...",
-      "link": "https://t.me/MASSITRADING/172715",
+      "date": "2026-09-09 14:17",
+      "text": "🎯 **[Anthropic S-1 지연 가능성, AI IPO·밸류에이션·데이터센터 여론 리스크 재부각]** Reuters 보도: Anthropic의 S-1 제출이 ‘이르면 이번 주’ 관측에서 ‘빠르면 9월 말’로 지연 가능성 제기, 상장(리스트) 시점은 10월로 밀릴 ...",
+      "link": "https://t.me/MASSITRADING/172749",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 14:17",
+      "text": "🎯 **[캐나다 200억~280억달러 보복관세, 중간선거·물가·기업 가격전가 변수 확대]** 캐나다, 미국산 제품 약 200억달러(방송 내 다른 언급 기준 280억달러 규모) 대상 관세 부과 착수. 전체 교역 대비 비중은 작지만, 무역 갈등의 확산 신호로 해석. 보복관...",
+      "link": "https://t.me/MASSITRADING/172748",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-09 13:17",
-      "text": "🎯 **[Snowflake, AI 플라이휠로 가이던스 상향 지속·기업용 통합 경쟁 심화]** Snowflake, AI 가속이 데이터 플랫폼 소비와 제품 채택을 상호 증폭시키는 ‘플라이휠’로 작동한다는 관점 제시. 데이터를 AI 활용 가능 상태로 만든 뒤 데이터 위 AI...",
-      "link": "https://t.me/MASSITRADING/172714",
+      "date": "2026-09-09 14:17",
+      "text": "🎯 **[Brent 변동·가솔린 4.15달러, 인플레 재점화로 연준 인상 확률 상승]** Brent 100달러 부근 등 원유 가격 재상승 조짐, 중동 긴장(미국-이란 갈등, Houthis의 사우디 관련 공격 확대) 및 러시아-우크라이나 전쟁에 따른 러시아 정유·공급 차...",
+      "link": "https://t.me/MASSITRADING/172747",
       "keywords": [
         "상향",
         "수요",
@@ -88,141 +97,142 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-09 13:17",
-      "text": "🎯 **[BOJ·ECB 인상 기대와 Fed 불확실성 공존, yen 강세·carry trade 위험 완화 관측]** yen, 달러 대비 153~154선에서 강세 흐름; 다음 주 BOJ 결정과 함께 Fed·ECB 등 중앙은행 이벤트가 집중된 구간으로 평가. 미국 10-ye...",
-      "link": "https://t.me/MASSITRADING/172713",
+      "date": "2026-09-09 14:17",
+      "text": "🎯 **[미국의 대캐나다 신규 관세로 긴장 고조, 캐나다는 EU와 광범위 협력 추진]** 미국이 캐나다에 신규 관세를 부과하며 무역전쟁이 격화. 공급망·교역 비용 상승 우려로 북미 정책 리스크 재부각. 캐나다는 대응 외교·통상 축으로 유럽연합(EU)과의 협력 확대를 추...",
+      "link": "https://t.me/MASSITRADING/172746",
       "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 14:17",
+      "text": "🎯 **[미국-이란 충돌 격화로 Brent 100달러 근접, 유럽 가스 3년 고점]** 미국-이란 군사적 긴장 재확대: 미국, 이란 원유 탱커 5척 파괴 발표. 이란은 요르단 공군기지 미사일 공격, 걸프 지역에서 미 군함 2척과 원유 탱커 8척을 표적으로 했다고 주장....",
+      "link": "https://t.me/MASSITRADING/172744",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 14:17",
+      "text": "🎯 **[아시아 반도체 랠리 지속, 엔화 강세·중국 물가 반등이 변수]** 아시아 반도체주 강세 지속, 미국 SOX 지수 1%대 상승 흐름 추종. MSCI 지역 지수 0.4% 상승, KOSPI 장중 1.5% 상승 구간 형성하며 SK Hynix·Samsung Electr...",
+      "link": "https://t.me/MASSITRADING/172743",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 14:03",
+      "text": "🎯 **[India 바이오테크 여성 창업, 금융권 고위험 인식·담보 부족으로 자금조달 난항]** India에서 바이오테크 분야 창업 과정에서 성별 편견과 신용·담보 제약이 초기 성장 장벽으로 작동했다는 경험담 소개. 은행권이 25세 창업가를 ‘고위험’으로 판단해 대출을...",
+      "link": "https://t.me/MASSITRADING/172741",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 14:03",
+      "text": "🎯 **[Majid Al Futtaim, GCC 인플레·공급망 충격에 AI·재고 전략 강화]** GCC 지역 소매 환경에서 비식품 부문 감소 요인으로 지역 단위 공급 차질에 따른 상품 가용성 저하, 고물가 환경에서의 내구재 구매 지연 거론. 운영비 전반 상승 속 일부 ...",
+      "link": "https://t.me/MASSITRADING/172736",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 14:02",
+      "text": "🎯 **[Brent 100달러 부근 재진입, 중동 긴장과 Goldman Sachs 전망 상향]** 연휴 이후 시장 재개 국면에서 랠리의 ‘모래’ 요인으로 유가 재상승이 거론되며, Brent가 100달러 부근에서 움직이는 상황 언급. 이란-미국 갈등 맥락과 함께 Hout...",
+      "link": "https://t.me/MASSITRADING/172735",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 14:02",
+      "text": "🎯 **[베이비붐 세대 업사이징 확산, 주택 재고·첫 주택 수요 압박 심화]** 전통적으로 고령층은 은퇴 이후 주택을 매도하고 더 작은 집으로 이동하는 경향이 강했으나, 최근 베이비붐 세대가 오히려 더 큰 집으로 ‘업사이징’하는 사례 증가로 시장 기대 변화. Wall ...",
+      "link": "https://t.me/MASSITRADING/172734",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 13:48",
+      "text": "🎯 **[월드컵 경제효과 200억달러 추정…6월 소비지출 전년 대비 6.3% 증가]** 월드컵 결승에서 스페인, 연장전 끝 아르헨티나 1-0 승리로 두 번째 우승 기록. 프랑스 킬리안 음바페, 대회 최다 득점 10골로 골든부트 수상. 개최국 미국·멕시코·캐나다, 참가국...",
+      "link": "https://t.me/MASSITRADING/172730",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 13:47",
+      "text": "🎯 **[Majid Al Futtaim 상반기 EBITDA 11% 증가, 리테일 비식품 수요 둔화]** Majid Al Futtaim, 상반기 EBITDA 25억 디르함으로 11% 증가, 매출 1% 증가에도 수익성 개선. 중동 29개 쇼핑몰 운영 대기업으로, 소매 부문...",
+      "link": "https://t.me/MASSITRADING/172727",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 13:47",
+      "text": "🎯 **[Karen Young, Hormuz·Bab el-Mandeb 이중 초크포인트로 공급 리스크 경고]** 미국, 오만만 및 하르그섬 인근에서 이란 유조선 타격으로 Brent 100달러 근접, 해상 리스크 프리미엄 확대. 미 중부사령부, 미국 해군 함정 공격 시도에...",
+      "link": "https://t.me/MASSITRADING/172725",
+      "keywords": [
+        "수요",
+        "공급",
         "사이클"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-09 13:17",
-      "text": "🎯 **[AI 반도체 기대에 아시아 증시 상승, OpenAI·Qualcomm-Amazon 뉴스가 심리 지지]** 미국 증시에서 SOX 지수 상승이 아시아 기술주로 확산; 아시아 주식 전반 상승에도 유가 급등이 위험요인으로 병존. 한국 시장에서 AI 반도체 모멘텀 관련 ...",
-      "link": "https://t.me/MASSITRADING/172712",
+      "date": "2026-09-09 13:47",
+      "text": "🎯 **[중동 긴장으로 Brent 급등, 아시아 기술주 강세와 엔화 강세 동반]** 이란, 페르시아만 내 선박 추가 타격 경고로 중동 긴장 고조, 원유 가격 상승 압력 확대. 사우디 에너지 시설 타격 소식으로 역내 확전 및 공급 차질 우려 증폭. S&P 500 전일 약...",
+      "link": "https://t.me/MASSITRADING/172724",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-09 13:32",
+      "text": "🎯 **[AI 수요로 대형 계약 확대, 2027 매출 성장률 가이던스는 둔화 신호]** 한 소프트웨어 기업 경영진 인터뷰에서 분기 실적이 상·하단 모두 강했고, ‘백만 달러 이상’ 대형 계약 건수 최고치 및 Fortune 500 고객 비중 50% 돌파가 성과로 제시됨....",
+      "link": "https://t.me/MASSITRADING/172723",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-09 13:17",
-      "text": "🎯 **[미국-이란 충돌 격화로 Hormuz 공급 리스크 확대, Brent crude 100달러 근접]** 미군, 미 해군 함정 공격 시도 이후 이란 국적 원유 탱커 5척 파괴로 충돌 수위 급등; 이란, 미사일 공격과 Persian Gulf 해상운송 추가 타격 위협 병...",
-      "link": "https://t.me/MASSITRADING/172711",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 13:03",
-      "text": "🎯 **[Snowflake, AI 가속으로 제품 채택 ‘플라이휠’ 강화 가능성 부각]** 여러 분기 누적된 AI 가속이 Snowflake에 ‘플라이휠’ 형태로 작동하기 시작했다는 평가 제기. 대기업 업무용 에이전트(agent) 운영 기반이 Snowflake 위에서 돌아...",
-      "link": "https://t.me/MASSITRADING/172710",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 13:02",
-      "text": "🎯 **[페르시아만 긴장 고조로 유가 상승, 미국 선물 보합·SOX 강세]** 긴장 고조 국면에서 미군이 해군 함정 공격 시도 이후 이란 유조선 5척을 파괴했다는 보도; 추가 공격 위험이 더 큰 충돌로 확산할 가능성 부각. 테헤란, 페르시아만 내 추가 선박도 표적이 될...",
-      "link": "https://t.me/MASSITRADING/172709",
+      "date": "2026-09-09 13:32",
+      "text": "🎯 **[Brent crude 100달러 근접, 중동 충돌이 지수 선물·인플레 우려 자극]** 지수 선물 흐름: S&P futures 보합권, NASDAQ 100 소폭 상승, Dow Jones 변동 제한, Eurostoxx 50 futures 하락으로 위험선호 혼조. ...",
+      "link": "https://t.me/MASSITRADING/172722",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-09 13:02",
-      "text": "🎯 **[Amazon 파운드화 첫 채권 발행, hyperscalers AI CapEx 확대와 자본비용 변수]** Amazon, 영국 파운드화로 첫 채권 발행 추진. 만기 3년~19년 구간으로 다양한 트랜치 구성 계획. hyperscalers 전반 AI build-out...",
-      "link": "https://t.me/MASSITRADING/172708",
-      "keywords": [
-        "수요",
-        "업사이드"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 13:02",
-      "text": "🎯 **[연준 인상 가능성에도 회사채 수요 유지, 스프레드가 국채금리 상승 상쇄]** 연준의 추가 금리인상 가능성이 부상했으나, 특정 발행사들의 조달 수요 둔화는 제한적이라는 평가. 상대적으로 타이트한 스프레드가 국채금리 상승 영향을 일부 상쇄해 올인 금리 부담 완화;...",
-      "link": "https://t.me/MASSITRADING/172707",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 13:02",
-      "text": "🎯 **[캐나다 정유공장 셧다운, 미 북동부 diesel·heating oil 공급난 위험 확대]** 향후 약 두 달간 캐나다 최대급 정유시설 중 하나인 Irving Oil Refinery(St. John, New Brunswick) 대규모 프로젝트로 가동 중단 예정,...",
-      "link": "https://t.me/MASSITRADING/172706",
+      "date": "2026-09-09 13:32",
+      "text": "🎯 **[미·캐나다 관세 충돌 속 EU 협력 확대, 중국 과잉공급이 제조업 압박]** 캐나다가 미국산 수백 개 품목에 보복 관세 부과, 미국의 캐나다산 제품 관세 발효 이후 양국 통상 긴장 고조. 미국이 캐나다산 유제품·자동차 일부 수입 금지 조치도 추진, 9월 29일...",
+      "link": "https://t.me/MASSITRADING/172721",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-09 13:02",
-      "text": "🎯 **[미국 제재 속 중국 반도체·AI 진전, 감시기술 우위와 데이터 규제 부각]** 중국, 수십 년간 독자적 반도체 공급망 구축 투자 지속; 범용 칩 분야 진전, 최첨단 칩 영역 격차 지속. 최첨단 반도체, 특정 국가 단독 생산보다 초고도화된 글로벌 공급망 의존 구...",
-      "link": "https://t.me/MASSITRADING/172705",
+      "date": "2026-09-09 13:32",
+      "text": "🎯 **[엔화 안정으로 carry trade 리스크 완화, 유가·10-year가 주가 상단 제약]** 엔화 약세 국면에서 핵심 리스크로 지목된 carry trade 청산(언와인딩) 가능성 관련, 엔화 움직임 안정화 조짐 부각. 재무장관 Scott Besson 발언 이후...",
+      "link": "https://t.me/MASSITRADING/172720",
       "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 12:47",
-      "text": "🎯 **[미국 대중 AI 견제·규제 병행, 칩 공급망 통제와 혁신 경쟁 격화]** 미국 AI 정책, 중국 영향력 차단과 국내 강력 기술 규제 필요성 사이 균형 과제로 부상, 향후 기술 권력 균형 이동에 파급 가능성. Mustafa Suleyman, Google에서 La...",
-      "link": "https://t.me/MASSITRADING/172704",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 12:47",
-      "text": "🎯 **[미국 휘발유 평균 4.09달러·diesel 5.90달러, 공급 차질 우려 확대]** 미국 주유소 가격, Labor Day 연휴 기간 전국 평균 1갤런당 4.09달러로 최고치 경신 후 4.15달러로 추가 상승 언급; 일부 주에서 단기간 점프 현상 관측. dies...",
-      "link": "https://t.me/MASSITRADING/172703",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 12:47",
-      "text": "🎯 **[Anthropic IPO 일정 조정, compute·정치 리스크와 경쟁 구도 점검 필요]** AI 기업 Anthropic, 최근 발표한 150억 달러 규모 revolving credit facility 정리 이후 IPO 투자설명(roadshow) 진행으로 시차...",
-      "link": "https://t.me/MASSITRADING/172702",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 12:32",
-      "text": "🎯 **[앤스로픽 IPO 서류 제출 지연, $15 billion 신용한도 마무리 후 10월 추진]** 로이터 보도 기준, AI 기업 앤스로픽(Anthropic)이 당초 빠르면 ‘오늘’로 거론되던 IPO 공개 서류 제출을 연기하고, 10월 제출 및 중간선거 전후 상장 일...",
-      "link": "https://t.me/MASSITRADING/172701",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 12:18",
-      "text": "🎯 **[리센츠, 치매 친화 신문·키트로 15만 달러 투자 유치 시도 실패]** 리센츠(Recents), 미국 치매 환자 600만 명 대상 ‘치매 친화 신문’과 활동 키트 판매 모델 제시; 메모리케어 시장 60억 달러 규모 주장. 3월 출시 후 300개 이상 케어 커뮤...",
-      "link": "https://t.me/MASSITRADING/172696",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-09 12:02",
-      "text": "🎯 **[Unoweth, 성장 스토리 강조했지만 매출 규모·피치 완성도 부족으로 탈락]** 가죽 가방·액세서리 브랜드 Unoweth(오클랜드 기반), 에티오피아 장인과 협업해 수공 제작하는 윤리적 생산 스토리로 투자자 설득 시도. 발표에서는 연 30%~100% 성장 언...",
-      "link": "https://t.me/MASSITRADING/172689",
-      "keywords": [
-        "수요"
+        "사이클"
       ]
     },
     {
@@ -549,18 +559,6 @@
         "수요",
         "공급",
         "수주"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-09-05 09:42",
-      "text": "**UBS, 반도체 (Semiconductors) 사이클 업데이트:  초고성장(Hyper-growth) 단계로부터의 전환**  **메모리와 CPU가 견인하는 반도체 산업 매출 전망치 소폭 상향**  당사는 반도체 산업의 셀인(Sell-in, 공급자 출하) 매출액이 20...",
-      "link": "https://t.me/MSTARYUN/10710",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "사이클"
       ]
     },
     {
@@ -1820,18 +1818,6 @@
         "서프라이즈",
         "OP",
         "수주"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-09-04 23:04",
-      "text": "📝 텔레그램 심층 분석 Report (23시 04분) 기준  🌡️ 센티먼트 공포 (-60) 💡 요약 예상치를 크게 상회한 8월 비농업 고용 지표 발표로 연준의 9월 금리 인상 가능성이 급등하며 시장 전반에 공포가 재점화되었고, 트럼프 대통령의 금리 인하 요구 및 무역 ...",
-      "link": "https://t.me/EASOBI/16616",
-      "keywords": [
-        "상향",
-        "서프라이즈",
-        "공급",
-        "OP"
       ]
     },
     {
