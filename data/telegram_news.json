@@ -2,6 +2,25 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-09-14 22:05",
+      "text": "ANTHROPIC DATA FEARS PROMPT NVIDIA, PALANTIR AND BOOZ ALLEN TO RESTRICT MODEL USE – INFORMATION  [...](https://x.com/LiveSquawk/status/209948443845108...",
+      "link": "https://t.me/IDEA_MEMO/26826",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-09-14 20:30",
+      "text": "**IREN CEO Daniel Roberts**  주말 동안 몇몇 분들이 **프런티어 AI의 발전 속도를 늦추자는 주장들이 AI 인프라 증설(buildout)에 어떤 의미를 가지는지** 물어봤습니다. 몇 가지 생각을 적어보겠습니다.  설령 **AI 모델의 성능이 지금...",
+      "link": "https://t.me/IDEA_MEMO/26823",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-09-14 09:06",
       "text": "✅ SK하이닉스, 장비 공급망 선점…2년 후 수요까지 확보  https://dealsite.co.kr/articles/168916...",
       "link": "https://t.me/IDEA_MEMO/26810",
@@ -38,104 +57,112 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-09-12 12:51",
-      "text": "블룸버그) 앤트로픽, 문샷이 사용자 요청을 몰래 클로드로 우회시켰다고 밝혔습니다  앤트로픽은 목요일 발표한 145페이지 분량의 위협 보고서에서, 중국의 대표 AI 기업인 문샷 AI가 사용자에게 알리지 않은 채 수천 건의 사용자 요청을 자사 키미 모델 대신 앤트로픽의 클...",
-      "link": "https://t.me/IDEA_MEMO/26791",
+      "source": "@MASSITRADING",
+      "date": "2026-09-14 22:02",
+      "text": "🎯 **[Emmy Awards 임박, HBO·Apple 작품 다수 지명으로 스트리밍 경쟁 신호]** Emmy Awards 개최 일정 언급과 함께 SVU 출연 배우가 진행자로 소개. HBO 작품이 25개 지명으로 선두, Hacks 24개, Apple 작품 Widow's ...",
+      "link": "https://t.me/MASSITRADING/175992",
       "keywords": [
         "수요"
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-09-12 12:06",
-      "text": "**엔비디아, 앤스로픽 IPO에 최대 100억달러 투자 협의**  : 앤스로픽은 엔비디아를 IPO 앵커 투자자로 유치하기 위해 협의 중. 엔비디아는 최대 100억달러 투자를 검토하고 있으며, 아직 논의 단계로 계획은 변경 가능  : 앤스로픽은 IPO에서 최대 1,000...",
-      "link": "https://t.me/IDEA_MEMO/26789",
+      "source": "@MASSITRADING",
+      "date": "2026-09-14 22:02",
+      "text": "🎯 **[인플레이션 3.4% 지속, Fed 금리인상 가능성 90%로 거래자 전망]** 주중 핵심 일정으로 수요일 Federal Reserve 회의 제시, 약 3년 만의 금리인상 가능성 부각. 최근 인플레이션 보고서에서 물가상승률 3.4%로 중앙은행 목표 상회, 정책 대...",
+      "link": "https://t.me/MASSITRADING/175989",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-14 22:02",
+      "text": "🎯 **[미국 성인 10명 중 8명 보충제 복용, 2,280억달러 시장 급성장]** Pew survey 결과, 미국 성인 10명 중 8명이 최소 1개 Dietary supplements 복용, 65세 이상에서 사용률 최고 수준. 가장 인기 품목 비타민·미네랄(응답자 6...",
+      "link": "https://t.me/MASSITRADING/175988",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-14 22:02",
+      "text": "🎯 **[휘발유 가격 상승, Tesla 포함 EV 수요에 순풍 가능성 부각]** 자율주행 경험 확산 흐름 속 Tesla 경쟁력 재부각 언급. 휘발유 가격이 낮았던 기간 Tesla 시장점유율 약화 요인으로 거론됐으나, 최근 휘발유 가격 상승이 EV 시장에 수요 측면 순풍...",
+      "link": "https://t.me/MASSITRADING/175987",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-14 21:47",
+      "text": "🎯 **[AI 성장 우려로 반도체·데이터센터 연관주 약세, Oracle은 대형 계약 소식에 강세]** AI 개발 속도 둔화 우려가 확산되며 hyperscaler향 AI 칩 공급사 주가 약세: Nvidia 약 -2.5%, Marvell 약 -7.6%, AMD 약 -5.7...",
+      "link": "https://t.me/MASSITRADING/175985",
       "keywords": [
         "수요",
-        "공급",
-        "TP"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-09-11 17:35",
-      "text": "HOUTHI SPOKESMAN: YEMENI ARMED FORCES TO ANNOUNCE MAJOR MILITARY OPERATIONS [...](https://x.com/FirstSquawk/status/2098329569090732285)...",
-      "link": "https://t.me/IDEA_MEMO/26785",
-      "keywords": [
-        "OP"
+        "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 17:18",
-      "text": "🎯 **[Hormuz 리스크·파이프라인 중단에 유가 급등, 금리·포트폴리오 전략 재점검]** Saudi Arabia, Strait of Hormuz 우회에 활용되던 핵심 파이프라인을 차단한 뒤 유가 상승 압력 확대. Iran과 걸프 국가들의 ‘임시 해상 항로’ 논의 회...",
-      "link": "https://t.me/MASSITRADING/175853",
+      "date": "2026-09-14 21:47",
+      "text": "🎯 **[사우디 동서 파이프라인 장기 셧다운 우려로 Brent 110달러 근접]** 사우디 동서(East-West) 파이프라인 셧다운 여파로 Brent 급등(장중 4%대), 110달러 근접; WTI도 105달러선 접근. 해당 파이프라인은 호르무즈 해협 우회 수송의 ‘완...",
+      "link": "https://t.me/MASSITRADING/175984",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-14 21:47",
+      "text": "🎯 **[미국 전기차 침체 속 테슬라 점유율 52%로 반등, 모델 Y·자율주행이 견인]** 미국 전기차 시장 침체에도 테슬라가 시장점유율 52%로 확대, 1년 전 43%에서 상승. 테슬라 미국 판매는 연초 이후 16% 감소했으나, 전체 전기차 시장이 30% 급락한 대비...",
+      "link": "https://t.me/MASSITRADING/175981",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 17:17",
-      "text": "🎯 **[유가 급등·AI 규제 불안 확산, 글로벌 주식 동반 약세]** 글로벌 주식시장 전반 약세 흐름, 핵심 변수 유가 급등과 AI 규제·안전 논쟁 확산. Saudi Arabia 동서 파이프라인 폐쇄 여파로 Brent 배럴당 107달러까지 급등, 원유 공급 차질 경계...",
-      "link": "https://t.me/MASSITRADING/175851",
+      "date": "2026-09-14 21:47",
+      "text": "🎯 **[사우디 파이프라인 중단·홍해 리스크로 유가 100달러 상회, 디젤발 인플레 압력 확대]** 이란 연계로 추정되는 드론 공격으로 사우디 핵심 동서 원유 파이프라인 피해 발생, 사우디가 예방 차원에서 가동 중단. 동서 파이프라인은 호르무즈 해협 봉쇄 시 하루 최대...",
+      "link": "https://t.me/MASSITRADING/175980",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 17:02",
-      "text": "🎯 **[유가 급등과 AI 규제 우려로 위험회피 확대, 기술주 중심 주가 하락]** 글로벌 주식, ‘AI 우려’와 ‘유가 불안’ 2가지 요인으로 동반 약세. 위험선호 약화가 시장 전반에 반영. Brent crude, 사우디의 동서(East-West) 파이프라인 폐쇄 이...",
-      "link": "https://t.me/MASSITRADING/175847",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 17:02",
-      "text": "🎯 **[주요 중앙은행 슈퍼위크: Fed 인상 확률 86%, BOE 동결·BOJ 인상 관측]** 이번 주 일정: 영국 총리 Andy Burnham, 다우닝가에서 기업 리더 면담 예정 언급. 미국 텍사스에서 G20 에너지장관 회의, 유가 상승 및 유럽 가스가격 상승 흐름...",
-      "link": "https://t.me/MASSITRADING/175846",
+      "date": "2026-09-14 21:47",
+      "text": "🎯 **[AI 선도기업 감속론 확산에 기술주 선물 급락, 중국 변수·규제 논쟁 격화]** 앤트로픽 최고경영자 발언을 계기로 최첨단 인공지능 모델 개발 속도 조절론 부상, 업계 주요 인물 일부 동조. 안전 우려 고조 속에서 업계 내부자들 사이 인공지능이 인류에 치명적 위...",
+      "link": "https://t.me/MASSITRADING/175979",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 17:02",
-      "text": "🎯 **[스웨덴 역대 최박빙 총선, 해외·우편표 개표가 승패 결정]** 스웨덴 총선, 역사상 가장 박빙 구도. 지연 도착 우편투표·해외투표 개표가 최종 결과 좌우, 확정 시점 수요일 또는 목요일 전망. 개표 약 94% 시점 기준 중도좌파 블록 의석 우위 약 3석으로 축...",
-      "link": "https://t.me/MASSITRADING/175844",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 17:02",
-      "text": "🎯 **[CME live cattle 하락·달걀 급락, GLP-1이 단백질 수요 재편]** 미국 육류 가격 압력 완화 조짐: CME live cattle 선물 100파운드당 약 240달러에서 220달러로 하락, 연간 비교(BLS) 기준 쇠고기 가격 ‘드라마’ 완화 가능...",
-      "link": "https://t.me/MASSITRADING/175840",
+      "date": "2026-09-14 21:47",
+      "text": "🎯 **[프랑스 폭염으로 샴페인 도수 상한 15%로 상향, 수요엔 역풍]** 프랑스 여름 폭염 영향으로 포도 당도 급등, 발효 후 알코올 도수 상승 압력 확대. 프랑스 규제당국, 샴페인 알코올 도수 상한을 기존 13%에서 15%로 상향 조정해 생산 차질 위험 완화. 고...",
+      "link": "https://t.me/MASSITRADING/175978",
       "keywords": [
         "상향",
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 16:48",
-      "text": "🎯 **[스웨덴 총선 초박빙, 해외·지연 투표 개표 후 최종 결과 전망]** 스웨덴 총선, 역사상 가장 박빙으로 평가되며 승패 판단이 최종 개표까지 지연되는 양상. 지연 도착 투표와 해외 투표 집계가 남아 최종 결과는 수요일 또는 목요일로 예상. 현직 총리와 야권 지도...",
-      "link": "https://t.me/MASSITRADING/175839",
-      "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 16:47",
-      "text": "🎯 **[미 약가 합의 확산, Alcon CEO “접근성 우선·유럽은 출시 지연 가능”]** 트럼프 행정부, UCB·Sun Pharma·Alcon 등 9개 바이오·제약사와 신규 약가 합의 체결. 합의 내용은 미국 내 신약 출시 및 제품 가격을 다른 선진국 수준과 정렬하...",
-      "link": "https://t.me/MASSITRADING/175837",
+      "date": "2026-09-14 21:32",
+      "text": "🎯 **[Brent 108.50 등 유가 트리플디짓 안착, 정제제품 공급 차질이 추가 상승 위험]** Brent·WTI 모두 트리플디짓 구간 안착, Brent 약 108.50 수준, 이달 Brent 약 20% 상승 언급. 지난 7개월간 트리플디짓을 막아주던 요인으로 언...",
+      "link": "https://t.me/MASSITRADING/175976",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-14 21:32",
+      "text": "🎯 **[Strait of Hormuz 유량 증가 속 중동 리스크로 유가·정제제품 가격 압력 확대]** 중동 에너지 수출 리스크 확대 속 원유 가격 상승, Iran 및 걸프 국가들 Strait of Hormuz 임시 항로 논의 지연, Saudi Arabia 핵심 대체 ...",
+      "link": "https://t.me/MASSITRADING/175975",
       "keywords": [
         "수요",
         "공급"
@@ -143,41 +170,70 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 16:47",
-      "text": "🎯 **[사우디 파이프라인 중단에 유가 상승, 주요 중앙은행 주간 돌입]** 사우디아라비아가 호르무즈 해협 우회에 활용되던 핵심 파이프라인을 폐쇄하면서 국제유가 상승. 지난주 말 복수의 공격이 발생한 뒤 파이프라인 중단이 이어져 공급·운송 리스크 재부각. 오만 외무장관...",
-      "link": "https://t.me/MASSITRADING/175836",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 16:47",
-      "text": "🎯 **[유럽 증시, AI·기술주 약세 속 헬스케어·에너지 방어로 혼조]** 유럽 주식시장, 장초반 약세 이후 일부 반등했으나 AI 거래와 기술주 약세가 지수 상단 제한 요인으로 작용. FTSE 100 상승 전환, 헬스케어 강세가 기여하며 약 0.6% 상승. 독일 DA...",
-      "link": "https://t.me/MASSITRADING/175834",
+      "date": "2026-09-14 21:32",
+      "text": "🎯 **[미국 주식선물 약세 속 SK Hynix 상향, HPE 하향, SpaceX 목표가 상향]** 기술주 비중 큰 NASDAQ 낙폭 제한, 시장 참가자들 이슈 해석 불확실성 반영. 현금장 개장 앞두고 전반적 주식선물 약세, S&P 약 0.6% 하락, NASDAQ 약 ...",
+      "link": "https://t.me/MASSITRADING/175974",
       "keywords": [
         "상향"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 16:47",
-      "text": "🎯 **[8월 CPI 식품 2.7% 상승, 외식 가속·소고기 완화 조짐과 계란 급락]** 8월 CPI에서 식품 물가 2.7% 상승, 가정 내 식품 물가 상승세 완화 관측. 세부 항목에서 외식(food away from home) 물가 상승 가속, 가정 내 식품은 전월 ...",
-      "link": "https://t.me/MASSITRADING/175833",
+      "date": "2026-09-14 21:32",
+      "text": "🎯 **[프랑스 폭염 탓 샴페인 도수 상승…법정 상한 15%로 상향, 2028년 영향]** 프랑스 여름 폭염으로 포도 당도 상승, 발효 후 알코올 도수도 높아지는 구조가 샴페인 생산에 반영. 프랑스 규제 당국이 샴페인 알코올 도수 상한을 기존 13%에서 15%로 사상 ...",
+      "link": "https://t.me/MASSITRADING/175973",
+      "keywords": [
+        "상향",
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-14 21:17",
+      "text": "🎯 **[중동 수출 리스크 재부각, 호르무즈 임시 항로 협상 지연·대체 경로 차단]** 원유 가격 상승 배경으로 중동 지역 수출 리스크 확대가 언급. 이란과 걸프 국가들이 호르무즈 해협을 통한 임시 해상 운송로 논의를 지연. 사우디아라비아가 핵심 대체 경로를 폐쇄했다는...",
+      "link": "https://t.me/MASSITRADING/175970",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-14 21:17",
+      "text": "🎯 **[리서치 콜: Bank of America SK하이닉스 상향, Evercore HPE 하향, SpaceX 목표가 상향]** Bank of America, 원화 강세를 근거로 SK하이닉스 목표주가 상향. Evercore, HPE 주가가 현 수준에서 적정가치에 근접...",
+      "link": "https://t.me/MASSITRADING/175969",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-09-14 20:30",
+      "text": "**IREN CEO Daniel Roberts**  주말 동안 몇몇 분들이 **프런티어 AI의 발전 속도를 늦추자는 주장들이 AI 인프라 증설(buildout)에 어떤 의미를 가지는지** 물어봤습니다. 몇 가지 생각을 적어보겠습니다.  설령 **AI 모델의 성능이 지금...",
+      "link": "https://t.me/JAKE8LEE/14067",
       "keywords": [
         "수요",
         "공급"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 16:32",
-      "text": "🎯 **[AI 개발 둔화 요구 확산에 하드웨어 약세, IPO·capex 전망 재평가]** 아일랜드 체류 중 Donald Trump 발언 이후 AI 리스크 경계감 확대, 글로벌 AI 리더(Sam Altman, Daru Ahmadi, Elon Musk) 중심으로 AI 개발...",
-      "link": "https://t.me/MASSITRADING/175826",
+      "source": "@JAKE8LEE",
+      "date": "2026-09-14 20:29",
+      "text": "또 다른 하나의 관점 (비관론은 우리가 결정짓기 쉬우니)   스티브 아이스먼(Steve Eisman) 팟캐스트 (영화 빅숏에서 프론트포인트 대표 실존인물)   \"경제적 관점에서 엔비디아(NVIDIA)는 하이퍼스케일러(대형 클라우드 기업)로부터 경제적 임대료(지대)를 추...",
+      "link": "https://t.me/JAKE8LEE/14066",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-09-14 19:33",
+      "text": "**Citi, 최근의 메모리 스펙 하향(de-spec) 우려와 AI 안전성 이슈를 넘어, '지속적 학습(Continual Learning)'이 장기적인 메모리 수요를 근본적으로 재편할 것으로 전망**   **메모리 공급 부족 심화: 지속적 학습은 HBM(AI 학습), ...",
+      "link": "https://t.me/JAKE8LEE/14065",
       "keywords": [
         "수요",
         "공급",
-        "수주"
+        "구조적 성장"
       ]
     },
     {
@@ -233,15 +289,6 @@
       "keywords": [
         "수요",
         "공급"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-09-10 20:08",
-      "text": "마이클 델  전세계에 4년 이상된 PC가 4억대 있다. 서버의 경우 13세대 혹은 그 이전 세대 서버가 130만대 있다.  고객들이 컴퓨터 가격 너무 올라서 미루고 미루고 존버 중. -> 곧 교체수요 도래할 것을 암시.  Goldman Sachs Communacopia...",
-      "link": "https://t.me/JAKE8LEE/14034",
-      "keywords": [
-        "수요"
       ]
     },
     {
@@ -695,18 +742,6 @@
       "link": "https://t.me/YAZA_STOCK/12211",
       "keywords": [
         "공급"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-09-10 08:31",
-      "text": "**SK하이닉스 ADR: 목표주가 245달러로 커버리지 개시 (JPM)**  **1. 투자의견 및 목표주가**  • JP모건은 SK하이닉스 ADR에 대해 Overweight로 커버리지를 개시하며, 목표주가를 245달러로 제시  • 목표주가는 로컬 주식 2026~27년 ...",
-      "link": "https://t.me/YAZA_STOCK/12198",
-      "keywords": [
-        "상향",
-        "수요",
-        "사이클",
-        "밸류체인"
       ]
     },
     {
@@ -1222,6 +1257,19 @@
     },
     {
       "source": "@EASOBI",
+      "date": "2026-09-14 19:06",
+      "text": "📝 텔레그램 심층 분석 Report (19시 06분) 기준  🌡️ 센티먼트 비관 (-15) 💡 요약 중동 지정학적 리스크와 AI 속도 조절론으로 시장 불확실성이 증대되고 있으나, AI 및 반도체 산업의 장기적인 성장 기대감도 상존합니다. 국내 애프터마켓 시스템의 초기 ...",
+      "link": "https://t.me/EASOBI/16692",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "OP",
+        "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
       "date": "2026-09-14 15:12",
       "text": "📝 텔레그램 심층 분석 Report (15시 12분) 기준  🌡️ 센티먼트 공포 (-45) 💡 요약 미국 금리 인상 지속 우려, 국내외 증시 전반의 수급 불안정 및 외국인 매도세, AI 산업 성장 둔화 가능성, 원유 공급 불안정 등 복합적인 악재로 시장 심리가 위축되고...",
       "link": "https://t.me/EASOBI/16691",
@@ -1452,14 +1500,12 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-09-10 15:07",
-      "text": "📝 텔레그램 심층 분석 Report (15시 07분) 기준  🌡️ 센티먼트 긍정 (+60) 💡 요약 AI, SMR, 반도체 등 신기술 및 에너지 관련 대규모 투자와 생산능력 확대로 시장 전반에 긍정적인 기대감이 높습니다. 특히 TSMC의 기록적인 매출 성장이 반도체 업...",
-      "link": "https://t.me/EASOBI/16662",
+      "source": "@TOPTOWNQUANT",
+      "date": "2026-09-14 22:08",
+      "text": "└ 이제와서 비둘기파적 인상?!? 🤣  도대체 그 비둘기는 어떤 비둘기일까... fed의 긴축사이클 금리인상은 한번으로 끝나는 것이 아닌, 평균 10회, 중앙값 9회... 🏃🏃‍♂🏃‍♀  하냐, 안하냐가 중요하기에 9월 금리인상은 없을 것이다라고 여전히 동일하게 보고 ...",
+      "link": "https://t.me/TOPTOWNQUANT/13724",
       "keywords": [
-        "서프라이즈",
-        "수요",
-        "OP"
+        "사이클"
       ]
     },
     {
@@ -1535,15 +1581,6 @@
       "link": "https://t.me/TOPTOWNQUANT/13696",
       "keywords": [
         "상향"
-      ]
-    },
-    {
-      "source": "@TOPTOWNQUANT",
-      "date": "2026-09-02 20:37",
-      "text": "[DAOL퀀트 김경훈] Active Quant의 定石 - 9/3  **\"실적 가뭄\"**  3Q26분기 2번째 업데이트 (9.3 ~ 9.18)  **▪︎ 시총 TOP3 실적 현황** * **삼성전자**: 3Q26 OP 116조원 vs 컨센 115조원으로 컨센과의 괴리 +...",
-      "link": "https://t.me/TOPTOWNQUANT/13693",
-      "keywords": [
-        "OP"
       ]
     },
     {
