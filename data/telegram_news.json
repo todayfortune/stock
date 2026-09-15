@@ -2,6 +2,25 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-09-15 10:15",
+      "text": "'(니네가) 천천히 개발하자~' 아닐까  그리고 차세대 모델 개발도 개발인데  지금은 수요라도 제대로 맞춰오는거도 중요하지 않을까 싶기도 하고  [https://news.einfomax.co.kr/news/articleView.html?idxno=4434878](htt...",
+      "link": "https://t.me/IDEA_MEMO/26834",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-09-15 06:08",
+      "text": "* AI 랠리에 제동 걸리나…10년물 5%까지 덮쳤다[월스트리트in]   - 방아쇠는 AI 업계 내부에서 나왔다. 다리오 아모데이 앤스로픽 CEO가 최첨단 AI 시스템이 인간의 통제를 벗어나 재앙적 피해를 일으킬 가능성을 막기 위해 개발 속도를 늦춰야 한다고 주장했고 ...",
+      "link": "https://t.me/IDEA_MEMO/26829",
+      "keywords": [
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-09-14 22:05",
       "text": "ANTHROPIC DATA FEARS PROMPT NVIDIA, PALANTIR AND BOOZ ALLEN TO RESTRICT MODEL USE – INFORMATION  [...](https://x.com/LiveSquawk/status/209948443845108...",
       "link": "https://t.me/IDEA_MEMO/26826",
@@ -48,102 +67,37 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-09-14 05:48",
-      "text": "BREAKING: Anthropic has selected Nasdaq for its initial public offering, per Business Insider.  This comes as Sam Altman, CEO of rival company OpenAI,...",
-      "link": "https://t.me/IDEA_MEMO/26805",
-      "keywords": [
-        "init"
-      ]
-    },
-    {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 22:02",
-      "text": "🎯 **[Emmy Awards 임박, HBO·Apple 작품 다수 지명으로 스트리밍 경쟁 신호]** Emmy Awards 개최 일정 언급과 함께 SVU 출연 배우가 진행자로 소개. HBO 작품이 25개 지명으로 선두, Hacks 24개, Apple 작품 Widow's ...",
-      "link": "https://t.me/MASSITRADING/175992",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 22:02",
-      "text": "🎯 **[인플레이션 3.4% 지속, Fed 금리인상 가능성 90%로 거래자 전망]** 주중 핵심 일정으로 수요일 Federal Reserve 회의 제시, 약 3년 만의 금리인상 가능성 부각. 최근 인플레이션 보고서에서 물가상승률 3.4%로 중앙은행 목표 상회, 정책 대...",
-      "link": "https://t.me/MASSITRADING/175989",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 22:02",
-      "text": "🎯 **[미국 성인 10명 중 8명 보충제 복용, 2,280억달러 시장 급성장]** Pew survey 결과, 미국 성인 10명 중 8명이 최소 1개 Dietary supplements 복용, 65세 이상에서 사용률 최고 수준. 가장 인기 품목 비타민·미네랄(응답자 6...",
-      "link": "https://t.me/MASSITRADING/175988",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 22:02",
-      "text": "🎯 **[휘발유 가격 상승, Tesla 포함 EV 수요에 순풍 가능성 부각]** 자율주행 경험 확산 흐름 속 Tesla 경쟁력 재부각 언급. 휘발유 가격이 낮았던 기간 Tesla 시장점유율 약화 요인으로 거론됐으나, 최근 휘발유 가격 상승이 EV 시장에 수요 측면 순풍...",
-      "link": "https://t.me/MASSITRADING/175987",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 21:47",
-      "text": "🎯 **[AI 성장 우려로 반도체·데이터센터 연관주 약세, Oracle은 대형 계약 소식에 강세]** AI 개발 속도 둔화 우려가 확산되며 hyperscaler향 AI 칩 공급사 주가 약세: Nvidia 약 -2.5%, Marvell 약 -7.6%, AMD 약 -5.7...",
-      "link": "https://t.me/MASSITRADING/175985",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 21:47",
-      "text": "🎯 **[사우디 동서 파이프라인 장기 셧다운 우려로 Brent 110달러 근접]** 사우디 동서(East-West) 파이프라인 셧다운 여파로 Brent 급등(장중 4%대), 110달러 근접; WTI도 105달러선 접근. 해당 파이프라인은 호르무즈 해협 우회 수송의 ‘완...",
-      "link": "https://t.me/MASSITRADING/175984",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 21:47",
-      "text": "🎯 **[미국 전기차 침체 속 테슬라 점유율 52%로 반등, 모델 Y·자율주행이 견인]** 미국 전기차 시장 침체에도 테슬라가 시장점유율 52%로 확대, 1년 전 43%에서 상승. 테슬라 미국 판매는 연초 이후 16% 감소했으나, 전체 전기차 시장이 30% 급락한 대비...",
-      "link": "https://t.me/MASSITRADING/175981",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 21:47",
-      "text": "🎯 **[사우디 파이프라인 중단·홍해 리스크로 유가 100달러 상회, 디젤발 인플레 압력 확대]** 이란 연계로 추정되는 드론 공격으로 사우디 핵심 동서 원유 파이프라인 피해 발생, 사우디가 예방 차원에서 가동 중단. 동서 파이프라인은 호르무즈 해협 봉쇄 시 하루 최대...",
-      "link": "https://t.me/MASSITRADING/175980",
+      "date": "2026-09-15 13:32",
+      "text": "🎯 **[10-year Treasury yield 5% 상회·Fed 인상 관측 속 Brent crude 상승, 에너지·AI 이슈 동시 부각]** 미국 주식선물 약세 흐름 속 투자자들, Federal Reserve를 포함한 주요 중앙은행 결정 대기. S&P futures...",
+      "link": "https://t.me/MASSITRADING/176367",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 21:47",
-      "text": "🎯 **[AI 선도기업 감속론 확산에 기술주 선물 급락, 중국 변수·규제 논쟁 격화]** 앤트로픽 최고경영자 발언을 계기로 최첨단 인공지능 모델 개발 속도 조절론 부상, 업계 주요 인물 일부 동조. 안전 우려 고조 속에서 업계 내부자들 사이 인공지능이 인류에 치명적 위...",
-      "link": "https://t.me/MASSITRADING/175979",
+      "date": "2026-09-15 13:32",
+      "text": "🎯 **[중국 8월 수출·공장 호조 속 소비·투자 부진, A.I. 수출이 성장 편중 심화]** 중국 8월 소비 지출과 투자 부진 지속에도 산업생산은 예상보다 개선, 내수와 제조업 간 괴리 확대. 산업생산 증가율 5.2%로 시장 예상 상회. 최근 수개월 두 자릿수 수출 ...",
+      "link": "https://t.me/MASSITRADING/176366",
       "keywords": [
-        "수요"
+        "사이클"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 21:47",
-      "text": "🎯 **[프랑스 폭염으로 샴페인 도수 상한 15%로 상향, 수요엔 역풍]** 프랑스 여름 폭염 영향으로 포도 당도 급등, 발효 후 알코올 도수 상승 압력 확대. 프랑스 규제당국, 샴페인 알코올 도수 상한을 기존 13%에서 15%로 상향 조정해 생산 차질 위험 완화. 고...",
-      "link": "https://t.me/MASSITRADING/175978",
+      "date": "2026-09-15 13:32",
+      "text": "🎯 **[사우디 대형 유조선 운항 가능하나 후티 충돌로 해상·안보 리스크 확대]** 길이 약 350미터급 대형 유조선 이동 가능하나 운항·통과 과정 위험도 상승, 향후 수주 동안 실제 통과 규모가 관건. 후티와 사우디 주도 연합 간 병행 교전 격화 조짐, 후티의 자산 ...",
+      "link": "https://t.me/MASSITRADING/176363",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 13:32",
+      "text": "🎯 **[프랑스 폭염으로 샴페인 도수 상향 허용, 수요에는 역풍 우려]** 프랑스 여름 폭염으로 포도 당도가 예외적으로 높아져 발효 후 알코올 도수 상승 요인 발생. 프랑스, 샴페인 알코올 상한을 기존 13%에서 15%로 상향 허용; 생산자들이 기존 캡을 맞추기 어려운...",
+      "link": "https://t.me/MASSITRADING/176362",
       "keywords": [
         "상향",
         "수요"
@@ -151,58 +105,187 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 21:32",
-      "text": "🎯 **[Brent 108.50 등 유가 트리플디짓 안착, 정제제품 공급 차질이 추가 상승 위험]** Brent·WTI 모두 트리플디짓 구간 안착, Brent 약 108.50 수준, 이달 Brent 약 20% 상승 언급. 지난 7개월간 트리플디짓을 막아주던 요인으로 언...",
-      "link": "https://t.me/MASSITRADING/175976",
+      "date": "2026-09-15 13:32",
+      "text": "🎯 **[Autonomy, 고객 수요 반영해 가스차 도입·구독형 모빌리티 확대]** 자동차 구독 회사 Autonomy, 차량 라인업에 가스차 추가 발표; 기존 EV 중심에서 수요 기반 다각화. 서비스는 앱 기반 가입과 차량 선택·배송으로 운영되며, 유지보수·보증·타이어...",
+      "link": "https://t.me/MASSITRADING/176361",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 13:32",
+      "text": "🎯 **[Block, Neighborhoods 확장으로 판매자 증가·Cash App 사용자 네트워크 강화]** Block, Square 네트워크 기반 지역 상점 연계 프로모션인 Neighborhoods 제품에서 강한 성장세 확인. Square 생태계 전 세계 소상공인 ...",
+      "link": "https://t.me/MASSITRADING/176360",
+      "keywords": [
+        "수요",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 13:17",
+      "text": "🎯 **[Block, AI 조직 전환·OCC 인가 추진 속 2026년 실적 가이던스 상향]** Block CFO Amrita Ahuja, AI 도입 가속과 내부 도구의 대외 확장 가능성 언급; Cash App·Square 고객 대상 기능 제공과 동시에 사내 생산성 체계...",
+      "link": "https://t.me/MASSITRADING/176359",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 13:17",
+      "text": "🎯 **[사우디 동서 파이프라인 중단 지속, 호르무즈 경유 수송 확대 검토]** 중동 에너지 리스크 심화로 유가가 재상승 흐름, 브렌트유 배럴당 약 107달러 수준에서 상승률 확대(장중 약 1%대). 후티 무장세력 공격 이후 사우디 핵심 동서(East-West) 파이프...",
+      "link": "https://t.me/MASSITRADING/176356",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-09-14 21:32",
-      "text": "🎯 **[Strait of Hormuz 유량 증가 속 중동 리스크로 유가·정제제품 가격 압력 확대]** 중동 에너지 수출 리스크 확대 속 원유 가격 상승, Iran 및 걸프 국가들 Strait of Hormuz 임시 항로 논의 지연, Saudi Arabia 핵심 대체 ...",
-      "link": "https://t.me/MASSITRADING/175975",
+      "date": "2026-09-15 13:17",
+      "text": "🎯 **[AI 규제·감속 논쟁 격화, 반도체주 급락 속 투자심리 흔들림]** 실리콘밸리 주요 AI 경영진의 ‘프런티어 AI 개발 속도 조절’ 공개 요구 이후, 워싱턴과의 갈등이 고조. 트럼프 대통령은 추가 가드레일과 업계 전반의 감속 요구에 공개적으로 반대하며, 감속이...",
+      "link": "https://t.me/MASSITRADING/176355",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 13:17",
+      "text": "🎯 **[미 10년물 금리 5% 돌파, 연준·BOJ 인상 전망 속 주식 변동성 확대]** 미 10년물 국채금리 5% 상회, 인플레이션 우려 재점화로 채권시장 압력 확대. 주요 이벤트로 연준 정책결정 임박, 이어 영란은행(BOE)·일본은행(BOJ) 회의 예정. 미국 주식...",
+      "link": "https://t.me/MASSITRADING/176354",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 13:02",
+      "text": "🎯 **[10년물 5% 상회와 원유 상승, Fed·B.O.E.·B.O.J. 결정 주간 변동성 확대]** AI 안전 규제 논쟁에서 Donald Trump, 주요 AI 경영진의 개발 속도 조절 요구 비판. 미국 대통령, AI 개발 제동이 China에만 이익이라는 취지 경고...",
+      "link": "https://t.me/MASSITRADING/176352",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 13:02",
+      "text": "🎯 **[중국 AI, 소비자 생산성보다 검열·감시 우선…데이터 규제는 GDPR 유사]** 중국 AI 개발, OpenAI·Google 같은 개별 기업 주도보다 대학·기업·정부 부처 결합의 다기관 프로젝트 형태가 상대적으로 일반적이라는 진단. President Xi Jin...",
+      "link": "https://t.me/MASSITRADING/176350",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 13:02",
+      "text": "🎯 **[소비자 탄력성 유지 전망, AI 투자 둔화 우려 과도 평가]** 소비자 지출 미국 경제 비중 약 3분의 2로, 고물가 부담에도 소비자 탄력성 지속 전망 제시. 식품 등에서 용량 축소(가격 유지, 제공량 감소) 현상 관찰되며 기업-소비자 간 가격 전가 ‘힘겨루기...",
+      "link": "https://t.me/MASSITRADING/176349",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 13:02",
+      "text": "🎯 **[미·중 반도체·AI 경쟁, 수출통제와 클린테크 공급망 긴장 심화]** 중국, 반도체 자립형 공급망 구축 위해 장기간 투자 지속, 기초급 칩 분야 진전 확대하나 최첨단 칩 영역 도달은 여전히 난항 국면. 미국, 첨단 AI 플랫폼 구동 핵심 칩 및 반도체 제조장비...",
+      "link": "https://t.me/MASSITRADING/176348",
+      "keywords": [
+        "공급",
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 12:48",
+      "text": "🎯 **[중국 혁신력 과소·과대평가 경계, 배터리·태양광 강점과 첨단칩 한계]** 패널은 중국의 AI·디지털 혁신을 ‘중대한 경쟁자’로 보되, 역량을 과대평가하는 서사도 경계 필요하다고 평가. 중국 정책 우선순위는 인터넷 플랫폼·암호자산·일부 소비자 AI보다 중공업·제...",
+      "link": "https://t.me/MASSITRADING/176347",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 12:48",
+      "text": "🎯 **[AI 호황의 산업 전이 확대, 재정 긴축·관세 위협이 역풍 변수]** 미국에서 AI 주도 성장세가 일부 산업으로 파급, 최근 약 15개월 산업생산에서 2022년 이후보다 확장 섹터 수 증가 관측. 향후 재정 건전성 강화로 지출 축소가 발생할 경우, AI 외 산...",
+      "link": "https://t.me/MASSITRADING/176346",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 12:48",
+      "text": "🎯 **[미국 주도 AI 경쟁, 수출통제·공급망·안전 규범이 승부처]** 미국 대중 AI 영향력 차단 강화와 동시에 자국 내 강력한 기술 규제 균형 과제 부각, 향후 기술 패권 이동에 파급 전망. Mustafa Suleyman, 개인 비서형 개인 AI를 목표로 Infl...",
+      "link": "https://t.me/MASSITRADING/176345",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 12:47",
+      "text": "🎯 **[AI 변동성·국채금리 5% 속 Fed 경로와 소형주 기회 점검]** 시장 변수로 AI 변동성(AI jitters), 원유 상승, 수요일 Federal Reserve 회의가 동시 작용하며 리스크 프라이싱 확대. 반도체 중심 주가 조정과 9월 계절적 약세가 겹치며...",
+      "link": "https://t.me/MASSITRADING/176344",
+      "keywords": [
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 12:47",
+      "text": "🎯 **[Fed 금리인상 전망 강화, 소비·AI·관세 변수가 정책 불확실성 확대]** 이번 주 Federal Reserve 금리인상 가능성 시장 선반영, 최근 인플레이션 지표가 결정의 핵심 트리거로 부각. Jackson Hole에서 Kevin Warsh 의장이 인플레이...",
+      "link": "https://t.me/MASSITRADING/176343",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-09-15 12:32",
+      "text": "🎯 **[장기금리 상승 원인으로 국채공급·기업발행 헤지 부각, 10년물 6%가 경계선]** 미 재무부의 장기금리 관리 시도(Scott Bessett 관련 언급)가 연준 정책 수행을 복잡하게 만들 수 있으며, 가을 국면에서 연준과 재무부의 역할 조율이 시장 변동성 요인이...",
+      "link": "https://t.me/MASSITRADING/176340",
       "keywords": [
         "수요",
         "공급"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 21:32",
-      "text": "🎯 **[미국 주식선물 약세 속 SK Hynix 상향, HPE 하향, SpaceX 목표가 상향]** 기술주 비중 큰 NASDAQ 낙폭 제한, 시장 참가자들 이슈 해석 불확실성 반영. 현금장 개장 앞두고 전반적 주식선물 약세, S&P 약 0.6% 하락, NASDAQ 약 ...",
-      "link": "https://t.me/MASSITRADING/175974",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 21:32",
-      "text": "🎯 **[프랑스 폭염 탓 샴페인 도수 상승…법정 상한 15%로 상향, 2028년 영향]** 프랑스 여름 폭염으로 포도 당도 상승, 발효 후 알코올 도수도 높아지는 구조가 샴페인 생산에 반영. 프랑스 규제 당국이 샴페인 알코올 도수 상한을 기존 13%에서 15%로 사상 ...",
-      "link": "https://t.me/MASSITRADING/175973",
+      "source": "@JAKE8LEE",
+      "date": "2026-09-15 10:40",
+      "text": "Citi) 삼성전자 (005930.KS); 모델 업데이트  씨티의 견해 (CITI'S TAKE) 당사는 AI 지속 학습(continual learning)에 따른 메모리 수요 증가를 반영하여 삼성전자 모델을 업데이트합니다. 27E/28E 영업이익 추정치를 각각 6%/9...",
+      "link": "https://t.me/JAKE8LEE/14072",
       "keywords": [
         "상향",
-        "수요"
+        "수요",
+        "구조적 성장"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 21:17",
-      "text": "🎯 **[중동 수출 리스크 재부각, 호르무즈 임시 항로 협상 지연·대체 경로 차단]** 원유 가격 상승 배경으로 중동 지역 수출 리스크 확대가 언급. 이란과 걸프 국가들이 호르무즈 해협을 통한 임시 해상 운송로 논의를 지연. 사우디아라비아가 핵심 대체 경로를 폐쇄했다는...",
-      "link": "https://t.me/MASSITRADING/175970",
+      "source": "@JAKE8LEE",
+      "date": "2026-09-15 10:40",
+      "text": "Citi) SK하이닉스 (000660.KS); 모델(실적 추정치) 업데이트. TP 300만원(유지)  씨티의 견해 (CITI'S TAKE) 당사는 AI 지속 학습(continual learning)의 예상 영향을 반영하여 SK하이닉스 모델을 수정합니다. 이에 따라 27...",
+      "link": "https://t.me/JAKE8LEE/14071",
       "keywords": [
-        "공급"
+        "상향",
+        "수요",
+        "구조적 성장",
+        "TP"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-09-14 21:17",
-      "text": "🎯 **[리서치 콜: Bank of America SK하이닉스 상향, Evercore HPE 하향, SpaceX 목표가 상향]** Bank of America, 원화 강세를 근거로 SK하이닉스 목표주가 상향. Evercore, HPE 주가가 현 수준에서 적정가치에 근접...",
-      "link": "https://t.me/MASSITRADING/175969",
+      "source": "@JAKE8LEE",
+      "date": "2026-09-14 22:56",
+      "text": "Goldman Sachs : South Korea Technology Investor Feedback  작성 : 잠실개미&10X 텔레그램 https://t.me/jake8lee/14068  ✅️  토론토·보스턴·뉴욕·샌프란시스코 투자자 미팅 결과, 북미 투자자들의 메모...",
+      "link": "https://t.me/JAKE8LEE/14068",
       "keywords": [
-        "상향"
+        "수요",
+        "공급",
+        "사이클",
+        "업사이드",
+        "YoY"
       ]
     },
     {
@@ -293,6 +376,15 @@
     },
     {
       "source": "@ONE_GOING",
+      "date": "2026-09-15 11:38",
+      "text": "**■ 이번달 메인 일정들 **  1) 미 클래리티법안, 상원 절차 표결 (9/16.수.새벽)  -코인 분위기에 영향  2) 미 FOMC 금리결정 (9/17.목.03시) 인상가능성 92% -9월 인상은 시장에 반영. 올해 추가 인상 있을지가 핵심  3) 일본은행 금리결...",
+      "link": "https://t.me/ONE_GOING/4158",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@ONE_GOING",
       "date": "2026-09-13 22:33",
       "text": "**AI 속도 조절은....**  1) AI 모델 속도 둔화 = 수요의 둔화 가 아님  AI 관련 커뮤니티 요즘 구경해보면 아스트라 수요 상당한데...  2) 그래도 분위기상은 단기 악재로 생각해야겠죠. 24일 시진핑 미국 방문 때도 AI 이문제가 또 다뤄질테고요.  ...",
       "link": "https://t.me/ONE_GOING/4140",
@@ -354,6 +446,26 @@
       "link": "https://t.me/BRILLER_RESEARCH/4611",
       "keywords": [
         "QoQ"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-09-15 11:40",
+      "text": "**삼성전자·SK하이닉스 모델 업데이트   씨티 ** 디스펙·AI 안전성 우려에도, 지속학습이 HBM·서버 DRAM·eSSD 등 여러 세그먼트의 메모리 수요를 자극해 2028E까지 수급을 더 타이트하게 만들 것이라는 판단 — 이를 반영해 양사 추정치 동반 상향.  **...",
+      "link": "https://t.me/MSTARYUN/10799",
+      "keywords": [
+        "상향",
+        "수요",
+        "TP"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-09-15 07:53",
+      "text": "#알파벳 #TPU #수익화 #서버 Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  Google Cloud CEO Thomas Kurian rec...",
+      "link": "https://t.me/MSTARYUN/10798",
+      "keywords": [
+        "TP"
       ]
     },
     {
@@ -444,6 +556,15 @@
         "공급",
         "TP",
         "밸류체인"
+      ]
+    },
+    {
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-09-15 07:47",
+      "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민입니다. [9월 15일 주요국 이슈] 보내드립니다.  # 미국 도널드 트럼프 미 대통령, AI 및 데이터센터 산업에 대한 ‘속도 조절론’을 비판하며 미국이 AI 경쟁에서 중국을 앞서고 있는 만큼 ...",
+      "link": "https://t.me/DAISHINSTRATEGY/6284",
+      "keywords": [
+        "수요"
       ]
     },
     {
@@ -617,6 +738,15 @@
     },
     {
       "source": "@IRNOTE_YSTREET",
+      "date": "2026-09-15 08:46",
+      "text": "**[모닝브리프] 26.09.15.(화) 뉴스 TOP10 - 삼성SDI, 가온전선, HD현대일렉트릭, 효성중공업 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/2609150845236...",
+      "link": "https://t.me/IRNOTE_YSTREET/5225",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
       "date": "2026-09-14 16:58",
       "text": "**[마감브리프] 26.09.14.(월) 뉴스 TOP10 - 삼성중공업, LG, 씨케이솔루션, SK하이닉스 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/260914165730449m...",
       "link": "https://t.me/IRNOTE_YSTREET/5224",
@@ -737,6 +867,16 @@
     },
     {
       "source": "@YAZA_STOCK",
+      "date": "2026-09-15 13:06",
+      "text": "**트렌드포스) AI 인프라 부품별 리드 타임 현황**  **ABF 기판 (ABF Substrates)** **상태:** **심각한 부족 (Very Tight)** **리드 타임:** **현재 48–56주 (균형 기준: 12주) 내용: 균형 시장일 때 12주면 충분하지...",
+      "link": "https://t.me/YAZA_STOCK/12233",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@YAZA_STOCK",
       "date": "2026-09-11 15:42",
       "text": "HBM 수급난 빠진 中, AI칩 가격 '줄인상'…삼전·하이닉스 협상력 커진다  - 美 수출통제에 HBM 조달 비용 부담 확대 - 中 화웨이 차세대 가속기 5천만원으로 올라 - \"HBM 안정적 확보가 공급망 핵심 경쟁력\"  https://www.newsis.com/vie...",
       "link": "https://t.me/YAZA_STOCK/12211",
@@ -831,6 +971,97 @@
         "수요",
         "공급",
         "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-15 11:07",
+      "text": "마켓레이더(9월 15일, 오전)    『임계에 다다른 매크로, 지켜지는 하단』 시황 강진혁 ☎02-3772-2329  KOSPI는 0.1% 하락한 6,679.6p. 美 10Y 5%,유가 100$ 등 매크로 불안에도 AI 속도조절론 일부 해소 KOSDAQ은 1.9% 상승...",
+      "link": "https://t.me/SHINHANRESEARCH/52767",
+      "keywords": [
+        "밸류체인",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-15 08:03",
+      "text": "[신한투자증권 김아람] 성호전자 Update: 시선은 27년으로  ▶️ 실적으로 증명해봅시다 . 상반기 5만원 수준이었던 주가는 코스닥 및 AI 하드웨어 업종 조정에 1.7만원까지 하락. 유사 기업과도 디커플링. 8월 이후 수익률은 성호전자 +17% vs. 로봇인텔리전...",
+      "link": "https://t.me/SHINHANRESEARCH/52765",
+      "keywords": [
+        "상향",
+        "YoY",
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-15 07:48",
+      "text": "『국내크레딧; Weekly Credit Monitor』 신용분석 차주희/김상인 ☎02-3772-2653  -국고채 금리 급등, 신용 스프레드 섹터별 혼조세 -발행시장: 회사채 외 순발행 기록. 금융채(은행·여전·증권) 발행 확대 -유통시장: 높아진 금리 불확실성에도 투...",
+      "link": "https://t.me/SHINHANRESEARCH/52763",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-15 07:48",
+      "text": "신한 해외주식 데일리(9/15) “AI 개발 속도 조절 우려에 반도체 중심 낙폭 확대“  ▶️ 특징주 [크라우드스트라이크(+13.9%)] AI에 대한 우려 속에 사이버보안 업종 전반이 상승. RPD +24.1%, ZS +16.5%, TENB +16.5%, RBRK +1...",
+      "link": "https://t.me/SHINHANRESEARCH/52762",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-15 07:40",
+      "text": "[신한투자증권 혁신성장 허성규, 이병화]  스피어(347700.KQ) - 유년기의 끝  ▶️ 신한생각: 우주항공 특수합금 SCM 모델 개척 - 스페이스 X와 10년+3년 초장기 공급 계약(연간 최소 1.1억 달러 예상) 체결 - 25년 이후 2억 달러 이상 수주를 확보...",
+      "link": "https://t.me/SHINHANRESEARCH/52761",
+      "keywords": [
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-15 07:38",
+      "text": "[신한투자증권 IT팀 오강호, 김형태, 박현우, 송혜수, 김예성]  9/15(화) 🕗Daily IT 예습하기    ✅ 반도체/장비  ▶️ 삼성전자·SK하이닉스, '25조 전기료 선납' 한전 제안 거절 (연합뉴스) https://alie.kr/FWVmYoT  ▶️ TSM...",
+      "link": "https://t.me/SHINHANRESEARCH/52760",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-15 07:36",
+      "text": "[신한투자증권 금융팀 은경완/임희연]   금융데일리: 26/9/15   [은행/카드]   연 4% 향하는 은행 예금금리…5대 은행 줄인상 '최고 3.8%' <뉴시스> https://alie.kr/CWwtswp   금융지주 ‘연임 동맹’ 제동…회장·사외이사 ‘성적표’ 받...",
+      "link": "https://t.me/SHINHANRESEARCH/52759",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-15 06:16",
+      "text": "**[신한 자동차/철강금속 박광래]**  !! 신한 자동차/철강금속 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 자동차 뉴스 (260915) ::**  **▶ 기아, 대형 전기 PBV ‘PV7’ 세계 최초 공개…96.2kWh·W...",
+      "link": "https://t.me/SHINHANRESEARCH/52758",
+      "keywords": [
+        "공급",
+        "TP",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-09-15 06:15",
+      "text": "**[신한 철강금속/자동차 박광래]**  !! 신한 철강금속/자동차 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 철강금속 뉴스 (260915) ::**  **▶ 포스코인터, 美 셰일가스 자산 인수 추진…5329억 유증·1조 채무...",
+      "link": "https://t.me/SHINHANRESEARCH/52757",
+      "keywords": [
+        "수요",
+        "공급",
+        "YoY",
+        "밸류체인"
       ]
     },
     {
@@ -935,75 +1166,33 @@
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-09-14 07:00",
-      "text": "**[신한 자동차/철강금속 박광래]**  !! 신한 자동차/철강금속 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 자동차 뉴스 (260914) ::**  **▶ 현대차그룹, 엔비디아 L2+는 2028년·자체 Atria AI는 20...",
-      "link": "https://t.me/SHINHANRESEARCH/52737",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-09-15 10:20",
+      "text": "마켓 뷰 (9월 15일) ▶ Summary: 선반영 -코스피 6,677.36(-7.01p, -0.10%), 코스닥 8816.52(+9.73p, +1.21%)  -코스피 보합권 혼조..코스닥, 바이오∙IT소부장∙로봇 강세에 1%대 상승  · 시지트로닉스: AI 기반 로봇...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7527",
       "keywords": [
-        "YoY",
-        "수주"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-09-11 17:08",
-      "text": "[신한투자증권 해외주식팀] 해외주식 Weekly (9월 11일)  ▶ Top Down - 미국: AI 코어 유지한 가운데 방어주 확대 - 중국: 관망 우위 속 AI 실적주 + 원자재·고배당  ▶ Bottom Up - IT H/W: 메모리 반등 본격화 - IT S/W: ...",
-      "link": "https://t.me/SHINHANRESEARCH/52733",
-      "keywords": [
-        "수요",
-        "OP"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-09-11 17:03",
-      "text": "국내 주식 마감 시황 - 9월 11일  『심리적 문턱 근접하며 美 CPI 대기』 시황 강진혁 ☎️02-3772-2329  코스피 6,909.91 (-1.76%), 코스닥 820.64 (-1.95%)  美 10년물 금리 5%, WTI 100$ 근접  금일 KOSPI, K...",
-      "link": "https://t.me/SHINHANRESEARCH/52731",
-      "keywords": [
-        "수요",
+        "OP",
         "YoY"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-09-11 14:07",
-      "text": "**◆ 자동차/철강금속 Weekly (2026.09.11)** → http://bbs2.shinhansec.com/board/message/file.pdf.do?attachmentId=353818  **◆ Top Gainers (WoW %)** - 자동차/타이어/부품:...",
-      "link": "https://t.me/SHINHANRESEARCH/52729",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-09-15 08:55",
+      "text": "**월스파 뉴스(9/15)  러시아 정유 차질→글로벌 디젤 부족** Reuters는 최근 우크라이나의 장거리 드론 공격으로 러시아 정유시설 가동이 감소하면서 러시아 내 휘발유 부족이 발생했고, 러시아 정부가 올해 원유생산 전망을 17년래 최저 수준으로 낮추고 2026~...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7524",
       "keywords": [
         "수요",
         "공급"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-09-11 10:58",
-      "text": "마켓레이더(9월 11일, 오전)    『WTI 102$, 미 10년물 4.96% 돌파』 시황 강진혁 ☎02-3772-2329  KOSPI는 2.7% 하락한 6,844.2p. 유가·금리 상승 폭이 추가로 확대된 가운데 반도체 중심 투심 악화 KOSDAQ 1.8% 하락한 ...",
-      "link": "https://t.me/SHINHANRESEARCH/52728",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-09-15 07:30",
+      "text": "글로벌 마켓 브리핑(9월 15일) ▶유가, 금리, AI 속도조절론..미국증시 하락   *Key Indices 1. 미국증시 주요지수 -다우존스 산업평균: 52,421.20/ -0.29% - S&P500: 7,619.98/ -0.48% - 나스닥 종합: 26,186.41...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7523",
       "keywords": [
         "수요",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-09-11 08:42",
-      "text": "신한 해외주식 데일리(9/11) \"미 생산자물가와 유가 상승에 장기금리 급등하면서 나흘 연속 하락\"  ▶ 특징주  [에어로바이런먼트(+4.5%)] 1QFY27 예상을 상회하는 실적과 사상 최대 수주 잔고 기록  [애플(+3.6%)] 전일 발표된 폴더블 아이폰 Duo에 ...",
-      "link": "https://t.me/SHINHANRESEARCH/52727",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "YoY",
-        "수주"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-09-11 08:24",
-      "text": "**『의료기기; 주가는 조정, 수요 외연은 확대 중』** 기업분석부 김지영 ☎02-3772-2677  ▶️ 신한생각: 산업 확장성 유효하나, 주가는 쉬어가는 구간 - 에스테틱 산업 중장기 확장성 유효하나, 현재는 매크로 불확실성 해소 및 3Q 실적 확인 전까지 실적 가...",
-      "link": "https://t.me/SHINHANRESEARCH/52726",
-      "keywords": [
-        "수요"
+        "공급"
       ]
     },
     {
@@ -1133,54 +1322,24 @@
       ]
     },
     {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-09-10 13:20",
-      "text": "**9/10 FI Comment 미래에셋증권 민지희 9월 FOMC Preview:  연준이 인플레를 보는 관점**  **- 9월 FOMC, 25bp 금리 인상 전망 (동결 소수의견 2~3인 예상)** - 올해와 내년도 점도표 중간값 상향 조정 **- 코어 pce 인플레...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7496",
-      "keywords": [
-        "상향",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-09-10 10:19",
-      "text": "마켓 뷰 (9월 10일) ▶ Summary: 9월, 동시만기 -코스피 6,954.92(-96.72p, -1.37%), 코스닥 819.48(-10.89p, -1.31%)  -선물옵션 동시 만기일..외국인 현선물 매도, 코스피 장 초반 7천선 이탈  · 컴투스: MMORP...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7495",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-09-10 08:00",
-      "text": "**월스파 뉴스(9/10)**  **호르무즈 통항 6척·Brent $101** Kpler 잠정 집계에 따르면 9월 8일 호르무즈해협을 통과한 상품운반선은 6척으로 전일 9척, 최근 10일 평균 약 12척을 하회함. 같은 날 Bab el-Mandeb 통항도 25척으로 1...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7494",
+      "source": "@JOORINI34",
+      "date": "2026-09-15 10:00",
+      "text": "확인 결과** 두 건 모두 글로벌 하이퍼스케일러 **발주 물량. 765kV는 Ohio향, 345kV는 Texas향으로 파악.  특히 Ohio 765kV는 데이터센터 내부 BTM이 아니라, 하이퍼스케일러가 대규모 전력 확보를 위해 계통 인프라 CAPEX를 부담하는 구조....",
+      "link": "https://t.me/JOORINI34/9259",
       "keywords": [
         "수요",
-        "YoY"
+        "수주"
       ]
     },
     {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-09-10 07:40",
-      "text": "글로벌 마켓 브리핑(9월 10일) ▶유가 급등, 금리 상승..미국증시 3거래일째 하락   *Key Indices 1. 미국증시 주요지수 -다우존스 산업평균: 52,380.66/ -0.77% - S&P500: 7,636.36/ -0.48 - 나스닥 종합: 26,253.3...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7493",
-      "keywords": [
-        "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-09-09 17:34",
-      "text": "한국&중국 마켓 클로징(9월 9일)  개인 5거래일 간 -20조원   # 국내 마감 ▶ Summary · 코스피 7,051.64(+1.40%), 코스닥 830.37(+2.28%) · 외국인 동시만기일 앞두고 6거래일 연속 선물 순매수 · 9월 들어 선물 미결제약정 수량...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7491",
+      "source": "@JOORINI34",
+      "date": "2026-09-15 09:06",
+      "text": "**#전력기기**** ****#효성중공업**** 260915**  765 + 345kV 변압기 286m$ 공급계약이네요. 2H26의 경우 상반기 대비 깐깐한 수주전략를 가져갈 것으로 예상되었는데, 그 와중에도 765kV에 대한 톤은 괜찮은 상황입니다.  눈에 띄는 점은...",
+      "link": "https://t.me/JOORINI34/9256",
       "keywords": [
         "수요",
         "공급",
-        "OP",
-        "YoY",
+        "업사이드",
         "수주"
       ]
     },
@@ -1244,15 +1403,35 @@
       ]
     },
     {
-      "source": "@JOORINI34",
-      "date": "2026-08-20 12:59",
-      "text": "[한화투자증권 김예인]  ★ [전력기기/풍력] 전기의 시대  ▶핵심 요약 바야흐로 '전기의 시대'다. AI 데이터센터와 첨단 산업단지가 핵심 에너지원으로 전기를 사용하면서, 전력은 국가 산업 경쟁력과 직결되는 전략 자산으로 부상했다. 관건은 '필요한 시점에 실제로 필요...",
-      "link": "https://t.me/JOORINI34/9225",
+      "source": "@EASOBI",
+      "date": "2026-09-15 11:10",
+      "text": "📝 텔레그램 심층 분석 Report (11시 10분) 기준  🌡️ 센티먼트 낙관 (+40) 💡 요약 반도체, AI, 로봇 섹터의 강력한 성장 기대감과 기업들의 대규모 계약 체결 및 주주환원 정책이 시장에 긍정적인 영향을 미치고 있습니다. 다만, 일부 시장 수급 불안정 ...",
+      "link": "https://t.me/EASOBI/16696",
       "keywords": [
         "상향",
         "수요",
         "공급",
+        "OP",
         "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-09-15 07:04",
+      "text": "📝 텔레그램 심층 분석 Report (07시 04분) 기준  🌡️ 센티먼트 공포 (-65) 💡 요약 AI 개발 속도 조절론 우려, 미 10년물 국채금리 5% 돌파, 국제유가 상승 등 트리플 악재가 겹치며 증시 전반에 하락 압력이 증가했습니다.  🗣️ Top 키워드: A...",
+      "link": "https://t.me/EASOBI/16694",
+      "keywords": [
+        "수요",
+        "OP"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-09-14 23:06",
+      "text": "📝 텔레그램 심층 분석 Report (23시 06분) 기준  🌡️ 센티먼트 주의 (-30) 💡 요약 AI 개발 속도 조절론과 고유가 및 금리 인상 등 거시경제적 하방 압력이 시장 전반에 퍼져있어 투자자 불안감이 높다.  🗣️ Top 키워드: AI(272), 반도체(17...",
+      "link": "https://t.me/EASOBI/16693",
+      "keywords": [
+        "OP"
       ]
     },
     {
@@ -1452,57 +1631,19 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-09-11 11:04",
-      "text": "📝 텔레그램 심층 분석 Report (11시 04분) 기준  🌡️ 센티먼트 경계 (-25) 💡 요약 고유가와 미국 국채금리 급등으로 인플레이션 및 금리 인상에 대한 시장의 경계심이 고조되며 국내 증시에서 외국인과 기관의 매도세가 확대되었습니다. 다만, AI 관련 반도체...",
-      "link": "https://t.me/EASOBI/16666",
-      "keywords": [
-        "공급",
-        "OP",
-        "수주"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-09-11 07:08",
-      "text": "📝 텔레그램 심층 분석 Report (07시 08분) 기준  🌡️ 센티먼트 공포 (-60) 💡 요약 유가 및 국채 금리 급등, 중동 지정학적 리스크 고조, 반도체 섹터 매물 출회 지속  🗣️ Top 키워드: 유가(33), 국채 금리(24), 반도체(17), 데이터센터(...",
-      "link": "https://t.me/EASOBI/16665",
-      "keywords": [
-        "상향",
-        "OP"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-09-10 23:11",
-      "text": "📝 텔레그램 심층 분석 Report (23시 11분) 기준  🌡️ 센티먼트 경계 (-35) 💡 요약 국제유가와 미국 국채금리가 급등하며 인플레이션 우려와 긴축 기조가 심화되고, 중동 지정학적 리스크가 가중되어 시장 전반의 불확실성이 높은 상황입니다.  🗣️ Top 키워...",
-      "link": "https://t.me/EASOBI/16664",
-      "keywords": [
-        "상향",
-        "수요",
-        "사이클",
-        "OP",
-        "YoY",
-        "수주"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-09-10 19:09",
-      "text": "📝 텔레그램 심층 분석 Report (19시 09분) 기준  🌡️ 센티먼트 관망 (+20) 💡 요약 AI, 원전, 반도체 등 특정 산업군의 대규모 투자 및 계약 소식에 시장 기대감 상승. AI, 반도체 등 성장 동력과 일부 종목의 부정적 소식이 혼재하며 전반적인 시장은...",
-      "link": "https://t.me/EASOBI/16663",
+      "source": "@TOPTOWNQUANT",
+      "date": "2026-09-14 23:06",
+      "text": "└└ 여기서 핵심 질문은 과연 fed가 금리인상을 한다고 유가가 잡히겠느냐는 것... 수요 과잉이 아닌, 공급 충격의 문제를 금리인상으로 해결될까... 🙊...",
+      "link": "https://t.me/TOPTOWNQUANT/13725",
       "keywords": [
         "수요",
-        "공급",
-        "OP",
-        "M/S",
-        "YoY"
+        "공급"
       ]
     },
     {
       "source": "@TOPTOWNQUANT",
       "date": "2026-09-14 22:08",
-      "text": "└ 이제와서 비둘기파적 인상?!? 🤣  도대체 그 비둘기는 어떤 비둘기일까... fed의 긴축사이클 금리인상은 한번으로 끝나는 것이 아닌, 평균 10회, 중앙값 9회... 🏃🏃‍♂🏃‍♀  하냐, 안하냐가 중요하기에 9월 금리인상은 없을 것이다라고 여전히 동일하게 보고 ...",
+      "text": "└ 이제와서 비둘기파적 인상?!? 🤣  도대체 그 비둘기는 어떤 비둘기일까... fed의 긴축사이클 금리인상은 한번으로 끝나는 것이 아닌, 평균 10회, 중앙값 9회... 🏃🏃‍♂🏃‍♀  시작하냐, 안하냐가 중요하기에 9월 금리인상은 없을 것이다라고 여전히 동일하게 보...",
       "link": "https://t.me/TOPTOWNQUANT/13724",
       "keywords": [
         "사이클"
@@ -1575,12 +1716,27 @@
       ]
     },
     {
-      "source": "@TOPTOWNQUANT",
-      "date": "2026-09-04 11:21",
-      "text": "**# 추세적인 이익 모멘텀 현황 - 9/4**  국내 이익은 연초 \"수직 상승\" 대비 기울기가 다소 내려왔으나, 여전히 우상향 중  미국 이익이 고개를 든 건 국내 보다 늦었으나, 꾸준한 증가세 역시 이어가는 중  **👉 지난 6~7월부터 논의 드렸던 탑다운 리스크(...",
-      "link": "https://t.me/TOPTOWNQUANT/13696",
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-09-15 08:14",
+      "text": "📮[메리츠증권 이차전지/석유화학 노우호]  2026.9.15(화)  **<Energy Renaissance 6: APPEC 2026 Key Takeaways>**  URL: https://han.gl/ynEp0  **APPEC 2026, From Geopolitical...",
+      "link": "https://t.me/MERITZ_RESEARCH/44633",
       "keywords": [
-        "상향"
+        "상향",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-09-15 07:50",
+      "text": "📮[메리츠증권 IT 소재장비 김동관]  파크시스템스(140860): 수주 호조 기반 실적 성장 지속  - 파크시스템스의 3Q26E 매출액은 678억원(+49% YoY; 이하 YoY), 영업이익은 185억원(+114%; OPM 27.3%)으로 예상  - 산업용 AFM 출...",
+      "link": "https://t.me/MERITZ_RESEARCH/44632",
+      "keywords": [
+        "상향",
+        "수요",
+        "OP",
+        "YoY",
+        "수주"
       ]
     },
     {
@@ -1660,15 +1816,6 @@
       ]
     },
     {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-09-11 10:29",
-      "text": "📮[메리츠증권 반도체/디스플레이 김선우]  ▶ 2026년 9월 반도체 수출입통계 잠정치 발표 (~9.10)  (MoM 증감률은 1~10일 기준)  1) 메모리   - 수출 금액: 103억 8,655만 달러 (+378.0% YoY, +29.7% MoM)  - 수출 단가:...",
-      "link": "https://t.me/MERITZ_RESEARCH/44598",
-      "keywords": [
-        "YoY"
-      ]
-    },
-    {
       "source": "@SKSRESEARCH",
       "date": "2026-09-14 07:58",
       "text": "**[SK증권 신윤정][매크로 Comment] 미국 8월 CPI: 관건은 충격의 크기보다 지속기간   에너지가 끌어올린 헤드라인, 갈라진 기조 물가 ** 2026 년 8 월 미국 소비자물가는 전월 대비 0.4% 상승했고, 전년동월 대비로는 3.4% 올라 7 월과 같은 ...",
@@ -1743,25 +1890,6 @@
       ]
     },
     {
-      "source": "@SKSRESEARCH",
-      "date": "2026-09-07 08:45",
-      "text": "[SK증권 ESG/통신서비스/지주 최관순]  (ks1.choi@sks.co.kr/3773-8812)  **[ESG] 탄소배출권, 추가 상승 염두**  **KAU25 Review: 4차 계획기간 대비한 선수요 증가** 8월말로 거래가 종료된 KAU25는 29,450원으로...",
-      "link": "https://t.me/SKSRESEARCH/9136",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@SKSRESEARCH",
-      "date": "2026-09-07 07:47",
-      "text": "**[SK증권 화장품/의류 형권훈]** (kh.hyung@sks.co.kr/3773-9997)  ▶️ **화장품(매수): 체급이 달라졌다- 미국·유럽이 열어준 구조적 성장**  - 미국과 유럽 지역 중심으로 수출 강세 보이는 중 - 미국은 오프라인 채널 침투가, 유럽은...",
-      "link": "https://t.me/SKSRESEARCH/9135",
-      "keywords": [
-        "구조적 성장"
-      ]
-    },
-    {
       "source": "@SURVIVAL_DOPB",
       "date": "2026-09-11 05:14",
       "text": "**🤩****ORACLE ****$ORCL**** Q1’27 EARNINGS HIGHLIGHTS**  🔹 Revenue: $19.3B (Est. $19.14B) 🟢; +30% YoY 🔹 Adj. EPS: $1.92 (Est. $1.74) 🟢; +30% YoY 🔹 RPO...",
@@ -1822,6 +1950,16 @@
       "link": "https://t.me/SURVIVAL_DOPB/13804",
       "keywords": [
         "수요"
+      ]
+    },
+    {
+      "source": "@HEDGECAT0301",
+      "date": "2026-09-15 07:44",
+      "text": "[9/15, 장 시작 전 생각: 주도주 2차 노이즈, 키움 한지영]  - 다우 -0.3%, S&P500 -0.5%, 나스닥 -0.6% - 마이크론 -5.3%, 엔비디아 -3.4%, 샌디스크 -5.0% - 미 10년물 금리 4.99%, 30년물 금리 5.35%, WTI ...",
+      "link": "https://t.me/HEDGECAT0301/2939",
+      "keywords": [
+        "수요",
+        "사이클"
       ]
     },
     {
@@ -2062,15 +2200,6 @@
         "YoY",
         "밸류체인",
         "수주"
-      ]
-    },
-    {
-      "source": "@HEDGECAT0301",
-      "date": "2026-08-11 07:34",
-      "text": "[8/11, 장 시작 전 생각: 단독 등반 vs 단체 등반, 키움 한지영]  - 다우 -0.1%, S&P500 -0.1%, 나스닥 -0.3% - 엔비디아 -2.9%, 마이크론 -1.8%, 샌디스크 +2.1% - WTI 82.1달러, 미 10년물 금리 4.70%, 달러/...",
-      "link": "https://t.me/HEDGECAT0301/2909",
-      "keywords": [
-        "수요"
       ]
     }
   ],
