@@ -2,6 +2,16 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-10-06 22:24",
+      "text": "**마이크론 경영진 미팅 요약: 27~28년** **공급 타이트 지속, 자사주 매입 승인 임박 (JPM)**  **1. 수급 전망: 27~28년 모두 26년보다 타이트**  • 마이크론 경영진은 27년과 28년 모두 26년보다 상당히 타이트할 것이라는 기존 견해를 재확...",
+      "link": "https://t.me/IDEA_MEMO/27138",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-10-06 16:24",
       "text": "✅ \"ESS 없인 AI 팩토리 못 돌린다\"…엔비디아, BESS '공식 표준 인증' 편입 (아침 기사) 차세대 AI 데이터센터 설계 규격 'DSX 레디(Ready)'에 배터리 에너지 저장 시스템(BESS) 최초 지정  LG엔솔·테슬라·히타치에너지 '1차 인증 파트너' 합...",
       "link": "https://t.me/IDEA_MEMO/27136",
@@ -66,29 +76,18 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 18:32",
-      "text": "🎯 **[주식은 기록 근처, 국채금리 안정 시도 속 에너지·가스 가격 엇갈림]** 글로벌 주식, 미국 전일 랠리 여파로 기록 근처에서 강세 지속. Nasdaq 100 기록 경신, S&P도 사상 최고치 근접. 동일가중 S&P와 Russell 2000도 반등 흐름, NVI...",
-      "link": "https://t.me/MASSITRADING/189932",
+      "date": "2026-10-06 22:32",
+      "text": "🎯 **[TSMC 주가 사상 최고치 언급, Elon Musk의 TeraFab 협업 가능성까지 부각]** Taiwan Semiconductor(TSMC) 주가가 사상 최고치(record high) 수준으로 언급되며, 반도체 랠리의 핵심 수혜주로 재강조. Elon Musk...",
+      "link": "https://t.me/MASSITRADING/190047",
       "keywords": [
-        "수요"
+        "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 18:32",
-      "text": "🎯 **[레이 달리오, 금리 급등 시 자본 배분 압박과 미·유럽 부채위기 경고]** 정부채 매도에 따른 차입비용이 수년래 고점으로 치솟는 가운데, Bridgewater Associates 창립자 Ray Dalio가 미국의 잠재적 부채위기 가능성과 금리 상승의 거시 리스...",
-      "link": "https://t.me/MASSITRADING/189930",
-      "keywords": [
-        "수요",
-        "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-06 18:32",
-      "text": "🎯 **[OpenMind, 로봇 상용화는 제조 중심·중국 공급망 우위가 핵심 변수]** 로보틱스 분야 투자 관심 재확대. OpenMind 측, 경쟁의 핵심을 ‘저렴하고 안전한 로봇을 대량 생산하는 능력’으로 제시하며 China 제조·공급망 우위 부각. OpenMind,...",
-      "link": "https://t.me/MASSITRADING/189928",
+      "date": "2026-10-06 22:32",
+      "text": "🎯 **[미국 주가지수 선물 상승, NASDAQ·S&P 500 사상 최고치 재경신 가능성 점검]** 개장 전 선물(futures) 흐름은 상승 우위로 언급되며, NASDAQ가 당일 상승 시 추가 사상 최고치(record) 가능성 거론. S&P 500의 직전 기록 종가를...",
+      "link": "https://t.me/MASSITRADING/190043",
       "keywords": [
         "수요",
         "공급"
@@ -96,18 +95,28 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 18:17",
-      "text": "🎯 **[예멘 Mocha 탈환 주장 속 교전 격화, 홍해 리스크는 단기 변동성 요인]** 예멘 정부 측, Iran-backed Houthis와의 ‘격렬한 전투’ 이후 홍해 연안 도시 Mocha를 재장악했다고 주장; 사우디 주도 연합군은 최근 48시간 동안 의미 있는 진...",
-      "link": "https://t.me/MASSITRADING/189926",
+      "date": "2026-10-06 22:32",
+      "text": "🎯 **[AI 데이터센터 전력 병목 심화, 원자력·가스·전력망 제약이 핵심 변수]** Google, Constellation과 690MW 규모 계약 체결, 기존 설비 업그레이드와 신규 발전 포함. Google, NextEra Energy와 Duane Arnold 원자로...",
+      "link": "https://t.me/MASSITRADING/190041",
       "keywords": [
-        "수주"
+        "수요",
+        "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 18:17",
-      "text": "🎯 **[OpenAI 300억달러 조달 추진·DeepSeek 120억달러, 미·중 AI 자금경쟁 격화]** OpenAI, IPO 이전에 300억 달러 규모 자금조달 논의 중으로 보도; BlackRock 및 UAE 복수 펀드가 앵커 투자자로 참여 가능, 미국 자금이 최대...",
-      "link": "https://t.me/MASSITRADING/189925",
+      "date": "2026-10-06 22:17",
+      "text": "🎯 **[Dimon, AI CapEx·정부 차입이 자본경쟁 격화…사이버 위험은 AI로 급증]** JPMorgan Chase CEO Jamie Dimon, 금리 상승을 ‘자본 수요 확대’의 결과로 볼 수 있으나, 더 높은 금리와 credit spreads 확대는 기업 전...",
+      "link": "https://t.me/MASSITRADING/190040",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-06 22:17",
+      "text": "🎯 **[NVIDIA 6조달러 근접에도 밸류에이션 부담 완화, 데이터센터 전력·AI 칩 수요 확산]** NVIDIA 시가총액 6조달러 근접; 주가 상승에도 forward earnings 기준 밸류에이션이 낮아졌다는 평가와 함께 투자자 유입 재개. 대규모 buyback ...",
+      "link": "https://t.me/MASSITRADING/190039",
       "keywords": [
         "상향",
         "수요"
@@ -115,99 +124,143 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 18:17",
-      "text": "🎯 **[Brent 100달러 하회, 미 증시 선물 상승·미 국채 입찰이 수요 시험대]** 예멘 정부군의 Houthis 대응 진전 및 Bab el-Mandeb 리스크 완화 기대가 유가 하방 압력으로 작용; Brent 배럴당 100달러 아래로 하락, WTI는 더 낮은 수...",
-      "link": "https://t.me/MASSITRADING/189922",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-06 18:17",
-      "text": "🎯 **[아시아 증시 소폭 상승, 반도체에서 장비주로 순환·JGB 수요 견조]** 아시아 주식시장, 유가 하락 영향으로 전반적 소폭 상승 흐름. 투자자금, 대형 chip makers에서 장비주로 순환 조짐; 한국 증시(KOSPI) 휴장 후 약 1% 하락, 일본 Nikk...",
-      "link": "https://t.me/MASSITRADING/189920",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-06 18:02",
-      "text": "🎯 **[아시아 증시 혼조·JGB 입찰 수요 견조, AI 자금조달과 지정학 변수 병존]** 브리핑에서 글로벌 주식은 기록 부근, Treasuries는 일부 안정으로 언급되는 동시에 Ray Dalio의 ‘취약성’ 경고가 재차 부각. AI 섹터에서는 OpenAI와 Deep...",
-      "link": "https://t.me/MASSITRADING/189916",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-06 18:02",
-      "text": "🎯 **[미 10년물 고점권 지속, Fed 인하 기대 후퇴·유로 약세 압력]** 미국 10년물 금리, 2002년 이후 수준으로 상승하며 수십 년래 고점권 유지. 전일 약세 이후 당일 일부 안정 신호 있으나, Treasuries 전반 압력 지속. 고용지표 둔화에도 미국 ...",
-      "link": "https://t.me/MASSITRADING/189913",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-06 18:02",
-      "text": "🎯 **[AI 확산 속 창작자 신뢰 상승, LTK로 전환·매출 측정 강화]** 브랜드들 관심, 대형 소셜 미디어 스타 중심에서 소규모·고참여 창작자 중심으로 이동. 추천을 affiliate link로 연결해 매출을 정량 측정하는 구조 확산, creator economy...",
-      "link": "https://t.me/MASSITRADING/189912",
+      "date": "2026-10-06 22:17",
+      "text": "🎯 **[미 국채 수요 가격민감도 확대 우려, 10·30년 입찰 약세와 변동성 재점화]** 미국 Treasury 수익률 다년(수십년) 고점 부근 유지로 주식 투자자도 국채시장 변동성에 주목. 재정적자 확대, Iran 관련 지정학 불확실성, 달러 패권 약화 논쟁이 겹치며...",
+      "link": "https://t.me/MASSITRADING/190037",
       "keywords": [
         "수요",
-        "공급",
-        "YoY"
+        "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 18:02",
-      "text": "🎯 **[중동 전쟁 장기화 시 공급 제약 심화, 미국 휘발유 가격 급등과 여론 악화 위험]** 전쟁 영향으로 걸프 지역 주변 미군 보급·거점 피해 언급; 원거리 기지(Diego Garcia) 경유 보급 등 ‘의도치 않은 결과’가 안보·물류 비용을 키우는 리스크로 제시....",
-      "link": "https://t.me/MASSITRADING/189908",
+      "date": "2026-10-06 22:17",
+      "text": "🎯 **[구글, Constellation Energy와 20년 원자력 전력 계약으로 AI 전력 확보]** Alphabet(구글) 20년 기간으로 Constellation Energy 원자력 전력 구매 계약 체결 소식에 Constellation Energy 주가 급등. ...",
+      "link": "https://t.me/MASSITRADING/190036",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-06 22:17",
+      "text": "🎯 **[Google, Constellation과 20년 nuclear 전력 구매…데이터센터 전력 병목 대응]** Google(Alphabet), Constellation Energy와 20년간 nuclear 전력 구매 계약 체결. 신규 전력 890메가와트 규모가 온라...",
+      "link": "https://t.me/MASSITRADING/190035",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 18:02",
-      "text": "🎯 **[PAYGO 재도입 필요성 부각, 5%대 수익률·7%대 모기지로 부채 부담 가시화]** 미국 정치·재정 개혁 과제로 선거구 재획정 경쟁 심화, 유권자 선택보다 정치인이 유권자 선택하는 구조 우려 제기. 클린턴 및 조지 H.W. 부시 시절 재정 준칙 회귀 필요성 ...",
-      "link": "https://t.me/MASSITRADING/189907",
+      "date": "2026-10-06 22:17",
+      "text": "🎯 **[Trump accounts, 특정 주식 기부 허용 논란…5년 매도 제한·이해상충 우려]** 행정부가 추진 중인 Trump accounts(미국 아동 대상 투자계좌)와 관련해, 초기 구상은 index fund 등 광범위 분산 상품 중심이었으나, 재무부가 9월 말...",
+      "link": "https://t.me/MASSITRADING/190034",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-06 22:17",
+      "text": "🎯 **[트럼프, red-dyed diesel 도로 허용·diesel 세금 유예에도 비용 부담 지속]** 트럼프 행정부, diesel 가격 급등 대응으로 도로 차량의 red-dyed diesel 사용 허용 행정명령 서명, 연방 diesel 도로세(갤런당 24.4센트) ...",
+      "link": "https://t.me/MASSITRADING/190033",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 17:47",
-      "text": "🎯 **[예멘 Mocha 공방 속 Red Sea 위협 지속, Persian Gulf 수출 회복에도 재고 부족]** 예멘의 사우디 지원 정부가 Red Sea 연안 Mocha를 탈환했다고 발표, Bab el-Mandeb Strait 통제에 가까워질 수 있다는 평가가 제기됨...",
-      "link": "https://t.me/MASSITRADING/189906",
+      "date": "2026-10-06 22:03",
+      "text": "🎯 **[Google-Constellation 원전 전력 장기계약 체결, Dalio는 고금리·대외자금 이탈 위험 경고]** AI 전력 수요 확대 국면에서 Alphabet(Google)이 Constellation Energy와 20년 원자력 전력 공급 계약 체결. Con...",
+      "link": "https://t.me/MASSITRADING/190032",
       "keywords": [
-        "공급",
-        "수주"
+        "수요",
+        "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 17:47",
-      "text": "🎯 **[AI 자금조달 확대 속 data centers 투자 리스크·규제 불확실성 점검]** AI 인프라 확장 지속 국면에서 대형 자금조달 소식 부각: DeepSeek, 최소 120억달러 조달에 근접, OpenAI는 여러 투자펀드와 300억달러 규모 라운드 논의. iS...",
-      "link": "https://t.me/MASSITRADING/189905",
+      "date": "2026-10-06 22:03",
+      "text": "🎯 **[은행주 조정 속 실적 기대치 낮아져 ‘설정 유리’, 규제완화·M&A·AI capex가 핵심 변수]** 10월 13일 대형 은행 실적 발표를 앞두고 금융주 밸류에이션 부담 완화 여부 점검 국면. 금리 상승과 yield curve 평탄화로 net interest ...",
+      "link": "https://t.me/MASSITRADING/190031",
       "keywords": [
         "수요",
-        "공급",
         "사이클"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-06 17:47",
-      "text": "🎯 **[Ray Dalio, 저축-자본 수급 불균형이 금리·자산가격과 부채 위기 좌우]** 미국에서는 정부채 매도로 차입비용이 상승하는 가운데, Bridgewater Associates 설립자 Ray Dalio가 Bloomberg 인터뷰에서 잠재적 부채 위기와 금리 상...",
-      "link": "https://t.me/MASSITRADING/189904",
+      "date": "2026-10-06 22:03",
+      "text": "🎯 **[지수 고점 속 금리 상승 재평가 지속, 국채 입찰·Fed 발언·CPI가 변동성 좌우]** 대형 기술주 중심 지수 강세로 표면상 변동성 낮게 유지되나, 금리 상승 국면에서 주식·크레딧 전반 재가격화 진행. S&P 500 선물 장 개장 전 약 0.4% 상승, Na...",
+      "link": "https://t.me/MASSITRADING/190030",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-06 22:02",
+      "text": "🎯 **[소비자 AI 리포트: ChatGPT MAU 1위, 지출 상위 1% 월 903달러]** 상위 100 소비자 AI 리포트에서 앱·웹앱 월간 매출과 트래픽 비교 결과 언급. 월간 매출 기준 OpenAI가 선두, Anthropic이 뒤를 잇는 구도 제시. 생산성 앱 ...",
+      "link": "https://t.me/MASSITRADING/190027",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-06 22:02",
+      "text": "🎯 **[DeepSeek·Moonshot AI 자금유치 확대, OpenAI 300억달러 라운드로 자본 쏠림]** 펀드 환매 게이트(gating) 조치, 투자 포지션 손실 또는 유동성 압박 신호로 해석 가능하며 투자자 신뢰 훼손 위험 확대 요인으로 언급. Bloomber...",
+      "link": "https://t.me/MASSITRADING/190026",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-06 21:47",
+      "text": "🎯 **[PIMCO: AI 투자·소비 완충·점진적 정책이 성장 지지, 취약성도 확대]** PIMCO cyclical outlook, 미국 경기 회복탄력성 지지 요인으로 AI 투자 급증, 소비자의 비용 흡수력, 중앙은행의 점진적 정책 접근 등 3대 ‘완충장치’ 제시. 에...",
+      "link": "https://t.me/MASSITRADING/190024",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-06 21:47",
+      "text": "🎯 **[AI 수요·원전 전력 계약 확대, Option Care Health 58억달러 인수]** 현장 점검 결과 향후 수년간 반도체 수요 고수준 지속 전망 부각. Citi와 Mizuho, AI agents 확산으로 컴퓨팅 수요 급증 전망하며 목표주가 상향 등 월가 낙...",
+      "link": "https://t.me/MASSITRADING/190021",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-06 21:47",
+      "text": "🎯 **[Slok, 금리 피크아웃 가능성 제기…Dalio는 해외 매도 시나리오 경고]** Apollo Global의 Torsten Slok 메모에서 금리 상승이 과도하게 진행됐을 수 있으며 ‘금리 급등 구간이 마무리될 가능성’ 제기. 근거로 에너지 비용 완화 가능성, ...",
+      "link": "https://t.me/MASSITRADING/190019",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-06 21:47",
+      "text": "🎯 **[BofA Subramanian, AI CapEx 롱·소비/사무직 쇼트 트레이드 재점검 제안]** Bank of America의 Savita Subramanian 메모에서 ‘AI CapEx 수혜주 매수’와 ‘화이트칼라 위협 업종 및 소비 관련 익스포저 축소’로 ...",
+      "link": "https://t.me/MASSITRADING/190018",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-10-06 22:11",
+      "text": "**마이크론 경영진 미팅 요약: 27~28년** **공급 타이트 지속, 자사주 매입 승인 임박 (JPM)**  **1. 수급 전망: 27~28년 모두 26년보다 타이트**  • 마이크론 경영진은 27년과 28년 모두 26년보다 상당히 타이트할 것이라는 기존 견해를 재확...",
+      "link": "https://t.me/JAKE8LEE/14237",
       "keywords": [
         "수요",
-        "공급",
-        "사이클"
+        "공급"
       ]
     },
     {
@@ -656,6 +709,15 @@
     },
     {
       "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-06 19:16",
+      "text": "🤔'이 주식은 반드시 오를거야' 그런다고 주가가 오를까요?  🎯왜 샀는지 설명할 수 있어야 진짜 투자가 시작됩니다.  🔍차트와 뉴스에 흔들리기 보다 '산업의 구조'를 먼저 알아야 합니다  ✔️ 산업 핵심개념 ✔️ 산업별 밸류체인 ✔️ 섹터별 투자전략  **🎉 지금 신청...",
+      "link": "https://t.me/IRNOTE_YSTREET/5362",
+      "keywords": [
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
       "date": "2026-10-06 17:00",
       "text": "**[마감브리프] 26.10.06.(화) 뉴스 TOP10 - 동아쏘시오홀딩스, 삼성SDI, 두산에너빌리티, 삼성전기 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/26100616584...",
       "link": "https://t.me/IRNOTE_YSTREET/5361",
@@ -840,15 +902,6 @@
       "date": "2026-09-30 12:00",
       "text": "**[컨콜노트] 삼성물산, 상반기에 이어 하반기에도 좋은 실적 기대**  ✅ 2분기 건설과 상사 부문의 기여로 매출과 이익이 모두 양호했음  ✅ 건설은 하이테크 중심 수주가 좋은 상황이며 성장세가 중장기로 이어질 것임  ✅ 상반기의 좋은 실적이 하반기에도 무리 없이 이...",
       "link": "https://t.me/IRNOTE_YSTREET/5333",
-      "keywords": [
-        "수주"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-09-30 11:01",
-      "text": "**[컨콜노트] 한화에어로스페이스, 하반기 중동향 수주 기대**  ✅ 미 육군 사업을 8월에 수주했으며 단독 사업자로 선정될 정도로 당사의 경쟁력이 뛰어남  ✅ 유럽 시장은 스페인 기업과의 K9 계약을 통해 확장이 원활하게 진행되고 있음  ✅ 중동 지역에 있어서는 올해...",
-      "link": "https://t.me/IRNOTE_YSTREET/5332",
       "keywords": [
         "수주"
       ]
@@ -1358,6 +1411,19 @@
     },
     {
       "source": "@EASOBI",
+      "date": "2026-10-06 19:04",
+      "text": "📝 텔레그램 심층 분석 Report (19시 04분) 기준  🌡️ 센티먼트 혼조세 및 경계감 (-15) 💡 요약 코스피 대규모 외국인 매도 및 개인투자자 레버리지 손실 확대에 전반적인 시장 경계감이 증가했으나, 코스닥 강세 및 AI, 2차전지 등 일부 섹터 종목의 개별...",
+      "link": "https://t.me/EASOBI/16897",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "OP",
+        "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
       "date": "2026-10-06 15:07",
       "text": "📝 텔레그램 심층 분석 Report (15시 07분) 기준  🌡️ 센티먼트 긍정적 (+30) 💡 요약 AI 및 로봇, 2차전지 관련 기업들의 긍정적 소식과 대규모 계약 체결이 시장 분위기를 주도하며 KOSDAQ 수급 개선 기대. 다만, 가상자산 과세 강행 등 일부 불확...",
       "link": "https://t.me/EASOBI/16896",
@@ -1599,14 +1665,12 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-10-02 15:08",
-      "text": "📝 텔레그램 심층 분석 Report (15시 08분) 기준  🌡️ 센티먼트 관망 (-20) 💡 요약 AI, 우주항공, 원자력 등 일부 성장 산업에서 긍정적인 투자 및 사업 확장 소식이 있으나, 전반적으로 고금리 장기화, 암호화폐 과세 우려, 그리고 일부 대형 기업의 실...",
-      "link": "https://t.me/EASOBI/16867",
+      "source": "@TOPTOWNQUANT",
+      "date": "2026-10-06 21:09",
+      "text": "**# 현재 유가 하락분은 “종전 기대감”보다는 “공급 정상화” 영향**  1. 중동 원유 수출, 이란 전쟁 발발 이전의 81% 수준까지 회복 2. G7, 전략비축유 1억 배럴 방출 결정 3. 사우디 아람코, 공식판매가격(OSP) 인하  👉 그렇다면 지금 유가 하락이 ...",
+      "link": "https://t.me/TOPTOWNQUANT/13790",
       "keywords": [
-        "수요",
-        "OP",
-        "수주"
+        "공급"
       ]
     },
     {
