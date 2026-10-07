@@ -2,6 +2,15 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-10-07 16:06",
+      "text": "**[단독] 삼성 'HBM4E', 엔비디아 문턱 넘었다…주요 고객사 품질테스트 통과**  **삼성전자, 차세대 HBM 고객사 검증 통과** **올 9월 말 HBM4E 12단 제품 평가 마쳐**  삼성전자의 **차세대 고대역폭메모리(HBM)인 HBM4E 12단 제품이 엔...",
+      "link": "https://t.me/IDEA_MEMO/27153",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-10-07 15:38",
       "text": "MUSK: WE PLAN TO BUILD AND OPERATE THE FAB [...](https://x.com/FirstSquawk/status/2107722158575366217)...",
       "link": "https://t.me/IDEA_MEMO/27152",
@@ -89,87 +98,31 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-04 20:32",
-      "text": "**주간 금리 전망 : “한계에 다다르다” (GS)**  **1. 숨 고르는 중**  • 미국 10년물 금리는 현재 5.26%로 꽤 높은 수준. 중동 불확실성과 AI 투자 열기가 계속되면서 최근 몇 달간 금리가 크게 올랐음  • 그런데 이번 주에 분위기가 바뀌기 시작함...",
-      "link": "https://t.me/IDEA_MEMO/27123",
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 18:32",
+      "text": "🎯 **[FOMC 의사록 대기 속 유가 급등, SpaceX 400억달러 차입·Nvidia 칩 매입 추진]** S&P 500 추가 사상 최고치 이후 랠리 둔화 조짐, 투자자 시선은 금일 FOMC 의사록으로 이동. 유가 상승: 호르무즈 해협 물동 증가와 이란의 선박 공격 ...",
+      "link": "https://t.me/MASSITRADING/190601",
       "keywords": [
-        "공급"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-07 15:32",
-      "text": "🎯 **[반도체 이익 성장 지속 전망, hyperscaler 지출 가속과 시장 쏠림 심화]** 반도체 업종은 10월 성과 부진 종목 존재에도 매출·마진·이익 성장률이 이례적으로 높다는 평가. 시장 breadth 부진으로 반도체 강세 대비 타 업종 상대적 부진이 이어지지...",
-      "link": "https://t.me/MASSITRADING/190511",
+      "date": "2026-10-07 18:32",
+      "text": "🎯 **[Apollo Jim Zelter, 금리상승은 강한 성장 반영·AI 병목은 compute와 에너지]** Apollo President Jim Zelter, 미국 성장·CapEx 확대와 risk-on 환경을 긍정 평가, 인플레이션도 통제 범위로 진단. AI 인프라...",
+      "link": "https://t.me/MASSITRADING/190599",
       "keywords": [
-        "상향",
         "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-07 15:32",
-      "text": "🎯 **[은행 실적·private credit 변수 속 AI 부채, T-bills·헤지 전략 부각]** 은행 실적 발표를 앞두고 net interest margin, 대손비용, 향후 6~12개월 대출 재조정(리파이낸싱) 전망이 경기 바로미터로 부각. 과거 저금리로 조달...",
-      "link": "https://t.me/MASSITRADING/190508",
-      "keywords": [
         "공급",
+        "사이클",
         "밸류체인"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-07 15:17",
-      "text": "🎯 **[실적 시즌 핵심은 마진·AI CapEx, 데이터센터 제약과 은행 NIM 점검]** 실적 시즌 리스크 요인으로 operating margins 둔화 여부와 기업 컨퍼런스콜의 CapEx·수요 시그널 부각. Micron 실적 사례에서 높은 수준의 margin에도 시...",
-      "link": "https://t.me/MASSITRADING/190507",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-07 15:17",
-      "text": "🎯 **[SpaceX, NVIDIA 칩 확보 위해 400억달러 조달 추진…AI 신용리스크 부각]** 보도에 따르면 SpaceX, AI 인프라 구축을 위해 NVIDIA 칩 구매 목적 400억달러 조달 논의 진행. 구조는 은행대출 100억달러+투자등급(I.G.) 성격 신용...",
-      "link": "https://t.me/MASSITRADING/190501",
-      "keywords": [
-        "수요",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-07 15:02",
-      "text": "🎯 **[관세 판결·Fed minutes 앞두고 장기물 하방 헤지 확대…프랑스 스프레드 주시]** 미국 대법원, Trump의 글로벌 관세 조치를 기각했다는 보도 반영. J.P. Morgan CEO 발언에서 글로벌 부채 누증과 시장의 금리·프리미엄 재요구 가능성 경고, ...",
-      "link": "https://t.me/MASSITRADING/190499",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-07 15:02",
-      "text": "🎯 **[e.l.f., 신제품 출시 20~24주 단축…단계별 심사로 원가·가격·채널 결정]** e.l.f. 본사에서 혁신 제품군과 개발·출시 프로세스 소개, 매스 시장에서 히트 제품이 장기간 1위권을 유지한 사례 언급. 혁신 제품의 시장 출시 리드타임을 최소 20~24...",
-      "link": "https://t.me/MASSITRADING/190496",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-07 15:02",
-      "text": "🎯 **[Covenant, Leipzig 공장 신설…Anthem 2027년 1분기 생산 시작]** 방산 스타트업 Covenant, 중량 탑재 장거리 미사일 Anthem을 유럽 억지력 핵심 전력으로 제시. NATO 동맹국의 정밀타격 무기 재고 보충 수요를 겨냥해 독일 동...",
-      "link": "https://t.me/MASSITRADING/190494",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-07 15:02",
-      "text": "🎯 **[고금리 지속 시 debt-to-GDP 132% 전망, 국채 수요 둔화가 차입비용 압박]** 미국 국가부채 경고가 재부각; 금리 상승으로 차입비용이 늘어나는 시점에 재정 여력이 취약하다는 문제의식 강화. Goldman Sachs는 고금리 지속 시 debt-to-...",
-      "link": "https://t.me/MASSITRADING/190491",
+      "date": "2026-10-07 18:32",
+      "text": "🎯 **[Levi’s 실적·9월 FOMC 의사록·모기지 신청, 금리 경로와 수요 점검]** 수요일(10월 7일) 주요 일정으로 Levi’s 3분기 실적 발표(장 마감 후) 예정; 최근 3개월 주가 15% 이상 하락 언급. 시장 컨센서스는 데님 수요 견조함을 근거로 ‘양...",
+      "link": "https://t.me/MASSITRADING/190596",
       "keywords": [
         "상향",
         "수요"
@@ -177,20 +130,106 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-07 15:02",
-      "text": "🎯 **[인플레이션과 유가가 저임금 실질임금 좌우, 임원 보상은 주주 지지]** 주주 투표에서 임원 보상 패키지에 대한 지지 강세 지속, 시장 내 ‘균형’ 형성 신호로 해석. 저임금 근로자 관점에서 핵심 변수는 임금 자체보다 인플레이션으로 지목; 특히 COVID 이후 ...",
-      "link": "https://t.me/MASSITRADING/190488",
+      "date": "2026-10-07 18:32",
+      "text": "🎯 **[Evergreen A.I., 2028년까지 무료 제공…AI 재무자문 시장 확대 노림수]** 전 PayPal·Intuit CEO Bill Harris, AI 기반 재무자문 앱 Evergreen A.I. 출시. 대화형 세금 도구, 은퇴 계획, 개인화 투자전략 제공...",
+      "link": "https://t.me/MASSITRADING/190595",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 18:17",
+      "text": "🎯 **[Ray Dalio, AI 버블 붕괴 경고; HSBC 구조조정과 Porsche 20% 가격 인상]** Ray Dalio, Forbes 글로벌 CEO 콘퍼런스에서 AI 관련 과열을 경고. 금리 상승과 자산을 현금화해야 하는 수요가 버블 붕괴 요인으로 작용할 수 있...",
+      "link": "https://t.me/MASSITRADING/190594",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 18:17",
+      "text": "🎯 **[SpaceX, NVIDIA 칩 구매 위해 400억달러 조달 논의; EU 중국 하이브리드 규제 검토]** SpaceX, AI 확장 국면에서 NVIDIA 칩 구매를 위해 400억달러 차입(부채) 조달 논의 중이라는 보도. Pimco와 Apollo가 거래에 관여한 ...",
+      "link": "https://t.me/MASSITRADING/190591",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-07 14:47",
-      "text": "🎯 **[독일 공장주문 10.6% 급감, 변동성 감안하되 제조업 회복은 불균등]** 독일 8월 factory orders 전월 대비 10.6% 감소로 1월 이후 최대 낙폭, 시장 예상(-1%) 크게 하회. 대형 주문을 제외하면 감소 폭이 완화되는 등 지표 변동성 존재하...",
-      "link": "https://t.me/MASSITRADING/190486",
+      "date": "2026-10-07 18:17",
+      "text": "🎯 **[유럽 증시 조정과 프랑스 금리 급등, Brent 101달러 재돌파]** 유럽 증시, 3거래일 연속 상승 이후 전반적 하락 전환. STOXX 600 기준 대부분 섹터 약세, 에너지 섹터는 최근 24시간 원유 급등 영향으로 상대적 강세. 프랑스 국채 10년물 금리...",
+      "link": "https://t.me/MASSITRADING/190590",
       "keywords": [
-        "상향"
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 18:17",
+      "text": "🎯 **[hybrid 수요 급증으로 재고 부족, days on lot 감소·가격 경쟁 심화]** Cars.com 보고서 기준 hybrid 수요가 매물 공급을 앞지르며 소비자 체감 재고 부족 심화. 하이브리드 관심 증가 배경으로 높은 가스 가격이 지목됐고, mileage...",
+      "link": "https://t.me/MASSITRADING/190588",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 18:17",
+      "text": "🎯 **[dyed diesel 고속도로 허용, 세금 회피 효과 제한·정유 병목이 핵심]** 정부가 연료비 완화를 위해 고속도로에서 dyed diesel 사용을 허용했으나, 적용 지역·공급처 제한과 주(州)별 집행 차이로 효과가 제한적이라는 지적. dyed diesel는...",
+      "link": "https://t.me/MASSITRADING/190587",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 18:02",
+      "text": "🎯 **[중동 분쟁 ‘동결’ 속 해상 위험 지속, Strait of Hormuz 물동량 회복에도 긴장 상존]** 트럼프의 강경 발언에도 미국의 군사적 행동 여지는 제약적이라는 관측; 이란·후티도 확전 회피 유인 존재. 후티의 사우디 선박 공격과 이란 및 대리세력의 선박...",
+      "link": "https://t.me/MASSITRADING/190580",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 17:47",
+      "text": "🎯 **[Dermalogica 창업자 Jane Werren, 교육 기반 성장과 Unilever 매각 전략 공유]** Dermalogica 창업자 Jane Werren, 13세부터 미용실에서 일한 경험을 바탕으로 전문 교육 중심 모델을 구축했으며, 1986년 Raymon...",
+      "link": "https://t.me/MASSITRADING/190578",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 17:47",
+      "text": "🎯 **[영국, 은행 추가과세 검토 속 금융권 경쟁력·성장자금 우려 확대]** Bloomberg 보도에 따르면 영국 재무수장, 대형은행 수장들과 만나 이번 예산에서 은행 부문 세금 인상 여부 미확정 입장 전달. 정부 세수 확보를 위한 국내 은행 추가과세 가능성에 업계 ...",
+      "link": "https://t.me/MASSITRADING/190575",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 17:47",
+      "text": "🎯 **[Apollo, 유럽 부채·AI 투자자금 겨냥 민간자본 역할 확대 모색]** Apollo, 부채 부담 정부 및 국가지원 기업 대상 장기자본 조달·재무구조 보강 방안 모색. 유럽에서 민간자본 활용 수요 확대 흐름 진단. 미국은 성장·capex·리스크온 환경 지속으...",
+      "link": "https://t.me/MASSITRADING/190574",
+      "keywords": [
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-07 17:33",
+      "text": "🎯 **[아폴로, 유럽 정부·국유기업 부채 해소 위한 장기자본 공급 확대 모색]** 대체투자사 아폴로, 부채 부담이 큰 정부와 국가 지원 기업의 자금 조달에서 역할 확대를 모색. 짐 젤터 사장 발언으로, 특히 유럽 정부가 누증된 부채 대응 해법으로 민간자본을 점차 해법...",
+      "link": "https://t.me/MASSITRADING/190572",
+      "keywords": [
+        "수요",
+        "공급"
       ]
     },
     {
@@ -699,6 +738,24 @@
     },
     {
       "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-07 16:59",
+      "text": "**[마감브리프] 26.10.07.(수) 뉴스 TOP10 - 한화에어로스페이스, SNT홀딩스, 스맥, SK하이닉스 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261007165902...",
+      "link": "https://t.me/IRNOTE_YSTREET/5368",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-07 16:02",
+      "text": "**[컨콜노트] 지엔씨에너지, 하반기에도 수주 성과 좋을 것으로 기대**  ✅ 비상발전기 1등 업체로 AI 데이터센터로 인해 더 각광받고 있음  ✅ 상반기에 많은 수주를 했으며 하반기에도 비슷한 물량을 기대함  ✅ 2030년 매출 목표는 보수적이며 매년 잘 성장하고 있...",
+      "link": "https://t.me/IRNOTE_YSTREET/5367",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
       "date": "2026-10-07 14:01",
       "text": "**[컨콜노트] HD현대마린엔진, 엔진 숏티지로 인해 매출 성장 중임**  ✅ 작년 대비 올해 가동률이 개선되었고 하반기에 가동률을 더 높일 계획임  ✅ 엔진 숏티지로 인해 수주가 계속 증가할 것으로 전망함  ✅ 올해는 상반기보다 하반기가 더 좋은 실적을 보일 것으로 ...",
       "link": "https://t.me/IRNOTE_YSTREET/5366",
@@ -878,21 +935,40 @@
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-09-30 17:00",
-      "text": "**[마감브리프] 26.09.30.(수) 뉴스 TOP10 - SK하이닉스, 한미약품, 현대모비스, 삼성전자 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/260930165838384i...",
-      "link": "https://t.me/IRNOTE_YSTREET/5338",
+      "source": "@YAZA_STOCK",
+      "date": "2026-10-07 18:28",
+      "text": "https://blog.naver.com/proflee200/224434316774  오늘 또 새로운 기업의 메모리 코멘트가 나왔다. ​ ​ 펭귄솔루션즈 4Q 어닝콜. ​ ​ 펭귄솔루션즈도 이제 메모리를 **\"구조적 산업으로 변모\"**하고 있다고 거듭 강조하고 있음. ...",
+      "link": "https://t.me/YAZA_STOCK/12329",
       "keywords": [
-        "OP"
+        "상향"
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-09-30 16:00",
-      "text": "**[컨콜노트] 씨에스윈드, 2027년 미국 생산 물량 확보와 타워 공급 부족 전망**  ✅ 2분기 매출과 영업이익은 컨센서스를 상회했으며 미국 법인의 생산 물량 확대와 AMPC 세액공제 반영이 수익성 개선에 기여함  ✅ 베스타스 및 노르덱스와의 계약을 통해 2027년...",
-      "link": "https://t.me/IRNOTE_YSTREET/5337",
+      "source": "@YAZA_STOCK",
+      "date": "2026-10-07 18:25",
+      "text": "**메모리 리드타임 26년 8월**  - 메모리 전체 39주 (1년 +25주, 25년 4월 바닥 8주) - DDR5·LPDDR4 52주, DDR4 40주 - 레거시 DDR3 24주, DDR2 20주 (평시 6~8주)  * 최신 DRAM만이 아니라 범용·레거시까지 같이 ...",
+      "link": "https://t.me/YAZA_STOCK/12328",
       "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@YAZA_STOCK",
+      "date": "2026-10-07 16:36",
+      "text": "**US Semiconductors : Meta Muse Personal Agent Implications – AMD to $800**  Muse, Dots, Instinct, GrokBot, GeminiSpark를 비롯한 여러 개인 AI 에이전트가 최근 출시됨에 따라...",
+      "link": "https://t.me/YAZA_STOCK/12327",
+      "keywords": [
+        "상향",
         "수요",
+        "TP"
+      ]
+    },
+    {
+      "source": "@YAZA_STOCK",
+      "date": "2026-10-07 15:59",
+      "text": "**AMD CEO 리사수: **  **메모리 및 파운드리 분야에서 삼성전자와의 협업을 계속 모색 중**  삼성과 SK 하이닉스는 장기적인 공급망에 중요  **삼성전자와 SK하이닉스가 HBM에 대해 훌륭한 지원을 해왔다** ** 서울에서 삼성전자와 SK하이닉스를 만날 계...",
+      "link": "https://t.me/YAZA_STOCK/12326",
+      "keywords": [
         "공급"
       ]
     },
@@ -971,6 +1047,16 @@
       "keywords": [
         "수요",
         "공급",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-07 16:09",
+      "text": "국내 주식 마감 시황 - 10월 7일  『아시아 전강후약 속 6,800p 턱걸이』 시황 강진혁 ☎️02-3772-2329  코스피 6,803.90 (-1.98%), 코스닥 898.43 (-2.34%)  외국인 현선물 매도세에 전강후약 연출  금일 KOSPI, KOSDA...",
+      "link": "https://t.me/SHINHANRESEARCH/53001",
+      "keywords": [
+        "수요",
         "YoY"
       ]
     },
@@ -1149,17 +1235,6 @@
       "keywords": [
         "수요",
         "공급"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-06 07:33",
-      "text": "**[신한투자증권 디스플레이/IT소부장 박현우, 김예성]   LG디스플레이: 야속한 대외환경 **  ▶️ **3Q26 Previw: 야속한 환율과 칩플레이션** - 매출액 6.6조원(-5%, 이하 전년대비), 영업이익 2,977억원(-31%)으로 컨센서스(3,703억원...",
-      "link": "https://t.me/SHINHANRESEARCH/52969",
-      "keywords": [
-        "수요",
-        "공급",
-        "M/S"
       ]
     },
     {
@@ -1576,10 +1651,10 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-10-03 19:04",
-      "text": "📝 텔레그램 심층 분석 Report (19시 04분) 기준  🌡️ 센티먼트 낙관적 기대 (+75) 💡 요약 AI, 반도체, 암호화폐 섹터의 연이은 호재와 대규모 투자 발표로 강력한 성장 기대감이 형성되었으나, 금융권 해킹 및 지정학적 불안정성 등 일부 리스크 요인도 관...",
-      "link": "https://t.me/EASOBI/16873",
+      "source": "@TOPTOWNQUANT",
+      "date": "2026-10-07 17:51",
+      "text": "└** ChatGPT가 진행한 \"정석 2Q26 POST모델\" 성과분석** 📊  **▪︎ 항공우주·방산 [+2.78%p]** • Long 상승, Short 하락이 동시에 나타난 가장 이상적인 L/S 알파 • 한화에어로스페이스(+26.5%, L), 한화시스템(+19.8%,...",
+      "link": "https://t.me/TOPTOWNQUANT/13795",
       "keywords": [
         "OP"
       ]
