@@ -2,6 +2,38 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-10-09 17:19",
+      "text": "JP모건 APAC테크; 삼전/TSMC/TDK 코멘트 SEC: 3분기 영업이익은 107.4조원으로, 최신 컨센서스 106조원 / 시장 기대치 104.5조원 / JPM 추정치(Jay) 102조원, 그리고 당사가 예상했던 약 100조원을 소폭 상회했습니다. 환율/상여금 영향...",
+      "link": "https://t.me/IDEA_MEMO/27187",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-10-09 17:17",
+      "text": "속보: 애플이 수요 부진을 이유로 신형 아이폰 18 프로와 프로 맥스의 부품 주문을 줄이고 있다.  복수의 공급망 소식통에 따르면, 10월 두 프리미엄 모델의 부품 주문은 당초 요청 대비 15~20% 감소했다.  애플은 9월 초부터 출하에 보수적으로 돌아섰으며, 11월...",
+      "link": "https://t.me/IDEA_MEMO/27186",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-10-09 17:16",
+      "text": "**엔비디아의 지원을 받는 루멘텀, 광학 부품 생산능력 2029년까지 완판 전망**  루멘텀 홀딩스(Lumentum Holdings Inc.)의 **광학 부품 생산능력은 2029년 무렵까지 이미 완전히 판매된 상태다. **  이는 기술기업들이** 더욱 빠른 AI 데이터...",
+      "link": "https://t.me/IDEA_MEMO/27185",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-10-09 09:52",
       "text": "속보: 오픈AI의 매출이 그간 알려진 것보다 약 200억 달러 적다는 보도가 나오면서 필라델피아 반도체 지수가 하루 만에 3.66% 급락했다.  지수는 478.0포인트 내린 12,588.2에 마감했으며, 나스닥 100 지수도 1.6% 하락했다.  파이낸셜타임스(FT)가...",
       "link": "https://t.me/IDEA_MEMO/27174",
@@ -40,96 +72,106 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-07 16:06",
-      "text": "**[단독] 삼성 'HBM4E', 엔비디아 문턱 넘었다…주요 고객사 품질테스트 통과**  **삼성전자, 차세대 HBM 고객사 검증 통과** **올 9월 말 HBM4E 12단 제품 평가 마쳐**  삼성전자의 **차세대 고대역폭메모리(HBM)인 HBM4E 12단 제품이 엔...",
-      "link": "https://t.me/IDEA_MEMO/27153",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
       "source": "@MASSITRADING",
-      "date": "2026-10-09 15:47",
-      "text": "🎯 **[OpenAI 연환산 매출 전망 700억달러로 상향 관측, AI 밸류에이션 민감도 확대]** Bloomberg 보도에 따르면 OpenAI는 연말까지 annualized revenue run rate(ARR)가 700억달러에 도달하거나 상회할 것으로 예상, ent...",
-      "link": "https://t.me/MASSITRADING/191827",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-09 15:47",
-      "text": "🎯 **[장기금리 급등에도 주식 견조, AI 내 분화·유럽 기업 고정금리 구조 주목]** WisdomTree는 최근 장기 차입비용의 빠른 상승에도 주식시장이 이를 ‘무시’하는 듯한 가격 반응을 보였다고 평가, 다만 수익 개선이 일부 섹터에 집중된 점을 리스크로 지적. ...",
-      "link": "https://t.me/MASSITRADING/191825",
+      "date": "2026-10-09 18:47",
+      "text": "🎯 **[JP모건 타라 순다르: AI capex가 성장 지지, 변동성 대비 분산 필요]** J.P. Morgan Private Bank는 글로벌 성장 경로에 대해 성장 불균등, 공급 측 충격의 순환적 발생, 인플레이션의 높은 하방 경직성과 변동성 확대를 경고. 미국 성...",
+      "link": "https://t.me/MASSITRADING/191910",
       "keywords": [
         "상향",
-        "수요",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-09 15:47",
-      "text": "🎯 **[AI 도구 학습보다 ‘민첩한 채택’과 전문가 검증, 워크플로 자동화가 핵심]** Nestle CEO 인터뷰 요지로, 특정 AI 도구 숙련보다 ‘트렌드 수용·지속적 진화(민첩성)’가 AI 시대 핵심 역량이라는 관점 소개. 개인 워크플로 최적화를 위해 업무를 문서...",
-      "link": "https://t.me/MASSITRADING/191823",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-09 15:32",
-      "text": "🎯 **[Anthropic IPO 성패가 AI 트레이드 심리와 자금흐름에 신호 제공]** Anthropic이 6월 1일 비공개로 IPO 서류를 제출한 뒤 일정이 앞당겨질 수 있다는 관측 속에, IPO 흥행 여부를 AI 트레이드의 핵심 신호로 보는 시각과 단일 이벤트로 ...",
-      "link": "https://t.me/MASSITRADING/191819",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-09 15:32",
-      "text": "🎯 **[가속컴퓨팅 공급 과잉은 체인에 충격, hyperscalers는 FCF 개선 여지]** 향후 리스크로 accelerated computing 공급이 수요를 따라잡는 국면을 제시; 발생 시 데이터센터 CapEx 공급망(NVIDIA, Eaton, Comfort Sy...",
-      "link": "https://t.me/MASSITRADING/191818",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-09 15:32",
-      "text": "🎯 **[AI 사이클 점검 지표로 GPU 가격·모델 출시 속도·hyperscalers 매출 제시]** AI 내에서도 종목별 차별화 필요성 부각; 높은 레버리지와 NVIDIA 의존도가 큰 neoclouds를 취약 구간으로 지목. 선행지표로 GPU pricing 추세, 연...",
-      "link": "https://t.me/MASSITRADING/191817",
-      "keywords": [
-        "상향",
+        "서프라이즈",
         "공급",
         "사이클"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-09 15:32",
-      "text": "🎯 **[시장 폭 확장 조짐 속 10-year 수익률 안정 여부가 주가 핵심 변수]** 최근 지수 상승 기여도 기술주 중심으로 좁아졌으나, 비기술 섹터에서 기술적 지지선 형성 등 내부 여건 개선 신호 관측. 단기 최대 리스크 10-year 수익률 급등 및 변동성 확대이...",
-      "link": "https://t.me/MASSITRADING/191816",
+      "date": "2026-10-09 18:47",
+      "text": "🎯 **[Nasdaq 100 반등 조짐 속 금리 재상승, SpaceX발 통신주 급락]** 전일 주식 급락 이후 반등 시도 조짐, Nasdaq 100 전일 1.4% 하락분 일부 회복 가능성 부각, Russell도 동반 강세 흐름. Treasury는 30-year auct...",
+      "link": "https://t.me/MASSITRADING/191909",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-09 15:32",
-      "text": "🎯 **[허리케인 Isaias로 미 걸프 연안 원유·정유 가동 중단, 제품시장 타이트로 가격 변동성 확대]** Hurricane Isaias 접근에 따라 US Gulf Coast 인근 오프쇼어 원유 생산이 대부분 중단. 하루 약 50만 배럴 정유 능력이 예상 경로에 포...",
-      "link": "https://t.me/MASSITRADING/191815",
+      "date": "2026-10-09 18:47",
+      "text": "🎯 **[국채 장기금리 상승, Treasury buyback보다 발행·AI 수요가 핵심 변수]** Treasury Secretary의 국채 buyback 확대 언급과 장기금리 관리 가능성 제기에도, 10~30년 구간은 시장 수급·리스크 프리미엄이 주도하며 정책으로 직접...",
+      "link": "https://t.me/MASSITRADING/191906",
+      "keywords": [
+        "상향",
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-09 18:32",
+      "text": "🎯 **[알버타 석탄광 재개 추진, 지역경제 기대와 장기 환경 우려 충돌]** 캐나다 알버타 서부 경계 인근 Crowsnest Pass 지역에서 석탄광산 재개·확장 계획 부상. 호주 재벌 Gina Reinhart의 Hancock Prospecting 자회사 Northb...",
+      "link": "https://t.me/MASSITRADING/191903",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-09 18:32",
+      "text": "🎯 **[트럼프 행정부, Microsoft·Adobe 등 비자 프로그램 악용 혐의로 참여 중단]** 트럼프 행정부, Microsoft, Adobe 등 IT·아웃소싱 기업 8곳이 미국 근로자 비자 프로그램을 악용했다고 주장. 해당 프로그램은 Silicon Valley와 ...",
+      "link": "https://t.me/MASSITRADING/191902",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-09 15:32",
-      "text": "🎯 **[WTO, AI 투자 가속 반영해 2026년 상품무역 성장률 전망 대폭 상향]** WTO 상품무역 전망 상향 조정, 2026년 상품무역 성장률 전망치 1.9%에서 3.9%로 상향. 상향의 핵심 요인 AI 및 AI-enabling goods 투자 예상 밖 가속, ...",
-      "link": "https://t.me/MASSITRADING/191812",
+      "date": "2026-10-09 18:32",
+      "text": "🎯 **[미시간대 소비자심리 47.6 전망, Delta 3분기 실적과 여행수요 주목]** 금요일(10월 9일) University of Michigan 10월 Consumer Sentiment Index 발표 예정, 시장 예상치 47.6으로 9월 대비 소폭 하락 전망....",
+      "link": "https://t.me/MASSITRADING/191898",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-09 18:32",
+      "text": "🎯 **[AI 부의 확산 속 체감경기 악화, 고금리·주거비가 세대 격차 확대]** 미국 주택시장 진입 장벽 심화로 첫 주택 구입자 부담 확대, 기존 주택 보유자는 주택가격 상승에 따른 home equity 축적 가능 반면 신규 진입은 사실상 어렵다는 평가 제기. Kyl...",
+      "link": "https://t.me/MASSITRADING/191897",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-09 18:17",
+      "text": "🎯 **[OpenAI 매출 추정 혼선 진정에도 초고평가 논쟁, AI 투자 심리 흔들림]** OpenAI 연환산 매출이 연말까지 700억달러 도달 또는 상회 전망이라는 관측이 확산되며, 전일 AI 급락 이후 선물시장 반등의 단서로 작용. 전일 SOX 3.4% 하락, Na...",
+      "link": "https://t.me/MASSITRADING/191892",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-09 18:17",
+      "text": "🎯 **[Humana 등급 상향 급등, SpaceX 스펙트럼 확보에 통신주 동반 약세]** Humana, Medicare Advantage 핵심 등급 개선 발표 이후 프리마켓 급등; 등급이 특정 기준을 넘으면 보너스 지급으로 매출 상향 요인. SpaceX, low ba...",
+      "link": "https://t.me/MASSITRADING/191891",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-09 18:17",
+      "text": "🎯 **[Freddie Mac: 30-year fixed rate 7.4%, ‘silver tsunami’ 공급 기대]** Freddie Mac 집계 기준 모기지 금리 고점 지속: 평균 30-year fixed rate 7.4%로 약 3년 내 최고 수준. 최근 모기지 ...",
+      "link": "https://t.me/MASSITRADING/191889",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-09 18:17",
+      "text": "🎯 **[OpenAI 매출 둔화 보도에 반도체 급락, AI 투자 불확실성 확대]** 미국 증시 혼조 마감: Dow 0.1% 상승, S&P 500 약 0.5% 하락, Nasdaq 1.2% 하락. Treasury yields 하락: 10-year Treasury 5.23 ...",
+      "link": "https://t.me/MASSITRADING/191888",
       "keywords": [
         "상향",
         "공급"
@@ -137,20 +179,20 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-09 15:17",
-      "text": "🎯 **[Starbucks- Chipotle 합병설 부상, 고금리 자금조달·시너지 부재로 회의론 확대]** Starbucks와 Chipotle의 결합 가능성이 보도되며 대형 소비재 M&A 이슈로 부상했으나, 확정된 계약은 아니라는 전제 강조. 대형 리테일·소비재 M&A...",
-      "link": "https://t.me/MASSITRADING/191807",
+      "date": "2026-10-09 18:02",
+      "text": "🎯 **[GLP-1 확산, 스낵은 점진 변화·알코올 대체 시장은 급성장 가능성]** 스낵 대기업(예: PepsiCo, Campbell's 및 Frito-Lay 등) 실적 콜에서 GLP-1 영향 과소평가 주장 지속되나, 신흥 브랜드 관점에서는 스낵 수요 구조 변화 가능성...",
+      "link": "https://t.me/MASSITRADING/191885",
       "keywords": [
-        "공급"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-09 15:17",
-      "text": "🎯 **[PepsiCo 가이던스 하향, 원가 상승·소비 둔화 신호로 실적 모멘텀 시험]** 시장 상승 동력으로 ‘실적 모멘텀’ 중요도 재부각, 특히 AI·tech 중심 집중도 높다는 점 지적. PepsiCo 실적 발표에서 가이던스 하향, 소비자 저가 제품 선호 확대와 ...",
-      "link": "https://t.me/MASSITRADING/191806",
+      "date": "2026-10-09 18:02",
+      "text": "🎯 **[OpenAI 매출 전망 명확화로 선물 반등, 달러 강세·비자 제한 변수]** OpenAI 매출 전망에 대한 추가 명확화로 AI 투자 붐에 대한 일부 우려 완화, 주식 선물 반등. 미국 달러, 인플레이션·전쟁 등 리스크와 AI 관련 불확실성 지속 속 장기 강세 ...",
+      "link": "https://t.me/MASSITRADING/191883",
       "keywords": [
-        "수요"
+        "공급"
       ]
     },
     {
@@ -327,6 +369,35 @@
     },
     {
       "source": "@MSTARYUN",
+      "date": "2026-10-09 17:10",
+      "text": "* 단독]삼성전자 내년 공급물량 80%가 장기계약  - 9일 업계에 따르면 삼성전자는 내년도 고대역폭메모리(HBM) 등 메모리 공급 물량의 75~80%가 LTA 물량으로 채운 것으로 알려졌다. 엔비디아와 구글, 마이크로소프트 등 주요 빅테크들과는 이미 대부분 계약을 마...",
+      "link": "https://t.me/MSTARYUN/10962",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-10-09 16:21",
+      "text": "**OpenAI의 ARR**  **전년 동기 대비 성장률은 6월 +131%를 저점으로 반등하기 시작**  - 6월: +131% - 7월: +150% - 8월: +182% **- 9월: +229% (약 3.3배)**  **불과 4개월 만에 전년 동기 대비 성장률이 약 1...",
+      "link": "https://t.me/MSTARYUN/10960",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-10-09 16:19",
+      "text": "[메리츠증권 전기전자/IT부품 양승수]  ▶ 대만 ABF 기판 업체(Unimicron, Nanya PCB, Kinsus) 합산 매출액 추이  - 9월 기준 Unimicron, Nanya PCB, Kinsus 3개 업체 모두 역대 최고 월 매출을 기록  - AI GPU·...",
+      "link": "https://t.me/MSTARYUN/10959",
+      "keywords": [
+        "상향",
+        "수요",
+        "OP"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
       "date": "2026-10-09 00:11",
       "text": "**골드만삭스, 팔란티어( ****$PLTR****), 투자의견 중립에서 매수로 상향, 목표주가 204달러에서 230달러로** 상향  “우리는 팔란티어의 투자의견을 ‘중립’에서 ‘매수’로 상향 조정하며, 향후 12개월 목표주가를 230달러로 제시합니다. 이는 현재 주가...",
       "link": "https://t.me/MSTARYUN/10958",
@@ -436,26 +507,6 @@
         "수요",
         "공급",
         "밸류체인"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-10-03 20:02",
-      "text": "Hanwha Engine(JP Morgan): Order wins accelerating across major vessel classes - order backlog could surpass previous peak levels   Table 1의 **월별 글로벌 엔...",
-      "link": "https://t.me/MSTARYUN/10932",
-      "keywords": [
-        "사이클",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-10-03 19:54",
-      "text": "Global Semiconductors(CITI): HBM Market to Face Severe Undersupply in 2027E–2028E Despite De-spec Concerns  **S/D 비율은 2026E -22%, 2027E -21%로 거의 같아 보이...",
-      "link": "https://t.me/MSTARYUN/10929",
-      "keywords": [
-        "수요",
-        "공급"
       ]
     },
     {
