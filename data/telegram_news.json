@@ -96,115 +96,66 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-13 16:02",
-      "text": "🎯 **[Skydance 거래, Hollywood 부채 부담과 AI 효율화가 산업 재편 촉발]** Skydance 중심 대형 거래를 두고, Netflix가 사업 일부만 매수하려 했던 배경으로 사업 복잡성·운영 난이도 지적. 거래 규모 170억달러와 높은 금리 환경에서 ...",
-      "link": "https://t.me/MASSITRADING/193325",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 15:48",
-      "text": "🎯 **[EV·AI 데이터센터가 전력·구리 수요 자극, solar·배터리와 천연가스 역할 재부각]** EV 1대가 내연기관 대비 구리를 3~4배 더 사용한다는 관측과 함께, 공급 제약 속 수요 급증으로 구리 가격 상승 압력 확대. 전력망 재투자 필요성에 더해 AI 데이...",
-      "link": "https://t.me/MASSITRADING/193322",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 15:48",
-      "text": "🎯 **[세액공제 종료에도 EV·중고 EV 수요 유지, 하이브리드와 BYD 존재감 확대]** 고유가 환경이 EV 수요를 지지하는 요인으로 거론되며, 중국산 저가 EV의 글로벌 확산과 신규 저가 EV 스타트업(Slate Motors) 언급. Rivian R2 생산 확대(...",
-      "link": "https://t.me/MASSITRADING/193321",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 15:48",
-      "text": "🎯 **[보안 이유로 on-device AI 확산, cybersecurity 고평가와 정치인 매매 추적]** 보안 요구 강화로 데스크톱·스마트폰에서 AI를 네이티브로 구동할 필요 확대, 이를 뒷받침할 신형 chip·hardware 수요 증가 가능성. cybersecur...",
-      "link": "https://t.me/MASSITRADING/193318",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 15:32",
-      "text": "🎯 **[Fed 금리인상 우려 속 은행 실적·AI 밸류에이션 점검, 장기투자 강조]** 핵심 리스크로 기업 현재 실적보다 Fed 금리인상 사이클 지목, 금리 상승이 경기침체로 이어질 수 있다는 관점 제시. 2년물 국채수익률이 5%에 근접한 신호 언급, Fed가 시장을 ...",
-      "link": "https://t.me/MASSITRADING/193316",
-      "keywords": [
-        "수요",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 15:32",
-      "text": "🎯 **[금리 인상 사이클이 최대 리스크, 2년물 5% 근접과 은행 실적 주목]** 경기침체로 이어질 수 있는 가장 큰 위험 요인으로 기업의 현재 실적보다 금리 인상 사이클을 지목. 미국 2년물 국채금리 시사점으로 금리 수준 5% 근접 언급, 연준이 시장 신호를 더 강...",
-      "link": "https://t.me/MASSITRADING/193315",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 15:17",
-      "text": "🎯 **[Mag 7 주도 4년 강세장, Fed 금리·에너지 상승이 소비와 폭에 부담]** 최근 4년 강세장 지속, 연평균 약 20% 수익률 언급; 2022년 급락 이후 대형주 중심 반등 강화. 4년 누적 성과로 S&P 500 약 120% 상승, NASDAQ 약 165%...",
-      "link": "https://t.me/MASSITRADING/193314",
-      "keywords": [
-        "수요",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 15:17",
-      "text": "🎯 **[긴축 장기화가 침체 촉발 우려; 2년물 5% 근접, 은행 실적이 소비 신호 제공]** 우려의 초점, 현재 기업 실적보다 Federal Reserve의 금리 인상 사이클 지속이 경기침체로 이어질 위험에 맞춰짐. 채권시장에서 2년물 금리가 5%에 근접한다는 언급과...",
-      "link": "https://t.me/MASSITRADING/193313",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 15:17",
-      "text": "🎯 **[Anthropic Claude Plus 수요, 개인보다 기업 중심; 고금리 속 소비력 시험대]** 가계(일반 소비자) 대상 생성형 AI 고가 구독(월 100달러) 수요 제한적 관측, 단순 업무 위주 사용 가능성 제기. 성장 동력, 개인보다 Corporate A...",
-      "link": "https://t.me/MASSITRADING/193312",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 15:02",
-      "text": "🎯 **[미국 소비 심리 5개월 최저, 가계부채 18조달러·저축률 하락]** S&P 500 지수는 사상 최고치 근처지만, 가계는 가솔린·연료, 자동차 보험, 케이블 요금, 의료보험 등 생활비 상승 압력 지속. University of Michigan 집계 consume...",
-      "link": "https://t.me/MASSITRADING/193309",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-13 14:32",
-      "text": "🎯 **[IREN, 앤스로픽 다년 클라우드 계약 보도에 급등…데이터센터 투자 재원 의문도]** 개장 전 IREN 주가 상승; 앤스로픽이 IREN과 다년 클라우드 계약에 합의했다는 보도 영향. 보도 핵심, 앤스로픽이 데이터센터를 빠르게 구축해 즉시 수익화 가능하다고 판단...",
-      "link": "https://t.me/MASSITRADING/193299",
+      "date": "2026-10-13 18:47",
+      "text": "🎯 **[Scaramucci, 관세·전쟁·부패가 인플레이션과 서민 부담 악화 경고]** Anthony Scaramucci, 신간 『All the Wrong Moves』에서 미국의 부족주의·정파화 심화 배경을 경제·정치·역사 관점으로 분석했다고 설명. 트럼프 행정부 합류...",
+      "link": "https://t.me/MASSITRADING/193369",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-13 14:32",
-      "text": "🎯 **[아마존, AI 칩 전환 소프트웨어 디카르트 인수 검토…생태계 주도권 경쟁 부각]** 월스트리트저널, 아마존이 AI 스타트업 디카르트 인수 협의 중이라고 보도; 거래 성사 시 잠재 가치 약 70억달러 거론. 디카르트 소프트웨어, 개발자가 서로 다른 AI 칩 간 ...",
-      "link": "https://t.me/MASSITRADING/193298",
+      "date": "2026-10-13 18:32",
+      "text": "🎯 **[대형은행·존슨앤드존슨 실적과 기존주택판매 발표…금리 상승의 파급 점검]** 10월 13일(화) 실적 시즌 주요 일정으로 JP모건, 웰스파고, 씨티그룹, 골드만삭스 3분기 실적을 개장 전 발표 예정. 관전 포인트로 국채금리 상승이 은행 예금 조달비용을 끌어올리고...",
+      "link": "https://t.me/MASSITRADING/193366",
       "keywords": [
-        "공급",
-        "TP"
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-13 18:32",
+      "text": "🎯 **[메디케어 Part D 선택지 감소와 보험료 상승, 2027년 처방약 상한 2,400달러]** 메디케어 Part D(처방약 프로그램) 플랜 선택지 감소 지속, 일부 플랜 월 보험료 50~100달러 인상 사례 언급. 2027년 처방약 본인부담 상한 2,400달러로...",
+      "link": "https://t.me/MASSITRADING/193364",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-13 18:17",
+      "text": "🎯 **[Omar Aguilar, 집중도·금리 부담 경고하며 중립 포지셔닝과 품질 선호 제시]** Schwab Asset Management CEO/CIO Omar Aguilar, 4년간 불마켓의 높은 성과에도 시장 집중도와 breadth 약화를 주요 리스크로 지목. ...",
+      "link": "https://t.me/MASSITRADING/193361",
+      "keywords": [
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-13 18:02",
+      "text": "🎯 **[아마존 링, 차고 배송 확산 속 인홈 배송 한계와 인공지능 기반 혁신 강조]** 아마존의 차고 배송은 ‘준(準)사적 공간’인 차고를 활용해 보안·편의 균형을 맞추는 방식으로 평가. 거주자 부재 시 ‘집 안’으로 직접 배송하는 모델은 심리적 저항과 프라이버시 우...",
+      "link": "https://t.me/MASSITRADING/193357",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-13 17:02",
+      "text": "🎯 **[iPhone Duo, Pro 주문 잠식 가능…Apple 홈 이벤트·SpaceX 스펙트럼도]** iPhone Duo 관련 수요가 18 Pro·18 Pro Max 주문을 잠식할 수 있다는 관측 제기, 단순 100달러 가격 차보다 제품 차별화와 대기 수요 영향이 더...",
+      "link": "https://t.me/MASSITRADING/193344",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-13 16:47",
+      "text": "🎯 **[AI 인프라 투자 확산 속 장기투자 우위와 고평가·자본비용 리스크 부각]** 분기 지표 전반 양호 평가 속 금리·인플레이션 변수 제외 시 주가 상방 여지 언급. AI 관련주 매매를 단기 ‘도박’처럼 접근하는 흐름 지적, AI 투자 장기 관점 필요성 강조. 단기...",
+      "link": "https://t.me/MASSITRADING/193340",
+      "keywords": [
+        "사이클"
       ]
     },
     {
@@ -720,6 +671,24 @@
     },
     {
       "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-13 16:59",
+      "text": "**[마감브리프] 26.10.13.(화) 뉴스 TOP10 - SK하이닉스, 삼성바이오로직스, 삼성전자, 풍산 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261013165826662...",
+      "link": "https://t.me/IRNOTE_YSTREET/5393",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-13 16:31",
+      "text": "**[탐방노트] 아이컴포넌트, ESL 배리어 필름으로 이익 확보, 페로브스카이트 시장 개화도 기대 중**  ✅ 전자가격표시기용 배리어 필름 시장 점유율 약 70~80%로 추산되며 캐시카우 역할 중  ✅ 기존 롤투롤 라인에서 플렉서블 페로브스카이트 태양전지용 배리어 필름...",
+      "link": "https://t.me/IRNOTE_YSTREET/5392",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
       "date": "2026-10-13 14:00",
       "text": "**[컨콜노트] 피엔케이피부임상연구센타, 수주잔고 분기 최대… 건기식 비중 12%·해외 M&A 검토**  ✅ 2025년 매출 228억 원으로 역대 최대를 기록했으며 2분기 말 수주잔고는 82억 원으로 전분기 대비 37% 증가함  ✅ 화장품 생산액이 연평균 3.45% 성...",
       "link": "https://t.me/IRNOTE_YSTREET/5390",
@@ -844,24 +813,6 @@
       "link": "https://t.me/IRNOTE_YSTREET/5364",
       "keywords": [
         "수주"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-10-07 08:39",
-      "text": "**[모닝브리프] 26.10.07.(수) 뉴스 TOP10 - 삼성바이오로직스, 주성엔지니어링, 신세계, LG에너지솔루션 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261007083...",
-      "link": "https://t.me/IRNOTE_YSTREET/5363",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-10-06 19:16",
-      "text": "🤔'이 주식은 반드시 오를거야' 그런다고 주가가 오를까요?  🎯왜 샀는지 설명할 수 있어야 진짜 투자가 시작됩니다.  🔍차트와 뉴스에 흔들리기 보다 '산업의 구조'를 먼저 알아야 합니다  ✔️ 산업 핵심개념 ✔️ 산업별 밸류체인 ✔️ 섹터별 투자전략  **🎉 지금 신청...",
-      "link": "https://t.me/IRNOTE_YSTREET/5362",
-      "keywords": [
-        "밸류체인"
       ]
     },
     {
@@ -1060,6 +1011,16 @@
       "link": "https://t.me/DH_FINANCE/4123",
       "keywords": [
         "YoY"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-13 16:27",
+      "text": "국내 주식 마감 시황 - 10월 13일  『6,000p 턱걸이에도 반등한 종목들』 시황 강진혁 ☎️02-3772-2329  코스피 6,035.35 (-5.46%), 코스닥 837.03 (-1.43%)  반도체 투매에 두 달 만에 사이드카 발동  금일 KOSPI, KOS...",
+      "link": "https://t.me/SHINHANRESEARCH/53074",
+      "keywords": [
+        "공급",
+        "밸류체인"
       ]
     },
     {
@@ -1284,13 +1245,13 @@
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-12 07:51",
-      "text": "**『KG스틸(016380.KS) - 3Q보다 중요한 2027년의 변화』** **기업분석부 박광래**  **▶️신한생각: 단기 모멘텀은 약해도 주가 하방은 제한적** - 3분기 실적 부담, PLTCM 대수리, 케이카 연결 회계 변화로 단기 주가는 박스권 흐름 예상 - ...",
-      "link": "https://t.me/SHINHANRESEARCH/53044",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-10-13 16:35",
+      "text": "한국 마켓 클로징(10월 13일)  코스피, 외국인 매도에 털썩  # 국내 마감 ▶️ Summary · 코스피 6,035.35(-5.46%), 코스닥 837.03(-1.43%) · 외국인, 국내 증시에서 5거래일 간 약 13조 원 순매도. 지난 7월 초 이후 최대 · ...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7682",
       "keywords": [
-        "쇼크",
-        "QoQ"
+        "상향",
+        "OP"
       ]
     },
     {
@@ -1423,39 +1384,6 @@
         "수요",
         "공급",
         "수주"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-10-06 10:13",
-      "text": "마켓 뷰 (10월 6일) ▶ Summary: 코스닥, 하루만에 반등할까 -코스피 7,013.64(+9.90p, +0.14%), 코스닥 908.67(+15.38p, +1.72%)  -전 거래일 6거래일만에 하락한 코스닥, 장 초반 2% 내외 반등   · TIGER 라틴3...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7654",
-      "keywords": [
-        "수요",
-        "공급",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-10-06 07:21",
-      "text": "글로벌 마켓 브리핑(10월 6일) ▶고금리 이긴 AI 투자심리, 나스닥 ‘사상 최고’   *Key Indices 1. 미국증시 주요지수 - 다우존스 산업평균: 51,267.90/ +0.18% - S&P500: 7,773.95/ +0.66% - 나스닥 종합: 27,477...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7653",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-10-02 17:09",
-      "text": "한국 마켓 클로징(10월 2일)  코스닥, 6거래일 만에 하락  # 국내 마감 ▶️ Summary · 코스피 7,003.74(+0.46%), 코스닥 893.29(-0.11%) · 기관 순매수 이어지며 코스피 7,000pt 회복..외국인은 코스닥 순매도 전환 · 달러-원...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7651",
-      "keywords": [
-        "공급",
-        "OP"
       ]
     },
     {
@@ -1657,6 +1585,27 @@
     },
     {
       "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-13 17:40",
+      "text": "📮[메리츠증권 음식료/유통 김정욱]  오리온(272160) 국가별 9월 실적 Comment  보고서링크: https://han.gl/ngi3H  요약: 3Q26 국가별 합산 실적은 매출액 9,203억원으로 전년비 10.8% 성장 영업이익은 1,519억원으로 전년비 6....",
+      "link": "https://t.me/MERITZ_RESEARCH/44831",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-13 16:54",
+      "text": "📮 [메리츠 투자전략 황수욱] 2026.10.13  **급락 코멘트와 대응 전략**  (자료) https://tinyurl.com/2h4mmmf2  KOSPI 지수는 10월 초부터 5거래일 연속 하락, 10월 2일 종가 대비 오늘 장중 저점(5,911pt)까지 15.6...",
+      "link": "https://t.me/MERITZ_RESEARCH/44830",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
       "date": "2026-10-13 09:56",
       "text": "📮[메리츠 화장품/생활소비재 박신애]  **▶ 에이피알(278470) ** **3Q26E Preview: 흔들림 없는 성장**  **▶ 3Q26 Preview: 고성장 지속, 원화 강세로 수익성 눈높이는 하향**   - 3Q26 연결 매출 7,770억원 (+101% Y...",
       "link": "https://t.me/MERITZ_RESEARCH/44829",
@@ -1734,27 +1683,6 @@
       "text": "📮 [메리츠증권 반도체/디스플레이 김선우]  ▶ 2026년 10월 반도체 수출입통계 잠정치 발표 (~10.10)  (MoM 증감률은 1~10일 기준)  1) 메모리  - 수출 금액: 85억 7,700만 달러 (+219.6% YoY, -17.4% MoM)  - 수출 단가...",
       "link": "https://t.me/MERITZ_RESEARCH/44807",
       "keywords": [
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-10-12 08:01",
-      "text": "📮[메리츠증권 통신/우주/미디어 정지수]  ▶ LG유플러스(032640) [Buy, TP 18,000원] 3Q26 Preview: 평온한 실적 2026.10.12(월)  (Report) https://tinyurl.com/2mrxwzd3  - 3Q26 연결 매출액 3조...",
-      "link": "https://t.me/MERITZ_RESEARCH/44801",
-      "keywords": [
-        "수요",
-        "TP",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-10-12 08:00",
-      "text": "📮[메리츠증권 통신/우주/미디어 정지수]  ▶ KT(030200) [Buy, TP 74,000원] 3Q26 Preview: 본업은 주춤해도 든든한 자회사들 2026.10.12(월)  (Report) https://tinyurl.com/2vypbx4x   - 3Q26 연...",
-      "link": "https://t.me/MERITZ_RESEARCH/44800",
-      "keywords": [
-        "TP",
         "YoY"
       ]
     },
