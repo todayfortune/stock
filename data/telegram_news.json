@@ -71,87 +71,102 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-15 14:41",
-      "text": "[SK증권 반도체 한동희, 손 건/해외주식 박제민]  **TSMC FY3Q26 실적발표  ▶️ FY3Q26 실적 (Non-GAAP)**  매출액 $46.7B (+16% QoQ, +41% YoY): 컨센서스 +2% GPM 66.4% (-1%p QoQ, +7%p YoY):...",
-      "link": "https://t.me/IDEA_MEMO/27255",
-      "keywords": [
-        "QoQ",
-        "YoY"
-      ]
-    },
-    {
       "source": "@MASSITRADING",
-      "date": "2026-10-16 14:03",
-      "text": "🎯 **[미국 PPI 급등, 가솔린 20% 급등이 절반 기여…연준 ‘일시적’ 논리 약화]** 미국 PPI(생산자물가) 발표에서 최종수요(final demand) 전월 대비 1.3% 상승. 식품·에너지 제외(ex-food and energy) 시 0.7% 상승으로 둔화되...",
-      "link": "https://t.me/MASSITRADING/194423",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-16 14:03",
-      "text": "🎯 **[TSMC 기록적 3분기에도 주가 부진, 마진 가이던스·차익실현 부담]** Taiwan Semi(TSMC) 3분기 사상 최대 이익으로 추정치 상회, AI 수요가 실적을 견인. 매출 증가와 함께 순이익 전년 대비 약 60% 증가 언급. operating margi...",
-      "link": "https://t.me/MASSITRADING/194421",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-16 13:48",
-      "text": "🎯 **[토큰 지출 둔화와 지역 반발, Anthropic IPO·AI 수요 지속성 시험대]** RAMP의 Ara Kazarian 자료에서 토큰 지출 증가세가 둔화된 정황이 제시되며, AI 수요가 ‘완전히 명확’하다는 전제에 의문 제기. 토큰 지출은 둔화됐지만 총 AI ...",
-      "link": "https://t.me/MASSITRADING/194418",
+      "date": "2026-10-16 16:48",
+      "text": "🎯 **[서비스·근원 물가 재가속에 연준, 금리 충분성 불확실·긴축 경계 유지]** 최근 물가 지표가 실망스럽다는 평가; services inflation이 5%를 상회하며 개선 신호 제한, 이는 관세(tariffs)·유가 등으로 설명하기 어렵다는 지적. 단일 월간 지...",
+      "link": "https://t.me/MASSITRADING/194464",
       "keywords": [
         "수요",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-16 13:48",
-      "text": "🎯 **[AI 데이터센터 채권 스프레드 확대, CoreWeave 등 네오클라우드 자금조달 경고]** 기술 패러다임 전환 국면에서도 승자·패자 분화가 확대되는 흐름 부각; 하이퍼스케일러 대비 네오클라우드의 자금조달 구조 취약성에 시장 시선 집중. Gartner 보고서에서...",
-      "link": "https://t.me/MASSITRADING/194417",
-      "keywords": [
-        "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-16 13:33",
-      "text": "🎯 **[원유 운송비 8,000만달러로 SpaceX Falcon 9 발사비 상회]** 미국에서 중국으로 원유를 운송하는 비용이 약 8,000만달러로, SpaceX Falcon 9 표준 발사 비용 7,400만달러를 상회. Gibson Ship Brokers 지적대로 Ir...",
-      "link": "https://t.me/MASSITRADING/194411",
-      "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-16 13:18",
-      "text": "🎯 **[9월 CPI 0.6% 급등·연 3.7%, 임금 역행과 Fed 인상 기대 재점화]** 9월 소비자물가(CPI) 보고서에서 월간 물가 0.6% 상승, 연간 3.7% 상승 기록; 시장 예상 상회, Fed 목표 2% 크게 상회. 상승 주도 요인 에너지; 휘발유 가격 ...",
-      "link": "https://t.me/MASSITRADING/194405",
+      "date": "2026-10-16 16:33",
+      "text": "🎯 **[CoreWeave 자금조달 SPV·고객 담보 구조 강조, 매출·용량 확대가 주가 핵심 변수]** CoreWeave 관련 논의에서 핵심은 자금조달 구조. 거래 상당수는 CoreWeave 자체 대차대조표가 아니라 고객(예: Meta) 계약을 SPV에 담고, 고객 ...",
+      "link": "https://t.me/MASSITRADING/194460",
       "keywords": [
-        "상향"
+        "상향",
+        "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-16 13:03",
-      "text": "🎯 **[CPI 둔화·LEI 양호 속 10년물 5%가 주식 멀티플 압박 요인]** 소비자 물가 상승률, 과거 최고 약 9.1 수준 대비 크게 하락했고 최근 2개월 연속 3.4로 유지, 이전 5에 근접했던 수준에서 추가 둔화 흐름. 선행경기지수 LEI 긍정 신호 유지, ...",
-      "link": "https://t.me/MASSITRADING/194402",
+      "date": "2026-10-16 16:18",
+      "text": "🎯 **[금리·부채 부담 부각, AI 데이터센터 주식·채권 분화와 CoreWeave 매수 논쟁]** Russell 2000, 고점 대비 11% 하락으로 조정장 진입. 반도체 섹터, 장기 하락 흐름 지속 속 매도 압력 확대 조짐. 장 초반 Dow 선물 상승 대비 NASD...",
+      "link": "https://t.me/MASSITRADING/194458",
       "keywords": [
-        "상향"
+        "상향",
+        "수요",
+        "공급",
+        "사이클"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-16 12:48",
-      "text": "🎯 **[10년물 급등·모기지 7% 근접 속 FOMC 동결 기대, CPI·LEI는 경기 견조 시사]** 미국 국채 10년물·30년물 금리 상승과 함께 모기지금리 7% 재근접 언급, 금리 환경이 시장 불안을 자극하는 요인으로 제시. 이번 주 FOMC를 앞두고 ‘연준이 동...",
-      "link": "https://t.me/MASSITRADING/194400",
+      "date": "2026-10-16 16:03",
+      "text": "🎯 **[Walmart 패션 강화 논쟁…고소득층 다운트레이딩과 명품 수요 둔화 주목]** Walmart의 패션·의류 경쟁력에 대한 논쟁 전개: 전통적 쇼핑 경험(매장 분위기·브랜드 경험) 측면에서 고관여 패션 구매처로서 한계 지적. 반론으로, 고품질 기본 아이템(예: ...",
+      "link": "https://t.me/MASSITRADING/194455",
       "keywords": [
-        "상향"
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-16 16:03",
+      "text": "🎯 **[Apple·Meta, iPhone 로컬 AI 에이전트 추진…기기 교체 수요 재점화]** 방송 중 Apple과 Meta 관련 발표 언급: Apple 기기에서 로컬 AI 에이전트 구동 추진 관측, AI 네이티브 구동에 필요한 신규 칩·메모리·전력 수요 확대 가능성...",
+      "link": "https://t.me/MASSITRADING/194454",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-16 15:48",
+      "text": "🎯 **[스마트폰 출하 급감, 메모리 원가 급등·온디바이스 AI가 교체 수요 좌우]** 글로벌 스마트폰 출하량 감소 배경으로 부품 원가, 특히 메모리 비용의 급등(300% 이상 상승 언급)과 소비자 가격 민감도 확대가 지목. 고가 단말 가격 인상 여력 제한으로 제조사 ...",
+      "link": "https://t.me/MASSITRADING/194452",
+      "keywords": [
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-16 15:48",
+      "text": "🎯 **[Tesla 고평가 논쟁, RoboTaxi 확장·규제 리스크와 SpaceX 합병 기대가 변수]** 시장 고평가 논쟁 핵심, Tesla에 적용되는 높은 밸류에이션 배수와 향후 5년 성장률 가정. Optimus 휴머노이드 로봇 관련해 제조 난이도(특히 손·손가락 구...",
+      "link": "https://t.me/MASSITRADING/194450",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-16 15:33",
+      "text": "🎯 **[AI 안전·규제 공백 속 cybersecurity 수요 확대와 산업 자율규제 논쟁]** AI 발전 속도가 규제·감시 체계 구축 속도를 앞지르며, 금융권의 SEC·FINRA·broker-dealer compliance와 같은 준법 프레임 대비 AI 영역의 공백이...",
+      "link": "https://t.me/MASSITRADING/194447",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-16 15:18",
+      "text": "🎯 **[AI 데이터센터 투자, 성장·이익 견인하나 금리·자본비용 압박 확대]** 패널 논의 핵심 쟁점: AI 데이터센터 건설·인프라 투자 확대가 경기 하강을 막는지, 반대로 인플레이션과 자본비용 압박으로 다른 산업·중소기업(SMB) 침체를 심화하는지 여부. Fed의 ...",
+      "link": "https://t.me/MASSITRADING/194443",
+      "keywords": [
+        "상향",
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-16 14:48",
+      "text": "🎯 **[CoreWeave 채권수익률 15% 급등·주가 급락, NVIDIA 연계 속 BofA 매수 유지]** CoreWeave 주가, 수요일 약 15% 급락 이후 추가 하락 압력 확대. CoreWeave 회사채, AI 둔화 우려와 높은 부채 부담으로 전 만기 구간에서 ...",
+      "link": "https://t.me/MASSITRADING/194436",
+      "keywords": [
+        "수요",
+        "사이클"
       ]
     },
     {
@@ -425,6 +440,16 @@
       "link": "https://t.me/MSTARYUN/10960",
       "keywords": [
         "수요"
+      ]
+    },
+    {
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-10-16 15:07",
+      "text": "[장 중 시황] 젠슨황 발언에 AI 우려 완화, 불안정한 수급 환경 속 변동성 확대 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(15시 00분): KOSPI +3.05% 상승 / 5,723.74pt  (KOSDAQ: +5.37% 상승 / 801.64p...",
+      "link": "https://t.me/DAISHINSTRATEGY/6351",
+      "keywords": [
+        "수요",
+        "YoY"
       ]
     },
     {
@@ -758,13 +783,12 @@
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-10-12 16:30",
-      "text": "**[탐방노트] M83, 본업 턴어라운드 및 AI 밸류체인 기반의 글로벌 도약 가시화**  ✅ 2024년 업황 부진을 딛고 2026년 상반기 별도 기준 흑자 전환 및 하반기 연결 실적 턴어라운드가 가시화됨  ✅ 자회사 피앤티링크는 환율 하락 수혜와 AI 서버 수요 급증...",
-      "link": "https://t.me/IRNOTE_YSTREET/5383",
+      "source": "@YAZA_STOCK",
+      "date": "2026-10-16 16:19",
+      "text": "주변지인들께 공유하고 동의를 부탁드립니다. 대한민국 주식시장을 살리는 길입니다.   https://news.einfomax.co.kr/news/articleView.html?idxno=4439528  1400만 개미투자자를 기만하는 ‘무늬만’ 주주 보호법인 ‘의무공개매...",
+      "link": "https://t.me/YAZA_STOCK/12374",
       "keywords": [
-        "수요",
-        "밸류체인"
+        "TP"
       ]
     },
     {
@@ -876,15 +900,6 @@
       ]
     },
     {
-      "source": "@YAZA_STOCK",
-      "date": "2026-10-09 11:33",
-      "text": "업데이트: 최초 기사 게재 이후, 파이낸셜타임스(FT)는 기사를 수정해 OpenAI의 9월 연환산 순매출(Net Revenue)은 500억 달러, 총매출(Gross Revenue)은 700억 달러라고 밝혔습니다.  Update: Following the initial ...",
-      "link": "https://t.me/YAZA_STOCK/12344",
-      "keywords": [
-        "init"
-      ]
-    },
-    {
       "source": "@DH_FINANCE",
       "date": "2026-10-15 15:19",
       "text": "은행 9월 여수신: 조달 구조 개선과 기업대 경쟁 완화가 필요 (URL: https://buly.kr/8IytL8a)  ● 여신(이하 YoY, +4.4%) 자영업자: 19개월째 1% 이하 유지 법인 중기: 4개월 연속 +6% 대기업: +14%, 최근 4년래 최대 순증(...",
@@ -950,6 +965,16 @@
       "link": "https://t.me/DH_FINANCE/4123",
       "keywords": [
         "YoY"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-16 16:38",
+      "text": "국내 주식 마감 시황 - 10월 16일  『젠슨황+워시 세 치 혀에도 여진 지속』 시황 강진혁 ☎️02-3772-2329  코스피 5,668.05 (+2.05%), 코스닥 794.78 (+4.46%)  Jensen Huang 발 신용 우려 진정에 반등 성공  금일 KO...",
+      "link": "https://t.me/SHINHANRESEARCH/53143",
+      "keywords": [
+        "상향",
+        "서프라이즈"
       ]
     },
     {
@@ -1199,6 +1224,16 @@
     },
     {
       "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-10-16 16:23",
+      "text": "**월스트리트파인더 Ep.210 - 55조 자사주 매입 막바지, 코스피의 다음 시험대**  **■ Key Takeaways** - 7월보다 약해진 저가매수 기반, 외국인 수급 복귀의 중요성 확대 - 견조한 AI 수요와 자본조달 불안 공존, 주요 수요처의 투자 지속 여력...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7710",
+      "keywords": [
+        "상향",
+        "수요"
+      ]
+    },
+    {
+      "source": "@GLOBALMKTINSIGHT",
       "date": "2026-10-16 10:20",
       "text": "마켓 뷰 (10월 16일) ▶ Summary: 반등, 아직은 약한 -코스피 5,709.01(+154.79p, +2.79%), 코스닥 788.74(+27.92p, +3.67%)  -국내증시 반등..외국인 매도 지속, 전일 낙폭 대비 반등폭 제한  · 리가켐바이오: 표적 ...",
       "link": "https://t.me/GLOBALMKTINSIGHT/7708",
@@ -1394,6 +1429,18 @@
       "text": "**#방산**** 260929**  여러 일들이 있었지만, 올 초만 해도 로템이 5사 중 시총 꼴등이 될 거라고 누가 예상했을까. 올해 로템의 추락은 방산 섹터에서 다양한 수주 파이프라인의 가치를 가장 잘 설명한다고 생각.  수주 지연이 차이를 만들었다기엔 올해 저 중...",
       "link": "https://t.me/JOORINI34/9285",
       "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-10-16 15:09",
+      "text": "📝 텔레그램 심층 분석 Report (15시 09분) 기준  🌡️ 센티먼트 낙관 (+15) 💡 요약 코스닥 매수 사이드카 발동으로 급등, 한국 수출 실적 호조, 주요 종목들의 개별 호재 및 지수 반등 시도  🗣️ Top 키워드: 테슬라(185), AI(139), 연준 ...",
+      "link": "https://t.me/EASOBI/16985",
+      "keywords": [
+        "상향",
+        "공급",
+        "OP",
         "수주"
       ]
     },
@@ -1923,6 +1970,15 @@
       "link": "https://t.me/SKSRESEARCH/9245",
       "keywords": [
         "쇼크"
+      ]
+    },
+    {
+      "source": "@SURVIVAL_DOPB",
+      "date": "2026-10-16 16:03",
+      "text": "주변지인들께 공유하고 동의를 부탁드립니다. 대한민국 주식시장을 살리는 길입니다.   https://news.einfomax.co.kr/news/articleView.html?idxno=4439528  1400만 개미투자자를 기만하는 ‘무늬만’ 주주 보호법인 ‘의무공개매...",
+      "link": "https://t.me/SURVIVAL_DOPB/13850",
+      "keywords": [
+        "TP"
       ]
     },
     {
