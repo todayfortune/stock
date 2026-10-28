@@ -2,6 +2,39 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-10-28 08:46",
+      "text": "💥[**[속보] SK하이닉스 \"2030년까지 수요 우위 지속 전망\"**](https://www.news1.kr/industry/general-industry/6334217)...",
+      "link": "https://t.me/IDEA_MEMO/27597",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-10-28 05:54",
+      "text": "[테라다인 3Q26 실적, AI 반도체·메모리 검사장비 수요 확대에 실적 예상 상회]  *3분기 실적 -매출 13.06억 달러(+70% YoY), 컨센서스 12.7억 달러 상회 -비GAAP EPS 2.29달러(+169% YoY), 컨센서스 2.09달러 상회 -GAAP ...",
+      "link": "https://t.me/IDEA_MEMO/27592",
+      "keywords": [
+        "수요",
+        "공급",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-10-28 05:11",
+      "text": "[SK증권 반도체 한동희, 손 건/해외주식 박제민]  **Seagate Technology FY1Q27 실적발표 (After: -8.22%)  ▶️ FY1Q27 실적 (Non-GAAP)**  매출액 $4.2B (+17% QoQ, +61% YoY): 컨센서스 +2% GP...",
+      "link": "https://t.me/IDEA_MEMO/27590",
+      "keywords": [
+        "수요",
+        "공급",
+        "OP",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-10-27 16:12",
       "text": "[SK증권 반도체 한동희, 손 건]  **中 빅테크 알리바바·텐센트·바이트댄스, 삼성전자·SK하이닉스에 D램 장기계약 요청  ▶️ 장기공급계약(LTA) 요청 개요**  - 알리바바·텐센트·바이트댄스 등 중화권 대형 CSP, 삼성전자·SK하이닉스에 서버용 메모리 LTA ...",
       "link": "https://t.me/IDEA_MEMO/27586",
@@ -19,87 +52,117 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-27 07:09",
-      "text": "**마이크론 투자자 미팅 요약: 메모리의 전략적 가치와 사이클 지속성 부각 (Bofa)**  **1. 투자의견 및 핵심 요약**  • 투자의견 BUY 유지, 목표가 1,550달러, 톱픽 유지  • COO·CTO·CFO·IR 임원진과 뉴욕·보스턴 투자자 미팅 진행  • ...",
-      "link": "https://t.me/IDEA_MEMO/27573",
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:17",
+      "text": "🎯 **[India Geo platform, 기록적 IPO 흥행 후 상장 첫날 급등]** India Geo platform, 시장 데뷔 첫날 주가 급등. 기록적 IPO로 평가되며 청약이 22배 이상 몰린 것으로 집계. 대규모 초과청약과 상장 직후 강세는 India 플랫...",
+      "link": "https://t.me/MASSITRADING/200738",
       "keywords": [
-        "수요",
-        "공급",
-        "사이클"
+        "수요"
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-27 07:02",
-      "text": "* **월가, 앤스로픽-브로드컴 계약 담보금융 거래 참여**  혹 탄 브로드컴 CEO는 **\"이번 거래가 빠르게 증가하는 AI 컴퓨팅 수요를 지원할 자본이 존재한다는 점을 보여준다\"**고 밝혔다.    뱅크오브아메리카, 블랙스톤, 씨티, 모건스탠리는 10월 26일 앤트...",
-      "link": "https://t.me/IDEA_MEMO/27571",
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:17",
+      "text": "🎯 **[Ras Tanura 공격 화재 진압, Saudi Aramco 유럽향 spot 공급 재개 확대]** Saudi Arabia, Persian Gulf 연안 Ras Tanura 인근에서 공격 후 발생한 화재를 진압한 것으로 파악. Yemen Houthis가 공격을 ...",
+      "link": "https://t.me/MASSITRADING/200736",
       "keywords": [
+        "수요",
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:17",
+      "text": "🎯 **[JetBlue, 연료비 부담 속 손실 확대…유동성 20억달러 언급에도 연료 가정 리스크]** JetBlue, 실적에서 예상보다 큰 손실을 기록한 것으로 언급. 연료비 상승이 부담이나 여행 수요 강세가 일부 완충 요인으로 제시. 재무 우려: 보도에 따르면 채권자...",
+      "link": "https://t.me/MASSITRADING/200735",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:17",
+      "text": "🎯 **[Coca-Cola, EPS·매출 서프라이즈와 guidance 상향…북미 volume 정체가 약점]** Coca-Cola 실적: comparable EPS 0.91달러로 예상 0.88달러 상회, revenue 133.8억달러로 예상 129.2억달러 상회. 연간 ...",
+      "link": "https://t.me/MASSITRADING/200733",
+      "keywords": [
+        "상향",
+        "서프라이즈",
         "수요",
         "공급"
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-26 23:36",
-      "text": "**민심(투심)은 뉴스와 분위기로 하루아침에 바뀐다**  DS투자증권 투자전략 양형모  지금의 하락을 이끄는 불확실성은 세 곳에서 나왔습니다. 1) 챗GPT 매출과 앤트로픽 상장 가치 논란이 AI 수요를 의심하게 만들었고, 2) 데이터센터 병목과 네오클라우드 조달 문제...",
-      "link": "https://t.me/IDEA_MEMO/27565",
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:17",
+      "text": "🎯 **[Fed 결정 대기 속 Asia 주식 상승, Brent 115달러·미국 10년물 5% 상회]** 미국 S&P futures 변동 제한, Fed 결정과 미국 mega cap earnings 발표 대기 심리 반영. 시장 컨센서스, 이번 회의 금리 동결 전망 우세하나...",
+      "link": "https://t.me/MASSITRADING/200732",
       "keywords": [
-        "수요",
-        "사이클",
-        "업사이드"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-26 23:12",
-      "text": "앤트로픽의 매출 대비 컴퓨트 비용은 1Q25 251%에서 QoQ로 지속적으로 하락해 2Q26 48%까지 하락 **= 컴퓨트 1달러 당 매출은 같은 기간 5.2배 개선**...",
-      "link": "https://t.me/IDEA_MEMO/27564",
-      "keywords": [
-        "QoQ"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-26 22:21",
-      "text": "ANTHROPIC SEES CAPEX INCREASE SIGNIFICANTLY [...](https://x.com/financialjuice/status/2114708861349408890)...",
-      "link": "https://t.me/IDEA_MEMO/27560",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-26 22:21",
-      "text": "ANTHROPIC WARNS OF CATASTROPHIC, EXISTENTIAL RISKS TO HUMANITY [...](https://x.com/FirstSquawk/status/2114708323719397474)...",
-      "link": "https://t.me/IDEA_MEMO/27559",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-26 22:21",
-      "text": "ANTHROPIC: WE MAY BE REQUIRED TO SEEK ADDITIONAL FINANCING SOONER THAN WE CURRENTLY ANTICIPATE. [...](https://x.com/financialjuice/status/211470793297...",
-      "link": "https://t.me/IDEA_MEMO/27558",
-      "keywords": [
-        "OP"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-10-26 22:12",
-      "text": "$ANT ANTHROPIC: REVENUE GROWTH MAY NOT BE SUSTAINABLE RATE OF GROWTH MAY DECREASE SEES COSTS WILL BOOST OVER TIME, LOSSES WILL CONTINUE DON'T EXPECT T...",
-      "link": "https://t.me/IDEA_MEMO/27557",
-      "keywords": [
-        "OP"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-27 21:32",
-      "text": "🎯 **[Hilton 실적 서프라이즈에도 가이던스 하향으로 급락, Royal Caribbean 강세]** Hilton 주가 4% 이상 하락: EPS와 RevPAR(객실당 수익) 호조에도 불구하고 EPS 가이던스가 시장 예상 하회. 수요 배경으로 월드컵 및 업황 전반의 ...",
-      "link": "https://t.me/MASSITRADING/200298",
+      "date": "2026-10-28 14:17",
+      "text": "🎯 **[SoFi, 2026~2027 guidance 상향…members 1,700만명 돌파, ‘에브리싱 앱’ 전략 부각]** SoFi, 3분기 실적이 컨센서스를 상회했고 2026 guidance 상향. 주가 반등 흐름 언급. 2026 전망: adjusted net r...",
+      "link": "https://t.me/MASSITRADING/200731",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:17",
+      "text": "🎯 **[Boeing, 매출 242억달러에도 손실 확대…방산 호조·상업부문 개선이 관건]** Boeing 분기 실적: revenue 242억달러로 증가. core loss per share 0.34달러로 예상보다 손실 폭 확대 언급. 현금흐름: operating cas...",
+      "link": "https://t.me/MASSITRADING/200730",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:02",
+      "text": "🎯 **[Anthropic S-1, 데이터센터·칩 투자 급증과 Broadcom 630억달러 금융 리스크, 메모리 병목]** Anthropic S-1 내용 기반, 대규모 현금 보유에도 AI 인프라에 공격적 지출 지속 전망. 사업 2021년 ‘제로’ 수준에서 출발했으나, ...",
+      "link": "https://t.me/MASSITRADING/200727",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:02",
+      "text": "🎯 **[Dangote 정유사업 IPO, 나이지리아 수요만으로 목표 달성해 해외 배정 경쟁 심화]** 블룸버그 보도: 아프리카 최대 규모로 평가되는 Dangote 정유사업 IPO, 나이지리아 리테일·국내 투자자 수요만으로 목표 자금조달 규모를 충족한 것으로 파악. 정유...",
+      "link": "https://t.me/MASSITRADING/200725",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:02",
+      "text": "🎯 **[미국 빅테크 실적, AI 칩 수요·수익성·기업용 수익화가 핵심 관전 포인트]** 미국 대형 기술주 실적 발표 임박, 시장 관심은 단순 이익 규모보다 AI 관련 기술·수요의 ‘세부 지표’로 이동. 구글, 오라클·오픈AI의 구글 TPU 구매 관련 소식 이후 경쟁 ...",
+      "link": "https://t.me/MASSITRADING/200724",
+      "keywords": [
+        "수요",
+        "TP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:02",
+      "text": "🎯 **[Solidigm, 미국 내 450억달러 신규 공장 논의로 공급망·지정학 변수 부상]** 블룸버그 보도: SK하이닉스 자회사 Solidigm, 미국 내 신규 칩 공장에 약 450억달러 투자 논의. Solidigm, 메모리 시장 회복 국면에서 실적이 개선되는 가운...",
+      "link": "https://t.me/MASSITRADING/200723",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 14:02",
+      "text": "🎯 **[SK하이닉스, 분기 실적 서프라이즈와 HBM 4 가이던스에 주가 급등]** SK하이닉스 주가, 시장 예상보다 강한 분기 실적과 대규모 주주환원 발표 이후 상승세. 영업이익·매출은 예상치 상회, 순이익은 기술 생태계 보유자산 평가손익 및 일부 자산가치 조정 영향...",
+      "link": "https://t.me/MASSITRADING/200722",
       "keywords": [
         "서프라이즈",
         "수요"
@@ -107,159 +170,161 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-27 21:32",
-      "text": "🎯 **[Anthropic IPO 지배구조·고객집중 리스크 부각, Opus 5.5 이후 재가속 관측]** Anthropic 상장 서류에서 공동창업자 의결권 50.1% 유지 구조 공개. CEO Dario Amodei, President Daniela Amodei 포함 7...",
-      "link": "https://t.me/MASSITRADING/200295",
+      "date": "2026-10-28 13:47",
+      "text": "🎯 **[Anthropic S-1 공개, 수익성·현금흐름 개선과 compute 확보 경쟁 부각]** Anthropic, IPO 준비 과정에서 S-1 공개; 일부 재무·리스크 요인 사전 유출에도 현금 보유, 상반기 수익성 등에서 추가 정보 확인. 전년 대비 매출 급증(약...",
+      "link": "https://t.me/MASSITRADING/200721",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-28 13:47",
+      "text": "🎯 **[Meta 975억달러 조달 확대, Nvidia 30억달러 투자로 AI 자본수요 급증]** 단기 거시 이벤트로 Fed 회의(익일), ECB 회의(목요일), 미국 중간선거(약 1주 후) 예정. Meta 계획된 equity fundraise 규모 950억달러에서 9...",
+      "link": "https://t.me/MASSITRADING/200719",
       "keywords": [
         "상향",
-        "수요",
-        "업사이드"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 21:32",
-      "text": "🎯 **[Fed·ECB 이벤트 앞두고 Anthropic IPO prospectus와 Meta 대규모 자본조달 부각]** 시장 이벤트로 Fed 회의(다음 날), ECB 회의(목요일), 미국 중간선거(약 1주 전) 일정이 동시에 거론되며 변동성 촉발 요인으로 제시. Ant...",
-      "link": "https://t.me/MASSITRADING/200293",
-      "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-27 21:18",
-      "text": "🎯 **[Tacovas, direct-to-consumer 부츠에서 전국 웨스턴 라이프스타일 브랜드로 확장]** 오스틴 기반 Tacovas, 수제 cowboy boots·Western apparel 판매 기업으로 50개 이상 매장 보유, 연매출 수억 달러 규모로 성장....",
-      "link": "https://t.me/MASSITRADING/200291",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 21:17",
-      "text": "🎯 **[Rob Kaplan, AI 거래 급증 속 자본구조 차별화·Fed ‘대기’ 여지 강조]** Goldman Sachs가 Meta 대규모 주식 조달, SpaceX 부채 조달, Anthropx의 대형 IPO 관련 주관 역할을 수행했다는 흐름 속에서, 시장은 AI 관련...",
-      "link": "https://t.me/MASSITRADING/200288",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 21:17",
-      "text": "🎯 **[FOMC 앞두고 주가지수 선물 상승, 인플레이션 지표 강세 속 금리동결 전망]** 미국 주가지수 선물, 전일 반등 흐름 이어가며 S&P 500 소폭 상승, NASDAQ도 제한적 강세. 미국 국채금리, 전반적으로 소폭 하락하며 10년물 중심으로 수 bp 하락; ...",
-      "link": "https://t.me/MASSITRADING/200287",
+      "date": "2026-10-28 13:47",
+      "text": "🎯 **[AI 트레이드 재점화로 아시아 주식 상승, SK Hynix 실적·주주환원 촉매]** MSCI Asia 1% 이상 상승, 글로벌 AI 트레이드에 대한 신뢰 회복이 아시아 증시 전반 위험선호를 지지. 한국 KOSPI 6% 이상 급등하며 8월 이후 최고 일간 성과 ...",
+      "link": "https://t.me/MASSITRADING/200718",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-27 21:02",
-      "text": "🎯 **[FOMC 앞두고 주가지수 선물 강보합, 빅테크 실적과 CapEx·AI 지출 집중]** S&P 500 선물 강보합, Nasdaq 선물 상승 흐름으로 전일 반등 이후 추가 상승 시도 관측. 미국 국채금리 2년물·10년물·30년물 전반에서 소폭 하락 언급, 10년물...",
-      "link": "https://t.me/MASSITRADING/200286",
+      "date": "2026-10-28 13:47",
+      "text": "🎯 **[인도 Jio Platforms 상장 급등, Reliance 그룹 가치·AI 전환 과제 부각]** 인도 뭄바이 National Stock Exchange·Bombay Stock Exchange에서 Jio Platforms 신규 상장, 현장 행사 규모 확대와 경비...",
+      "link": "https://t.me/MASSITRADING/200717",
       "keywords": [
         "사이클"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-27 21:02",
-      "text": "🎯 **[AI 메가 자금조달 확산, IG 회사채 발행 기록 경신과 SPV 구조 부상]** 미국 주식시장 장 초반 S&P 500 상승, Nasdaq 상승, Russell 소폭 상승 흐름 관측. 최근 24시간 대형 자본조달 급증 국면 부각, 부채·주식 시장 동시 대형 거래...",
-      "link": "https://t.me/MASSITRADING/200285",
-      "keywords": [
-        "수주"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 21:02",
-      "text": "🎯 **[Jim Paulson, AI 낙관 속 기술주 과열 경고…방어주·순환주 비중 확대 제시]** 일부 종목, 장기 지출 규모 대비 성장 지속 가능성 불확실성 부각. 주가 20% 하락에도 밸류에이션 부담 남아 있을 수 있다는 평가 제기. Nasdaq 장중 반등 후 하...",
-      "link": "https://t.me/MASSITRADING/200283",
+      "date": "2026-10-28 13:32",
+      "text": "🎯 **[나이지리아 개인투자자 수요, 정유시설 IPO 흥행을 기록 수준으로 견인 전망]** 나이지리아 개인투자자 수요가 정유시설 IPO를 기록적 수준으로 밀어 올리고 있다는 관측 언급. 세부 수치와 일정은 추후 보도 예고....",
+      "link": "https://t.me/MASSITRADING/200715",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-27 20:48",
-      "text": "🎯 **[Broadcom- Anthropic 630억달러 금융조달, Meta 980억달러 증자 확대와 Apple 폴더블 결함]** 월스트리트저널 보도: Broadcom, Anthropic 대상 칩 공급 목적 630억달러 규모 금융조달 딜 주선 중. 주요 은행들이 계약에...",
-      "link": "https://t.me/MASSITRADING/200279",
+      "date": "2026-10-28 13:32",
+      "text": "🎯 **[연준 금리 동결 전망 속 AI 랠리·5% 금리·중국 모델 부상 점검]** 시장 컨센서스, 당일 연준 금리 동결 전망에도 불구하고 12월 추가 인상 가능성 가격 반영 지속. 미국 벤치마크 국채금리 5% 상회 재진입 국면에서, AI 트레이드가 미국 증시를 지지하는...",
+      "link": "https://t.me/MASSITRADING/200713",
       "keywords": [
-        "공급"
+        "쇼크"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-27 20:48",
-      "text": "🎯 **[PayPal 매출 부진으로 주가 압박, SoFi 2026 매출전망 상향에 급등]** PayPal 실적 발표 이후 핵심 사업 성장 신호와 전망 개선 언급에도 불구, 매출이 시장 예상치 하회하며 주가 약세. PayPal 지난 1년간 최고경영자 교체, 인수 논의 등...",
-      "link": "https://t.me/MASSITRADING/200278",
+      "date": "2026-10-28 13:32",
+      "text": "🎯 **[Fed·ECB 앞두고 Anthropic IPO와 Meta 975억달러 조달, Nvidia 30억달러 참여]** 향후 일정으로 Fed 회의(익일), ECB 회의(목요일), midterms(1주 내) 등 주요 이벤트가 거론되며 정책·정치 변수 동시 부각. Braz...",
+      "link": "https://t.me/MASSITRADING/200711",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-10-28 14:18",
+      "text": "삼성전기 3Q26 실적 컨퍼런스콜 요약  ① 핵심 요약 · 3Q 역대 최대 실적 시현. 환율 비우호적이었으나 AI 데이터센터·ADAS 수요 고성장으로 MLCC·FC-BGA 고부가 제품 판매 큰 폭 확대 · 4Q는 통상적 계절성을 크게 상회하는 큰 폭의 QoQ 성장 전망...",
+      "link": "https://t.me/JAKE8LEE/14365",
+      "keywords": [
+        "수요",
+        "공급",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-10-28 14:04",
+      "text": "**SK하이닉스           JP모건 ** 작성: 탐방왕(https://t.me/tambangwang)  3Q26 매출액은 104.6조원, 영업이익은 83.3조원으로 분기 기준 사상 최대 실적을 기록했으며, 시장 컨센서스와 당사 추정치를 각각 9%에서 16% 상회...",
+      "link": "https://t.me/JAKE8LEE/14364",
       "keywords": [
         "상향",
-        "서프라이즈"
+        "서프라이즈",
+        "수요",
+        "공급"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 20:47",
-      "text": "🎯 **[GTA 6 흥행 이후 지속 매출이 Take-Two 주가·밸류에이션 좌우]** Grand Theft Auto 6 출시에 대한 기대가 높으며, Take-Two 실적과 주가에 최소 2년간 결정적 변수로 지목. 초기 판매 급증은 사실상 전제되지만, 핵심은 출시 다음 ...",
-      "link": "https://t.me/MASSITRADING/200277",
+      "source": "@JAKE8LEE",
+      "date": "2026-10-28 10:33",
+      "text": "[DS증권 반도체 이수림] SK하이닉스 3Q26 컨퍼런스콜 Q/A (2)  4) 다운사이클 도래 가능성? - 강한 고객 수요에 대응하고 있고 기술 전환에 필요한 장비, 생산 공간 확보하기 위해 투자 지속하고 있음. 그러나 그와 정비례해서 공급이 증가하는 것은 아님. 투...",
+      "link": "https://t.me/JAKE8LEE/14362",
       "keywords": [
-        "서프라이즈"
+        "수요",
+        "공급",
+        "사이클"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 20:47",
-      "text": "🎯 **[머스크 10억달러 Skydance 투자, 합병 시너지·부채와 Netflix·YouTube 경쟁 부각]** 보도에 따르면 Elon Musk, David Ellison의 Skydance에 약 10억달러 투자 추진. Morningstar의 Matt Dolgen 분석...",
-      "link": "https://t.me/MASSITRADING/200276",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 20:33",
-      "text": "🎯 **[Elon Musk 네오클라우드 구조조정 경고, CoreWeave·Nebius 주가와 자금조달 우려 확대]** Elon Musk가 과거 CoreWeave 관련 bond yields와 credit default swaps 언급에 이어, 네오클라우드 업계 전반 구조...",
-      "link": "https://t.me/MASSITRADING/200274",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 20:33",
-      "text": "🎯 **[브로드컴, 앤트로픽 칩 공급 위한 630억달러 금융 추진 보도; 엔비디아 투자 언급]** 월스트리트저널 보도에 따르면 브로드컴이 앤트로픽에 칩을 공급하기 위한 630억달러 규모 금융 거래를 추진 중이며, 여러 대형 은행이 참여한 것으로 전해짐. 브로드컴 CEO...",
-      "link": "https://t.me/MASSITRADING/200273",
+      "source": "@JAKE8LEE",
+      "date": "2026-10-28 10:07",
+      "text": "*** 하이닉스 컨콜 중**  - 고객의 HBM 요구량은 당사 공급가능량의 두배를 상회...",
+      "link": "https://t.me/JAKE8LEE/14360",
       "keywords": [
         "공급"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 20:33",
-      "text": "🎯 **[빅테크 AI 투자 자금조달 확대, 고금리 속 배당·발행비용과 신용경계 부각]** AI 인프라 확대 위해 대규모 데이터센터 구축 필요성 부각, 빅테크 전반 자금 수요 확대 관측. 약 1,000억달러에 근접한 equity issuance 규모 거론, 투자 대비 수...",
-      "link": "https://t.me/MASSITRADING/200272",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 20:33",
-      "text": "🎯 **[미국 지수선물 상승 속 개별주 엇갈림: 제트블루 급등, 페이팔 약세, 소파이 강세]** 미국 주식선물은 전일 상승분을 이어가며 강보합 흐름으로 제시. 제트블루 주가, 2028년 EPS 최소 1달러와 양(+)의 자유현금흐름 달성 계획을 재확인한 뒤 장 시작 전 ...",
-      "link": "https://t.me/MASSITRADING/200271",
+      "source": "@JAKE8LEE",
+      "date": "2026-10-28 10:07",
+      "text": "*** 하이닉스 컨콜 중 (HBM4 수율 관련)**  - 업계 최상위 수율 기록하며 양산 차질없이 진행 중 - 백엔드 공정은 개별공정이 아니라 전체 공정기준 수율이 최상위라는 의미 - 이 기준으로 최근 당사는 **HBM4 계획수율을 상향조정**...",
+      "link": "https://t.me/JAKE8LEE/14359",
       "keywords": [
         "상향"
       ]
     },
     {
-      "source": "@MASSITRADING",
-      "date": "2026-10-27 20:33",
-      "text": "🎯 **[마이크 윌슨 “선거 불확실성 이미 가격 반영, 2027년 완만한 환경 기대”]** 모건스탠리 마이크 윌슨, ‘블루 스윕’ 전망 과도한 확신 경계와 함께 기본 시나리오로 민주당 하원 승리 및 상원 근소 우위 제시; 해당 경로는 시장에 상당 부분 반영됐다는 평가....",
-      "link": "https://t.me/MASSITRADING/200270",
+      "source": "@JAKE8LEE",
+      "date": "2026-10-28 08:57",
+      "text": "**SK하이닉스 2026년 3분기 실적  IR** (2026.10.28 / K-IFRS 연결 기준)  ** 1. 3분기 실적: 매출·영업이익 사상 최대**  **• 매출 104.62조원: QoQ +32%, YoY +328% • 영업이익 83.33조원: QoQ +38%,...",
+      "link": "https://t.me/JAKE8LEE/14356",
       "keywords": [
-        "공급"
+        "수요",
+        "공급",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-10-28 08:55",
+      "text": "SK하이닉스 3Q26 Key Highlights 미리보기  3분기  - DRAM B/G 약 10%↑QoQ ASP 20% 후반↑QoQ  - NAND B/G 소폭 감소 QoQ  ASP 20% 중반↑QoQ  4분기 - DRAM B/G 20% 중반 - NAND B/G 한자릿수...",
+      "link": "https://t.me/JAKE8LEE/14355",
+      "keywords": [
+        "수요",
+        "QoQ"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-10-28 00:01",
+      "text": "**TrendForce 메모리 전문가 세션, 2027년 DRAM·HBM 강세 전망 재확인 (GS)**  • 10월 27일 TrendForce 초청 메모리 전문가 웨비나 개최  **1. DRAM 가격: 2027년 내내, 1H28까지 상승 전망**  • 2027년 DRAM...",
+      "link": "https://t.me/JAKE8LEE/14353",
+      "keywords": [
+        "수요",
+        "공급",
+        "TP"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-10-28 00:01",
+      "text": "🔹**하이퍼스케일러와 메모리 반도체 주가의 상관관계 회복**  » 하이퍼스케일러와 메모리 반도체 기업들의 30일 주가 상관계수가 9월 초 -0.4 수준에서 최근 +0.23으로 회복  » 기존에는 AI 설비투자 확대가 하이퍼스케일러에 비용 및 현금흐름 부담으로, 메모리 ...",
+      "link": "https://t.me/JAKE8LEE/14352",
+      "keywords": [
+        "수요"
       ]
     },
     {
@@ -315,55 +380,6 @@
       ]
     },
     {
-      "source": "@JAKE8LEE",
-      "date": "2026-10-23 16:25",
-      "text": "**HBM 메모리 컨트롤러가 CoWoS에 들어간다고?  HBM 개수를 무제한으로 늘리는 시점이 앞당겨지나 — TSMC 특허 US ****2026/0334261****  인포마켓 강용운 대표 2026년 10월 23일  TSMC가 10월 22일 놀라운 특허 출원을 공개했습...",
-      "link": "https://t.me/JAKE8LEE/14334",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-10-23 11:24",
-      "text": "📮[메리츠증권 반도체/디스플레이 김선우]  ▶ SK하이닉스 (000660): 솔리다임 상장 검토 중단 코멘트  [솔리다임 IPO 사실상 철회, 이는 강화된 주주환원 정책으로 귀결]  - SK하이닉스는 금일 오전 솔리다임의 IPO 검토 중단을 발표했음. 다만, 여전히 솔...",
-      "link": "https://t.me/JAKE8LEE/14332",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-10-21 13:02",
-      "text": "안녕하세요. 음식료/담배 3Q26 Preview & 2027년 연간전망 자료 발간했습니다.  최근 1개월 음식료·담배 지수는 코스피를 약 24%p 아웃퍼폼했습니다. 변동성 국면에서 방어주 매력이 부각됐지만, 2027년에도 상대 강세가 이어지려면 결국 이익 성장으로 증명...",
-      "link": "https://t.me/JAKE8LEE/14327",
-      "keywords": [
-        "상향",
-        "서프라이즈",
-        "OP",
-        "TP",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@ONE_GOING",
-      "date": "2026-10-21 00:41",
-      "text": "**■ 증시 베스트 시나리오 '그냥' 낙서**  **1) 중간선거전 미국- 이란 결국 재합의되고 ** (이란은 시간이 갈수록 이제 불리. 트럼프는 중간선거전 하는게 좋음)  **2) 중간선거(11/3)는 공화당 상원은 유지하고, 하원만 민주당에 내주고** (정책 예측가...",
-      "link": "https://t.me/ONE_GOING/4387",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@ONE_GOING",
-      "date": "2026-10-20 13:54",
-      "text": "**■ 오늘 상장후 35% 하락중인 '엘리스' 요약 (1조원 대어였다가 시총 6600억)**  1) 비즈니스 모델 고성능 GPU 기반의 AI 클라우드 및 이동형 모듈러 데이터센터(PMDC)를 공급하는 **AX(인공지능 전환)·네오클라우드 인프라 기업**  2) 실적 성...",
-      "link": "https://t.me/ONE_GOING/4384",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
       "source": "@BRILLER_RESEARCH",
       "date": "2026-10-17 19:13",
       "text": "**[원리버님 두 번째 책 독서📖 시작!]**  지난주 사전예약으로 주문했던 [**원리버**](https://t.me/s/pharmbiohana)님의 두 번째 책이 몇일전 도착해서 어제부터** \"10배 오르는 바이오 주식의 비밀\"**책을 읽기 시작했습니다.  일단 책표...",
@@ -400,12 +416,22 @@
       ]
     },
     {
-      "source": "@BRILLER_RESEARCH",
-      "date": "2026-10-12 16:47",
-      "text": "✅ 엘앤씨바이오, 美 리투오 독점 공급계약…5년간 최소 6,000만 달러  https://www.biotimes.co.kr/news/articleView.html?idxno=35143...",
-      "link": "https://t.me/BRILLER_RESEARCH/4674",
+      "source": "@MSTARYUN",
+      "date": "2026-10-28 10:24",
+      "text": "\"__HBM 저단화 불구, 현재 고객의 요청 물량은 당사가 공급 가능한 물량의 두 배를 상회할 정도로 강한 수요가 지속__\" - SK하이닉스 3Q26 컨퍼런스콜 중...",
+      "link": "https://t.me/MSTARYUN/11051",
       "keywords": [
+        "수요",
         "공급"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-10-28 08:28",
+      "text": "📌 SK하이닉스(시가총액: 979조 5,903억) #A000660 📁 연결재무제표기준영업(잠정)실적(공정공시) 2026.10.28 08:28:11 (현재가 : 1,341,000원, 0.0%)  매출액 : 1,046,155억(예상치 : 973,416억+/ 7%) 영업익 ...",
+      "link": "https://t.me/MSTARYUN/11046",
+      "keywords": [
+        "OP"
       ]
     },
     {
@@ -480,32 +506,13 @@
       ]
     },
     {
-      "source": "@MSTARYUN",
-      "date": "2026-10-22 11:24",
-      "text": "**[삼성E&A 연간 가이던스 상향 조정]**  - 수주: 12조원 > 19조원 - 매출액: 10조원 > 11조원 - 영업이익: 0.8조원 > 1.4조원...",
-      "link": "https://t.me/MSTARYUN/11023",
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-10-28 07:44",
+      "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민입니다. [10월 28일 주요국 이슈] 보내드립니다.  # 미국 브로드컴, 앤트로픽의 AI 칩 구매 지원을 위해 630억달러(약 83조원) 규모의 자금 조달 주선 및 자산가치 보증 제공. 브로드컴...",
+      "link": "https://t.me/DAISHINSTRATEGY/6376",
       "keywords": [
-        "상향",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-10-22 08:42",
-      "text": "컨퍼런스 콜에서 머스크는 테슬라의 목표가 2030년까지 연간 약 500만 대의 차량 생산을 달성하는 것이라고 밝혔습니다. 에너지 저장 사업과 관련하여 회사 CFO는 데이터 센터의 메가팩 수요가 \"매우 강하다\"고 밝혔으며, 머스크는 2027년 메가팩 생산 물량이 거의 매...",
-      "link": "https://t.me/MSTARYUN/11021",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MSTARYUN",
-      "date": "2026-10-22 06:18",
-      "text": "**메타 3분기 어닝콜 중**  **저커버그: \"MUSE는 명확한 제품·시장 적합성(Product-Market Fit)을 확보했으며, 이제 대규모 확장 단계에 진입했다.\"**  - MUSE는 메타가 추진하는 개인 초지능(Personal Superintelligence)...",
-      "link": "https://t.me/MSTARYUN/11019",
-      "keywords": [
-        "상향",
-        "수요"
+        "수요",
+        "TP"
       ]
     },
     {
@@ -676,15 +683,49 @@
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-10-15 07:55",
-      "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민입니다. [10월 15일 주요국 이슈] 보내드립니다.  # 미국 미 연방준비제도(Fed), 10월 베이지북에서 국제유가 상승에 따른 비용 부담 확산 및 물가 압력 심화 언급. 연준은 10월 베이지...",
-      "link": "https://t.me/DAISHINSTRATEGY/6346",
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-28 13:10",
+      "text": "**[컨콜노트-전체공개] HD건설기계, 엔진의 성장세는 훌륭했지만 환율 영향을 피할 수 없었음**  ✅ 2026년 3분기 매출 2조 915억 원과 영업이익 1,577억 원을 기록하며 건설기계와 엔진 부문이 성장을 견인함  ✅ 환율 하락으로 인한 외화환산손실과 외환차손이...",
+      "link": "https://t.me/IRNOTE_YSTREET/5483",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-28 12:00",
+      "text": "**[컨콜노트] 이오테크닉스, 내년 매출 더블업도 문제가 아닐것**  ✅ 6월을 기준으로 최근 수주가 급격히 증가하고 있음  ✅ 현재 수주로 보면 내년 매출 더블업도 문제가 아닐 것임  ✅ 올해 하반기는 제품 믹스로 인해 보수적으로 보고 있음  👉 [전문보기](http...",
+      "link": "https://t.me/IRNOTE_YSTREET/5482",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-28 11:01",
+      "text": "**[컨콜노트-전체공개] SK하이닉스, 내년엔 HBM 위주 성장 기대**  ✅ 3분기는 AI 메모리 수요 증가로 인해 분기 매출 100조 돌파함  ✅ 자사주 매입 소각은 매분기마다 시행할것  ✅ -내년은 HBM 기반 매출과 이익이 큰 폭 증가될것  👉 [전문보기](ht...",
+      "link": "https://t.me/IRNOTE_YSTREET/5481",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-28 10:01",
+      "text": "**[컨콜노트] 한라캐스트, 로봇 제품 아이템이 늘고 있음**  ✅ 알루미늄 부품 생산 기업으로 전방 산업의 업황이 개선되고 있음  ✅ 매출이 꾸준히 우상향하고 있으며 최근 들어 수주가 크게 늘고 있음  ✅ 로봇 부품과 관련하여 미국 고객사와 진행하는 아이템이 늘고 있...",
+      "link": "https://t.me/IRNOTE_YSTREET/5480",
       "keywords": [
         "상향",
-        "수요",
-        "공급",
-        "YoY"
+        "수주"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-28 09:13",
+      "text": "**[모닝브리프] 26.10.28.(수) 뉴스 TOP10 - 삼성SDI, LG이노텍, SK하이닉스, LS 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261028091203065xz...",
+      "link": "https://t.me/IRNOTE_YSTREET/5479",
+      "keywords": [
+        "OP"
       ]
     },
     {
@@ -769,31 +810,30 @@
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-10-23 19:00",
-      "text": "**📝 금주 노다지IR노트 정리** (2026.10.19~2026.10.23)  - 제목을 클릭하면 상세내용을 보실 수 있습니다  🔸 **모닝&마감 브리프** [26.10.23.(금) 뉴스 TOP10 - 현대건설](https://contents.premium.naver...",
-      "link": "https://t.me/IRNOTE_YSTREET/5456",
+      "source": "@YAZA_STOCK",
+      "date": "2026-10-28 13:46",
+      "text": "삼성전기 컨콜 中  - 패키지기판의 대면적화 추세로 케파 잠식이 심한 상황에서 소수업체만 대응 가능한 상황 -  고객사들은 패키지 기판을 전략부품으로 가져가려고 있음 - 당사는 빅테크업체들의 대규모 투자비지원과 LTA 체결로 세종과 베트남 증설 진행 중이며, 시장수요 ...",
+      "link": "https://t.me/YAZA_STOCK/12428",
       "keywords": [
-        "수요",
-        "OP"
+        "수요"
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-10-23 17:01",
-      "text": "**[마감브리프] 26.10.23.(금) 뉴스 TOP10 - 현대건설, SK하이닉스, 한화오션, 한미약품 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261023165911304fo...",
-      "link": "https://t.me/IRNOTE_YSTREET/5455",
+      "source": "@YAZA_STOCK",
+      "date": "2026-10-28 10:33",
+      "text": "*** 하이닉스 컨콜 중**  - 고객의 HBM 요구량은 당사 공급가능량의 두배를 상회...",
+      "link": "https://t.me/YAZA_STOCK/12426",
       "keywords": [
-        "OP"
+        "공급"
       ]
     },
     {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-10-23 08:41",
-      "text": "**[모닝브리프] 26.10.23.(금) 뉴스 TOP10 - SK하이닉스, 삼성E&A, LG이노텍 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261023083910208ck)  💥...",
-      "link": "https://t.me/IRNOTE_YSTREET/5449",
+      "source": "@YAZA_STOCK",
+      "date": "2026-10-28 08:58",
+      "text": "30년까지 공급 부족...",
+      "link": "https://t.me/YAZA_STOCK/12424",
       "keywords": [
-        "OP"
+        "공급"
       ]
     },
     {
@@ -850,21 +890,13 @@
       ]
     },
     {
-      "source": "@YAZA_STOCK",
-      "date": "2026-10-21 10:34",
-      "text": "[SK증권 반도체 한동희, 손 건] ** 10월 1~20일 반도체 수출액 잠정치**  DRAM 109.5억달러 (+3% MoM, +25% QoQ) DRAM 모듈 47.5억달러 (-43% MoM, +53% QoQ) NAND 18.1억달러 (+18% MoM, +87% Qo...",
-      "link": "https://t.me/YAZA_STOCK/12396",
+      "source": "@DH_FINANCE",
+      "date": "2026-10-28 07:47",
+      "text": "신한지주: 잘 관리된 대손 및 연체 지표 (URL: https://buly.kr/ET1UGo2)  숫자 무난했습니다. 특이사항이라면 수수료 외 비이자이익 변동성이 커졌는데 3Q 시장 특성상 불가피했고... 건전성지표가 QoQ, YoY로 개선된 것이 눈에 띕니다.  자사...",
+      "link": "https://t.me/DH_FINANCE/4169",
       "keywords": [
-        "QoQ"
-      ]
-    },
-    {
-      "source": "@YAZA_STOCK",
-      "date": "2026-10-21 07:53",
-      "text": "**스페이스X 3분기 실적발표 중 주요 내용**  3~5년 후 현재보다 1,000배 더 많은 대역폭 필요. AI 에이전트는 사람보다 훨씬 더 많은 대역폭 사용, 에이전트 수도 사람보다 많아질 것   올해 남은 기간 매달 20만개 이상의 GB300을 확보하고 2027년에...",
-      "link": "https://t.me/YAZA_STOCK/12394",
-      "keywords": [
-        "수요"
+        "QoQ",
+        "YoY"
       ]
     },
     {
@@ -998,13 +1030,144 @@
       ]
     },
     {
-      "source": "@DH_FINANCE",
-      "date": "2026-10-06 09:09",
-      "text": "은행 3Q26 Preview: 손익 기대는 줄고, 환원 기대는 늘고 (URL: https://buly.kr/GEAw7lW) - 컨센 대비: KB/하나/IBK/JB 부합, 신한/우리/카뱅/BNK/iM 5% 이상 하회 - 당사 기존 추정 대비: KB/신한/하나/우리/JB ...",
-      "link": "https://t.me/DH_FINANCE/4139",
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 11:00",
+      "text": "마켓레이더(10월 28일, 오전)  리서치본부 주식전략팀  『자금 제약 우려 완화+반도체 주주환원에 사이드카』 시황 강진혁 ☎️02-3772-2329  KOSPI는 6.2% 상승한 5,985.9p. AI 기업 자금 조달 순항+하이닉스 실적 발표에 이틀째 사이드카 발동 ...",
+      "link": "https://t.me/SHINHANRESEARCH/53319",
+      "keywords": [
+        "수요",
+        "OP",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 08:02",
+      "text": "★ Daily Market Digest - 2026년 10월 28일 시황 강진혁 ☎️02-3772-2329  ▶ Daily Review Summary  - 미국 시장은 AI 투심 회복 이어진 가운데 유가 하락 더해져 반도체 등 기술주 강세. S&P500 +0.6%, N...",
+      "link": "https://t.me/SHINHANRESEARCH/53316",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 07:56",
+      "text": "『퀀트분석; 신한 Earnings Guide - 3Q Preview: 실적의 온도차』 퀀트 이정빈 ☎ 02-3772-2919  - 2026년 3분기 영업이익은 반도체 중심으로 증가 - 12개월 선행 EPS 상향은 에너지와 IT가 상대적으로 우위 - 3분기 서프라이즈 예...",
+      "link": "https://t.me/SHINHANRESEARCH/53315",
       "keywords": [
         "상향",
-        "QoQ",
+        "서프라이즈"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 07:48",
+      "text": "**[신한투자증권 전기전자 오강호]   LG이노텍: 다가오는 기판의 시간  ▶️ 추정치를 하회한 실적, 기판 성장 속도가 방향성Key** - 패키지솔루션(기판) 성장 속도가 주가 방향성 및 기울기 결정 - 단기 실적보다 AI 밸류체인 진입 기대에 주목 ** ▶️ 목표주...",
+      "link": "https://t.me/SHINHANRESEARCH/53314",
+      "keywords": [
+        "수요",
+        "공급",
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 07:48",
+      "text": "신한 해외주식 데일리(10/28) \"AI 투자 지속 기대 회복에 반도체 중심 기술주 강세\"  ▶️ 특징주 [제트블루(+19.0%)] CEO는 채권단과 협상 중이거나 부채 구조조정을 검토하고 있지 않다고 인터뷰하면서 재정에 대한 우려감 완화  [앱사이(+11.9%)] 1...",
+      "link": "https://t.me/SHINHANRESEARCH/53313",
+      "keywords": [
+        "상향",
+        "수요",
+        "TP",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 07:44",
+      "text": "**『에스티팜 (237690,KQ) - 단기 수익성보다 높아진 잠재력에 주목』** **기업분석부 윤석현 ☎️ ****02-3772-1546**  **▶️ 신한생각: 일회성 쇼크에 가린 수주 다변화와 수주잔고** 원화 강세로 예상치 못한 영업외비용에 과도한 주가 반응 판...",
+      "link": "https://t.me/SHINHANRESEARCH/53312",
+      "keywords": [
+        "쇼크",
+        "구조적 성장",
+        "OP",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 07:43",
+      "text": "[신한투자증권 IT팀 오강호, 김형태, 박현우, 송혜수, 김예성]  10/28(수) 🕗Daily IT 예습하기  ✅ 반도체/장비  ▶️ TSMC, CoWoS 가격 20% 인상 검토설…AI 수요 급증에 장비 재협상 생략 (TrendForce) https://alie.kr...",
+      "link": "https://t.me/SHINHANRESEARCH/53311",
+      "keywords": [
+        "수요",
+        "공급",
+        "TP"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 07:40",
+      "text": "[신한투자증권 김아람] RFHIC 3Q26 Review: 실적 걱정 없는 회사  ▶️ 무엇이 더 필요한가 . 3분기 깜짝 서프라이즈 실적에 주가는 장중 최대 14%까지 상승했다가 보합 마감. 그러나 세부 내용은 전반적으로 좋았음  . 현재 주가는 27년 예상 주가수익비...",
+      "link": "https://t.me/SHINHANRESEARCH/53310",
+      "keywords": [
+        "서프라이즈",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 07:37",
+      "text": "[신한투자증권 인터넷/게임 고준혁]  **신한 속보; NAVER 컴퓨팅 인프라 계약 체결 완료**  ▶️ **신한생각: 첫 걸음은 성공적. 고객사와 계약 조건 구체화 공개가 필요** - 공시 발표 이후, 시간외 +4%. 브룩필드와의 인프라 계약 성사 여부에 대한 불확실...",
+      "link": "https://t.me/SHINHANRESEARCH/53309",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 07:35",
+      "text": "[신한투자증권 혁신성장 허성규]  이포트 (비상장) - AI 메모리 방열 필러의 국산화  ▶️ AI 메모리 방열 필러, 저알파 구상 알루미나의 국산화 - 반도체 봉지재(EMC)용 방열 세라믹 필러 제조사. 2010년 세라믹 파우더 상사로 출발, 2017년 법인 전환 후...",
+      "link": "https://t.me/SHINHANRESEARCH/53308",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 07:34",
+      "text": "[신한투자증권 금융팀 은경완/임희연]   금융데일리: 26/10/28   [은행/카드]   BNK는 뒷걸음, iM은 주춤, JB는 최대 실적…엇갈린 지방금융 3사 <매일경제> https://alie.kr/4mfoJfq   신한금융, 누적 순이익 '5조 클럽' 첫 입성 ...",
+      "link": "https://t.me/SHINHANRESEARCH/53307",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 06:54",
+      "text": "**[신한 자동차/철강금속 박광래]**  !! 신한 자동차/철강금속 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 자동차 뉴스 (261028) ::**  **▶ 기아, 현대차 이어 수소차 양산···충전 인프라·수익성 벽 넘을까 *...",
+      "link": "https://t.me/SHINHANRESEARCH/53306",
+      "keywords": [
+        "수요",
+        "공급",
+        "사이클",
+        "YoY",
+        "밸류체인",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-10-28 06:54",
+      "text": "**[신한 철강금속/자동차 박광래]**  !! 신한 철강금속/자동차 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 철강금속 뉴스 (261028) ::**  **▶ 미국·캐나다, 철강·자동차 관세 완화 협상…11월 중간선거 전 타결...",
+      "link": "https://t.me/SHINHANRESEARCH/53305",
+      "keywords": [
+        "수요",
+        "공급",
         "YoY"
       ]
     },
@@ -1130,93 +1293,43 @@
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-26 17:00",
-      "text": "국내 주식 마감 시황 - 10월 26일  『거래대금 증발, 슈퍼위크 앞둔 경계』 시황 강진혁 ☎️02-3772-2329  코스피 5,469.47 (-1.46%), 코스닥 727.21 (-3.26%)  AI·지정학 부담 속 KOSPI 5,500선 하회  금일 KOSPI,...",
-      "link": "https://t.me/SHINHANRESEARCH/53289",
-      "keywords": [
-        "공급",
-        "OP"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-26 14:09",
-      "text": "[2027년 경제 및 금융시장 전망] Time of Tempering (PPT) 매크로팀 하건형 ☎️02-3772-1946  Part 1. AI 사이클 중반부 Part 2. 점진적 물가 충격 되돌림 Part 3. 정책 대응과 금융 취약성 Part 4. 주요국 및 한국경...",
-      "link": "https://t.me/SHINHANRESEARCH/53287",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-26 08:42",
-      "text": "『신한 플랫폼팀 WEEKLY: 돈이 되는 오지랖 (10월 4주차)』  ▶ 엔터/미디어/레저 – 9월 방한객 206만명, 올해 다섯번째 월 200만명 돌파 ▶ 인터넷/게임 – 이어지는 AI 인프라 자본 조달 우려, Muse 일본 서비스 개시의 시사점 ▶ 통신서비스 - 앤...",
-      "link": "https://t.me/SHINHANRESEARCH/53284",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-10-28 10:51",
+      "text": "**2026년 11월 주요 경제지표 및 일정**  미래에셋증권 투자전략팀 김석환 수석연구위원  # 11월 주요 일정 2일 미국 서머타임 해제(개장 22:30 → 23:30) 3일 미국 중간선거 9일 앤트로픽 IPO 로드쇼(예상) 9일 UN 기후변화협약 당사국총회(COP...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7778",
       "keywords": [
         "OP"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-26 08:08",
-      "text": "# 신한 운송 Weekly T.M.I (26년 10월 5주차) [신한 운송 최민기]  ▶️ Trend Comment: 미국 항공사 3Q26 리뷰, 유류비 전가 지연과 태평양 증편  - 미국 항공사들의 3Q26 실적 발표. 여객 매출 증가에도 고유가 부담으로 델타·사우스...",
-      "link": "https://t.me/SHINHANRESEARCH/53283",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-10-28 10:03",
+      "text": "마켓 뷰 (10월 28일) ▶️ Summary: AI & 휴머노이드 강세 - 코스피 5,853.84(+216.26p, +3.84%), 코스닥 769.70(+25.87p, +3.54%)  - 코스피, 외인·기관 순매수하며 상승 출발..코스닥은 기관 매수세에 3%대 상승 ...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7777",
       "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-26 08:04",
-      "text": "**# 신한 유틸리티/신재생 Weekly Power Up (26년 10월 4주차) [신한 유틸리티 한승훈 / 신재생 최민기]  ► [유틸리티] 윤곽이 드러나고 있는 지역별 도매전력가격제**  ⁃ 10/22 전력거래소의 지역별 도매전력가격제(LMP) 모의분석 결과 공개....",
-      "link": "https://t.me/SHINHANRESEARCH/53282",
-      "keywords": [
-        "수요",
         "공급",
-        "YoY",
         "수주"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-26 08:01",
-      "text": "**<신한생각> ★ Daily 신한 생각 10월  26일 신한투자증권 리서치본부**   **▶️Top down** - Weekly Guide Book; 자산배분: 물가 경계와 AI 성장  우려 교차 [하건형] 경제/금융시장: 물가 상방 위험 속 성장 기대 재평가  경제...",
-      "link": "https://t.me/SHINHANRESEARCH/53281",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-10-28 09:06",
+      "text": "**월스파 뉴스(10/28)  엔비디아, 메타에 30억달러 지분 투자** 엔비디아는 27일 메타의 AI 모델 Muse 및 차세대 Vera Rubin 인프라 협력 확대와 함께 메타의 주식 공모에 30억달러를 투자하겠다고 공식 발표했음. 메타는 기존 최대 950억달러였던 ...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7776",
       "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-10-28 07:23",
+      "text": "글로벌 마켓 브리핑(10월 28일) ▶AI 트레이드의 부활..나스닥 1.2%↑   *Key Indices 1. 미국증시 주요지수 - 다우존스 산업평균: 52,377.57/ +0.03% - S&P500: 7,722.60/ +0.60% - 나스닥 종합: 26,477.81/...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7774",
+      "keywords": [
+        "상향",
         "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-26 07:49",
-      "text": "**[신한투자증권 반도체/소부장 송혜수, 김형태]   반도체 소재: Are You Ready?** **  ▶️ 편안한 선택지** - 소재 업종 전반에 대해 적극적인 '비중 확대' 투자의견 제시 - Q Cycle로 이동하며 변동성 심화. 투자자들의 기준이 엄격해진 구간 ...",
-      "link": "https://t.me/SHINHANRESEARCH/53276",
-      "keywords": [
         "공급",
-        "OP",
-        "M/S",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-26 07:48",
-      "text": "신한 해외주식 데일리(10/26) \"중동 지정학적 불안에 유가 급등하며 물가·금리 부담 확대\"  ▶️ 특징주 [인스타카트(+9.2%)] 자문사와 함께 DASH, UBER에 대한 매각을 놓고 최소한 초기 단계 논의를 했다는 보도에 장 마감 무렵 급등  [크라우드스트라이크...",
-      "link": "https://t.me/SHINHANRESEARCH/53275",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-10-26 07:41",
-      "text": "**『로레알; 성장 엔진 재가동』** **기업분석부 박현진 ☎****02-3772-1563**  ▶ 더마·헤어케어가 견인하는 실적 - 프리미엄 헤어케어·더마 화장품의 고성장과 럭셔리 부문 회복에 힘입어 실적 성장 가속화 - 향수·헤어케어 중심의 성장세가 스킨케어로 확산...",
-      "link": "https://t.me/SHINHANRESEARCH/53274",
-      "keywords": [
-        "YoY"
+        "수주"
       ]
     },
     {
@@ -1338,38 +1451,6 @@
       ]
     },
     {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-10-23 15:55",
-      "text": "**월스트리트파인더 Ep.211 - AI, 늘어나는 사용량과 돌아오는 청구서**  **■ Key Takeaways** - AI 투자 판단축, 약정 규모에서 현금 창출과 지급 능력으로 이동 - 순환금융, 투자와 주문의 연결 속 기업 간 전이위험에 주목 - 앤트로픽 IPO...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7749",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-10-23 10:10",
-      "text": "마켓 뷰 (10월 23일) ▶️ Summary: 코스피 5500선 회복이 관건  - 코스피 5,373.96(-159.81p, -2.83%), 코스닥 743.83(-20.98p, -2.75%)  - 6거래일 연속 지켰던 5500선 갭 하락. 장중 회복 여부에 관심 · 아...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7748",
-      "keywords": [
-        "상향",
-        "서프라이즈",
-        "수주"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-10-23 07:05",
-      "text": "글로벌 마켓 브리핑(10월 23일) ▶️ 시험대 오른 AI. 업종 순환매 및 국채 강세  *Key Indices 1. 미국증시 주요지수 - 다우존스 산업평균: 52,867.98/ +0.02% - S&P500: 7,663.43/ -1.21% - 나스닥 종합: 26,008...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7746",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급"
-      ]
-    },
-    {
       "source": "@JOORINI34",
       "date": "2026-10-27 14:59",
       "text": "**#전력기기**** ****#HD현대일렉트릭**** 3Q26 Review 261027**  **#결론** 예상 수준의 미스와 예상 수준의 내용이었다는 생각입니다. 배전변압기 증설이 나왔는데 섣부른 이야기지만 북미 초고압 증설 또한 톤만 보면 조만간 아닐까... 싶기도...",
@@ -1427,6 +1508,41 @@
       "keywords": [
         "사이클",
         "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-10-28 11:05",
+      "text": "📝 텔레그램 심층 분석 Report (11시 04분) 기준  🌡️ 센티먼트 환호 (반도체 중심 강세) (+75) 💡 요약 반도체 업황 개선과 주요 기업의 역대급 실적 및 대규모 주주환원 발표로 시장 전반에 강한 매수세와 낙관적 분위기가 지배적입니다. 다만, 이란발 지정...",
+      "link": "https://t.me/EASOBI/17083",
+      "keywords": [
+        "수요",
+        "공급",
+        "OP"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-10-28 07:07",
+      "text": "📝 텔레그램 심층 분석 Report (07시 07분) 기준  🌡️ 센티먼트 긍정적 관망 (+65) 💡 요약 인공지능(AI) 및 반도체 섹터에 대한 강한 낙관론과 일부 기업의 호실적 발표가 시장의 상승세를 견인하고 있으나, 개별 종목의 실적 부진 및 지정학적 불확실성이 ...",
+      "link": "https://t.me/EASOBI/17082",
+      "keywords": [
+        "서프라이즈",
+        "수요",
+        "공급",
+        "OP",
+        "TP"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-10-27 23:08",
+      "text": "📝 텔레그램 심층 분석 Report (23시 08분) 기준  🌡️ 센티먼트 관망 (+40) 💡 요약 AI, 반도체, 암호화폐 섹터의 긍정적 소식이 많았으나, 글로벌 인플레이션 우려 및 일부 종목의 실적 부진으로 관망세가 형성되었습니다.  🗣️ Top 키워드: AI(13...",
+      "link": "https://t.me/EASOBI/17081",
+      "keywords": [
+        "상향",
+        "공급",
+        "OP"
       ]
     },
     {
@@ -1527,34 +1643,11 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-10-26 07:05",
-      "text": "📝 텔레그램 심층 분석 Report (07시 05분) 기준  🌡️ 센티먼트 기대 (+15) 💡 요약 미국-이란 간 지정학적 긴장 고조와 국제 유가 급등으로 인한 인플레이션 우려가 증시 전반에 하방 압력을 가하고 있습니다. 특히 코스피가 큰 폭으로 하락하고 골드만삭스의 ...",
-      "link": "https://t.me/EASOBI/17053",
+      "source": "@TOPTOWNQUANT",
+      "date": "2026-10-28 13:27",
+      "text": "「SK하이닉스」 3Q26 실적발표  10/28 8:27 DART 공시  ◆ 수급 정보 - 종목주인: 기관 - 수급레벨: 찬집  ◆ 실적 정보 - 매출액  104조 6155억원 (328% y // 32% q) - 영업익  83조 3338억원 (632% y // 38% q...",
+      "link": "https://t.me/TOPTOWNQUANT/13828",
       "keywords": [
-        "공급",
-        "OP"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-10-25 23:07",
-      "text": "📝 텔레그램 심층 분석 Report (23시 07분) 기준  🌡️ 센티먼트 관망/경계 (-20) 💡 요약 중동 지정학적 긴장, AI 수익성 불확실성, 금리 불안 등으로 시장 전반에 하방 압력이 우세하나, 반도체 및 헬스케어 특정 분야는 긍정적 모멘텀이 존재합니다.  🗣...",
-      "link": "https://t.me/EASOBI/17052",
-      "keywords": [
-        "상향",
-        "공급",
-        "OP"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-10-25 19:05",
-      "text": "📝 텔레그램 심층 분석 Report (19시 05분) 기준  🌡️ 센티먼트 신중한 낙관 (+35) 💡 요약 AI 산업의 견고한 성장 기대와 일부 기업의 긍정적 실적 발표가 지속되는 가운데, 주요 증시 하락 우려 및 지정학적 리스크가 상존하며 신중한 접근이 요구됨.  🗣...",
-      "link": "https://t.me/EASOBI/17051",
-      "keywords": [
-        "수요",
-        "공급",
         "OP"
       ]
     },
@@ -1584,6 +1677,88 @@
       "link": "https://t.me/TOPTOWNQUANT/13800",
       "keywords": [
         "OP"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-28 08:25",
+      "text": "📮[메리츠증권 제약/바이오 김준영] 2026.10.28 (수)  한미약품 (128940) 북경한미의 부담, 비만 신약의 진전   **▶ 3Q26 Review**  - 연결 기준 매출액 3,774억원(YoY +4.2%, QoQ -19.2%), 영업이익 378억원(YoY ...",
+      "link": "https://t.me/MERITZ_RESEARCH/44935",
+      "keywords": [
+        "공급",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-28 08:24",
+      "text": "📮[메리츠증권 제약/바이오 김준영] 2026.10.28 (수)  셀트리온 (068270) 3Q26 Re: 신제품 성장이 이끄는 이익 레버리지       **▶ 3Q26 Review **  - 연결 기준 매출액 1조 5,755억원(YoY +53.1%, QoQ +13.0%...",
+      "link": "https://t.me/MERITZ_RESEARCH/44934",
+      "keywords": [
+        "공급",
+        "OP",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-28 08:24",
+      "text": "📮[메리츠증권 제약/바이오 김준영] 2026.10.27 (화)  에스티팜 (237690) 성장 방향성은 유지, 수익성 회복은 점진적   **▶ 3Q26 Review **  - 매출액 976억원(YoY +19.2%), 영업이익 157억원(YoY +6.7%, OPM 16....",
+      "link": "https://t.me/MERITZ_RESEARCH/44933",
+      "keywords": [
+        "공급",
+        "OP",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-28 08:09",
+      "text": "📮 [메리츠증권 철강/금속 장재혁]  안녕하세요, 메리츠증권 장재혁입니다. LS 3Q26 preview 업데이트 드립니다.  **▶ 3Q26 Preview: LS전선·LS ELECTRIC 양호, LSMnM 부진, 연결 눈높이 부합** - 연결 영업이익 4,830억원(Q...",
+      "link": "https://t.me/MERITZ_RESEARCH/44931",
+      "keywords": [
+        "OP",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-28 08:01",
+      "text": "📮[메리츠증권 IT 소재장비 김동관]  ISC(095340): 아쉬운 실적에도 증대되는 기대감  - ISC는 3Q26 매출액 718억원(+11% YoY; 이하 YoY), 영업이익 218억원(+25%, OPM 30.4%)을 기록  - 후가공과 검사·출하 공정 병목으로 인...",
+      "link": "https://t.me/MERITZ_RESEARCH/44930",
+      "keywords": [
+        "상향",
+        "수요",
+        "OP",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-28 07:47",
+      "text": "📮[메리츠증권 모빌리티 김준성]  안녕하세요 메리츠증권 김준성입니다. 한국타이어 업데이트 드리겠습니다.  (URL: https://han.gl/lGRap)  ▶ 피하지 못한 EU 관세, 영향 점검  ▶ 한국타이어, EU로부터 상계 관세 27.5% 부과  - EU, 지난...",
+      "link": "https://t.me/MERITZ_RESEARCH/44929",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-28 07:45",
+      "text": "📮[메리츠증권 전기전자/IT부품 양승수]  샘씨엔에스(252990) : DRAM 타고 고공행진   ▶ 3Q26 Review: Dram향 매출 성장 지속    - 3Q26 실적은 매출액 322억원(+54.6% YoY), 영업이익 112억원(+105.9% YoY, OPM ...",
+      "link": "https://t.me/MERITZ_RESEARCH/44928",
+      "keywords": [
+        "상향",
+        "서프라이즈",
+        "수요",
+        "OP",
+        "YoY",
+        "밸류체인"
       ]
     },
     {
@@ -1767,73 +1942,69 @@
       ]
     },
     {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-10-26 07:44",
-      "text": "📮[메리츠증권 이차전지/석유화학 노우호]  2026.10.26(월)  **<지정학 Tracker: 미국 Valero & SLB 실적 발표>**  URL: https://han.gl/hc30v  **[미국 Valero 3Q26 정유부문 영업이익 +97% QoQ 증가]**...",
-      "link": "https://t.me/MERITZ_RESEARCH/44904",
+      "source": "@SKSRESEARCH",
+      "date": "2026-10-28 08:18",
+      "text": "**Whirlpool (월풀) - 가격 올렸고, 수요 빠졌다 (ASP Up, Demand Down)**  [ SK증권 박형우, 정영환 ] IT하드웨어, 배터리  🎯 결론 **- 판가보다 원가가 더 올랐다, 연간 EPS 가이던스 적자 전환** **- 가전도 스마트폰처럼 ...",
+      "link": "https://t.me/SKSRESEARCH/9334",
       "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SKSRESEARCH",
+      "date": "2026-10-28 08:18",
+      "text": "**LG이노텍 - 내려오는 실적 눈높이, 다가오는 주가 저점**  [ SK증권 박형우, 정영환 ] IT하드웨어, 배터리  🎯 결론** - 3분기 실적 쇼크. 환율 떄문 - 4분기와 27년 추정치 하향 조정 불가피 - 그러나 악재들은 대부분 노출 - 고객사 오더컷 확실 ...",
+      "link": "https://t.me/SKSRESEARCH/9333",
+      "keywords": [
+        "쇼크",
         "수요",
-        "공급",
+        "OP"
+      ]
+    },
+    {
+      "source": "@SKSRESEARCH",
+      "date": "2026-10-28 07:39",
+      "text": "**[SK증권 금융 장영임]** **(****yijang123@sks.co.kr/02-3773-8424****)**  **▶️신한지주(A055550) 매수/134,000원 3Q26 Review: 총주주환원율 50%가 뉴노멀**   **3분기 지배주주순이익 1.58조원으...",
+      "link": "https://t.me/SKSRESEARCH/9330",
+      "keywords": [
         "QoQ",
         "YoY"
       ]
     },
     {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-10-26 07:44",
-      "text": "📮[메리츠증권 전기전자/IT부품 양승수]  타이거일렉(219130):  호랑이 앞에 차려진 진수성찬   ▶ 3Q26 Preview: 판가 인상과 믹스개선을 동시에   - 3Q26 매출액과 영업이익은 각각 348억원(+70.9% YoY), 86억원(+726.9% YoY,...",
-      "link": "https://t.me/MERITZ_RESEARCH/44903",
+      "source": "@SKSRESEARCH",
+      "date": "2026-10-28 07:24",
+      "text": "**[SK증권 조선/방산 한승한, 고서영] (****shane.han@sks.co.kr/3773-9992****)  한화시스템(A272210) 매수/100,000원 ** **▶️실적과 수주 모두 장밋빛**  - 3Q26 Review: 매출액 8,316억원(+30.1% ...",
+      "link": "https://t.me/SKSRESEARCH/9329",
       "keywords": [
-        "수요",
-        "공급",
+        "상향",
+        "서프라이즈",
         "OP",
+        "QoQ",
         "YoY",
         "수주"
       ]
     },
     {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-10-26 07:44",
-      "text": "📮[메리츠증권 전기전자/IT부품 양승수]  기가비스(420770) 수주공시 코멘트: 남은 총알은 충분, 높아질 위상은 덤  ▶ 기다렸던 대규모 수주, 눈높이는 더 높이   - 동사는 23일 국내 고객사와 469.4억원 규모의 반도체 기판 검사장비 공급계약 체결을 공시 ...",
-      "link": "https://t.me/MERITZ_RESEARCH/44902",
+      "source": "@SKSRESEARCH",
+      "date": "2026-10-28 07:16",
+      "text": "**[SK증권 조선/방산 한승한, 고서영] (****shane.han@sks.co.kr/3773-9992****)  한화오션(A042660) 매수/90,000원  ▶️상선만으로는 부족하다**  - 3Q26 Review: 3Q26 연결 매출액 3조 4,139억원(+12....",
+      "link": "https://t.me/SKSRESEARCH/9328",
       "keywords": [
-        "상향",
-        "수요",
-        "공급",
+        "OP",
+        "QoQ",
+        "YoY",
         "수주"
       ]
     },
     {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-10-24 17:24",
-      "text": "📮[메리츠증권 조선/기계 배기연] 2026.10.24 (토)  Weekly (10.26~10.30) “2027년 가스선 시장에 대한 언급 주목”  **▶ 투자 선호도**  - 키워드: DC향 엔진 > FDC > 밸류에이션, 배당 > 군함  - Top-Pick: HD현대...",
-      "link": "https://t.me/MERITZ_RESEARCH/44900",
+      "source": "@SKSRESEARCH",
+      "date": "2026-10-28 07:05",
+      "text": "**[SK증권 조준기] 국면의 재구성: 경기·물가·신용으로 읽는 스타일 전략  [Summary]**  • AI 투자 확대와 함께 미국 AI 사업자의 자금조달 여력이 한국 증시의 중요 변수로 부상. AI 인프라는 대규모 자금을 먼저 투입하고 가동 이후 회수하는 구조 특성...",
+      "link": "https://t.me/SKSRESEARCH/9327",
       "keywords": [
         "상향",
-        "수요",
-        "TP",
-        "M/S",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-10-23 20:02",
-      "text": "📮 [메리츠증권 금융 조아해]  **우리금융지주 - 주주환원 매력도 부각**  **▶ 3Q26 지배주주순이익 1.05조원 (-15.7% YoY): 컨센 +8%**  - 대손비용률이 예상대비 높은 개선세를 시현   -** [이자이익] **+7.2% YoY  - 은행 NI...",
-      "link": "https://t.me/MERITZ_RESEARCH/44899",
-      "keywords": [
-        "QoQ",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-10-23 19:59",
-      "text": "📮 [메리츠증권 금융 조아해]  **하나금융지주 - Top-line 성장 지속**  **▶ 3Q26 지배주주순이익 1.22조원 (+7.9% YoY): 컨센 부합**   -** [이자이익]** +12.8% YoY (생보사 계정대체 제외 기준)  - 그룹 NIM -5bp ...",
-      "link": "https://t.me/MERITZ_RESEARCH/44898",
-      "keywords": [
-        "QoQ",
-        "YoY"
+        "수요"
       ]
     },
     {
@@ -1976,27 +2147,6 @@
       ]
     },
     {
-      "source": "@SKSRESEARCH",
-      "date": "2026-10-22 08:01",
-      "text": "[SK증권 ESG/통신서비스/지주 최관순]  (ks1.choi@sks.co.kr/3773-8812)  ▶️ **AT&T: 스페이스X 우려를 불식시킨 실적과 주주환원**   **3Q26: 컨센서스 상회 ** 3분기 AT&T 실적은 매출액 323.2억달러(+5.3% 이하 ...",
-      "link": "https://t.me/SKSRESEARCH/9298",
-      "keywords": [
-        "상향",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@SKSRESEARCH",
-      "date": "2026-10-22 07:52",
-      "text": "**[SK증권 엔터] Analyst 박준형** **(****jh.park@sks.co.kr/3773-8589****)**  **▶️에스엠(A041510) 매수/120,000원** **2027년을 FOCUS**   －매출 2,637억원(-18.0% YoY, -24.6% ...",
-      "link": "https://t.me/SKSRESEARCH/9296",
-      "keywords": [
-        "OP",
-        "QoQ",
-        "YoY"
-      ]
-    },
-    {
       "source": "@SURVIVAL_DOPB",
       "date": "2026-10-16 16:03",
       "text": "주변지인들께 공유하고 동의를 부탁드립니다. 대한민국 주식시장을 살리는 길입니다.   https://news.einfomax.co.kr/news/articleView.html?idxno=4439528  1400만 개미투자자를 기만하는 ‘무늬만’ 주주 보호법인 ‘의무공개매...",
@@ -2049,6 +2199,28 @@
       "keywords": [
         "수요",
         "공급"
+      ]
+    },
+    {
+      "source": "@HEDGECAT0301",
+      "date": "2026-10-28 07:40",
+      "text": "[10/28, 장 시작 전 생각: 리얼 슈퍼위크 돌입, 키움 한지영]  - 다우 +0.03%, S&P500 +0.6%, 나스닥 +1.2% - 마이크론 +2.8%, 브로드컴 +4.0%, 코어위브 +7.9% - 미 10년물 금리 4.98%, 30년물 금리 5.31%, WT...",
+      "link": "https://t.me/HEDGECAT0301/2984",
+      "keywords": [
+        "상향",
+        "공급"
+      ]
+    },
+    {
+      "source": "@HEDGECAT0301",
+      "date": "2026-10-28 07:25",
+      "text": "[2027년 연간 전망, 키움증권 투자전략팀]  \"기대에서 증명으로\"   (요약)  1. 경제: 성장 지속, 격차 확대  -  고금리 지속에 따른 자본비용 부담과 AI 투자 수익성 검증이 본격화되면서 기업, 산업, 계층 간 성장 격차가 확대될 전망. 취약 부문의 신용위...",
+      "link": "https://t.me/HEDGECAT0301/2983",
+      "keywords": [
+        "수요",
+        "구조적 성장",
+        "사이클",
+        "밸류체인"
       ]
     },
     {
@@ -2250,37 +2422,6 @@
         "사이클",
         "YoY",
         "밸류체인"
-      ]
-    },
-    {
-      "source": "@HEDGECAT0301",
-      "date": "2026-10-01 07:44",
-      "text": "[10/1, 장 시작 전 생각: 또 다시 심리전, 키움 한지영]  - 다우 -0.9%, S&P500 -0.3%, 나스닥 +0.2% - 엔비디아 +0.5%, 메타 -1.8%, 마이크론 +0.1%(시간외 약보합) - 미 10년물 금리 5.28%, 30년물 금리 5.63%,...",
-      "link": "https://t.me/HEDGECAT0301/2954",
-      "keywords": [
-        "서프라이즈",
-        "공급",
-        "사이클",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@HEDGECAT0301",
-      "date": "2026-10-01 07:40",
-      "text": "﻿ [10/1 월간 전략: 금리 상승 불안의 돌파구는 실적 , 키움 한지영, 최재원]  (요약)  1. 전략: 금리 상승 불안의 돌파구는 실적   - 10월 주식시장은 대내외 메이저급 이벤트와 함께 미국 시장금리 상승 압력에 노출될 전망. 다만, 고금리 장기화는 이제 ...",
-      "link": "https://t.me/HEDGECAT0301/2953",
-      "keywords": [
-        "상향",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@HEDGECAT0301",
-      "date": "2026-09-30 07:43",
-      "text": "[9/30, 장 시작 전 생각: 금리는 여전히 부담이지만, 키움 한지영]  - 다우 -0.3%, S&P500 -0.2%, 나스닥 -0.1% - 마이크론 +1.1%, 메타 +3.2%, 엔비디아 -0.7% - 미 10년물 금리 5.24%, 30년물 금리 5.56%, WTI...",
-      "link": "https://t.me/HEDGECAT0301/2951",
-      "keywords": [
-        "수요"
       ]
     }
   ],
