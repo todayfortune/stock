@@ -67,119 +67,142 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-30 18:18",
-      "text": "🎯 **[안전자산 선호로 장기국채 강세, 프랑스 충격과 엔화 흐름이 글로벌 자금 이동 좌우]** 미국을 포함한 국채 전반 강세로 수익률 하락, 최근 한 달간 기술주 급락과 지정학·유가 변수로 안전자산 수요 재부각. 3개 주요 중앙은행이 동결 결정을 내렸지만, 시장은 ‘...",
-      "link": "https://t.me/MASSITRADING/202151",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 18:18",
-      "text": "🎯 **[Intel·Amazon 실적 충격으로 기술주 매도 확산, 공급 제약과 AI 투자 부담 부각]** 프리마켓에서 Intel 약 26% 급락, PC 수요 둔화와 데이터센터 부품 공급 지연·병목이 주요 요인으로 제시. Amazon도 약세, AWS 전망 부진과 AI 인...",
-      "link": "https://t.me/MASSITRADING/202149",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 18:18",
-      "text": "🎯 **[Nasdaq 선물 약세와 금리 변동성, 유가·가스 급등이 안전자산 수요 자극]** 10월 마지막 거래일을 앞두고 Nasdaq futures 하락, 월간 기준 Nasdaq만 약세 흐름이 두드러진 반면 Dow·Russell·S&P 500은 월간 플러스권. 미 국채...",
-      "link": "https://t.me/MASSITRADING/202148",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 18:17",
-      "text": "🎯 **[미국 휴일 항공권 가격 급등, 제트연료 상승이 운임 인상 압력]** 미국 중간선거를 앞둔 가운데, 연말·연휴 귀성 수요와 맞물려 항공권 가격이 급등하며 가계 부담 요인으로 부각. 여행 플랫폼 호퍼(Hopper) 조사에서 추수감사절 항공운임 전년 대비 39% 상...",
-      "link": "https://t.me/MASSITRADING/202145",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 18:17",
-      "text": "🎯 **[인텔 가이던스 실망으로 급락, AI·foundry 투자 모멘텀 재점검]** 인텔 3분기 실적 발표 이후 주가 시간외 거래 약 15% 하락, 매출 전망(가이던스) 부진과 PC 판매 둔화 영향 부각. 패트릭 무어헤드는 4분기 가이던스가 시장 기대 대비 약 15억달...",
-      "link": "https://t.me/MASSITRADING/202144",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 18:03",
-      "text": "🎯 **[Amazon Q3: AWS는 컨센서스 상회했으나 기대치 미달, CapEx 2,200억 달러 유지]** Amazon 3분기 실적에서 AWS는 컨센서스 대비 상회했으나, 전일 Microsoft·Google의 클라우드 가속 흐름 이후 기대치가 높아져 ‘서프라이즈’로...",
-      "link": "https://t.me/MASSITRADING/202143",
-      "keywords": [
-        "서프라이즈",
-        "수요",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 18:03",
-      "text": "🎯 **[BOJ, 금리 1.25% 동결하되 매파 신호…ETF 매각 확대, 아시아 반도체 주가 급락]** BOJ, 정책금리 1.25%로 동결(시장 예상 부합). 발표 직후 JGB 강세, Ueda가 물가가 2% 목표에 ‘대체로’ 복귀했다고 강조하며 2013년 이후 처음이라...",
-      "link": "https://t.me/MASSITRADING/202142",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 18:03",
-      "text": "🎯 **[Anthropic 기반 AI 생태계 확장, 엔터프라이즈 replatforming 수요가 핵심 기회]** ARR 100만~500만 달러 수준 구간에서 10배 이상 성장하는 스타트업 사례 언급, Anthropic 모델이 해당 기업들의 제품·서비스를 구동하는 기반 ...",
-      "link": "https://t.me/MASSITRADING/202139",
-      "keywords": [
-        "수요",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 17:48",
-      "text": "🎯 **[Capgemini 매출 전망 상향, AI·소버린티 수요와 지역·업종 전반 성장 확인]** 프랑스 IT 서비스 기업 Capgemini, 3분기 매출이 예상치를 상회하며 연간 매출 전망 상향(‘비트 앤 레이즈’) 발표. 주가 상승으로 시장 반응 긍정. CFO 인터...",
-      "link": "https://t.me/MASSITRADING/202129",
-      "keywords": [
-        "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 17:48",
-      "text": "🎯 **[Credit Agricole 3분기 이익 증가에도 프랑스 정치 불안에 수요 둔화 경고]** Credit Agricole, 프랑스 경쟁사들과 함께 3분기 이익 증가 보고. 다만 프랑스 내 최근 혼란이 향후 몇 달 사업에 부정적 영향 가능성 경고. CEO Oliv...",
-      "link": "https://t.me/MASSITRADING/202128",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-10-30 17:48",
-      "text": "🎯 **[유럽 증시, 기술주 약세 속 방어주 로테이션과 종목별 재료 부각]** 유럽 증시, 기술주 약세 영향으로 변동성 확대 조짐. DAX 약 0.3% 하락, CAC 40 약 0.1% 상승, FTSE 100 35포인트 상승으로 상대적 견조. 거래량 증가로 장중 ‘회전(...",
-      "link": "https://t.me/MASSITRADING/202125",
+      "date": "2026-10-30 22:18",
+      "text": "🎯 **[기술주 급락 속 국채 강세, Nasdaq 하락과 개별 종목 실적 변동 확대]** 기술주 매도 확대로 위험회피 심리 강화, 자금이 안전자산으로 이동하며 채권 시장 랠리 관측. 장기금리 지표가 4.90 수준으로 언급되며, 한 달 전 5%를 웃돌던 고점 대비 하락....",
+      "link": "https://t.me/MASSITRADING/202262",
       "keywords": [
         "상향"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-10-30 17:47",
-      "text": "🎯 **[Anthropic S-1 공개로 고성장·마진 확인, IPO가 AI 투자 촉매로 부상]** 생성형 AI 거래의 다음 핵심 촉매로 Anthropic IPO 부각; 회사는 S-1을 공개 제출했고 상장 시점은 다음 달로 거론. S-1 공개로 성장률, 마진, 현금흐름,...",
-      "link": "https://t.me/MASSITRADING/202124",
+      "date": "2026-10-30 22:18",
+      "text": "🎯 **[정유 마진 사상 최고로 빅오일 실적 급증, Chevron은 Venezuela 수익성 부각]** 유가 및 정유 마진 강세로 Exxon·Chevron 실적이 예상을 상회, 프리마켓에서 주가 강세. Middle East·Russia 관련 지정학 리스크가 정제(ref...",
+      "link": "https://t.me/MASSITRADING/202261",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 22:18",
+      "text": "🎯 **[Intel 가이던스 쇼크로 주가 급락, PC 둔화·생산 차질과 CPU 수요 미충족]** Intel 4분기 매출 가이던스 150억~160억달러 제시, 시장 일부 추정치(180억달러) 대비 큰 폭 하회 가능성 부각. 주가 약 25% 급락, 시가총액 약 1200억달...",
+      "link": "https://t.me/MASSITRADING/202260",
+      "keywords": [
+        "쇼크",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 22:18",
+      "text": "🎯 **[Amazon 실적 후 주가 하락, AWS 성장·AI CapEx 확대와 수요 지속성 재평가]** Amazon 실적에서 AWS가 기대 부합 및 성장 가속, backlog는 전년 대비 triple digits 증가로 언급되며 중장기 성장 자신감 부각. 회사 측은 A...",
+      "link": "https://t.me/MASSITRADING/202259",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 22:02",
+      "text": "🎯 **[인텔 약한 가이던스에 기술주 신뢰 흔들, 메모리·광고·소비 지표도 균열]** 인텔 실적에서 조정 EPS 추정치 상회, 매출 대체로 예상 부합. 데이터센터 사업 매출 73억2000만달러로 시장 예상 66억8000만달러 상회, 전년 대비 78% 증가로 강세 확인....",
+      "link": "https://t.me/MASSITRADING/202250",
       "keywords": [
         "수요",
         "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 21:48",
+      "text": "🎯 **[ECI 예상치 부합 속 Fed speak·고용지표 집중, Fed funds futures의 12월 인하 확률 70%로 하락]** 시장 관심사 Fed의 향후 정책경로 판단을 위한 데이터·발언(Fed speak)으로 집중. Employment Cost Index(...",
+      "link": "https://t.me/MASSITRADING/202247",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 21:48",
+      "text": "🎯 **[중동 긴장에 Brent crude 급등, Amazon·Intel 실적 여파로 프리마켓 변동 확대]** 중동 지역 긴장 고조 가능성 기대 반영, 유가 상승 압력 확대. 현물장 개장 1시간여 전 Brent crude 117.15 수준 언급. Amazon 주가 프리...",
+      "link": "https://t.me/MASSITRADING/202246",
+      "keywords": [
+        "수요",
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 21:47",
+      "text": "🎯 **[Intel 조정 EPS 상회, 데이터센터 매출 급증에도 PC 수요 부담 지속]** Intel 실적: 조정 EPS 컨센서스 상회, 매출은 대체로 부합. 데이터센터 부문 매출 73.2억달러로 예상치 66.8억달러 상회, 전년 대비 78% 증가로 AI 인프라 수요가...",
+      "link": "https://t.me/MASSITRADING/202244",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 21:47",
+      "text": "🎯 **[AI 수익화 기대와 CapEx 부담 충돌, ‘Big Tech=utility’ 논쟁 재점화]** AI 사이클이 성숙 단계로 진입하며 ‘성장률’보다 ‘수익성·마진·현금창출’에 대한 시장 요구가 강화, 기대치 상향이 실적 반응을 더 민감하게 만드는 국면. Anthr...",
+      "link": "https://t.me/MASSITRADING/202242",
+      "keywords": [
+        "상향",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 21:33",
+      "text": "🎯 **[Amazon 자본지출 우려로 7%대 하락, Intel 매출 미스에 20%대 급락]** 프리마켓에서 Amazon 주가 7% 이상 하락으로 언급, 예상보다 큰 자본지출 확대와 핵심 e-commerce 성장 둔화가 부담 AWS는 6개 분기 연속 성장 가속, back...",
+      "link": "https://t.me/MASSITRADING/202240",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 21:33",
+      "text": "🎯 **[Microsoft 상향·Intel 하향 속 Apple 고평가 논쟁, AI·가격 인상 효과가 관건]** 리서치 코멘트로 Baird, Microsoft 목표주가 상향, 클라우드 Azure 성장 가속을 근거로 제시; 주가는 약 0.5% 하락으로 상대적 선방으로 언급...",
+      "link": "https://t.me/MASSITRADING/202239",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 21:33",
+      "text": "🎯 **[중동 긴장 재점화 우려로 Brent·WTI 급등, 다음 주 중간선거·고용지표 경계]** 지정학 뉴스로 원유 시장 위험 프리미엄 확대, Brent·WTI 장중 고점 경신 Brent 약 2.3% 상승해 배럴당 117.56달러 수준까지 급등으로 언급 복수 보도에 따...",
+      "link": "https://t.me/MASSITRADING/202238",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 21:33",
+      "text": "🎯 **[빅테크 실적 쇼크로 Nasdaq futures 급락, 채권 강세에 Fed 긴축 기대 약화]** 빅테크 실적 실망 여파로 기술주 중심 매도 심화, Nasdaq futures 약 2.6% 하락, S&P futures 약 1.1% 하락 Intel 공급망 지연 이슈 ...",
+      "link": "https://t.me/MASSITRADING/202237",
+      "keywords": [
+        "쇼크",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-10-30 21:17",
+      "text": "🎯 **[중간선거 임박 속 Intel 가이던스 쇼크, Anthropic의 SpaceX 매출 기여 확대]** 중간선거 4일 앞두고 Trump가 캔자스·아이오와 유세를 취소하고 전화 유세(tele-rallies)로 전환, RNC는 선거일까지 유사 이벤트 약 20회 계획 언...",
+      "link": "https://t.me/MASSITRADING/202234",
+      "keywords": [
+        "쇼크",
+        "수요",
+        "공급"
       ]
     },
     {
@@ -799,6 +822,19 @@
         "수요",
         "공급",
         "YoY"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-10-30 19:00",
+      "text": "**📝 금주 노다지IR노트 정리** (2026.10.26~2026.10.30)  - 제목을 클릭하면 상세내용을 보실 수 있습니다  🔸 **IR이슈노트(주담통화)** 지에프아이 : [북미 매출 기대충](https://contents.premium.naver.com/yst...",
+      "link": "https://t.me/IRNOTE_YSTREET/5526",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "OP",
+        "수주"
       ]
     },
     {
@@ -1597,6 +1633,15 @@
     },
     {
       "source": "@EASOBI",
+      "date": "2026-10-30 19:05",
+      "text": "📝 텔레그램 심층 분석 Report (19시 05분) 기준  🌡️ 센티먼트 공포 (-35) 💡 요약 암호화폐 시장의 대규모 해킹 피해와 글로벌 경제 지표의 혼조세, 지정학적 불안감이 겹쳐 투자 심리가 위축된 공포 국면. 개별 기업 실적은 엇갈리나, 특정 반도체 및 기술...",
+      "link": "https://t.me/EASOBI/17107",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@EASOBI",
       "date": "2026-10-30 15:05",
       "text": "📝 텔레그램 심층 분석 Report (15시 05분) 기준  🌡️ 센티먼트 관망 (-15) 💡 요약 주요 기업 실적 발표는 혼조세를 보였으나, 일부 대형주 실적 부진과 글로벌 암호화폐 거래소 해킹 사태, 기관 및 외국인의 순매도세가 투자 심리를 위축시키며 관망세가 짙어...",
       "link": "https://t.me/EASOBI/17106",
@@ -1758,17 +1803,6 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-10-27 15:08",
-      "text": "📝 텔레그램 심층 분석 Report (15시 07분) 기준  🌡️ 센티먼트 약한 환호 (+5) 💡 요약 AI, 반도체 섹터의 성장 기대감과 주요 기업 간 파트너십 및 투자 소식이 긍정적 분위기를 형성하고 있습니다. 다만, 일부 기업의 애널리스트 뷰 하향 조정 및 실적 ...",
-      "link": "https://t.me/EASOBI/17077",
-      "keywords": [
-        "공급",
-        "OP",
-        "수주"
-      ]
-    },
-    {
       "source": "@TOPTOWNQUANT",
       "date": "2026-10-29 16:18",
       "text": "**# TARIFFS & BEYOND: \"관세는 속도 조절, 종전 협상은 난항\"** - 10월 29일  **■ 美·캐나다, 관세 일부 조정에도 협상은 '제자리'**   * 트럼프 행정부, 23일 캐나다산 일부 제품에 대한 추가관세 적용 범위를 조정. 합판·포장재·일부 ...",
@@ -1802,6 +1836,19 @@
       "text": "**# 9월 미국 PPI - \"어제와 같은 내용, 다만 FED의 고민은 따따불\"** ⚠️  ▪︎ 어제 발표된 CPI와 마찬가지로 헤드라인과 근원 모두 시장 컨센서스 및 이전치를 상회. 특히 상품물가 상승분의 80% 이상은 에너지에서 발생  ▪︎ 9월 CPI처럼 이번 P...",
       "link": "https://t.me/TOPTOWNQUANT/13817",
       "keywords": [
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-10-30 18:38",
+      "text": "📮[메리츠증권 전기전자/IT부품 양승수]  대덕전자(353200): 순항 중, 항로에 이상 없음   ▶ 3Q26 Review: 환율 이상의 기판 믹스개선   - 3Q26 매출액과 영업이익은 각각 4,187억원(+46.1% YoY), 879억원(+259.4% YoY, O...",
+      "link": "https://t.me/MERITZ_RESEARCH/44965",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "OP",
         "YoY"
       ]
     },
@@ -2099,17 +2146,6 @@
       "link": "https://t.me/MERITZ_RESEARCH/44936",
       "keywords": [
         "수요",
-        "QoQ",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-10-28 08:25",
-      "text": "📮[메리츠증권 제약/바이오 김준영] 2026.10.28 (수)  한미약품 (128940) 북경한미의 부담, 비만 신약의 진전   **▶ 3Q26 Review**  - 연결 기준 매출액 3,774억원(YoY +4.2%, QoQ -19.2%), 영업이익 378억원(YoY ...",
-      "link": "https://t.me/MERITZ_RESEARCH/44935",
-      "keywords": [
-        "공급",
         "QoQ",
         "YoY"
       ]
