@@ -2,9 +2,270 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
-      "date": "2026-11-05 18:11",
+      "date": "2026-11-05 23:25",
+      "text": "BofA : AI는 [90년대 닷컴 버블 붕괴와] 구조적으로 정반대일 수 있다.  풍부한 수요가 부족한 컴퓨팅 자원을 쫓는 구도다....",
+      "link": "https://t.me/IDEA_MEMO/27929",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-05 23:24",
+      "text": "**OpenAI, 미국 데이터센터 전력비 직접 부담·비밀유지계약 제한 등 지역사회 협약 발표** https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/  - OpenAI는 11월 5일 「...",
+      "link": "https://t.me/IDEA_MEMO/27928",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-05 21:31",
+      "text": ">>민주당은 AI에 반대하는가? (중국언론 칼럼)   •2026년 미국 중간선거 이후 민주당 승리로 AI 산업과 데이터센터 투자가 타격을 받을 것이라는 우려가 나오고 있지만, 과거 사례와 실제 정책을 보면 민주당 전체를 ‘반AI’로 규정하기는 어려움. 바이든 정부 시기...",
+      "link": "https://t.me/IDEA_MEMO/27923",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-05 19:19",
+      "text": "**모건스탠리 (Morgan Stanley - Research & Global Investment Office)**  \"데이터센터 증설과 급등하는 가계 전기요금의 결합은 이번 선거에서 민주당 표심을 결집시킨 핵심 쐐기 이슈(Wedge Issue)로 작동했다.   장기적...",
+      "link": "https://t.me/IDEA_MEMO/27919",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-05 19:19",
+      "text": "**요크빌 아이브스 (Yorkville Ives & Co.)**  \"테크 투자자들에게 가장 중요한 질문은 '이번 중간선거 결과가 AI 혁명을 뒷받침할 800~1,000개의 미국 계획 데이터센터 구축 속도를 늦출 것인가'이다. 우리의 답변은 명백한 '**YES**'다.\"...",
+      "link": "https://t.me/IDEA_MEMO/27918",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-05 19:19",
+      "text": "**민주당 의원들이 공통적으로 이야기하는건**  가정에 전가되는 전기요금 폭등 차단 (100% 기업 자부담 원칙)  막대한 전력·수자원 소비에 대한 수조 원대 면세 특혜(보조금) 폐지  자체 전력 조달(BYOP: Bring Your Own Power) 의무화  NDA ...",
+      "link": "https://t.me/IDEA_MEMO/27913",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-06 00:03",
+      "text": "🎯 **[텍사스·조지아 인허가 변수로 AI 데이터센터 40GW 증설 속도 불확실]** AI 수요 강세로 데이터센터 투자 사이클 자체에 대한 약세론 제한적이나, 정치 지형 변화로 인허가와 건설 속도 변동 가능성 확대. 내년 신규 전력용량 40GW 추가 기대치 제시됐으나,...",
+      "link": "https://t.me/MASSITRADING/206015",
+      "keywords": [
+        "수요",
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-06 00:02",
+      "text": "🎯 **[스포츠 프랜차이즈 고평가 지속…media rights·인프라 ‘picks and shovels’ 투자 부각]** 스포츠 자산 가치 급등 사례로 Lakers 125억달러, Seattle Seahawks 95억달러 거래/평가 수치 언급; 안전자산 성격과 희소성(s...",
+      "link": "https://t.me/MASSITRADING/206014",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-06 00:02",
+      "text": "🎯 **[Philadelphia Semiconductor Index 급락 속 data center buildout 둔화 우려, Nvidia 2027 성장 전망 점검]** 장중 반도체 섹터 급락 언급: Philadelphia Semiconductor Index 6.4% ...",
+      "link": "https://t.me/MASSITRADING/206013",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-06 00:02",
+      "text": "🎯 **[호텔 업계, AI·인프라 투자 확대로 NRFI 급증…객실 수요 상관 90% 주목]** 한 호텔 기업 경영진, 물리(오프라인) 사업과 디지털 역량 결합을 핵심 성장축으로 제시; 기술 리더십 강화를 위해 CTO Jeff Moore 영입, 기존 CIO Michael...",
+      "link": "https://t.me/MASSITRADING/206012",
+      "keywords": [
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:48",
+      "text": "🎯 **[AI 데이터센터 40 gigawatt 증설 기대에 제동, 인허가 리스크가 변수]** 반도체·데이터센터 투자 심리 악화 속에서도, AI 수요 자체는 강하다는 인식과 인프라 구축 속도 조정 가능성이 동시에 부각. NVIDIA 실적 발표(수주 내 예정) 전까지 투자...",
+      "link": "https://t.me/MASSITRADING/206011",
+      "keywords": [
+        "수요",
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:48",
+      "text": "🎯 **[midterms 이후 태양광 상향, Nike 하향…Qualcomm은 데이터센터 기대 부각]** William Blair, midterms에서 민주당 강세 이후 주·지방정부 차원의 대형 태양광 프로젝트 지원 확대 가능성을 근거로 First Solar 투자의견을 ...",
+      "link": "https://t.me/MASSITRADING/206010",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:48",
+      "text": "🎯 **[AI·반도체 급락 속 섹터 로테이션 가속, 에너지·헬스케어 상대 강세]** AI 투자 테마 내부에서 성과 양극화 확대, ‘AI’라는 이유만으로 주가가 동행하지 않는 선별 국면 부각. Qualcomm 실적·가이던스 실망 및 비용 상승 부담으로 장중 낙폭 확대(프...",
+      "link": "https://t.me/MASSITRADING/206009",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:47",
+      "text": "🎯 **[Hilton, NYSE에서 NASDAQ로 이전 상장하며 기술·AI agents 중심 혁신 가속]** Hilton CEO, 2013년 재상장 이후 브랜드 수 약 10개에서 30개에 근접, 회사 규모 2배 확대, go-to-market 기술 플랫폼 재구축 성과 강...",
+      "link": "https://t.me/MASSITRADING/206006",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:47",
+      "text": "🎯 **[Starbucks, 음료 맞춤 카페인·기능성 성분 결합으로 ‘functional food’ 강화]** Starbucks holiday menu 신제품 공개와 함께, 음료 카페인 선택지 및 단백질·콜라겐 등 기능성 성분을 결합한 ‘functional food’ ...",
+      "link": "https://t.me/MASSITRADING/206005",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:47",
+      "text": "🎯 **[AMD Lisa Su, AI 채택 가속·data center 성장 50% 전망과 장기 투자 강조]** AMD 실적 이후 CEO 인터뷰에서 AI 채택 속도로 기업 연간 예산·운영계획이 ‘정적’에서 ‘동적’으로 전환 중이라는 진단 제시. AMD data cente...",
+      "link": "https://t.me/MASSITRADING/206004",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:47",
+      "text": "🎯 **[선거 이후 변동성 속 반도체 저평가와 hyperscalers 매수 소각 급감 부각]** 전일 급등 이후에도 Micron 주가수익비율(PER) 약 4배 수준 등 AI 붐 핵심 반도체·스토리지 종목 밸류에이션 저평가 인식 확산. Apple 언급 기준 공급 부족과 ...",
+      "link": "https://t.me/MASSITRADING/206003",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:32",
+      "text": "🎯 **[Nasdaq 하락 속 Qualcomm 급락·Micron 대만 투자 중단, AI 선별 장세 심화]** 미드텀 이후 ‘리스크 이벤트 해소’ 기대에도 당일 장 초반 Nasdaq 약 1%대 하락, S&P도 소폭 약세로 출발하며 AI 관련 종목 내 차별화가 이어짐. H...",
+      "link": "https://t.me/MASSITRADING/206002",
+      "keywords": [
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:32",
+      "text": "🎯 **[Duke Energy, 데이터센터 tariff·투자 재원 공개로 요금 부담 완화 추진]** Duke Energy CEO Brian Savoy, hyperscaler 데이터센터 전력·그리드 업그레이드 비용 전가 논란 관련해 최소청구, 선급금, 해지 조항, 신용보...",
+      "link": "https://t.me/MASSITRADING/206000",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:32",
+      "text": "🎯 **[AI 수혜 반도체 저평가 논쟁, Apple 공급부족·Circle 금융리스크 경고]** AI 붐을 견인하는 반도체 관련주 valuation 급락 언급: Micron이 earnings 기준 4배 미만 수준, SanDisk도 극단적 저평가처럼 거래된다는 문제 제기....",
+      "link": "https://t.me/MASSITRADING/205999",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:32",
+      "text": "🎯 **[Dow 강세·NASDAQ 약세로 성장주 매도, Snap 부진·Wynn 관전]** 장중 지수 흐름으로 S&P 500 보합권, Dow 약 300포인트 상승, NASDAQ 약 1% 하락 언급. 성장주에서 가치주로의 로테이션 지속 관측, 다만 Costco 50배 PE...",
+      "link": "https://t.me/MASSITRADING/205998",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:32",
+      "text": "🎯 **[mortgage rate 7%대가 거래 급감 유발, Zillow 거래량 민감도 재부각]** Zillow 주가 pre-market 약세 언급, 거시환경 악화로 주택 거래 둔화가 실적에 부담으로 작용. 중간 주택 판매가격 전년 대비 약 0.1% 하락했으나, mor...",
+      "link": "https://t.me/MASSITRADING/205997",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:32",
+      "text": "🎯 **[Toyota 이익 20% 감소에도 엔화 약세로 가이던스 상향·자사주매입]** Toyota fiscal Q2 profit 전년 대비 약 20% 감소했으나, 연간 guidance 3.25조엔→3.57조엔으로 상향. 실적 방어 요인으로 엔화 약세 효과, 미국 시장 ...",
+      "link": "https://t.me/MASSITRADING/205996",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:18",
+      "text": "🎯 **[임금 인상 법안 통과로 연봉 24만달러로 상향…노동분쟁 지속 가능성]** 방송 내 발언에 따르면 통과된 법안으로 연간 임금이 7만달러에서 24만달러로 상향. 관련 사안에서 조건이 개선되지 않을 경우 행동을 지속하겠다는 취지의 발언도 언급돼, 향후 추가 노동분쟁...",
+      "link": "https://t.me/MASSITRADING/205994",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:18",
+      "text": "🎯 **[Duke Energy, 데이터센터 수요 대응 capex 확대…요금 부담은 hyperscalers에 전가]** Duke Energy, 전력 수요 증가를 반영해 실적 호조와 함께 이익 전망 범위를 상단 근처로 좁힘; 성장의 핵심 동력으로 데이터센터 수요를 지목. ...",
+      "link": "https://t.me/MASSITRADING/205992",
+      "keywords": [
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:18",
+      "text": "🎯 **[Nasdaq 약세·금리 상승 속 종목 장세…AppLovin 급등, Expedia 급락]** 현금장 개장 전 S&P 500 보합권, Nasdaq 하락; 로테이션 거래가 거론되며 기술주 압박 확대. 국채수익률 상승과 함께 유가가 당일 +2.6% 반등했으나, 주간 ...",
+      "link": "https://t.me/MASSITRADING/205991",
+      "keywords": [
+        "상향",
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:18",
+      "text": "🎯 **[Wendy's, Trian 인수 제안 거절 후 급등…체질개선 ‘Dave’s Way’ 공개]** Wendy's 이사회, Trian Fund Management(Nelson Peltz) 측 15억달러(보도 내 18억달러 언급) 규모 인수 제안을 ‘기업가치 과소평가...",
+      "link": "https://t.me/MASSITRADING/205990",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-05 23:18",
+      "text": "🎯 **[Apple 70억달러 회사채 추진, Meta도 단기물 발행으로 기업 차입 수요 지속]** Apple, 실적 호조 이후 미국 채권시장에서 최대 70억달러 회사채 발행 추진; 필요 시점보다 ‘빌릴 수 있을 때’ 선제 조달 전략 재부각. 대형 기업들의 채권 발행이 ...",
+      "link": "https://t.me/MASSITRADING/205989",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-11-05 23:00",
       "text": "11월 5일 장 후 코멘트: 공포 뉴스와 본질  DS투자증권 투자전략 양형모  코스피가 5.3% 내려 5,384가 됐습니다. 삼성전자 -7.6%, SK하이닉스 -9.5%, 외국인 순매도 3.4조 가운데 2.7조가 두 종목이었고 개인이 2.3조를 받았습니다. 이유는 중간...",
-      "link": "https://t.me/IDEA_MEMO/27901",
+      "link": "https://t.me/JAKE8LEE/14436",
       "keywords": [
         "수요",
         "업사이드",
@@ -12,163 +273,10 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-05 17:13",
-      "text": "**폭스콘, 2026년 10월 매출 **  **mom +12.66%, yoy +45.73%.**   **10월 매출 역대 월간 최고치 경신**  • 매출 **1조 3,053억 대만달러**, 전월 대비 +12.66%, 전년 대비 **+45.73%**.  • 달러 기준 전...",
-      "link": "https://t.me/IDEA_MEMO/27897",
-      "keywords": [
-        "수요",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-05 11:31",
-      "text": "**미국 중간선거로 텍사스 정치 지형 변화, 대만 기업들 \"투자 계획 불변\"**  **- 폭스콘, 페가트론, 컴팔, 위스트론, 위윈 등 주요 AI 서버 제조업체들은 정치적 변화와 관계없이 기존 공장 건설 및 증설 계획을 유지.  - 현재 투자 중단이나 계획 변경 움직임...",
-      "link": "https://t.me/IDEA_MEMO/27890",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-05 07:31",
-      "text": "**중간선거 이후 전략 : 블루 스윕, 교착(Gridlock) 리스크 (Bofa)**  **1. 선거 결과 개요**  • 민주당이 상·하원 모두 장악, 주요 주지사 선거에서도 승리  • 전 세계적인 반(反)현직 투표 흐름의 연장선  • 예상을 웃도는 압승으로 평가  •...",
-      "link": "https://t.me/IDEA_MEMO/27888",
-      "keywords": [
-        "수요",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-05 07:30",
-      "text": "**중간선거 이후.. (GS)**  **1. 정책 전망**  • 하원은 이미 민주당 승리가 예상됐던 만큼 상원 승리가 정책 전망을 크게 바꾸진 않음  • 정부 예산 연장과 내년 가을까지의 부채한도 상향을 협상 레버리지로 활용할 전망  • 우선순위 후보: 이란 전쟁 제한...",
-      "link": "https://t.me/IDEA_MEMO/27887",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-05 07:10",
-      "text": "**중간선거 직후 시장 코멘트 정리: 민주당 압승, AI 인프라 약세·소비주 강세/금리 하락 (JPM)**  **1. 선거 이후 Fed**  • 지난 2년간 Fed 독립성 리스크 부각, 현직 이사 해임 시도는 사상 초유  • 상원 지형 변화로 지명 승인 통제 가능 → ...",
-      "link": "https://t.me/IDEA_MEMO/27885",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 19:02",
-      "text": "🎯 **[미국 정치 변수로 AI 정책 우려 확대, 아시아는 중국 인터넷주로 자금 이동]** 미국 중간선거 이후 ‘로테이션’ 거래가 글로벌 주식시장 변동성 확대 요인으로 거론되며, AI 정책 강화 우려가 반도체 등 관련 종목에 부담으로 언급. 미국 정치 지형 변화로 민주...",
-      "link": "https://t.me/MASSITRADING/205868",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 19:02",
-      "text": "🎯 **[Mittal, Eutelsat OneWeb로 기술 주권형 위성인터넷 대안 구축 베팅]** 인도 억만장자 Sunil Bharti Mittal, 미국·중국 시스템 의존을 줄이려는 국가 수요를 겨냥해 위성인터넷 네트워크에 투자. Mittal 지지 받는 Eutelsa...",
-      "link": "https://t.me/MASSITRADING/205865",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 18:48",
-      "text": "🎯 **[blue tsunami 이후 AI·data center 규제 강화, 투자 속도 둔화로 반도체·서버 밸류체인 영향]** Goldman Sachs는 미국의 이른바 blue tsunami이 AI 및 data center 규제에 큰 함의를 가진다고 평가; 민주당 승리...",
-      "link": "https://t.me/MASSITRADING/205862",
-      "keywords": [
-        "공급",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 18:33",
-      "text": "🎯 **[Veolia, 2026 목표 재확인·중동 desalination 수주 확대, 인플레 전가로 마진 방어]** Veolia 9개월 실적 전년 대비 증가, 2026 목표 재확인. 중동에서 대형 desalination 계약 2건 확보. 미국 대선·의회 권력구도 변화와...",
-      "link": "https://t.me/MASSITRADING/205856",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 18:32",
-      "text": "🎯 **[정치 변수·실적 시즌·핵심 지표 대기 속 월요일 개장 전 점검 필요]** 새로운 시장 개척과 추가 유동성 공급 가능성 언급, 향후 경쟁자 유입으로 경쟁 구도 심화 관측. 정치 일정이 집중되는 한 주 예고, 금융시장 변동성 확대 요인으로 부각. 실적 시즌 진행 ...",
-      "link": "https://t.me/MASSITRADING/205853",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 18:17",
-      "text": "🎯 **[Veolia 9개월 실적 개선, 2026 목표 재확인과 중동 담수화 수주 확보]** Veolia 9개월 실적이 전년 대비 증가, 회사는 2026년 목표를 재확인. 중동에서 대형 담수화(desalination) 계약 2건을 확보, 물 인프라 투자 확대 흐름과 연...",
-      "link": "https://t.me/MASSITRADING/205852",
-      "keywords": [
-        "수주"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 18:17",
-      "text": "🎯 **[Qualcomm·Arm 가이던스 실망, Micron 대만 공장 계획 중단으로 공급 우려]** Qualcomm 실적 가이던스 부진, 부품 가격 상승 압력 지속으로 스마트폰 프로세서 수익성 부담 신호. Arm 현 분기 매출 전망이 기대에 못 미쳐 데이터센터 시장 ...",
-      "link": "https://t.me/MASSITRADING/205849",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 18:02",
-      "text": "🎯 **[AI 고도화로 유럽 사이버공격 급증, 기업 통제·보험 대비 강화 필요]** AI 모델 확산과 해외 위협 요인으로 유럽 전역 사이버공격 우려 확대. 대륙 전역 슈퍼마켓 냉장·냉동 설비가 해커 공격 표적이 되면서 공급망·재고 손실(부패, spoilage) 등 물리...",
-      "link": "https://t.me/MASSITRADING/205844",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 18:02",
-      "text": "🎯 **[Bakes by Melissa, Target와 홈베이킹 키트 출시…연말 수요·선물 시장 공략]** Bakes by Melissa가 Target과 협업해 집에서 ‘한 입 크기’ 컵케이크를 만들 수 있는 베이킹 키트 출시. 연말·휴일 시즌 직전 론칭으로, 선물·파...",
-      "link": "https://t.me/MASSITRADING/205843",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 18:02",
-      "text": "🎯 **[AMD, agentic AI로 CPU 수요 확대…Venice·Verano 기반 데이터센터 성장]** Ryzen Mobile 중심 PC 사업 매출 증가 언급 있었으나, 전분기 대비 감소 및 시장 기대치 대비 정체 평가도 제기. agentic AI 확산으로 AI ...",
-      "link": "https://t.me/MASSITRADING/205842",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 17:48",
-      "text": "🎯 **[e.l.f. Beauty, 20~24주 출시 사이클·stage gate로 혁신과 수익성 동시 관리]** e.l.f. Beauty 본사에서 혁신 제품 포트폴리오와 신제품 출시 프로세스 소개. Power Grip Primer가 미국 대중 시장에서 대표 히트 상품으...",
-      "link": "https://t.me/MASSITRADING/205840",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-05 17:48",
-      "text": "🎯 **[민주당 압승 이후 달러 약세, NFP·CPI와 Eurosterling 포지션이 핵심 변수]** 민주당 중간선거 압승 이후 달러 하락세 확대, 2개월 내 최악의 일일 낙폭 이후 약세 연장. 시장 일각에서 AI trade 약화 → 미국 성장 기대 약화 → 달러 매...",
-      "link": "https://t.me/MASSITRADING/205839",
+      "source": "@JAKE8LEE",
+      "date": "2026-11-05 23:00",
+      "text": "**오픈AI, 데이터센터 지역사회 협약 및 정책 청사진 발표**  : 오픈AI는 AI 데이터센터 개발에 따른 지역사회 부담을 최소화하기 위해 ’전국 지역사회 협약(National Community Compact)’과 ‘컴퓨팅 캠퍼스 정책 청사진(Compute Campu...",
+      "link": "https://t.me/JAKE8LEE/14435",
       "keywords": [
         "수요",
         "공급"
@@ -299,29 +407,6 @@
       ]
     },
     {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-02 17:32",
-      "text": "JP모건   삼성전자 : HBM4 경쟁력 입증과 2027년 실적 폭발 전망, 주주환원은 내년 1월로 연기 (목표주가 40만원 / 비중확대)  작성 : 잠실개미&10X 텔레그램 https://t.me/jake8lee/14404  ✅ 삼성전자는 2026년 3분기 매출 19...",
-      "link": "https://t.me/JAKE8LEE/14404",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-02 16:37",
-      "text": "**AI Capex 피크는 낮아져도 사이클은 길어진다 — 반도체 멀티플 재평가 가능성** **(Bofa)**  **1. 핵심 :Capex 삭감은 악재처럼 보여도 사이클 연장 요인**  • 수익화 가능한 AI 수요가 견조한 가운데 공급 증가만 둔화되면 컴퓨팅 희소성이 커...",
-      "link": "https://t.me/JAKE8LEE/14402",
-      "keywords": [
-        "수요",
-        "공급",
-        "사이클",
-        "YoY"
-      ]
-    },
-    {
       "source": "@ONE_GOING",
       "date": "2026-11-02 11:01",
       "text": "**■ 미국 중간선거 '한국시간' 체킹해두기**  1) 투표 시작 : 11/3(화) 저녁8시  **2) 개표 시작 : 11/4(수) 오전9시** *미국은 동부,서부로 시간대가 달라서 이때부터 순차적으로 개표 시작 ***출구조사도 이때쯤 나옴** ** 3) 윤곽 확인 :...",
@@ -394,15 +479,6 @@
       "link": "https://t.me/BRILLER_RESEARCH/4711",
       "keywords": [
         "수요"
-      ]
-    },
-    {
-      "source": "@BRILLER_RESEARCH",
-      "date": "2026-10-17 19:13",
-      "text": "**[원리버님 두 번째 책 독서📖 시작!]**  지난주 사전예약으로 주문했던 [**원리버**](https://t.me/s/pharmbiohana)님의 두 번째 책이 몇일전 도착해서 어제부터** \"10배 오르는 바이오 주식의 비밀\"**책을 읽기 시작했습니다.  일단 책표...",
-      "link": "https://t.me/BRILLER_RESEARCH/4703",
-      "keywords": [
-        "업사이드"
       ]
     },
     {
@@ -1568,6 +1644,36 @@
     },
     {
       "source": "@MERITZ_RESEARCH",
+      "date": "2026-11-05 20:08",
+      "text": "📮 [메리츠증권 음식료/유통 김정욱]  KT&G(033780) 3Q26 Review & 2026 Capital Markets Day  보고서링크: https://han.gl/ZUtwZ  3Q26 연결 기준 매출액 1조 9,052억원(+4.3% YoY), 영업이익 5,3...",
+      "link": "https://t.me/MERITZ_RESEARCH/45045",
+      "keywords": [
+        "OP",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-11-05 20:07",
+      "text": "📮 [메리츠증권 음식료/유통 김정욱]  BGF리테일(282330) 3Q26 Review  보고서링크: https://han.gl/891oe  3Q26 연결 기준 매출액 2조 5,152억원(+2.1% YoY), 영업이익 1,008억원(+3.2% YoY)으로 컨센서스 1,...",
+      "link": "https://t.me/MERITZ_RESEARCH/45044",
+      "keywords": [
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-11-05 19:36",
+      "text": "📮 [메리츠증권 금융 조아해]  **한국금융지주 - 변동성 확대 불가피** ** ** **▶ 3Q26 지배주주순이익 2,823억원 (-58.1% YoY): 컨센 -44%**  - 자회사 증권은 예상대비 판관비 감소폭이 적었으며 (순영업수익은 당사 추정치 부합),  - ...",
+      "link": "https://t.me/MERITZ_RESEARCH/45043",
+      "keywords": [
+        "M/S",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
       "date": "2026-11-05 17:43",
       "text": "📮 [메리츠증권 음식료/유통 김정욱]  CJ프레시웨이(051500) 3Q26 Review  보고서링크: https://han.gl/7p9gm  3Q26 매출액은 9,616억원으로 전년비 6.7% 성장, 취급고 기준으로는 16.9% 성장. 영업이익은 239억원으로 전년비...",
       "link": "https://t.me/MERITZ_RESEARCH/45042",
@@ -1744,25 +1850,6 @@
       "keywords": [
         "QoQ",
         "YoY"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-11-04 07:47",
-      "text": "📮 [메리츠증권 이진아] 2026.11.04(수)  **[2027 Outlook 5] ESG: Show Me the Money**  \"ESG, 이제 기업가치로 증명할 시간\"  ESG라는 이름을 붙인 투자에 대한 시장의 시선은 예전보다 까다로워졌습니다. 미국 지속가능 펀...",
-      "link": "https://t.me/MERITZ_RESEARCH/45015",
-      "keywords": [
-        "수요",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-11-03 18:17",
-      "text": "📮 [메리츠증권 음식료/유통 김정욱]  현대그린푸드(453340) 3Q26 Review  보고서링크: https://han.gl/WRtz4  3Q26 연결 기준 매출액 6,520억원으로 전년비 5.7% 증가, 영업이익 448억원으로 전년비 0.7% 증가. 컨센서스 48...",
-      "link": "https://t.me/MERITZ_RESEARCH/45014",
-      "keywords": [
-        "OP"
       ]
     },
     {
