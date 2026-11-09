@@ -2,6 +2,16 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-11-09 19:06",
+      "text": "🚨 DRAM 현물가 알림 (2026-11-09) 🔻 DDR5 RDIMM 32GB(서버) -6.5% → $2,025 (전일 $2,165) ⚠️ 서버 RDIMM 32GB 하락 $2,025 (최근 고점 $2,165 대비 -6.5%)    → AI 서버 수요 사이클 점검 필요...",
+      "link": "https://t.me/IDEA_MEMO/28031",
+      "keywords": [
+        "수요",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-11-08 11:52",
       "text": "**The Information) AI 데이터센터 건설 지연,  마이크로소프트, 아마존, 구글 3대 기업은 오히려 수혜**  **Microsoft(MSFT), Amazon(AMZN), Alphabet(GOOGL)은 오히려 유리한 위치에 놓일 수 있다는 분석**   **...",
       "link": "https://t.me/IDEA_MEMO/28017",
@@ -37,159 +47,38 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-07 14:53",
-      "text": "민주당의 데이터센터 사이클 파괴? 골드만삭스는 역으로 전망 상향!  • 2026년 이터센터 건설지출 전망 기존 670억달러에서 800억달러로 상향 조정. 2028년은 처음으로 1250억 달러의 전망치 제시  • 텍사스 조치 충격으로 인한 시장 공포에도 본질은 종료가 아...",
-      "link": "https://t.me/IDEA_MEMO/27999",
-      "keywords": [
-        "상향",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-07 13:54",
-      "text": "**글로벌 주식전략: 모멘텀 붕괴의 해부와 1Q27 주도주 전망 (JPM)**  **1. 시장 현황 및 핵심 뷰**  • 26년 상반기 : AI capex 가이던스가 매크로 우려(금리·유가·달러·크레딧 스프레드)를 압도, 2026·2027 EPS 컨센서스 각각 +9%,...",
-      "link": "https://t.me/IDEA_MEMO/27998",
-      "keywords": [
-        "상향",
-        "사이클"
-      ]
-    },
-    {
       "source": "@MASSITRADING",
-      "date": "2026-11-09 16:19",
-      "text": "🎯 **[미·중 무역 휴전 연장과 정상회담 기대, 공급망·해운 및 반도체 규제 변수 재부각]** 중국, 미국과의 trade truce 관련 조치를 1월 데드라인에 맞춰 정책 준수 형태로 연장·정비한 것으로 소개, Trump-Xi summit 개최 기대와 연동. 미·중 ...",
-      "link": "https://t.me/MASSITRADING/208146",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 16:19",
-      "text": "🎯 **[유럽 은행 실적·재편 논의 부상, UniCredit 호실적과 이탈리아 통합 구상 재점화]** UniCredit, 매출이 시장 예상 상회하며 가이던스 상향 발표로 요약. 유럽 은행 섹터의 이익 모멘텀 점검 재료로 부각. 유럽 전반에서 은행 consolidatio...",
-      "link": "https://t.me/MASSITRADING/208145",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 16:19",
-      "text": "🎯 **[ECB 차기 총재 경쟁 본격화, 네덜란드·스페인 후보 부상과 라가르드 행보 주목]** ECB 차기 총재 인선, 네덜란드와 스페인이 각각 전 중앙은행 총재를 후보로 공식화하며 양자 구도로 압축되는 흐름. 유력 후보로 Klaas Knot(네덜란드), Pablo H...",
-      "link": "https://t.me/MASSITRADING/208144",
-      "keywords": [
-        "서프라이즈"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 16:19",
-      "text": "🎯 **[미국 선물 약세·아시아 기술주 반등, Brent 97달러 하회 속 CPI·PPI 대기]** 미국 NASDAQ 선물 약 -0.1%로 약세 출발, 전주 후반 반등에도 불구하고 주간 기준 S&P 500·NASDAQ 하락 마감 흐름 반영. 유럽 선물도 소폭 약세(약 ...",
-      "link": "https://t.me/MASSITRADING/208143",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 16:19",
-      "text": "🎯 **[NVIDIA 젠슨 황 스캔들로 주가 급락, 핵심인물 리스크와 대중국 규제 조사 부각]** NVIDIA CEO Jensen Huang, 중국 스파이 의혹 인물과의 불륜 인정 보도 이후 주가 선물거래에서 약 6% 하락 관측, 연중 저점(3월 말) 수준 재시험 가능...",
-      "link": "https://t.me/MASSITRADING/208142",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 16:17",
-      "text": "🎯 **[AI, 과학발견·신약개발 가속과 헬스케어 투자축 이동 신호]** Richard Socher, 신간 『The Eureka Machine』에서 AI 활용의 다음 전선으로 과학적 발견(물리·화학·생물·신경과학·의학) 제시. AIX Ventures 투자 현장에서 관측...",
-      "link": "https://t.me/MASSITRADING/208141",
-      "keywords": [
-        "상향",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 16:02",
-      "text": "🎯 **[블루 웨이브 이후 AI 인프라 비용 상향, 2027~2028 실적추정 신뢰도 하락]** 일부 업계 리더들은 선거 이후 정치적 소음이 크더라도 기업 운영에 집중하겠다는 태도를 보였고, 미국의 AI·기술 리더십 지속을 낙관적으로 평가. 스포츠 산업은 경기침체에도 ...",
-      "link": "https://t.me/MASSITRADING/208140",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 16:02",
-      "text": "🎯 **[퀄컴, 반도체 공급부족·에너지 제약이 데이터센터 구축 속도에 영향]** 퀄컴은 데이터센터 사업이 초기 단계라 시장의 ‘AI 조정’ 논쟁과 직접 연동되지 않는다고 주장하면서도, 업계 전반에서 공급 제약과 전력 인프라 제약이 구축 속도를 좌우한다고 진단. 시장 기...",
-      "link": "https://t.me/MASSITRADING/208139",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 16:02",
-      "text": "🎯 **[LLM 기반 언더라이팅으로 승인 풀 확대, 손실률 유지하며 신용접근성 개선]** 전통 신용 언더라이팅은 과거 편견적 요소(우편번호·인종 등)에 좌우되던 시기를 거쳐, 현재는 규제된 공정대출 프레임워크 내에서 모델 중심 심사로 발전. 수기 설계·통계학습 기반 모...",
-      "link": "https://t.me/MASSITRADING/208138",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 16:02",
-      "text": "🎯 **[UniCredit 기록적 분기이익·가이던스 상향, Commerzbank 인수전 추진력 강화]** UniCredit, 분기 기준 사상 최고 이익 발표 및 연간 가이던스 상향으로 실적 모멘텀 강화. Commerzbank 인수는 성사 여부보다 ‘방법·시점’이 핵심 ...",
-      "link": "https://t.me/MASSITRADING/208135",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 15:47",
-      "text": "🎯 **[Bernstein, Georgia 전력·규제 리스크로 AI 데이터센터 승인 지연 가능성 경고]** 선거 이후 정책 불확실성 속에서 AI 데이터센터 투자 논쟁이 확대, Texas 중심 이슈 외에 Georgia 리스크가 부각됐다는 설명. Bernstein 분석 인...",
-      "link": "https://t.me/MASSITRADING/208132",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 15:47",
-      "text": "🎯 **[기술주 조정 16%·밸류에이션 압축 심화, AMD 수요 발언에도 약세 확산]** Truist의 Keith Lerner 견해로 ‘기술주에서 매수자 이탈(매수 파업)’이 나타난다는 해석 제시(방송 내 언급). 강세장 평균 수준에 근접한 기술주 조정폭 약 16%로 ...",
-      "link": "https://t.me/MASSITRADING/208131",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 15:47",
-      "text": "🎯 **[EU, 중국 의존 줄이기 위해 rare earths 공급망·정제 역량 강화 추진]** EU, 중국 등 특정 국가에 대한 경제적 취약성 축소를 위한 조치 패키지 검토. 핵심 쟁점으로 critical minerals, 특히 rare earths 공급이 베이징의 레...",
-      "link": "https://t.me/MASSITRADING/208126",
-      "keywords": [
-        "공급",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-09 15:32",
-      "text": "🎯 **[OpenAI 110억달러 신규자금·1.25조달러 가치 평가; AI 전력·로보틱스 재편]** 블룸버그 취재에 따르면 OpenAI, 약 110억 달러 규모 신규 자금 조달 완료 정황; 해당 라운드에서 기업가치 약 1.25조 달러 평가. 소식통에 따르면 라운드 총액...",
-      "link": "https://t.me/MASSITRADING/208123",
+      "date": "2026-11-09 19:32",
+      "text": "🎯 **[선거·인프라 제약에 AI data center CAPEX 기대 둔화, 시장 2조달러 급락과 로테이션]** 정치 환경(선거 이후) 불확실성 속 기업 경영자는 본업 집중 필요성 강조, 기술·AI가 서비스 개선과 비용 효율화를 통해 경쟁력과 인력 역량을 강화할 것이...",
+      "link": "https://t.me/MASSITRADING/208226",
       "keywords": [
         "수주"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-09 15:32",
-      "text": "🎯 **[UBS CEO, AI 주식 조정 우려 제한적; 다각화·자산배분 변화와 밸류에이션 점검]** UBS Group CEO Sergio Amati, AI 관련 주가 조정 국면에서 UBS 직접 익스포저 제한적 평가; 핵심 리스크, 고객 asset allocation에 ...",
-      "link": "https://t.me/MASSITRADING/208122",
+      "date": "2026-11-09 19:32",
+      "text": "🎯 **[Qualcomm, 반도체 공급부족과 에너지 리드타임이 data center build-out 속도 제약]** AMD CEO Lisa Su 발언 관련, 시장의 단기적 반응 가능성과 달리 사업에서 강한 추세가 지속된다는 취지로 언급됐다는 요약 제시. Qualcom...",
+      "link": "https://t.me/MASSITRADING/208225",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:32",
+      "text": "🎯 **[transformer 기반 underwriting로 동일 loss rate 유지하며 신용승인 풀 확대]** 공정대출(fair lending) 규제 프레임워크 준수 전제하에 underwriting 모델 고도화 진행, 금지 변수(예: location)와의 과도한 ...",
+      "link": "https://t.me/MASSITRADING/208224",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:32",
+      "text": "🎯 **[UBS CEO: 자산배분 변화 확대, AI 데이터센터 밸류에이션·정치가 공급 제약]** UBS CEO Sergio Amati, 중간선거 이후 직접 노출보다 ‘2차 효과’(고객 자산배분 변화) 중요하다고 평가. 지난 12개월 동안 에너지·인프라 중심 장기 트렌드...",
+      "link": "https://t.me/MASSITRADING/208222",
       "keywords": [
         "수요",
         "공급",
@@ -198,11 +87,106 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-09 15:32",
-      "text": "🎯 **[Fiat Topolino 초소형차, 1만5천달러에도 미국 물량 완판]** Fiat Topolino는 유럽의 리조트 타운·소규모 마을 수요를 겨냥한 micro car 콘셉트로 소개. 미국에는 약 300대만 들여왔고 전량 판매됐다는 언급으로, 특정 지역(해변·리조...",
-      "link": "https://t.me/MASSITRADING/208117",
+      "date": "2026-11-09 19:32",
+      "text": "🎯 **[Credit Agricole 45% 지분 확보, Unicredit 3분기 최대이익·가이던스 상향]** Credit Agricole, 합병 법인 지분 45% 확보. Unicredit, 3분기 사상 최대 분기 순이익 기록 후 4개년 가이던스 상향. 실적 모멘텀, ...",
+      "link": "https://t.me/MASSITRADING/208221",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:18",
+      "text": "🎯 **[Georgia 전력 규제기관 ‘민주당 우위’ 전환, AI 데이터센터 인허가 지연·비용 상승 리스크]** AI 데이터센터 이슈, Texas 중심 논의에서 Georgia로 확장; Bernstein, Georgia를 ‘과소평가된 리스크’로 지목. Georgia Pu...",
+      "link": "https://t.me/MASSITRADING/208219",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:18",
+      "text": "🎯 **[S&P 500 하루 3조달러 증발, 기술주 매수 공백·밸류에이션 급락]** 정치 이벤트 이후 상·하원 민주당 장악 가능성 재평가 국면에서 위험자산 가격 재조정 진행. S&P 500 하루 -4.4%, 시가총액 약 3조달러 감소; 총 시가총액 68.9조달러에서 6...",
+      "link": "https://t.me/MASSITRADING/208218",
       "keywords": [
         "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:18",
+      "text": "🎯 **[아시아 증시 반등, 대만 공매도 규제·원화 강세 속 AI 테마 주도]** 아시아 장, 미국 기술주 반등 영향으로 위험자산 심리 개선; MSCI Asia Pacific 약 2% 상승, Nikkei 및 대만 지수 동반 강세. 대만 정부, 공매도 제한 조치 시행 및...",
+      "link": "https://t.me/MASSITRADING/208217",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:17",
+      "text": "🎯 **[CoreWeave, 텍사스 데이터센터 협력 제안으로 정책 리스크 완화 시도]** CoreWeave, 텍사스 주지사 당선인에게 주 내 ‘지속 가능하고 책임 있는 데이터센터’ 구축 협력 의사 전달; 선거 이후 데이터센터 규제·정치 리스크 우려로 촉발된 매도세 진정...",
+      "link": "https://t.me/MASSITRADING/208215",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:17",
+      "text": "🎯 **[Credit Agricole-Banco BPM 합병 추진, Unicredit 실적 호조로 Commerzbank 공세 강화]** Credit Agricole, 이탈리아 사업을 Banco BPM과 통합하는 방안 추진; 교환비율은 약 20% 프리미엄 반영, Banc...",
+      "link": "https://t.me/MASSITRADING/208214",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:17",
+      "text": "🎯 **[Nvidia CEO 조사로 키맨리스크 부각, AI 생태계 전반 투자심리 흔들림]** Nvidia 주가 프리마켓 급락, CEO Jensen Huang 관련 스캔들·조사 착수 보도로 ‘key man risk’ 급부상. AI 생태계에서 Nvidia 역할이 칩 공급을...",
+      "link": "https://t.me/MASSITRADING/208209",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:02",
+      "text": "🎯 **[Renk CEO, 방산 순수기업 전환·해군 확장·aftermarket와 무인체계 M&A 추진]** 미국 중간선거에서 민주당 압승 후 미국 군비 증액 기대 약화 관측 제기. 과거 트럼프 행정부의 유럽 안보 공약 후퇴가 유럽 각국 방위비 증액 촉발했다는 맥락에서 ...",
+      "link": "https://t.me/MASSITRADING/208206",
+      "keywords": [
+        "수요",
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 19:02",
+      "text": "🎯 **[Hulken 창업자, 자금의존 경계·특허 방어·Target/Costco 확장 리스크와 DTC 차질 진단]** Hulken 창업자 Alex, 사업 운영에서 ‘자본’ 자체보다 자금조달에 과도하게 의존하는 구조가 수익성 지표 관리와 경영 집중도를 훼손한다고 강조. ...",
+      "link": "https://t.me/MASSITRADING/208203",
+      "keywords": [
+        "공급",
+        "사이클",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 18:47",
+      "text": "🎯 **[훌킨, 9명 팀으로 매출 약 7,000만달러…AI first 운영·무차입 수익성 전략]** 롤링 틸트백 브랜드 ‘훌킨’ 공동창업자 겸 사장 Alex Ganassi 인터뷰 내용 정리. 훌킨 초기 50개 가방을 창업자 아파트에서 보관·배송하던 구조에서 출발, 현재...",
+      "link": "https://t.me/MASSITRADING/208202",
+      "keywords": [
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-09 18:47",
+      "text": "🎯 **[UBS CEO “AI 주식 조정 과도 우려 없다”…장기 사이클·분산과 data center 밸류에이션 점검]** UBS Group Chief Executive Sergio Amati는 AI 주식 매도세에 대해 UBS의 직접 익스포저가 제한적이며, 고객 자산배분...",
+      "link": "https://t.me/MASSITRADING/208200",
+      "keywords": [
+        "사이클"
       ]
     },
     {
@@ -371,6 +355,19 @@
       "link": "https://t.me/BRILLER_RESEARCH/4711",
       "keywords": [
         "수요"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-11-09 17:48",
+      "text": "펌텍은 연결 컨센 +15% 상회했는데, 펌프/튜브 모두 호조였으며, 캐파 증설 효과, 계절성을 넘어선 사업 호조 등 고루 영향을 미쳤습니다.   4분기 매출액 YoY 60% 대 예상됩니다. 사출 캐파가 점진적으로 증가하면서, 생산-수주 괴리가 점진적으로 해소되고 있습니...",
+      "link": "https://t.me/MSTARYUN/11145",
+      "keywords": [
+        "수요",
+        "OP",
+        "QoQ",
+        "YoY",
+        "수주"
       ]
     },
     {
@@ -709,6 +706,24 @@
     },
     {
       "source": "@IRNOTE_YSTREET",
+      "date": "2026-11-09 17:01",
+      "text": "**[컨콜노트-전체공개] 신성이엔지, 역대 최대 수주에도 3분기 수익성 아쉬움**  ✅ 3분기 단일 매출 1584억 원, 영업이익 6억 원을 기록했고 누적 영업이익은 전년 동기 마이너스 16억 원에서 14억 원으로 흑자전환했음  ✅ 4분기에는 마무리 프로젝트 정산과 역...",
+      "link": "https://t.me/IRNOTE_YSTREET/5600",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-11-09 16:57",
+      "text": "**[마감브리프] 26.11.09.(월) 뉴스 TOP10 - 셀트리온, HD한국조선해양, 삼성물산, 알테오젠 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261109165643799...",
+      "link": "https://t.me/IRNOTE_YSTREET/5599",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@IRNOTE_YSTREET",
       "date": "2026-11-09 14:00",
       "text": "**[탐방노트] 필옵틱스, 내년 앱솔릭스향 유의미한 수주 기대**  ✅ 본업은 사실상 플랫한 상황임  ✅ 유리기판은 최근 2분기 들어 수요가 늘어나고 있음  ✅ 올해는 연결로 적자를 예상하며 내년 유리기판 추가 수주를 기대함  👉 [전문보기](https://conten...",
       "link": "https://t.me/IRNOTE_YSTREET/5594",
@@ -798,15 +813,6 @@
       "link": "https://t.me/IRNOTE_YSTREET/5573",
       "keywords": [
         "공급"
-      ]
-    },
-    {
-      "source": "@IRNOTE_YSTREET",
-      "date": "2026-11-05 08:40",
-      "text": "**[모닝브리프] 26.11.05.(목) 뉴스 TOP10 - 현대차, LG, 아모레퍼시픽, SK하이닉스 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261105083910409dd)...",
-      "link": "https://t.me/IRNOTE_YSTREET/5568",
-      "keywords": [
-        "OP"
       ]
     },
     {
@@ -949,6 +955,18 @@
       "link": "https://t.me/DH_FINANCE/4151",
       "keywords": [
         "YoY"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-09 17:00",
+      "text": "국내 주식 마감 시황 - 11월 9일  『반도체로 버틴 하루, 애프터에서 드러난 경계』 시황 강진혁 ☎️02-3772-2329  코스피 5,018.85 (-0.81%), 코스닥 638.97 (-0.82%)  반도체 선방에 5천피 방어→애프터 하락 전환  KOSPI, K...",
+      "link": "https://t.me/SHINHANRESEARCH/53552",
+      "keywords": [
+        "서프라이즈",
+        "쇼크",
+        "YoY",
+        "밸류체인"
       ]
     },
     {
@@ -1137,12 +1155,14 @@
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-09 07:39",
-      "text": "**『 롯데쇼핑(023530.KS)– 아쉬움을 뒤로 하고 』 기업분석부 조상훈 ☎****02-3772-2578**   ▶ **백화점 성장 둔화 아쉽지만, 부진을 사는 이유** - 최근 자산시장 조정에도 불구하고 백화점 실적은 우려 대비 순항 - 반도체 성과급 지급에 따...",
-      "link": "https://t.me/SHINHANRESEARCH/53520",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-11-09 17:13",
+      "text": "한국&중국 마켓 클로징(11월 9일)  전강후약, AI·반도체 투심 부진  # 국내 마감 ▶️ Summary · 코스피 5,018.85(-0.81%), 코스닥 638.97(-0.82%) · 코스피, 기관 7,318억원 순매수에도 외국인 6,927억원 순매도에 약보합 마...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7868",
       "keywords": [
-        "TP",
+        "상향",
+        "수요",
+        "OP",
         "YoY"
       ]
     },
@@ -1643,18 +1663,6 @@
         "공급",
         "밸류체인",
         "수주"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-11-06 07:48",
-      "text": "📮[메리츠증권 전기전자/IT부품 양승수]  티엘비(356860) :  여기도 SoCAMM, 기대 이상   ▶ 3Q26 Review: 기대 이상의 수익성 달성   - 3Q26 매출액은 940억원(+36.4% YoY)으로 컨센서스를 4.2% 하회했으나, 영업이익은 166억...",
-      "link": "https://t.me/MERITZ_RESEARCH/45055",
-      "keywords": [
-        "상향",
-        "수요",
-        "YoY",
-        "밸류체인"
       ]
     },
     {
