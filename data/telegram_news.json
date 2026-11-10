@@ -2,161 +2,193 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
-      "date": "2026-11-09 21:39",
-      "text": "**구글, TPU 2종 신규 버전 출시**  • 기존 2년마다 새로운 AI 프로세서 출시해 왔으나 올해는 한번에 2종 발표  https://www.bloomberg.com/news/articles/2026-11-09/google-escalates-nvidia-rival...",
-      "link": "https://t.me/IDEA_MEMO/28038",
+      "date": "2026-11-10 23:24",
+      "text": "[SoftBank, AI 데이터센터 발전설비 조달 축소…37억달러 손실 반영]  *가스터빈 등 발전설비 조달전략 수정 -SoftBank는 미국 AI 데이터센터 프로젝트를 위해 선제적으로 확보했던 발전설비의 조달전략을 변경하면서 37억달러 규모의 손실을 반영  -자회사 ...",
+      "link": "https://t.me/IDEA_MEMO/28080",
       "keywords": [
-        "TP"
+        "공급"
       ]
     },
     {
       "source": "@IDEA_MEMO",
-      "date": "2026-11-09 21:14",
-      "text": "트렌드포스에 의하면, 여전히 디램은 공급이 타이트한 상태(수요>공급)라고 합니다....",
-      "link": "https://t.me/IDEA_MEMO/28037",
+      "date": "2026-11-10 23:13",
+      "text": "가스터빈 생산예약 축소…GE버노바 주가 폭락  - 소프트뱅크 그룹과 자체 비전펀드2가 공동 출자한 미국 데이터센터 전담 특수목적법인 SB7이 미국 오하이오주 데이터센터 프로젝트 'PORTS-Pike'에 전력설비 구매 계약에 지난 9월까지 1.5조엔을 지출했음  - SB...",
+      "link": "https://t.me/IDEA_MEMO/28077",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-10 22:07",
+      "text": "CNBC 관계자: Anthropic 로드쇼 관련 소식  • 다음 주 수요일 공모가 확정, 목요일 나스닥 상장 예정  • **기관 수요는 주당 70~78달러 구간에서 이미 배정 가능 물량 기준으로 다 찼다고 합니다. 부풀려진 주문을 걷어낸 뒤에도 사실상 초과청약이라는 뜻...",
+      "link": "https://t.me/IDEA_MEMO/28073",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-10 21:38",
+      "text": "**앤스로픽 S-1 수정본(Ver 2) 신규 추가 및 변경 내용**  **■ 공모가격 및 주식 수**  : 희망 공모가격은 주당 $70~78, 공모 예정 주식 수는 8.25억 주  **■ 밸류에이션**  : 공모 희망가격 기준 기본 Equity Value 0.92~1....",
+      "link": "https://t.me/IDEA_MEMO/28070",
+      "keywords": [
+        "상향",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-10 20:00",
+      "text": "지난 분기(FY2Q26) 코어위브 실적발표 Q&A 내용입니다.  이미 중간선거 이전부터 블루웨이브 영향에 대해 코멘트한 것을 통해, 사전적인 대응을 하고 있었다는 것을 유추할 수 있습니다.  **\"모라토리엄은 데이터센터의 입지에 영향을 줄 뿐, 데이터센터 수요에는 영향...",
+      "link": "https://t.me/IDEA_MEMO/28066",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-11 00:02",
+      "text": "🎯 **[AI 인프라 자금 4조달러 전망, SPV·집중한도 부담으로 조달 여건 경색 우려]** 2030년까지 AI 관련 외부자금조달 4조달러 규모 전망, 일부는 equity issuance로 흡수 가능하나 상당 비중 debt 중심 예상. hyperscalers 직접 차...",
+      "link": "https://t.me/MASSITRADING/208955",
       "keywords": [
         "수요",
         "공급"
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-09 20:52",
-      "text": "APPLE INTELLIGENCE GENERATIVE AI SERVICE COMPLETES FILING FOR NEW USE ON APPLE TABLETS AND LAPTOPS - SHANGHAI CYBER AUTHORITY [...](https://x.com/Firs...",
-      "link": "https://t.me/IDEA_MEMO/28036",
+      "source": "@MASSITRADING",
+      "date": "2026-11-11 00:02",
+      "text": "🎯 **[Chime, 성장·수익성 동시 개선과 Stride Bank 인수로 자금조달비용 절감 추진]** Chime는 실적 발표 후 Q4 guidance 상향, Q3 매출(top line) 32% 성장 및 회원 수 20% 증가, 최근 12개월 순증 활성 이용자 180만 ...",
+      "link": "https://t.me/MASSITRADING/208953",
       "keywords": [
-        "OP"
+        "상향"
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-09 20:46",
-      "text": "* 구미, 초대형 AI데이터센터 좌초   - 경북 구미에서 추진되던 최대 300㎿ 규모의 인공지능(AI) 데이터센터 건립 사업이 무산됐다. 글로벌 AI 기업 앤트로픽 관계자들이 한국을 방문해 데이터센터 임차를 논의했지만 부지 문제 등으로 최종 계약이 불발해 사업 추진에...",
-      "link": "https://t.me/IDEA_MEMO/28035",
+      "source": "@MASSITRADING",
+      "date": "2026-11-10 23:32",
+      "text": "🎯 **[Wayfair, 대형 오프라인 매장으로 옴니채널 강화·카테고리 확장 노림수]** Wayfair, 오프라인 수요가 일정 부분 유지될 것으로 보고 오프라인 매장 확대 기회 강조. 애틀랜타에 15만 평방피트 규모 플래그십 매장을 열어 온라인에서 노출이 약한 카테고리...",
+      "link": "https://t.me/MASSITRADING/208950",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-10 19:32",
-      "text": "🎯 **[캘리포니아 억만장자세 부결·미 국방장관 탄핵 발의·우크라 종전 3자 회담]** 캘리포니아 유권자, 억만장자 대상 신규 세금안 부결. ‘Proposition 40’로 거주자 개인자산 10억달러 초과분에 일회성 5% 부과 내용. 미 공화당 하원의원 토머스 매시, ...",
-      "link": "https://t.me/MASSITRADING/208836",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-10 19:32",
-      "text": "🎯 **[NVIDIA 12배 PER에도 AI 과잉투자 경고, Agentic AI로 변동성 확대]** Dan, NVIDIA 주가 12배 내외 이익배수로 관찰, 2000년 고점 당시 Cisco 100배 이상과는 밸류에이션 국면 다르다고 평가. AI 투자 지출, 고속도로·전...",
-      "link": "https://t.me/MASSITRADING/208830",
-      "keywords": [
-        "서프라이즈",
-        "수요",
-        "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-10 19:17",
-      "text": "🎯 **[Amtropic IPO 문서 오류 파장, 조달 690억달러 언급…Infineon AI 전망 상향]** Amtropic가 IPO 정식 마케팅을 이르면 당일 시작할 가능성; 유출된 prospectus에 693억달러 조달 목표가 잘못 노출됐다가 철회되며 시장 혼선....",
-      "link": "https://t.me/MASSITRADING/208827",
-      "keywords": [
-        "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-10 19:17",
-      "text": "🎯 **[AI·반도체 랠리 지속, TSMC 매출 60%↑…Take-Two·Rocket Lab 엇갈림]** AI trade 열기 지속; TSMC 10월 매출 전년 대비 60% 증가. TSMC 호재에도 Applied Materials, Lam Research 등 미국 공급...",
-      "link": "https://t.me/MASSITRADING/208826",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-10 19:17",
-      "text": "🎯 **[Dan Niles, NVIDIA는 CEO 리스크에도 버팀목 가능하나 AI 사이클 둔화 경고]** 게스트 Dan Niles는 NVIDIA CEO 관련 악재가 ‘도움이 되지 않지만’, 산업 전반에 더 큰 구조적 이슈(기업의 AI 비용 통제, 데이터센터 투자 리스크...",
-      "link": "https://t.me/MASSITRADING/208822",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-10 19:17",
-      "text": "🎯 **[AI 매도 속 비용·가격 저항 부각, AMD 데이터센터 수요 강세로 대안 부상]** 최근 수주간 AI 섹터 조정의 표면적 요인으로 고평가 우려가 거론됐으나, 기업들의 AI 비용 통제 강화가 추가 변수로 부상했다는 분석 제시. Apple·Amazon 사례 언급:...",
-      "link": "https://t.me/MASSITRADING/208821",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-10 19:17",
-      "text": "🎯 **[NVIDIA, CEO 사생활 의혹이 투자자 신뢰·승계 계획·생태계 금융지원 논쟁 촉발]** 방송에서 NVIDIA CEO Jensen Huang 관련 사생활 의혹을 ‘reported’ 수준으로 거론하며, 기업 펀더멘털과 별개로 ‘신뢰’가 핵심 리스크로 부상했다는...",
-      "link": "https://t.me/MASSITRADING/208820",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-10 19:17",
-      "text": "🎯 **[AI 에이전트 확산, CEO 업무 방식 재편과 1인 창업사 가능성 부각]** 방송 발언 기준, DeepMind CEO Demis Hassabis 견해를 인용해 AI 발전으로 ‘1인이 설립·운영하는 게임체인저급 기업’ 등장 가능성 제기. Coinbase CEO ...",
-      "link": "https://t.me/MASSITRADING/208819",
-      "keywords": [
-        "수주"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-10 19:02",
-      "text": "🎯 **[CPI 대기 속 위험자산 선호 유지…아시아 기술주 강세·유가 급락 지속]** 미국 CPI 발표를 앞두고 주가 반등 흐름은 일시 숨 고르기, Waller의 12월 금리 인상 지지 발언 재부각. Brent crude, 8월 이후 처음으로 배럴당 90달러 하회. 미...",
-      "link": "https://t.me/MASSITRADING/208818",
+      "date": "2026-11-10 23:32",
+      "text": "🎯 **[핫한 CPI로 연준 인상 경로 불확실, 유가 하락이 완화 변수]** 금리시장에서 12월 추가 인상 가능성을 1%를 넘는 수준으로 반영, 25bp를 초과하는 인상 가능성까지 일부 헤지되는 흐름 관측. core CPI 0.3% 초과가 3개월 연속 이어지며 물가 둔...",
+      "link": "https://t.me/MASSITRADING/208946",
       "keywords": [
         "서프라이즈"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-10 19:02",
-      "text": "🎯 **[A.I. cloud capacity 부족, 사모시장 자금배분과 IPO·M&A 흐름에 신호로 부상]** A.I. cloud capacity 확충 수요 급증과 인프라 구축 난이도로 인해 사모시장 투자 배분이 왜곡되고 있다는 문제 제기. IPO 시장 변화가 단독 현...",
-      "link": "https://t.me/MASSITRADING/208817",
+      "date": "2026-11-10 23:32",
+      "text": "🎯 **[Take-Two, GTA 6 사전예약 770만건 추정…NBA 2K 잠식 우려도 부각]** Take-Two CEO Strauss Zelnick 발언 요지로, GTA 6 사전예약 추이가 예상보다 강하게 나타나는 흐름 관측되며, 자사 다른 핵심 프랜차이즈 NBA 2...",
+      "link": "https://t.me/MASSITRADING/208941",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-10 19:02",
-      "text": "🎯 **[AI agents 확산, CEO 업무 방식 변화와 ‘1인 초대형 기업’ 가능성 부상]** Demis Hassabis(DeepMind CEO) 발언을 계기로, AI가 단일 창업자·리더 중심의 ‘게임체인저급 기업’ 창출을 가능하게 할 수 있다는 전망 소개; Elo...",
-      "link": "https://t.me/MASSITRADING/208814",
+      "date": "2026-11-10 23:18",
+      "text": "🎯 **[Anthropic IPO 마케팅 착수, 1.4조달러 완전희석 가치로 AI 수요 시험대]** Anthropic이 이르면 오늘 IPO 마케팅 착수. IPO와 프라이빗플레이스먼트를 병행해 최대 900억달러 조달 목표로 전해짐. 거래 구조 전반이 성사될 경우 총 조달...",
+      "link": "https://t.me/MASSITRADING/208938",
       "keywords": [
-        "수주"
+        "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-10 19:02",
-      "text": "🎯 **[NVIDIA 논란, 중국 영향력 공작 의혹과 수출통제 강화 압력 확대]** 보도 내용, 중국 측 캠페인이 Fortune 500 전반을 대상으로 영향력 공작·정보활동 시도 가능성 제기; Jensen Huang 사례만의 특이성 낮다는 관측 제시. NVIDIA 최고...",
-      "link": "https://t.me/MASSITRADING/208812",
+      "date": "2026-11-10 23:18",
+      "text": "🎯 **[10월 CPI 상회로 12월 인상 기대 확대, 2년물 급등·기술주 약세]** 10월 CPI 예상 상회로 12월 FOMC 금리인상 가능성 재부각, 단기물 중심으로 금리 급등. 월간 기준 헤드라인 CPI 0.4% 상승, Core CPI 0.3% 상승. 전월 대비 ...",
+      "link": "https://t.me/MASSITRADING/208937",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-10 23:18",
+      "text": "🎯 **[Take-Two ‘GTA 6’ 프리오더 급증 관측, Sensor Tower 7.7백만건·7.5억달러 추정]** Take-Two의 핵심 신작 GTA 6 출시(방송 언급 기준 11월 19일)를 앞두고 프리오더가 예상보다 강하다는 관측이 확산, 자사 다른 주력작 N...",
+      "link": "https://t.me/MASSITRADING/208936",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-10 23:18",
+      "text": "🎯 **[미 상원 전력망 인허가 단축 법안 추진, 데이터센터 전력 확보·투자 속도 변수]** 미 상원에서 전력망 확장(발전·송전) 관련 인허가 및 심사 기간을 단축해 데이터센터 전력 공급을 앞당기려는 연방 법안이 진전 중이라는 언급. 중간선거 이후 정치 지형 변화 속에...",
+      "link": "https://t.me/MASSITRADING/208935",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-10 18:47",
-      "text": "🎯 **[Infineon, data center 성장으로 매출전망 상향; FY2027 가격 인상·AI 주도 성장 제시]** 독일 반도체 업체 Infineon, data center 성장 계획을 근거로 매출전망 상향. 주가 장중 약 6.5% 상승 언급. CFO Sven ...",
-      "link": "https://t.me/MASSITRADING/208810",
+      "date": "2026-11-10 23:18",
+      "text": "🎯 **[Brent 90달러 하회·미 휘발유 4달러 미만, 이란 전쟁 프리미엄 약화와 계절성 영향]** Brent futures 장중 90달러 하회(8월 이후 처음) 및 미국 휘발유 가격 1갤런당 4달러 미만 재진입으로 에너지 가격 하락 신호 확대. 이란 전쟁 리스크 ...",
+      "link": "https://t.me/MASSITRADING/208934",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-10 23:03",
+      "text": "🎯 **[crypto 시장에서 Bitcoin 반등 대비 NFTs 회복 지연, 기술·거래 인프라 관심 지속]** 방송 내 crypto 섹션에서는 decentralized finance, Bitcoin, NFTs 등 디지털 자산 전반을 다루며, Bitcoin 반등과 달리 ...",
+      "link": "https://t.me/MASSITRADING/208932",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-10 23:03",
+      "text": "🎯 **[David Kelly “12월 50bp 불필요, 에너지·임금 흐름상 인플레이션 둔화 가능”]** David Kelly는 CPI 서프라이즈에도 12월 50 basis points 인상 가능성 낮고 불필요하다고 평가, 인플레이션은 내년 완화 쪽으로 전망. CPI ...",
+      "link": "https://t.me/MASSITRADING/208931",
+      "keywords": [
+        "서프라이즈"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-10 23:03",
+      "text": "🎯 **[Anthropic IPO roadshow 개시, AI 밸류에이션 재설정에 칩주 약세·은행주 강세]** Anthropic IPO roadshow 공식 개시로 AI 투자심리 재점검 국면 진입. AI 밸류에이션 재설정 진행: 수주 전 제기된 최대 2조달러 기업가치 ...",
+      "link": "https://t.me/MASSITRADING/208930",
+      "keywords": [
+        "수주"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-10 23:03",
+      "text": "🎯 **[CPI 예상 상회로 12월 Fed 25bp·50bp 논쟁 확대, 단기금리 급등]** CPI 예상 상회로 12월 Fed 금리인상 기대 상향, Fed Funds futures에서 25 basis points 초과 인상 가능성 및 향후 약 1.2~2회 추가 인상 기...",
+      "link": "https://t.me/MASSITRADING/208929",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-11-10 23:29",
+      "text": "모건스탠리에 따르면 2027년 글로벌 HBM 수요에서 구글 TPU가 35%를 차지하며 엔비디아의 36%와 거의 비슷한 수준에 도달할 전망. 두 회사의 합산 비중은 71%에 달할 것으로 예상.  AMD는 16%, 아마존 AWS는 5%, 글로벌유니칩 고객은 약 3%, 마이...",
+      "link": "https://t.me/JAKE8LEE/14475",
+      "keywords": [
+        "수요",
+        "TP"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-11-10 21:39",
+      "text": "**앤스로픽 S-1 수정본(Ver 2) 신규 추가 및 변경 내용**  **■ 공모가격 및 주식 수**  : 희망 공모가격은 주당 $70~78, 공모 예정 주식 수는 8.25억 주  **■ 밸류에이션**  : 공모 희망가격 기준 기본 Equity Value 0.92~1....",
+      "link": "https://t.me/JAKE8LEE/14474",
       "keywords": [
         "상향",
         "공급"
@@ -238,26 +270,6 @@
         "수요",
         "공급",
         "TP"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-06 17:57",
-      "text": "삼양식품은 금번 컨콜에서 **가격인상 가능성을 열어둔 점이 의미있었던 것 같습니다. **  추가 증설 발표가 나오나 했는데, 아쉽게도 증설 발표는 따로 없었네요. 아직 사이트를 다각적으로 검토하고 있다고 하셨습니다. 공사 기간이 통상 3년 정도 걸리는데 이보다 빨리 지...",
-      "link": "https://t.me/JAKE8LEE/14445",
-      "keywords": [
-        "수요",
-        "QoQ",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-06 16:47",
-      "text": "네오클들이 민주당 정책으로 인해 줄도산을 해도 이상하지 않으며 네오클들이 발주 넣어놓은 GPU와 칩들이 허위수요라는 뷰  이러한 뷰가 사실이라면 메모리사 폭락이 이해가 안되는 것이 아니긴 함  https://t.me/viewofdata/3379...",
-      "link": "https://t.me/JAKE8LEE/14444",
-      "keywords": [
-        "수요"
       ]
     },
     {
@@ -351,6 +363,15 @@
       "link": "https://t.me/BRILLER_RESEARCH/4711",
       "keywords": [
         "수요"
+      ]
+    },
+    {
+      "source": "@MSTARYUN",
+      "date": "2026-11-10 23:52",
+      "text": "가스터빈 생산예약 축소…GE버노바 주가 폭락  - 소프트뱅크 그룹과 자체 비전펀드2가 공동 출자한 미국 데이터센터 전담 특수목적법인 SB7이 미국 오하이오주 데이터센터 프로젝트 'PORTS-Pike'에 전력설비 구매 계약에 지난 9월까지 1.5조엔을 지출했음  - SB...",
+      "link": "https://t.me/MSTARYUN/11154",
+      "keywords": [
+        "공급"
       ]
     },
     {
@@ -957,15 +978,6 @@
       ]
     },
     {
-      "source": "@DH_FINANCE",
-      "date": "2026-10-15 15:19",
-      "text": "은행 9월 여수신: 조달 구조 개선과 기업대 경쟁 완화가 필요 (URL: https://buly.kr/8IytL8a)  ● 여신(이하 YoY, +4.4%) 자영업자: 19개월째 1% 이하 유지 법인 중기: 4개월 연속 +6% 대기업: +14%, 최근 4년래 최대 순증(...",
-      "link": "https://t.me/DH_FINANCE/4151",
-      "keywords": [
-        "YoY"
-      ]
-    },
-    {
       "source": "@SHINHANRESEARCH",
       "date": "2026-11-10 17:04",
       "text": "『로켓랩 (RKLB.US); 발사 공급 부족이 만든 성장 기회』 글로벌주식팀 이주은 ☎️ 02-3772-4459  - 로켓랩의 Pricing Power와 기회 확대 - 3Q26 Review: 역대 최대 매출과 수주잔고 기록 - 발사 공급 부족, 신규 계약 확대에서 AS...",
@@ -1365,6 +1377,17 @@
     },
     {
       "source": "@EASOBI",
+      "date": "2026-11-10 23:07",
+      "text": "📝 텔레그램 심층 분석 Report (23시 07분) 기준  🌡️ 센티먼트 공포 (-60) 💡 요약 예상치를 상회한 미국 CPI 발표로 금리 인상 우려가 증폭되며 시장 전반에 하방 압력이 강화되고 있으며, 주요 기술 및 AI 기업들의 불확실성이 커지고 있습니다.  🗣️...",
+      "link": "https://t.me/EASOBI/17200",
+      "keywords": [
+        "상향",
+        "공급",
+        "OP"
+      ]
+    },
+    {
+      "source": "@EASOBI",
       "date": "2026-11-10 19:07",
       "text": "📝 텔레그램 심층 분석 Report (19시 07분) 기준  🌡️ 센티먼트 관망 (+15) 💡 요약 연준의 긴축 우려와 주요 기업의 실적 희비가 엇갈리며 시장 전반적으로 관망세가 짙습니다.  🗣️ Top 키워드: 엔비디아(393), 삼성전자(284), HBM(149),...",
       "link": "https://t.me/EASOBI/17198",
@@ -1518,24 +1541,12 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-11-07 07:07",
-      "text": "📝 텔레그램 심층 분석 Report (07시 07분) 기준  🌡️ 센티먼트 관망과 기대 (+35) 💡 요약 기술주와 AI 관련주의 저가 매수세 유입으로 단기 반등 기대감이 있으나, 금리 인상 및 규제 불확실성이 여전해 전반적으로 관망하는 분위기입니다. 기업 실적 발표는...",
-      "link": "https://t.me/EASOBI/17170",
+      "source": "@TOPTOWNQUANT",
+      "date": "2026-11-10 23:05",
+      "text": "**# 10월 미국 CPI - \"Headline 5.7%, Core 3.7%\" 🫠**  ▪︎ 지난해 정부 셧다운 여파로 YoY 비교치는 부재한 가운데, 10월 Headline +0.4% MoM, Core +0.3% MoM으로 각각 컨센서스를 0.1%p씩 상회  ▪︎ 에...",
+      "link": "https://t.me/TOPTOWNQUANT/13896",
       "keywords": [
-        "상향",
-        "OP"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-11-06 23:07",
-      "text": "📝 텔레그램 심층 분석 Report (23시 07분) 기준  🌡️ 센티먼트 관망 (+5) 💡 요약 미국 고용지표 호조와 AI/반도체 섹터의 강한 수요가 시장의 긍정적 기대를 만들었으나, 금리인상 우려 재점화, 기술주 폭락 및 데이터센터 전력난 등 부정적 요인이 상존하여...",
-      "link": "https://t.me/EASOBI/17169",
-      "keywords": [
-        "상향",
-        "수요",
-        "OP"
+        "YoY"
       ]
     },
     {
