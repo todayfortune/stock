@@ -2,6 +2,19 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-11-12 23:29",
+      "text": "**★ Nebius 3Q26 실적발표  ▶️ 실적 요약** - 매출액: $980.8M (vs Cons. $918.4M), YoY 571%, QoQ 68% - 조정 EBITDA: $465.8M (vs Cons. $357.4M), 마진 47.5% - 희석 EPS: -$0....",
+      "link": "https://t.me/IDEA_MEMO/28198",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급",
+        "QoQ",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-11-12 15:10",
       "text": "JP모건) APAC테크 코멘트(TSMC/키옥시아) TSMC: TSMC 수석부사장 겸 부(副) 공동 COO인 케빈 장은 도쿄에서 열린 닛케이 포럼 글로벌 매니지먼트 다이얼로그 2026에서 연설하며, 회사가 AI 반도체에 대한 '채워지지 않는(insatiable)' 수요를...",
       "link": "https://t.me/IDEA_MEMO/28190",
@@ -44,95 +57,29 @@
       ]
     },
     {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-12 05:49",
-      "text": "“美 데이터센터 규제, AI투자 사이클 꺾지 못할 것” -AI 이야기는 끝나지 않는다고 봅니다. 열기가 살짝 가라앉는 수준일 겁니다. https://biz.chosun.com/stock/stock_general/2026/11/12/GVSGMYZTMYZWKYZUGYYDO...",
-      "link": "https://t.me/IDEA_MEMO/28166",
-      "keywords": [
-        "사이클"
-      ]
-    },
-    {
       "source": "@MASSITRADING",
-      "date": "2026-11-12 19:32",
-      "text": "🎯 **[NVIDIA 승계 불확실성에 선물 약세, AMD·Broadcom 반사이익 기대]** 보도된 사생활 논란(추가 불륜 의혹) 이후 NVIDIA 이사회가 Jensen Huang의 향후 거취와 승계(succession) 가능성을 논의하는 것으로 전해지며 불확실성 확대...",
-      "link": "https://t.me/MASSITRADING/210046",
+      "date": "2026-11-13 00:32",
+      "text": "🎯 **[NVIDIA 젠슨 황 축출, 콜레트 크레스 임시 CEO…공급망·대중 수출통제 리스크 확대]** NVIDIA 이사회 성명에서 젠슨 황 사임 및 향후 NVIDIA 내 역할 전면 배제, 콜레트 크레스 임시 CEO(겸 CFO) 선임, 하비 C. 존스 이사회 의장(사상...",
+      "link": "https://t.me/MASSITRADING/210156",
       "keywords": [
+        "수요",
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-12 19:32",
-      "text": "🎯 **[AI 인프라 ‘picks and shovels’ 강세 지속, 자본비용 상승이 핵심 변수]** 시장은 NVIDIA 관련 이슈를 ‘key man risk’로 볼지, AI 구축에서 NVIDIA ‘keystone’ 역할이 흔들리는 신호로 볼지 판단 중. 프리마켓에서 ...",
-      "link": "https://t.me/MASSITRADING/210045",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-12 19:32",
-      "text": "🎯 **[규제 우려·현금흐름 압박 속 AI 테크 변동성 확대, Anthropic IPO 고평가 논쟁]** 테크 섹터에서 Anthropic IPO 일정이 임박한 가운데, OpenAI의 적자 지속과 Anthropic 대비 성장 둔화 언급, CoreWeave의 연간 20억 ...",
-      "link": "https://t.me/MASSITRADING/210043",
-      "keywords": [
-        "상향"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-12 19:32",
-      "text": "🎯 **[유가·소비 강세로 인플레이션 재점화, Fed 12월 인상 베팅과 장기금리 관리 부각]** 가을 이후 금리 상승에도 유가 상승과 견조한 소비지출로 인플레이션 압력이 이어진다는 진단 확산; 12월 Fed 금리인상 가능성 재부각, 2027년 경기침체 우려도 동반 거...",
-      "link": "https://t.me/MASSITRADING/210042",
-      "keywords": [
-        "수요",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-12 19:32",
-      "text": "🎯 **[Nvidia 리스크 부각 속 AMD·ASIC·보안주로 자금 순환, S&P 500 집중도 경계]** Nvidia 관련 불확실성 확대 국면에서 자금 일부 AMD로 이동 관측; AMD, CPU·GPU 제품군과 MI400 경쟁력으로 수혜 가능성 거론. Nvidia의 ...",
-      "link": "https://t.me/MASSITRADING/210041",
+      "date": "2026-11-13 00:32",
+      "text": "🎯 **[미국 데이터센터 수요 강세 지속, 다년 선제 증설과 지역사회 설득 필요]** 미국 내 데이터센터 구축 수요 환경 강세 지속, 일부 프로젝트 지연 발생 시에도 수요 공백 신속 대체 가능하다는 평가 제시. 고객사 요구 핵심 메시지로 추가 용량 확보 강조, 다년 단...",
+      "link": "https://t.me/MASSITRADING/210153",
       "keywords": [
         "수요"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-12 19:17",
-      "text": "🎯 **[CoreWeave, 수요 강세로 주가 급등했지만 분기 이자비용 8억4600만달러 부담 지속]** CoreWeave 주가, 실적 직후 변동성 이후 급반등; 실적 콜에서 Nvidia·젠슨 황 관련 언급 최소화 관측. CEO Michael Intrator가 수요·사...",
-      "link": "https://t.me/MASSITRADING/210038",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-12 19:17",
-      "text": "🎯 **[대규모 적자에도 CoreWeave·OpenAI·Anthropic로 자금 유입, AI 밸류에이션 과열]** CoreWeave 분기 이자비용 8억4600만달러, 분기손실 7억달러 이상 전망에도 주가 두 자릿수 상승. 상승 배경, 실적 콜에서 수요 강세 강조 및 고...",
-      "link": "https://t.me/MASSITRADING/210036",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-12 19:17",
-      "text": "🎯 **[Huang 승계 발언 재조명, BlackRock Wei Li “AI 종목 선별·수출통제 주시”]** 스캔들 이후 NVIDIA 이사회가 리더십·승계 이슈에 직면한 가운데, Huang의 과거 리더십·승계 관련 발언이 재조명. BlackRock의 글로벌 수석 투자전...",
-      "link": "https://t.me/MASSITRADING/210035",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-12 19:17",
-      "text": "🎯 **[NVIDIA 승계 리스크 부각, 시총 3000억달러 증발·경쟁사 반사이익]** Jensen Huang 관련 스캔들 보도와 백악관과의 관계 악화설, 이사회 승계 준비를 위한 outside counsel 영입 보도가 겹치며 NVIDIA ‘key man risk’ ...",
-      "link": "https://t.me/MASSITRADING/210033",
+      "date": "2026-11-13 00:17",
+      "text": "🎯 **[AI 생태계, NVIDIA 혁신 둔화·대체칩 경쟁 심화 가능성에 투자 재평가]** AI 투자 테마가 NVIDIA 칩과 소프트웨어·개발 생태계에 집중돼 왔다는 평가 속에, 경영 공백이 혁신 속도에 미칠 영향이 핵심 변수로 부상. 대형 hyperscale clou...",
+      "link": "https://t.me/MASSITRADING/210152",
       "keywords": [
         "수요",
         "공급",
@@ -141,36 +88,38 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-12 19:17",
-      "text": "🎯 **[NVIDIA 리더십 불확실성에 아시아 급락, 유럽 강세에도 기술주 부담]** 아시아 증시, 3일 연속 상승 후 NVIDIA 리더십 불확실성으로 하락 전환. 기술주 중심 지수 약세 확대: 대만 TAIEX 약 2.6% 하락, 한국 KOSPI 약 0.6% 하락. N...",
-      "link": "https://t.me/MASSITRADING/210032",
+      "date": "2026-11-13 00:17",
+      "text": "🎯 **[AMD Lisa Su, AI·에이전트 확산 속 데이터센터 수요 급증과 상향 가이던스 제시]** AMD 경영진, 컴퓨팅 기술이 연구·신사업 역량을 확장시키며 AI와 superintelligence 흐름 한복판에 있다고 강조. 기술 투자 성과 가시화까지 3~5년 ...",
+      "link": "https://t.me/MASSITRADING/210149",
+      "keywords": [
+        "상향",
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-13 00:02",
+      "text": "🎯 **[기업 오픈소스 AI로 비용절감, 성과기반 가격 확산…Anthropic IPO 변동성 관찰]** 기업 AI 도입 전략, 고비용 frontier model 전면 채택보다 오픈소스·로컬 실행 조합으로 비용 관리 중요도 상승. 최고 성능 모델 필요 구간에만 지출 집중...",
+      "link": "https://t.me/MASSITRADING/210147",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-13 00:02",
+      "text": "🎯 **[NVIDIA 최고경영자 사임 보도로 AI 생태계 리더십 공백 우려, 변동성 확대]** 방송은 NVIDIA 최고경영자 사임 보도를 핵심 변수로 제시, AI 거래의 ‘지진’급 충격 가능성을 언급 NVIDIA가 hyperscalers, 스타트업, 칩 공급망, 정책 ...",
+      "link": "https://t.me/MASSITRADING/210146",
       "keywords": [
         "공급"
       ]
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-12 19:02",
-      "text": "🎯 **[Thomas Wolf, AI 의인화·오픈소스 확산·중국 모델 보안 우려 설명]** Thomas Wolf, AI를 인간처럼 의인화하는 표현을 과거에는 경계했으나, 차세대 AI 행태 예측과 대중 이해 측면에서 ‘의식 있는 존재처럼 다루는’ 서술이 실용적일 수 있다...",
-      "link": "https://t.me/MASSITRADING/210029",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-12 19:02",
-      "text": "🎯 **[NVIDIA 리더십 불확실성에 선물 약세, 아시아 기술주 하락·공급망 변동 확대]** NVIDIA 이사회가 Jensen Huang 향후 거취를 논의한다는 보도로 불확실성 확대, 주가지수 선물 약세 및 AI 공급망 변동성 상승. 중국 AI 관련 주식 약세 전개,...",
-      "link": "https://t.me/MASSITRADING/210028",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@MASSITRADING",
-      "date": "2026-11-12 18:47",
-      "text": "🎯 **[McKinsey Sternfels, 위기 거버넌스·무역 병목·AI 컨설팅 재편 CEO 과제 제시]** McKinsey Global Managing Partner Bob Sternfels, NVIDIA 사태를 계기로 거버넌스·승계·리더십 개발 체계 중요성 강조....",
-      "link": "https://t.me/MASSITRADING/210025",
+      "date": "2026-11-13 00:02",
+      "text": "🎯 **[Delta CEO, AI ROI는 초기 단계·성장보다 효율 강조…유가·항공요금·기내 Wi-Fi 전략도 언급]** Delta Air Lines, AI 투자 관련 ROI 가시성은 초기 단계로 진단하면서도 산업 전반에서 효율·생산성 개선 여지 확대 관측 AI 확산에...",
+      "link": "https://t.me/MASSITRADING/210145",
       "keywords": [
         "수요",
         "공급"
@@ -178,11 +127,134 @@
     },
     {
       "source": "@MASSITRADING",
-      "date": "2026-11-12 18:47",
-      "text": "🎯 **[CoreWeave 수익성 변수: GPU 렌털료 상승과 모델 가격 하락, 효율화로 마진 방어]** CoreWeave 실적 콜에서 구세대 NVIDIA 칩 2개 세대의 가격이 3분기에 30~50% 상승했다고 언급되며, 보유 GPU에서 더 높은 수익 창출 가능성이 부...",
-      "link": "https://t.me/MASSITRADING/210022",
+      "date": "2026-11-13 00:02",
+      "text": "🎯 **[NVIDIA 급락 여진 속 지수 낙폭 축소, 2년물 금리 급등과 MSCI 편출 이슈 부각]** 장 초반 하락 이후 낙폭 일부 회복 흐름: Nasdaq 약 -0.6% 내외, S&P 500 저점 대비 반등, Dow 소폭 플러스 전환 NVIDIA 주가 하락 지속하나...",
+      "link": "https://t.me/MASSITRADING/210144",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-13 00:02",
+      "text": "🎯 **[NVIDIA 리스크 부각 속 AMD 기회, Barclays는 Cleveland-Cliffs 투자의견 상향]** NVIDIA 관련 규제·평판상 부담과 리더십 공백 가능성 부각 국면에서 AMD 상대적 기회 확대 가능성 제시 Barclays, 2027~2028년 s...",
+      "link": "https://t.me/MASSITRADING/210143",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:47",
+      "text": "🎯 **[월가, Nvidia 잇단 하향…AMD 상향, Cleveland-Cliffs는 철강가 전망 상향]** 월가에서 Nvidia에 대한 센티먼트 급변. 최소 7개 기관이 리더십·실행 리스크를 이유로 이번 주 Nvidia를 하향 조정했다는 언급. Jensen Wang ...",
+      "link": "https://t.me/MASSITRADING/210142",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:47",
+      "text": "🎯 **[젠슨 왕 사임 충격에 Nvidia 급락, AI 리더십·밸류에이션 리스크 재부각]** Jensen Wang 사임 소식으로 Nvidia 주가 장중 13% 이상 급락, 2025년 1월 이후 최대 일일 낙폭 가능성 부각. Nvidia 시가총액 하루 약 5,500억달러...",
+      "link": "https://t.me/MASSITRADING/210140",
+      "keywords": [
+        "수요",
+        "공급",
+        "TP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:47",
+      "text": "🎯 **[에이전틱 AI 확산과 데이터센터 전력 리스크, 오픈웨이트 전략 재부상]** 2026년 ‘agentic AI’ 확산으로 AI가 이메일 작성 단계를 넘어 디지털 직원처럼 공급망 운영, 코드 수정, 일정 관리 등 업무 실행 영역으로 확장된 흐름 제시. 일부 AI 에...",
+      "link": "https://t.me/MASSITRADING/210139",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:47",
+      "text": "🎯 **[Nebius·CoreWeave 급락과 신용시장 우려, 하이퍼스케일러는 상대적 강세]** 네오클라우드 종목 Nebius 실적 발표 이후 장중 약 21% 급락(전일 약 20% 상승 후 급변), AI 트레이드 전반의 ‘지터’ 재점화 신호로 해석. CoreWeave ...",
+      "link": "https://t.me/MASSITRADING/210138",
       "keywords": [
         "수요"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:47",
+      "text": "🎯 **[NVIDIA 13% 급락 속 반도체 차별화, Micron 200일선 돌파]** 미국장 개장 직후 NVIDIA 주가 13% 하락, 시가총액 기준 Microsoft 상회 흐름 유지 언급. Apple 주가 2% 상승, 연일 사상 최고치 경신 흐름 부각. AI 반도체...",
+      "link": "https://t.me/MASSITRADING/210137",
+      "keywords": [
+        "상향"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:32",
+      "text": "🎯 **[Yahoo Finance ‘2026 올해의 기업’ Anthropic, IPO 기대와 기업용 확장 전략 부각]** Yahoo Finance ‘2026 올해의 기업’으로 Anthropic 선정. Claude 개발사로서 AI 경쟁의 핵심 플레이어로 부상, 연중 기업...",
+      "link": "https://t.me/MASSITRADING/210135",
+      "keywords": [
+        "수요",
+        "TP"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:32",
+      "text": "🎯 **[Anthropic IPO 가시성에 AI 업종 좌우, S&P 500 목표치 재평가]** Anthropic IPO는 ‘순수 AI 연구소’의 첫 상장 사례로, 비용 구조·매출 성장·향후 성장 전망을 시장이 처음으로 정밀 점검하는 계기라는 평가. AI 지출 내구성(d...",
+      "link": "https://t.me/MASSITRADING/210133",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:32",
+      "text": "🎯 **[Jensen Wang 사임에 NVIDIA 급락, 선물 약세와 수출통제 논란 확산]** Jensen Wang 사임 소식 이후 NVIDIA 주가 프리마켓 약 12~13% 급락, 기술주 전반 투자심리 약화. 개장 직전 NASDAQ futures 약 1.4% 하락, ...",
+      "link": "https://t.me/MASSITRADING/210132",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:17",
+      "text": "🎯 **[젠슨 황 사임·임시 CEO 체제 전환, NVIDIA 주가 급락과 대중 수출통제 리스크 확대]** NVIDIA, CEO 겸 이사회 의장 맡아온 젠슨 황 사임 발표, CFO Colette Crest 임시 CEO 지명. 장기적으로 외부 CEO 후보 검토 가능성 공식...",
+      "link": "https://t.me/MASSITRADING/210131",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@MASSITRADING",
+      "date": "2026-11-12 23:17",
+      "text": "🎯 **[NVIDIA CEO Jensen Wang 사임 충격에 주가 급락, AI 테마 재평가]** NVIDIA, CEO Jensen Wang 즉각 사임 발표 후 주가 급락. 시장 충격 확산으로 NASDAQ futures 동반 약세, 기존의 ‘NVIDIA만 하락·기타 기...",
+      "link": "https://t.me/MASSITRADING/210130",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-11-12 22:46",
+      "text": "**네비우스(NBIS) 2026년 3분기 어닝콜 Q&A 중 ** ** 질문) Vineland 데이터센터의 공급 지연 원인은 무엇이며, 다른 데이터센터에도 문제가 있습니까?**  ** 경영진 답변: 핵심 원인은 전력 공급 문제입니다.**  당초 DataOne의 임시 발전...",
+      "link": "https://t.me/JAKE8LEE/14494",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-11-12 21:47",
+      "text": "[SK증권 반도체 한동희, 손 건/해외주식 박제민]  **Nebius Group FY3Q26 실적발표** **(Pre: -8.8%)**  **▶️ FY3Q26 실적**  매출액 $980.8M (+68% QoQ, +571% YoY): 컨센서스 +8% 조정 EBITDA $...",
+      "link": "https://t.me/JAKE8LEE/14493",
+      "keywords": [
+        "QoQ",
+        "YoY"
       ]
     },
     {
@@ -325,28 +397,6 @@
         "수요",
         "공급",
         "구조적 성장",
-        "사이클"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-10 13:24",
-      "text": "메모리 공급업체들이 2027년 말부터 생산능력을 확대하는 상황에서 데이터센터 수요의 일부가 2029년으로 이동한다면 2028년에는 일시적인 공급 과잉과 가격 협상력 약화가 나타날 수 있다. 특히 메모리 업체들의 대규모 설비투자가 실제 생산량 증가로 연결되는 시점과 데이...",
-      "link": "https://t.me/JAKE8LEE/14465",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-10 13:15",
-      "text": "Morgan Stanley : 2028년 메모리 실적 절벽 우려 본격화, 삼성전자·SK하이닉스 목표주가 하향   작성 : 잠실개미&10X 텔레그램 https://t.me/jake8lee/14463  ✅ 모건스탠리는 최근 메모리 반도체 주가 급락의 핵심 원인이 단기적인 ...",
-      "link": "https://t.me/JAKE8LEE/14463",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급",
         "사이클"
       ]
     },
@@ -1330,6 +1380,16 @@
     },
     {
       "source": "@EASOBI",
+      "date": "2026-11-12 23:07",
+      "text": "📝 텔레그램 심층 분석 Report (23시 07분) 기준  🌡️ 센티먼트 공포 (-75) 💡 요약 엔비디아 CEO 사임 및 목표주가 하향 조정으로 반도체 시장 전반의 불확실성이 증대되었고, 네비우스 등 AI 클라우드 기업의 가이던스 하향과 지정학적 리스크까지 겹치며 ...",
+      "link": "https://t.me/EASOBI/17217",
+      "keywords": [
+        "공급",
+        "OP"
+      ]
+    },
+    {
+      "source": "@EASOBI",
       "date": "2026-11-12 19:05",
       "text": "📝 텔레그램 심층 분석 Report (19시 05분) 기준  🌡️ 센티먼트 공포 (-65) 💡 요약 엔비디아 젠슨 황 CEO를 둘러싼 스캔들 및 해임 가능성으로 AI 반도체 시장 전반의 불확실성이 커지며 공포감을 조성하고 있습니다. 여기에 비트코인 하락 및 다수 기업의...",
       "link": "https://t.me/EASOBI/17215",
@@ -1486,18 +1546,6 @@
         "상향",
         "수요",
         "OP"
-      ]
-    },
-    {
-      "source": "@EASOBI",
-      "date": "2026-11-09 23:04",
-      "text": "📝 텔레그램 심층 분석 Report (23시 04분) 기준  🌡️ 센티먼트 관망 속 기대감 (+30) 💡 요약 지정학적 리스크 완화 기대감(미-이란 협상, 유가 하락)이 시장 전반에 긍정적으로 작용하나, AI 반도체 경쟁 심화와 일부 종목의 실적/규제 불확실성이 상존함...",
-      "link": "https://t.me/EASOBI/17187",
-      "keywords": [
-        "상향",
-        "수요",
-        "OP",
-        "TP"
       ]
     },
     {
