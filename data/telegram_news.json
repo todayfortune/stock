@@ -2,11 +2,26 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
-      "date": "2026-11-24 22:10",
-      "text": "TRUMP ADMINISTRATION PREPARES SWEEPING NEW TARIFFS ON CHINA, EU AND OTHER ECONOMIES  THE U.S. IS PREPARING TO RAISE TARIFFS ON CHINA, THE EUROPEAN UNI...",
-      "link": "https://t.me/IDEA_MEMO/28567",
+      "date": "2026-11-24 23:15",
+      "text": "**[플루언스 에너지 FY4Q26 실적발표 - DS 허준서]**  #FLNC  전력망·발전사업자·데이터센터 대상 배터리 ESS 공급업체입니다. 플루언스에너지는 최근 주요 C레벨 임원들(CEO, CFO, COO)이 모두 교체됐습니다. 전부 지멘스, AES, GEV등 전력...",
+      "link": "https://t.me/IDEA_MEMO/28575",
       "keywords": [
-        "OP"
+        "수요",
+        "공급",
+        "QoQ",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-24 22:16",
+      "text": "[트럼프 행정부, 중국·EU·한국 등 16개 경제권 추가 관세 추진…산업 보조금·과잉생산 겨냥]  *미국, 이르면 이번 주 추가 관세 조사 결과 발표 -월스트리트저널(WSJ)은 11월 24일 트럼프 행정부가 중국과 유럽연합(EU)을 비롯한 주요 교역 상대국에 추가 관세...",
+      "link": "https://t.me/IDEA_MEMO/28572",
+      "keywords": [
+        "수요",
+        "공급",
+        "init"
       ]
     },
     {
@@ -24,15 +39,6 @@
       "date": "2026-11-24 12:36",
       "text": "2030년까지 메모리 생산능력의 최대 70%를 장기공급계약(LTA)으로 채운다는 목표. 일부 고객과는 2031년까지 이어지는 계약도 논의 중  https://www.newspim.com/news/view/20261124000434...",
       "link": "https://t.me/IDEA_MEMO/28552",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-24 06:48",
-      "text": "*** Ben Bajarin**   하이퍼스케일러 두 곳의 구매팀 지인들과 공급망 상황에 대해 얘기를 나눴다. 이익률이 바닥까지 떨어질 거라고 보는 **메모리 약세론자들은 크게 실망하게 될 것이다**.    https://x.com/BenBajarin/status/21...",
-      "link": "https://t.me/IDEA_MEMO/28541",
       "keywords": [
         "공급"
       ]
@@ -1342,6 +1348,15 @@
     },
     {
       "source": "@EASOBI",
+      "date": "2026-11-24 23:08",
+      "text": "📝 텔레그램 심층 분석 Report (23시 08분) 기준  🌡️ 센티먼트 부정적 관망 (-20) 💡 요약 미국발 관세 인상 우려와 AI 모델 안전성 논란, 민간 고용 둔화 등으로 전반적인 시장 심리가 위축되고 있습니다. 주요 종목은 엔비디아(NVDA) 하락 (차익실현...",
+      "link": "https://t.me/EASOBI/17348",
+      "keywords": [
+        "OP"
+      ]
+    },
+    {
+      "source": "@EASOBI",
       "date": "2026-11-24 19:08",
       "text": "📝 텔레그램 심층 분석 Report (19시 08분) 기준  🌡️ 센티먼트 AI/반도체 주도 반등 기대 (+65) 💡 요약 젠슨 황 NVDA디아 CEO 복귀 소식에 AI 및 반도체 섹터가 강하게 반등하며 코스피 상승을 견인했으나, 거시 경제 불확실성과 암호화폐 시장 불...",
       "link": "https://t.me/EASOBI/17347",
@@ -1508,16 +1523,6 @@
       "link": "https://t.me/TOPTOWNQUANT/13926",
       "keywords": [
         "서프라이즈"
-      ]
-    },
-    {
-      "source": "@TOPTOWNQUANT",
-      "date": "2026-11-18 07:41",
-      "text": "**# 11월 18일 TRUMP DAILY - \"악수 뒤의 경고\"  ■ 트럼프, 태국과 무역협상 실질 타결 선언…미국산 제품 관세 철폐·26억달러 농산물 구매**  * 트럼프 대통령, 17일 필리핀 마닐라에서 아누틴 찬위라꾼 태국 총리와 만나 상호무역협상 실질 타결에 ...",
-      "link": "https://t.me/TOPTOWNQUANT/13925",
-      "keywords": [
-        "공급",
-        "수주"
       ]
     },
     {
@@ -1852,15 +1857,6 @@
       "keywords": [
         "공급",
         "사이클"
-      ]
-    },
-    {
-      "source": "@SURVIVAL_DOPB",
-      "date": "2026-11-05 01:43",
-      "text": "시타델 증권, 주요 월스트리트 바이어들의 귀환으로 연말 주식 상승을 예측  👉 주요 하이라이트:  ➤ Citadel Securities는 연말까지 미국 주식시장이 잠재적으로 상승할 것으로 예상합니다.  ➤ 나스닥 100이 세 번째 조정에 진입했으며, 10월 최고가에서 ...",
-      "link": "https://t.me/SURVIVAL_DOPB/13877",
-      "keywords": [
-        "수요"
       ]
     },
     {
