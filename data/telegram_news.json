@@ -2,6 +2,34 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
+      "date": "2026-11-24 17:18",
+      "text": "HPE FY2026 4분기 실적발표콜 | 2026.11.23(현지) 1. 첫 질문부터 나온 ‘메모리 가격 정상화’ — 경영진은 직접적으로 답변하지 않음. 2. 메모리·NAND 공급 제약은 적어도 2028년 하반기까지 3. 부품 가격은 ‘상승 폭 완화’ 예상, 가격 전가...",
+      "link": "https://t.me/IDEA_MEMO/28557",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-24 12:36",
+      "text": "2030년까지 메모리 생산능력의 최대 70%를 장기공급계약(LTA)으로 채운다는 목표. 일부 고객과는 2031년까지 이어지는 계약도 논의 중  https://www.newspim.com/news/view/20261124000434...",
+      "link": "https://t.me/IDEA_MEMO/28552",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-24 06:48",
+      "text": "*** Ben Bajarin**   하이퍼스케일러 두 곳의 구매팀 지인들과 공급망 상황에 대해 얘기를 나눴다. 이익률이 바닥까지 떨어질 거라고 보는 **메모리 약세론자들은 크게 실망하게 될 것이다**.    https://x.com/BenBajarin/status/21...",
+      "link": "https://t.me/IDEA_MEMO/28541",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
       "date": "2026-11-24 00:10",
       "text": "**멜리우스, 엔비디아  ****$NVDA**** 투자의견 '매수'로 상향: \"젠슨이 돌아왔다 — 우리도 돌아왔다\"**  멜리우스 리서치(Melius Research)의 벤 라이츠(Ben Reitzes) 애널리스트는 젠슨 황의 깜짝 CEO 복귀에 따라** 엔비디아에 대...",
       "link": "https://t.me/IDEA_MEMO/28532",
@@ -160,6 +188,46 @@
     },
     {
       "source": "@JAKE8LEE",
+      "date": "2026-11-24 14:39",
+      "text": "[메리츠증권 전기전자/IT부품 양승수]  - TrendForce, AI 서버 핵심 부품 공급망 점검 자료 업데이트. 금주 주요 하드웨어 부품의 리드타임과 수급 상황은 전주 대비 모두 기존 수준 유지  - ABF 기판(48~56주), HDD(50주), MLCC(40주),...",
+      "link": "https://t.me/JAKE8LEE/14594",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-11-24 13:32",
+      "text": "**아시아 테크 : NVDA CEO 복귀 (JPM)**  **1. NVDA 밸류체인 EPS 하향 우려 후퇴, BIS 규제 영향은 제한적**  • NVDA 이사회가 Jensen Huang을 CEO로 복귀시키며 아시아 테크주 강세 촉발  • 데이터센터 구축 지연, 전력·셸...",
+      "link": "https://t.me/JAKE8LEE/14593",
+      "keywords": [
+        "수요",
+        "공급",
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-11-24 11:12",
+      "text": "#투자  빅테크가 국가를 넘어선건 코로나를 기점으로 2020년부터 가속화 되어왔으며, 현재 AI사이클을 통해 방점을 찍고 있는 형세다. 엔비디아의 현재 이슈는 그걸 명확히 보여주고 있다. 엔비디아의 현재 필수불가결한 비지니스 행태와 이와 연계된 순환출자 구조는, 이미 ...",
+      "link": "https://t.me/JAKE8LEE/14592",
+      "keywords": [
+        "사이클"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
+      "date": "2026-11-24 10:04",
+      "text": "DeepSeek의 연산력 격차와 중국 국산 AI 칩의 안정성 과제; 중국 AI칩의 불안정성  2026년 11월 10일 중국 상업분석가(商业分析家) 인사이트팀이 공개한 업계 전문가 인터뷰에 따르면, DeepSeek은 NVIDIA B 시리즈 칩 보유량이 경쟁사보다 적어 6...",
+      "link": "https://t.me/JAKE8LEE/14591",
+      "keywords": [
+        "수요",
+        "공급"
+      ]
+    },
+    {
+      "source": "@JAKE8LEE",
       "date": "2026-11-23 13:39",
       "text": "**골드만삭스: 메모리 반도체 전망**  **1. AI 투자 둔화 우려에도 메모리 시장의 하방 위험은 제한적**  최신 AI 서버 한 대에는 3TB(테라바이트)가 넘는 메모리가 탑재됩니다. 이는 일반 노트북에 탑재되는 메모리 용량의 약 400배에 달합니다.  최근 메모...",
       "link": "https://t.me/JAKE8LEE/14579",
@@ -254,32 +322,21 @@
       ]
     },
     {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-20 13:33",
-      "text": "#BAAJA #인허가 #전력인프라 #데이터센터  **<미 상원, 에너지·인프라 건설 위한 포괄적 인허가 개혁법안 통과>**   - 미국 상원은 11월 19일 BAAJA 법안을 찬성 62표, 반대 33표로 통과. 공화당·민주당 상원의원 4명이 주도한 초당적 인허가 개혁법...",
-      "link": "https://t.me/JAKE8LEE/14561",
+      "source": "@ONE_GOING",
+      "date": "2026-11-24 16:00",
+      "text": "**11월 이제 남은건, **  -화요일 : 이제 엔비디아 화요일 조정폭이 최소화될지? (전날 31% 상승) -수요일 : PCE 물가지표(밤 10시반, 두근두근) -목요일 : 한국은행 금리인상 전망, 미국 휴장 -금요일 : 미국 반만 개장(거래한산) -월요일 : 11월...",
+      "link": "https://t.me/ONE_GOING/4572",
       "keywords": [
-        "공급"
+        "수요"
       ]
     },
     {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-20 10:52",
-      "text": "한국 화장품 - Korea Cosmetics 3Q takeaway: FX splits the value chain (3분기 실적 점검: 환율이 밸류체인을 갈랐다)  Macquarie, Jun Choi·Noa Yun, 2026.11.13  **· 수요는 견조했으나 원화 ...",
-      "link": "https://t.me/JAKE8LEE/14560",
+      "source": "@ONE_GOING",
+      "date": "2026-11-24 12:06",
+      "text": "■ **기업별 로봇 관련주 요약  1) 삼성 로봇 관련주** 레인보우로보틱스(최대주주), 에스피지, 이랜시스, 인탑스, KH바텍, 에브리봇, 에스비비테크, 삼성SDI, 아진엑스텍, 우림피티에스  **2) LG 로봇 관련주** LG전자, 로보티즈(2대주주), LG씨엔에스...",
+      "link": "https://t.me/ONE_GOING/4569",
       "keywords": [
-        "수요",
-        "공급",
         "밸류체인"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-19 22:09",
-      "text": "**삼성전기 - Asia Pacific Summit 2026 피드백 **모건스탠리  삼성전기는 앞으로 5년간 **AI 칩 생산량이 지금과 같아도 기판 생산능력은 약 3배가 필요**할 수 있다고 봅니다. 칩 하나에 들어가는 기판이 더 크고 복잡해지기 때문입니다. 현재 한...",
-      "link": "https://t.me/JAKE8LEE/14559",
-      "keywords": [
-        "공급"
       ]
     },
     {
@@ -325,15 +382,6 @@
       "link": "https://t.me/BRILLER_RESEARCH/4782",
       "keywords": [
         "TP"
-      ]
-    },
-    {
-      "source": "@BRILLER_RESEARCH",
-      "date": "2026-11-17 09:57",
-      "text": "2026.11.17 09:25:48 기업명: 아모레퍼시픽(시가총액: 7조 5,280억) A090430 보고서명: 기업가치제고계획(자율공시)  계획서 명칭 :   2026년 (주)아모레퍼시픽 기업가치제고계획 이행현황 및 향후 계획    * 주요 내용   1. 기업가치 제...",
-      "link": "https://t.me/BRILLER_RESEARCH/4772",
-      "keywords": [
-        "상향"
       ]
     },
     {
@@ -394,24 +442,31 @@
       ]
     },
     {
-      "source": "@MSTARYUN",
-      "date": "2026-11-14 15:13",
-      "text": "**[삼양식품 CAPA 로드맵 및 주요 Q&A ]** **현재 : 약 29억 개 자싱 : 약 11억 개 베트남 (8개 라인 기준) : 약 11억 개 TOTAL : 약 51억 개**  1. 자싱은 현 캐파 대비 약 40% 추가임. 2. 한국 생산 29억 개 중 약 30%...",
-      "link": "https://t.me/MSTARYUN/11195",
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-11-24 18:03",
+      "text": "**[퀀틴전시 플랜] Welcome Back, Jensen Huang!** **[대신증권 이경민]** #이경민 #엔비디아 젠슨 황 복귀 젠슨 황 CEO 복귀, 경영 불확실성 완화, AI 생태계 투자 및 공급계약 이행 기대감 상승  #외국인 #수급 외국인 수급 개선 외국...",
+      "link": "https://t.me/DAISHINSTRATEGY/6442",
       "keywords": [
-        "수요"
+        "공급"
       ]
     },
     {
-      "source": "@MSTARYUN",
-      "date": "2026-11-14 14:46",
-      "text": "**NYPCB(Goldman Sachs): ABF GM reached 40%+ in 4Q driven by 50%+ high-end contribution, with more  upside to come in 2027 Key Takeaways**  **ABF GM 40...",
-      "link": "https://t.me/MSTARYUN/11194",
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-11-24 14:47",
+      "text": "[장 중 시황] Welcome Back, Jensen Huang! [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(14시 40분): KOSPI +7.27% 상승 / 5,050.67pt  (KOSDAQ: +5.42% 상승 / 669.87pt, KOSPI20...",
+      "link": "https://t.me/DAISHINSTRATEGY/6441",
       "keywords": [
-        "수요",
         "공급",
-        "사이클",
-        "QoQ"
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@DAISHINSTRATEGY",
+      "date": "2026-11-24 09:45",
+      "text": "**젠슨 황의 귀환, 불안이 기대로 바뀌는 변곡점** **[대신증권 이경민]** #이경민 #엔비디아 **젠슨황 복귀** 엔비디아 젠슨 황 CEO 복귀, AI 반도체 섹터 급등, 시장 불안 해소 기대감 형성.  #AI #반도체 **신뢰 회복** 엔비디아 급락 원인은 실적...",
+      "link": "https://t.me/DAISHINSTRATEGY/6440",
+      "keywords": [
+        "밸류체인"
       ]
     },
     {
@@ -593,42 +648,39 @@
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-11-12 07:52",
-      "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민입니다. [11월 12일 주요국 이슈] 보내드립니다.  # 미국 미 의회 양당 의원, 젠슨 황 스캔들을 계기로 대중국 반도체 수출 통제 3개 법안을 국방수권법(NDAA)에 포함하는 방안 추진. '...",
-      "link": "https://t.me/DAISHINSTRATEGY/6412",
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-11-24 17:01",
+      "text": "**[마감브리프] 26.11.24.(화) 뉴스 TOP10 - SK하이닉스, 삼성전기, 기아, HD현대 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261124165946073pl) ...",
+      "link": "https://t.me/IRNOTE_YSTREET/5719",
       "keywords": [
-        "YoY"
+        "OP"
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-11-11 20:10",
-      "text": "**[퀀틴전시 플랜] 코어위브·앤트로픽발 훈풍, 긴축 부담 딛고 반등 지속** **[대신증권 이경민]** #이경민 #반도체 AI 훈풍과 수출 호조 코어위브 실적, 앤트로픽 IPO 기대감, 반도체 수출 증가로 AI 투자심리 반전, 강세 지속  #인플레이션 #긴축 긴축 우...",
-      "link": "https://t.me/DAISHINSTRATEGY/6411",
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-11-24 16:01",
+      "text": "**[컨콜노트] 씨에스윈드, 여러모로 좋은 상황**  ✅ 미국 법인이 실적에 기여하고 있으며 내년까지도 주문이 꽉 차 있음  ✅ 올해 연간 수주는 연초 목표 대비 하회할 것으로 보임  ✅ 현재 업황은 당사에 우호적이라 중장기적으로 기대됨  👉 [전문보기](https:/...",
+      "link": "https://t.me/IRNOTE_YSTREET/5718",
       "keywords": [
-        "밸류체인"
+        "수주"
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-11-11 14:44",
-      "text": "[장 중 시황] 코어위브·앤트로픽이 이끈 반전, AI 투자 우려 완화 [FICC리서치부 전략/시황: 이경민]  - 국내 증시 수익률(14시 40분): KOSPI +2.30% 상승 / 5,359.83pt  (KOSDAQ: +5.03% 상승 / 701.17pt, KOSPI...",
-      "link": "https://t.me/DAISHINSTRATEGY/6410",
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-11-24 14:00",
+      "text": "**[컨콜노트] 와이씨, 4분기와 2027년 모두 긍정적 전망**  ✅ 3분기는 매출 인식이 덜 됐고 4분기에 모두 반영되며 양호한 실적을 기록할 것임  ✅ 고객사 수요가 증가하고 있어 내년 실적은 올해보다 크게 개선될 것으로 예상함  ✅ 고객사 확장과 관련하여 내년 ...",
+      "link": "https://t.me/IRNOTE_YSTREET/5717",
       "keywords": [
-        "상향",
-        "수요",
-        "밸류체인"
+        "수요"
       ]
     },
     {
-      "source": "@DAISHINSTRATEGY",
-      "date": "2026-11-11 07:44",
-      "text": "안녕하세요, 대신증권 FICC리서치부에서 전략/시황을 담당하고 있는 이경민입니다. [11월 11일 주요국 이슈] 보내드립니다.  # 미국 크리스토퍼 월러 미 연방준비제도(Fed) 이사, 12월 FOMC에서 기준금리 50bp 인상 가능성 거론. 월러 이사는 10월 물가가...",
-      "link": "https://t.me/DAISHINSTRATEGY/6409",
+      "source": "@IRNOTE_YSTREET",
+      "date": "2026-11-24 08:40",
+      "text": "**[모닝브리프] 26.11.24.(화) 뉴스 TOP10 - 한화오션, HD현대중공업, F&F, 한미약품 등**   👉 [전문보기](https://contents.premium.naver.com/ystreet/irnote/contents/261124083834729yz...",
+      "link": "https://t.me/IRNOTE_YSTREET/5713",
       "keywords": [
-        "수요",
-        "YoY"
+        "OP"
       ]
     },
     {
@@ -724,6 +776,15 @@
       "link": "https://t.me/IRNOTE_YSTREET/5692",
       "keywords": [
         "OP"
+      ]
+    },
+    {
+      "source": "@YAZA_STOCK",
+      "date": "2026-11-24 14:03",
+      "text": "**Samsung SDI Co., Ltd. (A006400)** **말레이시아 수출** **26년 10월 Update**   원형 리튬이온 배터리 셀 수출액 YoY: +194.7%  동시상관: 0.87 방향 일치율: 83%  https://badonion.co.kr/t...",
+      "link": "https://t.me/YAZA_STOCK/12580",
+      "keywords": [
+        "YoY"
       ]
     },
     {
@@ -875,6 +936,108 @@
     },
     {
       "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 16:42",
+      "text": "국내 주식 마감 시황 - 11월 24일  『AI를 보증한 Jensen Huang을 보증한 Trump』 시황 강진혁 ☎️02-3772-2329  코스피 5,006.03 (+6.32%), 코스닥 665.88 (+4.79%)  Jensen Huang 복귀에 반도체 등 AI ...",
+      "link": "https://t.me/SHINHANRESEARCH/53789",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 11:15",
+      "text": "마켓레이더(11월 24일, 오전)  『올해 사이드카 101회, 3일에 한 번 꼴로 발동』 시황 강진혁 ☎02-3772-2329  KOSPI는 6.2% 상승한 5,001.2p. Jensen Huang 복귀 영향 AI 랠리에 매수 사이드카+5천피 회복 KOSDAQ은 4.3...",
+      "link": "https://t.me/SHINHANRESEARCH/53788",
+      "keywords": [
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 08:19",
+      "text": "**『한전KPS(051600.KS) - 확인할 게 늘었다』** 기업분석부 한승훈 ☎️02-3772-2647  **▶️ 신한생각: 실적 불확실성에 입찰 변수까지** - 국내 정비 매출 회복과 신규 해외 공사 매출 인식 확인 전까지 주가 재평가 여력은 제한적 - 고리 원전...",
+      "link": "https://t.me/SHINHANRESEARCH/53785",
+      "keywords": [
+        "YoY"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 08:06",
+      "text": "**★ Daily 신한 생각 11월 24일 신한투자증권 리서치본부  ▶️Top down** 글로벌 주식전략; 기술적 반등 지점 도달, 다음 관문은 추세 반등 근거 확보   [김성환] 국내크레딧; Weekly Credit Monitor   [차주희]  **▶️Bottom...",
+      "link": "https://t.me/SHINHANRESEARCH/53783",
+      "keywords": [
+        "상향",
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 07:48",
+      "text": "『국내크레딧; Weekly Credit Monitor』 신용분석 차주희/김상인 ☎️02-3772-2653  -국고채 금리 급락, 신용 스프레드 대체로 축소 -발행시장: 큰 폭의 순상환 전환. 물량 부담 완화 -유통시장: 기금/공제 순매도에도 양호한 수요 기반 강세 -회...",
+      "link": "https://t.me/SHINHANRESEARCH/53782",
+      "keywords": [
+        "수요"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 07:46",
+      "text": "[신한투자증권 IT팀 오강호, 김형태, 박현우, 송혜수, 김예성, 김시찬]  11/24(화) 🕗Daily IT 예습하기  ✅ 반도체/장비  ▶️ 엔비디아 젠슨 황, 사임 11일 만에 CEO 복귀…이사회 만장일치 의결 (전자신문) https://alie.kr/8Iz7ih...",
+      "link": "https://t.me/SHINHANRESEARCH/53781",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 07:46",
+      "text": "신한 해외주식 데일리(11/24) \"젠슨 황 복귀에 AI 투자 불안 완화와 기술주 급반등\"  ▶️ 특징주 [엔비디아(+31.5%)] 젠슨 황의 최고경영자·이사회 복귀 발표. 정규장 종가 $165.05, 창업자 이탈에 따른 경영 불확실성 완화와 AI 투자심리 회복  [코...",
+      "link": "https://t.me/SHINHANRESEARCH/53780",
+      "keywords": [
+        "상향",
+        "공급",
+        "OP",
+        "YoY"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 07:41",
+      "text": "[신한투자증권 혁신성장 허성규, 이채윤]  세미파이브(490470.KQ) - 흑자전환 직전  ▶️ 신한생각: 수주잔고 2,455억원으로 확대, 이익 회복은 지연 - 3Q26 매출액 514억원(+23.2% YoY), 영업적자 97억원으로 컨센서스 대비 적자 폭 확대 - ...",
+      "link": "https://t.me/SHINHANRESEARCH/53779",
+      "keywords": [
+        "QoQ",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 07:15",
+      "text": "**신한 자동차/철강금속 박광래**  !! 신한 자동차/철강금속 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 자동차 뉴스 (261124) ::**   **▶ BYD, 10월 유럽서 현대차 제쳤다…中 브랜드 점유율 韓의 2배 육박...",
+      "link": "https://t.me/SHINHANRESEARCH/53778",
+      "keywords": [
+        "수요",
+        "공급",
+        "YoY",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
+      "date": "2026-11-24 07:14",
+      "text": "**신한 자동차/철강금속 박광래**  !! 신한 자동차/철강금속 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 철강금속 뉴스 (261124) ::**   ▶️ **AI 데이터센터부터 ESS까지…포스코, AX·GX 이끌 미래소재 영...",
+      "link": "https://t.me/SHINHANRESEARCH/53777",
+      "keywords": [
+        "수요",
+        "공급",
+        "사이클",
+        "수주"
+      ]
+    },
+    {
+      "source": "@SHINHANRESEARCH",
       "date": "2026-11-23 17:10",
       "text": "『신한 건설 Weekly - 11월 4주차』 건설/리츠/부동산 김선미 ☎️02-3772-1514   ▶️ 전 주 건설업종 주가 -10.2%, KOSPI 대비 2.3%p 언더퍼폼  ▶️ AI 투자 사이클 축소 우려 및 외국인 순매도 압박에 KOSPI 폭락, AI 인프라 ...",
       "link": "https://t.me/SHINHANRESEARCH/53776",
@@ -993,101 +1156,64 @@
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-23 07:36",
-      "text": "# 신한 운송 Weekly T.M.I (26년 11월 4주차) [신한 운송 최민기]  ▶️ Trend Comment: 한한령 완화, 중국발 관광 수요 회복과 항공사별 수혜 차별화  - 11/18 한중 FTA 서비스·투자 후속협상 실질 타결. 협정 발효 시 중국 내 23...",
-      "link": "https://t.me/SHINHANRESEARCH/53759",
-      "keywords": [
-        "수요",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-23 07:33",
-      "text": "**『오리온(271560.KS) – 글로벌 수요가 만드는 성장의 선순환 기업분석부 조상훈 ☎****02-3772-2578**  ▶ **외형 성장 회복과 원가 부담 완화** - 견조한 수요가 공격적인 설비 투자로 연결 - 지난해 상반기 톤당 10,000달러를 상회했던 코...",
-      "link": "https://t.me/SHINHANRESEARCH/53758",
-      "keywords": [
-        "수요"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-23 07:33",
-      "text": "[신한투자증권 IT팀 오강호, 김형태, 박현우, 송혜수, 김예성, 김시찬]  11/23(월) 🕗Daily IT 예습하기  ✅ 반도체/장비  ▶️ 삼성전자 메모리 생산, 2029년까지 사실상 완전 예약 마감 설…고객사들 2031년까지 공급 계약 추진 (WCCFTECH) ...",
-      "link": "https://t.me/SHINHANRESEARCH/53757",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-23 07:05",
-      "text": "**신한 철강금속/자동차 박광래**  !! 신한 철강금속/자동차 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 철강금속 뉴스 (261123) ::**  **▶️ 포스코·현대제철, 미국 냉연강판 상계관세 예비판정 하향** : 미국 ...",
-      "link": "https://t.me/SHINHANRESEARCH/53756",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-11-24 16:46",
+      "text": "한국&중국 마켓 클로징(11월 24일)   외국인 귀환 & 다시 5,000  # 국내 마감 ▶️ Summary · 코스피 5,006.03(+6.32%), 코스닥 665.88(+4.79%) · 코스피 외인·기관 동반 매수세에 6% 급등, 장 중 매수 사이드카. 외국인은 ...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7967",
       "keywords": [
         "상향",
         "수요",
-        "공급",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-23 07:04",
-      "text": "**신한 자동차/철강금속 박광래**  !! 신한 자동차/철강금속 텔레그램 채널 !! → https://t.me/shinhan_park  **:: 신한 자동차 뉴스 (261123) ::**  **▶️ 현대모비스, 유럽·북미 완성차 업체에 1조원 규모 제동·조향 부품 공급...",
-      "link": "https://t.me/SHINHANRESEARCH/53755",
-      "keywords": [
-        "수요",
-        "공급",
-        "YoY",
-        "수주"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-20 17:03",
-      "text": "Weekly Guide Book(2026/11/20): 커져가는 긴축 경계와 AI 불안  투자전략부 ☎️ 02-3772-1946  [자산배분] 커져가는 긴축 경계와 AI 불안 [경제/금융시장] 경기 방어 속 긴축 경계 강화 [경제_외환시장] PCE 물가와 금통위 주목....",
-      "link": "https://t.me/SHINHANRESEARCH/53751",
-      "keywords": [
-        "상향",
-        "수요"
-      ]
-    },
-    {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-20 17:00",
-      "text": "국내 주식 마감 시황 - 11월 20일  『AI 촉발 투매는 Risk-off로 확산』 시황 강진혁 ☎️02-3772-2329  코스피 4,869.96 (-5.21%), 코스닥 645.68 (-5.71%)  AMD 악재와 Anthropic 수급 쏠림에 위험회피 심화  금...",
-      "link": "https://t.me/SHINHANRESEARCH/53750",
-      "keywords": [
-        "상향",
         "YoY",
         "밸류체인"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-20 16:40",
-      "text": "[신한투자증권 해외주식팀] 해외주식 Weekly (11월 20일)   ▶ Top Down  - 미국: **AI 수익성 의구심과 통화정책 불확실성** - 중국: **__테크주 부진 속 소비재의 불편한 반등__**  ▶ Bottom Up - IT H/W: 앤트로픽 상장 후...",
-      "link": "https://t.me/SHINHANRESEARCH/53749",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-11-24 10:22",
+      "text": "**[화장품 - 신규]** **머리부터 발끝까지**  미래에셋증권 조세은  ▶️ **국내 화장품 커버리지 개시 (비중확대)**  - 높아진 수출의 기준점. 올해 1~10월 누적 수출 101.7억달러, 연간 120억달러 상회 전망. 2030년 수출액은 Base 217.3...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7965",
       "keywords": [
-        "OP"
+        "상향",
+        "수요",
+        "OP",
+        "TP",
+        "YoY",
+        "수주"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-20 15:16",
-      "text": "『알리바바(BABA.US); 중국 AI 1위의 존재감, 실적으로 증명』 글로벌주식팀 최원석 ☎️ 02-3772-2918  - 클라우드&AI 매출 +53%로 최고치, AI 제품 연환산 매출 100억 달러 돌파 - 다만 컴퓨팅 공급 제약으로 27년 클라우드 매출 성장 30...",
-      "link": "https://t.me/SHINHANRESEARCH/53748",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-11-24 10:09",
+      "text": "마켓 뷰 (11월 24일) ▶ Summary: 다시 만난 오천피(ft. 젠슨황) -코스피  5,020.35(+311.81p, +6.62%), 코스닥 666.58(+31.13p, +4.90%) -AI 인프라 관련주 중심 반등..코스피∙코스닥 ‘매수 사이드카’ 발동  · ...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7964",
+      "keywords": [
+        "OP",
+        "밸류체인"
+      ]
+    },
+    {
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-11-24 07:28",
+      "text": "글로벌 마켓 브리핑(11월 24일) ▶돌아온 젠슨 황, 나스닥 6.5% 급등   *Key Indices 1. 미국증시 주요지수 - 다우존스 산업평균: 49,595.31/ +3.01% - S&P500: 7,237.17/ +4.73% - 나스닥 종합: 24,089.55/ ...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7963",
       "keywords": [
         "공급"
       ]
     },
     {
-      "source": "@SHINHANRESEARCH",
-      "date": "2026-11-20 13:32",
-      "text": "**◆ 자동차/철강금속 Weekly (2026.11.20)** → http://bbs2.shinhansec.com/board/message/file.pdf.do?attachmentId=355118   **◆ Top Gainers (WoW %)** - 자동차/타이어/부품...",
-      "link": "https://t.me/SHINHANRESEARCH/53746",
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-11-24 05:47",
+      "text": "**젠슨황 엔비디아 CEO 재선임 막전막후와 남은 과제**  **11월 8일~12일** · 스파이 연루 의혹 및 불륜 인정: 지난 8일 젠슨 황은 앨리스 황과의 혼외 관계를 인정하고 사과하면서 파문 시작. ·  사내 내연 관계 추가 폭로: 11일 뉴욕타임스 등이 엔비디...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7961",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@GLOBALMKTINSIGHT",
+      "date": "2026-11-24 04:52",
+      "text": "**젠슨황에 울고, 젠슨황에 웃은 증시**  **엔비디아 30% 급등** · 엔비디아 이사회 '젠슨 황'을 CEO로 재선임 결정. 해임 11일만. 트럼프 대통령 또한 젠슨 황 CEO 복귀를 공개적으로 지지. · 나스닥 6% 넘게 급등. 필라델피아 반도체 지수는 12% ...",
+      "link": "https://t.me/GLOBALMKTINSIGHT/7959",
       "keywords": [
         "수요",
         "공급"
@@ -1204,59 +1330,6 @@
       ]
     },
     {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-11-19 07:20",
-      "text": "글로벌 마켓 브리핑(11월 19일) ▶엔비디아 호실적에도 AI투자 심리는 ‘흐림’   *Key Indices 1. 미국증시 주요지수 - 다우존스 산업평균: 50,198.17/ -1.11% - S&P500: 7,323.63/ -0.23% - 나스닥 종합: 24,429.8...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7937",
-      "keywords": [
-        "상향",
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-11-19 05:42",
-      "text": "**엇갈린 원자재 가격 동향**  **유가(@CL)** · WTI 원유 선물 가격 거의 3개월 만에 최저 수준 기록. 미국 원유 재고는 지난주 338만 배럴 증가한 4억 1,780만 배럴 기록. 휘발유 및 정제유 재고도 증가하며 가솔린, 난방유 등 주요 선물 가격도 하...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7935",
-      "keywords": [
-        "수요",
-        "공급"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-11-18 16:56",
-      "text": "한국&중국 마켓 클로징(11월 18일)   엔비디아 서프라이즈, 외국인 4거래일 연속 순매도   # 국내 마감 ▶️ Summary · 코스피 5,067.44(+1.99%), 코스닥 662.81(+1.96%) · 양대 지수 기관 중심 매수세에 1%대 상승 마감. 외국인은...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7932",
-      "keywords": [
-        "상향",
-        "서프라이즈",
-        "수요",
-        "공급",
-        "OP",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-11-18 10:20",
-      "text": "마켓 뷰 (11월 18일)  ▶ Summary: 반등(feat.엔비디아)  -코스피  5,115.04(+146.56p, +2.95%), 코스닥 671.55(+21.49p, +3.31%) -코스피 5거래일만에 반등..장 초반 5,100선 회복 후 안착 시도  · 삼성전기...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7930",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
-      "source": "@GLOBALMKTINSIGHT",
-      "date": "2026-11-18 09:09",
-      "text": "**질의응답(Q&A)** **· 성장: **공급망 추가 확보를 바탕으로 FY2028 성장률 75% 달성 가능하다는 입장 **· 수익성**: 4Q 매출총이익률 하락은 기존 주문 이행과 공급 비용 상승에 따른 일시적 압력으로 설명 **· 금융 리스크:** 구매 약정 $39...",
-      "link": "https://t.me/GLOBALMKTINSIGHT/7929",
-      "keywords": [
-        "공급"
-      ]
-    },
-    {
       "source": "@JOORINI34",
       "date": "2026-10-30 16:24",
       "text": "**#전력기기**** ****#효성중공업**** 3Q26 Review 261030**  - 중공업 매출 / OPM은 QoQ로 거의 Flat하나 차단기 매출 이연 + 동남아 물량 일시적 증가 영향. 효중 커버 후 약 4년간 아시아향 물량이 20%에 육박한 적이 없었음. ...",
@@ -1266,6 +1339,39 @@
         "OP",
         "QoQ",
         "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-11-24 15:07",
+      "text": "📝 텔레그램 심층 분석 Report (15시 07분) 기준  🌡️ 센티먼트 환호 (+75) 💡 요약 젠슨 황의 엔비디아 복귀로 AI 관련주가 급등하며 시장 전반의 투자 심리가 크게 개선되었으나, 일부 종목은 실적 우려로 하향 조정되었습니다.  🗣️ Top 키워드: AI...",
+      "link": "https://t.me/EASOBI/17346",
+      "keywords": [
+        "상향",
+        "공급",
+        "OP",
+        "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-11-24 11:04",
+      "text": "📝 텔레그램 심층 분석 Report (11시 04분) 기준  🌡️ 센티먼트 환호 (+85) 💡 요약 젠슨 황 엔비디아 CEO 복귀 소식에 글로벌 반도체, AI, 로봇 관련주가 폭등하며 시장 전반의 위험선호 심리가 크게 확대되었습니다.  🗣️ Top 키워드: 젠슨 황(5...",
+      "link": "https://t.me/EASOBI/17345",
+      "keywords": [
+        "수요",
+        "OP",
+        "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-11-24 07:07",
+      "text": "📝 텔레그램 심층 분석 Report (07시 07분) 기준  🌡️ 센티먼트 환호 (+90) 💡 요약 젠슨 황 NVIDIA CEO 복귀로 AI 및 반도체 섹터가 폭발적으로 반등하며 미국 증시 전반에 강한 상승세를 이끌었습니다.  🗣️ Top 키워드: NVIDIA(61),...",
+      "link": "https://t.me/EASOBI/17342",
+      "keywords": [
+        "상향",
+        "OP"
       ]
     },
     {
@@ -1351,12 +1457,12 @@
       ]
     },
     {
-      "source": "@EASOBI",
-      "date": "2026-11-22 11:07",
-      "text": "📝 텔레그램 심층 분석 Report (11시 07분) 기준  🌡️ 센티먼트 공포 (-60) 💡 요약 나스닥100이 주간 기준 10% 이상 폭락하며 역사적 시장 붕괴 시점에 나타난 현상이 재현되었고, AI 관련 기업들의 자금 조달 우려와 IPO 부진으로 시장 전반에 극심...",
-      "link": "https://t.me/EASOBI/17312",
+      "source": "@TOPTOWNQUANT",
+      "date": "2026-11-24 07:37",
+      "text": "**# 11월 24일 TRUMP DAILY - \"젠슨 황 복귀, 의회는 반발\"  ■ 트럼프 개입에 엔비디아 젠슨 황 CEO 복귀…미 AI 경쟁력 강조**  * 엔비디아 이사회, 23일 젠슨 황을 최고경영자(CEO)로 복귀시키기로 결정. 황은 이달 초 사생활 관련 의혹이...",
+      "link": "https://t.me/TOPTOWNQUANT/13954",
       "keywords": [
-        "OP"
+        "공급"
       ]
     },
     {
@@ -1400,6 +1506,35 @@
       "date": "2026-11-18 07:41",
       "text": "**# 11월 18일 TRUMP DAILY - \"악수 뒤의 경고\"  ■ 트럼프, 태국과 무역협상 실질 타결 선언…미국산 제품 관세 철폐·26억달러 농산물 구매**  * 트럼프 대통령, 17일 필리핀 마닐라에서 아누틴 찬위라꾼 태국 총리와 만나 상호무역협상 실질 타결에 ...",
       "link": "https://t.me/TOPTOWNQUANT/13925",
+      "keywords": [
+        "공급",
+        "수주"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-11-24 08:27",
+      "text": "📮[MERITZ Strategy Daily 전략공감2.0] 2026.11.24(화)  [ESG 이진아] 2027 Outlook #5 (해설판): Show Me the Money  - 2027년 ESG는 라벨에서 숫자로 이동하는 시기가 될 것. 개정 상법 이후 첫 정기주...",
+      "link": "https://t.me/MERITZ_RESEARCH/45234",
+      "keywords": [
+        "공급"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-11-24 07:57",
+      "text": "📮 [메리츠 투자전략 황수욱] 2026.11.24(화)  엔비디아 CEO 복귀와 앞으로 확인할 것들  (자료) https://tinyurl.com/yyp4wy7m  1) 11/23일자 코멘트에서 명시하듯, 현재 시장 문제의 본질은 ‘자본 부족’. 엔비디아의 생태계 신용...",
+      "link": "https://t.me/MERITZ_RESEARCH/45233",
+      "keywords": [
+        "공급",
+        "사이클"
+      ]
+    },
+    {
+      "source": "@MERITZ_RESEARCH",
+      "date": "2026-11-24 07:55",
+      "text": "📮[메리츠증권 유틸리티/건설 문경원] 2026.11.24(화)  ▶[Industry Indepth] 착한 DC, 나쁜 DC ... 연료전지가 답이다  (요약본) https://tinyurl.com/dkxxdut7  - 전력의 안정성, 공급 속도에 이어 ’주민 수용성‘ ...",
+      "link": "https://t.me/MERITZ_RESEARCH/45232",
       "keywords": [
         "공급",
         "수주"
@@ -1466,39 +1601,6 @@
       "link": "https://t.me/MERITZ_RESEARCH/45206",
       "keywords": [
         "수요"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-11-20 07:59",
-      "text": "📮[메리츠증권 전기전자/IT부품 양승수]  이수페타시스(007660): ASIC의 중심에는 이유가 있다    ▶ 3Q26 Review: 수익성 기대 이상  - 3Q26 실적은 매출액 3,892억원(+31.4% YoY), 영업이익 949억원(+62.4% YoY)를기록, ...",
-      "link": "https://t.me/MERITZ_RESEARCH/45204",
-      "keywords": [
-        "공급",
-        "YoY",
-        "밸류체인",
-        "수주"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-11-20 07:46",
-      "text": "📮[메리츠증권 모빌리티 김준성]  안녕하세요 메리츠증권 김준성입니다. 현대글로비스 업데이트 드리겠습니다.  (URL: https://han.gl/jhCpf)  ▶ 초호황  ▶ 시장 환경 · 경쟁 구도, 모두 긍정적  [장기 수요 전망]  - 전세계 최대 차량 수출입 터...",
-      "link": "https://t.me/MERITZ_RESEARCH/45203",
-      "keywords": [
-        "수요",
-        "YoY"
-      ]
-    },
-    {
-      "source": "@MERITZ_RESEARCH",
-      "date": "2026-11-19 17:30",
-      "text": "📮[메리츠증권 IT 소재장비 김동관]  테스(095610): 외형 성장과 동반될 수익성 개선  - 테스는 3Q26 매출액 1,241억원(+84% YoY; 이하 YoY), 영업이익 246억원(+193%; OPM 19.8%)을 기록  - 국내 메모리 고객사의 DRAM 신규...",
-      "link": "https://t.me/MERITZ_RESEARCH/45202",
-      "keywords": [
-        "OP",
-        "QoQ",
-        "YoY"
       ]
     },
     {
@@ -1660,29 +1762,6 @@
       ]
     },
     {
-      "source": "@SKSRESEARCH",
-      "date": "2026-11-19 08:49",
-      "text": "**SK증권 아침에 슥_2026.11.19  미국 - 매파적 FOMC 의사록 부담에 혼조 마감** · 엔비디아 호실적에도 하락, 유가 급락에 에너지 업종 약세  **유럽 - AI 투자 우려 속 원자재 약세에 하락 마감** · 광산·에너지주 약세, 중앙은행 유동성 축소 ...",
-      "link": "https://t.me/SKSRESEARCH/9486",
-      "keywords": [
-        "서프라이즈",
-        "밸류체인"
-      ]
-    },
-    {
-      "source": "@SKSRESEARCH",
-      "date": "2026-11-18 13:24",
-      "text": "[SK증권 해외주식 박제민] ** 엔비디아(NVDA/US) 3Q26 Review: 젠슨황 없는 엔비디아**  젠슨황 없는 엔비디아 체계가 굳어졌다. 이사회는 젠슨 황을 최고경영자로 복귀시킬 의사가 없다고 단언했다.  ▶️ 강해진 수주잔고, 문제 없는 Vera Rubin...",
-      "link": "https://t.me/SKSRESEARCH/9484",
-      "keywords": [
-        "상향",
-        "수요",
-        "QoQ",
-        "밸류체인",
-        "수주"
-      ]
-    },
-    {
       "source": "@SURVIVAL_DOPB",
       "date": "2026-11-22 22:33",
       "text": "현재 가장 우려하는 그림은 2022년 7개월 동안 힘들었던 그 하락 사이클.  바닥 시그널 그런거 다 좋지만, 200일선을 돌려주는게 매우 중요한 시점......",
@@ -1755,6 +1834,16 @@
       "link": "https://t.me/SURVIVAL_DOPB/13877",
       "keywords": [
         "수요"
+      ]
+    },
+    {
+      "source": "@HEDGECAT0301",
+      "date": "2026-11-24 07:40",
+      "text": "[11/24, 장 시작 전 생각: 젠슨황, 복귀 딸깍, 키움 한지영]  - 다우 +3.0%, S&P500 +4.7%, 나스닥 +6.5% - 엔비디아 +31.5%, 마이크론 +19.0%, 코어위브 +22.3% - 미 10년물 금리 4.93%, 30년물 금리 5.30%, ...",
+      "link": "https://t.me/HEDGECAT0301/3010",
+      "keywords": [
+        "사이클",
+        "수주"
       ]
     },
     {
@@ -1986,15 +2075,6 @@
         "구조적 성장",
         "사이클",
         "밸류체인"
-      ]
-    },
-    {
-      "source": "@HEDGECAT0301",
-      "date": "2026-10-27 07:45",
-      "text": "[10/28, 장 시작 전 생각: 우선순위, 키움 한지영]  - 다우 +0.3%, S&P500 +0.7%, 나스닥 +0.8% - 마이크론 +3.0%, 엔비디아 +2.4%, 필반지수 +2.8% - 미 10년물 금리 4.98%, 미 30년물 금리 5.30%, WTI 101...",
-      "link": "https://t.me/HEDGECAT0301/2980",
-      "keywords": [
-        "YoY"
       ]
     }
   ],
