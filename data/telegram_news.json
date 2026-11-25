@@ -2,91 +2,47 @@
   "global": [
     {
       "source": "@IDEA_MEMO",
-      "date": "2026-11-25 17:39",
-      "text": "마이크론 | BNP Paribas 「Stepping Aside」 | 2026.11.24 ⠀ [목차] 1. 중립으로 하향, 목표주가 775달러 2. 데이터센터 지연과 PC·모바일 수요 약화 3. Rubin Ultra 메모리 축소와 엔비디아 구매약정 4. HBM 수요 하향...",
-      "link": "https://t.me/IDEA_MEMO/28606",
+      "date": "2026-11-25 21:57",
+      "text": "BANKS SELL AI DATA CENTER LOANS AS FINANCING RISKS MOUNT  MAJOR BANKS ARE REDUCING EXPOSURE TO AI DATA CENTER FINANCING AMID CONCERNS OVER CONSTRUCTIO...",
+      "link": "https://t.me/IDEA_MEMO/28636",
       "keywords": [
-        "상향",
-        "수요",
-        "공급",
-        "사이클"
+        "OP"
       ]
     },
     {
       "source": "@IDEA_MEMO",
-      "date": "2026-11-25 13:18",
-      "text": "트랜드포스 전망  **계약 시장: 중국 CSP들이 서버 DRAM 수요를 일부 축소했고, **미국의 데이터센터 정책과 지정학적 요인이 불확실성을 키우고 있음. 이에 따라 TrendForce는 내년 계약가격 상승폭 전망치를 하향 조정함.  현물 시장: 소비자 수요가 부진하...",
-      "link": "https://t.me/IDEA_MEMO/28601",
+      "date": "2026-11-25 21:56",
+      "text": "[**WCCFTECH**](https://wccftech.com/nvidia-notifies-board-partners-of-20-30-reduction-in-gaming-gpu-supply/)  엔비디아, 젠슨 황 CEO 복귀 직후 게이밍 GPU 공급 20-30% 축...",
+      "link": "https://t.me/IDEA_MEMO/28635",
       "keywords": [
-        "수요",
         "공급"
       ]
     },
     {
       "source": "@IDEA_MEMO",
-      "date": "2026-11-25 10:50",
-      "text": "**엔비디아 GPU 신규 주문 납기 대폭 연장… AI 제품 공급 부족 심화**  ** 1. 엔비디아 AI GPU 신규 주문 납기 대폭 증가**  대만 ODM 업체들에 따르면 **엔비디아 AI 제품의 공급 부족이 지속되면서 신규 주문(New Order)의 납기가 크게 늘...",
-      "link": "https://t.me/IDEA_MEMO/28599",
+      "date": "2026-11-25 21:56",
+      "text": "[**WCCFTECH**](https://wccftech.com/nvidia-faces-booming-demand-despite-woes-as-b300-lead-times-reportedly-stretch-to-40-weeks-for-new-orders-gb300-bu...",
+      "link": "https://t.me/IDEA_MEMO/28634",
       "keywords": [
-        "수요",
+        "수요"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-25 21:34",
+      "text": "**암바렐라, DRAM 값이 칩 주문까지 깎음**  - 3Q 매출 $115.2M (est. $119M대), 가이던스 하단. 비GAAP EPS $0.28 (est. $0.22)  - 4Q 가이던스 $70~75M, QoQ -37%. 비GAAP 영업비용 $57.5~59.5M...",
+      "link": "https://t.me/IDEA_MEMO/28621",
+      "keywords": [
+        "QoQ"
+      ]
+    },
+    {
+      "source": "@IDEA_MEMO",
+      "date": "2026-11-25 21:06",
+      "text": "엔비디아 AI칩 임대료 최대 35% 하락… 공급과잉 우려 고개 https://biz.chosun.com/it-science/ict/2026/11/25/BZAFMYKR3JFJFBRKXUHKUXYRBE/...",
+      "link": "https://t.me/IDEA_MEMO/28619",
+      "keywords": [
         "공급"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-25 10:14",
-      "text": "**삼성전자, HBM 베이스 다이 캐파 부족… 27년 내부 웨이퍼 수요 월 3만장으로 2배**  2026.11.25 | TrendForce  **➤ 핵심**  삼성전자 메모리사업부의 HBM 베이스 다이 웨이퍼 수요가 2027년 4나노 환산 월 약 3만장으로 2배 늘어날...",
-      "link": "https://t.me/IDEA_MEMO/28594",
-      "keywords": [
-        "수요",
-        "수주"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-25 10:14",
-      "text": "**델 '벤더 파이낸싱' 55% 늘려**  - 델이 신용도가 투자등급(IG)인 고객에게 PC·서버·스토리지 구매를 위해 새로 제공한 리스·할부 등 금융계약 규모가 3분기에 55% 늘었다고 밝혔음  - 델은 '델 파이낸셜 서비스(DFS)'를 통해 선별적으로 단기 자금을 ...",
-      "link": "https://t.me/IDEA_MEMO/28593",
-      "keywords": [
-        "공급",
-        "수주"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-25 07:50",
-      "text": "**미국 데이터센터 모라토리엄·건설 동향** **조사 구간 | 2026년 11월 24일 19:20~11월 25일 07:20 한국시간**  **핵심 요약** — 노스다코타주에서 Applied Digital의 **첫 25MW가 서비스 준비를 마쳤습니다.** 콜로라도주 오로...",
-      "link": "https://t.me/IDEA_MEMO/28590",
-      "keywords": [
-        "수요",
-        "공급",
-        "init"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-25 07:24",
-      "text": "**델(DELL) 어닝콜 중**   “**현재 우리가 보고 있는 수요 환경은 여전히 강력하며, 이전과 달라진 것이 없습니다. **고객 기반 확대와 글로벌 시장 기회 확장에 힘입어 AI **서버 수요는 계속 가속화**되고 있습니다.  사상 최대 규모인 1,323억 달러의...",
-      "link": "https://t.me/IDEA_MEMO/28589",
-      "keywords": [
-        "수요",
-        "공급",
-        "수주"
-      ]
-    },
-    {
-      "source": "@IDEA_MEMO",
-      "date": "2026-11-25 07:17",
-      "text": "📌 **HPE, 메모리 공급 부족 최소 2028년 하반기까지 지속 전망…델은 어닝 서프라이즈**  AI 서버 제조업체들의 수익성 악화 우려가 커지고 있습니다. 하지만 그 배경에는 AI 서버 수요 둔화가 아닌 **핵심 부품의 공급 부족과 가격 상승**이 있습니다.  오늘...",
-      "link": "https://t.me/IDEA_MEMO/28588",
-      "keywords": [
-        "상향",
-        "서프라이즈",
-        "수요",
-        "공급",
-        "YoY",
-        "밸류체인",
-        "수주"
       ]
     },
     {
@@ -341,17 +297,6 @@
       "keywords": [
         "수요",
         "공급"
-      ]
-    },
-    {
-      "source": "@JAKE8LEE",
-      "date": "2026-11-23 08:42",
-      "text": "**SK하이닉스                          제이피모건  메모리가 AI의 아키텍처가 된다   🎯 핵심 메시지: 에이전틱 AI는 HBM 너머 전 메모리 계층으로 수요를 번지게 한다**  홍콩 글로벌 TIG 콘퍼런스에 하이닉스 NAND 제품기획 임원 초청 ...",
-      "link": "https://t.me/JAKE8LEE/14575",
-      "keywords": [
-        "수요",
-        "공급",
-        "OP"
       ]
     },
     {
@@ -1364,6 +1309,18 @@
         "수요",
         "OP",
         "QoQ",
+        "수주"
+      ]
+    },
+    {
+      "source": "@EASOBI",
+      "date": "2026-11-25 23:04",
+      "text": "📝 텔레그램 심층 분석 Report (23시 04분) 기준  🌡️ 센티먼트 공포 (-65) 💡 요약 예상치를 상회하는 근원 PCE 물가 상승으로 인한 금리 인상 가속화 우려, 미국발 신규 관세 부과(한국 포함)로 인한 글로벌 무역 긴장 고조, 그리고 오라클 CDS 급등...",
+      "link": "https://t.me/EASOBI/17359",
+      "keywords": [
+        "수요",
+        "공급",
+        "OP",
         "수주"
       ]
     },
